@@ -1,0 +1,184 @@
+{
+  "generated_at_utc": "2026-10-16T16:57:15.178927+00:00",
+  "base_commit": "b37e437622693699ccac9060189abb37a4294c14",
+  "corpus_mode": "bundled_source_records",
+  "case_count": 13,
+  "corpus_chunks": 127,
+  "k": 5,
+  "document_types": {
+    "cv": 73,
+    "project": 48,
+    "tool": 6
+  },
+  "input_sha256": {
+    "Cvs dataset\\fake_cvs.json": "f31786af693117b76407a24340078c630f6c87643880e106ddbab9997f120819",
+    "Cvs dataset\\fake_projects.json": "b82bad1fa2a6962f64e5c6b8376b3ecc4efe3cb9d4a2c7fb6164ba1dd6031dca",
+    "Cvs dataset\\fake_tools.json": "8485cb0ffeca6c7d5838b4a5199ac7873f20da8fb0d3ea24d0747d6044a849f8",
+    "Cvs dataset\\olivesoft_projects.json": "50cbbf189ee796cc4582ff73af2cb3192a920ad2791a342ae75a2d6a50ed33c1",
+    "rag\\eval_dataset.json": "f2854eb5c1c16326777b911aaecd9fabee31273a92b82a4a7012fd5be6ac8acf"
+  },
+  "configuration": {
+    "rrf_c": 60.0,
+    "candidate_depth": 20,
+    "metadata_weight": 0.5,
+    "threads": 1,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalize_embeddings": true,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "bm25_epsilon": 0.25,
+    "tokenizer": "lowercase alphanumeric [a-z0-9]+, no stemming or stopword removal"
+  },
+  "runtime": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "rank-bm25": "0.2.2",
+      "sentence-transformers": "5.7.0",
+      "torch": "2.10.0",
+      "numpy": "2.4.2",
+      "transformers": "5.17.0"
+    }
+  },
+  "setup": {
+    "semantic_setup_ms": 11443.07989999993,
+    "bm25_setup_ms": 3.123299999970186
+  },
+  "metric_definitions": {
+    "precision_at_k": "unique retrieved relevant IDs / fixed k, including short result lists",
+    "recall_at_k": "unique retrieved relevant IDs / number of relevant IDs",
+    "mean_reciprocal_rank": "macro mean reciprocal rank of first relevant result within top k",
+    "ndcg_at_k": "binary DCG / ideal DCG; discount log2(rank+1)",
+    "aggregation": "unweighted macro mean across every case; none skipped"
+  },
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "baseline_metrics_preserved": true,
+  "limitations": [
+    "The requested 543-chunk / 21-case files were not available in the supplied repositories.",
+    "These bundled results do not verify the user-supplied 543-chunk baseline.",
+    "The semantic branch of both hybrids retains its original metadata-aware ranking.",
+    "Latency uses warm serial queries on one machine; no production throughput claim.",
+    "No embedding cache: hybrid latency includes a semantic query embedding.",
+    "Relevance labels are sparse and this dataset is too small to establish general superiority."
+  ],
+  "selection_policy": "maximize Recall@K, then nDCG@K, MRR@K and Precision@K; ties retained",
+  "best_quality_variants": [
+    "bm25_only",
+    "hybrid_rrf",
+    "hybrid_metadata"
+  ],
+  "fastest_among_best_quality": "bm25_only",
+  "variants": {
+    "semantic_baseline": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 0.9423076923076923,
+      "ndcg_at_k": 0.9562058890825686,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 14.84834615384898,
+      "case_changes_vs_semantic": []
+    },
+    "bm25_only": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 0.3375415384757966,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-fastapi-backend",
+          "query": "Backend engineer experienced with FastAPI, Java, CI/CD and workflow automation",
+          "baseline_retrieved_ids": [
+            "CV-0012",
+            "CV-0003",
+            "CV-0011",
+            "CV-0007",
+            "CV-0015"
+          ],
+          "retrieved_ids": [
+            "CV-0007",
+            "CV-0015",
+            "CV-0016",
+            "CV-0017",
+            "CV-0012"
+          ],
+          "reciprocal_rank_delta": 0.75,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.5693234419266069
+        }
+      ]
+    },
+    "hybrid_rrf": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 14.899190769224683,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-fastapi-backend",
+          "query": "Backend engineer experienced with FastAPI, Java, CI/CD and workflow automation",
+          "baseline_retrieved_ids": [
+            "CV-0012",
+            "CV-0003",
+            "CV-0011",
+            "CV-0007",
+            "CV-0015"
+          ],
+          "retrieved_ids": [
+            "CV-0007",
+            "CV-0012",
+            "CV-0015",
+            "CV-0016",
+            "CV-0003"
+          ],
+          "reciprocal_rank_delta": 0.75,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.5693234419266069
+        }
+      ]
+    },
+    "hybrid_metadata": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 1.0,
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 15.112000000002668,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-fastapi-backend",
+          "query": "Backend engineer experienced with FastAPI, Java, CI/CD and workflow automation",
+          "baseline_retrieved_ids": [
+            "CV-0012",
+            "CV-0003",
+            "CV-0011",
+            "CV-0007",
+            "CV-0015"
+          ],
+          "retrieved_ids": [
+            "CV-0007",
+            "CV-0012",
+            "CV-0015",
+            "CV-0016",
+            "CV-0003"
+          ],
+          "reciprocal_rank_delta": 0.75,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.5693234419266069
+        }
+      ]
+    }
+  }
+}

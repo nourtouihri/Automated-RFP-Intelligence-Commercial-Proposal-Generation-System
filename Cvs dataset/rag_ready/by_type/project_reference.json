@@ -1,0 +1,92 @@
+[
+  {
+    "id": "project-001",
+    "doc_type": "project_reference",
+    "title": "Retail/e-commerce unified customer CRM on GCP (Cegid, BigQuery, Power BI)",
+    "text": "Retail/e-commerce unified customer CRM on GCP (Cegid, BigQuery, Power BI). Client: major retail and e-commerce brand (unnamed). Problem: customer data scattered across systems and formats, campaigns based on assumptions. Solution: centralized CRM on Google Cloud Platform and BigQuery. Daily automated pipelines ingest the Cegid ERP, e-commerce back-end, marketing platforms and support tools; data was cleaned, deduplicated and standardized. Custom segmentation by value, engagement and purchase frequency. Power BI dashboards for marketing and sales (weekly sales, customer activity, campaign performance, year-over-year). Flow: ERP to GCP to BigQuery to Power BI. Published July 2025.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "644c42a038fade193b82790cd8517c4c",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/article/passer-de-donnees-fragmentees-une-croissance-optimisee-grace-la-data"
+    }
+  },
+  {
+    "id": "project-002",
+    "doc_type": "project_reference",
+    "title": "New Fashion CRM platform rebuild (GCP, Power BI)",
+    "text": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "82f6fbda5c2fa6b0e0e5859d8b4655c9",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme"
+    }
+  },
+  {
+    "id": "project-003",
+    "doc_type": "project_reference",
+    "title": "Demand forecasting and AI dashboards for a raw-materials supplier (Sage X3, BigQuery, Power BI)",
+    "text": "Demand forecasting and AI dashboards for a raw-materials supplier (Sage X3, BigQuery, Power BI). Client: leading raw-materials sourcing company for manufacturing industry (unnamed). Goals: raise supply-chain service rate from 20% to 60%, cut procurement costs by 20% through better demand forecasting, cut storage costs by 15%. Solution: Sage X3 ERP integrated with Google Cloud Storage; Dataform pipelines to build clean reusable data layers; BigQuery for analytics; time-series models (R&D phase) to forecast demand, adjust raw-material orders and project revenue by business unit; Power BI dashboards for sales, finance, purchasing, logistics and planning. Published July 2025.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "0dd5d4c47f12d2d0ac3ea4965837a57c",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/article/reinventer-les-previsions-grace-aux-tableaux-de-bord-ia-et-lintegration"
+    }
+  },
+  {
+    "id": "project-004",
+    "doc_type": "project_reference",
+    "title": "Global HR information system with MuleSoft (SAP SuccessFactors)",
+    "text": "Global HR information system with MuleSoft (SAP SuccessFactors). Client: multinational organization (unnamed). Solution: centralized international HRIS (SIRH) integrating SAP SuccessFactors, Talent Connect and local payroll systems through MuleSoft, with bidirectional real-time data flows. Build phase: needs analysis, over 15 MuleSoft applications for region and division specific logic, CI/CD pipeline, unit, integration, system and performance testing, environment-specific deployments (dev, staging, production), hyper-care after go-live. Run phase fully operated by OliveSoft: monitoring dashboards, logging, access management, regular daily and monthly checks, incident handling, documentation, rollout to new regions. Published July 2025.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "6b4b2792a599f879b5004ae0d322af40",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/article/mise-en-place-dune-solution-rh-centralisee-simplifiee-des-employes"
+    }
+  },
+  {
+    "id": "project-005",
+    "doc_type": "project_reference",
+    "title": "AI counterfeit and grey-market detection PoC (CoAtNet, FAISS)",
+    "text": "AI counterfeit and grey-market detection PoC (CoAtNet, FAISS). Proof of concept for luxury and retail brands to detect suspicious listings on second-hand and social platforms such as Vinted, Leboncoin and Facebook Marketplace; luxury counterfeiting is estimated at around 15 billion euros of lost revenue per year. Method: crawl listings (images and metadata), preprocess images, encode with CoAtNet (fine-tunable) into embeddings, index in FAISS and compare with authentic industrial designs using cosine or L2 similarity and an adaptive threshold. Human-in-the-loop review for roughly 5-10% of detections. Agents suggest Locarno classification and produce multi-source risk scores. Challenges: image quality, AI-generated photos, false positives, GDPR. Published December 2025.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "d3294a7cf4fc9d01252ce18e6f6bf360",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/article/detection-de-contrefacons-et-marche-gris-sur-les-plateformes-sociales-et-de-seconde-main"
+    }
+  },
+  {
+    "id": "project-006",
+    "doc_type": "project_reference",
+    "title": "AI-powered intellectual property registration platform (government agency)",
+    "text": "AI-powered intellectual property registration platform (government agency). Client: government agency (unnamed). Solution: end-to-end intelligent platform to simplify and unify trademark and patent registration. Core components: an AI chatbot guiding users through each registration step, and an intelligent analysis robot that detects similar existing entries to strengthen originality and avoid duplicates. Aim: smoother administrative processes and better protection of innovation at national scale.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "bb1f582e5133ff4c25da643d1553c0c1",
+    "metadata": {
+      "category": "project_reference",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  }
+]

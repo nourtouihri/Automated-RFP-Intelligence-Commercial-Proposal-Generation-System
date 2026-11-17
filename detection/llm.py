@@ -1,0 +1,158 @@
+"""
+What ? its already 4 AM!
+Thin LLM transport supporting Anthropic and OpenAI wire protocols.
+
+Retries 5xx/network errors once with a 1s backoff; 4xx fail fast. Each call is
+bounded by PER_CALL_TIMEOUT_SECONDS.
+"""
+
+import asyncio
+import os
+from typing import Optional
+
+import httpx
+
+_PROVIDER_URLS = {
+    "anthropic": "https://api.anthropic.com/v1/messages",
+    "openai": "https://api.openai.com/v1/chat/completions",
+}
+
+
+def _dig_text(payload: object, path: tuple) -> str:
+    """Return the assistant text from a provider body, or raise ``ValueError``.
+
+    A 200 does not guarantee the documented shape: proxies/WAFs answer with
+    HTML or plain text, and a provider bug can return ``null`` or a bare list.
+    Indexing such a body (``resp.json()["content"][0]["text"]``) raised
+    ``TypeError`` — a class the callers do not catch — so a provider hiccup
+    surfaced as a raw 500 on the ingest boundary. Every shape problem is
+    normalized to ``ValueError``, the class the normalize wrappers already
+    degrade on.
+    """
+    node: object = payload
+    for step in path:
+        if isinstance(step, int):
+            if not isinstance(node, list) or not -len(node) <= step < len(node):
+                raise ValueError(
+                    f"provider response: expected a list element at index {step}, "
+                    f"got {type(node).__name__}"
+                )
+            node = node[step]
+        else:
+            if not isinstance(node, dict) or step not in node:
+                raise ValueError(
+                    f"provider response: missing {step!r} in {type(node).__name__}"
+                )
+            node = node[step]
+    if not isinstance(node, str):
+        raise ValueError(
+            f"provider response: text field is {type(node).__name__}, not str"
+        )
+    return node
+
+
+async def llm_call(prompt: str, system: Optional[str] = None) -> str:
+    """Runs a prompt against the configured provider, retrying transient 5xx/network failures once."""
+    provider = os.environ.get("LLM_PROVIDER", "anthropic")
+    if provider not in ("anthropic", "openai", "ollama"):
+        raise ValueError(f"Unknown LLM_PROVIDER={provider!r}; expected anthropic|openai|ollama")
+    api_key = os.environ.get("LLM_API_KEY", "")
+    model = os.environ.get("LLM_MODEL", "claude-3-5-haiku-20241022")
+    timeout = int(os.environ.get("PER_CALL_TIMEOUT_SECONDS", "8"))
+
+    for attempt in range(2):
+        try:
+            if provider == "anthropic":
+                return await _call_anthropic(api_key, model, prompt, system, timeout)
+            elif provider == "openai":
+                return await _call_openai(api_key, model, prompt, system, timeout)
+            else:
+                return await _call_ollama(api_key, model, prompt, system, timeout)
+        except httpx.HTTPError as exc:
+            if isinstance(exc, httpx.HTTPStatusError) and 400 <= exc.response.status_code < 500:
+                raise
+            if attempt == 1:
+                raise
+            await asyncio.sleep(1)
+        except Exception as exc:
+            # Transport contract: this function raises only ValueError or
+            # httpx.HTTPError, both of which the callers degrade on. Anything
+            # else (a malformed 200 body, an unexpected provider/parse failure)
+            # is normalized instead of escaping as a raw 500. CancelledError is
+            # a BaseException, so it is not swallowed here.
+            raise ValueError(
+                f"LLM provider call failed unexpectedly ({type(exc).__name__}: {exc})"
+            ) from exc
+
+    return ""
+
+
+async def _call_anthropic(
+    api_key: str, model: str, prompt: str, system: Optional[str], timeout: int
+) -> str:
+    """POST prompt to the Anthropic Messages API."""
+    headers = {
+        "x-api-key": api_key,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+    }
+    body: dict = {
+        "model": model,
+        "max_tokens": 1024,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    if system:
+        body["system"] = system
+
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        resp = await client.post(_PROVIDER_URLS["anthropic"], headers=headers, json=body)
+        resp.raise_for_status()
+        return _dig_text(resp.json(), ("content", 0, "text"))
+
+
+async def _call_openai(
+    api_key: str, model: str, prompt: str, system: Optional[str], timeout: int
+) -> str:
+    """POST prompt to the OpenAI Chat Completions API."""
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        resp = await client.post(
+            _PROVIDER_URLS["openai"],
+            headers=headers,
+            json={"model": model, "messages": messages, "max_tokens": 1024},
+        )
+        resp.raise_for_status()
+        return _dig_text(resp.json(), ("choices", 0, "message", "content"))
+
+
+async def _call_ollama(
+    api_key: str, model: str, prompt: str, system: Optional[str], timeout: int
+) -> str:
+    """POST prompt to a self-hosted Ollama-compatible Chat Completions endpoint."""
+    base_url = os.environ.get("LLM_URL")
+    if not base_url:
+        raise ValueError("LLM_PROVIDER=ollama requires LLM_URL to be set")
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    messages = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        resp = await client.post(
+            base_url,
+            headers=headers,
+            json={"model": model, "messages": messages, "max_tokens": 1024},
+        )
+        resp.raise_for_status()
+        return _dig_text(resp.json(), ("choices", 0, "message", "content"))

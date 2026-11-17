@@ -1,0 +1,4908 @@
+[
+  {
+    "id": "TECH-001",
+    "doc_type": "technology",
+    "name": "Azure DevOps",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 13,
+    "synthetic_project_count": 4,
+    "cv_count": 26,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      },
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      },
+      {
+        "id": "olivesoft-004",
+        "name": "MuleSoft platform and business data flows"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Datadog",
+      "MuleSoft",
+      "Power BI",
+      "Salesforce"
+    ],
+    "document_text": "Azure DevOps is a technology in the category 'DevOps and observability'. It appears in 13 of Olivesoft's real PFE project references (for example: Smart-object management solution; Talend reporting solution; MuleSoft platform and business data flows). It is used in 4 synthetic past projects. 26 CVs in the CV bank list it as a skill. It is often used together with Talend, Datadog, MuleSoft, Power BI, Salesforce.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-002",
+    "doc_type": "technology",
+    "name": "Python",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 12,
+    "synthetic_project_count": 13,
+    "cv_count": 21,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-005",
+        "name": "GCP data-platform evolution"
+      },
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      },
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      }
+    ],
+    "related_technologies": [
+      "BigQuery",
+      "OpenAI",
+      "GCP",
+      "Azure DevOps",
+      "PyTorch"
+    ],
+    "document_text": "Python is a technology in the category 'AI and machine learning'. It appears in 12 of Olivesoft's real PFE project references (for example: GCP data-platform evolution; Marketing scoring AI and MLOps; Digital-marketing LLM chatbot). It is used in 13 synthetic past projects. 21 CVs in the CV bank list it as a skill. It is often used together with BigQuery, OpenAI, GCP, Azure DevOps, PyTorch.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-003",
+    "doc_type": "technology",
+    "name": "Talend",
+    "category": "Data integration and ETL",
+    "variants_seen": [
+      "Talend Open Studio"
+    ],
+    "real_project_count": 10,
+    "synthetic_project_count": 3,
+    "cv_count": 7,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      },
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      }
+    ],
+    "related_technologies": [
+      "Power BI",
+      "Azure DevOps",
+      "Azure",
+      "Terraform",
+      "Apache Airflow"
+    ],
+    "document_text": "Talend is a technology in the category 'Data integration and ETL'. It appears in 10 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; Smart-object management solution; Talend reporting solution). It is used in 3 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with Power BI, Azure DevOps, Azure, Terraform, Apache Airflow.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-004",
+    "doc_type": "technology",
+    "name": "Power BI",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 12,
+    "synthetic_project_count": 2,
+    "cv_count": 4,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      },
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      },
+      {
+        "id": "olivesoft-008",
+        "name": "Human-resources process automation"
+      },
+      {
+        "id": "website-002",
+        "name": "From Fragmented Data to Growth: Empowering Sales With Data"
+      },
+      {
+        "id": "website-003",
+        "name": "Transforming Forecasting with AI-powered Dashboards and Integration"
+      },
+      {
+        "id": "website-004",
+        "name": "New Fashion CRM Platform"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Azure DevOps",
+      "Azure SQL",
+      "Python",
+      "BigQuery"
+    ],
+    "document_text": "Power BI is a technology in the category 'BI and reporting'. It appears in 12 of Olivesoft's real project references (9 PFE internship projects and 3 client projects published on the Olivesoft website). PFE examples: Smart-object management solution; Talend reporting solution; Human-resources process automation. Website client projects: From Fragmented Data to Growth: Empowering Sales With Data; Transforming Forecasting with AI-powered Dashboards and Integration; New Fashion CRM Platform. It is used in 2 synthetic past projects. 4 CVs in the CV bank list it as a skill. It is often used together with Talend, Azure DevOps, Azure SQL, Python, BigQuery.",
+    "website_project_count": 3
+  },
+  {
+    "id": "TECH-005",
+    "doc_type": "technology",
+    "name": "BigQuery",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 8,
+    "synthetic_project_count": 4,
+    "cv_count": 9,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      },
+      {
+        "id": "olivesoft-016",
+        "name": "Product supplier and customer evaluation system"
+      },
+      {
+        "id": "olivesoft-017",
+        "name": "Sales and product-demand forecasting"
+      },
+      {
+        "id": "website-002",
+        "name": "From Fragmented Data to Growth: Empowering Sales With Data"
+      },
+      {
+        "id": "website-003",
+        "name": "Transforming Forecasting with AI-powered Dashboards and Integration"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "SQL",
+      "TensorFlow",
+      "Power BI",
+      "GCP"
+    ],
+    "document_text": "BigQuery is a technology in the category 'Data platforms and databases'. It appears in 8 of Olivesoft's real project references (6 PFE internship projects and 2 client projects published on the Olivesoft website). PFE examples: Marketing scoring AI and MLOps; Product supplier and customer evaluation system; Sales and product-demand forecasting. Website client projects: From Fragmented Data to Growth: Empowering Sales With Data; Transforming Forecasting with AI-powered Dashboards and Integration. It is used in 4 synthetic past projects. 9 CVs in the CV bank list it as a skill. It is often used together with Python, SQL, TensorFlow, Power BI, GCP.",
+    "website_project_count": 2
+  },
+  {
+    "id": "TECH-006",
+    "doc_type": "technology",
+    "name": "MuleSoft",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 7,
+    "synthetic_project_count": 5,
+    "cv_count": 9,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      },
+      {
+        "id": "olivesoft-004",
+        "name": "MuleSoft platform and business data flows"
+      },
+      {
+        "id": "olivesoft-006",
+        "name": "MuleSoft monitoring and decision support"
+      },
+      {
+        "id": "website-001",
+        "name": "Unified HR Solution for Seamless Employee Management"
+      }
+    ],
+    "related_technologies": [
+      "Azure DevOps",
+      "Datadog",
+      "Talend",
+      "CI/CD",
+      "REST APIs"
+    ],
+    "document_text": "MuleSoft is a technology in the category 'API and integration'. It appears in 7 of Olivesoft's real project references (6 PFE internship projects and 1 client project published on the Olivesoft website). PFE examples: Smart-object management solution; MuleSoft platform and business data flows; MuleSoft monitoring and decision support. Website client projects: Unified HR Solution for Seamless Employee Management. It is used in 5 synthetic past projects. 9 CVs in the CV bank list it as a skill. It is often used together with Azure DevOps, Datadog, Talend, CI/CD, REST APIs.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-007",
+    "doc_type": "technology",
+    "name": "Salesforce",
+    "category": "CRM and business applications",
+    "variants_seen": [
+      "Salesforce Core",
+      "Salesforce Data Cloud",
+      "Salesforce Sales Cloud",
+      "Salesforce Service Cloud"
+    ],
+    "real_project_count": 6,
+    "synthetic_project_count": 4,
+    "cv_count": 6,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-009",
+        "name": "Salesforce customer master reference"
+      },
+      {
+        "id": "olivesoft-020",
+        "name": "Annual employee evaluation system"
+      },
+      {
+        "id": "olivesoft-022",
+        "name": "Project allocation by resource availability"
+      }
+    ],
+    "related_technologies": [
+      "Apex",
+      "Lightning",
+      "Azure DevOps",
+      "Clay",
+      "SQL"
+    ],
+    "document_text": "Salesforce is a technology in the category 'CRM and business applications'. It appears in 6 of Olivesoft's real PFE project references (for example: Salesforce customer master reference; Annual employee evaluation system; Project allocation by resource availability). It is used in 4 synthetic past projects. 6 CVs in the CV bank list it as a skill. It is often used together with Apex, Lightning, Azure DevOps, Clay, SQL.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-008",
+    "doc_type": "technology",
+    "name": "GCP",
+    "category": "Cloud platforms",
+    "variants_seen": [
+      "Google Cloud Platform"
+    ],
+    "real_project_count": 7,
+    "synthetic_project_count": 3,
+    "cv_count": 14,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      },
+      {
+        "id": "olivesoft-005",
+        "name": "GCP data-platform evolution"
+      },
+      {
+        "id": "olivesoft-019",
+        "name": "BigQuery SQL workflow cloud platform"
+      },
+      {
+        "id": "website-002",
+        "name": "From Fragmented Data to Growth: Empowering Sales With Data"
+      },
+      {
+        "id": "website-004",
+        "name": "New Fashion CRM Platform"
+      }
+    ],
+    "related_technologies": [
+      "Azure DevOps",
+      "Python",
+      "Terraform",
+      "BigQuery",
+      "Talend"
+    ],
+    "document_text": "GCP is a technology in the category 'Cloud platforms'. It appears in 7 of Olivesoft's real project references (5 PFE internship projects and 2 client projects published on the Olivesoft website). PFE examples: Talend reporting solution; GCP data-platform evolution; BigQuery SQL workflow cloud platform. Website client projects: From Fragmented Data to Growth: Empowering Sales With Data; New Fashion CRM Platform. It is used in 3 synthetic past projects. 14 CVs in the CV bank list it as a skill. It is often used together with Azure DevOps, Python, Terraform, BigQuery, Talend.",
+    "website_project_count": 2
+  },
+  {
+    "id": "TECH-009",
+    "doc_type": "technology",
+    "name": "Datadog",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 5,
+    "synthetic_project_count": 2,
+    "cv_count": 2,
+    "real_project_evidence": "strong",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      },
+      {
+        "id": "olivesoft-004",
+        "name": "MuleSoft platform and business data flows"
+      },
+      {
+        "id": "olivesoft-006",
+        "name": "MuleSoft monitoring and decision support"
+      }
+    ],
+    "related_technologies": [
+      "Azure DevOps",
+      "MuleSoft",
+      "ServiceNow",
+      "CI/CD",
+      "Talend"
+    ],
+    "document_text": "Datadog is a technology in the category 'DevOps and observability'. It appears in 5 of Olivesoft's real PFE project references (for example: Talend reporting solution; MuleSoft platform and business data flows; MuleSoft monitoring and decision support). It is used in 2 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Azure DevOps, MuleSoft, ServiceNow, CI/CD, Talend.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-010",
+    "doc_type": "technology",
+    "name": "CI/CD",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 0,
+    "cv_count": 21,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-004",
+        "name": "MuleSoft platform and business data flows"
+      },
+      {
+        "id": "olivesoft-006",
+        "name": "MuleSoft monitoring and decision support"
+      },
+      {
+        "id": "olivesoft-011",
+        "name": "Talend ETL and ESB monitoring platform"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "Datadog",
+      "Azure DevOps",
+      "Terraform",
+      "Microservices"
+    ],
+    "document_text": "CI/CD is a technology in the category 'DevOps and observability'. It appears in 4 of Olivesoft's real PFE project references (for example: MuleSoft platform and business data flows; MuleSoft monitoring and decision support; Talend ETL and ESB monitoring platform). 21 CVs in the CV bank list it as a skill. It is often used together with MuleSoft, Datadog, Azure DevOps, Terraform, Microservices.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-011",
+    "doc_type": "technology",
+    "name": "SQL",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 3,
+    "cv_count": 20,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-016",
+        "name": "Product supplier and customer evaluation system"
+      },
+      {
+        "id": "olivesoft-017",
+        "name": "Sales and product-demand forecasting"
+      },
+      {
+        "id": "olivesoft-019",
+        "name": "BigQuery SQL workflow cloud platform"
+      }
+    ],
+    "related_technologies": [
+      "BigQuery",
+      "Python",
+      "TensorFlow",
+      "Power BI",
+      "GCP"
+    ],
+    "document_text": "SQL is a technology in the category 'Data platforms and databases'. It appears in 4 of Olivesoft's real PFE project references (for example: Product supplier and customer evaluation system; Sales and product-demand forecasting; BigQuery SQL workflow cloud platform). It is used in 3 synthetic past projects. 20 CVs in the CV bank list it as a skill. It is often used together with BigQuery, Python, TensorFlow, Power BI, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-012",
+    "doc_type": "technology",
+    "name": "Git",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 0,
+    "cv_count": 11,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-012",
+        "name": "Business-process automation"
+      },
+      {
+        "id": "olivesoft-018",
+        "name": "Talend CI/CD pipelines"
+      },
+      {
+        "id": "olivesoft-019",
+        "name": "BigQuery SQL workflow cloud platform"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Azure DevOps",
+      "BPMN",
+      "MuleSoft",
+      "Power Automate"
+    ],
+    "document_text": "Git is a technology in the category 'DevOps and observability'. It appears in 4 of Olivesoft's real PFE project references (for example: Business-process automation; Talend CI/CD pipelines; BigQuery SQL workflow cloud platform). 11 CVs in the CV bank list it as a skill. It is often used together with Talend, Azure DevOps, BPMN, MuleSoft, Power Automate.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-013",
+    "doc_type": "technology",
+    "name": "Terraform",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 6,
+    "cv_count": 7,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-005",
+        "name": "GCP data-platform evolution"
+      },
+      {
+        "id": "olivesoft-011",
+        "name": "Talend ETL and ESB monitoring platform"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "GCP",
+      "CI/CD",
+      "Azure",
+      "Apache Airflow"
+    ],
+    "document_text": "Terraform is a technology in the category 'DevOps and observability'. It appears in 4 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; GCP data-platform evolution; Talend ETL and ESB monitoring platform). It is used in 6 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with Talend, GCP, CI/CD, Azure, Apache Airflow.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-014",
+    "doc_type": "technology",
+    "name": "Azure",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 2,
+    "cv_count": 6,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-008",
+        "name": "Human-resources process automation"
+      },
+      {
+        "id": "olivesoft-018",
+        "name": "Talend CI/CD pipelines"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Apache Airflow",
+      "Terraform",
+      "Docker",
+      "Kubernetes"
+    ],
+    "document_text": "Azure is a technology in the category 'Cloud platforms'. It appears in 4 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; Human-resources process automation; Talend CI/CD pipelines). It is used in 2 synthetic past projects. 6 CVs in the CV bank list it as a skill. It is often used together with Talend, Apache Airflow, Terraform, Docker, Kubernetes.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-015",
+    "doc_type": "technology",
+    "name": "Apex",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 2,
+    "cv_count": 5,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-009",
+        "name": "Salesforce customer master reference"
+      },
+      {
+        "id": "olivesoft-020",
+        "name": "Annual employee evaluation system"
+      },
+      {
+        "id": "olivesoft-022",
+        "name": "Project allocation by resource availability"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "Lightning",
+      "Azure DevOps",
+      "SQL",
+      "Talend"
+    ],
+    "document_text": "Apex is a technology in the category 'CRM and business applications'. It appears in 4 of Olivesoft's real PFE project references (for example: Salesforce customer master reference; Annual employee evaluation system; Project allocation by resource availability). It is used in 2 synthetic past projects. 5 CVs in the CV bank list it as a skill. It is often used together with Salesforce, Lightning, Azure DevOps, SQL, Talend.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-016",
+    "doc_type": "technology",
+    "name": "Lightning",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 4,
+    "synthetic_project_count": 4,
+    "cv_count": 5,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-009",
+        "name": "Salesforce customer master reference"
+      },
+      {
+        "id": "olivesoft-020",
+        "name": "Annual employee evaluation system"
+      },
+      {
+        "id": "olivesoft-022",
+        "name": "Project allocation by resource availability"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "Apex",
+      "Azure DevOps",
+      "SQL",
+      "Talend"
+    ],
+    "document_text": "Lightning is a technology in the category 'CRM and business applications'. It appears in 4 of Olivesoft's real PFE project references (for example: Salesforce customer master reference; Annual employee evaluation system; Project allocation by resource availability). It is used in 4 synthetic past projects. 5 CVs in the CV bank list it as a skill. It is often used together with Salesforce, Apex, Azure DevOps, SQL, Talend.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-017",
+    "doc_type": "technology",
+    "name": "React",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 3,
+    "synthetic_project_count": 3,
+    "cv_count": 4,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      },
+      {
+        "id": "olivesoft-029",
+        "name": "OLIA product management and QA"
+      },
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "FastAPI",
+      "TypeScript",
+      "RAG",
+      "OpenAI"
+    ],
+    "document_text": "React is a technology in the category 'Languages and frameworks'. It appears in 3 of Olivesoft's real PFE project references (for example: OLIA agentic AI full-stack platform; OLIA product management and QA; OliveSoft website redesign). It is used in 3 synthetic past projects. 4 CVs in the CV bank list it as a skill. It is often used together with Python, FastAPI, TypeScript, RAG, OpenAI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-018",
+    "doc_type": "technology",
+    "name": "Apache Airflow",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 3,
+    "synthetic_project_count": 3,
+    "cv_count": 3,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-008",
+        "name": "Human-resources process automation"
+      },
+      {
+        "id": "olivesoft-024",
+        "name": "Apache Airflow workflow scheduler"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Azure",
+      "Terraform",
+      "Docker",
+      "Kubernetes"
+    ],
+    "document_text": "Apache Airflow is a technology in the category 'Data integration and ETL'. It appears in 3 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; Human-resources process automation; Apache Airflow workflow scheduler). It is used in 3 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Talend, Azure, Terraform, Docker, Kubernetes.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-019",
+    "doc_type": "technology",
+    "name": "OpenAI",
+    "category": "AI and machine learning",
+    "variants_seen": [
+      "GPT"
+    ],
+    "real_project_count": 3,
+    "synthetic_project_count": 0,
+    "cv_count": 1,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      },
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      },
+      {
+        "id": "olivesoft-033",
+        "name": "Generative-AI sales acceleration"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Claude",
+      "Rasa",
+      "Dialogflow",
+      "Mistral"
+    ],
+    "document_text": "OpenAI is a technology in the category 'AI and machine learning'. It appears in 3 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot; OLIA agentic AI full-stack platform; Generative-AI sales acceleration). 1 CVs in the CV bank list it as a skill. It is often used together with Python, Claude, Rasa, Dialogflow, Mistral.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-020",
+    "doc_type": "technology",
+    "name": "Jira",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 3,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-023",
+        "name": "MuleSoft error-handling accelerator"
+      },
+      {
+        "id": "olivesoft-029",
+        "name": "OLIA product management and QA"
+      },
+      {
+        "id": "olivesoft-036",
+        "name": "ISO 27001 compliance assessment"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "Datadog",
+      "Unit testing",
+      "Azure DevOps",
+      "Agile"
+    ],
+    "document_text": "Jira is a technology in the category 'Process, automation and governance'. It appears in 3 of Olivesoft's real PFE project references (for example: MuleSoft error-handling accelerator; OLIA product management and QA; ISO 27001 compliance assessment). It is often used together with MuleSoft, Datadog, Unit testing, Azure DevOps, Agile.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-021",
+    "doc_type": "technology",
+    "name": "Docker",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 3,
+    "cv_count": 17,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Kubernetes",
+      "Talend",
+      "Azure",
+      "Terraform",
+      "Apache Airflow"
+    ],
+    "document_text": "Docker is a technology in the category 'DevOps and observability'. It appears in 2 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; OLIA cloud-agnostic DevSecOps). It is used in 3 synthetic past projects. 17 CVs in the CV bank list it as a skill. It is often used together with Kubernetes, Talend, Azure, Terraform, Apache Airflow.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-022",
+    "doc_type": "technology",
+    "name": "FastAPI",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 4,
+    "cv_count": 12,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      },
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "React",
+      "TypeScript",
+      "RAG",
+      "OpenAI"
+    ],
+    "document_text": "FastAPI is a technology in the category 'Languages and frameworks'. It appears in 2 of Olivesoft's real PFE project references (for example: OLIA agentic AI full-stack platform; OLIA cloud-agnostic DevSecOps). It is used in 4 synthetic past projects. 12 CVs in the CV bank list it as a skill. It is often used together with Python, React, TypeScript, RAG, OpenAI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-023",
+    "doc_type": "technology",
+    "name": "REST APIs",
+    "category": "API and integration",
+    "variants_seen": [
+      "REST API"
+    ],
+    "real_project_count": 2,
+    "synthetic_project_count": 5,
+    "cv_count": 10,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      },
+      {
+        "id": "olivesoft-007",
+        "name": "Asynchronous Talend flows"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "MuleSoft",
+      "Angular",
+      "Power BI",
+      "Azure DevOps"
+    ],
+    "document_text": "REST APIs is a technology in the category 'API and integration'. It appears in 2 of Olivesoft's real PFE project references (for example: Smart-object management solution; Asynchronous Talend flows). It is used in 5 synthetic past projects. 10 CVs in the CV bank list it as a skill. It is often used together with Talend, MuleSoft, Angular, Power BI, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-024",
+    "doc_type": "technology",
+    "name": "TensorFlow",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 3,
+    "cv_count": 9,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-016",
+        "name": "Product supplier and customer evaluation system"
+      },
+      {
+        "id": "olivesoft-017",
+        "name": "Sales and product-demand forecasting"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "BigQuery",
+      "SQL",
+      "Power BI",
+      "Scikit-learn"
+    ],
+    "document_text": "TensorFlow is a technology in the category 'AI and machine learning'. It appears in 2 of Olivesoft's real PFE project references (for example: Product supplier and customer evaluation system; Sales and product-demand forecasting). It is used in 3 synthetic past projects. 9 CVs in the CV bank list it as a skill. It is often used together with Python, BigQuery, SQL, Power BI, Scikit-learn.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-025",
+    "doc_type": "technology",
+    "name": "PyTorch",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 7,
+    "cv_count": 8,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      },
+      {
+        "id": "olivesoft-015",
+        "name": "KWORE generative-media platform"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "HuggingFace",
+      "Azure ML",
+      "BigQuery",
+      "MLOps"
+    ],
+    "document_text": "PyTorch is a technology in the category 'AI and machine learning'. It appears in 2 of Olivesoft's real PFE project references (for example: Marketing scoring AI and MLOps; KWORE generative-media platform). It is used in 7 synthetic past projects. 8 CVs in the CV bank list it as a skill. It is often used together with Python, HuggingFace, Azure ML, BigQuery, MLOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-026",
+    "doc_type": "technology",
+    "name": "Azure SQL",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 1,
+    "cv_count": 3,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-010",
+        "name": "HR reporting and monitoring platform"
+      },
+      {
+        "id": "olivesoft-011",
+        "name": "Talend ETL and ESB monitoring platform"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Power BI",
+      "Azure DevOps",
+      "Java",
+      "Terraform"
+    ],
+    "document_text": "Azure SQL is a technology in the category 'Data platforms and databases'. It appears in 2 of Olivesoft's real PFE project references (for example: HR reporting and monitoring platform; Talend ETL and ESB monitoring platform). It is used in 1 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Talend, Power BI, Azure DevOps, Java, Terraform.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-027",
+    "doc_type": "technology",
+    "name": "RAG",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      },
+      {
+        "id": "olivesoft-030",
+        "name": "Financial recommendation and investment agent"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "OpenAI"
+    ],
+    "document_text": "RAG is a technology in the category 'AI and machine learning'. It appears in 2 of Olivesoft's real PFE project references (for example: OLIA agentic AI full-stack platform; Financial recommendation and investment agent). It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Python, FastAPI, React, TypeScript, OpenAI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-028",
+    "doc_type": "technology",
+    "name": "HuggingFace",
+    "category": "AI and machine learning",
+    "variants_seen": [
+      "HuggingFace Transformers"
+    ],
+    "real_project_count": 2,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      },
+      {
+        "id": "olivesoft-015",
+        "name": "KWORE generative-media platform"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "PyTorch",
+      "Azure ML",
+      "BigQuery",
+      "MLOps"
+    ],
+    "document_text": "HuggingFace is a technology in the category 'AI and machine learning'. It appears in 2 of Olivesoft's real PFE project references (for example: Marketing scoring AI and MLOps; KWORE generative-media platform). It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Python, PyTorch, Azure ML, BigQuery, MLOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-029",
+    "doc_type": "technology",
+    "name": "Kubernetes",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 2,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      },
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Docker",
+      "Talend",
+      "Azure",
+      "Terraform",
+      "Apache Airflow"
+    ],
+    "document_text": "Kubernetes is a technology in the category 'DevOps and observability'. It appears in 2 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure; OLIA cloud-agnostic DevSecOps). 2 CVs in the CV bank list it as a skill. It is often used together with Docker, Talend, Azure, Terraform, Apache Airflow.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-030",
+    "doc_type": "technology",
+    "name": "n8n",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 3,
+    "cv_count": 1,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-025",
+        "name": "Odoo Community internal integration"
+      },
+      {
+        "id": "olivesoft-033",
+        "name": "Generative-AI sales acceleration"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Odoo Community",
+      "PostgreSQL",
+      "JavaScript",
+      "XML"
+    ],
+    "document_text": "n8n is a technology in the category 'Process, automation and governance'. It appears in 2 of Olivesoft's real PFE project references (for example: Odoo Community internal integration; Generative-AI sales acceleration). It is used in 3 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with Python, Odoo Community, PostgreSQL, JavaScript, XML.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-031",
+    "doc_type": "technology",
+    "name": "Brevo",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      },
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Apollo"
+    ],
+    "document_text": "Brevo is a technology in the category 'Marketing and sales tools'. It appears in 2 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy; Content-marketing lead generation and KPI dashboard). It is often used together with Salesforce, ValueOrbit, LinkedIn, Clay, Apollo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-032",
+    "doc_type": "technology",
+    "name": "Claude",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      },
+      {
+        "id": "olivesoft-033",
+        "name": "Generative-AI sales acceleration"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "OpenAI",
+      "Rasa",
+      "Dialogflow",
+      "Mistral"
+    ],
+    "document_text": "Claude is a technology in the category 'AI and machine learning'. It appears in 2 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot; Generative-AI sales acceleration). It is often used together with Python, OpenAI, Rasa, Dialogflow, Mistral.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-033",
+    "doc_type": "technology",
+    "name": "Clay",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      },
+      {
+        "id": "olivesoft-033",
+        "name": "Generative-AI sales acceleration"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Apollo",
+      "Brevo"
+    ],
+    "document_text": "Clay is a technology in the category 'Marketing and sales tools'. It appears in 2 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy; Generative-AI sales acceleration). It is often used together with Salesforce, ValueOrbit, LinkedIn, Apollo, Brevo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-034",
+    "doc_type": "technology",
+    "name": "ServiceNow",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-003",
+        "name": "Talend reporting solution"
+      },
+      {
+        "id": "olivesoft-006",
+        "name": "MuleSoft monitoring and decision support"
+      }
+    ],
+    "related_technologies": [
+      "Datadog",
+      "Azure DevOps",
+      "Talend",
+      "Power BI",
+      "GCP"
+    ],
+    "document_text": "ServiceNow is a technology in the category 'CRM and business applications'. It appears in 2 of Olivesoft's real PFE project references (for example: Talend reporting solution; MuleSoft monitoring and decision support). It is often used together with Datadog, Azure DevOps, Talend, Power BI, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-035",
+    "doc_type": "technology",
+    "name": "TMC",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 2,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "moderate",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-007",
+        "name": "Asynchronous Talend flows"
+      },
+      {
+        "id": "olivesoft-018",
+        "name": "Talend CI/CD pipelines"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Apache Camel",
+      "ESB",
+      "REST APIs",
+      "Azure"
+    ],
+    "document_text": "TMC is a technology in the category 'Data integration and ETL'. It appears in 2 of Olivesoft's real PFE project references (for example: Asynchronous Talend flows; Talend CI/CD pipelines). It is often used together with Talend, Apache Camel, ESB, REST APIs, Azure.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-036",
+    "doc_type": "technology",
+    "name": "PostgreSQL",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 3,
+    "cv_count": 7,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-025",
+        "name": "Odoo Community internal integration"
+      }
+    ],
+    "related_technologies": [
+      "Odoo Community",
+      "Python",
+      "JavaScript",
+      "XML",
+      "n8n"
+    ],
+    "document_text": "PostgreSQL is a technology in the category 'Data platforms and databases'. It appears in 1 of Olivesoft's real PFE project references (for example: Odoo Community internal integration). It is used in 3 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with Odoo Community, Python, JavaScript, XML, n8n.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-037",
+    "doc_type": "technology",
+    "name": "Next.js",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 5,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Drupal",
+      "HTML",
+      "CSS",
+      "Figma",
+      "React"
+    ],
+    "document_text": "Next.js is a technology in the category 'Languages and frameworks'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). 5 CVs in the CV bank list it as a skill. It is often used together with Drupal, HTML, CSS, Figma, React.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-038",
+    "doc_type": "technology",
+    "name": "Java",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 4,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-011",
+        "name": "Talend ETL and ESB monitoring platform"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Power BI",
+      "Azure SQL",
+      "Terraform",
+      "CI/CD"
+    ],
+    "document_text": "Java is a technology in the category 'Languages and frameworks'. It appears in 1 of Olivesoft's real PFE project references (for example: Talend ETL and ESB monitoring platform). 4 CVs in the CV bank list it as a skill. It is often used together with Talend, Power BI, Azure SQL, Terraform, CI/CD.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-039",
+    "doc_type": "technology",
+    "name": "JavaScript",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 4,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-025",
+        "name": "Odoo Community internal integration"
+      }
+    ],
+    "related_technologies": [
+      "Odoo Community",
+      "Python",
+      "PostgreSQL",
+      "XML",
+      "n8n"
+    ],
+    "document_text": "JavaScript is a technology in the category 'Languages and frameworks'. It appears in 1 of Olivesoft's real PFE project references (for example: Odoo Community internal integration). 4 CVs in the CV bank list it as a skill. It is often used together with Odoo Community, Python, PostgreSQL, XML, n8n.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-040",
+    "doc_type": "technology",
+    "name": "MLOps",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 2,
+    "cv_count": 4,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "PyTorch",
+      "HuggingFace",
+      "Azure ML",
+      "BigQuery"
+    ],
+    "document_text": "MLOps is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Marketing scoring AI and MLOps). It is used in 2 synthetic past projects. 4 CVs in the CV bank list it as a skill. It is often used together with Python, PyTorch, HuggingFace, Azure ML, BigQuery.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-041",
+    "doc_type": "technology",
+    "name": "DataWeave",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 1,
+    "cv_count": 3,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-021",
+        "name": "Cross-brand product recommendation"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "AI Chain",
+      "BigQuery",
+      "GCP",
+      "REST APIs"
+    ],
+    "document_text": "DataWeave is a technology in the category 'API and integration'. It appears in 1 of Olivesoft's real PFE project references (for example: Cross-brand product recommendation). It is used in 1 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with MuleSoft, AI Chain, BigQuery, GCP, REST APIs.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-042",
+    "doc_type": "technology",
+    "name": "Databricks",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-030",
+        "name": "Financial recommendation and investment agent"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "R",
+      "LLM",
+      "RAG",
+      "GCP"
+    ],
+    "document_text": "Databricks is a technology in the category 'Data platforms and databases'. It appears in 1 of Olivesoft's real PFE project references (for example: Financial recommendation and investment agent). It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Python, R, LLM, RAG, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-043",
+    "doc_type": "technology",
+    "name": "TypeScript",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 1,
+    "cv_count": 1,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "RAG",
+      "OpenAI"
+    ],
+    "document_text": "TypeScript is a technology in the category 'Languages and frameworks'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA agentic AI full-stack platform). It is used in 1 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with Python, FastAPI, React, RAG, OpenAI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-044",
+    "doc_type": "technology",
+    "name": "AI Chain",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-021",
+        "name": "Cross-brand product recommendation"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "DataWeave",
+      "BigQuery",
+      "GCP"
+    ],
+    "document_text": "AI Chain is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Cross-brand product recommendation). It is often used together with MuleSoft, DataWeave, BigQuery, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-045",
+    "doc_type": "technology",
+    "name": "Agile",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-029",
+        "name": "OLIA product management and QA"
+      }
+    ],
+    "related_technologies": [
+      "Scrum",
+      "Product Management",
+      "React",
+      "Python",
+      "Jira"
+    ],
+    "document_text": "Agile is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA product management and QA). It is often used together with Scrum, Product Management, React, Python, Jira.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-046",
+    "doc_type": "technology",
+    "name": "Angular",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-002",
+        "name": "Smart-object management solution"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "MuleSoft",
+      "REST APIs",
+      "Power BI",
+      "Azure DevOps"
+    ],
+    "document_text": "Angular is a technology in the category 'Languages and frameworks'. It appears in 1 of Olivesoft's real PFE project references (for example: Smart-object management solution). It is often used together with Talend, MuleSoft, REST APIs, Power BI, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-047",
+    "doc_type": "technology",
+    "name": "Apache Camel",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-007",
+        "name": "Asynchronous Talend flows"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "ESB",
+      "REST APIs",
+      "TMC"
+    ],
+    "document_text": "Apache Camel is a technology in the category 'Data integration and ETL'. It appears in 1 of Olivesoft's real PFE project references (for example: Asynchronous Talend flows). It is often used together with Talend, ESB, REST APIs, TMC.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-048",
+    "doc_type": "technology",
+    "name": "Apollo",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Brevo"
+    ],
+    "document_text": "Apollo is a technology in the category 'Marketing and sales tools'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy). It is often used together with Salesforce, ValueOrbit, LinkedIn, Clay, Brevo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-049",
+    "doc_type": "technology",
+    "name": "Azure ML",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-013",
+        "name": "Marketing scoring AI and MLOps"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "PyTorch",
+      "HuggingFace",
+      "BigQuery",
+      "MLOps"
+    ],
+    "document_text": "Azure ML is a technology in the category 'Cloud platforms'. It appears in 1 of Olivesoft's real PFE project references (for example: Marketing scoring AI and MLOps). It is often used together with Python, PyTorch, HuggingFace, BigQuery, MLOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-050",
+    "doc_type": "technology",
+    "name": "BI",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Apollo"
+    ],
+    "document_text": "BI is a technology in the category 'BI and reporting'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy). It is often used together with Salesforce, ValueOrbit, LinkedIn, Clay, Apollo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-051",
+    "doc_type": "technology",
+    "name": "BPMN",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-012",
+        "name": "Business-process automation"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "MuleSoft",
+      "Power Automate",
+      "Git"
+    ],
+    "document_text": "BPMN is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: Business-process automation). It is often used together with Talend, MuleSoft, Power Automate, Git.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-052",
+    "doc_type": "technology",
+    "name": "Boond",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-022",
+        "name": "Project allocation by resource availability"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "Talend",
+      "Azure DevOps"
+    ],
+    "document_text": "Boond is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real PFE project references (for example: Project allocation by resource availability). It is often used together with Salesforce, Apex, Lightning, Talend, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-053",
+    "doc_type": "technology",
+    "name": "BoondManager API",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-008",
+        "name": "Human-resources process automation"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Azure",
+      "Apache Airflow",
+      "Power BI"
+    ],
+    "document_text": "BoondManager API is a technology in the category 'API and integration'. It appears in 1 of Olivesoft's real PFE project references (for example: Human-resources process automation). It is often used together with Talend, Azure, Apache Airflow, Power BI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-054",
+    "doc_type": "technology",
+    "name": "CSS",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Drupal",
+      "HTML",
+      "Figma",
+      "Next.js",
+      "React"
+    ],
+    "document_text": "CSS is a technology in the category 'Web and design'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). It is often used together with Drupal, HTML, Figma, Next.js, React.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-055",
+    "doc_type": "technology",
+    "name": "Cloud Run",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-005",
+        "name": "GCP data-platform evolution"
+      }
+    ],
+    "related_technologies": [
+      "GCP",
+      "Python",
+      "Terraform",
+      "Pub/Sub",
+      "Azure DevOps"
+    ],
+    "document_text": "Cloud Run is a technology in the category 'Cloud platforms'. It appears in 1 of Olivesoft's real PFE project references (for example: GCP data-platform evolution). It is often used together with GCP, Python, Terraform, Pub/Sub, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-056",
+    "doc_type": "technology",
+    "name": "Confluence",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-036",
+        "name": "ISO 27001 compliance assessment"
+      }
+    ],
+    "related_technologies": [
+      "ISO 27001",
+      "ISMS",
+      "Jira",
+      "GED"
+    ],
+    "document_text": "Confluence is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: ISO 27001 compliance assessment). It is often used together with ISO 27001, ISMS, Jira, GED.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-057",
+    "doc_type": "technology",
+    "name": "DAX Studio",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-026",
+        "name": "Industrialized Power BI development"
+      }
+    ],
+    "related_technologies": [
+      "Power BI",
+      "Azure DevOps",
+      "Git",
+      "YAML Pipelines",
+      "Tabular Editor"
+    ],
+    "document_text": "DAX Studio is a technology in the category 'BI and reporting'. It appears in 1 of Olivesoft's real PFE project references (for example: Industrialized Power BI development). It is often used together with Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-058",
+    "doc_type": "technology",
+    "name": "Dialogflow",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Rasa",
+      "Mistral",
+      "Claude",
+      "Gemini"
+    ],
+    "document_text": "Dialogflow is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot). It is often used together with Python, Rasa, Mistral, Claude, Gemini.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-059",
+    "doc_type": "technology",
+    "name": "Diffusers",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-015",
+        "name": "KWORE generative-media platform"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "PyTorch",
+      "HuggingFace"
+    ],
+    "document_text": "Diffusers is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: KWORE generative-media platform). It is often used together with Python, PyTorch, HuggingFace.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-060",
+    "doc_type": "technology",
+    "name": "Drupal",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "HTML",
+      "CSS",
+      "Figma",
+      "Next.js",
+      "React"
+    ],
+    "document_text": "Drupal is a technology in the category 'Web and design'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). It is often used together with HTML, CSS, Figma, Next.js, React.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-061",
+    "doc_type": "technology",
+    "name": "ESB",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-007",
+        "name": "Asynchronous Talend flows"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Apache Camel",
+      "REST APIs",
+      "TMC"
+    ],
+    "document_text": "ESB is a technology in the category 'Data integration and ETL'. It appears in 1 of Olivesoft's real PFE project references (for example: Asynchronous Talend flows). It is often used together with Talend, Apache Camel, REST APIs, TMC.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-062",
+    "doc_type": "technology",
+    "name": "ETL",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "LinkedIn API",
+      "Meta API",
+      "Google Search Console",
+      "Brevo",
+      "Mailchimp"
+    ],
+    "document_text": "ETL is a technology in the category 'Data integration and ETL'. It appears in 1 of Olivesoft's real PFE project references (for example: Content-marketing lead generation and KPI dashboard). It is often used together with LinkedIn API, Meta API, Google Search Console, Brevo, Mailchimp.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-063",
+    "doc_type": "technology",
+    "name": "Einstein Agentforce",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-031",
+        "name": "Salesforce Customer 360 and loyalty"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "Apex",
+      "Lightning"
+    ],
+    "document_text": "Einstein Agentforce is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real PFE project references (for example: Salesforce Customer 360 and loyalty). It is often used together with Salesforce, Apex, Lightning.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-064",
+    "doc_type": "technology",
+    "name": "Figma",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Drupal",
+      "HTML",
+      "CSS",
+      "Next.js",
+      "React"
+    ],
+    "document_text": "Figma is a technology in the category 'Web and design'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). It is often used together with Drupal, HTML, CSS, Next.js, React.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-065",
+    "doc_type": "technology",
+    "name": "GED",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-036",
+        "name": "ISO 27001 compliance assessment"
+      }
+    ],
+    "related_technologies": [
+      "ISO 27001",
+      "ISMS",
+      "Confluence",
+      "Jira"
+    ],
+    "document_text": "GED is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: ISO 27001 compliance assessment). It is often used together with ISO 27001, ISMS, Confluence, Jira.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-066",
+    "doc_type": "technology",
+    "name": "Gemini",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Rasa",
+      "Dialogflow",
+      "Mistral",
+      "Claude"
+    ],
+    "document_text": "Gemini is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot). It is often used together with Python, Rasa, Dialogflow, Mistral, Claude.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-067",
+    "doc_type": "technology",
+    "name": "GitHub Actions",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Kubernetes",
+      "Docker",
+      "Grafana",
+      "Prometheus",
+      "FastAPI"
+    ],
+    "document_text": "GitHub Actions is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA cloud-agnostic DevSecOps). It is often used together with Kubernetes, Docker, Grafana, Prometheus, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-068",
+    "doc_type": "technology",
+    "name": "Google Analytics",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Drupal",
+      "HTML",
+      "CSS",
+      "Figma",
+      "Next.js"
+    ],
+    "document_text": "Google Analytics is a technology in the category 'BI and reporting'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). It is often used together with Drupal, HTML, CSS, Figma, Next.js.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-069",
+    "doc_type": "technology",
+    "name": "Google Search Console",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "LinkedIn API",
+      "Meta API",
+      "Brevo",
+      "Mailchimp",
+      "Power BI"
+    ],
+    "document_text": "Google Search Console is a technology in the category 'BI and reporting'. It appears in 1 of Olivesoft's real PFE project references (for example: Content-marketing lead generation and KPI dashboard). It is often used together with LinkedIn API, Meta API, Brevo, Mailchimp, Power BI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-070",
+    "doc_type": "technology",
+    "name": "Grafana",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Kubernetes",
+      "Docker",
+      "GitHub Actions",
+      "Prometheus",
+      "FastAPI"
+    ],
+    "document_text": "Grafana is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA cloud-agnostic DevSecOps). It is often used together with Kubernetes, Docker, GitHub Actions, Prometheus, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-071",
+    "doc_type": "technology",
+    "name": "HTML",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-035",
+        "name": "OliveSoft website redesign"
+      }
+    ],
+    "related_technologies": [
+      "Drupal",
+      "CSS",
+      "Figma",
+      "Next.js",
+      "React"
+    ],
+    "document_text": "HTML is a technology in the category 'Web and design'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft website redesign). It is often used together with Drupal, CSS, Figma, Next.js, React.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-072",
+    "doc_type": "technology",
+    "name": "Helm",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-001",
+        "name": "Talend TOS platform on Microsoft Azure"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "Azure",
+      "Terraform",
+      "Apache Airflow",
+      "Docker"
+    ],
+    "document_text": "Helm is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: Talend TOS platform on Microsoft Azure). It is often used together with Talend, Azure, Terraform, Apache Airflow, Docker.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-073",
+    "doc_type": "technology",
+    "name": "HubSpot",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-033",
+        "name": "Generative-AI sales acceleration"
+      }
+    ],
+    "related_technologies": [
+      "OpenAI",
+      "Claude",
+      "Clay",
+      "Salesforce",
+      "n8n"
+    ],
+    "document_text": "HubSpot is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real PFE project references (for example: Generative-AI sales acceleration). It is often used together with OpenAI, Claude, Clay, Salesforce, n8n.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-074",
+    "doc_type": "technology",
+    "name": "ISMS",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-036",
+        "name": "ISO 27001 compliance assessment"
+      }
+    ],
+    "related_technologies": [
+      "ISO 27001",
+      "Confluence",
+      "Jira",
+      "GED"
+    ],
+    "document_text": "ISMS is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: ISO 27001 compliance assessment). It is often used together with ISO 27001, Confluence, Jira, GED.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-075",
+    "doc_type": "technology",
+    "name": "ISO 27001",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-036",
+        "name": "ISO 27001 compliance assessment"
+      }
+    ],
+    "related_technologies": [
+      "ISMS",
+      "Confluence",
+      "Jira",
+      "GED"
+    ],
+    "document_text": "ISO 27001 is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: ISO 27001 compliance assessment). It is often used together with ISMS, Confluence, Jira, GED.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-076",
+    "doc_type": "technology",
+    "name": "Key Vault",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-018",
+        "name": "Talend CI/CD pipelines"
+      }
+    ],
+    "related_technologies": [
+      "Talend",
+      "TMC",
+      "Azure",
+      "Git",
+      "Azure DevOps"
+    ],
+    "document_text": "Key Vault is a technology in the category 'Cloud platforms'. It appears in 1 of Olivesoft's real PFE project references (for example: Talend CI/CD pipelines). It is often used together with Talend, TMC, Azure, Git, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-077",
+    "doc_type": "technology",
+    "name": "Keycloak",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Kubernetes",
+      "Docker",
+      "GitHub Actions",
+      "Grafana",
+      "Prometheus"
+    ],
+    "document_text": "Keycloak is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA cloud-agnostic DevSecOps). It is often used together with Kubernetes, Docker, GitHub Actions, Grafana, Prometheus.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-078",
+    "doc_type": "technology",
+    "name": "LLM",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-030",
+        "name": "Financial recommendation and investment agent"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "R",
+      "Databricks",
+      "RAG",
+      "GCP"
+    ],
+    "document_text": "LLM is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Financial recommendation and investment agent). It is often used together with Python, R, Databricks, RAG, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-079",
+    "doc_type": "technology",
+    "name": "LinkedIn",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "ValueOrbit",
+      "Clay",
+      "Apollo",
+      "Brevo"
+    ],
+    "document_text": "LinkedIn is a technology in the category 'Marketing and sales tools'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy). It is often used together with Salesforce, ValueOrbit, Clay, Apollo, Brevo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-080",
+    "doc_type": "technology",
+    "name": "LinkedIn API",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "Meta API",
+      "Google Search Console",
+      "Brevo",
+      "Mailchimp",
+      "Power BI"
+    ],
+    "document_text": "LinkedIn API is a technology in the category 'API and integration'. It appears in 1 of Olivesoft's real PFE project references (for example: Content-marketing lead generation and KPI dashboard). It is often used together with Meta API, Google Search Console, Brevo, Mailchimp, Power BI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-081",
+    "doc_type": "technology",
+    "name": "Mailchimp",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "LinkedIn API",
+      "Meta API",
+      "Google Search Console",
+      "Brevo",
+      "Power BI"
+    ],
+    "document_text": "Mailchimp is a technology in the category 'Marketing and sales tools'. It appears in 1 of Olivesoft's real PFE project references (for example: Content-marketing lead generation and KPI dashboard). It is often used together with LinkedIn API, Meta API, Google Search Console, Brevo, Power BI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-082",
+    "doc_type": "technology",
+    "name": "Meta API",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-034",
+        "name": "Content-marketing lead generation and KPI dashboard"
+      }
+    ],
+    "related_technologies": [
+      "LinkedIn API",
+      "Google Search Console",
+      "Brevo",
+      "Mailchimp",
+      "Power BI"
+    ],
+    "document_text": "Meta API is a technology in the category 'API and integration'. It appears in 1 of Olivesoft's real PFE project references (for example: Content-marketing lead generation and KPI dashboard). It is often used together with LinkedIn API, Google Search Console, Brevo, Mailchimp, Power BI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-083",
+    "doc_type": "technology",
+    "name": "Microservices",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-004",
+        "name": "MuleSoft platform and business data flows"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "Datadog",
+      "CI/CD",
+      "Azure DevOps"
+    ],
+    "document_text": "Microservices is a technology in the category 'API and integration'. It appears in 1 of Olivesoft's real PFE project references (for example: MuleSoft platform and business data flows). It is often used together with MuleSoft, Datadog, CI/CD, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-084",
+    "doc_type": "technology",
+    "name": "Mistral",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Rasa",
+      "Dialogflow",
+      "Claude",
+      "Gemini"
+    ],
+    "document_text": "Mistral is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot). It is often used together with Python, Rasa, Dialogflow, Claude, Gemini.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-085",
+    "doc_type": "technology",
+    "name": "Odoo Community",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-025",
+        "name": "Odoo Community internal integration"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "PostgreSQL",
+      "JavaScript",
+      "XML",
+      "n8n"
+    ],
+    "document_text": "Odoo Community is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real PFE project references (for example: Odoo Community internal integration). It is often used together with Python, PostgreSQL, JavaScript, XML, n8n.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-086",
+    "doc_type": "technology",
+    "name": "Ollama",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-027",
+        "name": "OLIA agentic AI full-stack platform"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "RAG"
+    ],
+    "document_text": "Ollama is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA agentic AI full-stack platform). It is often used together with Python, FastAPI, React, TypeScript, RAG.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-087",
+    "doc_type": "technology",
+    "name": "Power Automate",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-012",
+        "name": "Business-process automation"
+      }
+    ],
+    "related_technologies": [
+      "BPMN",
+      "Talend",
+      "MuleSoft",
+      "Git"
+    ],
+    "document_text": "Power Automate is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: Business-process automation). It is often used together with BPMN, Talend, MuleSoft, Git.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-088",
+    "doc_type": "technology",
+    "name": "Product Management",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-029",
+        "name": "OLIA product management and QA"
+      }
+    ],
+    "related_technologies": [
+      "Agile",
+      "Scrum",
+      "React",
+      "Python",
+      "Jira"
+    ],
+    "document_text": "Product Management is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA product management and QA). It is often used together with Agile, Scrum, React, Python, Jira.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-089",
+    "doc_type": "technology",
+    "name": "Prometheus",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-028",
+        "name": "OLIA cloud-agnostic DevSecOps"
+      }
+    ],
+    "related_technologies": [
+      "Kubernetes",
+      "Docker",
+      "GitHub Actions",
+      "Grafana",
+      "FastAPI"
+    ],
+    "document_text": "Prometheus is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA cloud-agnostic DevSecOps). It is often used together with Kubernetes, Docker, GitHub Actions, Grafana, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-090",
+    "doc_type": "technology",
+    "name": "Pub/Sub",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-005",
+        "name": "GCP data-platform evolution"
+      }
+    ],
+    "related_technologies": [
+      "GCP",
+      "Python",
+      "Terraform",
+      "Cloud Run",
+      "Azure DevOps"
+    ],
+    "document_text": "Pub/Sub is a technology in the category 'Cloud platforms'. It appears in 1 of Olivesoft's real PFE project references (for example: GCP data-platform evolution). It is often used together with GCP, Python, Terraform, Cloud Run, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-091",
+    "doc_type": "technology",
+    "name": "R",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-030",
+        "name": "Financial recommendation and investment agent"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Databricks",
+      "LLM",
+      "RAG",
+      "GCP"
+    ],
+    "document_text": "R is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Financial recommendation and investment agent). It is often used together with Python, Databricks, LLM, RAG, GCP.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-092",
+    "doc_type": "technology",
+    "name": "Rasa",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-014",
+        "name": "Digital-marketing LLM chatbot"
+      }
+    ],
+    "related_technologies": [
+      "Python",
+      "Dialogflow",
+      "Mistral",
+      "Claude",
+      "Gemini"
+    ],
+    "document_text": "Rasa is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real PFE project references (for example: Digital-marketing LLM chatbot). It is often used together with Python, Dialogflow, Mistral, Claude, Gemini.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-093",
+    "doc_type": "technology",
+    "name": "Scrum",
+    "category": "Process, automation and governance",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-029",
+        "name": "OLIA product management and QA"
+      }
+    ],
+    "related_technologies": [
+      "Agile",
+      "Product Management",
+      "React",
+      "Python",
+      "Jira"
+    ],
+    "document_text": "Scrum is a technology in the category 'Process, automation and governance'. It appears in 1 of Olivesoft's real PFE project references (for example: OLIA product management and QA). It is often used together with Agile, Product Management, React, Python, Jira.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-094",
+    "doc_type": "technology",
+    "name": "Tabular Editor",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-026",
+        "name": "Industrialized Power BI development"
+      }
+    ],
+    "related_technologies": [
+      "Power BI",
+      "Azure DevOps",
+      "Git",
+      "YAML Pipelines",
+      "DAX Studio"
+    ],
+    "document_text": "Tabular Editor is a technology in the category 'BI and reporting'. It appears in 1 of Olivesoft's real PFE project references (for example: Industrialized Power BI development). It is often used together with Power BI, Azure DevOps, Git, YAML Pipelines, DAX Studio.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-095",
+    "doc_type": "technology",
+    "name": "Unit testing",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-023",
+        "name": "MuleSoft error-handling accelerator"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "Datadog",
+      "Jira",
+      "Azure DevOps"
+    ],
+    "document_text": "Unit testing is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: MuleSoft error-handling accelerator). It is often used together with MuleSoft, Datadog, Jira, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-096",
+    "doc_type": "technology",
+    "name": "ValueOrbit",
+    "category": "Marketing and sales tools",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-032",
+        "name": "OliveSoft data-driven go-to-market strategy"
+      }
+    ],
+    "related_technologies": [
+      "Salesforce",
+      "LinkedIn",
+      "Clay",
+      "Apollo",
+      "Brevo"
+    ],
+    "document_text": "ValueOrbit is a technology in the category 'Marketing and sales tools'. It appears in 1 of Olivesoft's real PFE project references (for example: OliveSoft data-driven go-to-market strategy). It is often used together with Salesforce, LinkedIn, Clay, Apollo, Brevo.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-097",
+    "doc_type": "technology",
+    "name": "XML",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-025",
+        "name": "Odoo Community internal integration"
+      }
+    ],
+    "related_technologies": [
+      "Odoo Community",
+      "Python",
+      "PostgreSQL",
+      "JavaScript",
+      "n8n"
+    ],
+    "document_text": "XML is a technology in the category 'Web and design'. It appears in 1 of Olivesoft's real PFE project references (for example: Odoo Community internal integration). It is often used together with Odoo Community, Python, PostgreSQL, JavaScript, n8n.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-098",
+    "doc_type": "technology",
+    "name": "YAML Pipelines",
+    "category": "DevOps and observability",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "olivesoft-026",
+        "name": "Industrialized Power BI development"
+      }
+    ],
+    "related_technologies": [
+      "Power BI",
+      "Azure DevOps",
+      "Git",
+      "Tabular Editor",
+      "DAX Studio"
+    ],
+    "document_text": "YAML Pipelines is a technology in the category 'DevOps and observability'. It appears in 1 of Olivesoft's real PFE project references (for example: Industrialized Power BI development). It is often used together with Power BI, Azure DevOps, Git, Tabular Editor, DAX Studio.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-099",
+    "doc_type": "technology",
+    "name": "Django",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 13,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "Django is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 13 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-100",
+    "doc_type": "technology",
+    "name": "Flutter",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 7,
+    "cv_count": 11,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "REST APIs",
+      "MongoDB",
+      "Terraform",
+      "Scikit-learn",
+      "Redis"
+    ],
+    "document_text": "Flutter is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 7 synthetic past projects. 11 CVs in the CV bank list it as a skill. It is often used together with REST APIs, MongoDB, Terraform, Scikit-learn, Redis.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-101",
+    "doc_type": "technology",
+    "name": "Spring Boot",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 9,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "Spring Boot is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 9 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-102",
+    "doc_type": "technology",
+    "name": "Kotlin",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 8,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "PostgreSQL",
+      "Swift",
+      "Tailwind CSS",
+      "GraphQL",
+      "Python"
+    ],
+    "document_text": "Kotlin is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 8 CVs in the CV bank list it as a skill. It is often used together with PostgreSQL, Swift, Tailwind CSS, GraphQL, Python.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-103",
+    "doc_type": "technology",
+    "name": "ChromaDB",
+    "category": "Vector databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 7,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Python",
+      "PostgreSQL",
+      "Flutter",
+      "REST APIs",
+      "Scikit-learn"
+    ],
+    "document_text": "ChromaDB is a technology in the category 'Vector databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with Python, PostgreSQL, Flutter, REST APIs, Scikit-learn.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-104",
+    "doc_type": "technology",
+    "name": "GraphQL",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 7,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "PostgreSQL",
+      "AWS",
+      "React",
+      "TypeScript",
+      "Pinecone"
+    ],
+    "document_text": "GraphQL is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with PostgreSQL, AWS, React, TypeScript, Pinecone.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-105",
+    "doc_type": "technology",
+    "name": "Tailwind CSS",
+    "category": "Web and design",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 7,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "PostgreSQL",
+      "Swift",
+      "Kotlin",
+      "GraphQL",
+      "Python"
+    ],
+    "document_text": "Tailwind CSS is a technology in the category 'Web and design'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 7 CVs in the CV bank list it as a skill. It is often used together with PostgreSQL, Swift, Kotlin, GraphQL, Python.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-106",
+    "doc_type": "technology",
+    "name": "Computer Vision",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 4,
+    "cv_count": 6,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "PyTorch",
+      "Edge AI",
+      "Python",
+      "NLP",
+      "FastAPI"
+    ],
+    "document_text": "Computer Vision is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 4 synthetic past projects. 6 CVs in the CV bank list it as a skill. It is often used together with PyTorch, Edge AI, Python, NLP, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-107",
+    "doc_type": "technology",
+    "name": "Redis",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 4,
+    "cv_count": 6,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Swift",
+      "Flutter",
+      "MongoDB",
+      "Scikit-learn",
+      "Terraform"
+    ],
+    "document_text": "Redis is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 4 synthetic past projects. 6 CVs in the CV bank list it as a skill. It is often used together with Swift, Flutter, MongoDB, Scikit-learn, Terraform.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-108",
+    "doc_type": "technology",
+    "name": "MongoDB",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 3,
+    "cv_count": 5,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Flutter",
+      "Redis",
+      "Azure",
+      "ChromaDB",
+      "Python"
+    ],
+    "document_text": "MongoDB is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 3 synthetic past projects. 5 CVs in the CV bank list it as a skill. It is often used together with Flutter, Redis, Azure, ChromaDB, Python.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-109",
+    "doc_type": "technology",
+    "name": "Offline Sync",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 4,
+    "cv_count": 5,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Salesforce",
+      "CRM Analytics",
+      "Lightning",
+      "Data Residency",
+      "REST APIs"
+    ],
+    "document_text": "Offline Sync is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 4 synthetic past projects. 5 CVs in the CV bank list it as a skill. It is often used together with Salesforce, CRM Analytics, Lightning, Data Residency, REST APIs.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-110",
+    "doc_type": "technology",
+    "name": "Pinecone",
+    "category": "Vector databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 4,
+    "cv_count": 4,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "React",
+      "RAG",
+      "Python",
+      "LangChain",
+      "FastAPI"
+    ],
+    "document_text": "Pinecone is a technology in the category 'Vector databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 4 synthetic past projects. 4 CVs in the CV bank list it as a skill. It is often used together with React, RAG, Python, LangChain, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-111",
+    "doc_type": "technology",
+    "name": "Scikit-learn",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 5,
+    "cv_count": 4,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "TensorFlow",
+      "Python",
+      "Terraform",
+      "Flutter",
+      "MLOps"
+    ],
+    "document_text": "Scikit-learn is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 5 synthetic past projects. 4 CVs in the CV bank list it as a skill. It is often used together with TensorFlow, Python, Terraform, Flutter, MLOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-112",
+    "doc_type": "technology",
+    "name": "CRM Analytics",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Salesforce",
+      "Lightning",
+      "Data Residency",
+      "Offline Sync"
+    ],
+    "document_text": "CRM Analytics is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Salesforce, Lightning, Data Residency, Offline Sync.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-113",
+    "doc_type": "technology",
+    "name": "DAX",
+    "category": "BI and reporting",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Power BI",
+      "Row-Level Security",
+      "Data Modelling",
+      "Azure DevOps",
+      "Azure SQL"
+    ],
+    "document_text": "DAX is a technology in the category 'BI and reporting'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Power BI, Row-Level Security, Data Modelling, Azure DevOps, Azure SQL.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-114",
+    "doc_type": "technology",
+    "name": "Data Migration",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "Azure DevOps"
+    ],
+    "document_text": "Data Migration is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Salesforce, Apex, Lightning, Azure DevOps.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-115",
+    "doc_type": "technology",
+    "name": "Data Quality",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Talend",
+      "SQL",
+      "Apache Airflow",
+      "Azure DevOps",
+      "SQL Server"
+    ],
+    "document_text": "Data Quality is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Talend, SQL, Apache Airflow, Azure DevOps, SQL Server.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-116",
+    "doc_type": "technology",
+    "name": "Edge AI",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Computer Vision",
+      "PyTorch",
+      "Docker",
+      "OpenCV",
+      "ONNX"
+    ],
+    "document_text": "Edge AI is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Computer Vision, PyTorch, Docker, OpenCV, ONNX.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-117",
+    "doc_type": "technology",
+    "name": "Kafka",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Databricks",
+      "Terraform",
+      "Python",
+      "Spark",
+      "Datadog"
+    ],
+    "document_text": "Kafka is a technology in the category 'Data integration and ETL'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Databricks, Terraform, Python, Spark, Datadog.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-118",
+    "doc_type": "technology",
+    "name": "LangChain",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "RAG",
+      "Python",
+      "Pinecone",
+      "FastAPI"
+    ],
+    "document_text": "LangChain is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with RAG, Python, Pinecone, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-119",
+    "doc_type": "technology",
+    "name": "LlamaIndex",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 3,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Docker",
+      "Node.js",
+      "n8n",
+      "Swift",
+      "PyTorch"
+    ],
+    "document_text": "LlamaIndex is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 3 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Docker, Node.js, n8n, Swift, PyTorch.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-120",
+    "doc_type": "technology",
+    "name": "NLP",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Computer Vision",
+      "FastAPI",
+      "HuggingFace",
+      "Python",
+      "PyTorch"
+    ],
+    "document_text": "NLP is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Computer Vision, FastAPI, HuggingFace, Python, PyTorch.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-121",
+    "doc_type": "technology",
+    "name": "Row-Level Security",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Power BI",
+      "DAX",
+      "Data Modelling",
+      "Azure DevOps",
+      "Azure SQL"
+    ],
+    "document_text": "Row-Level Security is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Power BI, DAX, Data Modelling, Azure DevOps, Azure SQL.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-122",
+    "doc_type": "technology",
+    "name": "SQL Server",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Talend",
+      "SQL",
+      "Apache Airflow",
+      "Data Quality"
+    ],
+    "document_text": "SQL Server is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Talend, SQL, Apache Airflow, Data Quality.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-123",
+    "doc_type": "technology",
+    "name": "Snowflake",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "BigQuery",
+      "dbt",
+      "Terraform",
+      "Python",
+      "Data Lineage"
+    ],
+    "document_text": "Snowflake is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with BigQuery, dbt, Terraform, Python, Data Lineage.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-124",
+    "doc_type": "technology",
+    "name": "Swift",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 4,
+    "cv_count": 3,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Redis",
+      "Scikit-learn",
+      "Flutter",
+      "Terraform",
+      "PostgreSQL"
+    ],
+    "document_text": "Swift is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 4 synthetic past projects. 3 CVs in the CV bank list it as a skill. It is often used together with Redis, Scikit-learn, Flutter, Terraform, PostgreSQL.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-125",
+    "doc_type": "technology",
+    "name": "Data Modelling",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Power BI",
+      "DAX",
+      "Azure DevOps",
+      "Row-Level Security"
+    ],
+    "document_text": "Data Modelling is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Power BI, DAX, Azure DevOps, Row-Level Security.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-126",
+    "doc_type": "technology",
+    "name": "Elasticsearch",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "NLP",
+      "Computer Vision",
+      "PyTorch",
+      "FastAPI"
+    ],
+    "document_text": "Elasticsearch is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with NLP, Computer Vision, PyTorch, FastAPI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-127",
+    "doc_type": "technology",
+    "name": "Identity Resolution",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "GCP",
+      "BigQuery",
+      "MuleSoft",
+      "Talend",
+      "Python"
+    ],
+    "document_text": "Identity Resolution is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with GCP, BigQuery, MuleSoft, Talend, Python.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-128",
+    "doc_type": "technology",
+    "name": "ONNX",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Computer Vision",
+      "PyTorch",
+      "Python",
+      "Edge AI"
+    ],
+    "document_text": "ONNX is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Computer Vision, PyTorch, Python, Edge AI.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-129",
+    "doc_type": "technology",
+    "name": "OpenCV",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Computer Vision",
+      "PyTorch",
+      "Edge AI",
+      "Docker"
+    ],
+    "document_text": "OpenCV is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Computer Vision, PyTorch, Edge AI, Docker.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-130",
+    "doc_type": "technology",
+    "name": "Qdrant",
+    "category": "Vector databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "Qdrant is a technology in the category 'Vector databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 2 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-131",
+    "doc_type": "technology",
+    "name": "SSIS",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "SSIS is a technology in the category 'Data integration and ETL'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 2 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-132",
+    "doc_type": "technology",
+    "name": "Spark",
+    "category": "Data platforms and databases",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Kafka",
+      "Databricks",
+      "Terraform",
+      "Python"
+    ],
+    "document_text": "Spark is a technology in the category 'Data platforms and databases'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with Kafka, Databricks, Terraform, Python.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-133",
+    "doc_type": "technology",
+    "name": "Telematics",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 2,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "REST APIs",
+      "Flutter",
+      "Offline Sync",
+      "MuleSoft",
+      "Docker"
+    ],
+    "document_text": "Telematics is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 2 CVs in the CV bank list it as a skill. It is often used together with REST APIs, Flutter, Offline Sync, MuleSoft, Docker.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-134",
+    "doc_type": "technology",
+    "name": "API Management",
+    "category": "API and integration",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "MuleSoft",
+      "REST APIs",
+      "Master Data Management",
+      "SAP SuccessFactors"
+    ],
+    "document_text": "API Management is a technology in the category 'API and integration'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with MuleSoft, REST APIs, Master Data Management, SAP SuccessFactors.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-135",
+    "doc_type": "technology",
+    "name": "AWS",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "GraphQL",
+      "React",
+      "PostgreSQL",
+      "TypeScript",
+      "Pinecone"
+    ],
+    "document_text": "AWS is a technology in the category 'Cloud platforms'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with GraphQL, React, PostgreSQL, TypeScript, Pinecone.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-136",
+    "doc_type": "technology",
+    "name": "Audit Logging",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "Audit Logging is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 1 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-137",
+    "doc_type": "technology",
+    "name": "Data Lineage",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "BigQuery",
+      "Snowflake",
+      "dbt",
+      "Apache Airflow"
+    ],
+    "document_text": "Data Lineage is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with BigQuery, Snowflake, dbt, Apache Airflow.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-138",
+    "doc_type": "technology",
+    "name": "Data Residency",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Salesforce",
+      "CRM Analytics",
+      "Lightning",
+      "Offline Sync"
+    ],
+    "document_text": "Data Residency is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with Salesforce, CRM Analytics, Lightning, Offline Sync.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-139",
+    "doc_type": "technology",
+    "name": "Master Data Management",
+    "category": "Data and integration techniques",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 1,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "MuleSoft",
+      "REST APIs",
+      "API Management",
+      "SAP SuccessFactors"
+    ],
+    "document_text": "Master Data Management is a technology in the category 'Data and integration techniques'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 1 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with MuleSoft, REST APIs, API Management, SAP SuccessFactors.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-140",
+    "doc_type": "technology",
+    "name": "Node.js",
+    "category": "Languages and frameworks",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "Docker",
+      "LlamaIndex",
+      "Terraform",
+      "n8n",
+      "Flutter"
+    ],
+    "document_text": "Node.js is a technology in the category 'Languages and frameworks'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with Docker, LlamaIndex, Terraform, n8n, Flutter.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-141",
+    "doc_type": "technology",
+    "name": "Prompt Evaluation",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 0,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [],
+    "document_text": "Prompt Evaluation is a technology in the category 'AI and machine learning'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. 1 CVs in the CV bank list it as a skill.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-142",
+    "doc_type": "technology",
+    "name": "SAP SuccessFactors",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 2,
+    "cv_count": 1,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-001",
+        "name": "Unified HR Solution for Seamless Employee Management"
+      }
+    ],
+    "related_technologies": [
+      "MuleSoft",
+      "REST APIs",
+      "Datadog",
+      "DataWeave",
+      "Master Data Management"
+    ],
+    "document_text": "SAP SuccessFactors is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Unified HR Solution for Seamless Employee Management. It is used in 2 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with MuleSoft, REST APIs, Datadog, DataWeave, Master Data Management.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-143",
+    "doc_type": "technology",
+    "name": "dbt",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 0,
+    "synthetic_project_count": 2,
+    "cv_count": 1,
+    "real_project_evidence": "none",
+    "synthetic_only": true,
+    "example_real_projects": [],
+    "related_technologies": [
+      "BigQuery",
+      "Snowflake",
+      "Terraform",
+      "Python",
+      "Data Lineage"
+    ],
+    "document_text": "dbt is a technology in the category 'Data integration and ETL'. It does not appear in Olivesoft's real PFE project references; it only appears in synthetic CVs and projects. It is used in 2 synthetic past projects. 1 CVs in the CV bank list it as a skill. It is often used together with BigQuery, Snowflake, Terraform, Python, Data Lineage.",
+    "website_project_count": 0
+  },
+  {
+    "id": "TECH-144",
+    "doc_type": "technology",
+    "name": "Cegid",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-002",
+        "name": "From Fragmented Data to Growth: Empowering Sales With Data"
+      }
+    ],
+    "related_technologies": [
+      "GCP",
+      "BigQuery",
+      "Power BI"
+    ],
+    "document_text": "Cegid is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: From Fragmented Data to Growth: Empowering Sales With Data. It is often used together with GCP, BigQuery, Power BI.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-145",
+    "doc_type": "technology",
+    "name": "Sage X3",
+    "category": "CRM and business applications",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-003",
+        "name": "Transforming Forecasting with AI-powered Dashboards and Integration"
+      }
+    ],
+    "related_technologies": [
+      "Google Cloud Storage",
+      "Dataform",
+      "BigQuery",
+      "Power BI"
+    ],
+    "document_text": "Sage X3 is a technology in the category 'CRM and business applications'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Transforming Forecasting with AI-powered Dashboards and Integration. It is often used together with Google Cloud Storage, Dataform, BigQuery, Power BI.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-146",
+    "doc_type": "technology",
+    "name": "Google Cloud Storage",
+    "category": "Cloud platforms",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-003",
+        "name": "Transforming Forecasting with AI-powered Dashboards and Integration"
+      }
+    ],
+    "related_technologies": [
+      "Sage X3",
+      "Dataform",
+      "BigQuery",
+      "Power BI"
+    ],
+    "document_text": "Google Cloud Storage is a technology in the category 'Cloud platforms'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Transforming Forecasting with AI-powered Dashboards and Integration. It is often used together with Sage X3, Dataform, BigQuery, Power BI.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-147",
+    "doc_type": "technology",
+    "name": "Dataform",
+    "category": "Data integration and ETL",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-003",
+        "name": "Transforming Forecasting with AI-powered Dashboards and Integration"
+      }
+    ],
+    "related_technologies": [
+      "Sage X3",
+      "Google Cloud Storage",
+      "BigQuery",
+      "Power BI"
+    ],
+    "document_text": "Dataform is a technology in the category 'Data integration and ETL'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Transforming Forecasting with AI-powered Dashboards and Integration. It is often used together with Sage X3, Google Cloud Storage, BigQuery, Power BI.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-148",
+    "doc_type": "technology",
+    "name": "CoAtNet",
+    "category": "AI and machine learning",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-005",
+        "name": "Counterfeit and Grey Market Detection on Social and Second-Hand Platforms"
+      }
+    ],
+    "related_technologies": [
+      "FAISS"
+    ],
+    "document_text": "CoAtNet is a technology in the category 'AI and machine learning'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Counterfeit and Grey Market Detection on Social and Second-Hand Platforms. It is often used together with FAISS.",
+    "website_project_count": 1
+  },
+  {
+    "id": "TECH-149",
+    "doc_type": "technology",
+    "name": "FAISS",
+    "category": "Vector databases",
+    "variants_seen": [],
+    "real_project_count": 1,
+    "synthetic_project_count": 0,
+    "cv_count": 0,
+    "real_project_evidence": "limited",
+    "synthetic_only": false,
+    "example_real_projects": [
+      {
+        "id": "website-005",
+        "name": "Counterfeit and Grey Market Detection on Social and Second-Hand Platforms"
+      }
+    ],
+    "related_technologies": [
+      "CoAtNet"
+    ],
+    "document_text": "FAISS is a technology in the category 'Vector databases'. It appears in 1 of Olivesoft's real project references (1 client project published on the Olivesoft website). Website client projects: Counterfeit and Grey Market Detection on Social and Second-Hand Platforms. It is often used together with CoAtNet.",
+    "website_project_count": 1
+  },
+  {
+    "id": "STACK-001",
+    "doc_type": "stack_by_domain",
+    "domain": "data integration",
+    "project_count": 9,
+    "typical_technologies": [
+      {
+        "name": "Talend",
+        "projects": 7
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 6
+      },
+      {
+        "name": "Power BI",
+        "projects": 4
+      },
+      {
+        "name": "Azure",
+        "projects": 3
+      },
+      {
+        "name": "Apache Airflow",
+        "projects": 3
+      },
+      {
+        "name": "Datadog",
+        "projects": 3
+      },
+      {
+        "name": "MuleSoft",
+        "projects": 2
+      },
+      {
+        "name": "REST APIs",
+        "projects": 2
+      }
+    ],
+    "project_ids": [
+      "olivesoft-001",
+      "olivesoft-002",
+      "olivesoft-003",
+      "olivesoft-004",
+      "olivesoft-007",
+      "olivesoft-008",
+      "olivesoft-010",
+      "olivesoft-018",
+      "olivesoft-024"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, data integration projects typically use: Talend (7 projects), Azure DevOps (6 projects), Power BI (4 projects), Azure (3 projects), Apache Airflow (3 projects), Datadog (3 projects), MuleSoft (2 projects), REST APIs (2 projects). Projects: Talend TOS platform on Microsoft Azure; Smart-object management solution; Talend reporting solution; MuleSoft platform and business data flows; Asynchronous Talend flows; Human-resources process automation; HR reporting and monitoring platform; Talend CI/CD pipelines; Apache Airflow workflow scheduler."
+  },
+  {
+    "id": "STACK-002",
+    "doc_type": "stack_by_domain",
+    "domain": "BI",
+    "project_count": 7,
+    "typical_technologies": [
+      {
+        "name": "Power BI",
+        "projects": 7
+      },
+      {
+        "name": "Talend",
+        "projects": 4
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 3
+      },
+      {
+        "name": "MuleSoft",
+        "projects": 1
+      },
+      {
+        "name": "REST APIs",
+        "projects": 1
+      },
+      {
+        "name": "Angular",
+        "projects": 1
+      },
+      {
+        "name": "GCP",
+        "projects": 1
+      },
+      {
+        "name": "Datadog",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-002",
+      "olivesoft-003",
+      "olivesoft-008",
+      "olivesoft-011",
+      "olivesoft-017",
+      "olivesoft-026",
+      "olivesoft-034"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, BI projects typically use: Power BI (7 projects), Talend (4 projects), Azure DevOps (3 projects), MuleSoft (1 projects), REST APIs (1 projects), Angular (1 projects), GCP (1 projects), Datadog (1 projects). Projects: Smart-object management solution; Talend reporting solution; Human-resources process automation; Talend ETL and ESB monitoring platform; Sales and product-demand forecasting; Industrialized Power BI development; Content-marketing lead generation and KPI dashboard."
+  },
+  {
+    "id": "STACK-003",
+    "doc_type": "stack_by_domain",
+    "domain": "devops",
+    "project_count": 5,
+    "typical_technologies": [
+      {
+        "name": "Talend",
+        "projects": 3
+      },
+      {
+        "name": "Terraform",
+        "projects": 3
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 3
+      },
+      {
+        "name": "Azure",
+        "projects": 2
+      },
+      {
+        "name": "Power BI",
+        "projects": 2
+      },
+      {
+        "name": "Git",
+        "projects": 2
+      },
+      {
+        "name": "Apache Airflow",
+        "projects": 1
+      },
+      {
+        "name": "Docker",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-001",
+      "olivesoft-005",
+      "olivesoft-011",
+      "olivesoft-018",
+      "olivesoft-026"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, devops projects typically use: Talend (3 projects), Terraform (3 projects), Azure DevOps (3 projects), Azure (2 projects), Power BI (2 projects), Git (2 projects), Apache Airflow (1 projects), Docker (1 projects). Projects: Talend TOS platform on Microsoft Azure; GCP data-platform evolution; Talend ETL and ESB monitoring platform; Talend CI/CD pipelines; Industrialized Power BI development."
+  },
+  {
+    "id": "STACK-004",
+    "doc_type": "stack_by_domain",
+    "domain": "AI/ML",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "Python",
+        "projects": 4
+      },
+      {
+        "name": "BigQuery",
+        "projects": 3
+      },
+      {
+        "name": "SQL",
+        "projects": 2
+      },
+      {
+        "name": "TensorFlow",
+        "projects": 2
+      },
+      {
+        "name": "Power BI",
+        "projects": 2
+      },
+      {
+        "name": "PyTorch",
+        "projects": 1
+      },
+      {
+        "name": "HuggingFace",
+        "projects": 1
+      },
+      {
+        "name": "Azure ML",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-013",
+      "olivesoft-016",
+      "olivesoft-017",
+      "olivesoft-030"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, AI/ML projects typically use: Python (4 projects), BigQuery (3 projects), SQL (2 projects), TensorFlow (2 projects), Power BI (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects). Projects: Marketing scoring AI and MLOps; Product supplier and customer evaluation system; Sales and product-demand forecasting; Financial recommendation and investment agent."
+  },
+  {
+    "id": "STACK-005",
+    "doc_type": "stack_by_domain",
+    "domain": "Salesforce",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "Salesforce",
+        "projects": 4
+      },
+      {
+        "name": "Apex",
+        "projects": 4
+      },
+      {
+        "name": "Lightning",
+        "projects": 4
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 3
+      },
+      {
+        "name": "SQL",
+        "projects": 1
+      },
+      {
+        "name": "Talend",
+        "projects": 1
+      },
+      {
+        "name": "Boond",
+        "projects": 1
+      },
+      {
+        "name": "Einstein Agentforce",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-009",
+      "olivesoft-020",
+      "olivesoft-022",
+      "olivesoft-031"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, Salesforce projects typically use: Salesforce (4 projects), Apex (4 projects), Lightning (4 projects), Azure DevOps (3 projects), SQL (1 projects), Talend (1 projects), Boond (1 projects), Einstein Agentforce (1 projects). Projects: Salesforce customer master reference; Annual employee evaluation system; Project allocation by resource availability; Salesforce Customer 360 and loyalty."
+  },
+  {
+    "id": "STACK-006",
+    "doc_type": "stack_by_domain",
+    "domain": "cloud",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "Terraform",
+        "projects": 3
+      },
+      {
+        "name": "Docker",
+        "projects": 2
+      },
+      {
+        "name": "Kubernetes",
+        "projects": 2
+      },
+      {
+        "name": "GCP",
+        "projects": 2
+      },
+      {
+        "name": "Talend",
+        "projects": 1
+      },
+      {
+        "name": "Azure",
+        "projects": 1
+      },
+      {
+        "name": "Apache Airflow",
+        "projects": 1
+      },
+      {
+        "name": "Helm",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-001",
+      "olivesoft-005",
+      "olivesoft-019",
+      "olivesoft-028"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, cloud projects typically use: Terraform (3 projects), Docker (2 projects), Kubernetes (2 projects), GCP (2 projects), Talend (1 projects), Azure (1 projects), Apache Airflow (1 projects), Helm (1 projects). Projects: Talend TOS platform on Microsoft Azure; GCP data-platform evolution; BigQuery SQL workflow cloud platform; OLIA cloud-agnostic DevSecOps."
+  },
+  {
+    "id": "STACK-007",
+    "doc_type": "stack_by_domain",
+    "domain": "generative AI",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "Python",
+        "projects": 4
+      },
+      {
+        "name": "React",
+        "projects": 2
+      },
+      {
+        "name": "OpenAI",
+        "projects": 2
+      },
+      {
+        "name": "PyTorch",
+        "projects": 1
+      },
+      {
+        "name": "HuggingFace",
+        "projects": 1
+      },
+      {
+        "name": "Diffusers",
+        "projects": 1
+      },
+      {
+        "name": "FastAPI",
+        "projects": 1
+      },
+      {
+        "name": "TypeScript",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-015",
+      "olivesoft-027",
+      "olivesoft-029",
+      "olivesoft-033"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, generative AI projects typically use: Python (4 projects), React (2 projects), OpenAI (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Diffusers (1 projects), FastAPI (1 projects), TypeScript (1 projects). Projects: KWORE generative-media platform; OLIA agentic AI full-stack platform; OLIA product management and QA; Generative-AI sales acceleration."
+  },
+  {
+    "id": "STACK-008",
+    "doc_type": "stack_by_domain",
+    "domain": "API integration",
+    "project_count": 3,
+    "typical_technologies": [
+      {
+        "name": "MuleSoft",
+        "projects": 3
+      },
+      {
+        "name": "Datadog",
+        "projects": 3
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 3
+      },
+      {
+        "name": "CI/CD",
+        "projects": 2
+      },
+      {
+        "name": "Microservices",
+        "projects": 1
+      },
+      {
+        "name": "ServiceNow",
+        "projects": 1
+      },
+      {
+        "name": "Jira",
+        "projects": 1
+      },
+      {
+        "name": "Unit testing",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-004",
+      "olivesoft-006",
+      "olivesoft-023"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, API integration projects typically use: MuleSoft (3 projects), Datadog (3 projects), Azure DevOps (3 projects), CI/CD (2 projects), Microservices (1 projects), ServiceNow (1 projects), Jira (1 projects), Unit testing (1 projects). Projects: MuleSoft platform and business data flows; MuleSoft monitoring and decision support; MuleSoft error-handling accelerator."
+  },
+  {
+    "id": "STACK-009",
+    "doc_type": "stack_by_domain",
+    "domain": "HR",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "Talend",
+        "projects": 2
+      },
+      {
+        "name": "Power BI",
+        "projects": 2
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 2
+      },
+      {
+        "name": "BoondManager API",
+        "projects": 1
+      },
+      {
+        "name": "Azure",
+        "projects": 1
+      },
+      {
+        "name": "Apache Airflow",
+        "projects": 1
+      },
+      {
+        "name": "Azure SQL",
+        "projects": 1
+      },
+      {
+        "name": "Salesforce",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-008",
+      "olivesoft-010",
+      "olivesoft-020",
+      "website-001"
+    ],
+    "document_text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), HR projects typically use: Talend (2 projects), Power BI (2 projects), Azure DevOps (2 projects), BoondManager API (1 projects), Azure (1 projects), Apache Airflow (1 projects), Azure SQL (1 projects), Salesforce (1 projects). Projects: Human-resources process automation; HR reporting and monitoring platform; Annual employee evaluation system; Unified HR Solution for Seamless Employee Management."
+  },
+  {
+    "id": "STACK-010",
+    "doc_type": "stack_by_domain",
+    "domain": "monitoring",
+    "project_count": 3,
+    "typical_technologies": [
+      {
+        "name": "MuleSoft",
+        "projects": 2
+      },
+      {
+        "name": "Datadog",
+        "projects": 2
+      },
+      {
+        "name": "CI/CD",
+        "projects": 2
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 2
+      },
+      {
+        "name": "ServiceNow",
+        "projects": 1
+      },
+      {
+        "name": "Talend",
+        "projects": 1
+      },
+      {
+        "name": "Java",
+        "projects": 1
+      },
+      {
+        "name": "Power BI",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-006",
+      "olivesoft-011",
+      "olivesoft-023"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, monitoring projects typically use: MuleSoft (2 projects), Datadog (2 projects), CI/CD (2 projects), Azure DevOps (2 projects), ServiceNow (1 projects), Talend (1 projects), Java (1 projects), Power BI (1 projects). Projects: MuleSoft monitoring and decision support; Talend ETL and ESB monitoring platform; MuleSoft error-handling accelerator."
+  },
+  {
+    "id": "STACK-011",
+    "doc_type": "stack_by_domain",
+    "domain": "reporting",
+    "project_count": 3,
+    "typical_technologies": [
+      {
+        "name": "Azure DevOps",
+        "projects": 3
+      },
+      {
+        "name": "Talend",
+        "projects": 2
+      },
+      {
+        "name": "Power BI",
+        "projects": 2
+      },
+      {
+        "name": "Datadog",
+        "projects": 2
+      },
+      {
+        "name": "ServiceNow",
+        "projects": 2
+      },
+      {
+        "name": "GCP",
+        "projects": 1
+      },
+      {
+        "name": "MuleSoft",
+        "projects": 1
+      },
+      {
+        "name": "CI/CD",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-003",
+      "olivesoft-006",
+      "olivesoft-010"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, reporting projects typically use: Azure DevOps (3 projects), Talend (2 projects), Power BI (2 projects), Datadog (2 projects), ServiceNow (2 projects), GCP (1 projects), MuleSoft (1 projects), CI/CD (1 projects). Projects: Talend reporting solution; MuleSoft monitoring and decision support; HR reporting and monitoring platform."
+  },
+  {
+    "id": "STACK-012",
+    "doc_type": "stack_by_domain",
+    "domain": "retail",
+    "project_count": 4,
+    "typical_technologies": [
+      {
+        "name": "BigQuery",
+        "projects": 4
+      },
+      {
+        "name": "Power BI",
+        "projects": 3
+      },
+      {
+        "name": "Python",
+        "projects": 2
+      },
+      {
+        "name": "SQL",
+        "projects": 2
+      },
+      {
+        "name": "TensorFlow",
+        "projects": 2
+      },
+      {
+        "name": "GCP",
+        "projects": 2
+      },
+      {
+        "name": "MuleSoft",
+        "projects": 1
+      },
+      {
+        "name": "DataWeave",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-016",
+      "olivesoft-017",
+      "olivesoft-021",
+      "website-002"
+    ],
+    "document_text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), retail projects typically use: BigQuery (4 projects), Power BI (3 projects), Python (2 projects), SQL (2 projects), TensorFlow (2 projects), GCP (2 projects), MuleSoft (1 projects), DataWeave (1 projects). Projects: Product supplier and customer evaluation system; Sales and product-demand forecasting; Cross-brand product recommendation; From Fragmented Data to Growth: Empowering Sales With Data."
+  },
+  {
+    "id": "STACK-013",
+    "doc_type": "stack_by_domain",
+    "domain": "CRM",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Salesforce",
+        "projects": 2
+      },
+      {
+        "name": "Apex",
+        "projects": 2
+      },
+      {
+        "name": "Lightning",
+        "projects": 2
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 1
+      },
+      {
+        "name": "Einstein Agentforce",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-009",
+      "olivesoft-031"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, CRM projects typically use: Salesforce (2 projects), Apex (2 projects), Lightning (2 projects), Azure DevOps (1 projects), Einstein Agentforce (1 projects). Projects: Salesforce customer master reference; Salesforce Customer 360 and loyalty."
+  },
+  {
+    "id": "STACK-014",
+    "doc_type": "stack_by_domain",
+    "domain": "MLOps",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Python",
+        "projects": 1
+      },
+      {
+        "name": "PyTorch",
+        "projects": 1
+      },
+      {
+        "name": "HuggingFace",
+        "projects": 1
+      },
+      {
+        "name": "Azure ML",
+        "projects": 1
+      },
+      {
+        "name": "BigQuery",
+        "projects": 1
+      },
+      {
+        "name": "MLOps",
+        "projects": 1
+      },
+      {
+        "name": "Kubernetes",
+        "projects": 1
+      },
+      {
+        "name": "Docker",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-013",
+      "olivesoft-028"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, MLOps projects typically use: Python (1 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects), BigQuery (1 projects), MLOps (1 projects), Kubernetes (1 projects), Docker (1 projects). Projects: Marketing scoring AI and MLOps; OLIA cloud-agnostic DevSecOps."
+  },
+  {
+    "id": "STACK-015",
+    "doc_type": "stack_by_domain",
+    "domain": "data platform",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "GCP",
+        "projects": 2
+      },
+      {
+        "name": "Terraform",
+        "projects": 2
+      },
+      {
+        "name": "Python",
+        "projects": 1
+      },
+      {
+        "name": "Pub/Sub",
+        "projects": 1
+      },
+      {
+        "name": "Cloud Run",
+        "projects": 1
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 1
+      },
+      {
+        "name": "BigQuery",
+        "projects": 1
+      },
+      {
+        "name": "SQL",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-005",
+      "olivesoft-019"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, data platform projects typically use: GCP (2 projects), Terraform (2 projects), Python (1 projects), Pub/Sub (1 projects), Cloud Run (1 projects), Azure DevOps (1 projects), BigQuery (1 projects), SQL (1 projects). Projects: GCP data-platform evolution; BigQuery SQL workflow cloud platform."
+  },
+  {
+    "id": "STACK-016",
+    "doc_type": "stack_by_domain",
+    "domain": "digital marketing",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Python",
+        "projects": 2
+      },
+      {
+        "name": "PyTorch",
+        "projects": 1
+      },
+      {
+        "name": "HuggingFace",
+        "projects": 1
+      },
+      {
+        "name": "Azure ML",
+        "projects": 1
+      },
+      {
+        "name": "BigQuery",
+        "projects": 1
+      },
+      {
+        "name": "MLOps",
+        "projects": 1
+      },
+      {
+        "name": "Rasa",
+        "projects": 1
+      },
+      {
+        "name": "Dialogflow",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-013",
+      "olivesoft-014"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, digital marketing projects typically use: Python (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects), BigQuery (1 projects), MLOps (1 projects), Rasa (1 projects), Dialogflow (1 projects). Projects: Marketing scoring AI and MLOps; Digital-marketing LLM chatbot."
+  },
+  {
+    "id": "STACK-017",
+    "doc_type": "stack_by_domain",
+    "domain": "finance",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Salesforce",
+        "projects": 1
+      },
+      {
+        "name": "Apex",
+        "projects": 1
+      },
+      {
+        "name": "Lightning",
+        "projects": 1
+      },
+      {
+        "name": "Talend",
+        "projects": 1
+      },
+      {
+        "name": "Boond",
+        "projects": 1
+      },
+      {
+        "name": "Azure DevOps",
+        "projects": 1
+      },
+      {
+        "name": "Python",
+        "projects": 1
+      },
+      {
+        "name": "R",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-022",
+      "olivesoft-030"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, finance projects typically use: Salesforce (1 projects), Apex (1 projects), Lightning (1 projects), Talend (1 projects), Boond (1 projects), Azure DevOps (1 projects), Python (1 projects), R (1 projects). Projects: Project allocation by resource availability; Financial recommendation and investment agent."
+  },
+  {
+    "id": "STACK-018",
+    "doc_type": "stack_by_domain",
+    "domain": "predictive analytics",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Python",
+        "projects": 2
+      },
+      {
+        "name": "BigQuery",
+        "projects": 2
+      },
+      {
+        "name": "SQL",
+        "projects": 1
+      },
+      {
+        "name": "TensorFlow",
+        "projects": 1
+      },
+      {
+        "name": "Power BI",
+        "projects": 1
+      },
+      {
+        "name": "OpenAI",
+        "projects": 1
+      },
+      {
+        "name": "Claude",
+        "projects": 1
+      },
+      {
+        "name": "Clay",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-016",
+      "olivesoft-033"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, predictive analytics projects typically use: Python (2 projects), BigQuery (2 projects), SQL (1 projects), TensorFlow (1 projects), Power BI (1 projects), OpenAI (1 projects), Claude (1 projects), Clay (1 projects). Projects: Product supplier and customer evaluation system; Generative-AI sales acceleration."
+  },
+  {
+    "id": "STACK-019",
+    "doc_type": "stack_by_domain",
+    "domain": "sales",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "Salesforce",
+        "projects": 2
+      },
+      {
+        "name": "Clay",
+        "projects": 2
+      },
+      {
+        "name": "ValueOrbit",
+        "projects": 1
+      },
+      {
+        "name": "LinkedIn",
+        "projects": 1
+      },
+      {
+        "name": "Apollo",
+        "projects": 1
+      },
+      {
+        "name": "Brevo",
+        "projects": 1
+      },
+      {
+        "name": "BI",
+        "projects": 1
+      },
+      {
+        "name": "OpenAI",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-032",
+      "olivesoft-033"
+    ],
+    "document_text": "In Olivesoft's real PFE project references, sales projects typically use: Salesforce (2 projects), Clay (2 projects), ValueOrbit (1 projects), LinkedIn (1 projects), Apollo (1 projects), Brevo (1 projects), BI (1 projects), OpenAI (1 projects). Projects: OliveSoft data-driven go-to-market strategy; Generative-AI sales acceleration."
+  },
+  {
+    "id": "STACK-020",
+    "doc_type": "stack_by_domain",
+    "domain": "luxury",
+    "project_count": 2,
+    "typical_technologies": [
+      {
+        "name": "MuleSoft",
+        "projects": 1
+      },
+      {
+        "name": "DataWeave",
+        "projects": 1
+      },
+      {
+        "name": "AI Chain",
+        "projects": 1
+      },
+      {
+        "name": "BigQuery",
+        "projects": 1
+      },
+      {
+        "name": "GCP",
+        "projects": 1
+      },
+      {
+        "name": "CoAtNet",
+        "projects": 1
+      },
+      {
+        "name": "FAISS",
+        "projects": 1
+      }
+    ],
+    "project_ids": [
+      "olivesoft-021",
+      "website-005"
+    ],
+    "document_text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), luxury projects typically use: MuleSoft (1 projects), DataWeave (1 projects), AI Chain (1 projects), BigQuery (1 projects), GCP (1 projects), CoAtNet (1 projects), FAISS (1 projects). Projects: Cross-brand product recommendation; Counterfeit and Grey Market Detection on Social and Second-Hand Platforms."
+  }
+]

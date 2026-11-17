@@ -1,0 +1,45 @@
+name: Run proposal
+method: POST
+url: '{{proposalUrl}}/proposal/38fb0c7b-84e0-4762-afc7-35c1ba333fcb'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "cv_matches": [
+        {
+          "id": "c1",
+          "content": "",
+          "doc_type": "cv",
+          "source_file": "Cvs dataset/cv_0002.json",
+          "metadata": {
+            "record_id": "CV-0002",
+            "name": "Employee_002",
+            "person": "Employee_002",
+            "role": "Data engineer",
+            "years_experience": 7,
+            "skills": ["Airflow", "dbt", "Python"]
+          },
+          "similarity": 0.9,
+          "ranking_score": 0.9
+        }
+      ],
+      "project_matches": [
+        {
+          "id": "p1",
+          "content": "",
+          "doc_type": "project",
+          "source_file": "Cvs dataset/projects.json",
+          "metadata": {
+            "record_id": "PRJ-0003",
+            "name": "Central data hub",
+            "summary": "Central data hub for a water utility, unifying ETL pipelines.",
+            "client_sector": "utilities",
+            "outcome": "Handed over to internal IT."
+          },
+          "similarity": 0.87,
+          "ranking_score": 0.87
+        }
+      ]
+    }

@@ -1,0 +1,764 @@
+[
+  {
+    "id": "STACK-001",
+    "doc_type": "stack_by_domain",
+    "title": "data integration",
+    "text": "In Olivesoft's real PFE project references, data integration projects typically use: Talend (7 projects), Azure DevOps (6 projects), Power BI (4 projects), Azure (3 projects), Apache Airflow (3 projects), Datadog (3 projects), MuleSoft (2 projects), REST APIs (2 projects). Projects: Talend TOS platform on Microsoft Azure; Smart-object management solution; Talend reporting solution; MuleSoft platform and business data flows; Asynchronous Talend flows; Human-resources process automation; HR reporting and monitoring platform; Talend CI/CD pipelines; Apache Airflow workflow scheduler.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "c779dd70e89f7c3a7b1402afa6b8c68b",
+    "metadata": {
+      "domain": "data integration",
+      "typical_technologies": [
+        "Talend",
+        "7",
+        "Azure DevOps",
+        "6",
+        "Power BI",
+        "4",
+        "Azure",
+        "3",
+        "Apache Airflow",
+        "3",
+        "Datadog",
+        "3",
+        "MuleSoft",
+        "2",
+        "REST APIs",
+        "2"
+      ],
+      "project_ids": [
+        "olivesoft-001",
+        "olivesoft-002",
+        "olivesoft-003",
+        "olivesoft-004",
+        "olivesoft-007",
+        "olivesoft-008",
+        "olivesoft-010",
+        "olivesoft-018",
+        "olivesoft-024"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-002",
+    "doc_type": "stack_by_domain",
+    "title": "BI",
+    "text": "In Olivesoft's real PFE project references, BI projects typically use: Power BI (7 projects), Talend (4 projects), Azure DevOps (3 projects), MuleSoft (1 projects), REST APIs (1 projects), Angular (1 projects), GCP (1 projects), Datadog (1 projects). Projects: Smart-object management solution; Talend reporting solution; Human-resources process automation; Talend ETL and ESB monitoring platform; Sales and product-demand forecasting; Industrialized Power BI development; Content-marketing lead generation and KPI dashboard.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "a39c5bf3911cfe213a65776eae546ae2",
+    "metadata": {
+      "domain": "BI",
+      "typical_technologies": [
+        "Power BI",
+        "7",
+        "Talend",
+        "4",
+        "Azure DevOps",
+        "3",
+        "MuleSoft",
+        "1",
+        "REST APIs",
+        "1",
+        "Angular",
+        "1",
+        "GCP",
+        "1",
+        "Datadog",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-002",
+        "olivesoft-003",
+        "olivesoft-008",
+        "olivesoft-011",
+        "olivesoft-017",
+        "olivesoft-026",
+        "olivesoft-034"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-003",
+    "doc_type": "stack_by_domain",
+    "title": "devops",
+    "text": "In Olivesoft's real PFE project references, devops projects typically use: Talend (3 projects), Terraform (3 projects), Azure DevOps (3 projects), Azure (2 projects), Power BI (2 projects), Git (2 projects), Apache Airflow (1 projects), Docker (1 projects). Projects: Talend TOS platform on Microsoft Azure; GCP data-platform evolution; Talend ETL and ESB monitoring platform; Talend CI/CD pipelines; Industrialized Power BI development.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "4646b843875d83328c43604a6c38f68d",
+    "metadata": {
+      "domain": "devops",
+      "typical_technologies": [
+        "Talend",
+        "3",
+        "Terraform",
+        "3",
+        "Azure DevOps",
+        "3",
+        "Azure",
+        "2",
+        "Power BI",
+        "2",
+        "Git",
+        "2",
+        "Apache Airflow",
+        "1",
+        "Docker",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-001",
+        "olivesoft-005",
+        "olivesoft-011",
+        "olivesoft-018",
+        "olivesoft-026"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-004",
+    "doc_type": "stack_by_domain",
+    "title": "AI/ML",
+    "text": "In Olivesoft's real PFE project references, AI/ML projects typically use: Python (4 projects), BigQuery (3 projects), SQL (2 projects), TensorFlow (2 projects), Power BI (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects). Projects: Marketing scoring AI and MLOps; Product supplier and customer evaluation system; Sales and product-demand forecasting; Financial recommendation and investment agent.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "426c1452c84063b479b71ea26a88cdd7",
+    "metadata": {
+      "domain": "AI/ML",
+      "typical_technologies": [
+        "Python",
+        "4",
+        "BigQuery",
+        "3",
+        "SQL",
+        "2",
+        "TensorFlow",
+        "2",
+        "Power BI",
+        "2",
+        "PyTorch",
+        "1",
+        "HuggingFace",
+        "1",
+        "Azure ML",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-013",
+        "olivesoft-016",
+        "olivesoft-017",
+        "olivesoft-030"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-005",
+    "doc_type": "stack_by_domain",
+    "title": "Salesforce",
+    "text": "In Olivesoft's real PFE project references, Salesforce projects typically use: Salesforce (4 projects), Apex (4 projects), Lightning (4 projects), Azure DevOps (3 projects), SQL (1 projects), Talend (1 projects), Boond (1 projects), Einstein Agentforce (1 projects). Projects: Salesforce customer master reference; Annual employee evaluation system; Project allocation by resource availability; Salesforce Customer 360 and loyalty.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "0abd3e0b352ad635eab46f40bab1295d",
+    "metadata": {
+      "domain": "Salesforce",
+      "typical_technologies": [
+        "Salesforce",
+        "4",
+        "Apex",
+        "4",
+        "Lightning",
+        "4",
+        "Azure DevOps",
+        "3",
+        "SQL",
+        "1",
+        "Talend",
+        "1",
+        "Boond",
+        "1",
+        "Einstein Agentforce",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-009",
+        "olivesoft-020",
+        "olivesoft-022",
+        "olivesoft-031"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-006",
+    "doc_type": "stack_by_domain",
+    "title": "cloud",
+    "text": "In Olivesoft's real PFE project references, cloud projects typically use: Terraform (3 projects), Docker (2 projects), Kubernetes (2 projects), GCP (2 projects), Talend (1 projects), Azure (1 projects), Apache Airflow (1 projects), Helm (1 projects). Projects: Talend TOS platform on Microsoft Azure; GCP data-platform evolution; BigQuery SQL workflow cloud platform; OLIA cloud-agnostic DevSecOps.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "0292692462bc80b91a61cbe6d7d1ab37",
+    "metadata": {
+      "domain": "cloud",
+      "typical_technologies": [
+        "Terraform",
+        "3",
+        "Docker",
+        "2",
+        "Kubernetes",
+        "2",
+        "GCP",
+        "2",
+        "Talend",
+        "1",
+        "Azure",
+        "1",
+        "Apache Airflow",
+        "1",
+        "Helm",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-001",
+        "olivesoft-005",
+        "olivesoft-019",
+        "olivesoft-028"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-007",
+    "doc_type": "stack_by_domain",
+    "title": "generative AI",
+    "text": "In Olivesoft's real PFE project references, generative AI projects typically use: Python (4 projects), React (2 projects), OpenAI (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Diffusers (1 projects), FastAPI (1 projects), TypeScript (1 projects). Projects: KWORE generative-media platform; OLIA agentic AI full-stack platform; OLIA product management and QA; Generative-AI sales acceleration.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "62d658025bdee8bb16d0f3de2f088716",
+    "metadata": {
+      "domain": "generative AI",
+      "typical_technologies": [
+        "Python",
+        "4",
+        "React",
+        "2",
+        "OpenAI",
+        "2",
+        "PyTorch",
+        "1",
+        "HuggingFace",
+        "1",
+        "Diffusers",
+        "1",
+        "FastAPI",
+        "1",
+        "TypeScript",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-015",
+        "olivesoft-027",
+        "olivesoft-029",
+        "olivesoft-033"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-008",
+    "doc_type": "stack_by_domain",
+    "title": "API integration",
+    "text": "In Olivesoft's real PFE project references, API integration projects typically use: MuleSoft (3 projects), Datadog (3 projects), Azure DevOps (3 projects), CI/CD (2 projects), Microservices (1 projects), ServiceNow (1 projects), Jira (1 projects), Unit testing (1 projects). Projects: MuleSoft platform and business data flows; MuleSoft monitoring and decision support; MuleSoft error-handling accelerator.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "8aca975d4efe908c08ef6d55b69de58a",
+    "metadata": {
+      "domain": "API integration",
+      "typical_technologies": [
+        "MuleSoft",
+        "3",
+        "Datadog",
+        "3",
+        "Azure DevOps",
+        "3",
+        "CI/CD",
+        "2",
+        "Microservices",
+        "1",
+        "ServiceNow",
+        "1",
+        "Jira",
+        "1",
+        "Unit testing",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-004",
+        "olivesoft-006",
+        "olivesoft-023"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-009",
+    "doc_type": "stack_by_domain",
+    "title": "HR",
+    "text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), HR projects typically use: Talend (2 projects), Power BI (2 projects), Azure DevOps (2 projects), BoondManager API (1 projects), Azure (1 projects), Apache Airflow (1 projects), Azure SQL (1 projects), Salesforce (1 projects). Projects: Human-resources process automation; HR reporting and monitoring platform; Annual employee evaluation system; Unified HR Solution for Seamless Employee Management.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "642837fa3d70f1631c48502166a70073",
+    "metadata": {
+      "domain": "HR",
+      "typical_technologies": [
+        "Talend",
+        "2",
+        "Power BI",
+        "2",
+        "Azure DevOps",
+        "2",
+        "BoondManager API",
+        "1",
+        "Azure",
+        "1",
+        "Apache Airflow",
+        "1",
+        "Azure SQL",
+        "1",
+        "Salesforce",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-008",
+        "olivesoft-010",
+        "olivesoft-020",
+        "website-001"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-010",
+    "doc_type": "stack_by_domain",
+    "title": "monitoring",
+    "text": "In Olivesoft's real PFE project references, monitoring projects typically use: MuleSoft (2 projects), Datadog (2 projects), CI/CD (2 projects), Azure DevOps (2 projects), ServiceNow (1 projects), Talend (1 projects), Java (1 projects), Power BI (1 projects). Projects: MuleSoft monitoring and decision support; Talend ETL and ESB monitoring platform; MuleSoft error-handling accelerator.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "0f2c1173ed6f4f9d49a00848d8e81e13",
+    "metadata": {
+      "domain": "monitoring",
+      "typical_technologies": [
+        "MuleSoft",
+        "2",
+        "Datadog",
+        "2",
+        "CI/CD",
+        "2",
+        "Azure DevOps",
+        "2",
+        "ServiceNow",
+        "1",
+        "Talend",
+        "1",
+        "Java",
+        "1",
+        "Power BI",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-006",
+        "olivesoft-011",
+        "olivesoft-023"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-011",
+    "doc_type": "stack_by_domain",
+    "title": "reporting",
+    "text": "In Olivesoft's real PFE project references, reporting projects typically use: Azure DevOps (3 projects), Talend (2 projects), Power BI (2 projects), Datadog (2 projects), ServiceNow (2 projects), GCP (1 projects), MuleSoft (1 projects), CI/CD (1 projects). Projects: Talend reporting solution; MuleSoft monitoring and decision support; HR reporting and monitoring platform.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "63eef8c0985025d867a03c379dc159ee",
+    "metadata": {
+      "domain": "reporting",
+      "typical_technologies": [
+        "Azure DevOps",
+        "3",
+        "Talend",
+        "2",
+        "Power BI",
+        "2",
+        "Datadog",
+        "2",
+        "ServiceNow",
+        "2",
+        "GCP",
+        "1",
+        "MuleSoft",
+        "1",
+        "CI/CD",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-003",
+        "olivesoft-006",
+        "olivesoft-010"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-012",
+    "doc_type": "stack_by_domain",
+    "title": "retail",
+    "text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), retail projects typically use: BigQuery (4 projects), Power BI (3 projects), Python (2 projects), SQL (2 projects), TensorFlow (2 projects), GCP (2 projects), MuleSoft (1 projects), DataWeave (1 projects). Projects: Product supplier and customer evaluation system; Sales and product-demand forecasting; Cross-brand product recommendation; From Fragmented Data to Growth: Empowering Sales With Data.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "36500d1bfbec7eff780ff6ee427d89c9",
+    "metadata": {
+      "domain": "retail",
+      "typical_technologies": [
+        "BigQuery",
+        "4",
+        "Power BI",
+        "3",
+        "Python",
+        "2",
+        "SQL",
+        "2",
+        "TensorFlow",
+        "2",
+        "GCP",
+        "2",
+        "MuleSoft",
+        "1",
+        "DataWeave",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-016",
+        "olivesoft-017",
+        "olivesoft-021",
+        "website-002"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-013",
+    "doc_type": "stack_by_domain",
+    "title": "CRM",
+    "text": "In Olivesoft's real PFE project references, CRM projects typically use: Salesforce (2 projects), Apex (2 projects), Lightning (2 projects), Azure DevOps (1 projects), Einstein Agentforce (1 projects). Projects: Salesforce customer master reference; Salesforce Customer 360 and loyalty.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "5fbb3e76670343eec2898ab065329e0d",
+    "metadata": {
+      "domain": "CRM",
+      "typical_technologies": [
+        "Salesforce",
+        "2",
+        "Apex",
+        "2",
+        "Lightning",
+        "2",
+        "Azure DevOps",
+        "1",
+        "Einstein Agentforce",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-009",
+        "olivesoft-031"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-014",
+    "doc_type": "stack_by_domain",
+    "title": "MLOps",
+    "text": "In Olivesoft's real PFE project references, MLOps projects typically use: Python (1 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects), BigQuery (1 projects), MLOps (1 projects), Kubernetes (1 projects), Docker (1 projects). Projects: Marketing scoring AI and MLOps; OLIA cloud-agnostic DevSecOps.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "aabfcea8ad5898622d83fda5d17018e2",
+    "metadata": {
+      "domain": "MLOps",
+      "typical_technologies": [
+        "Python",
+        "1",
+        "PyTorch",
+        "1",
+        "HuggingFace",
+        "1",
+        "Azure ML",
+        "1",
+        "BigQuery",
+        "1",
+        "MLOps",
+        "1",
+        "Kubernetes",
+        "1",
+        "Docker",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-013",
+        "olivesoft-028"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-015",
+    "doc_type": "stack_by_domain",
+    "title": "data platform",
+    "text": "In Olivesoft's real PFE project references, data platform projects typically use: GCP (2 projects), Terraform (2 projects), Python (1 projects), Pub/Sub (1 projects), Cloud Run (1 projects), Azure DevOps (1 projects), BigQuery (1 projects), SQL (1 projects). Projects: GCP data-platform evolution; BigQuery SQL workflow cloud platform.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "14570fa77b642d52ad78570901f5eca9",
+    "metadata": {
+      "domain": "data platform",
+      "typical_technologies": [
+        "GCP",
+        "2",
+        "Terraform",
+        "2",
+        "Python",
+        "1",
+        "Pub/Sub",
+        "1",
+        "Cloud Run",
+        "1",
+        "Azure DevOps",
+        "1",
+        "BigQuery",
+        "1",
+        "SQL",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-005",
+        "olivesoft-019"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-016",
+    "doc_type": "stack_by_domain",
+    "title": "digital marketing",
+    "text": "In Olivesoft's real PFE project references, digital marketing projects typically use: Python (2 projects), PyTorch (1 projects), HuggingFace (1 projects), Azure ML (1 projects), BigQuery (1 projects), MLOps (1 projects), Rasa (1 projects), Dialogflow (1 projects). Projects: Marketing scoring AI and MLOps; Digital-marketing LLM chatbot.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "ec4932d7e239511b7c4bac7360a55d59",
+    "metadata": {
+      "domain": "digital marketing",
+      "typical_technologies": [
+        "Python",
+        "2",
+        "PyTorch",
+        "1",
+        "HuggingFace",
+        "1",
+        "Azure ML",
+        "1",
+        "BigQuery",
+        "1",
+        "MLOps",
+        "1",
+        "Rasa",
+        "1",
+        "Dialogflow",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-013",
+        "olivesoft-014"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-017",
+    "doc_type": "stack_by_domain",
+    "title": "finance",
+    "text": "In Olivesoft's real PFE project references, finance projects typically use: Salesforce (1 projects), Apex (1 projects), Lightning (1 projects), Talend (1 projects), Boond (1 projects), Azure DevOps (1 projects), Python (1 projects), R (1 projects). Projects: Project allocation by resource availability; Financial recommendation and investment agent.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "6c858f355a614718691850e23d8c9153",
+    "metadata": {
+      "domain": "finance",
+      "typical_technologies": [
+        "Salesforce",
+        "1",
+        "Apex",
+        "1",
+        "Lightning",
+        "1",
+        "Talend",
+        "1",
+        "Boond",
+        "1",
+        "Azure DevOps",
+        "1",
+        "Python",
+        "1",
+        "R",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-022",
+        "olivesoft-030"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-018",
+    "doc_type": "stack_by_domain",
+    "title": "predictive analytics",
+    "text": "In Olivesoft's real PFE project references, predictive analytics projects typically use: Python (2 projects), BigQuery (2 projects), SQL (1 projects), TensorFlow (1 projects), Power BI (1 projects), OpenAI (1 projects), Claude (1 projects), Clay (1 projects). Projects: Product supplier and customer evaluation system; Generative-AI sales acceleration.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "c9563984441553a8e072671f4327f204",
+    "metadata": {
+      "domain": "predictive analytics",
+      "typical_technologies": [
+        "Python",
+        "2",
+        "BigQuery",
+        "2",
+        "SQL",
+        "1",
+        "TensorFlow",
+        "1",
+        "Power BI",
+        "1",
+        "OpenAI",
+        "1",
+        "Claude",
+        "1",
+        "Clay",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-016",
+        "olivesoft-033"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-019",
+    "doc_type": "stack_by_domain",
+    "title": "sales",
+    "text": "In Olivesoft's real PFE project references, sales projects typically use: Salesforce (2 projects), Clay (2 projects), ValueOrbit (1 projects), LinkedIn (1 projects), Apollo (1 projects), Brevo (1 projects), BI (1 projects), OpenAI (1 projects). Projects: OliveSoft data-driven go-to-market strategy; Generative-AI sales acceleration.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "ffbfc95988a19764196bbddfcbf96417",
+    "metadata": {
+      "domain": "sales",
+      "typical_technologies": [
+        "Salesforce",
+        "2",
+        "Clay",
+        "2",
+        "ValueOrbit",
+        "1",
+        "LinkedIn",
+        "1",
+        "Apollo",
+        "1",
+        "Brevo",
+        "1",
+        "BI",
+        "1",
+        "OpenAI",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-032",
+        "olivesoft-033"
+      ],
+      "mixed_sources": true
+    }
+  },
+  {
+    "id": "STACK-020",
+    "doc_type": "stack_by_domain",
+    "title": "luxury",
+    "text": "In Olivesoft's real project references (PFE internship projects and client projects published on the website), luxury projects typically use: MuleSoft (1 projects), DataWeave (1 projects), AI Chain (1 projects), BigQuery (1 projects), GCP (1 projects), CoAtNet (1 projects), FAISS (1 projects). Projects: Cross-brand product recommendation; Counterfeit and Grey Market Detection on Social and Second-Hand Platforms.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "tech_stacks.json",
+    "chunk_version": "v1",
+    "content_hash": "0ff6acc704b366a7b3c8fa48cc4dbf13",
+    "metadata": {
+      "domain": "luxury",
+      "typical_technologies": [
+        "MuleSoft",
+        "1",
+        "DataWeave",
+        "1",
+        "AI Chain",
+        "1",
+        "BigQuery",
+        "1",
+        "GCP",
+        "1",
+        "CoAtNet",
+        "1",
+        "FAISS",
+        "1"
+      ],
+      "project_ids": [
+        "olivesoft-021",
+        "website-005"
+      ],
+      "mixed_sources": true
+    }
+  }
+]

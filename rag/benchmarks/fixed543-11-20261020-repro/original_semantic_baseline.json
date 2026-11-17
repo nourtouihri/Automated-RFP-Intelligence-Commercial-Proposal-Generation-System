@@ -1,0 +1,153 @@
+{
+  "case_count": 11,
+  "k": 5,
+  "precision_at_k": 0.18181818181818182,
+  "recall_at_k": 0.9090909090909091,
+  "mean_reciprocal_rank": 0.8636363636363636,
+  "cases": [
+    {
+      "id": "cv-fastapi-backend",
+      "retrieved_ids": [
+        "CV-0007",
+        "CV-0016",
+        "CV-0058",
+        "CV-0015",
+        "CV-0019"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "cv-react-fullstack",
+      "retrieved_ids": [
+        "CV-0076",
+        "CV-0084",
+        "CV-0075",
+        "CV-0077",
+        "CV-0121"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "cv-rag-data",
+      "retrieved_ids": [
+        "CV-0005",
+        "CV-0012",
+        "CV-0044",
+        "CV-0016",
+        "CV-0115"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "cv-kubernetes-cloud",
+      "retrieved_ids": [
+        "CV-0020",
+        "CV-0080",
+        "CV-0078",
+        "CV-0128",
+        "CV-0019"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "project-banking-modernization",
+      "retrieved_ids": [
+        "PRJ-0004",
+        "PRJ-0139",
+        "olivesoft-012",
+        "PRJ-0077",
+        "PRJ-0093"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "project-healthcare-ai",
+      "retrieved_ids": [
+        "PRJ-0012",
+        "PRJ-0130",
+        "PRJ-0009",
+        "PRJ-0144",
+        "PRJ-0058"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "project-retail-automation",
+      "retrieved_ids": [
+        "PRJ-0008",
+        "PRJ-0119",
+        "PRJ-0139",
+        "PRJ-0147",
+        "PRJ-0140"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "project-mobile-real-estate",
+      "retrieved_ids": [
+        "PRJ-0006",
+        "PRJ-0133",
+        "PRJ-0011",
+        "PRJ-0126",
+        "PRJ-0121"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-olia-agentic-rag",
+      "retrieved_ids": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-014",
+        "olivesoft-029",
+        "olivesoft-004"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-odoo-n8n-migration",
+      "retrieved_ids": [
+        "olivesoft-025",
+        "PRJ-0045",
+        "PRJ-0046",
+        "PRJ-0003",
+        "olivesoft-008"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-iso27001",
+      "retrieved_ids": [
+        "olivesoft-036",
+        "PRJ-0041",
+        "PRJ-0042",
+        "PRJ-0105",
+        "PRJ-0033"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    }
+  ],
+  "corpus_chunks": 543
+}

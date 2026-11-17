@@ -1,0 +1,221 @@
+/* Final — generated from tokens.json by scripts/build_tokens.py */
+
+:root, [data-theme="light"] {
+  --canvas: #f4f6f8;
+  --surface: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f0f3f6;
+  --glass: rgba(255, 255, 255, 0.52);
+  --glass-strong: rgba(255, 255, 255, 0.86);
+  --glass-edge: rgba(255, 255, 255, 0.8);
+  --hairline: rgba(24, 30, 48, 0.09);
+  --hairline-strong: rgba(24, 30, 48, 0.16);
+  --scrim: rgba(24, 30, 48, 0.28);
+  --ink: #181f28;
+  --ink-muted: #5c646f;
+  --ink-faint: #999fa7;
+  --action: #17436c;
+  --action-hover: #0a345a;
+  --on-action: #ffffff;
+  --action-soft: #d8e4f1;
+  --on-action-soft: #52657a;
+  --link: #1e65aa;
+  --focus: #1e65aa;
+  --accent: #df601b;
+  --accent-ink: #ae4410;
+  --accent-wash: #fff0e7;
+  --spark: #c77603;
+  --spark-ink: #8b5510;
+  --spark-wash: #fef3dd;
+  --good: #08745d;
+  --good-wash: #def8ef;
+  --risk: #bf3c30;
+  --risk-wash: #feece9;
+  --on-risk: #ffffff;
+  --stale: #5f646a;
+  --stale-wash: #eaedf1;
+  --file-pdf: #be3432;
+  --file-pptx: #ba5314;
+  --file-docx: #2c64ad;
+  --file-xlsx: #287b46;
+  --file-csv: #0f7774;
+  --file-other: #5f6a77;
+  --on-file: #ffffff;
+  --peach-glow: #fef5ef;
+  --peach-field: #fee0cf;
+  --peach-deep: #f2a779;
+  --peach-wash: #ffece1;
+  --peach-tint: #fef8f4;
+  --peach-ink: #8d4302;
+  --ice-glow: #f1f8fe;
+  --ice-field: #d4eafe;
+  --ice-deep: #8ec1ec;
+  --ice-wash: #e4f2ff;
+  --ice-tint: #f5faff;
+  --ice-ink: #275f8a;
+  --sage-glow: #f2faed;
+  --sage-field: #ddedd2;
+  --sage-deep: #a6c78d;
+  --sage-wash: #e9f4e1;
+  --sage-tint: #f7faf4;
+  --sage-ink: #466629;
+  --mist-glow: #ebfafc;
+  --mist-field: #cdeff3;
+  --mist-deep: #7cc9d2;
+  --mist-wash: #def5f8;
+  --mist-tint: #f3fbfc;
+  --mist-ink: #076770;
+  --blush-glow: #fef4f5;
+  --blush-field: #fedee2;
+  --blush-deep: #eea2af;
+  --blush-wash: #feebed;
+  --blush-tint: #fef7f8;
+  --blush-ink: #894050;
+  --stone-glow: #faf6f2;
+  --stone-field: #eee6dc;
+  --stone-deep: #c8b8a3;
+  --stone-wash: #f5efe8;
+  --stone-tint: #faf9f6;
+  --stone-ink: #685843;
+  --shadow-card: 0 1px 2px rgba(22, 28, 45, 0.04), 0 12px 32px -16px rgba(22, 28, 45, 0.16);
+  --shadow-raised: 0 1px 2px rgba(22, 28, 45, 0.06), 0 8px 20px -10px rgba(22, 28, 45, 0.22);
+  --shadow-control: 0 1px 2px rgba(22, 28, 45, 0.1), 0 2px 8px -2px rgba(22, 28, 45, 0.1);
+  --shadow-glass: inset 0 1px 0 rgba(255, 255, 255, 0.72), 0 2px 8px rgba(22, 28, 45, 0.05), 0 36px 80px -32px rgba(22, 28, 45, 0.32);
+  --shadow-pop: 0 4px 14px rgba(22, 28, 45, 0.08), 0 28px 60px -18px rgba(22, 28, 45, 0.34);
+}
+
+[data-theme="dark"] {
+  --canvas: #0e1216;
+  --surface: #171c22;
+  --surface-raised: #20252c;
+  --surface-sunken: #12151a;
+  --glass: rgba(36, 40, 52, 0.58);
+  --glass-strong: rgba(38, 42, 55, 0.88);
+  --glass-edge: rgba(255, 255, 255, 0.1);
+  --hairline: rgba(255, 255, 255, 0.09);
+  --hairline-strong: rgba(255, 255, 255, 0.17);
+  --scrim: rgba(6, 8, 14, 0.55);
+  --ink: #ebeff4;
+  --ink-muted: #aab2bb;
+  --ink-faint: #6f757d;
+  --action: #8bbff6;
+  --action-hover: #a8d2fe;
+  --on-action: #071728;
+  --action-soft: #273442;
+  --on-action-soft: #97a7b7;
+  --link: #8cc3fc;
+  --focus: #96c9fe;
+  --accent: #f58b4b;
+  --accent-ink: #fcae78;
+  --accent-wash: #3c2315;
+  --spark: #f7bc50;
+  --spark-ink: #f5ca7a;
+  --spark-wash: #362911;
+  --good: #74d3b6;
+  --good-wash: #123128;
+  --risk: #f69183;
+  --risk-wash: #44211c;
+  --on-risk: #250e0b;
+  --stale: #acb2b9;
+  --stale-wash: #272a2e;
+  --file-pdf: #be3432;
+  --file-pptx: #ba5314;
+  --file-docx: #2c64ad;
+  --file-xlsx: #287b46;
+  --file-csv: #0f7774;
+  --file-other: #5f6a77;
+  --on-file: #ffffff;
+  --peach-glow: #6a4134;
+  --peach-field: #452319;
+  --peach-deep: #270f08;
+  --peach-wash: #48281d;
+  --peach-tint: #1a110f;
+  --peach-ink: #fbb88f;
+  --ice-glow: #375066;
+  --ice-field: #1b3041;
+  --ice-deep: #0a1925;
+  --ice-wash: #203445;
+  --ice-tint: #0f1419;
+  --ice-ink: #a2cff5;
+  --sage-glow: #39553f;
+  --sage-field: #1d3422;
+  --sage-deep: #0b1b0f;
+  --sage-wash: #223826;
+  --sage-tint: #101511;
+  --sage-ink: #b7d4a1;
+  --mist-glow: #2d5459;
+  --mist-field: #113437;
+  --mist-deep: #031b1e;
+  --mist-wash: #17373b;
+  --mist-tint: #0e1516;
+  --mist-ink: #93d6de;
+  --blush-glow: #664148;
+  --blush-field: #422429;
+  --blush-deep: #251014;
+  --blush-wash: #45282d;
+  --blush-tint: #191113;
+  --blush-ink: #f7b4bf;
+  --stone-glow: #564b42;
+  --stone-field: #352c25;
+  --stone-deep: #1c1611;
+  --stone-wash: #383029;
+  --stone-tint: #161312;
+  --stone-ink: #d5c7b4;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.35), 0 14px 36px -16px rgba(0, 0, 0, 0.6);
+  --shadow-raised: 0 1px 2px rgba(0, 0, 0, 0.45), 0 10px 24px -10px rgba(0, 0, 0, 0.7);
+  --shadow-control: 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-glass: inset 0 1px 0 rgba(255, 255, 255, 0.07), 0 2px 8px rgba(0, 0, 0, 0.3), 0 36px 80px -32px rgba(0, 0, 0, 0.8);
+  --shadow-pop: 0 4px 14px rgba(0, 0, 0, 0.4), 0 28px 60px -18px rgba(0, 0, 0, 0.8);
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 40px;
+  --radius-pill: 999px;
+  --blur-glass: 24px;
+  --blur-pop: 36px;
+  --blur-world: 28px;
+  --blur-defocus: 6px;
+  --layer-world: 0;
+  --layer-glass: 10;
+  --layer-content: 20;
+  --layer-pop: 40;
+  --layer-modal: 60;
+  --font-display: Nunito;
+  --font-text: Work Sans;
+}
+
+.display-xl { font-family: var(--font-display); font-size: 56px; line-height: 54px; font-weight: 800; letter-spacing: -0.03em; }
+
+.display { font-family: var(--font-display); font-size: 36px; line-height: 38px; font-weight: 800; letter-spacing: -0.02em; }
+
+.title { font-family: var(--font-display); font-size: 24px; line-height: 28px; font-weight: 800; letter-spacing: -0.01em; }
+
+.label { font-family: var(--font-display); font-size: 15px; line-height: 20px; font-weight: 800; letter-spacing: 0; }
+
+.heading { font-family: var(--font-text); font-size: 16px; line-height: 24px; font-weight: 600; }
+
+.body { font-family: var(--font-text); font-size: 16px; line-height: 26px; font-weight: 400; }
+
+.ui { font-family: var(--font-text); font-size: 14px; line-height: 20px; font-weight: 400; }
+
+.ui-strong { font-family: var(--font-text); font-size: 14px; line-height: 20px; font-weight: 600; }
+
+.caption { font-family: var(--font-text); font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.01em; }
+
+.meta { font-family: var(--font-text); font-size: 12px; line-height: 16px; font-weight: 400; }

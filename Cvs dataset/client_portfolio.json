@@ -1,0 +1,506 @@
+[
+  {
+    "client_id": "CLIENT-001",
+    "name": "Lumera Energy",
+    "sector": "energy",
+    "sub_sector": "electricity and gas utility",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2019,
+    "status": "active",
+    "services_delivered": [
+      "Energy data platform migration"
+    ],
+    "technologies": [
+      "Azure",
+      "Flutter",
+      "MongoDB"
+    ],
+    "project_ids": [
+      "PRJ-0001"
+    ],
+    "project_count": 1,
+    "document_text": "Lumera Energy is an electricity and gas utility client in the energy sector. Region: Tunisia (simulated). Client of Olivesoft since 2019; relationship status: active. Olivesoft delivered 1 project(s): Energy data platform migration. Main technologies: Azure, Flutter, MongoDB.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-002",
+    "name": "Corvia Manufacturing",
+    "sector": "manufacturing",
+    "sub_sector": "industrial equipment manufacturing",
+    "region": "France (simulated)",
+    "relationship_since": 2020,
+    "status": "active",
+    "services_delivered": [
+      "Manufacturing customer portal revamp",
+      "Executive HR analytics semantic model",
+      "Demand forecasting with confidence bands",
+      "Automated visual inspection on a production line"
+    ],
+    "technologies": [
+      "Docker",
+      "PyTorch",
+      "LlamaIndex",
+      "Node.js",
+      "Power BI",
+      "DAX",
+      "Data Modelling",
+      "Azure DevOps",
+      "Row-Level Security",
+      "Python"
+    ],
+    "project_ids": [
+      "PRJ-0002",
+      "PRJ-0017",
+      "PRJ-0025",
+      "PRJ-0029"
+    ],
+    "project_count": 4,
+    "document_text": "Corvia Manufacturing is an industrial equipment manufacturing client in the manufacturing sector. Region: France (simulated). Client of Olivesoft since 2020; relationship status: active. Olivesoft delivered 4 project(s): Manufacturing customer portal revamp; Executive HR analytics semantic model; Demand forecasting with confidence bands; Automated visual inspection on a production line. Main technologies: Docker, PyTorch, LlamaIndex, Node.js, Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security, Python.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-003",
+    "name": "Tessara Textiles",
+    "sector": "manufacturing",
+    "sub_sector": "textile and garment production",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2015,
+    "status": "active",
+    "services_delivered": [
+      "Manufacturing internal workflow automation",
+      "Divisional reporting consolidation in Power BI",
+      "Forecast override dashboard with feedback loop",
+      "Offline edge inference with opportunistic sync"
+    ],
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "GraphQL",
+      "AWS",
+      "React",
+      "PostgreSQL",
+      "TypeScript",
+      "Pinecone",
+      "Power BI",
+      "DAX"
+    ],
+    "project_ids": [
+      "PRJ-0003",
+      "PRJ-0018",
+      "PRJ-0026",
+      "PRJ-0030"
+    ],
+    "project_count": 4,
+    "document_text": "Tessara Textiles is a textile and garment production client in the manufacturing sector. Region: Tunisia (simulated). Client of Olivesoft since 2015; relationship status: active. Olivesoft delivered 4 project(s): Manufacturing internal workflow automation; Divisional reporting consolidation in Power BI; Forecast override dashboard with feedback loop; Offline edge inference with opportunistic sync. Main technologies: Python, PyTorch, GraphQL, AWS, React, PostgreSQL, TypeScript, Pinecone, Power BI, DAX.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-004",
+    "name": "Orvane Bank",
+    "sector": "banking",
+    "sub_sector": "retail and corporate banking",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2019,
+    "status": "active",
+    "services_delivered": [
+      "Banking legacy system modernization"
+    ],
+    "technologies": [
+      "Scikit-learn",
+      "Terraform",
+      "n8n",
+      "React",
+      "TensorFlow"
+    ],
+    "project_ids": [
+      "PRJ-0004"
+    ],
+    "project_count": 1,
+    "document_text": "Orvane Bank is a retail and corporate banking client in the banking sector. Region: Tunisia (simulated). Client of Olivesoft since 2019; relationship status: active. Olivesoft delivered 1 project(s): Banking legacy system modernization. Main technologies: Scikit-learn, Terraform, n8n, React, TensorFlow.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-005",
+    "name": "Marlowe Freight",
+    "sector": "logistics",
+    "sub_sector": "road freight and warehousing",
+    "region": "Europe (simulated)",
+    "relationship_since": 2022,
+    "status": "active",
+    "services_delivered": [
+      "Logistics data platform migration",
+      "Logistics real-time analytics dashboard",
+      "Workforce data warehouse with reconciliation reports",
+      "Driver app with offline proof of delivery"
+    ],
+    "technologies": [
+      "n8n",
+      "Flutter",
+      "Node.js",
+      "Terraform",
+      "Pinecone",
+      "React",
+      "LlamaIndex",
+      "Swift",
+      "PyTorch",
+      "Talend"
+    ],
+    "project_ids": [
+      "PRJ-0005",
+      "PRJ-0010",
+      "PRJ-0016",
+      "PRJ-0038"
+    ],
+    "project_count": 4,
+    "document_text": "Marlowe Freight is a road freight and warehousing client in the logistics sector. Region: Europe (simulated). Client of Olivesoft since 2022; relationship status: active. Olivesoft delivered 4 project(s): Logistics data platform migration; Logistics real-time analytics dashboard; Workforce data warehouse with reconciliation reports; Driver app with offline proof of delivery. Main technologies: n8n, Flutter, Node.js, Terraform, Pinecone, React, LlamaIndex, Swift, PyTorch, Talend.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-006",
+    "name": "Nautica Port Services",
+    "sector": "logistics",
+    "sub_sector": "port and supply-chain services",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2014,
+    "status": "active",
+    "services_delivered": [
+      "Logistics AI-powered document processing",
+      "Incremental ETL pipeline migration from SSIS",
+      "Telematics API integration with maintenance and fuel systems"
+    ],
+    "technologies": [
+      "PostgreSQL",
+      "Swift",
+      "Kotlin",
+      "Tailwind CSS",
+      "GraphQL",
+      "Python",
+      "Talend",
+      "SQL",
+      "Data Quality",
+      "Apache Airflow"
+    ],
+    "project_ids": [
+      "PRJ-0009",
+      "PRJ-0015",
+      "PRJ-0037"
+    ],
+    "project_count": 3,
+    "document_text": "Nautica Port Services is a port and supply-chain services client in the logistics sector. Region: Tunisia (simulated). Client of Olivesoft since 2014; relationship status: active. Olivesoft delivered 3 project(s): Logistics AI-powered document processing; Incremental ETL pipeline migration from SSIS; Telematics API integration with maintenance and fuel systems. Main technologies: PostgreSQL, Swift, Kotlin, Tailwind CSS, GraphQL, Python, Talend, SQL, Data Quality, Apache Airflow.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-007",
+    "name": "Haldane Properties",
+    "sector": "real estate",
+    "sub_sector": "commercial property management",
+    "region": "Gulf region (simulated)",
+    "relationship_since": 2020,
+    "status": "past",
+    "services_delivered": [
+      "Real estate mobile app for field agents"
+    ],
+    "technologies": [
+      "Scikit-learn",
+      "Swift",
+      "Flutter",
+      "Terraform",
+      "Redis"
+    ],
+    "project_ids": [
+      "PRJ-0006"
+    ],
+    "project_count": 1,
+    "document_text": "Haldane Properties is a commercial property management client in the real estate sector. Region: Gulf region (simulated). Client of Olivesoft since 2020; relationship status: past. Olivesoft delivered 1 project(s): Real estate mobile app for field agents. Main technologies: Scikit-learn, Swift, Flutter, Terraform, Redis.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-008",
+    "name": "Dunmere Telecom",
+    "sector": "telecom",
+    "sub_sector": "mobile and fixed telecom operator",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2015,
+    "status": "active",
+    "services_delivered": [
+      "Telecom data platform migration"
+    ],
+    "technologies": [
+      "PostgreSQL",
+      "Flutter",
+      "REST APIs",
+      "ChromaDB",
+      "Python",
+      "Scikit-learn"
+    ],
+    "project_ids": [
+      "PRJ-0007"
+    ],
+    "project_count": 1,
+    "document_text": "Dunmere Telecom is a mobile and fixed telecom operator client in the telecom sector. Region: Tunisia (simulated). Client of Olivesoft since 2015; relationship status: active. Olivesoft delivered 1 project(s): Telecom data platform migration. Main technologies: PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-009",
+    "name": "Solenne Retail",
+    "sector": "retail",
+    "sub_sector": "multi-brand fashion and lifestyle retail",
+    "region": "France (simulated)",
+    "relationship_since": 2015,
+    "status": "past",
+    "services_delivered": [
+      "Retail internal workflow automation",
+      "Customer 360 on BigQuery",
+      "Real-time order event streaming platform",
+      "Grounded RAG support assistant with citations"
+    ],
+    "technologies": [
+      "Python",
+      "MongoDB",
+      "ChromaDB",
+      "Redis",
+      "PyTorch",
+      "GCP",
+      "BigQuery",
+      "Talend",
+      "Identity Resolution",
+      "MuleSoft"
+    ],
+    "project_ids": [
+      "PRJ-0008",
+      "PRJ-0019",
+      "PRJ-0021",
+      "PRJ-0027"
+    ],
+    "project_count": 4,
+    "document_text": "Solenne Retail is a multi-brand fashion and lifestyle retail client in the retail sector. Region: France (simulated). Client of Olivesoft since 2015; relationship status: past. Olivesoft delivered 4 project(s): Retail internal workflow automation; Customer 360 on BigQuery; Real-time order event streaming platform; Grounded RAG support assistant with citations. Main technologies: Python, MongoDB, ChromaDB, Redis, PyTorch, GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-010",
+    "name": "Avenir Distribution",
+    "sector": "retail",
+    "sub_sector": "supermarket and convenience retail",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2014,
+    "status": "active",
+    "services_delivered": [
+      "Versioned API platform with handover documentation",
+      "Multi-channel customer identity resolution",
+      "Databricks lakehouse with late-event handling",
+      "RAG evaluation harness against historical queries"
+    ],
+    "technologies": [
+      "Python",
+      "MuleSoft",
+      "REST APIs",
+      "Master Data Management",
+      "API Management",
+      "SAP SuccessFactors",
+      "GCP",
+      "BigQuery",
+      "Identity Resolution",
+      "Kafka"
+    ],
+    "project_ids": [
+      "PRJ-0014",
+      "PRJ-0020",
+      "PRJ-0022",
+      "PRJ-0028"
+    ],
+    "project_count": 4,
+    "document_text": "Avenir Distribution is a supermarket and convenience retail client in the retail sector. Region: Tunisia (simulated). Client of Olivesoft since 2014; relationship status: active. Olivesoft delivered 4 project(s): Versioned API platform with handover documentation; Multi-channel customer identity resolution; Databricks lakehouse with late-event handling; RAG evaluation harness against historical queries. Main technologies: Python, MuleSoft, REST APIs, Master Data Management, API Management, SAP SuccessFactors, GCP, BigQuery, Identity Resolution, Kafka.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-011",
+    "name": "Tamarin Insurance",
+    "sector": "insurance",
+    "sub_sector": "general insurance",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2017,
+    "status": "active",
+    "services_delivered": [
+      "Insurance mobile app for field agents",
+      "Service Cloud contact centre implementation",
+      "Case history migration and omnichannel routing"
+    ],
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Data Migration",
+      "Lightning",
+      "Azure DevOps",
+      "Flutter",
+      "Redis",
+      "LlamaIndex",
+      "MongoDB",
+      "GCP"
+    ],
+    "project_ids": [
+      "PRJ-0011",
+      "PRJ-0023",
+      "PRJ-0024"
+    ],
+    "project_count": 3,
+    "document_text": "Tamarin Insurance is a general insurance client in the insurance sector. Region: Tunisia (simulated). Client of Olivesoft since 2017; relationship status: active. Olivesoft delivered 3 project(s): Insurance mobile app for field agents; Service Cloud contact centre implementation; Case history migration and omnichannel routing. Main technologies: Salesforce, Apex, Data Migration, Lightning, Azure DevOps, Flutter, Redis, LlamaIndex, MongoDB, GCP.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-012",
+    "name": "Brightwell Health Network",
+    "sector": "healthcare",
+    "sub_sector": "private clinic network",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2023,
+    "status": "past",
+    "services_delivered": [
+      "Healthcare AI-powered document processing"
+    ],
+    "technologies": [
+      "AWS",
+      "Azure",
+      "Swift",
+      "Redis"
+    ],
+    "project_ids": [
+      "PRJ-0012"
+    ],
+    "project_count": 1,
+    "document_text": "Brightwell Health Network is a private clinic network client in the healthcare sector. Region: Tunisia (simulated). Client of Olivesoft since 2023; relationship status: past. Olivesoft delivered 1 project(s): Healthcare AI-powered document processing. Main technologies: AWS, Azure, Swift, Redis.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-013",
+    "name": "Alvara Public Services Agency",
+    "sector": "public administration",
+    "sub_sector": "national citizen services agency",
+    "region": "Europe (simulated)",
+    "relationship_since": 2014,
+    "status": "active",
+    "services_delivered": [
+      "Document similarity detection with ranked evidence",
+      "Citizen services CRM Analytics",
+      "Public statistics warehouse on BigQuery"
+    ],
+    "technologies": [
+      "Python",
+      "NLP",
+      "Computer Vision",
+      "HuggingFace",
+      "FastAPI",
+      "Salesforce",
+      "CRM Analytics",
+      "Lightning",
+      "Data Residency",
+      "Offline Sync"
+    ],
+    "project_ids": [
+      "PRJ-0031",
+      "PRJ-0033",
+      "PRJ-0035"
+    ],
+    "project_count": 3,
+    "document_text": "Alvara Public Services Agency is a national citizen services agency client in the public administration sector. Region: Europe (simulated). Client of Olivesoft since 2014; relationship status: active. Olivesoft delivered 3 project(s): Document similarity detection with ranked evidence; Citizen services CRM Analytics; Public statistics warehouse on BigQuery. Main technologies: Python, NLP, Computer Vision, HuggingFace, FastAPI, Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-014",
+    "name": "Civica Records Authority",
+    "sector": "public administration",
+    "sub_sector": "civil registry and records",
+    "region": "Tunisia (simulated)",
+    "relationship_since": 2014,
+    "status": "active",
+    "services_delivered": [
+      "Image and text matching with auditable decision trail",
+      "Offline-capable case management with reconciliation",
+      "Open data portal with lineage and de-identification"
+    ],
+    "technologies": [
+      "NLP",
+      "Computer Vision",
+      "PyTorch",
+      "FastAPI",
+      "Elasticsearch",
+      "Salesforce",
+      "CRM Analytics",
+      "Offline Sync",
+      "Data Residency",
+      "Lightning"
+    ],
+    "project_ids": [
+      "PRJ-0032",
+      "PRJ-0034",
+      "PRJ-0036"
+    ],
+    "project_count": 3,
+    "document_text": "Civica Records Authority is a civil registry and records client in the public administration sector. Region: Tunisia (simulated). Client of Olivesoft since 2014; relationship status: active. Olivesoft delivered 3 project(s): Image and text matching with auditable decision trail; Offline-capable case management with reconciliation; Open data portal with lineage and de-identification. Main technologies: NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch, Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-015",
+    "name": "Brightmoor Foods",
+    "sector": "consumer goods",
+    "sub_sector": "packaged food manufacturer",
+    "region": "Europe (simulated)",
+    "relationship_since": 2018,
+    "status": "past",
+    "services_delivered": [
+      "HR systems integration layer"
+    ],
+    "technologies": [
+      "MuleSoft",
+      "REST APIs",
+      "Datadog",
+      "DataWeave",
+      "SAP SuccessFactors"
+    ],
+    "project_ids": [
+      "PRJ-0013"
+    ],
+    "project_count": 1,
+    "document_text": "Brightmoor Foods is a packaged food manufacturer client in the consumer goods sector. Region: Europe (simulated). Client of Olivesoft since 2018; relationship status: past. Olivesoft delivered 1 project(s): HR systems integration layer. Main technologies: MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors.",
+    "origin": "synthetic",
+    "synthetic": true
+  },
+  {
+    "client_id": "CLIENT-016",
+    "name": "KWORE",
+    "sector": "generative AI and marketing communication",
+    "sub_sector": "client named in a PFE internship project",
+    "region": null,
+    "relationship_since": null,
+    "status": "named_in_pfe_project",
+    "services_delivered": [
+      "KWORE generative-media platform"
+    ],
+    "technologies": [
+      "Python",
+      "PyTorch",
+      "HuggingFace",
+      "Diffusers"
+    ],
+    "project_ids": [
+      "olivesoft-015"
+    ],
+    "project_count": 1,
+    "document_text": "KWORE is a client named in Olivesoft's real PFE project reference(s): KWORE generative-media platform. Sector: generative AI and marketing communication. Main technologies: Python, PyTorch, HuggingFace, Diffusers. Contract details are not available; this is a PFE internship project, not confirmed delivered work.",
+    "origin": "real_pfe_reference",
+    "synthetic": false
+  }
+]

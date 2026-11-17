@@ -1,0 +1,4840 @@
+{
+  "case_count": 28,
+  "k": 5,
+  "precision_at_k": 0.4714285714285714,
+  "recall_at_k": 0.9285714285714286,
+  "mean_reciprocal_rank": 0.8988095238095238,
+  "cases": [
+    {
+      "id": "holdout-tender-001-cv_ids",
+      "retrieved_ids": [
+        "CV-0023",
+        "CV-0022",
+        "CV-0021",
+        "CV-0066",
+        "CV-0067"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0021",
+        "CV-0022",
+        "CV-0023"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0023",
+        "CV-0022",
+        "CV-0021",
+        "CV-0066",
+        "CV-0067",
+        "CV-0131",
+        "CV-0087",
+        "CV-0058",
+        "CV-0130",
+        "CV-0088"
+      ],
+      "latency_ms": 3.4000200025426843,
+      "latency_samples_ms": [
+        3.0707999831065536,
+        2.9887999990023673,
+        3.084200026933104,
+        3.1284000142477453,
+        3.4629000001586974,
+        3.2699000439606607,
+        3.007400024216622,
+        3.5495999618433416,
+        5.638299975544214,
+        3.396799962501973,
+        3.1839999719522893,
+        3.8329000235535204,
+        3.4206000273115933,
+        2.993800037074834,
+        2.971899986732751
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0023",
+          "doc_type": "cv",
+          "content": "CV-0023 (Employee_023) - Solutions Architect, 11 years of experience. Skills: MuleSoft, REST APIs, DataWeave, Azure DevOps, Datadog, Docker, Spring Boot, Flutter, SAP SuccessFactors, Master Data Management, API Management. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role Solutions Architect, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors; Versioned API platform with handover documentation (retail) - role Solutions Architect, tech stack MuleSoft, REST APIs, Master Data Management, API Management, SAP SuccessFactors.",
+          "metadata": {
+            "role": "Solutions Architect",
+            "years_experience": 11,
+            "skills": [
+              "MuleSoft",
+              "REST APIs",
+              "DataWeave",
+              "Azure DevOps",
+              "Datadog",
+              "Docker",
+              "Spring Boot",
+              "Flutter",
+              "SAP SuccessFactors",
+              "Master Data Management",
+              "API Management"
+            ],
+            "certifications": [
+              "MuleSoft Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0013",
+              "PRJ-0014"
+            ],
+            "record_id": "CV-0023"
+          },
+          "bm25_score": 46.768242381637734
+        },
+        {
+          "record_id": "CV-0022",
+          "doc_type": "cv",
+          "content": "CV-0022 (Employee_022) - MuleSoft Developer, 4 years of experience. Skills: MuleSoft, REST APIs, API Management, Azure DevOps, Master Data Management, DataWeave, SQL, CI/CD, Spring Boot, Datadog, SAP SuccessFactors. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role MuleSoft Developer, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors.",
+          "metadata": {
+            "role": "MuleSoft Developer",
+            "years_experience": 4,
+            "skills": [
+              "MuleSoft",
+              "REST APIs",
+              "API Management",
+              "Azure DevOps",
+              "Master Data Management",
+              "DataWeave",
+              "SQL",
+              "CI/CD",
+              "Spring Boot",
+              "Datadog",
+              "SAP SuccessFactors"
+            ],
+            "certifications": [
+              "MuleSoft Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0013"
+            ],
+            "record_id": "CV-0022"
+          },
+          "bm25_score": 32.32230662352266
+        },
+        {
+          "record_id": "CV-0021",
+          "doc_type": "cv",
+          "content": "CV-0021 (Employee_021) - Integration Architect, 14 years of experience. Skills: MuleSoft, REST APIs, SAP SuccessFactors, Azure DevOps, DataWeave, Git, Datadog. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role Integration Architect, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors.",
+          "metadata": {
+            "role": "Integration Architect",
+            "years_experience": 14,
+            "skills": [
+              "MuleSoft",
+              "REST APIs",
+              "SAP SuccessFactors",
+              "Azure DevOps",
+              "DataWeave",
+              "Git",
+              "Datadog"
+            ],
+            "certifications": [
+              "MuleSoft Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0013"
+            ],
+            "record_id": "CV-0021"
+          },
+          "bm25_score": 25.2191610063524
+        },
+        {
+          "record_id": "CV-0066",
+          "doc_type": "cv",
+          "content": "CV-0066 (Employee_066) - SAP Consultant, 14 years of experience. Skills: SAP S/4HANA, ABAP, SAP Fiori, Azure DevOps, MuleSoft, Data Migration, SQL, CI/CD, Master Data Management, SAP BTP. Certifications: PMP. Past projects: ERP integration layer for warehouse and supplier systems (logistics) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management; ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+          "metadata": {
+            "role": "SAP Consultant",
+            "years_experience": 14,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "SAP Fiori",
+              "Azure DevOps",
+              "MuleSoft",
+              "Data Migration",
+              "SQL",
+              "CI/CD",
+              "Master Data Management",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0044",
+              "PRJ-0043"
+            ],
+            "record_id": "CV-0066"
+          },
+          "bm25_score": 22.625449675489595
+        },
+        {
+          "record_id": "CV-0067",
+          "doc_type": "cv",
+          "content": "CV-0067 (Employee_067) - SAP Developer, 10 years of experience. Skills: SAP S/4HANA, ABAP, Data Migration, SAP Fiori, SAP BTP, Azure DevOps, SQL, Flutter, Django, MuleSoft, Master Data Management. Certifications: SAP Certified Application Associate. Past projects: ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Developer, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration; ERP integration layer for warehouse and supplier systems (logistics) - role SAP Developer, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management.",
+          "metadata": {
+            "role": "SAP Developer",
+            "years_experience": 10,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "Data Migration",
+              "SAP Fiori",
+              "SAP BTP",
+              "Azure DevOps",
+              "SQL",
+              "Flutter",
+              "Django",
+              "MuleSoft",
+              "Master Data Management"
+            ],
+            "certifications": [
+              "SAP Certified Application Associate"
+            ],
+            "project_ids": [
+              "PRJ-0043",
+              "PRJ-0044"
+            ],
+            "record_id": "CV-0067"
+          },
+          "bm25_score": 22.21096712573634
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-001-project_ids",
+      "retrieved_ids": [
+        "project-004",
+        "PRJ-0014",
+        "PRJ-0044",
+        "PRJ-0013",
+        "olivesoft-012"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5,
+      "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0013",
+        "PRJ-0014"
+      ],
+      "ndcg_at_k": 0.6509209298071326,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "project-004",
+        "PRJ-0014",
+        "PRJ-0044",
+        "PRJ-0013",
+        "olivesoft-012",
+        "PRJ-0037",
+        "project-002",
+        "project-001",
+        "olivesoft-006",
+        "olivesoft-010"
+      ],
+      "latency_ms": 3.5057333298027515,
+      "latency_samples_ms": [
+        3.563000005669892,
+        3.5752999829128385,
+        3.190999967046082,
+        3.3583000185899436,
+        3.5303999902680516,
+        3.729299991391599,
+        3.905799996573478,
+        3.1986000249162316,
+        3.2505999552085996,
+        3.7595999892801046,
+        3.870300017297268,
+        3.373500017914921,
+        3.1829000217840075,
+        3.1813999521546066,
+        3.9160000160336494
+      ],
+      "matches": [
+        {
+          "record_id": "project-004",
+          "doc_type": "project",
+          "content": "Global HR information system with MuleSoft (SAP SuccessFactors). Client: multinational organization (unnamed). Solution: centralized international HRIS (SIRH) integrating SAP SuccessFactors, Talent Connect and local payroll systems through MuleSoft, with bidirectional real-time data flows. Build phase: needs analysis, over 15 MuleSoft applications for region and division specific logic, CI/CD pipeline, unit, integration, system and performance testing, environment-specific deployments (dev, staging, production), hyper-care after go-live. Run phase fully operated by OliveSoft: monitoring dashboards, logging, access management, regular daily and monthly checks, incident handling, documentation, rollout to new regions. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/mise-en-place-dune-solution-rh-centralisee-simplifiee-des-employes",
+            "record_id": "project-004"
+          },
+          "bm25_score": 49.25361788480231
+        },
+        {
+          "record_id": "PRJ-0014",
+          "doc_type": "project",
+          "content": "Project PRJ-0014: Versioned API platform with handover documentation for a retail client, using MuleSoft, REST APIs, Master Data Management, API Management, SAP SuccessFactors. Sector: retail. Outcome: Delivered on schedule with a 19% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "MuleSoft",
+              "REST APIs",
+              "Master Data Management",
+              "API Management",
+              "SAP SuccessFactors"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0014"
+          },
+          "bm25_score": 36.71712560820277
+        },
+        {
+          "record_id": "PRJ-0044",
+          "doc_type": "project",
+          "content": "Project PRJ-0044: ERP integration layer for warehouse and supplier systems for a logistics client, using SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management. Sector: logistics. Outcome: Delivered on schedule with a 23% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "SAP S/4HANA",
+              "ABAP",
+              "Azure DevOps",
+              "MuleSoft",
+              "Master Data Management"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0044"
+          },
+          "bm25_score": 26.095649590635478
+        },
+        {
+          "record_id": "PRJ-0013",
+          "doc_type": "project",
+          "content": "Project PRJ-0013: HR systems integration layer for a consumer goods client, using MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors. Sector: consumer goods. Outcome: Delivered on schedule with a 38% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "consumer goods",
+            "tech_stack": [
+              "MuleSoft",
+              "REST APIs",
+              "Datadog",
+              "DataWeave",
+              "SAP SuccessFactors"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0013"
+          },
+          "bm25_score": 24.635715400144683
+        },
+        {
+          "record_id": "olivesoft-012",
+          "doc_type": "project",
+          "content": "OliveSoft project: Business-process automation. Type: pfe internship project, edition 2025. Domain: business process automation, BPM. Model and automate onboarding, payroll, bank reconciliation and accounting processes based on ROI. Tech stack: BPMN, Talend, MuleSoft, Power Automate, Git. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "business process automation",
+              "BPM"
+            ],
+            "tech_stack": [
+              "BPMN",
+              "Talend",
+              "MuleSoft",
+              "Power Automate",
+              "Git"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 14,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-012"
+          },
+          "bm25_score": 18.101512292452043
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-002-cv_ids",
+      "retrieved_ids": [
+        "CV-0025",
+        "CV-0024",
+        "CV-0026",
+        "CV-0103",
+        "CV-0094"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Talent and Payroll Data Pipeline Modernisation. Talend ETL pipeline over applicant tracking system data SSIS package migration onto the new platform Incremental load strategy with partial-failure tolerance Reconciliation report detecting drift between legacy and new extracts",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0024",
+        "CV-0025",
+        "CV-0026"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0025",
+        "CV-0024",
+        "CV-0026",
+        "CV-0103",
+        "CV-0094",
+        "CV-0097",
+        "CV-0071",
+        "CV-0036",
+        "CV-0098",
+        "CV-0004"
+      ],
+      "latency_ms": 2.89812667760998,
+      "latency_samples_ms": [
+        2.693299960810691,
+        2.6000000070780516,
+        3.288299951236695,
+        2.9303000192157924,
+        2.7670999988913536,
+        2.547500014770776,
+        2.5315999519079924,
+        2.634500036947429,
+        3.0941000441089272,
+        3.4052000264637172,
+        3.2060000230558217,
+        3.214400028809905,
+        2.69510003272444,
+        2.719900046940893,
+        3.144600021187216
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0025",
+          "doc_type": "cv",
+          "content": "CV-0025 (Employee_025) - ETL Developer, 13 years of experience. Skills: Talend, SQL, Data Quality, SQL Server, Apache Airflow, Azure DevOps. Certifications: Talend Data Integration Certified Developer. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role ETL Developer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality; Incremental ETL pipeline migration from SSIS (logistics) - role ETL Developer, tech stack Talend, SQL, Data Quality, Apache Airflow, Azure DevOps.",
+          "metadata": {
+            "role": "ETL Developer",
+            "years_experience": 13,
+            "skills": [
+              "Talend",
+              "SQL",
+              "Data Quality",
+              "SQL Server",
+              "Apache Airflow",
+              "Azure DevOps"
+            ],
+            "certifications": [
+              "Talend Data Integration Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0016",
+              "PRJ-0015"
+            ],
+            "record_id": "CV-0025"
+          },
+          "bm25_score": 30.66445490261407
+        },
+        {
+          "record_id": "CV-0024",
+          "doc_type": "cv",
+          "content": "CV-0024 (Employee_024) - Data Engineer, 3 years of experience. Skills: Talend, SQL, SSIS, SQL Server, Data Quality, Azure DevOps, Docker, CI/CD, MongoDB, Kotlin, Apache Airflow. Certifications: Microsoft Azure Fundamentals. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role Data Engineer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality; Incremental ETL pipeline migration from SSIS (logistics) - role Data Engineer, tech stack Talend, SQL, Data Quality, Apache Airflow, Azure DevOps.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 3,
+            "skills": [
+              "Talend",
+              "SQL",
+              "SSIS",
+              "SQL Server",
+              "Data Quality",
+              "Azure DevOps",
+              "Docker",
+              "CI/CD",
+              "MongoDB",
+              "Kotlin",
+              "Apache Airflow"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0016",
+              "PRJ-0015"
+            ],
+            "record_id": "CV-0024"
+          },
+          "bm25_score": 29.02958214859256
+        },
+        {
+          "record_id": "CV-0026",
+          "doc_type": "cv",
+          "content": "CV-0026 (Employee_026) - Data Engineer, 6 years of experience. Skills: Talend, SQL, SSIS, SQL Server, Data Quality, Azure DevOps, CI/CD, Docker, Apache Airflow. Certifications: Talend Data Integration Certified Developer. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role Data Engineer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 6,
+            "skills": [
+              "Talend",
+              "SQL",
+              "SSIS",
+              "SQL Server",
+              "Data Quality",
+              "Azure DevOps",
+              "CI/CD",
+              "Docker",
+              "Apache Airflow"
+            ],
+            "certifications": [
+              "Talend Data Integration Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0016"
+            ],
+            "record_id": "CV-0026"
+          },
+          "bm25_score": 13.920589386002742
+        },
+        {
+          "record_id": "CV-0103",
+          "doc_type": "cv",
+          "content": "CV-0103 (Employee_103) - ETL Developer, 15 years of experience. Skills: SQL, Data Quality, Azure, Databricks, Git, Azure DevOps, Snowflake, Python, Talend, Apache Airflow. Certifications: SnowPro Core. Past projects: Supply chain data hub with daily reconciliation (logistics) - role ETL Developer, tech stack Snowflake, Databricks, Python, Talend, Apache Airflow.",
+          "metadata": {
+            "role": "ETL Developer",
+            "years_experience": 15,
+            "skills": [
+              "SQL",
+              "Data Quality",
+              "Azure",
+              "Databricks",
+              "Git",
+              "Azure DevOps",
+              "Snowflake",
+              "Python",
+              "Talend",
+              "Apache Airflow"
+            ],
+            "certifications": [
+              "SnowPro Core"
+            ],
+            "project_ids": [
+              "PRJ-0069"
+            ],
+            "record_id": "CV-0103"
+          },
+          "bm25_score": 13.45865305998293
+        },
+        {
+          "record_id": "CV-0094",
+          "doc_type": "cv",
+          "content": "CV-0094 (Employee_094) - ETL Developer, 4 years of experience. Skills: Azure Data Factory, Informatica, Data Quality, Boomi, Data Lineage, SQL, CI/CD, Spring Boot, Fivetran, Apache NiFi. Certifications: Informatica Data Integration Certification. Past projects: Claims data pipelines with quality checks and lineage (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, SQL, Data Quality, Boomi; Integration tool consolidation with job migration (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+          "metadata": {
+            "role": "ETL Developer",
+            "years_experience": 4,
+            "skills": [
+              "Azure Data Factory",
+              "Informatica",
+              "Data Quality",
+              "Boomi",
+              "Data Lineage",
+              "SQL",
+              "CI/CD",
+              "Spring Boot",
+              "Fivetran",
+              "Apache NiFi"
+            ],
+            "certifications": [
+              "Informatica Data Integration Certification"
+            ],
+            "project_ids": [
+              "PRJ-0062",
+              "PRJ-0061"
+            ],
+            "record_id": "CV-0094"
+          },
+          "bm25_score": 11.704309200880628
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-002-project_ids",
+      "retrieved_ids": [
+        "project-004",
+        "PRJ-0015",
+        "project-002",
+        "olivesoft-012",
+        "PRJ-0064"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.5,
+      "query": "Talent and Payroll Data Pipeline Modernisation. Talend ETL pipeline over applicant tracking system data SSIS package migration onto the new platform Incremental load strategy with partial-failure tolerance Reconciliation report detecting drift between legacy and new extracts",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0015",
+        "PRJ-0016"
+      ],
+      "ndcg_at_k": 0.38685280723454163,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "project-004",
+        "PRJ-0015",
+        "project-002",
+        "olivesoft-012",
+        "PRJ-0064",
+        "olivesoft-011",
+        "PRJ-0046",
+        "project-001",
+        "PRJ-0120",
+        "PRJ-0016"
+      ],
+      "latency_ms": 3.1540733218813934,
+      "latency_samples_ms": [
+        2.7684999513439834,
+        2.657799981534481,
+        3.3381999819539487,
+        3.3933999948203564,
+        2.9376999591477215,
+        2.874600002542138,
+        2.676699950825423,
+        2.712199988309294,
+        3.117099986411631,
+        3.6703000077977777,
+        3.397200023755431,
+        2.9574999934993684,
+        2.839700027834624,
+        4.39590000314638,
+        3.574299975298345
+      ],
+      "matches": [
+        {
+          "record_id": "project-004",
+          "doc_type": "project",
+          "content": "Global HR information system with MuleSoft (SAP SuccessFactors). Client: multinational organization (unnamed). Solution: centralized international HRIS (SIRH) integrating SAP SuccessFactors, Talent Connect and local payroll systems through MuleSoft, with bidirectional real-time data flows. Build phase: needs analysis, over 15 MuleSoft applications for region and division specific logic, CI/CD pipeline, unit, integration, system and performance testing, environment-specific deployments (dev, staging, production), hyper-care after go-live. Run phase fully operated by OliveSoft: monitoring dashboards, logging, access management, regular daily and monthly checks, incident handling, documentation, rollout to new regions. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/mise-en-place-dune-solution-rh-centralisee-simplifiee-des-employes",
+            "record_id": "project-004"
+          },
+          "bm25_score": 32.64575112707097
+        },
+        {
+          "record_id": "PRJ-0015",
+          "doc_type": "project",
+          "content": "Project PRJ-0015: Incremental ETL pipeline migration from SSIS for a logistics client, using Talend, SQL, Data Quality, Apache Airflow, Azure DevOps. Sector: logistics. Outcome: Delivered on schedule with a 34% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "Talend",
+              "SQL",
+              "Data Quality",
+              "Apache Airflow",
+              "Azure DevOps"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0015"
+          },
+          "bm25_score": 30.49663900947038
+        },
+        {
+          "record_id": "project-002",
+          "doc_type": "project",
+          "content": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme",
+            "record_id": "project-002"
+          },
+          "bm25_score": 20.330396940033836
+        },
+        {
+          "record_id": "olivesoft-012",
+          "doc_type": "project",
+          "content": "OliveSoft project: Business-process automation. Type: pfe internship project, edition 2025. Domain: business process automation, BPM. Model and automate onboarding, payroll, bank reconciliation and accounting processes based on ROI. Tech stack: BPMN, Talend, MuleSoft, Power Automate, Git. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "business process automation",
+              "BPM"
+            ],
+            "tech_stack": [
+              "BPMN",
+              "Talend",
+              "MuleSoft",
+              "Power Automate",
+              "Git"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 14,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-012"
+          },
+          "bm25_score": 15.307930539894699
+        },
+        {
+          "record_id": "PRJ-0064",
+          "doc_type": "project",
+          "content": "Project PRJ-0064: Pre-release performance and API test pipeline for a banking client, using Test Automation, Selenium, Azure DevOps, CI/CD, Cypress. Sector: banking. Outcome: Delivered on schedule with a 27% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Test Automation",
+              "Selenium",
+              "Azure DevOps",
+              "CI/CD",
+              "Cypress"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0064"
+          },
+          "bm25_score": 13.634641276440695
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-003-cv_ids",
+      "retrieved_ids": [
+        "CV-0027",
+        "CV-0028",
+        "CV-0029",
+        "CV-0108",
+        "CV-0107"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Executive HR Analytics and Workforce Reporting. Power BI reporting layer replacing six divisional reporting packs Governed semantic model with KPI definitions signed off by HR leadership Three-year historical comparison Row-level security scoped to divisional HR managers",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0027",
+        "CV-0028",
+        "CV-0029"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0027",
+        "CV-0028",
+        "CV-0029",
+        "CV-0108",
+        "CV-0107",
+        "CV-0090",
+        "CV-0092",
+        "CV-0109",
+        "CV-0091",
+        "CV-0021"
+      ],
+      "latency_ms": 3.024740001031508,
+      "latency_samples_ms": [
+        2.5603999965824187,
+        3.633800020907074,
+        4.042400047183037,
+        3.243600018322468,
+        3.0119000002741814,
+        2.756599977146834,
+        2.8107999823987484,
+        3.2383999787271023,
+        3.3567000064067543,
+        2.825200033839792,
+        2.6180000277236104,
+        2.5869999662972987,
+        2.5644999695941806,
+        2.911799994762987,
+        3.2099999953061342
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0027",
+          "doc_type": "cv",
+          "content": "CV-0027 (Employee_027) - BI Developer, 14 years of experience. Skills: Power BI, DAX, Azure DevOps, Data Modelling, Row-Level Security, Azure SQL, Docker, SQL. Certifications: Microsoft Power BI Data Analyst. Past projects: Executive HR analytics semantic model (manufacturing) - role BI Developer, tech stack Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security; Divisional reporting consolidation in Power BI (manufacturing) - role BI Developer, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+          "metadata": {
+            "role": "BI Developer",
+            "years_experience": 14,
+            "skills": [
+              "Power BI",
+              "DAX",
+              "Azure DevOps",
+              "Data Modelling",
+              "Row-Level Security",
+              "Azure SQL",
+              "Docker",
+              "SQL"
+            ],
+            "certifications": [
+              "Microsoft Power BI Data Analyst"
+            ],
+            "project_ids": [
+              "PRJ-0017",
+              "PRJ-0018"
+            ],
+            "record_id": "CV-0027"
+          },
+          "bm25_score": 55.21059396640726
+        },
+        {
+          "record_id": "CV-0028",
+          "doc_type": "cv",
+          "content": "CV-0028 (Employee_028) - Data Analyst, 11 years of experience. Skills: Power BI, DAX, Azure SQL, Data Modelling, Row-Level Security, Git, CI/CD, GraphQL, Azure DevOps, SQL. Certifications: Scrum Master (CSM). Past projects: Executive HR analytics semantic model (manufacturing) - role Data Analyst, tech stack Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security; Divisional reporting consolidation in Power BI (manufacturing) - role Data Analyst, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+          "metadata": {
+            "role": "Data Analyst",
+            "years_experience": 11,
+            "skills": [
+              "Power BI",
+              "DAX",
+              "Azure SQL",
+              "Data Modelling",
+              "Row-Level Security",
+              "Git",
+              "CI/CD",
+              "GraphQL",
+              "Azure DevOps",
+              "SQL"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0017",
+              "PRJ-0018"
+            ],
+            "record_id": "CV-0028"
+          },
+          "bm25_score": 54.004168559288466
+        },
+        {
+          "record_id": "CV-0029",
+          "doc_type": "cv",
+          "content": "CV-0029 (Employee_029) - Business Analyst, 13 years of experience. Skills: Power BI, DAX, SQL, Row-Level Security, Azure SQL, Azure DevOps, CI/CD, Git, Spring Boot, Kotlin. Certifications: Microsoft Power BI Data Analyst. Past projects: Divisional reporting consolidation in Power BI (manufacturing) - role Business Analyst, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+          "metadata": {
+            "role": "Business Analyst",
+            "years_experience": 13,
+            "skills": [
+              "Power BI",
+              "DAX",
+              "SQL",
+              "Row-Level Security",
+              "Azure SQL",
+              "Azure DevOps",
+              "CI/CD",
+              "Git",
+              "Spring Boot",
+              "Kotlin"
+            ],
+            "certifications": [
+              "Microsoft Power BI Data Analyst"
+            ],
+            "project_ids": [
+              "PRJ-0018"
+            ],
+            "record_id": "CV-0029"
+          },
+          "bm25_score": 35.6606556595687
+        },
+        {
+          "record_id": "CV-0108",
+          "doc_type": "cv",
+          "content": "CV-0108 (Employee_108) - Business Analyst, 2 years of experience. Skills: DAX, Power BI, Data Modelling, Tableau, Row-Level Security, SQL, Python, Redis, Azure SQL, Qlik Sense, Looker. Certifications: Tableau Desktop Specialist. Past projects: Hospital capacity and waiting time reporting (healthcare) - role Business Analyst, tech stack Row-Level Security, SQL, Azure SQL, Tableau, DAX; Claims analytics reporting suite (insurance) - role Business Analyst, tech stack Tableau, Qlik Sense, Looker, Power BI, Row-Level Security.",
+          "metadata": {
+            "role": "Business Analyst",
+            "years_experience": 2,
+            "skills": [
+              "DAX",
+              "Power BI",
+              "Data Modelling",
+              "Tableau",
+              "Row-Level Security",
+              "SQL",
+              "Python",
+              "Redis",
+              "Azure SQL",
+              "Qlik Sense",
+              "Looker"
+            ],
+            "certifications": [
+              "Tableau Desktop Specialist"
+            ],
+            "project_ids": [
+              "PRJ-0074",
+              "PRJ-0072"
+            ],
+            "record_id": "CV-0108"
+          },
+          "bm25_score": 31.69074623520789
+        },
+        {
+          "record_id": "CV-0107",
+          "doc_type": "cv",
+          "content": "CV-0107 (Employee_107) - Data Analyst, 2 years of experience. Skills: Azure SQL, Looker, Tableau, Qlik Sense, Python, CI/CD, TensorFlow, Flutter, Power BI, Row-Level Security, SQL, DAX. Certifications: Tableau Desktop Specialist. Past projects: Claims analytics reporting suite (insurance) - role Data Analyst, tech stack Tableau, Qlik Sense, Looker, Power BI, Row-Level Security; Hospital capacity and waiting time reporting (healthcare) - role Data Analyst, tech stack Row-Level Security, SQL, Azure SQL, Tableau, DAX.",
+          "metadata": {
+            "role": "Data Analyst",
+            "years_experience": 2,
+            "skills": [
+              "Azure SQL",
+              "Looker",
+              "Tableau",
+              "Qlik Sense",
+              "Python",
+              "CI/CD",
+              "TensorFlow",
+              "Flutter",
+              "Power BI",
+              "Row-Level Security",
+              "SQL",
+              "DAX"
+            ],
+            "certifications": [
+              "Tableau Desktop Specialist"
+            ],
+            "project_ids": [
+              "PRJ-0072",
+              "PRJ-0074"
+            ],
+            "record_id": "CV-0107"
+          },
+          "bm25_score": 31.523641892687827
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-003-project_ids",
+      "retrieved_ids": [
+        "PRJ-0017",
+        "PRJ-0018",
+        "olivesoft-010",
+        "PRJ-0072",
+        "PRJ-0060"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Executive HR Analytics and Workforce Reporting. Power BI reporting layer replacing six divisional reporting packs Governed semantic model with KPI definitions signed off by HR leadership Three-year historical comparison Row-level security scoped to divisional HR managers",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0017",
+        "PRJ-0018"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0017",
+        "PRJ-0018",
+        "olivesoft-010",
+        "PRJ-0072",
+        "PRJ-0060",
+        "PRJ-0074",
+        "olivesoft-003",
+        "olivesoft-008",
+        "project-001",
+        "olivesoft-034"
+      ],
+      "latency_ms": 3.0048333341255784,
+      "latency_samples_ms": [
+        3.105200012214482,
+        3.5182000137865543,
+        3.0371000175364316,
+        3.188100003171712,
+        2.809499972499907,
+        3.3585000201128423,
+        3.1487999949604273,
+        3.1202000100165606,
+        2.8446000069379807,
+        2.654800016898662,
+        2.661100006662309,
+        3.410500008612871,
+        2.91719997767359,
+        2.6412999723106623,
+        2.6573999784886837
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0017",
+          "doc_type": "project",
+          "content": "Project PRJ-0017: Executive HR analytics semantic model for a manufacturing client, using Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security. Sector: manufacturing. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "manufacturing",
+            "tech_stack": [
+              "Power BI",
+              "DAX",
+              "Data Modelling",
+              "Azure DevOps",
+              "Row-Level Security"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0017"
+          },
+          "bm25_score": 44.708556571560194
+        },
+        {
+          "record_id": "PRJ-0018",
+          "doc_type": "project",
+          "content": "Project PRJ-0018: Divisional reporting consolidation in Power BI for a manufacturing client, using Power BI, DAX, Azure SQL, Row-Level Security, SQL. Sector: manufacturing. Outcome: Delivered on schedule with a 22% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "manufacturing",
+            "tech_stack": [
+              "Power BI",
+              "DAX",
+              "Azure SQL",
+              "Row-Level Security",
+              "SQL"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0018"
+          },
+          "bm25_score": 37.762406463405284
+        },
+        {
+          "record_id": "olivesoft-010",
+          "doc_type": "project",
+          "content": "OliveSoft project: HR reporting and monitoring platform. Type: pfe internship project, edition 2025. Domain: HR, reporting, data integration. Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems. Tech stack: Talend, Power BI, Azure SQL, Azure DevOps. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "HR",
+              "reporting",
+              "data integration"
+            ],
+            "tech_stack": [
+              "Talend",
+              "Power BI",
+              "Azure SQL",
+              "Azure DevOps"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 12,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-010"
+          },
+          "bm25_score": 33.994280949427406
+        },
+        {
+          "record_id": "PRJ-0072",
+          "doc_type": "project",
+          "content": "Project PRJ-0072: Claims analytics reporting suite for an insurance client, using Tableau, Qlik Sense, Looker, Power BI, Row-Level Security. Sector: insurance. Outcome: Delivered on schedule with a 41% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Tableau",
+              "Qlik Sense",
+              "Looker",
+              "Power BI",
+              "Row-Level Security"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0072"
+          },
+          "bm25_score": 28.974677664329178
+        },
+        {
+          "record_id": "PRJ-0060",
+          "doc_type": "project",
+          "content": "Project PRJ-0060: Governed data model with regional row-level security for a retail client, using Tableau, SQL, Data Modelling, Row-Level Security, Azure Data Factory. Sector: retail. Outcome: Delivered on schedule with a 39% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Tableau",
+              "SQL",
+              "Data Modelling",
+              "Row-Level Security",
+              "Azure Data Factory"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0060"
+          },
+          "bm25_score": 25.761036819449828
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-004-cv_ids",
+      "retrieved_ids": [
+        "CV-0030",
+        "CV-0032",
+        "CV-0031",
+        "CV-0143",
+        "CV-0066"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0030",
+        "CV-0031",
+        "CV-0032"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0030",
+        "CV-0032",
+        "CV-0031",
+        "CV-0143",
+        "CV-0066",
+        "CV-0067",
+        "CV-0081",
+        "CV-0069",
+        "CV-0070",
+        "CV-0141"
+      ],
+      "latency_ms": 3.47504667006433,
+      "latency_samples_ms": [
+        4.032400029245764,
+        4.048100032377988,
+        3.1651000026613474,
+        3.11879999935627,
+        3.617499954998493,
+        3.8869999698363245,
+        3.548000007867813,
+        3.1852000392973423,
+        3.0545000336132944,
+        4.0656000492163,
+        3.2906000269576907,
+        3.1905999640002847,
+        3.045799967367202,
+        3.2042000093497336,
+        3.6722999648191035
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0030",
+          "doc_type": "cv",
+          "content": "CV-0030 (Employee_030) - Data Engineer, 10 years of experience. Skills: GCP, BigQuery, Identity Resolution, Talend, MuleSoft, Python, Git. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Data Engineer, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft; Multi-channel customer identity resolution (retail) - role Data Engineer, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 10,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Identity Resolution",
+              "Talend",
+              "MuleSoft",
+              "Python",
+              "Git"
+            ],
+            "certifications": [
+              "Google Professional Cloud Architect"
+            ],
+            "project_ids": [
+              "PRJ-0019",
+              "PRJ-0020"
+            ],
+            "record_id": "CV-0030"
+          },
+          "bm25_score": 27.669394451255737
+        },
+        {
+          "record_id": "CV-0032",
+          "doc_type": "cv",
+          "content": "CV-0032 (Employee_032) - Integration Architect, 4 years of experience. Skills: GCP, BigQuery, Talend, Python, MuleSoft, Docker, Git, TensorFlow, Django, Identity Resolution. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Integration Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+          "metadata": {
+            "role": "Integration Architect",
+            "years_experience": 4,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Talend",
+              "Python",
+              "MuleSoft",
+              "Docker",
+              "Git",
+              "TensorFlow",
+              "Django",
+              "Identity Resolution"
+            ],
+            "certifications": [
+              "Google Professional Cloud Architect"
+            ],
+            "project_ids": [
+              "PRJ-0019"
+            ],
+            "record_id": "CV-0032"
+          },
+          "bm25_score": 27.50849517134175
+        },
+        {
+          "record_id": "CV-0031",
+          "doc_type": "cv",
+          "content": "CV-0031 (Employee_031) - Cloud Architect, 3 years of experience. Skills: GCP, BigQuery, Python, Talend, Terraform, Identity Resolution, SQL, Django, Spring Boot, MuleSoft. Certifications: Google Professional Data Engineer. Past projects: Multi-channel customer identity resolution (retail) - role Cloud Architect, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution; Customer 360 on BigQuery (retail) - role Cloud Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 3,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Python",
+              "Talend",
+              "Terraform",
+              "Identity Resolution",
+              "SQL",
+              "Django",
+              "Spring Boot",
+              "MuleSoft"
+            ],
+            "certifications": [
+              "Google Professional Data Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0020",
+              "PRJ-0019"
+            ],
+            "record_id": "CV-0031"
+          },
+          "bm25_score": 27.120443740238514
+        },
+        {
+          "record_id": "CV-0143",
+          "doc_type": "cv",
+          "content": "CV-0143 (Employee_143) - ERP Functional Consultant, 6 years of experience. Skills: SAP S/4HANA, Master Data Management, Data Migration, SQL, PostgreSQL, Git, Python, MongoDB, Azure DevOps, SAP BTP. Certifications: SAP Certified Application Associate. Past projects: ERP data migration and cutover support (logistics) - role ERP Functional Consultant, tech stack Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration.",
+          "metadata": {
+            "role": "ERP Functional Consultant",
+            "years_experience": 6,
+            "skills": [
+              "SAP S/4HANA",
+              "Master Data Management",
+              "Data Migration",
+              "SQL",
+              "PostgreSQL",
+              "Git",
+              "Python",
+              "MongoDB",
+              "Azure DevOps",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "SAP Certified Application Associate"
+            ],
+            "project_ids": [
+              "PRJ-0109"
+            ],
+            "record_id": "CV-0143"
+          },
+          "bm25_score": 20.50567732210157
+        },
+        {
+          "record_id": "CV-0066",
+          "doc_type": "cv",
+          "content": "CV-0066 (Employee_066) - SAP Consultant, 14 years of experience. Skills: SAP S/4HANA, ABAP, SAP Fiori, Azure DevOps, MuleSoft, Data Migration, SQL, CI/CD, Master Data Management, SAP BTP. Certifications: PMP. Past projects: ERP integration layer for warehouse and supplier systems (logistics) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management; ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+          "metadata": {
+            "role": "SAP Consultant",
+            "years_experience": 14,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "SAP Fiori",
+              "Azure DevOps",
+              "MuleSoft",
+              "Data Migration",
+              "SQL",
+              "CI/CD",
+              "Master Data Management",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0044",
+              "PRJ-0043"
+            ],
+            "record_id": "CV-0066"
+          },
+          "bm25_score": 18.712405668757807
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-004-project_ids",
+      "retrieved_ids": [
+        "project-001",
+        "project-002",
+        "PRJ-0019",
+        "olivesoft-031",
+        "PRJ-0109"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.3333333333333333,
+      "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0019",
+        "PRJ-0020"
+      ],
+      "ndcg_at_k": 0.3065735963827292,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "project-001",
+        "project-002",
+        "PRJ-0019",
+        "olivesoft-031",
+        "PRJ-0109",
+        "PRJ-0020",
+        "olivesoft-006",
+        "olivesoft-010",
+        "PRJ-0044",
+        "PRJ-0054"
+      ],
+      "latency_ms": 3.6235399971095226,
+      "latency_samples_ms": [
+        3.2608999754302204,
+        3.2962000113911927,
+        4.000700020696968,
+        3.800200007390231,
+        3.2165999873541296,
+        3.161099972203374,
+        4.285899980459362,
+        4.9928000080399215,
+        3.5424999659880996,
+        3.3665000228211284,
+        3.186300047673285,
+        4.083800013177097,
+        3.3292999723926187,
+        3.30689997645095,
+        3.523399995174259
+      ],
+      "matches": [
+        {
+          "record_id": "project-001",
+          "doc_type": "project",
+          "content": "Retail/e-commerce unified customer CRM on GCP (Cegid, BigQuery, Power BI). Client: major retail and e-commerce brand (unnamed). Problem: customer data scattered across systems and formats, campaigns based on assumptions. Solution: centralized CRM on Google Cloud Platform and BigQuery. Daily automated pipelines ingest the Cegid ERP, e-commerce back-end, marketing platforms and support tools; data was cleaned, deduplicated and standardized. Custom segmentation by value, engagement and purchase frequency. Power BI dashboards for marketing and sales (weekly sales, customer activity, campaign performance, year-over-year). Flow: ERP to GCP to BigQuery to Power BI. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/passer-de-donnees-fragmentees-une-croissance-optimisee-grace-la-data",
+            "record_id": "project-001"
+          },
+          "bm25_score": 62.83497086629803
+        },
+        {
+          "record_id": "project-002",
+          "doc_type": "project",
+          "content": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme",
+            "record_id": "project-002"
+          },
+          "bm25_score": 25.508021868841784
+        },
+        {
+          "record_id": "PRJ-0019",
+          "doc_type": "project",
+          "content": "Project PRJ-0019: Customer 360 on BigQuery for a retail client, using GCP, BigQuery, Talend, Identity Resolution, MuleSoft. Sector: retail. Outcome: Delivered on schedule with a 32% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "GCP",
+              "BigQuery",
+              "Talend",
+              "Identity Resolution",
+              "MuleSoft"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0019"
+          },
+          "bm25_score": 24.530729719081123
+        },
+        {
+          "record_id": "olivesoft-031",
+          "doc_type": "project",
+          "content": "OliveSoft project: Salesforce Customer 360 and loyalty. Type: pfe internship project, edition 2026. Domain: CRM, customer loyalty, Salesforce. Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Tech stack: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Status: proposed.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "CRM",
+              "customer loyalty",
+              "Salesforce"
+            ],
+            "tech_stack": [
+              "Salesforce Data Cloud",
+              "Salesforce Core",
+              "Einstein Agentforce",
+              "Apex",
+              "Lightning"
+            ],
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 9,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-031"
+          },
+          "bm25_score": 22.976728993963775
+        },
+        {
+          "record_id": "PRJ-0109",
+          "doc_type": "project",
+          "content": "Project PRJ-0109: ERP data migration and cutover support for a logistics client, using Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration. Sector: logistics. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "Azure DevOps",
+              "Master Data Management",
+              "SQL",
+              "SAP BTP",
+              "Data Migration"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0109"
+          },
+          "bm25_score": 22.035091874944737
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-005-cv_ids",
+      "retrieved_ids": [
+        "CV-0034",
+        "CV-0035",
+        "CV-0033",
+        "CV-0132",
+        "CV-0133"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Real-Time Order Event Streaming Platform. Kafka ingestion of order events from commerce and warehouse systems Databricks lakehouse modelling with explicit late-event handling Market-currency normalisation and returns treatment Operational monitoring of pipeline health, excluding downstream finance replacement",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0033",
+        "CV-0034",
+        "CV-0035"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0034",
+        "CV-0035",
+        "CV-0033",
+        "CV-0132",
+        "CV-0133",
+        "CV-0066",
+        "CV-0067",
+        "CV-0025",
+        "CV-0024",
+        "CV-0151"
+      ],
+      "latency_ms": 3.8262933143414557,
+      "latency_samples_ms": [
+        5.113199993502349,
+        3.5589999752119184,
+        4.16029995540157,
+        3.6805999698117375,
+        4.373000003397465,
+        3.9835000061430037,
+        4.0410999790765345,
+        3.8611999480053782,
+        4.406999971251935,
+        3.535499970894307,
+        3.717999963555485,
+        4.000599961727858,
+        3.1500000040978193,
+        3.101399983279407,
+        2.7100000297650695
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0034",
+          "doc_type": "cv",
+          "content": "CV-0034 (Employee_034) - Streaming Engineer, 7 years of experience. Skills: Kafka, Databricks, GCP, Terraform, Azure, Datadog, Git, Azure DevOps, Python, Spark. Certifications: Databricks Certified Data Engineer. Past projects: Databricks lakehouse with late-event handling (retail) - role Streaming Engineer, tech stack Kafka, Databricks, Python, Datadog, Terraform; Real-time order event streaming platform (retail) - role Streaming Engineer, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+          "metadata": {
+            "role": "Streaming Engineer",
+            "years_experience": 7,
+            "skills": [
+              "Kafka",
+              "Databricks",
+              "GCP",
+              "Terraform",
+              "Azure",
+              "Datadog",
+              "Git",
+              "Azure DevOps",
+              "Python",
+              "Spark"
+            ],
+            "certifications": [
+              "Databricks Certified Data Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0022",
+              "PRJ-0021"
+            ],
+            "record_id": "CV-0034"
+          },
+          "bm25_score": 56.486377532253925
+        },
+        {
+          "record_id": "CV-0035",
+          "doc_type": "cv",
+          "content": "CV-0035 (Employee_035) - Cloud Architect, 10 years of experience. Skills: Kafka, Databricks, Spark, Azure, GCP, SQL, CI/CD, Python, Datadog, Terraform. Certifications: Databricks Certified Data Engineer. Past projects: Databricks lakehouse with late-event handling (retail) - role Cloud Architect, tech stack Kafka, Databricks, Python, Datadog, Terraform; Real-time order event streaming platform (retail) - role Cloud Architect, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 10,
+            "skills": [
+              "Kafka",
+              "Databricks",
+              "Spark",
+              "Azure",
+              "GCP",
+              "SQL",
+              "CI/CD",
+              "Python",
+              "Datadog",
+              "Terraform"
+            ],
+            "certifications": [
+              "Databricks Certified Data Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0022",
+              "PRJ-0021"
+            ],
+            "record_id": "CV-0035"
+          },
+          "bm25_score": 52.81623769622642
+        },
+        {
+          "record_id": "CV-0033",
+          "doc_type": "cv",
+          "content": "CV-0033 (Employee_033) - Data Engineer, 6 years of experience. Skills: Kafka, Databricks, Azure, Spark, GCP, SQL, CI/CD, Django, Terraform, Python. Certifications: Confluent Certified Developer. Past projects: Real-time order event streaming platform (retail) - role Data Engineer, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 6,
+            "skills": [
+              "Kafka",
+              "Databricks",
+              "Azure",
+              "Spark",
+              "GCP",
+              "SQL",
+              "CI/CD",
+              "Django",
+              "Terraform",
+              "Python"
+            ],
+            "certifications": [
+              "Confluent Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0021"
+            ],
+            "record_id": "CV-0033"
+          },
+          "bm25_score": 39.09704536941914
+        },
+        {
+          "record_id": "CV-0132",
+          "doc_type": "cv",
+          "content": "CV-0132 (Employee_132) - Solutions Architect, 4 years of experience. Skills: Azure DevOps, API Management, REST APIs, Talend, MuleSoft, SQL, MongoDB, Redis, DataWeave, Datadog. Past projects: Order and shipment event integration (logistics) - role Solutions Architect, tech stack DataWeave, MuleSoft, Talend, Datadog, Azure DevOps.",
+          "metadata": {
+            "role": "Solutions Architect",
+            "years_experience": 4,
+            "skills": [
+              "Azure DevOps",
+              "API Management",
+              "REST APIs",
+              "Talend",
+              "MuleSoft",
+              "SQL",
+              "MongoDB",
+              "Redis",
+              "DataWeave",
+              "Datadog"
+            ],
+            "project_ids": [
+              "PRJ-0097"
+            ],
+            "record_id": "CV-0132"
+          },
+          "bm25_score": 22.379671241002015
+        },
+        {
+          "record_id": "CV-0133",
+          "doc_type": "cv",
+          "content": "CV-0133 (Employee_133) - Integration Developer, 5 years of experience. Skills: REST APIs, MuleSoft, Datadog, OAuth 2.0, Talend, Docker, CI/CD, TensorFlow, Redis, SOAP, Azure DevOps, DataWeave. Certifications: MuleSoft Certified Developer. Past projects: Supplier onboarding integration layer (consumer goods) - role Integration Developer, tech stack SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps; Order and shipment event integration (logistics) - role Integration Developer, tech stack DataWeave, MuleSoft, Talend, Datadog, Azure DevOps.",
+          "metadata": {
+            "role": "Integration Developer",
+            "years_experience": 5,
+            "skills": [
+              "REST APIs",
+              "MuleSoft",
+              "Datadog",
+              "OAuth 2.0",
+              "Talend",
+              "Docker",
+              "CI/CD",
+              "TensorFlow",
+              "Redis",
+              "SOAP",
+              "Azure DevOps",
+              "DataWeave"
+            ],
+            "certifications": [
+              "MuleSoft Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0096",
+              "PRJ-0097"
+            ],
+            "record_id": "CV-0133"
+          },
+          "bm25_score": 17.626012959928588
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-005-project_ids",
+      "retrieved_ids": [
+        "PRJ-0021",
+        "PRJ-0022",
+        "PRJ-0097",
+        "project-004",
+        "project-002"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Real-Time Order Event Streaming Platform. Kafka ingestion of order events from commerce and warehouse systems Databricks lakehouse modelling with explicit late-event handling Market-currency normalisation and returns treatment Operational monitoring of pipeline health, excluding downstream finance replacement",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0021",
+        "PRJ-0022"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0021",
+        "PRJ-0022",
+        "PRJ-0097",
+        "project-004",
+        "project-002",
+        "olivesoft-030",
+        "olivesoft-010",
+        "project-001",
+        "PRJ-0044",
+        "project-005"
+      ],
+      "latency_ms": 5.074253332956384,
+      "latency_samples_ms": [
+        3.674000035971403,
+        4.063200030941516,
+        6.65980001213029,
+        5.777099984697998,
+        4.658199963159859,
+        4.007999959867448,
+        3.404200018849224,
+        3.0113999964669347,
+        2.972199989017099,
+        2.9045999981462955,
+        2.8001999598927796,
+        8.79629998235032,
+        8.842700044624507,
+        9.39339998876676,
+        5.148500029463321
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0021",
+          "doc_type": "project",
+          "content": "Project PRJ-0021: Real-time order event streaming platform for a retail client, using Kafka, Databricks, Terraform, Python, Spark. Sector: retail. Outcome: Delivered on schedule with a 17% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Kafka",
+              "Databricks",
+              "Terraform",
+              "Python",
+              "Spark"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0021"
+          },
+          "bm25_score": 39.71786360065119
+        },
+        {
+          "record_id": "PRJ-0022",
+          "doc_type": "project",
+          "content": "Project PRJ-0022: Databricks lakehouse with late-event handling for a retail client, using Kafka, Databricks, Python, Datadog, Terraform. Sector: retail. Outcome: Delivered on schedule with a 31% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Kafka",
+              "Databricks",
+              "Python",
+              "Datadog",
+              "Terraform"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0022"
+          },
+          "bm25_score": 36.98398695945358
+        },
+        {
+          "record_id": "PRJ-0097",
+          "doc_type": "project",
+          "content": "Project PRJ-0097: Order and shipment event integration for a logistics client, using DataWeave, MuleSoft, Talend, Datadog, Azure DevOps. Sector: logistics. Outcome: Delivered on schedule with a 32% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "DataWeave",
+              "MuleSoft",
+              "Talend",
+              "Datadog",
+              "Azure DevOps"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0097"
+          },
+          "bm25_score": 23.581755187444227
+        },
+        {
+          "record_id": "project-004",
+          "doc_type": "project",
+          "content": "Global HR information system with MuleSoft (SAP SuccessFactors). Client: multinational organization (unnamed). Solution: centralized international HRIS (SIRH) integrating SAP SuccessFactors, Talent Connect and local payroll systems through MuleSoft, with bidirectional real-time data flows. Build phase: needs analysis, over 15 MuleSoft applications for region and division specific logic, CI/CD pipeline, unit, integration, system and performance testing, environment-specific deployments (dev, staging, production), hyper-care after go-live. Run phase fully operated by OliveSoft: monitoring dashboards, logging, access management, regular daily and monthly checks, incident handling, documentation, rollout to new regions. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/mise-en-place-dune-solution-rh-centralisee-simplifiee-des-employes",
+            "record_id": "project-004"
+          },
+          "bm25_score": 17.18055527888334
+        },
+        {
+          "record_id": "project-002",
+          "doc_type": "project",
+          "content": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme",
+            "record_id": "project-002"
+          },
+          "bm25_score": 15.960890280962209
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-006-cv_ids",
+      "retrieved_ids": [
+        "CV-0036",
+        "CV-0037",
+        "CV-0038",
+        "CV-0134",
+        "CV-0052"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Service Cloud Contact Centre and Case Management Overhaul. Salesforce Service Cloud implementation with unified omnichannel queue Migration of 14 years of open and closed case history Integration to policy administration for case and policy consistency Phased cutover, parallel-run period, and adviser change management",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0036",
+        "CV-0037",
+        "CV-0038"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0036",
+        "CV-0037",
+        "CV-0038",
+        "CV-0134",
+        "CV-0052",
+        "CV-0066",
+        "CV-0139",
+        "CV-0140",
+        "CV-0143",
+        "CV-0135"
+      ],
+      "latency_ms": 4.193833338407178,
+      "latency_samples_ms": [
+        3.9140000008046627,
+        8.26890004100278,
+        6.681499944534153,
+        3.3745000255294144,
+        4.245100019033998,
+        3.4361000289209187,
+        3.285299986600876,
+        3.2158000394701958,
+        3.4716000081971288,
+        3.525500011164695,
+        3.7711000186391175,
+        4.659499973058701,
+        4.1665000026114285,
+        3.5096000065095723,
+        3.3824999700300395
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0036",
+          "doc_type": "cv",
+          "content": "CV-0036 (Employee_036) - Salesforce Developer, 6 years of experience. Skills: Salesforce Service Cloud, Apex, Data Migration, Talend, Azure DevOps, Lightning, SQL, CI/CD. Certifications: Salesforce Platform Developer I. Past projects: Case history migration and omnichannel routing (insurance) - role Salesforce Developer, tech stack Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration; Service Cloud contact centre implementation (insurance) - role Salesforce Developer, tech stack Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps.",
+          "metadata": {
+            "role": "Salesforce Developer",
+            "years_experience": 6,
+            "skills": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Data Migration",
+              "Talend",
+              "Azure DevOps",
+              "Lightning",
+              "SQL",
+              "CI/CD"
+            ],
+            "certifications": [
+              "Salesforce Platform Developer I"
+            ],
+            "project_ids": [
+              "PRJ-0024",
+              "PRJ-0023"
+            ],
+            "record_id": "CV-0036"
+          },
+          "bm25_score": 60.05204304928248
+        },
+        {
+          "record_id": "CV-0037",
+          "doc_type": "cv",
+          "content": "CV-0037 (Employee_037) - Salesforce Consultant, 5 years of experience. Skills: Salesforce Service Cloud, Apex, Azure DevOps, Data Migration, Lightning, MuleSoft, Docker, SQL. Certifications: Salesforce Certified Administrator. Past projects: Case history migration and omnichannel routing (insurance) - role Salesforce Consultant, tech stack Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration.",
+          "metadata": {
+            "role": "Salesforce Consultant",
+            "years_experience": 5,
+            "skills": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Azure DevOps",
+              "Data Migration",
+              "Lightning",
+              "MuleSoft",
+              "Docker",
+              "SQL"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0024"
+            ],
+            "record_id": "CV-0037"
+          },
+          "bm25_score": 51.36761381824473
+        },
+        {
+          "record_id": "CV-0038",
+          "doc_type": "cv",
+          "content": "CV-0038 (Employee_038) - Solutions Architect, 9 years of experience. Skills: Salesforce Service Cloud, Apex, Azure DevOps, Data Migration, MuleSoft, Python, SQL, Lightning. Certifications: Salesforce Certified Administrator. Past projects: Service Cloud contact centre implementation (insurance) - role Solutions Architect, tech stack Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps.",
+          "metadata": {
+            "role": "Solutions Architect",
+            "years_experience": 9,
+            "skills": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Azure DevOps",
+              "Data Migration",
+              "MuleSoft",
+              "Python",
+              "SQL",
+              "Lightning"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0023"
+            ],
+            "record_id": "CV-0038"
+          },
+          "bm25_score": 40.16884447496408
+        },
+        {
+          "record_id": "CV-0134",
+          "doc_type": "cv",
+          "content": "CV-0134 (Employee_134) - Salesforce Developer, 10 years of experience. Skills: Azure DevOps, SQL, Talend, Lightning, Salesforce, CI/CD, Kotlin, GraphQL, MuleSoft, Apex. Certifications: Salesforce Platform Developer I. Past projects: Customer service case portal on Salesforce (telecom) - role Salesforce Developer, tech stack Salesforce, MuleSoft, SQL, Apex, Lightning.",
+          "metadata": {
+            "role": "Salesforce Developer",
+            "years_experience": 10,
+            "skills": [
+              "Azure DevOps",
+              "SQL",
+              "Talend",
+              "Lightning",
+              "Salesforce",
+              "CI/CD",
+              "Kotlin",
+              "GraphQL",
+              "MuleSoft",
+              "Apex"
+            ],
+            "certifications": [
+              "Salesforce Platform Developer I"
+            ],
+            "project_ids": [
+              "PRJ-0100"
+            ],
+            "record_id": "CV-0134"
+          },
+          "bm25_score": 26.28139548069255
+        },
+        {
+          "record_id": "CV-0052",
+          "doc_type": "cv",
+          "content": "CV-0052 (Employee_052) - Salesforce Consultant, 6 years of experience. Skills: Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync, Git, CI/CD, Django. Certifications: Salesforce Certified Administrator. Past projects: Offline-capable case management with reconciliation (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning; Citizen services CRM Analytics (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+          "metadata": {
+            "role": "Salesforce Consultant",
+            "years_experience": 6,
+            "skills": [
+              "Salesforce",
+              "CRM Analytics",
+              "Lightning",
+              "Data Residency",
+              "Offline Sync",
+              "Git",
+              "CI/CD",
+              "Django"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0034",
+              "PRJ-0033"
+            ],
+            "record_id": "CV-0052"
+          },
+          "bm25_score": 25.596506948543084
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-006-project_ids",
+      "retrieved_ids": [
+        "PRJ-0024",
+        "PRJ-0023",
+        "PRJ-0034",
+        "PRJ-0100",
+        "PRJ-0105"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Service Cloud Contact Centre and Case Management Overhaul. Salesforce Service Cloud implementation with unified omnichannel queue Migration of 14 years of open and closed case history Integration to policy administration for case and policy consistency Phased cutover, parallel-run period, and adviser change management",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0023",
+        "PRJ-0024"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0024",
+        "PRJ-0023",
+        "PRJ-0034",
+        "PRJ-0100",
+        "PRJ-0105",
+        "PRJ-0109",
+        "PRJ-0104",
+        "project-002",
+        "project-003",
+        "olivesoft-005"
+      ],
+      "latency_ms": 4.011486653083314,
+      "latency_samples_ms": [
+        3.7878999719396234,
+        3.4758999827317894,
+        3.5764999920502305,
+        3.670999954920262,
+        3.6136999842710793,
+        4.856499959714711,
+        4.736299975775182,
+        3.7584000383503735,
+        3.4189000143669546,
+        4.808800003957003,
+        3.5383999929763377,
+        3.2649999484419823,
+        3.1498000025749207,
+        4.7011999995447695,
+        5.813999974634498
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0024",
+          "doc_type": "project",
+          "content": "Project PRJ-0024: Case history migration and omnichannel routing for an insurance client, using Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration. Sector: insurance. Outcome: Delivered on schedule with a 44% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Azure DevOps",
+              "Lightning",
+              "Data Migration"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0024"
+          },
+          "bm25_score": 49.79209450639376
+        },
+        {
+          "record_id": "PRJ-0023",
+          "doc_type": "project",
+          "content": "Project PRJ-0023: Service Cloud contact centre implementation for an insurance client, using Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps. Sector: insurance. Outcome: Delivered on schedule with a 35% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Data Migration",
+              "Lightning",
+              "Azure DevOps"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0023"
+          },
+          "bm25_score": 38.85739535251489
+        },
+        {
+          "record_id": "PRJ-0034",
+          "doc_type": "project",
+          "content": "Project PRJ-0034: Offline-capable case management with reconciliation for a public administration client, using Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning. Sector: public administration. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Salesforce",
+              "CRM Analytics",
+              "Offline Sync",
+              "Data Residency",
+              "Lightning"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0034"
+          },
+          "bm25_score": 28.382076546894005
+        },
+        {
+          "record_id": "PRJ-0100",
+          "doc_type": "project",
+          "content": "Project PRJ-0100: Customer service case portal on Salesforce for a telecom client, using Salesforce, MuleSoft, SQL, Apex, Lightning. Sector: telecom. Outcome: Delivered on schedule with a 44% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "telecom",
+            "tech_stack": [
+              "Salesforce",
+              "MuleSoft",
+              "SQL",
+              "Apex",
+              "Lightning"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0100"
+          },
+          "bm25_score": 27.759269038359648
+        },
+        {
+          "record_id": "PRJ-0105",
+          "doc_type": "project",
+          "content": "Project PRJ-0105: Security policy refresh and staff training for a public administration client, using Microsoft Entra ID, Policy Writing, Risk Assessment, Threat Modeling, ISO 27001. Sector: public administration. Outcome: Delivered on schedule with a 45% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Microsoft Entra ID",
+              "Policy Writing",
+              "Risk Assessment",
+              "Threat Modeling",
+              "ISO 27001"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0105"
+          },
+          "bm25_score": 24.40473841675938
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-007-cv_ids",
+      "retrieved_ids": [
+        "CV-0041",
+        "CV-0039",
+        "CV-0040",
+        "CV-0110",
+        "CV-0113"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Demand Forecasting for Industrial Raw Materials. Machine learning demand forecasting per material and customer Explainable forecasts with confidence bands, not point estimates ERP order data integration feeding the forecasting pipeline Planner override captured as training signal",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0039",
+        "CV-0040",
+        "CV-0041"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0041",
+        "CV-0039",
+        "CV-0040",
+        "CV-0110",
+        "CV-0113",
+        "CV-0112",
+        "CV-0111",
+        "CV-0100",
+        "CV-0150",
+        "CV-0099"
+      ],
+      "latency_ms": 3.5221666718522706,
+      "latency_samples_ms": [
+        3.2586000161245465,
+        4.82120004016906,
+        4.158099996857345,
+        3.3053000224754214,
+        2.838500018697232,
+        3.4569999552331865,
+        3.807000000961125,
+        3.9255000301636755,
+        3.4471999970264733,
+        3.006199956871569,
+        3.3211999689228833,
+        3.126900002826005,
+        2.93960003182292,
+        3.6523000453598797,
+        3.7678999942727387
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0041",
+          "doc_type": "cv",
+          "content": "CV-0041 (Employee_041) - Data Scientist, 14 years of experience. Skills: Python, Scikit-learn, BigQuery, TensorFlow, PyTorch, Docker, Azure DevOps, MLOps. Certifications: Microsoft Azure Fundamentals. Past projects: Forecast override dashboard with feedback loop (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, TensorFlow, MLOps, PyTorch; Demand forecasting with confidence bands (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 14,
+            "skills": [
+              "Python",
+              "Scikit-learn",
+              "BigQuery",
+              "TensorFlow",
+              "PyTorch",
+              "Docker",
+              "Azure DevOps",
+              "MLOps"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0026",
+              "PRJ-0025"
+            ],
+            "record_id": "CV-0041"
+          },
+          "bm25_score": 29.040015318991916
+        },
+        {
+          "record_id": "CV-0039",
+          "doc_type": "cv",
+          "content": "CV-0039 (Employee_039) - Data Scientist, 12 years of experience. Skills: Python, Scikit-learn, Power BI, MLOps, BigQuery, Docker, SQL, MongoDB, Django, TensorFlow, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Forecast override dashboard with feedback loop (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, TensorFlow, MLOps, PyTorch; Demand forecasting with confidence bands (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 12,
+            "skills": [
+              "Python",
+              "Scikit-learn",
+              "Power BI",
+              "MLOps",
+              "BigQuery",
+              "Docker",
+              "SQL",
+              "MongoDB",
+              "Django",
+              "TensorFlow",
+              "PyTorch"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0026",
+              "PRJ-0025"
+            ],
+            "record_id": "CV-0039"
+          },
+          "bm25_score": 28.36628375003674
+        },
+        {
+          "record_id": "CV-0040",
+          "doc_type": "cv",
+          "content": "CV-0040 (Employee_040) - AI/ML Engineer, 3 years of experience. Skills: Python, Scikit-learn, BigQuery, TensorFlow, MLOps, PyTorch, Azure DevOps. Certifications: Microsoft Azure Fundamentals. Past projects: Demand forecasting with confidence bands (manufacturing) - role AI/ML Engineer, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 3,
+            "skills": [
+              "Python",
+              "Scikit-learn",
+              "BigQuery",
+              "TensorFlow",
+              "MLOps",
+              "PyTorch",
+              "Azure DevOps"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0025"
+            ],
+            "record_id": "CV-0040"
+          },
+          "bm25_score": 27.08048176165898
+        },
+        {
+          "record_id": "CV-0110",
+          "doc_type": "cv",
+          "content": "CV-0110 (Employee_110) - Data Scientist, 7 years of experience. Skills: MLOps, Azure ML, PyTorch, Docker, Python, SQL, Git, Spring Boot, Time-Series Forecasting, BigQuery. Certifications: Google Professional Machine Learning Engineer. Past projects: Predictive maintenance for turbines (energy) - role Data Scientist, tech stack Python, Time-Series Forecasting, Azure ML, BigQuery, PyTorch.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 7,
+            "skills": [
+              "MLOps",
+              "Azure ML",
+              "PyTorch",
+              "Docker",
+              "Python",
+              "SQL",
+              "Git",
+              "Spring Boot",
+              "Time-Series Forecasting",
+              "BigQuery"
+            ],
+            "certifications": [
+              "Google Professional Machine Learning Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0076"
+            ],
+            "record_id": "CV-0110"
+          },
+          "bm25_score": 19.273311579839167
+        },
+        {
+          "record_id": "CV-0113",
+          "doc_type": "cv",
+          "content": "CV-0113 (Employee_113) - Data Scientist, 4 years of experience. Skills: Scikit-learn, Azure ML, Time-Series Forecasting, MLOps, Git, CI/CD, GraphQL, MongoDB, PyTorch, Python, BigQuery. Certifications: Microsoft Azure Fundamentals. Past projects: Customer churn prediction for subscribers (telecom) - role Data Scientist, tech stack PyTorch, Python, Azure ML, Time-Series Forecasting, BigQuery.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 4,
+            "skills": [
+              "Scikit-learn",
+              "Azure ML",
+              "Time-Series Forecasting",
+              "MLOps",
+              "Git",
+              "CI/CD",
+              "GraphQL",
+              "MongoDB",
+              "PyTorch",
+              "Python",
+              "BigQuery"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0075"
+            ],
+            "record_id": "CV-0113"
+          },
+          "bm25_score": 15.845324266497997
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-007-project_ids",
+      "retrieved_ids": [
+        "project-003",
+        "PRJ-0025",
+        "PRJ-0078",
+        "olivesoft-017",
+        "PRJ-0075"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.5,
+      "query": "Demand Forecasting for Industrial Raw Materials. Machine learning demand forecasting per material and customer Explainable forecasts with confidence bands, not point estimates ERP order data integration feeding the forecasting pipeline Planner override captured as training signal",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0025",
+        "PRJ-0026"
+      ],
+      "ndcg_at_k": 0.38685280723454163,
+      "precision_at_10": 0.1,
+      "recall_at_10": 0.5,
+      "retrieved_ids_at_10": [
+        "project-003",
+        "PRJ-0025",
+        "PRJ-0078",
+        "olivesoft-017",
+        "PRJ-0075",
+        "PRJ-0076",
+        "project-005",
+        "PRJ-0115",
+        "PRJ-0097",
+        "PRJ-0044"
+      ],
+      "latency_ms": 3.4136466837177672,
+      "latency_samples_ms": [
+        3.4697999944910407,
+        2.8082000208087265,
+        4.3043000041507185,
+        3.40919999871403,
+        2.9156000236980617,
+        2.6736000436358154,
+        2.6875000330619514,
+        3.3943000016734004,
+        3.8619000115431845,
+        3.331200045067817,
+        3.1032999977469444,
+        3.018299990799278,
+        4.974500043317676,
+        3.8772000116296113,
+        3.375800035428256
+      ],
+      "matches": [
+        {
+          "record_id": "project-003",
+          "doc_type": "project",
+          "content": "Demand forecasting and AI dashboards for a raw-materials supplier (Sage X3, BigQuery, Power BI). Client: leading raw-materials sourcing company for manufacturing industry (unnamed). Goals: raise supply-chain service rate from 20% to 60%, cut procurement costs by 20% through better demand forecasting, cut storage costs by 15%. Solution: Sage X3 ERP integrated with Google Cloud Storage; Dataform pipelines to build clean reusable data layers; BigQuery for analytics; time-series models (R&D phase) to forecast demand, adjust raw-material orders and project revenue by business unit; Power BI dashboards for sales, finance, purchasing, logistics and planning. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/reinventer-les-previsions-grace-aux-tableaux-de-bord-ia-et-lintegration",
+            "record_id": "project-003"
+          },
+          "bm25_score": 43.34826838929189
+        },
+        {
+          "record_id": "PRJ-0025",
+          "doc_type": "project",
+          "content": "Project PRJ-0025: Demand forecasting with confidence bands for a manufacturing client, using Python, Scikit-learn, MLOps, TensorFlow, PyTorch. Sector: manufacturing. Outcome: Delivered on schedule with a 27% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "manufacturing",
+            "tech_stack": [
+              "Python",
+              "Scikit-learn",
+              "MLOps",
+              "TensorFlow",
+              "PyTorch"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0025"
+          },
+          "bm25_score": 32.83739628402637
+        },
+        {
+          "record_id": "PRJ-0078",
+          "doc_type": "project",
+          "content": "Project PRJ-0078: Shelf demand forecasting for perishables for a retail client, using Time-Series Forecasting, Python, MLOps, Scikit-learn, Azure ML. Sector: retail. Outcome: Delivered on schedule with a 22% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Time-Series Forecasting",
+              "Python",
+              "MLOps",
+              "Scikit-learn",
+              "Azure ML"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0078"
+          },
+          "bm25_score": 24.848921984930328
+        },
+        {
+          "record_id": "olivesoft-017",
+          "doc_type": "project",
+          "content": "OliveSoft project: Sales and product-demand forecasting. Type: pfe internship project, edition 2025. Domain: AI/ML, forecasting, retail, BI. Forecast sales and product needs and expose predictions through a real-time monitoring dashboard. Tech stack: Python, BigQuery, SQL, TensorFlow, Power BI. Status: proposed.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "AI/ML",
+              "forecasting",
+              "retail",
+              "BI"
+            ],
+            "tech_stack": [
+              "Python",
+              "BigQuery",
+              "SQL",
+              "TensorFlow",
+              "Power BI"
+            ],
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 19,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-017"
+          },
+          "bm25_score": 22.271635914488947
+        },
+        {
+          "record_id": "PRJ-0075",
+          "doc_type": "project",
+          "content": "Project PRJ-0075: Customer churn prediction for subscribers for a telecom client, using PyTorch, Python, Azure ML, Time-Series Forecasting, BigQuery. Sector: telecom. Outcome: Delivered on schedule with a 28% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "telecom",
+            "tech_stack": [
+              "PyTorch",
+              "Python",
+              "Azure ML",
+              "Time-Series Forecasting",
+              "BigQuery"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0075"
+          },
+          "bm25_score": 15.533146479748371
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-008-cv_ids",
+      "retrieved_ids": [
+        "CV-0044",
+        "CV-0043",
+        "CV-0042",
+        "CV-0115",
+        "CV-0141"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0042",
+        "CV-0043",
+        "CV-0044"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0044",
+        "CV-0043",
+        "CV-0042",
+        "CV-0115",
+        "CV-0141",
+        "CV-0144",
+        "CV-0143",
+        "CV-0066",
+        "CV-0067",
+        "CV-0011"
+      ],
+      "latency_ms": 4.637353335662435,
+      "latency_samples_ms": [
+        5.859000026248395,
+        4.211299994494766,
+        5.030800006352365,
+        4.30849997792393,
+        4.6027000062167645,
+        4.232999985106289,
+        4.607899987604469,
+        5.608100036624819,
+        4.412500013131648,
+        4.649100010283291,
+        4.089099995326251,
+        3.501500003039837,
+        3.568899992387742,
+        6.179899966809899,
+        4.698000033386052
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0044",
+          "doc_type": "cv",
+          "content": "CV-0044 (Employee_044) - Backend Developer, 6 years of experience. Skills: RAG, Python, ChromaDB, Prompt Evaluation, FastAPI, CI/CD, SQL, LangChain, Pinecone. Certifications: AWS Certified Developer. Past projects: RAG evaluation harness against historical queries (retail) - role Backend Developer, tech stack RAG, Python, LangChain, Pinecone, FastAPI; Grounded RAG support assistant with citations (retail) - role Backend Developer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+          "metadata": {
+            "role": "Backend Developer",
+            "years_experience": 6,
+            "skills": [
+              "RAG",
+              "Python",
+              "ChromaDB",
+              "Prompt Evaluation",
+              "FastAPI",
+              "CI/CD",
+              "SQL",
+              "LangChain",
+              "Pinecone"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0028",
+              "PRJ-0027"
+            ],
+            "record_id": "CV-0044"
+          },
+          "bm25_score": 49.05131677124328
+        },
+        {
+          "record_id": "CV-0043",
+          "doc_type": "cv",
+          "content": "CV-0043 (Employee_043) - AI/ML Engineer, 12 years of experience. Skills: RAG, Python, Pinecone, ChromaDB, FastAPI, Azure DevOps, CI/CD, Redis, Flutter, LangChain. Certifications: Microsoft Azure Fundamentals. Past projects: Grounded RAG support assistant with citations (retail) - role AI/ML Engineer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 12,
+            "skills": [
+              "RAG",
+              "Python",
+              "Pinecone",
+              "ChromaDB",
+              "FastAPI",
+              "Azure DevOps",
+              "CI/CD",
+              "Redis",
+              "Flutter",
+              "LangChain"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0027"
+            ],
+            "record_id": "CV-0043"
+          },
+          "bm25_score": 24.913569398497273
+        },
+        {
+          "record_id": "CV-0042",
+          "doc_type": "cv",
+          "content": "CV-0042 (Employee_042) - AI/ML Engineer, 7 years of experience. Skills: RAG, Python, FastAPI, ChromaDB, OpenAI, Pinecone, Git, Azure DevOps, Redis, Spring Boot, LangChain. Certifications: AWS Certified Developer. Past projects: Grounded RAG support assistant with citations (retail) - role AI/ML Engineer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 7,
+            "skills": [
+              "RAG",
+              "Python",
+              "FastAPI",
+              "ChromaDB",
+              "OpenAI",
+              "Pinecone",
+              "Git",
+              "Azure DevOps",
+              "Redis",
+              "Spring Boot",
+              "LangChain"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0027"
+            ],
+            "record_id": "CV-0042"
+          },
+          "bm25_score": 24.68671272849452
+        },
+        {
+          "record_id": "CV-0115",
+          "doc_type": "cv",
+          "content": "CV-0115 (Employee_115) - Backend Developer, 2 years of experience. Skills: FastAPI, OpenAI, Prompt Evaluation, Python, ChromaDB, RAG, Docker, CI/CD, Spring Boot, HuggingFace, LangChain, NLP, Pinecone. Certifications: AWS Certified Developer. Past projects: Policy question assistant over internal documents (insurance) - role Backend Developer, tech stack Python, HuggingFace, FastAPI, LangChain, NLP; Contract clause extraction with human review (public administration) - role Backend Developer, tech stack ChromaDB, RAG, Pinecone, LangChain, Python.",
+          "metadata": {
+            "role": "Backend Developer",
+            "years_experience": 2,
+            "skills": [
+              "FastAPI",
+              "OpenAI",
+              "Prompt Evaluation",
+              "Python",
+              "ChromaDB",
+              "RAG",
+              "Docker",
+              "CI/CD",
+              "Spring Boot",
+              "HuggingFace",
+              "LangChain",
+              "NLP",
+              "Pinecone"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0079",
+              "PRJ-0080"
+            ],
+            "record_id": "CV-0115"
+          },
+          "bm25_score": 18.944299102069216
+        },
+        {
+          "record_id": "CV-0141",
+          "doc_type": "cv",
+          "content": "CV-0141 (Employee_141) - ERP Developer, 14 years of experience. Skills: Odoo Community, SAP Fiori, Data Migration, Azure DevOps, SAP S/4HANA, SAP BTP, CI/CD, Python, Master Data Management, SQL. Certifications: PMP. Past projects: Maintenance planning module for an ERP (energy) - role ERP Developer, tech stack Master Data Management, Azure DevOps, Odoo Community, Data Migration, SAP Fiori; ERP inventory and purchasing rollout (manufacturing) - role ERP Developer, tech stack SAP Fiori, Odoo Community, SQL, Data Migration, SAP BTP.",
+          "metadata": {
+            "role": "ERP Developer",
+            "years_experience": 14,
+            "skills": [
+              "Odoo Community",
+              "SAP Fiori",
+              "Data Migration",
+              "Azure DevOps",
+              "SAP S/4HANA",
+              "SAP BTP",
+              "CI/CD",
+              "Python",
+              "Master Data Management",
+              "SQL"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0108",
+              "PRJ-0106"
+            ],
+            "record_id": "CV-0141"
+          },
+          "bm25_score": 10.746096330250401
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-008-project_ids",
+      "retrieved_ids": [
+        "PRJ-0028",
+        "PRJ-0027",
+        "PRJ-0079",
+        "olivesoft-015",
+        "project-005"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0027",
+        "PRJ-0028"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0028",
+        "PRJ-0027",
+        "PRJ-0079",
+        "olivesoft-015",
+        "project-005",
+        "project-006",
+        "project-001",
+        "PRJ-0042",
+        "olivesoft-016",
+        "PRJ-0140"
+      ],
+      "latency_ms": 5.464900005608797,
+      "latency_samples_ms": [
+        5.323300021700561,
+        5.677599983755499,
+        6.739599979482591,
+        4.868299991358072,
+        6.104100029915571,
+        5.802100000437349,
+        4.199400020297617,
+        4.269200027920306,
+        4.577699990477413,
+        5.021699995268136,
+        5.5976000148803,
+        6.613600009586662,
+        5.31600002432242,
+        4.6252000029198825,
+        7.238099991809577
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0028",
+          "doc_type": "project",
+          "content": "Project PRJ-0028: RAG evaluation harness against historical queries for a retail client, using RAG, Python, LangChain, Pinecone, FastAPI. Sector: retail. Outcome: Delivered on schedule with a 23% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "RAG",
+              "Python",
+              "LangChain",
+              "Pinecone",
+              "FastAPI"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0028"
+          },
+          "bm25_score": 36.781062578850296
+        },
+        {
+          "record_id": "PRJ-0027",
+          "doc_type": "project",
+          "content": "Project PRJ-0027: Grounded RAG support assistant with citations for a retail client, using RAG, Python, Pinecone, LangChain, FastAPI. Sector: retail. Outcome: Delivered on schedule with a 23% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "RAG",
+              "Python",
+              "Pinecone",
+              "LangChain",
+              "FastAPI"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0027"
+          },
+          "bm25_score": 32.108223837794085
+        },
+        {
+          "record_id": "PRJ-0079",
+          "doc_type": "project",
+          "content": "Project PRJ-0079: Policy question assistant over internal documents for an insurance client, using Python, HuggingFace, FastAPI, LangChain, NLP. Sector: insurance. Outcome: Delivered on schedule with a 21% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Python",
+              "HuggingFace",
+              "FastAPI",
+              "LangChain",
+              "NLP"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0079"
+          },
+          "bm25_score": 29.86669963603371
+        },
+        {
+          "record_id": "olivesoft-015",
+          "doc_type": "project",
+          "content": "OliveSoft project: KWORE generative-media platform. Type: pfe internship project, edition 2025. Domain: generative AI, marketing communication. Extend an image-generation platform with text-to-video, image-to-video and music generation. Tech stack: Python, PyTorch, HuggingFace Transformers, Diffusers. Status: proposed. Client: KWORE.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "generative AI",
+              "marketing communication"
+            ],
+            "tech_stack": [
+              "Python",
+              "PyTorch",
+              "HuggingFace Transformers",
+              "Diffusers"
+            ],
+            "client": "KWORE",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 17,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-015"
+          },
+          "bm25_score": 21.81815626551511
+        },
+        {
+          "record_id": "project-005",
+          "doc_type": "project",
+          "content": "AI counterfeit and grey-market detection PoC (CoAtNet, FAISS). Proof of concept for luxury and retail brands to detect suspicious listings on second-hand and social platforms such as Vinted, Leboncoin and Facebook Marketplace; luxury counterfeiting is estimated at around 15 billion euros of lost revenue per year. Method: crawl listings (images and metadata), preprocess images, encode with CoAtNet (fine-tunable) into embeddings, index in FAISS and compare with authentic industrial designs using cosine or L2 similarity and an adaptive threshold. Human-in-the-loop review for roughly 5-10% of detections. Agents suggest Locarno classification and produce multi-source risk scores. Challenges: image quality, AI-generated photos, false positives, GDPR. Published December 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/detection-de-contrefacons-et-marche-gris-sur-les-plateformes-sociales-et-de-seconde-main",
+            "record_id": "project-005"
+          },
+          "bm25_score": 21.633067476973412
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-009-cv_ids",
+      "retrieved_ids": [
+        "CV-0047",
+        "CV-0046",
+        "CV-0045",
+        "CV-0049",
+        "CV-0048"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Automated Visual Inspection for Textile Quality Control. Computer vision inspection covering the seven highest-return defect classes False-negative bias on safety-critical defects Edge inference with offline operation and opportunistic sync Training ground truth adjudication from inconsistent historical inspector decisions",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0045",
+        "CV-0046",
+        "CV-0047"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0047",
+        "CV-0046",
+        "CV-0045",
+        "CV-0049",
+        "CV-0048",
+        "CV-0050",
+        "CV-0058",
+        "CV-0059",
+        "CV-0077",
+        "CV-0076"
+      ],
+      "latency_ms": 3.5157866581963995,
+      "latency_samples_ms": [
+        5.1883000414818525,
+        3.804399981163442,
+        3.444099973421544,
+        3.2046999549493194,
+        3.28770000487566,
+        3.9337999769486487,
+        3.8213999941945076,
+        3.5723000182770193,
+        2.9341999907046556,
+        2.9328999808058143,
+        3.5502000246196985,
+        3.3258000039495528,
+        3.3270999556407332,
+        3.202599997166544,
+        3.207299974747002
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0047",
+          "doc_type": "cv",
+          "content": "CV-0047 (Employee_047) - Data Scientist, 13 years of experience. Skills: Computer Vision, PyTorch, MLOps, OpenCV, Docker, Edge AI, Azure DevOps, Python, TensorFlow, ONNX. Certifications: NVIDIA Deep Learning Institute Certificate. Past projects: Automated visual inspection on a production line (textile manufacturing) - role Data Scientist, tech stack Computer Vision, PyTorch, Edge AI, Docker, OpenCV; Offline edge inference with opportunistic sync (manufacturing) - role Data Scientist, tech stack Computer Vision, PyTorch, ONNX, Python, Edge AI.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 13,
+            "skills": [
+              "Computer Vision",
+              "PyTorch",
+              "MLOps",
+              "OpenCV",
+              "Docker",
+              "Edge AI",
+              "Azure DevOps",
+              "Python",
+              "TensorFlow",
+              "ONNX"
+            ],
+            "certifications": [
+              "NVIDIA Deep Learning Institute Certificate"
+            ],
+            "project_ids": [
+              "PRJ-0029",
+              "PRJ-0030"
+            ],
+            "record_id": "CV-0047"
+          },
+          "bm25_score": 48.66080009957702
+        },
+        {
+          "record_id": "CV-0046",
+          "doc_type": "cv",
+          "content": "CV-0046 (Employee_046) - Computer Vision Engineer, 5 years of experience. Skills: Computer Vision, PyTorch, Edge AI, Docker, Python, ONNX, SQL, OpenCV. Certifications: NVIDIA Deep Learning Institute Certificate. Past projects: Automated visual inspection on a production line (textile manufacturing) - role Computer Vision Engineer, tech stack Computer Vision, PyTorch, Edge AI, Docker, OpenCV.",
+          "metadata": {
+            "role": "Computer Vision Engineer",
+            "years_experience": 5,
+            "skills": [
+              "Computer Vision",
+              "PyTorch",
+              "Edge AI",
+              "Docker",
+              "Python",
+              "ONNX",
+              "SQL",
+              "OpenCV"
+            ],
+            "certifications": [
+              "NVIDIA Deep Learning Institute Certificate"
+            ],
+            "project_ids": [
+              "PRJ-0029"
+            ],
+            "record_id": "CV-0046"
+          },
+          "bm25_score": 39.814561241956035
+        },
+        {
+          "record_id": "CV-0045",
+          "doc_type": "cv",
+          "content": "CV-0045 (Employee_045) - AI/ML Engineer, 6 years of experience. Skills: Computer Vision, PyTorch, OpenCV, Edge AI, MLOps, ONNX, Azure DevOps, SQL, Kotlin, Python. Certifications: AWS Certified Developer. Past projects: Offline edge inference with opportunistic sync (manufacturing) - role AI/ML Engineer, tech stack Computer Vision, PyTorch, ONNX, Python, Edge AI.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 6,
+            "skills": [
+              "Computer Vision",
+              "PyTorch",
+              "OpenCV",
+              "Edge AI",
+              "MLOps",
+              "ONNX",
+              "Azure DevOps",
+              "SQL",
+              "Kotlin",
+              "Python"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0030"
+            ],
+            "record_id": "CV-0045"
+          },
+          "bm25_score": 30.632571399859827
+        },
+        {
+          "record_id": "CV-0049",
+          "doc_type": "cv",
+          "content": "CV-0049 (Employee_049) - Data Scientist, 8 years of experience. Skills: NLP, Computer Vision, Audit Logging, Python, FastAPI, Azure DevOps, Git, Spring Boot, TensorFlow, PyTorch, Elasticsearch, HuggingFace. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role Data Scientist, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch; Document similarity detection with ranked evidence (public administration) - role Data Scientist, tech stack NLP, Computer Vision, HuggingFace, FastAPI, Python.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 8,
+            "skills": [
+              "NLP",
+              "Computer Vision",
+              "Audit Logging",
+              "Python",
+              "FastAPI",
+              "Azure DevOps",
+              "Git",
+              "Spring Boot",
+              "TensorFlow",
+              "PyTorch",
+              "Elasticsearch",
+              "HuggingFace"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0032",
+              "PRJ-0031"
+            ],
+            "record_id": "CV-0049"
+          },
+          "bm25_score": 12.266492339252576
+        },
+        {
+          "record_id": "CV-0048",
+          "doc_type": "cv",
+          "content": "CV-0048 (Employee_048) - AI/ML Engineer, 14 years of experience. Skills: NLP, Computer Vision, Elasticsearch, FastAPI, HuggingFace, Docker, Git, Redis, Flutter, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role AI/ML Engineer, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 14,
+            "skills": [
+              "NLP",
+              "Computer Vision",
+              "Elasticsearch",
+              "FastAPI",
+              "HuggingFace",
+              "Docker",
+              "Git",
+              "Redis",
+              "Flutter",
+              "PyTorch"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0032"
+            ],
+            "record_id": "CV-0048"
+          },
+          "bm25_score": 11.665019085711524
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-009-project_ids",
+      "retrieved_ids": [
+        "PRJ-0029",
+        "PRJ-0030",
+        "PRJ-0032",
+        "PRJ-0037",
+        "PRJ-0050"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Automated Visual Inspection for Textile Quality Control. Computer vision inspection covering the seven highest-return defect classes False-negative bias on safety-critical defects Edge inference with offline operation and opportunistic sync Training ground truth adjudication from inconsistent historical inspector decisions",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0029",
+        "PRJ-0030"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0029",
+        "PRJ-0030",
+        "PRJ-0032",
+        "PRJ-0037",
+        "PRJ-0050",
+        "PRJ-0031",
+        "PRJ-0038",
+        "PRJ-0049",
+        "PRJ-0034",
+        "PRJ-0015"
+      ],
+      "latency_ms": 3.3516333360845842,
+      "latency_samples_ms": [
+        2.9643000452779233,
+        2.9374000150710344,
+        2.954099967610091,
+        3.108199976850301,
+        3.3019999973475933,
+        3.0261999927461147,
+        2.9548000311478972,
+        2.9637000407092273,
+        3.9603000041097403,
+        3.175000019837171,
+        3.2264000037685037,
+        2.9480999801307917,
+        3.6087000044062734,
+        4.8316000029444695,
+        4.313699959311634
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0029",
+          "doc_type": "project",
+          "content": "Project PRJ-0029: Automated visual inspection on a production line for a textile manufacturing client, using Computer Vision, PyTorch, Edge AI, Docker, OpenCV. Sector: textile manufacturing. Outcome: Delivered on schedule with a 26% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "textile manufacturing",
+            "tech_stack": [
+              "Computer Vision",
+              "PyTorch",
+              "Edge AI",
+              "Docker",
+              "OpenCV"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0029"
+          },
+          "bm25_score": 43.31315642882991
+        },
+        {
+          "record_id": "PRJ-0030",
+          "doc_type": "project",
+          "content": "Project PRJ-0030: Offline edge inference with opportunistic sync for a manufacturing client, using Computer Vision, PyTorch, ONNX, Python, Edge AI. Sector: manufacturing. Outcome: Delivered on schedule with a 44% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "manufacturing",
+            "tech_stack": [
+              "Computer Vision",
+              "PyTorch",
+              "ONNX",
+              "Python",
+              "Edge AI"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0030"
+          },
+          "bm25_score": 34.59876382076151
+        },
+        {
+          "record_id": "PRJ-0032",
+          "doc_type": "project",
+          "content": "Project PRJ-0032: Image and text matching with auditable decision trail for a public administration client, using NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch. Sector: public administration. Outcome: Delivered on schedule with a 26% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "NLP",
+              "Computer Vision",
+              "PyTorch",
+              "FastAPI",
+              "Elasticsearch"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0032"
+          },
+          "bm25_score": 12.996112596475088
+        },
+        {
+          "record_id": "PRJ-0037",
+          "doc_type": "project",
+          "content": "Project PRJ-0037: Telematics API integration with maintenance and fuel systems for a logistics client, using REST APIs, Flutter, Offline Sync, Telematics, MuleSoft. Sector: logistics. Outcome: Delivered on schedule with a 42% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "REST APIs",
+              "Flutter",
+              "Offline Sync",
+              "Telematics",
+              "MuleSoft"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0037"
+          },
+          "bm25_score": 11.922451079820856
+        },
+        {
+          "record_id": "PRJ-0050",
+          "doc_type": "project",
+          "content": "Project PRJ-0050: Mobile sync service with conflict resolution for an energy client, using React Native, TypeScript, Firebase, Cypress, Offline Sync. Sector: energy. Outcome: Delivered on schedule with a 24% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "energy",
+            "tech_stack": [
+              "React Native",
+              "TypeScript",
+              "Firebase",
+              "Cypress",
+              "Offline Sync"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0050"
+          },
+          "bm25_score": 11.910961049867915
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-010-cv_ids",
+      "retrieved_ids": [
+        "CV-0049",
+        "CV-0048",
+        "CV-0050",
+        "CV-0081",
+        "CV-0129"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Trademark Similarity Detection and Prior-Art Crawler. Similarity detection across image marks and word marks National and international class code handling Ranked candidate list exposing the matched basis, not a bare score Auditable decision trail sufficient for external appeal review",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0048",
+        "CV-0049",
+        "CV-0050"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0049",
+        "CV-0048",
+        "CV-0050",
+        "CV-0081",
+        "CV-0129",
+        "CV-0138",
+        "CV-0087",
+        "CV-0089",
+        "CV-0082",
+        "CV-0066"
+      ],
+      "latency_ms": 3.8073000110064945,
+      "latency_samples_ms": [
+        3.2447000266984105,
+        3.267599968239665,
+        3.265000006649643,
+        4.351900017354637,
+        5.37379999877885,
+        3.71000001905486,
+        3.945200005546212,
+        3.9589000516571105,
+        3.2931999885477126,
+        6.487499980721623,
+        4.209600039757788,
+        3.222400031518191,
+        2.8445000061765313,
+        2.8856000280939043,
+        3.049599996302277
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0049",
+          "doc_type": "cv",
+          "content": "CV-0049 (Employee_049) - Data Scientist, 8 years of experience. Skills: NLP, Computer Vision, Audit Logging, Python, FastAPI, Azure DevOps, Git, Spring Boot, TensorFlow, PyTorch, Elasticsearch, HuggingFace. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role Data Scientist, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch; Document similarity detection with ranked evidence (public administration) - role Data Scientist, tech stack NLP, Computer Vision, HuggingFace, FastAPI, Python.",
+          "metadata": {
+            "role": "Data Scientist",
+            "years_experience": 8,
+            "skills": [
+              "NLP",
+              "Computer Vision",
+              "Audit Logging",
+              "Python",
+              "FastAPI",
+              "Azure DevOps",
+              "Git",
+              "Spring Boot",
+              "TensorFlow",
+              "PyTorch",
+              "Elasticsearch",
+              "HuggingFace"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0032",
+              "PRJ-0031"
+            ],
+            "record_id": "CV-0049"
+          },
+          "bm25_score": 35.52731873592144
+        },
+        {
+          "record_id": "CV-0048",
+          "doc_type": "cv",
+          "content": "CV-0048 (Employee_048) - AI/ML Engineer, 14 years of experience. Skills: NLP, Computer Vision, Elasticsearch, FastAPI, HuggingFace, Docker, Git, Redis, Flutter, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role AI/ML Engineer, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 14,
+            "skills": [
+              "NLP",
+              "Computer Vision",
+              "Elasticsearch",
+              "FastAPI",
+              "HuggingFace",
+              "Docker",
+              "Git",
+              "Redis",
+              "Flutter",
+              "PyTorch"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0032"
+            ],
+            "record_id": "CV-0048"
+          },
+          "bm25_score": 20.09507506274419
+        },
+        {
+          "record_id": "CV-0050",
+          "doc_type": "cv",
+          "content": "CV-0050 (Employee_050) - AI/ML Engineer, 9 years of experience. Skills: NLP, Computer Vision, HuggingFace, Elasticsearch, FastAPI, Azure DevOps, SQL, Spring Boot, Redis, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role AI/ML Engineer, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch.",
+          "metadata": {
+            "role": "AI/ML Engineer",
+            "years_experience": 9,
+            "skills": [
+              "NLP",
+              "Computer Vision",
+              "HuggingFace",
+              "Elasticsearch",
+              "FastAPI",
+              "Azure DevOps",
+              "SQL",
+              "Spring Boot",
+              "Redis",
+              "PyTorch"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0032"
+            ],
+            "record_id": "CV-0050"
+          },
+          "bm25_score": 19.74197467898449
+        },
+        {
+          "record_id": "CV-0081",
+          "doc_type": "cv",
+          "content": "CV-0081 (Employee_081) - IAM Engineer, 3 years of experience. Skills: OAuth 2.0, OpenID Connect, Keycloak, Okta, Key Vault, Git, Python, Django, Spring Boot, Microsoft Entra ID, Audit Logging. Certifications: Microsoft Identity and Access Administrator. Past projects: Customer identity and consent service (banking) - role IAM Engineer, tech stack OAuth 2.0, OpenID Connect, Keycloak, Microsoft Entra ID, Audit Logging; National single sign-on platform for public services (public administration) - role IAM Engineer, tech stack OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID.",
+          "metadata": {
+            "role": "IAM Engineer",
+            "years_experience": 3,
+            "skills": [
+              "OAuth 2.0",
+              "OpenID Connect",
+              "Keycloak",
+              "Okta",
+              "Key Vault",
+              "Git",
+              "Python",
+              "Django",
+              "Spring Boot",
+              "Microsoft Entra ID",
+              "Audit Logging"
+            ],
+            "certifications": [
+              "Microsoft Identity and Access Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0054",
+              "PRJ-0053"
+            ],
+            "record_id": "CV-0081"
+          },
+          "bm25_score": 8.469173328939334
+        },
+        {
+          "record_id": "CV-0129",
+          "doc_type": "cv",
+          "content": "CV-0129 (Employee_129) - Cloud Architect, 2 years of experience. Skills: Grafana, GCP, Prometheus, Azure, GitHub Actions, Python, CI/CD, TensorFlow, Docker, AWS, Terraform, Kubernetes, Helm. Certifications: Microsoft Azure Fundamentals. Past projects: Datacentre exit and container migration (telecom) - role Cloud Architect, tech stack Docker, Azure, AWS, Terraform, Kubernetes; Infrastructure as code baseline for retail platforms (retail) - role Cloud Architect, tech stack Helm, Prometheus, GitHub Actions, Kubernetes, Azure, Terraform.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 2,
+            "skills": [
+              "Grafana",
+              "GCP",
+              "Prometheus",
+              "Azure",
+              "GitHub Actions",
+              "Python",
+              "CI/CD",
+              "TensorFlow",
+              "Docker",
+              "AWS",
+              "Terraform",
+              "Kubernetes",
+              "Helm"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0091",
+              "PRJ-0092"
+            ],
+            "record_id": "CV-0129"
+          },
+          "bm25_score": 8.288306317223984
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-010-project_ids",
+      "retrieved_ids": [
+        "PRJ-0031",
+        "PRJ-0032",
+        "project-005",
+        "project-006",
+        "project-002"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Trademark Similarity Detection and Prior-Art Crawler. Similarity detection across image marks and word marks National and international class code handling Ranked candidate list exposing the matched basis, not a bare score Auditable decision trail sufficient for external appeal review",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0031",
+        "PRJ-0032"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0031",
+        "PRJ-0032",
+        "project-005",
+        "project-006",
+        "project-002",
+        "project-004",
+        "PRJ-0103",
+        "project-001",
+        "olivesoft-015",
+        "PRJ-0092"
+      ],
+      "latency_ms": 7.315013332602878,
+      "latency_samples_ms": [
+        3.4090999979525805,
+        3.70110000949353,
+        4.645000037271529,
+        4.432399990037084,
+        5.071199964731932,
+        6.071899959351867,
+        5.377999972552061,
+        4.890700045507401,
+        6.134099967312068,
+        7.8158999676816165,
+        12.435900047421455,
+        11.096200032625347,
+        8.386100002098829,
+        11.889400018844754,
+        14.368199976161122
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0031",
+          "doc_type": "project",
+          "content": "Project PRJ-0031: Document similarity detection with ranked evidence for a public administration client, using NLP, Computer Vision, HuggingFace, FastAPI, Python. Sector: public administration. Outcome: Delivered on schedule with a 16% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "NLP",
+              "Computer Vision",
+              "HuggingFace",
+              "FastAPI",
+              "Python"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0031"
+          },
+          "bm25_score": 29.492777065356705
+        },
+        {
+          "record_id": "PRJ-0032",
+          "doc_type": "project",
+          "content": "Project PRJ-0032: Image and text matching with auditable decision trail for a public administration client, using NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch. Sector: public administration. Outcome: Delivered on schedule with a 26% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "NLP",
+              "Computer Vision",
+              "PyTorch",
+              "FastAPI",
+              "Elasticsearch"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0032"
+          },
+          "bm25_score": 26.242053071404413
+        },
+        {
+          "record_id": "project-005",
+          "doc_type": "project",
+          "content": "AI counterfeit and grey-market detection PoC (CoAtNet, FAISS). Proof of concept for luxury and retail brands to detect suspicious listings on second-hand and social platforms such as Vinted, Leboncoin and Facebook Marketplace; luxury counterfeiting is estimated at around 15 billion euros of lost revenue per year. Method: crawl listings (images and metadata), preprocess images, encode with CoAtNet (fine-tunable) into embeddings, index in FAISS and compare with authentic industrial designs using cosine or L2 similarity and an adaptive threshold. Human-in-the-loop review for roughly 5-10% of detections. Agents suggest Locarno classification and produce multi-source risk scores. Challenges: image quality, AI-generated photos, false positives, GDPR. Published December 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/detection-de-contrefacons-et-marche-gris-sur-les-plateformes-sociales-et-de-seconde-main",
+            "record_id": "project-005"
+          },
+          "bm25_score": 24.89587183994619
+        },
+        {
+          "record_id": "project-006",
+          "doc_type": "project",
+          "content": "AI-powered intellectual property registration platform (government agency). Client: government agency (unnamed). Solution: end-to-end intelligent platform to simplify and unify trademark and patent registration. Core components: an AI chatbot guiding users through each registration step, and an intelligent analysis robot that detects similar existing entries to strengthen originality and avoid duplicates. Aim: smoother administrative processes and better protection of innovation at national scale.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/services",
+            "record_id": "project-006"
+          },
+          "bm25_score": 15.726443428876138
+        },
+        {
+          "record_id": "project-002",
+          "doc_type": "project",
+          "content": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme",
+            "record_id": "project-002"
+          },
+          "bm25_score": 14.803970465882102
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-011-cv_ids",
+      "retrieved_ids": [
+        "CV-0052",
+        "CV-0051",
+        "CV-0053",
+        "CV-0135",
+        "CV-0137"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Citizen Services CRM and Case Analytics. CRM Analytics on the existing Salesforce platform for central case oversight Monthly reporting pack covering volume, resolution time, and backlog by office Offline working capability in 30 municipal offices with reconciliation on reconnect Citizen record data residency restricted to ministry-operated infrastructure",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0051",
+        "CV-0052",
+        "CV-0053"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0052",
+        "CV-0051",
+        "CV-0053",
+        "CV-0135",
+        "CV-0137",
+        "CV-0134",
+        "CV-0136",
+        "CV-0037",
+        "CV-0036",
+        "CV-0087"
+      ],
+      "latency_ms": 4.46293333855768,
+      "latency_samples_ms": [
+        4.918400023598224,
+        3.9006000151857734,
+        7.399599999189377,
+        7.720099994912744,
+        6.0184000176377594,
+        4.483300028368831,
+        3.5251000081188977,
+        3.5358999739401042,
+        3.6219999892637134,
+        4.214800021145493,
+        3.5311999963596463,
+        3.385899995919317,
+        3.546499996446073,
+        3.716900013387203,
+        3.425300004892051
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0052",
+          "doc_type": "cv",
+          "content": "CV-0052 (Employee_052) - Salesforce Consultant, 6 years of experience. Skills: Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync, Git, CI/CD, Django. Certifications: Salesforce Certified Administrator. Past projects: Offline-capable case management with reconciliation (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning; Citizen services CRM Analytics (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+          "metadata": {
+            "role": "Salesforce Consultant",
+            "years_experience": 6,
+            "skills": [
+              "Salesforce",
+              "CRM Analytics",
+              "Lightning",
+              "Data Residency",
+              "Offline Sync",
+              "Git",
+              "CI/CD",
+              "Django"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0034",
+              "PRJ-0033"
+            ],
+            "record_id": "CV-0052"
+          },
+          "bm25_score": 53.98132582726999
+        },
+        {
+          "record_id": "CV-0051",
+          "doc_type": "cv",
+          "content": "CV-0051 (Employee_051) - Salesforce Developer, 13 years of experience. Skills: Salesforce, CRM Analytics, Lightning, Apex, Azure DevOps, Offline Sync, Git, SQL, Spring Boot, Django, Data Residency. Certifications: Salesforce Certified Administrator. Past projects: Citizen services CRM Analytics (public administration) - role Salesforce Developer, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+          "metadata": {
+            "role": "Salesforce Developer",
+            "years_experience": 13,
+            "skills": [
+              "Salesforce",
+              "CRM Analytics",
+              "Lightning",
+              "Apex",
+              "Azure DevOps",
+              "Offline Sync",
+              "Git",
+              "SQL",
+              "Spring Boot",
+              "Django",
+              "Data Residency"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0033"
+            ],
+            "record_id": "CV-0051"
+          },
+          "bm25_score": 42.848264088195336
+        },
+        {
+          "record_id": "CV-0053",
+          "doc_type": "cv",
+          "content": "CV-0053 (Employee_053) - Business Analyst, 11 years of experience. Skills: Salesforce, CRM Analytics, Apex, Azure DevOps, Lightning, SQL, TensorFlow, GraphQL, Data Residency, Offline Sync. Certifications: Salesforce Certified Administrator. Past projects: Citizen services CRM Analytics (public administration) - role Business Analyst, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+          "metadata": {
+            "role": "Business Analyst",
+            "years_experience": 11,
+            "skills": [
+              "Salesforce",
+              "CRM Analytics",
+              "Apex",
+              "Azure DevOps",
+              "Lightning",
+              "SQL",
+              "TensorFlow",
+              "GraphQL",
+              "Data Residency",
+              "Offline Sync"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0033"
+            ],
+            "record_id": "CV-0053"
+          },
+          "bm25_score": 42.811348384063734
+        },
+        {
+          "record_id": "CV-0135",
+          "doc_type": "cv",
+          "content": "CV-0135 (Employee_135) - Salesforce Consultant, 7 years of experience. Skills: Apex, CRM Analytics, Salesforce, Data Quality, Data Migration, Lightning, Git, CI/CD, TensorFlow, Django, Azure DevOps, MuleSoft, SQL. Certifications: Salesforce Certified Administrator. Past projects: Membership and donor CRM (education) - role Salesforce Consultant, tech stack Azure DevOps, MuleSoft, Salesforce, CRM Analytics, Apex; Broker management CRM implementation (insurance) - role Salesforce Consultant, tech stack Lightning, Apex, Azure DevOps, MuleSoft, SQL.",
+          "metadata": {
+            "role": "Salesforce Consultant",
+            "years_experience": 7,
+            "skills": [
+              "Apex",
+              "CRM Analytics",
+              "Salesforce",
+              "Data Quality",
+              "Data Migration",
+              "Lightning",
+              "Git",
+              "CI/CD",
+              "TensorFlow",
+              "Django",
+              "Azure DevOps",
+              "MuleSoft",
+              "SQL"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0102",
+              "PRJ-0101"
+            ],
+            "record_id": "CV-0135"
+          },
+          "bm25_score": 22.05090230415933
+        },
+        {
+          "record_id": "CV-0137",
+          "doc_type": "cv",
+          "content": "CV-0137 (Employee_137) - Salesforce Developer, 5 years of experience. Skills: Salesforce, Apex, CRM Analytics, Azure DevOps, Data Quality, Lightning, Docker, Python, Flutter, Kotlin, MuleSoft, SQL. Certifications: Salesforce Certified Administrator. Past projects: Broker management CRM implementation (insurance) - role Salesforce Developer, tech stack Lightning, Apex, Azure DevOps, MuleSoft, SQL.",
+          "metadata": {
+            "role": "Salesforce Developer",
+            "years_experience": 5,
+            "skills": [
+              "Salesforce",
+              "Apex",
+              "CRM Analytics",
+              "Azure DevOps",
+              "Data Quality",
+              "Lightning",
+              "Docker",
+              "Python",
+              "Flutter",
+              "Kotlin",
+              "MuleSoft",
+              "SQL"
+            ],
+            "certifications": [
+              "Salesforce Certified Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0101"
+            ],
+            "record_id": "CV-0137"
+          },
+          "bm25_score": 17.13068700154328
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-011-project_ids",
+      "retrieved_ids": [
+        "PRJ-0033",
+        "PRJ-0034",
+        "PRJ-0102",
+        "PRJ-0086",
+        "PRJ-0024"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Citizen Services CRM and Case Analytics. CRM Analytics on the existing Salesforce platform for central case oversight Monthly reporting pack covering volume, resolution time, and backlog by office Offline working capability in 30 municipal offices with reconciliation on reconnect Citizen record data residency restricted to ministry-operated infrastructure",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0033",
+        "PRJ-0034"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0033",
+        "PRJ-0034",
+        "PRJ-0102",
+        "PRJ-0086",
+        "PRJ-0024",
+        "project-001",
+        "project-004",
+        "PRJ-0100",
+        "project-002",
+        "PRJ-0010"
+      ],
+      "latency_ms": 3.881786670535803,
+      "latency_samples_ms": [
+        3.5462999949231744,
+        4.516499990131706,
+        3.647000005003065,
+        3.600600000936538,
+        3.5105000133626163,
+        4.476399975828826,
+        3.976800013333559,
+        3.6170000093989074,
+        3.5490000154823065,
+        4.934899974614382,
+        4.059700004290789,
+        3.4918999881483614,
+        3.4135000314563513,
+        4.018400039058179,
+        3.868300002068281
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0033",
+          "doc_type": "project",
+          "content": "Project PRJ-0033: Citizen services CRM Analytics for a public administration client, using Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync. Sector: public administration. Outcome: Delivered on schedule with a 34% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Salesforce",
+              "CRM Analytics",
+              "Lightning",
+              "Data Residency",
+              "Offline Sync"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0033"
+          },
+          "bm25_score": 47.04485515359372
+        },
+        {
+          "record_id": "PRJ-0034",
+          "doc_type": "project",
+          "content": "Project PRJ-0034: Offline-capable case management with reconciliation for a public administration client, using Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning. Sector: public administration. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Salesforce",
+              "CRM Analytics",
+              "Offline Sync",
+              "Data Residency",
+              "Lightning"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0034"
+          },
+          "bm25_score": 42.72708309468112
+        },
+        {
+          "record_id": "PRJ-0102",
+          "doc_type": "project",
+          "content": "Project PRJ-0102: Membership and donor CRM for an education client, using Azure DevOps, MuleSoft, Salesforce, CRM Analytics, Apex. Sector: education. Outcome: Delivered on schedule with a 18% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "education",
+            "tech_stack": [
+              "Azure DevOps",
+              "MuleSoft",
+              "Salesforce",
+              "CRM Analytics",
+              "Apex"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0102"
+          },
+          "bm25_score": 26.116518712862003
+        },
+        {
+          "record_id": "PRJ-0086",
+          "doc_type": "project",
+          "content": "Project PRJ-0086: Citizen information portal refresh for a public administration client, using Node.js, Figma, SEO, Next.js, TypeScript. Sector: public administration. Outcome: Delivered on schedule with a 30% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Node.js",
+              "Figma",
+              "SEO",
+              "Next.js",
+              "TypeScript"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0086"
+          },
+          "bm25_score": 21.89330861124652
+        },
+        {
+          "record_id": "PRJ-0024",
+          "doc_type": "project",
+          "content": "Project PRJ-0024: Case history migration and omnichannel routing for an insurance client, using Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration. Sector: insurance. Outcome: Delivered on schedule with a 44% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Salesforce Service Cloud",
+              "Apex",
+              "Azure DevOps",
+              "Lightning",
+              "Data Migration"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0024"
+          },
+          "bm25_score": 21.32705061701271
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-012-cv_ids",
+      "retrieved_ids": [
+        "CV-0056",
+        "CV-0054",
+        "CV-0055",
+        "CV-0093",
+        "CV-0094"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Public Statistics Data Platform and Open Data Portal. BigQuery warehouse for validated statistical series on GCP Snowflake modelling of statistical outputs with full lineage to submitting unit Submission specification enforcement rejecting non-conforming files with specific errors Documented and approved de-identification review before publication",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0054",
+        "CV-0055",
+        "CV-0056"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0056",
+        "CV-0054",
+        "CV-0055",
+        "CV-0093",
+        "CV-0094",
+        "CV-0110",
+        "CV-0113",
+        "CV-0119",
+        "CV-0059",
+        "CV-0066"
+      ],
+      "latency_ms": 3.7251933361403644,
+      "latency_samples_ms": [
+        3.8609999464824796,
+        4.55890002194792,
+        3.957000037189573,
+        3.5481000086292624,
+        3.317599999718368,
+        3.8228000048547983,
+        3.960200003348291,
+        3.406599978916347,
+        3.354499989654869,
+        3.251899965107441,
+        4.560900037176907,
+        3.799900005105883,
+        3.5354000283405185,
+        3.2503000111319125,
+        3.6928000045008957
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0056",
+          "doc_type": "cv",
+          "content": "CV-0056 (Employee_056) - Data Engineer, 11 years of experience. Skills: BigQuery, Snowflake, dbt, Python, GCP, CI/CD, Azure DevOps, TensorFlow, Data Lineage, Apache Airflow, Terraform. Certifications: Google Professional Data Engineer. Past projects: Open data portal with lineage and de-identification (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow; Public statistics warehouse on BigQuery (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 11,
+            "skills": [
+              "BigQuery",
+              "Snowflake",
+              "dbt",
+              "Python",
+              "GCP",
+              "CI/CD",
+              "Azure DevOps",
+              "TensorFlow",
+              "Data Lineage",
+              "Apache Airflow",
+              "Terraform"
+            ],
+            "certifications": [
+              "Google Professional Data Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0036",
+              "PRJ-0035"
+            ],
+            "record_id": "CV-0056"
+          },
+          "bm25_score": 48.12484775853928
+        },
+        {
+          "record_id": "CV-0054",
+          "doc_type": "cv",
+          "content": "CV-0054 (Employee_054) - Data Engineer, 10 years of experience. Skills: BigQuery, Snowflake, Data Lineage, Terraform, Python, Apache Airflow, CI/CD, Azure DevOps, Django, dbt. Certifications: SnowPro Core. Past projects: Open data portal with lineage and de-identification (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow; Public statistics warehouse on BigQuery (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 10,
+            "skills": [
+              "BigQuery",
+              "Snowflake",
+              "Data Lineage",
+              "Terraform",
+              "Python",
+              "Apache Airflow",
+              "CI/CD",
+              "Azure DevOps",
+              "Django",
+              "dbt"
+            ],
+            "certifications": [
+              "SnowPro Core"
+            ],
+            "project_ids": [
+              "PRJ-0036",
+              "PRJ-0035"
+            ],
+            "record_id": "CV-0054"
+          },
+          "bm25_score": 47.269162499723286
+        },
+        {
+          "record_id": "CV-0055",
+          "doc_type": "cv",
+          "content": "CV-0055 (Employee_055) - Data Architect, 12 years of experience. Skills: BigQuery, Snowflake, GCP, Apache Airflow, Python, Terraform, Docker, Azure DevOps, Swift, Kotlin, dbt. Certifications: SnowPro Core. Past projects: Public statistics warehouse on BigQuery (public administration) - role Data Architect, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+          "metadata": {
+            "role": "Data Architect",
+            "years_experience": 12,
+            "skills": [
+              "BigQuery",
+              "Snowflake",
+              "GCP",
+              "Apache Airflow",
+              "Python",
+              "Terraform",
+              "Docker",
+              "Azure DevOps",
+              "Swift",
+              "Kotlin",
+              "dbt"
+            ],
+            "certifications": [
+              "SnowPro Core"
+            ],
+            "project_ids": [
+              "PRJ-0035"
+            ],
+            "record_id": "CV-0055"
+          },
+          "bm25_score": 26.424238836337036
+        },
+        {
+          "record_id": "CV-0093",
+          "doc_type": "cv",
+          "content": "CV-0093 (Employee_093) - Data Engineer, 5 years of experience. Skills: Azure Data Factory, Informatica, Data Quality, Data Lineage, Apache NiFi, Fivetran, Azure DevOps, Docker, SQL, Boomi. Certifications: Microsoft Azure Data Engineer Associate. Past projects: Claims data pipelines with quality checks and lineage (insurance) - role Data Engineer, tech stack Azure Data Factory, Informatica, SQL, Data Quality, Boomi; Integration tool consolidation with job migration (insurance) - role Data Engineer, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 5,
+            "skills": [
+              "Azure Data Factory",
+              "Informatica",
+              "Data Quality",
+              "Data Lineage",
+              "Apache NiFi",
+              "Fivetran",
+              "Azure DevOps",
+              "Docker",
+              "SQL",
+              "Boomi"
+            ],
+            "certifications": [
+              "Microsoft Azure Data Engineer Associate"
+            ],
+            "project_ids": [
+              "PRJ-0062",
+              "PRJ-0061"
+            ],
+            "record_id": "CV-0093"
+          },
+          "bm25_score": 13.70899991383997
+        },
+        {
+          "record_id": "CV-0094",
+          "doc_type": "cv",
+          "content": "CV-0094 (Employee_094) - ETL Developer, 4 years of experience. Skills: Azure Data Factory, Informatica, Data Quality, Boomi, Data Lineage, SQL, CI/CD, Spring Boot, Fivetran, Apache NiFi. Certifications: Informatica Data Integration Certification. Past projects: Claims data pipelines with quality checks and lineage (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, SQL, Data Quality, Boomi; Integration tool consolidation with job migration (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+          "metadata": {
+            "role": "ETL Developer",
+            "years_experience": 4,
+            "skills": [
+              "Azure Data Factory",
+              "Informatica",
+              "Data Quality",
+              "Boomi",
+              "Data Lineage",
+              "SQL",
+              "CI/CD",
+              "Spring Boot",
+              "Fivetran",
+              "Apache NiFi"
+            ],
+            "certifications": [
+              "Informatica Data Integration Certification"
+            ],
+            "project_ids": [
+              "PRJ-0062",
+              "PRJ-0061"
+            ],
+            "record_id": "CV-0094"
+          },
+          "bm25_score": 13.594500827591995
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-012-project_ids",
+      "retrieved_ids": [
+        "PRJ-0036",
+        "PRJ-0035",
+        "project-004",
+        "project-003",
+        "project-001"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Public Statistics Data Platform and Open Data Portal. BigQuery warehouse for validated statistical series on GCP Snowflake modelling of statistical outputs with full lineage to submitting unit Submission specification enforcement rejecting non-conforming files with specific errors Documented and approved de-identification review before publication",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0035",
+        "PRJ-0036"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0036",
+        "PRJ-0035",
+        "project-004",
+        "project-003",
+        "project-001",
+        "project-002",
+        "PRJ-0080",
+        "PRJ-0062",
+        "olivesoft-001",
+        "project-005"
+      ],
+      "latency_ms": 3.691760000462333,
+      "latency_samples_ms": [
+        3.42989998171106,
+        4.291100020054728,
+        3.9973999955691397,
+        3.6493000225163996,
+        3.3736000186763704,
+        3.8984999991953373,
+        4.390500020235777,
+        3.6299999919719994,
+        3.36909998441115,
+        3.2627999898977578,
+        3.7446999922394753,
+        3.777099947910756,
+        3.543799975886941,
+        3.558600030373782,
+        3.4600000362843275
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0036",
+          "doc_type": "project",
+          "content": "Project PRJ-0036: Open data portal with lineage and de-identification for a public administration client, using BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow. Sector: public administration. Outcome: Delivered on schedule with a 45% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "BigQuery",
+              "Snowflake",
+              "Data Lineage",
+              "dbt",
+              "Apache Airflow"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0036"
+          },
+          "bm25_score": 45.05139925243382
+        },
+        {
+          "record_id": "PRJ-0035",
+          "doc_type": "project",
+          "content": "Project PRJ-0035: Public statistics warehouse on BigQuery for a public administration client, using BigQuery, Snowflake, Terraform, Python, dbt. Sector: public administration. Outcome: Delivered on schedule with a 36% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "BigQuery",
+              "Snowflake",
+              "Terraform",
+              "Python",
+              "dbt"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0035"
+          },
+          "bm25_score": 27.14016428267401
+        },
+        {
+          "record_id": "project-004",
+          "doc_type": "project",
+          "content": "Global HR information system with MuleSoft (SAP SuccessFactors). Client: multinational organization (unnamed). Solution: centralized international HRIS (SIRH) integrating SAP SuccessFactors, Talent Connect and local payroll systems through MuleSoft, with bidirectional real-time data flows. Build phase: needs analysis, over 15 MuleSoft applications for region and division specific logic, CI/CD pipeline, unit, integration, system and performance testing, environment-specific deployments (dev, staging, production), hyper-care after go-live. Run phase fully operated by OliveSoft: monitoring dashboards, logging, access management, regular daily and monthly checks, incident handling, documentation, rollout to new regions. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/mise-en-place-dune-solution-rh-centralisee-simplifiee-des-employes",
+            "record_id": "project-004"
+          },
+          "bm25_score": 19.64052273532231
+        },
+        {
+          "record_id": "project-003",
+          "doc_type": "project",
+          "content": "Demand forecasting and AI dashboards for a raw-materials supplier (Sage X3, BigQuery, Power BI). Client: leading raw-materials sourcing company for manufacturing industry (unnamed). Goals: raise supply-chain service rate from 20% to 60%, cut procurement costs by 20% through better demand forecasting, cut storage costs by 15%. Solution: Sage X3 ERP integrated with Google Cloud Storage; Dataform pipelines to build clean reusable data layers; BigQuery for analytics; time-series models (R&D phase) to forecast demand, adjust raw-material orders and project revenue by business unit; Power BI dashboards for sales, finance, purchasing, logistics and planning. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/reinventer-les-previsions-grace-aux-tableaux-de-bord-ia-et-lintegration",
+            "record_id": "project-003"
+          },
+          "bm25_score": 18.693177302165026
+        },
+        {
+          "record_id": "project-001",
+          "doc_type": "project",
+          "content": "Retail/e-commerce unified customer CRM on GCP (Cegid, BigQuery, Power BI). Client: major retail and e-commerce brand (unnamed). Problem: customer data scattered across systems and formats, campaigns based on assumptions. Solution: centralized CRM on Google Cloud Platform and BigQuery. Daily automated pipelines ingest the Cegid ERP, e-commerce back-end, marketing platforms and support tools; data was cleaned, deduplicated and standardized. Custom segmentation by value, engagement and purchase frequency. Power BI dashboards for marketing and sales (weekly sales, customer activity, campaign performance, year-over-year). Flow: ERP to GCP to BigQuery to Power BI. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/passer-de-donnees-fragmentees-une-croissance-optimisee-grace-la-data",
+            "record_id": "project-001"
+          },
+          "bm25_score": 17.180720169279656
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-013-cv_ids",
+      "retrieved_ids": [
+        "CV-0058",
+        "CV-0059",
+        "CV-0057",
+        "CV-0067",
+        "CV-0066"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Fleet Telematics Integration and Driver Application Rollout. We require api integration between our telematics provider and the maintenance and fuel systems, so that vehicle events land in the systems that act on them rather than in a separate portal nobody reconciles. Alongside the integration, a driver-facing application is required for proof of delivery and electronic logbook capture, which must work in poor connectivity. The application must support the driver's local language. Deployment is to 260 vehicles over a three-month window with no interruption to dispatch during cutover. We expect the supplier to specify what happens when a telematics provider is offline for more than an hour, rather than assuming it will not happen.",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0057",
+        "CV-0058",
+        "CV-0059"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0058",
+        "CV-0059",
+        "CV-0057",
+        "CV-0067",
+        "CV-0066",
+        "CV-0143",
+        "CV-0068",
+        "CV-0061",
+        "CV-0062",
+        "CV-0142"
+      ],
+      "latency_ms": 9.245113333842406,
+      "latency_samples_ms": [
+        9.696600027382374,
+        9.25699999788776,
+        9.801600011996925,
+        9.293900046031922,
+        8.045499969739467,
+        9.998199995607138,
+        8.838699955958873,
+        10.068100003991276,
+        9.91040002554655,
+        8.853000006638467,
+        8.72499996330589,
+        7.533499971032143,
+        8.389600028749555,
+        8.741400029975921,
+        11.524199973791838
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0058",
+          "doc_type": "cv",
+          "content": "CV-0058 (Employee_058) - Integration Developer, 7 years of experience. Skills: REST APIs, Flutter, Telematics, FastAPI, Offline Sync, MuleSoft, Python, Azure DevOps, Docker. Certifications: Scrum Master (CSM). Past projects: Telematics API integration with maintenance and fuel systems (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Offline Sync, Telematics, MuleSoft; Driver app with offline proof of delivery (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics.",
+          "metadata": {
+            "role": "Integration Developer",
+            "years_experience": 7,
+            "skills": [
+              "REST APIs",
+              "Flutter",
+              "Telematics",
+              "FastAPI",
+              "Offline Sync",
+              "MuleSoft",
+              "Python",
+              "Azure DevOps",
+              "Docker"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0037",
+              "PRJ-0038"
+            ],
+            "record_id": "CV-0058"
+          },
+          "bm25_score": 74.46229836020741
+        },
+        {
+          "record_id": "CV-0059",
+          "doc_type": "cv",
+          "content": "CV-0059 (Employee_059) - Full Stack Developer, 9 years of experience. Skills: REST APIs, Flutter, Offline Sync, FastAPI, MuleSoft, Docker, CI/CD, Django, Telematics. Certifications: Scrum Master (CSM). Past projects: Driver app with offline proof of delivery (logistics) - role Full Stack Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics; Telematics API integration with maintenance and fuel systems (logistics) - role Full Stack Developer, tech stack REST APIs, Flutter, Offline Sync, Telematics, MuleSoft.",
+          "metadata": {
+            "role": "Full Stack Developer",
+            "years_experience": 9,
+            "skills": [
+              "REST APIs",
+              "Flutter",
+              "Offline Sync",
+              "FastAPI",
+              "MuleSoft",
+              "Docker",
+              "CI/CD",
+              "Django",
+              "Telematics"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0038",
+              "PRJ-0037"
+            ],
+            "record_id": "CV-0059"
+          },
+          "bm25_score": 69.50310977502328
+        },
+        {
+          "record_id": "CV-0057",
+          "doc_type": "cv",
+          "content": "CV-0057 (Employee_057) - Mobile Developer, 8 years of experience. Skills: REST APIs, Flutter, Docker, Telematics, FastAPI, Offline Sync, SQL, GraphQL. Certifications: Scrum Master (CSM). Past projects: Driver app with offline proof of delivery (logistics) - role Mobile Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics.",
+          "metadata": {
+            "role": "Mobile Developer",
+            "years_experience": 8,
+            "skills": [
+              "REST APIs",
+              "Flutter",
+              "Docker",
+              "Telematics",
+              "FastAPI",
+              "Offline Sync",
+              "SQL",
+              "GraphQL"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0038"
+            ],
+            "record_id": "CV-0057"
+          },
+          "bm25_score": 49.41650222483205
+        },
+        {
+          "record_id": "CV-0067",
+          "doc_type": "cv",
+          "content": "CV-0067 (Employee_067) - SAP Developer, 10 years of experience. Skills: SAP S/4HANA, ABAP, Data Migration, SAP Fiori, SAP BTP, Azure DevOps, SQL, Flutter, Django, MuleSoft, Master Data Management. Certifications: SAP Certified Application Associate. Past projects: ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Developer, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration; ERP integration layer for warehouse and supplier systems (logistics) - role SAP Developer, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management.",
+          "metadata": {
+            "role": "SAP Developer",
+            "years_experience": 10,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "Data Migration",
+              "SAP Fiori",
+              "SAP BTP",
+              "Azure DevOps",
+              "SQL",
+              "Flutter",
+              "Django",
+              "MuleSoft",
+              "Master Data Management"
+            ],
+            "certifications": [
+              "SAP Certified Application Associate"
+            ],
+            "project_ids": [
+              "PRJ-0043",
+              "PRJ-0044"
+            ],
+            "record_id": "CV-0067"
+          },
+          "bm25_score": 35.5746390020461
+        },
+        {
+          "record_id": "CV-0066",
+          "doc_type": "cv",
+          "content": "CV-0066 (Employee_066) - SAP Consultant, 14 years of experience. Skills: SAP S/4HANA, ABAP, SAP Fiori, Azure DevOps, MuleSoft, Data Migration, SQL, CI/CD, Master Data Management, SAP BTP. Certifications: PMP. Past projects: ERP integration layer for warehouse and supplier systems (logistics) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management; ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+          "metadata": {
+            "role": "SAP Consultant",
+            "years_experience": 14,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "SAP Fiori",
+              "Azure DevOps",
+              "MuleSoft",
+              "Data Migration",
+              "SQL",
+              "CI/CD",
+              "Master Data Management",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0044",
+              "PRJ-0043"
+            ],
+            "record_id": "CV-0066"
+          },
+          "bm25_score": 26.92346226296162
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-013-project_ids",
+      "retrieved_ids": [
+        "PRJ-0037",
+        "PRJ-0038",
+        "PRJ-0044",
+        "project-006",
+        "PRJ-0089"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Fleet Telematics Integration and Driver Application Rollout. We require api integration between our telematics provider and the maintenance and fuel systems, so that vehicle events land in the systems that act on them rather than in a separate portal nobody reconciles. Alongside the integration, a driver-facing application is required for proof of delivery and electronic logbook capture, which must work in poor connectivity. The application must support the driver's local language. Deployment is to 260 vehicles over a three-month window with no interruption to dispatch during cutover. We expect the supplier to specify what happens when a telematics provider is offline for more than an hour, rather than assuming it will not happen.",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0037",
+        "PRJ-0038"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0037",
+        "PRJ-0038",
+        "PRJ-0044",
+        "project-006",
+        "PRJ-0089",
+        "project-001",
+        "project-004",
+        "PRJ-0109",
+        "project-005",
+        "PRJ-0043"
+      ],
+      "latency_ms": 8.735046663787216,
+      "latency_samples_ms": [
+        8.15920002060011,
+        8.232499996665865,
+        7.598600001074374,
+        8.577500004321337,
+        7.963999989442527,
+        8.186799997929484,
+        7.7392999664880335,
+        9.786800015717745,
+        8.530599996447563,
+        9.639600000809878,
+        8.135700016282499,
+        9.923500008881092,
+        10.059599997475743,
+        9.297999960836023,
+        9.193999983835965
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0037",
+          "doc_type": "project",
+          "content": "Project PRJ-0037: Telematics API integration with maintenance and fuel systems for a logistics client, using REST APIs, Flutter, Offline Sync, Telematics, MuleSoft. Sector: logistics. Outcome: Delivered on schedule with a 42% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "REST APIs",
+              "Flutter",
+              "Offline Sync",
+              "Telematics",
+              "MuleSoft"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0037"
+          },
+          "bm25_score": 71.12320692275514
+        },
+        {
+          "record_id": "PRJ-0038",
+          "doc_type": "project",
+          "content": "Project PRJ-0038: Driver app with offline proof of delivery for a logistics client, using REST APIs, Flutter, Docker, Offline Sync, Telematics. Sector: logistics. Outcome: Delivered on schedule with a 15% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "REST APIs",
+              "Flutter",
+              "Docker",
+              "Offline Sync",
+              "Telematics"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0038"
+          },
+          "bm25_score": 64.17042192977381
+        },
+        {
+          "record_id": "PRJ-0044",
+          "doc_type": "project",
+          "content": "Project PRJ-0044: ERP integration layer for warehouse and supplier systems for a logistics client, using SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management. Sector: logistics. Outcome: Delivered on schedule with a 23% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "SAP S/4HANA",
+              "ABAP",
+              "Azure DevOps",
+              "MuleSoft",
+              "Master Data Management"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0044"
+          },
+          "bm25_score": 39.558505550192486
+        },
+        {
+          "record_id": "project-006",
+          "doc_type": "project",
+          "content": "AI-powered intellectual property registration platform (government agency). Client: government agency (unnamed). Solution: end-to-end intelligent platform to simplify and unify trademark and patent registration. Core components: an AI chatbot guiding users through each registration step, and an intelligent analysis robot that detects similar existing entries to strengthen originality and avoid duplicates. Aim: smoother administrative processes and better protection of innovation at national scale.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/services",
+            "record_id": "project-006"
+          },
+          "bm25_score": 36.03098794536595
+        },
+        {
+          "record_id": "PRJ-0089",
+          "doc_type": "project",
+          "content": "Project PRJ-0089: Warehouse picker handheld application for a logistics client, using Swift, TypeScript, React Native, Kotlin, Offline Sync. Sector: logistics. Outcome: Delivered on schedule with a 35% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "Swift",
+              "TypeScript",
+              "React Native",
+              "Kotlin",
+              "Offline Sync"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0089"
+          },
+          "bm25_score": 35.222710855585326
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-015-cv_ids",
+      "retrieved_ids": [
+        "CV-0030",
+        "CV-0032",
+        "CV-0031",
+        "CV-0143",
+        "CV-0066"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0030",
+        "CV-0031",
+        "CV-0032"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0030",
+        "CV-0032",
+        "CV-0031",
+        "CV-0143",
+        "CV-0066",
+        "CV-0067",
+        "CV-0081",
+        "CV-0069",
+        "CV-0070",
+        "CV-0141"
+      ],
+      "latency_ms": 3.9425333379767835,
+      "latency_samples_ms": [
+        3.9123999886214733,
+        5.7762000360526145,
+        4.265299998223782,
+        3.465199959464371,
+        3.2450000289827585,
+        4.965700034517795,
+        3.678400011267513,
+        4.198100010398775,
+        3.4391999943181872,
+        4.14699997054413,
+        4.297100007534027,
+        3.8560000248253345,
+        3.258700016885996,
+        3.243899962399155,
+        3.389800025615841
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0030",
+          "doc_type": "cv",
+          "content": "CV-0030 (Employee_030) - Data Engineer, 10 years of experience. Skills: GCP, BigQuery, Identity Resolution, Talend, MuleSoft, Python, Git. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Data Engineer, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft; Multi-channel customer identity resolution (retail) - role Data Engineer, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 10,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Identity Resolution",
+              "Talend",
+              "MuleSoft",
+              "Python",
+              "Git"
+            ],
+            "certifications": [
+              "Google Professional Cloud Architect"
+            ],
+            "project_ids": [
+              "PRJ-0019",
+              "PRJ-0020"
+            ],
+            "record_id": "CV-0030"
+          },
+          "bm25_score": 27.669394451255737
+        },
+        {
+          "record_id": "CV-0032",
+          "doc_type": "cv",
+          "content": "CV-0032 (Employee_032) - Integration Architect, 4 years of experience. Skills: GCP, BigQuery, Talend, Python, MuleSoft, Docker, Git, TensorFlow, Django, Identity Resolution. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Integration Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+          "metadata": {
+            "role": "Integration Architect",
+            "years_experience": 4,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Talend",
+              "Python",
+              "MuleSoft",
+              "Docker",
+              "Git",
+              "TensorFlow",
+              "Django",
+              "Identity Resolution"
+            ],
+            "certifications": [
+              "Google Professional Cloud Architect"
+            ],
+            "project_ids": [
+              "PRJ-0019"
+            ],
+            "record_id": "CV-0032"
+          },
+          "bm25_score": 27.50849517134175
+        },
+        {
+          "record_id": "CV-0031",
+          "doc_type": "cv",
+          "content": "CV-0031 (Employee_031) - Cloud Architect, 3 years of experience. Skills: GCP, BigQuery, Python, Talend, Terraform, Identity Resolution, SQL, Django, Spring Boot, MuleSoft. Certifications: Google Professional Data Engineer. Past projects: Multi-channel customer identity resolution (retail) - role Cloud Architect, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution; Customer 360 on BigQuery (retail) - role Cloud Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 3,
+            "skills": [
+              "GCP",
+              "BigQuery",
+              "Python",
+              "Talend",
+              "Terraform",
+              "Identity Resolution",
+              "SQL",
+              "Django",
+              "Spring Boot",
+              "MuleSoft"
+            ],
+            "certifications": [
+              "Google Professional Data Engineer"
+            ],
+            "project_ids": [
+              "PRJ-0020",
+              "PRJ-0019"
+            ],
+            "record_id": "CV-0031"
+          },
+          "bm25_score": 27.120443740238514
+        },
+        {
+          "record_id": "CV-0143",
+          "doc_type": "cv",
+          "content": "CV-0143 (Employee_143) - ERP Functional Consultant, 6 years of experience. Skills: SAP S/4HANA, Master Data Management, Data Migration, SQL, PostgreSQL, Git, Python, MongoDB, Azure DevOps, SAP BTP. Certifications: SAP Certified Application Associate. Past projects: ERP data migration and cutover support (logistics) - role ERP Functional Consultant, tech stack Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration.",
+          "metadata": {
+            "role": "ERP Functional Consultant",
+            "years_experience": 6,
+            "skills": [
+              "SAP S/4HANA",
+              "Master Data Management",
+              "Data Migration",
+              "SQL",
+              "PostgreSQL",
+              "Git",
+              "Python",
+              "MongoDB",
+              "Azure DevOps",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "SAP Certified Application Associate"
+            ],
+            "project_ids": [
+              "PRJ-0109"
+            ],
+            "record_id": "CV-0143"
+          },
+          "bm25_score": 20.50567732210157
+        },
+        {
+          "record_id": "CV-0066",
+          "doc_type": "cv",
+          "content": "CV-0066 (Employee_066) - SAP Consultant, 14 years of experience. Skills: SAP S/4HANA, ABAP, SAP Fiori, Azure DevOps, MuleSoft, Data Migration, SQL, CI/CD, Master Data Management, SAP BTP. Certifications: PMP. Past projects: ERP integration layer for warehouse and supplier systems (logistics) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management; ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+          "metadata": {
+            "role": "SAP Consultant",
+            "years_experience": 14,
+            "skills": [
+              "SAP S/4HANA",
+              "ABAP",
+              "SAP Fiori",
+              "Azure DevOps",
+              "MuleSoft",
+              "Data Migration",
+              "SQL",
+              "CI/CD",
+              "Master Data Management",
+              "SAP BTP"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0044",
+              "PRJ-0043"
+            ],
+            "record_id": "CV-0066"
+          },
+          "bm25_score": 18.712405668757807
+        }
+      ]
+    },
+    {
+      "id": "holdout-tender-015-project_ids",
+      "retrieved_ids": [
+        "project-001",
+        "project-002",
+        "PRJ-0019",
+        "olivesoft-031",
+        "PRJ-0109"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 0.3333333333333333,
+      "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0019",
+        "PRJ-0020"
+      ],
+      "ndcg_at_k": 0.3065735963827292,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "project-001",
+        "project-002",
+        "PRJ-0019",
+        "olivesoft-031",
+        "PRJ-0109",
+        "PRJ-0020",
+        "olivesoft-006",
+        "olivesoft-010",
+        "PRJ-0044",
+        "PRJ-0054"
+      ],
+      "latency_ms": 5.278833338525146,
+      "latency_samples_ms": [
+        3.4844999900087714,
+        4.265099996700883,
+        4.391499969642609,
+        3.518100013025105,
+        4.844100039917976,
+        6.54420000500977,
+        5.0205999868921936,
+        6.255700020119548,
+        6.529800011776388,
+        6.128899985924363,
+        6.122299993876368,
+        6.438000011257827,
+        5.4228000226430595,
+        4.963600018527359,
+        5.253300012554973
+      ],
+      "matches": [
+        {
+          "record_id": "project-001",
+          "doc_type": "project",
+          "content": "Retail/e-commerce unified customer CRM on GCP (Cegid, BigQuery, Power BI). Client: major retail and e-commerce brand (unnamed). Problem: customer data scattered across systems and formats, campaigns based on assumptions. Solution: centralized CRM on Google Cloud Platform and BigQuery. Daily automated pipelines ingest the Cegid ERP, e-commerce back-end, marketing platforms and support tools; data was cleaned, deduplicated and standardized. Custom segmentation by value, engagement and purchase frequency. Power BI dashboards for marketing and sales (weekly sales, customer activity, campaign performance, year-over-year). Flow: ERP to GCP to BigQuery to Power BI. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/passer-de-donnees-fragmentees-une-croissance-optimisee-grace-la-data",
+            "record_id": "project-001"
+          },
+          "bm25_score": 62.83497086629803
+        },
+        {
+          "record_id": "project-002",
+          "doc_type": "project",
+          "content": "New Fashion CRM platform rebuild (GCP, Power BI). Client: New Fashion (fashion retail and e-commerce). Problem: first Customer Data Platform on GCP had inconsistent KPIs, weak duplicate handling and traceability, missing customers, unstable business rules and scalability issues. Solution in six steps: clean and standardize data; precise duplicate detection with a unique stable CRM ID; enriched 360-degree customer profiles; address harmonization (over 3 million addresses fixed, with rules by customer type); KPI recalculation with explicit business rules (channel, Lifetime Value); Power BI reports rebuilt. Results: unified customer view, nearly 1 million additional prospects integrated, scalable architecture, full change history for audit and compliance, full documentation. Google Analytics integration added. Published July 2025.",
+          "metadata": {
+            "category": "project_reference",
+            "source_url": "https://www.olivesoft.fr/fr/article/de-la-surcharge-de-donnees-une-vision-client-unifiee-lhistoire-de-la-nouvelle-plateforme",
+            "record_id": "project-002"
+          },
+          "bm25_score": 25.508021868841784
+        },
+        {
+          "record_id": "PRJ-0019",
+          "doc_type": "project",
+          "content": "Project PRJ-0019: Customer 360 on BigQuery for a retail client, using GCP, BigQuery, Talend, Identity Resolution, MuleSoft. Sector: retail. Outcome: Delivered on schedule with a 32% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "GCP",
+              "BigQuery",
+              "Talend",
+              "Identity Resolution",
+              "MuleSoft"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0019"
+          },
+          "bm25_score": 24.530729719081123
+        },
+        {
+          "record_id": "olivesoft-031",
+          "doc_type": "project",
+          "content": "OliveSoft project: Salesforce Customer 360 and loyalty. Type: pfe internship project, edition 2026. Domain: CRM, customer loyalty, Salesforce. Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Tech stack: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Status: proposed.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "CRM",
+              "customer loyalty",
+              "Salesforce"
+            ],
+            "tech_stack": [
+              "Salesforce Data Cloud",
+              "Salesforce Core",
+              "Einstein Agentforce",
+              "Apex",
+              "Lightning"
+            ],
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 9,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-031"
+          },
+          "bm25_score": 22.976728993963775
+        },
+        {
+          "record_id": "PRJ-0109",
+          "doc_type": "project",
+          "content": "Project PRJ-0109: ERP data migration and cutover support for a logistics client, using Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration. Sector: logistics. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "Azure DevOps",
+              "Master Data Management",
+              "SQL",
+              "SAP BTP",
+              "Data Migration"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0109"
+          },
+          "bm25_score": 22.035091874944737
+        }
+      ]
+    }
+  ],
+  "variant": "bm25_only",
+  "ndcg_at_k": 0.8942062048943455,
+  "precision_at_10": 0.24642857142857144,
+  "recall_at_10": 0.9821428571428571,
+  "empty_result_rate": 0,
+  "average_latency_ms": 4.3279635724112655,
+  "latency_repeats": 15,
+  "latency_scope": "warm serial retrieval including query embedding; excludes initialization and I/O",
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "corpus_chunks": 543
+}

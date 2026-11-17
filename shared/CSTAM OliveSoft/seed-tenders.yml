@@ -1,0 +1,5 @@
+name: Seed tenders
+method: POST
+url: '{{detectionUrl}}/tenders/seed'
+headers:
+  X-Internal-Token: '{{internalToken}}'

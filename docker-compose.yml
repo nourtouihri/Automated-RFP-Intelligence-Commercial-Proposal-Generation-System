@@ -1,0 +1,244 @@
+name: olivesoft
+
+services:
+  detection:
+    build: .
+    command: ["uvicorn", "detection.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    restart: unless-stopped
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      OLIVESOFT_DB_PATH: /data/olivesoft.db
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-claude-3-5-haiku-20241022}
+      LLM_URL: ${LLM_URL:-}
+    volumes:
+      - olivesoft-data:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  research:
+    build: .
+    command: ["uvicorn", "research.main:app", "--host", "0.0.0.0", "--port", "8002"]
+    restart: unless-stopped
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      OLIVESOFT_DB_PATH: /data/olivesoft.db
+      RESEARCH_AUDIT_LOG: /data/research.log
+      TAVILY_API_KEY: ${TAVILY_API_KEY:-tavily-secret}
+      LLM_API_KEY: ${LLM_API_KEY:-api-key}
+      LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
+      LLM_MODEL: ${LLM_MODEL:-bcluzel/LFM2.5-1.2B-Instruct:Q4_K_M}
+      LLM_URL: ${LLM_URL:-url}
+      MAX_SEARCH_ITERATIONS: ${MAX_SEARCH_ITERATIONS:-7}
+      TOTAL_RUN_TIMEOUT_SECONDS: ${TOTAL_RUN_TIMEOUT_SECONDS:-45}
+      PER_CALL_TIMEOUT_SECONDS: ${PER_CALL_TIMEOUT_SECONDS:-8}
+    volumes:
+      - olivesoft-data:/data
+    ports:
+      - "8002:8002"
+    depends_on:
+      detection:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8002/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  rag:
+    build: .
+    command: ["uvicorn", "rag.main:app", "--host", "0.0.0.0", "--port", "8001"]
+    restart: unless-stopped
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      SUPABASE_URL: ${SUPABASE_URL:-supa_url}
+      SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY:-service}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      HF_HOME: /models
+      HF_HUB_CACHE: /models/hub
+      TRANSFORMERS_CACHE: /models/transformers
+    volumes:
+      - sentence-transformer-cache:/models
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+
+  proposal:
+    build: .
+    command: ["uvicorn", "proposal.main:app", "--host", "0.0.0.0", "--port", "8003"]
+    restart: unless-stopped
+    ports:
+    - "8003:8003"
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      RAG_URL: http://rag:8001
+      PROPOSAL_OUTPUT_DIR: /data/proposals
+      OLIVESOFT_DB_PATH: /data/olivesoft.db
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-claude-3-5-haiku-20241022}
+      LLM_URL: ${LLM_URL:-}
+      PROPOSAL_LLM_PROVIDER: ${PROPOSAL_LLM_PROVIDER:-}
+      PROPOSAL_LLM_API_KEY: ${PROPOSAL_LLM_API_KEY:-}
+      PROPOSAL_LLM_MODEL: ${PROPOSAL_LLM_MODEL:-}
+      PROPOSAL_LLM_URL: ${PROPOSAL_LLM_URL:-}
+      # Grounding verifier (proposal/verifier.py): names the judge model, must be
+      # different from LLM_MODEL; unset = the grounding check is off.
+      PROPOSAL_VERIFIER_LLM_MODEL: ${PROPOSAL_VERIFIER_LLM_MODEL:-}
+      PROPOSAL_VERIFIER_LLM_API_KEY: ${PROPOSAL_VERIFIER_LLM_API_KEY:-}
+      PROPOSAL_VERIFIER_LLM_URL: ${PROPOSAL_VERIFIER_LLM_URL:-}
+      # Proposal-only knob: a deck's AI calls wait up to 2 minutes for a reply
+      # (slow local/instruct models), while research keeps PER_CALL_TIMEOUT_SECONDS.
+      PER_CALL_TIMEOUT_SECONDS: ${PER_CALL_TIMEOUT_PROPOSAL:-120}
+    volumes:
+      - olivesoft-data:/data
+      - ./proposals:/data/proposals
+    depends_on:
+      rag:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  insights:
+    build: .
+    command: ["uvicorn", "insights_agent.app:app", "--host", "0.0.0.0", "--port", "8006"]
+    restart: unless-stopped
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      OLIVESOFT_DB_PATH: /data/olivesoft.db
+      INSIGHTS_DB_PATH: /data/insights.db
+      INSIGHTS_TENDERS_DIR: /data/detection
+      INSIGHTS_DAILY_RATE_TND: ${INSIGHTS_DAILY_RATE_TND:-650}
+      # Budget engine: the same commercial rate the proposal deck prices with,
+      # so the margin check compares like for like (see proposal/config.py).
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      LLM_MODEL: ${LLM_MODEL:-claude-3-5-haiku-20241022}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_URL: ${LLM_URL:-}
+      INSIGHTS_LLM_PROVIDER: ${INSIGHTS_LLM_PROVIDER:-}
+      INSIGHTS_LLM_MODEL: ${INSIGHTS_LLM_MODEL:-}
+      INSIGHTS_LLM_API_KEY: ${INSIGHTS_LLM_API_KEY:-}
+      INSIGHTS_LLM_URL: ${INSIGHTS_LLM_URL:-}
+      TAVILY_API_KEY: ${TAVILY_API_KEY:-}
+    volumes:
+      - olivesoft-data:/data
+    depends_on:
+      detection:
+        condition: service_healthy
+    ports:
+      - "8006:8006"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8006/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  ingestion:
+    build: .
+    command: ["uvicorn", "ingestion.main:app", "--host", "0.0.0.0", "--port", "8004"]
+    restart: unless-stopped
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      INGEST_SOURCES: ${INGEST_SOURCES}
+      INGEST_API_KEYS: ${INGEST_API_KEYS}
+      INGEST_LIMITS: ${INGEST_LIMITS}
+    ports:
+      - "8004:8004"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8004/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  n8n:
+    image: ${N8N_IMAGE:-n8nio/n8n:2.40.7}
+    restart: unless-stopped
+    environment:
+      #N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?Set N8N_ENCRYPTION_KEY in .env}
+      #GENERIC_TIMEZONE: ${GENERIC_TIMEZONE:-Africa/Tunis}
+      TZ: ${GENERIC_TIMEZONE:-Africa/Tunis}
+      N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS: "true"
+      N8N_DIAGNOSTICS_ENABLED: "false"
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./n8n/workflows:/files/workflows:ro
+    ports:
+      - "5678:5678"
+    depends_on:
+      detection:
+        condition: service_healthy
+      research:
+        condition: service_healthy
+      rag:
+        condition: service_healthy
+      ingestion:
+        condition: service_healthy
+      proposal:
+        condition: service_healthy
+
+  ui:
+    build: .
+    command: ["python", "-m", "uvicorn", "server.app:app", "--app-dir", "ui-preview","--reload", "--reload-dir", "/app/ui-preview", "--host", "0.0.0.0", "--port", "8005"]
+    restart: unless-stopped
+    volumes:
+      - ./ui-preview:/app/ui-preview:ro
+    environment:
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_SERVICE_TOKEN:-super-token}
+      UIP_DETECTION_URL: http://detection:8000
+      UIP_RAG_URL: http://rag:8001
+      UIP_RESEARCH_URL: http://research:8002
+      UIP_PROPOSAL_URL: http://proposal:8003
+      UIP_INSIGHTS_URL: http://insights:8006
+      UIP_INGESTION_URL: http://ingestion:8004
+      UIP_N8N_URL: http://n8n:5678
+    ports:
+      - "127.0.0.1:8005:8005"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8005/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  rag-ingest:
+    build: .
+    profiles: ["tools"]
+    command:
+      - /bin/sh
+      - -c
+      - >-
+        python -m rag.ingest_json --format chunks --file 'Cvs dataset/all_chunks.fixed.jsonl'
+    environment:
+      SUPABASE_URL: ${SUPABASE_URL:-supa-url}
+      SUPABASE_SERVICE_KEY: ${SUPABASE_SERVICE_KEY:-service}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      HF_HOME: /models
+      HF_HUB_CACHE: /models/hub
+      TRANSFORMERS_CACHE: /models/transformers
+    volumes:
+      - sentence-transformer-cache:/models
+      - "./Cvs dataset:/app/Cvs dataset:ro"
+
+volumes:
+  olivesoft-data:
+  sentence-transformer-cache:
+  n8n_data:

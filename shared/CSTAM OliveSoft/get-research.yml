@@ -1,0 +1,5 @@
+name: Get research
+method: GET
+url: '{{researchUrl}}/research/tender-001'
+headers:
+  X-Internal-Token: '{{internalToken}}'

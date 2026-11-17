@@ -1,0 +1,741 @@
+{
+  "generated_at_utc": "2026-10-19T21:30:47.312393+00:00",
+  "base_commit": "cefaa6b8e2c65d72f0f6853bacc0d9c1d5a8216c",
+  "corpus_mode": "canonical_jsonl",
+  "case_count": 28,
+  "corpus_chunks": 543,
+  "k": 5,
+  "document_types": {
+    "company_profile": 7,
+    "tools_tech_stack": 7,
+    "client_portfolio": 2,
+    "project": 191,
+    "cv": 151,
+    "tool": 169,
+    "client": 16
+  },
+  "input_sha256": {
+    "Cvs dataset\\rag_ready\\all_chunks.fixed.jsonl": "2109699ee8daddd4ce0e4aa5c49d7c560c876853099bf86e4a16e3cdce92b022",
+    "rag\\eval_holdout.json": "ccc7600b24091b80d361f07a4a67b2d0722a053df2d0a2be57341447afadfec7"
+  },
+  "implementation_sha256": {
+    "rag\\evaluate_local.py": "d558df5a4b6b84c30f29beeb7faa6cece036e825c2b0f1f7a80dd61acba17d9d",
+    "rag\\evaluation.py": "a9e42b25919fc041f4f983a68855770420370423d27b1a88db3df3de8c718831",
+    "rag\\embeddings.py": "7c4b248e2d5bd2bda5ec1b5335592be2f9b4c617559676f7c0ba1020ec135560",
+    "rag\\ranking.py": "6b43382ad27f19babae31525b5bbfc5b4d92c7a82bc4fd9d869a46d4025c59ea",
+    "rag\\doc_types.py": "f07e2d26de7f61c189d97574f3b2195aaec8c7df71941b69cd0e932d6959843d",
+    "rag\\retrieval_corpus.py": "f989dc1dcf77db90870aa8561513a54291d0304ff3b11658be2cf6949f27d480",
+    "rag\\bm25_retriever.py": "f83dbca5c56675ade14a0cbcb6c3c6f4fcbff78feabe4fa8b7d0d0e696bd4dd7",
+    "rag\\hybrid_retriever.py": "fc69a69bf5e00c920607b6202a55b01e10b2a729fc7fb48041f95b3629a9a92c",
+    "rag\\evaluate_retrieval_variants.py": "a220e115362d2b75ae9693581d375282243fd7d4d0a2aed4ebf2a860bb5ad916"
+  },
+  "configuration": {
+    "rrf_c": 60.0,
+    "candidate_depth": 20,
+    "metadata_weight": 0.5,
+    "threads": 1,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalize_embeddings": true,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "bm25_epsilon": 0.25,
+    "tokenizer": "lowercase alphanumeric [a-z0-9]+, no stemming or stopword removal"
+  },
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "rank-bm25": "0.2.2",
+      "sentence-transformers": "4.1.0",
+      "torch": "2.14.1",
+      "numpy": "2.4.6",
+      "transformers": "4.57.6"
+    }
+  },
+  "setup": {
+    "semantic_setup_ms": 38299.789700016845,
+    "bm25_setup_ms": 17.894399992655963
+  },
+  "metric_definitions": {
+    "precision_at_k": "unique retrieved relevant IDs / fixed k, including short result lists",
+    "recall_at_k": "unique retrieved relevant IDs / number of relevant IDs",
+    "mean_reciprocal_rank": "macro mean reciprocal rank of first relevant result within top k",
+    "ndcg_at_k": "binary DCG / ideal DCG; discount log2(rank+1)",
+    "aggregation": "unweighted macro mean across every case; none skipped"
+  },
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "baseline_metrics_preserved": true,
+  "limitations": [
+    "Corpus provided explicitly; verify its hashes against the intended canonical inputs.",
+    "Empty-content chunks receive zero vectors; original source-record corpora contain no such chunks.",
+    "The semantic branch of both hybrids retains its original metadata-aware ranking.",
+    "Latency uses warm serial queries on one machine; no production throughput claim.",
+    "No embedding cache: hybrid latency includes a semantic query embedding.",
+    "Relevance labels are sparse and this dataset is too small to establish general superiority."
+  ],
+  "selection_policy": "maximize Recall@K, then nDCG@K, MRR@K and Precision@K; ties retained",
+  "best_quality_variants": [
+    "hybrid_rrf",
+    "hybrid_metadata"
+  ],
+  "fastest_among_best_quality": "hybrid_rrf",
+  "variants": {
+    "semantic_baseline": {
+      "precision_at_k": 0.45714285714285713,
+      "recall_at_k": 0.9226190476190477,
+      "mean_reciprocal_rank": 0.8869047619047619,
+      "ndcg_at_k": 0.8807120656461865,
+      "precision_at_10": 0.2392857142857143,
+      "recall_at_10": 0.9642857142857143,
+      "empty_result_rate": 0,
+      "average_latency_ms": 32.24567904502952,
+      "case_changes_vs_semantic": []
+    },
+    "bm25_only": {
+      "precision_at_k": 0.4714285714285714,
+      "recall_at_k": 0.9285714285714286,
+      "mean_reciprocal_rank": 0.8988095238095238,
+      "ndcg_at_k": 0.8942062048943455,
+      "precision_at_10": 0.24642857142857144,
+      "recall_at_10": 0.9821428571428571,
+      "empty_result_rate": 0,
+      "average_latency_ms": 4.3279635724112655,
+      "case_changes_vs_semantic": [
+        {
+          "id": "holdout-tender-001-cv_ids",
+          "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+          "baseline_retrieved_ids": [
+            "CV-0088",
+            "CV-0087",
+            "CV-0021",
+            "CV-0023",
+            "CV-0089"
+          ],
+          "retrieved_ids": [
+            "CV-0023",
+            "CV-0022",
+            "CV-0021",
+            "CV-0066",
+            "CV-0067"
+          ],
+          "reciprocal_rank_delta": 0.6666666666666667,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.5632532904880743
+        },
+        {
+          "id": "holdout-tender-001-project_ids",
+          "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+          "baseline_retrieved_ids": [
+            "project-004",
+            "PRJ-0013",
+            "PRJ-0014",
+            "PRJ-0057",
+            "olivesoft-004"
+          ],
+          "retrieved_ids": [
+            "project-004",
+            "PRJ-0014",
+            "PRJ-0044",
+            "PRJ-0013",
+            "olivesoft-012"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.04250547381013825
+        },
+        {
+          "id": "holdout-tender-002-project_ids",
+          "query": "Talent and Payroll Data Pipeline Modernisation. Talend ETL pipeline over applicant tracking system data SSIS package migration onto the new platform Incremental load strategy with partial-failure tolerance Reconciliation report detecting drift between legacy and new extracts",
+          "baseline_retrieved_ids": [
+            "PRJ-0015",
+            "PRJ-0016",
+            "project-004",
+            "olivesoft-011",
+            "olivesoft-003"
+          ],
+          "retrieved_ids": [
+            "project-004",
+            "PRJ-0015",
+            "project-002",
+            "olivesoft-012",
+            "PRJ-0064"
+          ],
+          "reciprocal_rank_delta": -0.5,
+          "recall_delta": -0.5,
+          "ndcg_delta": -0.6131471927654584
+        },
+        {
+          "id": "holdout-tender-004-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "olivesoft-031",
+            "PRJ-0109"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": -0.5,
+          "ndcg_delta": -0.38685280723454163
+        },
+        {
+          "id": "holdout-tender-006-cv_ids",
+          "query": "Service Cloud Contact Centre and Case Management Overhaul. Salesforce Service Cloud implementation with unified omnichannel queue Migration of 14 years of open and closed case history Integration to policy administration for case and policy consistency Phased cutover, parallel-run period, and adviser change management",
+          "baseline_retrieved_ids": [
+            "CV-0037",
+            "CV-0036",
+            "CV-0080",
+            "CV-0010",
+            "CV-0006"
+          ],
+          "retrieved_ids": [
+            "CV-0036",
+            "CV-0037",
+            "CV-0038",
+            "CV-0134",
+            "CV-0052"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.23463936301137833
+        },
+        {
+          "id": "holdout-tender-007-project_ids",
+          "query": "Demand Forecasting for Industrial Raw Materials. Machine learning demand forecasting per material and customer Explainable forecasts with confidence bands, not point estimates ERP order data integration feeding the forecasting pipeline Planner override captured as training signal",
+          "baseline_retrieved_ids": [
+            "PRJ-0025",
+            "PRJ-0078",
+            "project-003",
+            "olivesoft-017",
+            "PRJ-0076"
+          ],
+          "retrieved_ids": [
+            "project-003",
+            "PRJ-0025",
+            "PRJ-0078",
+            "olivesoft-017",
+            "PRJ-0075"
+          ],
+          "reciprocal_rank_delta": -0.5,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.22629438553091674
+        },
+        {
+          "id": "holdout-tender-008-cv_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0018",
+            "CV-0115",
+            "CV-0070",
+            "CV-0009"
+          ],
+          "retrieved_ids": [
+            "CV-0044",
+            "CV-0043",
+            "CV-0042",
+            "CV-0115",
+            "CV-0141"
+          ],
+          "reciprocal_rank_delta": 1.0,
+          "recall_delta": 1.0,
+          "ndcg_delta": 1.0
+        },
+        {
+          "id": "holdout-tender-008-project_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "PRJ-0027",
+            "PRJ-0144",
+            "PRJ-0009",
+            "PRJ-0028",
+            "PRJ-0130"
+          ],
+          "retrieved_ids": [
+            "PRJ-0028",
+            "PRJ-0027",
+            "PRJ-0079",
+            "olivesoft-015",
+            "project-005"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-009-project_ids",
+          "query": "Automated Visual Inspection for Textile Quality Control. Computer vision inspection covering the seven highest-return defect classes False-negative bias on safety-critical defects Edge inference with offline operation and opportunistic sync Training ground truth adjudication from inconsistent historical inspector decisions",
+          "baseline_retrieved_ids": [
+            "PRJ-0029",
+            "project-005",
+            "PRJ-0030",
+            "PRJ-0032",
+            "PRJ-0028"
+          ],
+          "retrieved_ids": [
+            "PRJ-0029",
+            "PRJ-0030",
+            "PRJ-0032",
+            "PRJ-0037",
+            "PRJ-0050"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.08027921085181244
+        },
+        {
+          "id": "holdout-tender-010-cv_ids",
+          "query": "Trademark Similarity Detection and Prior-Art Crawler. Similarity detection across image marks and word marks National and international class code handling Ranked candidate list exposing the matched basis, not a bare score Auditable decision trail sufficient for external appeal review",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0061",
+            "CV-0050",
+            "CV-0044"
+          ],
+          "retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0050",
+            "CV-0081",
+            "CV-0129"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.03253201651083071
+        },
+        {
+          "id": "holdout-tender-015-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "olivesoft-031",
+            "PRJ-0109"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": -0.5,
+          "ndcg_delta": -0.38685280723454163
+        }
+      ]
+    },
+    "hybrid_rrf": {
+      "precision_at_k": 0.4928571428571429,
+      "recall_at_k": 0.9821428571428571,
+      "mean_reciprocal_rank": 0.9166666666666666,
+      "ndcg_at_k": 0.9306393203610432,
+      "precision_at_10": 0.25,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 51.5055997615924,
+      "case_changes_vs_semantic": [
+        {
+          "id": "holdout-tender-001-cv_ids",
+          "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+          "baseline_retrieved_ids": [
+            "CV-0088",
+            "CV-0087",
+            "CV-0021",
+            "CV-0023",
+            "CV-0089"
+          ],
+          "retrieved_ids": [
+            "CV-0023",
+            "CV-0021",
+            "CV-0022",
+            "CV-0087",
+            "CV-0088"
+          ],
+          "reciprocal_rank_delta": 0.6666666666666667,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.5632532904880743
+        },
+        {
+          "id": "holdout-tender-002-project_ids",
+          "query": "Talent and Payroll Data Pipeline Modernisation. Talend ETL pipeline over applicant tracking system data SSIS package migration onto the new platform Incremental load strategy with partial-failure tolerance Reconciliation report detecting drift between legacy and new extracts",
+          "baseline_retrieved_ids": [
+            "PRJ-0015",
+            "PRJ-0016",
+            "project-004",
+            "olivesoft-011",
+            "olivesoft-003"
+          ],
+          "retrieved_ids": [
+            "PRJ-0015",
+            "project-004",
+            "olivesoft-011",
+            "PRJ-0016",
+            "PRJ-0069"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-004-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "PRJ-0020",
+            "olivesoft-031"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-006-cv_ids",
+          "query": "Service Cloud Contact Centre and Case Management Overhaul. Salesforce Service Cloud implementation with unified omnichannel queue Migration of 14 years of open and closed case history Integration to policy administration for case and policy consistency Phased cutover, parallel-run period, and adviser change management",
+          "baseline_retrieved_ids": [
+            "CV-0037",
+            "CV-0036",
+            "CV-0080",
+            "CV-0010",
+            "CV-0006"
+          ],
+          "retrieved_ids": [
+            "CV-0037",
+            "CV-0036",
+            "CV-0038",
+            "CV-0080",
+            "CV-0052"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.23463936301137833
+        },
+        {
+          "id": "holdout-tender-008-cv_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0018",
+            "CV-0115",
+            "CV-0070",
+            "CV-0009"
+          ],
+          "retrieved_ids": [
+            "CV-0115",
+            "CV-0043",
+            "CV-0044",
+            "CV-0042",
+            "CV-0049"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 1.0,
+          "ndcg_delta": 0.7328286204777911
+        },
+        {
+          "id": "holdout-tender-008-project_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "PRJ-0027",
+            "PRJ-0144",
+            "PRJ-0009",
+            "PRJ-0028",
+            "PRJ-0130"
+          ],
+          "retrieved_ids": [
+            "PRJ-0027",
+            "PRJ-0028",
+            "PRJ-0079",
+            "olivesoft-034",
+            "olivesoft-025"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-009-project_ids",
+          "query": "Automated Visual Inspection for Textile Quality Control. Computer vision inspection covering the seven highest-return defect classes False-negative bias on safety-critical defects Edge inference with offline operation and opportunistic sync Training ground truth adjudication from inconsistent historical inspector decisions",
+          "baseline_retrieved_ids": [
+            "PRJ-0029",
+            "project-005",
+            "PRJ-0030",
+            "PRJ-0032",
+            "PRJ-0028"
+          ],
+          "retrieved_ids": [
+            "PRJ-0029",
+            "PRJ-0030",
+            "PRJ-0032",
+            "project-005",
+            "PRJ-0028"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.08027921085181244
+        },
+        {
+          "id": "holdout-tender-010-cv_ids",
+          "query": "Trademark Similarity Detection and Prior-Art Crawler. Similarity detection across image marks and word marks National and international class code handling Ranked candidate list exposing the matched basis, not a bare score Auditable decision trail sufficient for external appeal review",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0061",
+            "CV-0050",
+            "CV-0044"
+          ],
+          "retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0050",
+            "CV-0114",
+            "CV-0061"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.03253201651083071
+        },
+        {
+          "id": "holdout-tender-015-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "PRJ-0020",
+            "olivesoft-031"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        }
+      ]
+    },
+    "hybrid_metadata": {
+      "precision_at_k": 0.4928571428571429,
+      "recall_at_k": 0.9821428571428571,
+      "mean_reciprocal_rank": 0.9166666666666666,
+      "ndcg_at_k": 0.9306393203610432,
+      "precision_at_10": 0.25,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 62.222620236986714,
+      "case_changes_vs_semantic": [
+        {
+          "id": "holdout-tender-001-cv_ids",
+          "query": "Global HRIS Integration Across 11 Countries. MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems Master data management with cross-system duplicate employee prevention Statutory payroll reporting formats per country Versioned API layer with handover documentation to internal IT",
+          "baseline_retrieved_ids": [
+            "CV-0088",
+            "CV-0087",
+            "CV-0021",
+            "CV-0023",
+            "CV-0089"
+          ],
+          "retrieved_ids": [
+            "CV-0023",
+            "CV-0021",
+            "CV-0022",
+            "CV-0087",
+            "CV-0088"
+          ],
+          "reciprocal_rank_delta": 0.6666666666666667,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.5632532904880743
+        },
+        {
+          "id": "holdout-tender-002-project_ids",
+          "query": "Talent and Payroll Data Pipeline Modernisation. Talend ETL pipeline over applicant tracking system data SSIS package migration onto the new platform Incremental load strategy with partial-failure tolerance Reconciliation report detecting drift between legacy and new extracts",
+          "baseline_retrieved_ids": [
+            "PRJ-0015",
+            "PRJ-0016",
+            "project-004",
+            "olivesoft-011",
+            "olivesoft-003"
+          ],
+          "retrieved_ids": [
+            "PRJ-0015",
+            "project-004",
+            "olivesoft-011",
+            "PRJ-0016",
+            "PRJ-0069"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-004-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "PRJ-0020",
+            "olivesoft-031"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-006-cv_ids",
+          "query": "Service Cloud Contact Centre and Case Management Overhaul. Salesforce Service Cloud implementation with unified omnichannel queue Migration of 14 years of open and closed case history Integration to policy administration for case and policy consistency Phased cutover, parallel-run period, and adviser change management",
+          "baseline_retrieved_ids": [
+            "CV-0037",
+            "CV-0036",
+            "CV-0080",
+            "CV-0010",
+            "CV-0006"
+          ],
+          "retrieved_ids": [
+            "CV-0037",
+            "CV-0036",
+            "CV-0038",
+            "CV-0080",
+            "CV-0052"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.33333333333333337,
+          "ndcg_delta": 0.23463936301137833
+        },
+        {
+          "id": "holdout-tender-008-cv_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0018",
+            "CV-0115",
+            "CV-0070",
+            "CV-0009"
+          ],
+          "retrieved_ids": [
+            "CV-0115",
+            "CV-0043",
+            "CV-0044",
+            "CV-0042",
+            "CV-0049"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 1.0,
+          "ndcg_delta": 0.7328286204777911
+        },
+        {
+          "id": "holdout-tender-008-project_ids",
+          "query": "Grounded Support Assistant for Product and Returns Queries. Retrieval augmented generation assistant over an approved internal corpus Mandatory refusal and human handover when the corpus does not support an answer Source citations to document and page for every answer Evaluation against 500 historical queries against an agreed accuracy floor",
+          "baseline_retrieved_ids": [
+            "PRJ-0027",
+            "PRJ-0144",
+            "PRJ-0009",
+            "PRJ-0028",
+            "PRJ-0130"
+          ],
+          "retrieved_ids": [
+            "PRJ-0027",
+            "PRJ-0028",
+            "PRJ-0079",
+            "olivesoft-034",
+            "olivesoft-025"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.1227846846619507
+        },
+        {
+          "id": "holdout-tender-009-project_ids",
+          "query": "Automated Visual Inspection for Textile Quality Control. Computer vision inspection covering the seven highest-return defect classes False-negative bias on safety-critical defects Edge inference with offline operation and opportunistic sync Training ground truth adjudication from inconsistent historical inspector decisions",
+          "baseline_retrieved_ids": [
+            "PRJ-0029",
+            "project-005",
+            "PRJ-0030",
+            "PRJ-0032",
+            "PRJ-0028"
+          ],
+          "retrieved_ids": [
+            "PRJ-0029",
+            "PRJ-0030",
+            "PRJ-0032",
+            "project-005",
+            "PRJ-0028"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.08027921085181244
+        },
+        {
+          "id": "holdout-tender-010-cv_ids",
+          "query": "Trademark Similarity Detection and Prior-Art Crawler. Similarity detection across image marks and word marks National and international class code handling Ranked candidate list exposing the matched basis, not a bare score Auditable decision trail sufficient for external appeal review",
+          "baseline_retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0061",
+            "CV-0050",
+            "CV-0044"
+          ],
+          "retrieved_ids": [
+            "CV-0049",
+            "CV-0048",
+            "CV-0050",
+            "CV-0114",
+            "CV-0061"
+          ],
+          "reciprocal_rank_delta": 0.0,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.03253201651083071
+        },
+        {
+          "id": "holdout-tender-015-project_ids",
+          "query": "Unified Customer 360 Across ERP, Commerce and Support. System integration unifying Cegid ERP, commerce, marketing, and support records Identity resolution on email, loyalty number, and postcode fallback BigQuery analytical landing zone on GCP Consent and opt-out propagation to downstream systems within 24 hours",
+          "baseline_retrieved_ids": [
+            "project-001",
+            "PRJ-0020",
+            "PRJ-0019",
+            "project-002",
+            "olivesoft-031"
+          ],
+          "retrieved_ids": [
+            "project-001",
+            "project-002",
+            "PRJ-0019",
+            "PRJ-0020",
+            "olivesoft-031"
+          ],
+          "reciprocal_rank_delta": -0.16666666666666669,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.1227846846619507
+        }
+      ]
+    }
+  }
+}

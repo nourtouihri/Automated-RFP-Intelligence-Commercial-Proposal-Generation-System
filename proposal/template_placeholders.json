@@ -1,0 +1,198 @@
+{
+ "meta": {
+  "buyer": "[Client name]",
+  "tender_title": "Unified customer data platform",
+  "reference": "[RFP-____-___]",
+  "date": "[DD Month YYYY]",
+  "headline": "[Proposal headline for Client name]",
+  "subtitle": "[Scope summary], delivered in [__] weeks.",
+  "sample": false
+ },
+ "letter": {
+  "salutation": "Dear [Contact name],",
+  "paragraphs": [
+   "Thank you for inviting OliveSoft to respond to your tender for [project]. [Context: what the buyer struggles with today].",
+   "We propose to [approach], with a team that has done this for [similar clients]."
+  ],
+  "closing": "We would be glad to walk you through it.",
+  "title": "A partner for your data journey"
+ },
+ "summary": {
+  "title": "[Executive summary headline]",
+  "pillars": [
+   {
+    "title": "[Pillar 1]",
+    "body": "[One-line benefit backed by a matched asset]"
+   },
+   {
+    "title": "[Pillar 2]",
+    "body": "[One-line benefit backed by a matched asset]"
+   },
+   {
+    "title": "[Pillar 3]",
+    "body": "[One-line benefit backed by a matched asset]"
+   }
+  ],
+  "why_us": "Why OliveSoft: [differentiator], [relevant references], [certifications], offices in Paris, Sfax, Tunis and Dubai."
+ },
+ "buyer": {
+  "profile": {
+   "sector": "[__]",
+   "estimated_revenue": "€[__] M (to confirm)",
+   "key_partners": "[__], [__], [__]"
+  },
+  "needs": [
+   {
+    "title": "[Need 1]",
+    "body": "[What the tender says, rephrased]"
+   },
+   {
+    "title": "[Need 2]",
+    "body": "[What the research adds]"
+   },
+   {
+    "title": "[Domain requirement]",
+    "body": "[Sector or regulatory constraint]"
+   }
+  ]
+ },
+ "requirements": [
+  {
+   "requirement": "[Requirement 1]",
+   "evidence": "[Best matching project or CV]",
+   "score": 0.9,
+   "evidence_id": "x"
+  },
+  {
+   "requirement": "[Requirement 2]",
+   "evidence": "[Best matching project or CV]",
+   "score": 0.85,
+   "evidence_id": "x"
+  },
+  {
+   "requirement": "[Requirement 3]",
+   "evidence": "[Best matching project or CV]",
+   "score": 0.65,
+   "evidence_id": "x"
+  },
+  {
+   "requirement": "[Requirement 4]",
+   "evidence": "",
+   "score": 0.3,
+   "evidence_id": null
+  }
+ ],
+ "approach": {
+  "phases": [
+   {
+    "name": "Discover",
+    "weeks": 3,
+    "body": "[Scoping activities]"
+   },
+   {
+    "name": "Build",
+    "weeks": 6,
+    "body": "[Build activities and deliverables]"
+   },
+   {
+    "name": "Roll out",
+    "weeks": 3,
+    "body": "[Training, tuning, handover]"
+   }
+  ],
+  "milestones": "Milestones: kickoff week [__], first release week [__], go-live week [__].",
+  "title": "Three phases, a working release at each"
+ },
+ "team": [
+  {
+   "cv_id": "x",
+   "name": "Consultant A",
+   "role": "[Role]",
+   "years": 0,
+   "skills": "[Key skills from the CV]",
+   "score": 0.9
+  },
+  {
+   "cv_id": "x",
+   "name": "Consultant B",
+   "role": "[Role]",
+   "years": 0,
+   "skills": "[Key skills from the CV]",
+   "score": 0.85
+  },
+  {
+   "cv_id": "x",
+   "name": "Consultant C",
+   "role": "[Role]",
+   "years": 0,
+   "skills": "[Key skills from the CV]",
+   "score": 0.75
+  }
+ ],
+ "references": [
+  {
+   "project_id": "x",
+   "title": "[Delivered project title]",
+   "summary": "[One-line outcome]",
+   "sector": "[Sector]",
+   "score": 0.9,
+   "delivered": true
+  },
+  {
+   "project_id": "x",
+   "title": "[Delivered project title]",
+   "summary": "[One-line outcome]",
+   "sector": "[Sector]",
+   "score": 0.85,
+   "delivered": true
+  },
+  {
+   "project_id": "x",
+   "title": "[Proposed project title]",
+   "summary": "[Why it closes a gap]",
+   "sector": "",
+   "score": 0.6,
+   "delivered": false
+  }
+ ],
+ "investment": {
+  "lines": [
+   {
+    "workstream": "Discover",
+    "days": 30,
+    "amount": 19500
+   },
+   {
+    "workstream": "Build",
+    "days": 60,
+    "amount": 39000
+   },
+   {
+    "workstream": "Roll out",
+    "days": 30,
+    "amount": 19500
+   }
+  ],
+  "next_steps": [
+   {
+    "title": "Discovery call",
+    "detail": "30 minutes, this week"
+   },
+   {
+    "title": "Express data audit",
+    "detail": "Free, within 10 days"
+   },
+   {
+    "title": "Sign and kick off",
+    "detail": "Team starts the following week"
+   }
+  ],
+  "currency": "€",
+  "note": "Indicative: days × blended day rate. Final quote after scoping."
+ },
+ "signatory": {
+  "name": "[Sales manager name]",
+  "role": "Head of Sales, OliveSoft",
+  "contact": "sales@[domain]"
+ }
+}

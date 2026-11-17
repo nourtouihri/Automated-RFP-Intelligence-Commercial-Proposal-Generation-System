@@ -1,0 +1,5 @@
+name: List proposals
+method: GET
+url: '{{proposalUrl}}/proposal'
+headers:
+  X-Internal-Token: '{{internalToken}}'

@@ -1,0 +1,1335 @@
+[
+  {
+    "id": "olivesoft-001",
+    "doc_type": "olivesoft_project",
+    "title": "Talend TOS platform on Microsoft Azure",
+    "text": "OliveSoft project: Talend TOS platform on Microsoft Azure. Type: pfe internship project, edition 2023/2024. Domain: data integration, devops, cloud. Deploy Talend Open Studio on Azure with Terraform, Airflow, Docker CI/CD and Kubernetes. Tech stack: Talend Open Studio, Azure, Terraform, Apache Airflow, Docker, Kubernetes, Helm. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "78f167a5283d607086a652bf29c1cbd5",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "data integration",
+        "devops",
+        "cloud"
+      ],
+      "tech_stack": [
+        "Talend Open Studio",
+        "Azure",
+        "Terraform",
+        "Apache Airflow",
+        "Docker",
+        "Kubernetes",
+        "Helm"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 3,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-002",
+    "doc_type": "olivesoft_project",
+    "title": "Smart-object management solution",
+    "text": "OliveSoft project: Smart-object management solution. Type: pfe internship project, edition 2023/2024. Domain: IoT, data integration, BI. Remote smart-object management with endpoint collection, analysis and visualization. Tech stack: Talend, MuleSoft, REST API, Angular, Power BI, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "75098c4f44fd69d4919939815feff395",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "IoT",
+        "data integration",
+        "BI"
+      ],
+      "tech_stack": [
+        "Talend",
+        "MuleSoft",
+        "REST API",
+        "Angular",
+        "Power BI",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 4,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-003",
+    "doc_type": "olivesoft_project",
+    "title": "Talend reporting solution",
+    "text": "OliveSoft project: Talend reporting solution. Type: pfe internship project, edition 2023/2024. Domain: reporting, BI, data integration. Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Tech stack: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "2a53908b3d8221746245cd8241bd0693",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "reporting",
+        "BI",
+        "data integration"
+      ],
+      "tech_stack": [
+        "Talend",
+        "Power BI",
+        "GCP",
+        "Datadog",
+        "ServiceNow",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 5,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-004",
+    "doc_type": "olivesoft_project",
+    "title": "MuleSoft platform and business data flows",
+    "text": "OliveSoft project: MuleSoft platform and business data flows. Type: pfe internship project, edition 2023/2024. Domain: API integration, data integration. Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Tech stack: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "1701f17dbb541b64853d0c479536263d",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "API integration",
+        "data integration"
+      ],
+      "tech_stack": [
+        "MuleSoft",
+        "Microservices",
+        "Datadog",
+        "CI/CD",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 6,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-005",
+    "doc_type": "olivesoft_project",
+    "title": "GCP data-platform evolution",
+    "text": "OliveSoft project: GCP data-platform evolution. Type: pfe internship project, edition 2023/2024. Domain: data platform, cloud, devops. Evolve a GCP data platform with Terraform infrastructure, Azure DevOps delivery, Pub/Sub streaming and Cloud Run scalability. Tech stack: GCP, Python, Terraform, Pub/Sub, Cloud Run, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "68318090a2e3c4167da4351419fc6aad",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "data platform",
+        "cloud",
+        "devops"
+      ],
+      "tech_stack": [
+        "GCP",
+        "Python",
+        "Terraform",
+        "Pub/Sub",
+        "Cloud Run",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 7,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-006",
+    "doc_type": "olivesoft_project",
+    "title": "MuleSoft monitoring and decision support",
+    "text": "OliveSoft project: MuleSoft monitoring and decision support. Type: pfe internship project, edition 2023/2024. Domain: monitoring, reporting, API integration. Monitor MuleSoft flows with Datadog KPIs, proactive email alerts and automatic ServiceNow tickets. Tech stack: MuleSoft, Datadog, ServiceNow, CI/CD, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "a64c8a8d61d16b46f2146ee07cef3e3f",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "monitoring",
+        "reporting",
+        "API integration"
+      ],
+      "tech_stack": [
+        "MuleSoft",
+        "Datadog",
+        "ServiceNow",
+        "CI/CD",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 8,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-007",
+    "doc_type": "olivesoft_project",
+    "title": "Asynchronous Talend flows",
+    "text": "OliveSoft project: Asynchronous Talend flows. Type: pfe internship project, edition 2023/2024. Domain: ESB, data integration. Migrate SOAP services to REST APIs and improve Talend routes with automated tests. Tech stack: Talend Open Studio, Apache Camel, ESB, REST API, TMC. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "88cb546a42135965aa6e1744c15c3f65",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "ESB",
+        "data integration"
+      ],
+      "tech_stack": [
+        "Talend Open Studio",
+        "Apache Camel",
+        "ESB",
+        "REST API",
+        "TMC"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 9,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-008",
+    "doc_type": "olivesoft_project",
+    "title": "Human-resources process automation",
+    "text": "OliveSoft project: Human-resources process automation. Type: pfe internship project, edition 2023/2024. Domain: HR, data integration, BI. Automate HR extraction, warehousing, email and dashboards from Boond ERP. Tech stack: BoondManager API, Talend, Azure, Apache Airflow, Power BI. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "da0e86a1fd0c806cf615f46e1e27c841",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "HR",
+        "data integration",
+        "BI"
+      ],
+      "tech_stack": [
+        "BoondManager API",
+        "Talend",
+        "Azure",
+        "Apache Airflow",
+        "Power BI"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 10,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-009",
+    "doc_type": "olivesoft_project",
+    "title": "Salesforce customer master reference",
+    "text": "OliveSoft project: Salesforce customer master reference. Type: pfe internship project, edition 2023/2024. Domain: CRM, Salesforce. Configure Salesforce Sales Cloud roles, permissions, Lightning interfaces, Apex triggers and CI/CD. Tech stack: Salesforce Sales Cloud, Apex, Lightning, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "ff39d2b94ac08552e0dc638624e259c7",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2023/2024",
+      "domain": [
+        "CRM",
+        "Salesforce"
+      ],
+      "tech_stack": [
+        "Salesforce Sales Cloud",
+        "Apex",
+        "Lightning",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2023.pdf",
+          "page": 11,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-010",
+    "doc_type": "olivesoft_project",
+    "title": "HR reporting and monitoring platform",
+    "text": "OliveSoft project: HR reporting and monitoring platform. Type: pfe internship project, edition 2025. Domain: HR, reporting, data integration. Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems. Tech stack: Talend, Power BI, Azure SQL, Azure DevOps. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "1968e2f557285435698345a58bacf883",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "HR",
+        "reporting",
+        "data integration"
+      ],
+      "tech_stack": [
+        "Talend",
+        "Power BI",
+        "Azure SQL",
+        "Azure DevOps"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 12,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-011",
+    "doc_type": "olivesoft_project",
+    "title": "Talend ETL and ESB monitoring platform",
+    "text": "OliveSoft project: Talend ETL and ESB monitoring platform. Type: pfe internship project, edition 2025. Domain: monitoring, audit, BI, devops. Improve OliveSoft's Talend audit platform with embedded BI and infrastructure automation. Tech stack: Talend, Java, Power BI, Azure SQL, Terraform, CI/CD. Status: proposed. Client: OliveSoft (internal product).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "aa285e04c44b5f23dff6e125c68f713b",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "monitoring",
+        "audit",
+        "BI",
+        "devops"
+      ],
+      "tech_stack": [
+        "Talend",
+        "Java",
+        "Power BI",
+        "Azure SQL",
+        "Terraform",
+        "CI/CD"
+      ],
+      "client": "OliveSoft (internal product)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 13,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-012",
+    "doc_type": "olivesoft_project",
+    "title": "Business-process automation",
+    "text": "OliveSoft project: Business-process automation. Type: pfe internship project, edition 2025. Domain: business process automation, BPM. Model and automate onboarding, payroll, bank reconciliation and accounting processes based on ROI. Tech stack: BPMN, Talend, MuleSoft, Power Automate, Git. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "0e76c2f28d0ed4b0576989ee1d3ee57a",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "business process automation",
+        "BPM"
+      ],
+      "tech_stack": [
+        "BPMN",
+        "Talend",
+        "MuleSoft",
+        "Power Automate",
+        "Git"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 14,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-013",
+    "doc_type": "olivesoft_project",
+    "title": "Marketing scoring AI and MLOps",
+    "text": "OliveSoft project: Marketing scoring AI and MLOps. Type: pfe internship project, edition 2025. Domain: AI/ML, MLOps, digital marketing. Optimize, continuously train, deploy and monitor a social-content scoring model. Tech stack: Python, PyTorch, HuggingFace, Azure ML, BigQuery, MLOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "9c05eee50576d994e088ff6802074c61",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "AI/ML",
+        "MLOps",
+        "digital marketing"
+      ],
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Azure ML",
+        "BigQuery",
+        "MLOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 15,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-014",
+    "doc_type": "olivesoft_project",
+    "title": "Digital-marketing LLM chatbot",
+    "text": "OliveSoft project: Digital-marketing LLM chatbot. Type: pfe internship project, edition 2025. Domain: AI/LLM, chatbot, digital marketing. Design, fine-tune, deploy and monitor a contextual digital-marketing chatbot. Tech stack: Python, Rasa, Dialogflow, Mistral, Claude, Gemini, OpenAI. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "7a1f2ed728aef93a4f71266a0abcd752",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "AI/LLM",
+        "chatbot",
+        "digital marketing"
+      ],
+      "tech_stack": [
+        "Python",
+        "Rasa",
+        "Dialogflow",
+        "Mistral",
+        "Claude",
+        "Gemini",
+        "OpenAI"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 16,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-015",
+    "doc_type": "olivesoft_project",
+    "title": "KWORE generative-media platform",
+    "text": "OliveSoft project: KWORE generative-media platform. Type: pfe internship project, edition 2025. Domain: generative AI, marketing communication. Extend an image-generation platform with text-to-video, image-to-video and music generation. Tech stack: Python, PyTorch, HuggingFace Transformers, Diffusers. Status: proposed. Client: KWORE.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "a8062b7585af8e07a6dc31359cb3158c",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "generative AI",
+        "marketing communication"
+      ],
+      "tech_stack": [
+        "Python",
+        "PyTorch",
+        "HuggingFace Transformers",
+        "Diffusers"
+      ],
+      "client": "KWORE",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 17,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-016",
+    "doc_type": "olivesoft_project",
+    "title": "Product supplier and customer evaluation system",
+    "text": "OliveSoft project: Product supplier and customer evaluation system. Type: pfe internship project, edition 2025. Domain: AI/ML, predictive analytics, retail. Deploy predictive KPI models for strategic product, supplier and customer evaluation. Tech stack: Python, BigQuery, SQL, TensorFlow, Power BI. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "a62138bb6a055c25b3fad7443cfcecc6",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "AI/ML",
+        "predictive analytics",
+        "retail"
+      ],
+      "tech_stack": [
+        "Python",
+        "BigQuery",
+        "SQL",
+        "TensorFlow",
+        "Power BI"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 18,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-017",
+    "doc_type": "olivesoft_project",
+    "title": "Sales and product-demand forecasting",
+    "text": "OliveSoft project: Sales and product-demand forecasting. Type: pfe internship project, edition 2025. Domain: AI/ML, forecasting, retail, BI. Forecast sales and product needs and expose predictions through a real-time monitoring dashboard. Tech stack: Python, BigQuery, SQL, TensorFlow, Power BI. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "0c22eb5fffbfad1a575a3bc5c449e73a",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "AI/ML",
+        "forecasting",
+        "retail",
+        "BI"
+      ],
+      "tech_stack": [
+        "Python",
+        "BigQuery",
+        "SQL",
+        "TensorFlow",
+        "Power BI"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 19,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-018",
+    "doc_type": "olivesoft_project",
+    "title": "Talend CI/CD pipelines",
+    "text": "OliveSoft project: Talend CI/CD pipelines. Type: pfe internship project, edition 2025. Domain: devops, data integration. Automate Talend service promotion, context deployment, Key Vault secrets and runtime maintenance. Tech stack: Talend, TMC, Azure, Git, Azure DevOps, Key Vault. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "5573bcdeecae04cc066570408eef0372",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "devops",
+        "data integration"
+      ],
+      "tech_stack": [
+        "Talend",
+        "TMC",
+        "Azure",
+        "Git",
+        "Azure DevOps",
+        "Key Vault"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 20,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-019",
+    "doc_type": "olivesoft_project",
+    "title": "BigQuery SQL workflow cloud platform",
+    "text": "OliveSoft project: BigQuery SQL workflow cloud platform. Type: pfe internship project, edition 2025. Domain: data platform, cloud, SQL. Create, version, optimize, schedule and trace BigQuery SQL workflows on Google Cloud. Tech stack: GCP, BigQuery, SQL, Git, CI/CD, Terraform. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "46b02ddd70a281c56e33c870b4550dcf",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "data platform",
+        "cloud",
+        "SQL"
+      ],
+      "tech_stack": [
+        "GCP",
+        "BigQuery",
+        "SQL",
+        "Git",
+        "CI/CD",
+        "Terraform"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 21,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-020",
+    "doc_type": "olivesoft_project",
+    "title": "Annual employee evaluation system",
+    "text": "OliveSoft project: Annual employee evaluation system. Type: pfe internship project, edition 2025. Domain: HR, Salesforce. Automate employee evaluations, notifications, scoring and KPI dashboards in Salesforce. Tech stack: Salesforce, Apex, Lightning, SQL, Azure DevOps. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "d25624783d785c52e7c301ab7d8238a1",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "HR",
+        "Salesforce"
+      ],
+      "tech_stack": [
+        "Salesforce",
+        "Apex",
+        "Lightning",
+        "SQL",
+        "Azure DevOps"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 22,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-021",
+    "doc_type": "olivesoft_project",
+    "title": "Cross-brand product recommendation",
+    "text": "OliveSoft project: Cross-brand product recommendation. Type: pfe internship project, edition 2025. Domain: retail, luxury, recommendation, AI. Recommend personalized cross-brand outfits from customer preferences, history and sales periods. Tech stack: MuleSoft, DataWeave, AI Chain, BigQuery, GCP. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "c433f471989303e2eb7410a74f02da69",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "retail",
+        "luxury",
+        "recommendation",
+        "AI"
+      ],
+      "tech_stack": [
+        "MuleSoft",
+        "DataWeave",
+        "AI Chain",
+        "BigQuery",
+        "GCP"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 23,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-022",
+    "doc_type": "olivesoft_project",
+    "title": "Project allocation by resource availability",
+    "text": "OliveSoft project: Project allocation by resource availability. Type: pfe internship project, edition 2025. Domain: resource management, Salesforce, finance. Optimize project staffing, timesheets, invoicing and financial KPIs with Salesforce and ERP integration. Tech stack: Salesforce, Apex, Lightning, Talend, Boond, Azure DevOps. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "63103770166bc5034986a0906ed600b5",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "resource management",
+        "Salesforce",
+        "finance"
+      ],
+      "tech_stack": [
+        "Salesforce",
+        "Apex",
+        "Lightning",
+        "Talend",
+        "Boond",
+        "Azure DevOps"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 24,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-023",
+    "doc_type": "olivesoft_project",
+    "title": "MuleSoft error-handling accelerator",
+    "text": "OliveSoft project: MuleSoft error-handling accelerator. Type: pfe internship project, edition 2025. Domain: API integration, monitoring, quality. Centralize MuleSoft errors, alerts, automated tests and Jira ticket creation. Tech stack: MuleSoft, Datadog, Jira, Unit testing, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "1ee57d891583fd68e90774de55721291",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2025",
+      "domain": [
+        "API integration",
+        "monitoring",
+        "quality"
+      ],
+      "tech_stack": [
+        "MuleSoft",
+        "Datadog",
+        "Jira",
+        "Unit testing",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "pfebook2025.pdf",
+          "page": 25,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-024",
+    "doc_type": "olivesoft_project",
+    "title": "Apache Airflow workflow scheduler",
+    "text": "OliveSoft project: Apache Airflow workflow scheduler. Type: pfe internship project, edition 2026. Domain: orchestration, data integration. Orchestrate data flows with DAG dependencies, retries, alerts, monitoring and production deployment. Tech stack: Apache Airflow, Python, Datadog, Azure DevOps. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "8c25cd2f371a055f7360a0d1bc70499a",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "orchestration",
+        "data integration"
+      ],
+      "tech_stack": [
+        "Apache Airflow",
+        "Python",
+        "Datadog",
+        "Azure DevOps"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 1,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-025",
+    "doc_type": "olivesoft_project",
+    "title": "Odoo Community internal integration",
+    "text": "OliveSoft project: Odoo Community internal integration. Type: pfe internship project, edition 2026. Domain: ERP, open source, internal tooling. Replace BoondManager using customized Odoo modules, data migration and n8n workflow automation. Tech stack: Odoo Community, Python, PostgreSQL, JavaScript, XML, n8n. Status: proposed. Client: OliveSoft (internal). Notes: Source slide title and final task were partially truncated.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "71a09c453b88cd88eedf6010036e1baa",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "ERP",
+        "open source",
+        "internal tooling"
+      ],
+      "tech_stack": [
+        "Odoo Community",
+        "Python",
+        "PostgreSQL",
+        "JavaScript",
+        "XML",
+        "n8n"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "medium",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 2,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-026",
+    "doc_type": "olivesoft_project",
+    "title": "Industrialized Power BI development",
+    "text": "OliveSoft project: Industrialized Power BI development. Type: pfe internship project, edition 2026. Domain: BI, devops, governance. Version, test and deploy Power BI assets through governed CI/CD environments. Tech stack: Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor, DAX Studio. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "5195d80db156775359f9179444fe3894",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "BI",
+        "devops",
+        "governance"
+      ],
+      "tech_stack": [
+        "Power BI",
+        "Azure DevOps",
+        "Git",
+        "YAML Pipelines",
+        "Tabular Editor",
+        "DAX Studio"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 3,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-027",
+    "doc_type": "olivesoft_project",
+    "title": "OLIA agentic AI full-stack platform",
+    "text": "OliveSoft project: OLIA agentic AI full-stack platform. Type: pfe internship project, edition 2026. Domain: generative AI, agents, fullstack. Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices. Tech stack: Python, FastAPI, React, TypeScript, RAG, OpenAI, Ollama. Status: proposed. Client: OliveSoft (internal product).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "1cffb702a912dea2033f16ab401c3eb0",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "generative AI",
+        "agents",
+        "fullstack"
+      ],
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "RAG",
+        "OpenAI",
+        "Ollama"
+      ],
+      "client": "OliveSoft (internal product)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 4,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-028",
+    "doc_type": "olivesoft_project",
+    "title": "OLIA cloud-agnostic DevSecOps",
+    "text": "OliveSoft project: OLIA cloud-agnostic DevSecOps. Type: pfe internship project, edition 2026. Domain: devsecops, cloud, MLOps, observability. Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Tech stack: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Status: proposed. Client: OliveSoft (internal product).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "3979ce0f7d504ba63d6d67ba6aa6553d",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "devsecops",
+        "cloud",
+        "MLOps",
+        "observability"
+      ],
+      "tech_stack": [
+        "Kubernetes",
+        "Docker",
+        "GitHub Actions",
+        "Grafana",
+        "Prometheus",
+        "FastAPI",
+        "Keycloak"
+      ],
+      "client": "OliveSoft (internal product)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 7,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-029",
+    "doc_type": "olivesoft_project",
+    "title": "OLIA product management and QA",
+    "text": "OliveSoft project: OLIA product management and QA. Type: pfe internship project, edition 2026. Domain: product management, QA, generative AI. Manage the OLIA roadmap, backlog, specifications, UAT, beta feedback and product analytics. Tech stack: Agile, Scrum, Product Management, React, Python, Jira. Status: proposed. Client: OliveSoft (internal product).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "123140692786e1b41f55bdf4145ee786",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "product management",
+        "QA",
+        "generative AI"
+      ],
+      "tech_stack": [
+        "Agile",
+        "Scrum",
+        "Product Management",
+        "React",
+        "Python",
+        "Jira"
+      ],
+      "client": "OliveSoft (internal product)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 6,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-030",
+    "doc_type": "olivesoft_project",
+    "title": "Financial recommendation and investment agent",
+    "text": "OliveSoft project: Financial recommendation and investment agent. Type: pfe internship project, edition 2026. Domain: finance, trading, AI/ML. Collect market data, model and backtest trading strategies, and recommend opportunities through a dashboard. Tech stack: Python, R, Databricks, LLM, RAG, GCP, Azure. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "2c1e5df5f201f3d02eb67004aa0758ee",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "finance",
+        "trading",
+        "AI/ML"
+      ],
+      "tech_stack": [
+        "Python",
+        "R",
+        "Databricks",
+        "LLM",
+        "RAG",
+        "GCP",
+        "Azure"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 8,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-031",
+    "doc_type": "olivesoft_project",
+    "title": "Salesforce Customer 360 and loyalty",
+    "text": "OliveSoft project: Salesforce Customer 360 and loyalty. Type: pfe internship project, edition 2026. Domain: CRM, customer loyalty, Salesforce. Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Tech stack: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Status: proposed.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "dc9e1527cd4d25b32b3e063d33920bb8",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "CRM",
+        "customer loyalty",
+        "Salesforce"
+      ],
+      "tech_stack": [
+        "Salesforce Data Cloud",
+        "Salesforce Core",
+        "Einstein Agentforce",
+        "Apex",
+        "Lightning"
+      ],
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 9,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-032",
+    "doc_type": "olivesoft_project",
+    "title": "OliveSoft data-driven go-to-market strategy",
+    "text": "OliveSoft project: OliveSoft data-driven go-to-market strategy. Type: pfe internship project, edition 2026. Domain: sales, go-to-market, business development. Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Tech stack: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "d597e2969fa6954f22e51472f1c2f591",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "sales",
+        "go-to-market",
+        "business development"
+      ],
+      "tech_stack": [
+        "Salesforce",
+        "ValueOrbit",
+        "LinkedIn",
+        "Clay",
+        "Apollo",
+        "Brevo",
+        "BI"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 5,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-033",
+    "doc_type": "olivesoft_project",
+    "title": "Generative-AI sales acceleration",
+    "text": "OliveSoft project: Generative-AI sales acceleration. Type: pfe internship project, edition 2026. Domain: sales, generative AI, predictive analytics. Personalize prospecting, detect conversion signals, automate sales workflows and implement predictive lead scoring. Tech stack: GPT, Claude, Clay, HubSpot, Salesforce, n8n, Python, BigQuery. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "78ce1f214858cf84dd29627dead0eb6e",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "sales",
+        "generative AI",
+        "predictive analytics"
+      ],
+      "tech_stack": [
+        "GPT",
+        "Claude",
+        "Clay",
+        "HubSpot",
+        "Salesforce",
+        "n8n",
+        "Python",
+        "BigQuery"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 10,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-034",
+    "doc_type": "olivesoft_project",
+    "title": "Content-marketing lead generation and KPI dashboard",
+    "text": "OliveSoft project: Content-marketing lead generation and KPI dashboard. Type: pfe internship project, edition 2026. Domain: marketing, lead generation, BI. Run content and email campaigns and automate collection and reporting of acquisition KPIs. Tech stack: LinkedIn API, Meta API, Google Search Console, Brevo, Mailchimp, Power BI, ETL. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "993ba2706f7a954582d8eb4d5930f75d",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "marketing",
+        "lead generation",
+        "BI"
+      ],
+      "tech_stack": [
+        "LinkedIn API",
+        "Meta API",
+        "Google Search Console",
+        "Brevo",
+        "Mailchimp",
+        "Power BI",
+        "ETL"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 11,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-035",
+    "doc_type": "olivesoft_project",
+    "title": "OliveSoft website redesign",
+    "text": "OliveSoft project: OliveSoft website redesign. Type: pfe internship project, edition 2026. Domain: web, UX/UI, SEO. Redesign the OliveSoft website for modern UX, performance, mobile usability and commercial SEO. Tech stack: Drupal, HTML, CSS, Figma, Next.js, React, Google Analytics. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "2dd55f72835d43cecf208a3d4e1382e8",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "web",
+        "UX/UI",
+        "SEO"
+      ],
+      "tech_stack": [
+        "Drupal",
+        "HTML",
+        "CSS",
+        "Figma",
+        "Next.js",
+        "React",
+        "Google Analytics"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 12,
+          "tier": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "olivesoft-036",
+    "doc_type": "olivesoft_project",
+    "title": "ISO 27001 compliance assessment",
+    "text": "OliveSoft project: ISO 27001 compliance assessment. Type: pfe internship project, edition 2026. Domain: information security, compliance. Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Tech stack: ISO 27001, ISMS, Confluence, Jira, GED. Status: proposed. Client: OliveSoft (internal).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_projects.json",
+    "chunk_version": "v1",
+    "content_hash": "5e9ff98ca665bfec338279ea014b8caf",
+    "metadata": {
+      "relationship": "pfe_internship_project",
+      "edition": "2026",
+      "domain": [
+        "information security",
+        "compliance"
+      ],
+      "tech_stack": [
+        "ISO 27001",
+        "ISMS",
+        "Confluence",
+        "Jira",
+        "GED"
+      ],
+      "client": "OliveSoft (internal)",
+      "outcome": "proposed",
+      "confidence": "high",
+      "sources": [
+        {
+          "file": "mergedpfebook2026.pdf",
+          "page": 13,
+          "tier": 1
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "near_duplicates": [
+    {
+      "doc_type": "technology",
+      "ids": [
+        "TECH-015",
+        "TECH-016"
+      ],
+      "similarity": 0.923
+    },
+    {
+      "doc_type": "technology",
+      "ids": [
+        "TECH-025",
+        "TECH-028"
+      ],
+      "similarity": 0.902
+    },
+    {
+      "doc_type": "technology",
+      "ids": [
+        "TECH-057",
+        "TECH-094"
+      ],
+      "similarity": 0.922
+    },
+    {
+      "doc_type": "technology",
+      "ids": [
+        "TECH-080",
+        "TECH-082"
+      ],
+      "similarity": 0.969
+    }
+  ],
+  "dangling_references": [
+    {
+      "chunk": "TECH-004",
+      "field": "example_real_project_ids",
+      "missing": "website-002"
+    },
+    {
+      "chunk": "TECH-004",
+      "field": "example_real_project_ids",
+      "missing": "website-003"
+    },
+    {
+      "chunk": "TECH-004",
+      "field": "example_real_project_ids",
+      "missing": "website-004"
+    },
+    {
+      "chunk": "TECH-005",
+      "field": "example_real_project_ids",
+      "missing": "website-002"
+    },
+    {
+      "chunk": "TECH-005",
+      "field": "example_real_project_ids",
+      "missing": "website-003"
+    },
+    {
+      "chunk": "TECH-006",
+      "field": "example_real_project_ids",
+      "missing": "website-001"
+    },
+    {
+      "chunk": "TECH-008",
+      "field": "example_real_project_ids",
+      "missing": "website-002"
+    },
+    {
+      "chunk": "TECH-008",
+      "field": "example_real_project_ids",
+      "missing": "website-004"
+    },
+    {
+      "chunk": "TECH-142",
+      "field": "example_real_project_ids",
+      "missing": "website-001"
+    },
+    {
+      "chunk": "TECH-144",
+      "field": "example_real_project_ids",
+      "missing": "website-002"
+    },
+    {
+      "chunk": "TECH-145",
+      "field": "example_real_project_ids",
+      "missing": "website-003"
+    },
+    {
+      "chunk": "TECH-146",
+      "field": "example_real_project_ids",
+      "missing": "website-003"
+    },
+    {
+      "chunk": "TECH-147",
+      "field": "example_real_project_ids",
+      "missing": "website-003"
+    },
+    {
+      "chunk": "TECH-148",
+      "field": "example_real_project_ids",
+      "missing": "website-005"
+    },
+    {
+      "chunk": "TECH-149",
+      "field": "example_real_project_ids",
+      "missing": "website-005"
+    },
+    {
+      "chunk": "STACK-009",
+      "field": "project_ids",
+      "missing": "website-001"
+    },
+    {
+      "chunk": "STACK-012",
+      "field": "project_ids",
+      "missing": "website-002"
+    },
+    {
+      "chunk": "STACK-020",
+      "field": "project_ids",
+      "missing": "website-005"
+    }
+  ],
+  "ground_truth_missing_ids": []
+}

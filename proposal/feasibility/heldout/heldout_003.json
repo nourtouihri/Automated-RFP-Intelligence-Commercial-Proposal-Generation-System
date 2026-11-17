@@ -1,0 +1,15 @@
+{
+  "id": "heldout-003",
+  "title": "Construction of a Primary School and Sports Hall",
+  "issuer": "Municipality of Eastbrook",
+  "deadline": "2026-12-18",
+  "raw_text": "The Municipality of Eastbrook invites tenders for the design and construction of a two-storey primary school for 420 pupils with an attached sports hall. Works include site clearance, a reinforced concrete frame, masonry, roofing, mechanical and electrical installations and landscaping. The contractor must hold a valid building licence, provide a ten-year structural warranty and complete the works within 18 months of contract signature. Site safety must comply with national construction regulations.",
+  "source": "simulated_feed",
+  "requirements": [
+    "Design and construction of a two-storey primary school for 420 pupils",
+    "Reinforced concrete frame, masonry and roofing",
+    "Mechanical and electrical installations",
+    "Valid building licence and ten-year structural warranty",
+    "Completion within 18 months of contract signature"
+  ]
+}

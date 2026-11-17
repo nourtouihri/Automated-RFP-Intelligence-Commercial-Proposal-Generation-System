@@ -1,0 +1,107 @@
+[
+  {
+    "id": "company-001",
+    "doc_type": "company_profile",
+    "title": "OliveSoft overview",
+    "text": "OliveSoft overview. OliveSoft is a Data & AI consulting firm founded in 2018 in Paris, France. It helps organizations with data integration, BI and dashboarding, AI development, the Salesforce ecosystem and data platforms. Tagline: 'Votre partenaire Data & IA'. Its core expertise is in retail and fashion, and it is expanding to other demanding industries.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "76c2f3d593bd2b4e8ca16fe65e05ce8c",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr"
+    }
+  },
+  {
+    "id": "company-002",
+    "doc_type": "company_profile",
+    "title": "Locations and footprint",
+    "text": "Locations and footprint. OliveSoft headquarters: Paris, France. Operational hubs: Tunis and Sfax (Tunisia) and Dubai (United Arab Emirates). Clients are served across America, Asia, Europe and Africa. The company positions itself as combining Parisian roots and Mediterranean heritage (the olive tree as a symbol of endurance) with a global outlook.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "a3491789a550f393981937508e45cd81",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  },
+  {
+    "id": "company-003",
+    "doc_type": "company_profile",
+    "title": "Key figures",
+    "text": "Key figures. OliveSoft key figures from its website: 8+ years of experience, 250+ projects delivered, 60+ enterprise clients, 60+ employees and a network of 75 partners. Service promises: reduce data errors and bugs by 50%, reduce data operations and management costs by 30%, meet 100% of project goals and requirements.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "a71b0d5d22c30034ebe9b6aed4864a91",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  },
+  {
+    "id": "company-004",
+    "doc_type": "company_profile",
+    "title": "Values and culture",
+    "text": "Values and culture. OliveSoft's four values: Trust & Mutual Support (a safe-to-fail environment), Resilient Commitment (turning pressure into opportunity), Collective Craftsmanship (technical mastery plus shared responsibility) and Adaptive Excellence (versatility, initiative, local insight with a global vision). The company stresses a human-centered approach and training future leaders internally.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "9552c41dcd7b7ff81b2240ae782c0339",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  },
+  {
+    "id": "company-005",
+    "doc_type": "company_profile",
+    "title": "Sustainability: EcoVadis and Net Zero 2040",
+    "text": "Sustainability: EcoVadis and Net Zero 2040. OliveSoft holds an EcoVadis Silver medal (top 15% worldwide) for environmental impact, social practices and ethical conduct. It publicly committed to net-zero greenhouse gas emissions across operations and value chain by 2040, aligned with the Paris Agreement 1.5C goal. Actions: 100% renewable energy for hubs and offices, sustainable and energy-efficient software architectures, Green Code R&D, verified carbon offsets for residual emissions, and annual progress reports. Aligned with UN SDGs 9, 11 and 4.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "8da64b7c30913eb8a2636643b867aa6c",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  },
+  {
+    "id": "company-006",
+    "doc_type": "company_profile",
+    "title": "Industry focus",
+    "text": "Industry focus. Industry expertise highlighted by OliveSoft: Retail/Distribution (data and systems optimization, inventory management, customer experience), E-commerce (platform integration and data analysis) and Fashion (agile data-driven solutions improving supply chain visibility and customer relationships). Luxury is also a core segment of its client base.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "c97b0e3fab148e99363c4c74eb8ced45",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr"
+    }
+  },
+  {
+    "id": "contact-001",
+    "doc_type": "company_profile",
+    "title": "Contact and online presence",
+    "text": "Contact and online presence. OliveSoft offers a discovery session or an express audit (quick assessment of data and system architecture) through its website contact form. Offices: Paris (France), Sfax and Tunis (Tunisia), Dubai (UAE). Online: https://www.olivesoft.fr, LinkedIn company page olivesoft, Facebook page OliveSoft.tech. The site is available in French and English and runs on Drupal 11.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "3a97de92f70d1e519ccd64b4deb42591",
+    "metadata": {
+      "category": "company_profile",
+      "source_url": "https://www.olivesoft.fr/fr"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "meta": {"buyer": "Maison Aurèle", "tender_title": "Unified customer data platform",
+           "reference": "RFP-2026-014", "date": "15 October 2026",
+           "headline": "Unifying Maison Aurèle’s customer data with AI",
+           "subtitle": "Data integration, BI and a forecasting model, delivered in 12 weeks.",
+           "sample": true},
+  "signatory": {"name": "OliveSoft Sales Team", "role": "Sales, OliveSoft", "contact": "olivesoft.fr"},
+  "letter": {
+    "title": "A partner for your data journey",
+    "salutation": "Dear Ms. Laurent,",
+    "paragraphs": [
+      "Thank you for inviting OliveSoft to respond to your tender for a unified customer data platform. Your teams work across stores, e-commerce and CRM, and today those views do not meet.",
+      "We propose to connect them, build the dashboards your managers need and add a forecasting model, with a team that has done this for fashion and retail brands."],
+    "closing": "We would be glad to walk you through it."},
+  "summary": {
+    "title": "One customer view, forecasts you can act on",
+    "pillars": [
+      {"title": "Unified customer view", "body": "Store, e-commerce and CRM data in one governed platform.", "evidence": ["PRJ-0021"]},
+      {"title": "AI-assisted forecasting", "body": "Stock and demand dashboards with a model your planners can audit.", "evidence": ["PRJ-0014"]},
+      {"title": "Low-risk delivery", "body": "Three phases, a working release at each, and a team matched to your stack.", "evidence": ["CV-0031"]}],
+    "why_us": "Why OliveSoft: delivered references in retail and fashion, certified data and Salesforce expertise, offices in Paris and Sfax."},
+  "buyer": {
+    "profile": {"sector": "Fashion retail and e-commerce", "estimated_revenue": "Size not stated in the tender",
+                "key_partners": "None named in the tender"},
+    "needs": [
+      {"title": "Fragmented customer data", "body": "Store, web and CRM records are not linked, so campaigns rely on partial views."},
+      {"title": "Stock and demand blind spots", "body": "Seasonal collections need earlier, more reliable forecasts."},
+      {"title": "Domain requirement", "body": "Experience with luxury and fashion data, and GDPR-compliant processing."}]},
+  "requirements": [
+    {"requirement": "CRM data unification", "evidence": "Delivered CRM platform, fashion brand", "score": 0.92, "evidence_id": "PRJ-0021"},
+    {"requirement": "Forecasting dashboards", "evidence": "AI dashboards for stock and demand", "score": 0.88, "evidence_id": "PRJ-0014"},
+    {"requirement": "Salesforce integration", "evidence": "Certified consultants, 3 CVs matched", "score": 0.85, "evidence_id": "CV-0031"},
+    {"requirement": "GDPR and data governance", "evidence": "Governance work inside a data platform project", "score": 0.64, "evidence_id": "PRJ-0009"},
+    {"requirement": "On-site training in Arabic", "evidence": "", "score": 0.31, "evidence_id": null}],
+  "approach": {
+    "title": "Three phases, a working release at each",
+    "phases": [
+      {"name": "Discover", "weeks": 3, "body": "Audit sources, define the target model and KPIs."},
+      {"name": "Build", "weeks": 6, "body": "Integrate CRM, store and web data, ship the dashboards and train the forecasting model."},
+      {"name": "Roll out", "weeks": 3, "body": "Train users, tune, hand over."}],
+    "milestones": "Milestones: kickoff week 1, first dashboard week 6, go-live week 12."},
+  "team": [
+    {"cv_id": "CV-0031", "name": "Consultant A", "role": "Lead data engineer", "years": 9, "skills": "Data integration, ETL, Salesforce, retail and fashion", "score": 0.93},
+    {"cv_id": "CV-0012", "name": "Consultant B", "role": "AI and ML engineer", "years": 6, "skills": "Forecasting, PyTorch, MLOps, dashboards", "score": 0.89},
+    {"cv_id": "CV-0044", "name": "Consultant C", "role": "BI and project lead", "years": 11, "skills": "Dashboards, governance, client delivery", "score": 0.78}],
+  "references": [
+    {"project_id": "PRJ-0021", "title": "Unified CRM platform, fashion brand", "summary": "Centralised fragmented customer data into one view.", "sector": "Retail and fashion", "score": 0.92, "delivered": true},
+    {"project_id": "PRJ-0014", "title": "AI forecasting dashboards", "summary": "Forecasting, stock and decision dashboards with integration.", "sector": "Distribution", "score": 0.88, "delivered": true},
+    {"project_id": "olivesoft-027", "title": "GDPR-ready data catalogue", "summary": "Offered as an option to close the governance gap.", "sector": "Cross-sector", "score": 0.64, "delivered": false}],
+  "investment": {
+    "currency": "€",
+    "note": "Indicative: days × blended day rate. Final quote after scoping.",
+    "lines": [{"workstream": "Discover", "days": 30, "amount": 19500},
+              {"workstream": "Build", "days": 60, "amount": 39000},
+              {"workstream": "Roll out", "days": 30, "amount": 19500}],
+    "next_steps": [
+      {"title": "Discovery call", "detail": "30 minutes, this week"},
+      {"title": "Express data audit", "detail": "Free, within 10 days"},
+      {"title": "Sign and kick off", "detail": "Team starts the following week"}]},
+  "estimated": ["buyer.profile.estimated_revenue", "buyer.profile.key_partners", "investment.lines"]
+}

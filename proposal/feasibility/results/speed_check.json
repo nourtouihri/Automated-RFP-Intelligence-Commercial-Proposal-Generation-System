@@ -1,0 +1,103 @@
+{
+ "decks": 53,
+ "decks_whose_tender_states_no_duration": [
+  "llm-run-20b-v2/tender-001",
+  "llm-run-20b-v2/tender-002",
+  "llm-run-20b-v2/tender-003",
+  "llm-run-20b-v2/tender-005",
+  "llm-run-20b-v2/tender-006",
+  "llm-run-20b-v2/tender-007",
+  "llm-run-20b-v2/tender-008",
+  "llm-run-20b-v2/tender-009",
+  "llm-run-20b-v2/tender-010",
+  "llm-run-20b-v2/tender-011",
+  "llm-run-20b-v2/tender-012",
+  "llm-run-20b/tender-001",
+  "llm-run-20b/tender-002",
+  "llm-run-20b/tender-003",
+  "llm-run-20b/tender-005",
+  "llm-run-20b/tender-006",
+  "llm-run-20b/tender-007",
+  "llm-run-20b/tender-008",
+  "llm-run-20b/tender-010",
+  "llm-run-20b/tender-011",
+  "llm-run-20b/tender-012",
+  "llm-run-final-heldout/heldout-001",
+  "llm-run-final-heldout/heldout-004",
+  "llm-run-final-heldout/heldout-005",
+  "llm-run-final-rescue/tender-003",
+  "llm-run-final-rescue/tender-009",
+  "llm-run-final-sim/tender-001",
+  "llm-run-final-sim/tender-002",
+  "llm-run-final-sim/tender-005",
+  "llm-run-final-sim/tender-006",
+  "llm-run-final-sim/tender-007",
+  "llm-run-final-sim/tender-008",
+  "llm-run-final-sim/tender-010",
+  "llm-run-final-sim/tender-011",
+  "llm-run-final-sim/tender-012",
+  "llm-run-heldout/heldout-001",
+  "llm-run-heldout/heldout-004",
+  "llm-run-heldout/heldout-005",
+  "llm-run-v2/tender-012",
+  "llm-run-v3-feedback/tender-003",
+  "llm-run-v3-feedback/tender-007"
+ ],
+ "hits": [
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "warning": "speed promise \"immediately\" in summary.pillars[2].body; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-20b",
+   "tender": "tender-015",
+   "warning": "speed promise \"real-time\" in summary.why_us; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-final-heldout-forced",
+   "tender": "heldout-002",
+   "warning": "speed promise \"real-time\" in meta.subtitle; the tender states \"within five minutes\""
+  },
+  {
+   "run": "llm-run-final-sim",
+   "tender": "tender-015",
+   "warning": "speed promise \"same-day\" in summary.pillars[1].body; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "warning": "speed promise \"real-time\" in meta.subtitle; the tender states \"within five minutes\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-004",
+   "warning": "speed promise \"real-time\" in letter.paragraphs[1]; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-004",
+   "warning": "speed promise \"immediate\" in letter.paragraphs[1]; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-004",
+   "warning": "speed promise \"real-time\" in summary.pillars[2].title; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-004",
+   "warning": "speed promise \"instantly\" in summary.pillars[2].body; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-004",
+   "warning": "speed promise \"real-time\" in approach.phases[2].body; the tender states \"within one day\""
+  },
+  {
+   "run": "llm-run-v3-feedback",
+   "tender": "tender-015",
+   "warning": "speed promise \"real-time\" in letter.paragraphs[1]; the tender states \"within one day\""
+  }
+ ]
+}

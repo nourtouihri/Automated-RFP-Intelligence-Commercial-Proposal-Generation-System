@@ -1,0 +1,15 @@
+{
+  "id": "heldout-001",
+  "title": "Regional Patient Record Interoperability Platform",
+  "issuer": "Northgate Regional Health Authority",
+  "deadline": "2026-12-04",
+  "raw_text": "Northgate Regional Health Authority runs eleven hospitals on four different electronic patient record systems, and clinicians re-enter allergy and medication data whenever a patient is transferred. We require an interoperability layer that exposes patient summaries through HL7 FHIR APIs, with a master patient index that matches records across the four systems. Access must be role-based, and every read of a patient record must be audit-logged and kept for seven years. Data may not leave the national health cloud region. A clinical dashboard must show transfer delays and duplicate-record rates to hospital managers.",
+  "source": "simulated_feed",
+  "requirements": [
+    "HL7 FHIR API exposing patient summaries from four record systems",
+    "Master patient index matching duplicate records across systems",
+    "Role-based access with an audit log of every record read kept seven years",
+    "Hosting restricted to the national health cloud region",
+    "Dashboard of transfer delays and duplicate-record rates for hospital managers"
+  ]
+}

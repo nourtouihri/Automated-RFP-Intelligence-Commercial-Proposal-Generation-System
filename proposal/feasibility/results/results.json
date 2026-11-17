@@ -1,0 +1,1353 @@
+{
+ "summary": {
+  "corpus_chunks": 224,
+  "index_seconds": 2.3,
+  "tenders_used": 13,
+  "skipped": [
+   [
+    "tender_010.json",
+    "unreadable file"
+   ],
+   [
+    "tender_013.json",
+    "no requirements (detection's LLM extracts them)"
+   ]
+  ],
+  "requirement_rows": 53,
+  "rows_where_top_hit_was_a_pfe_idea": 19,
+  "evidence_similarity": {
+   "min": 0.172,
+   "median": 0.436,
+   "max": 0.79
+  },
+  "labels (Strong >= 0.55, Partial >= 0.4)": {
+   "Strong": 16,
+   "Partial": 18,
+   "Gap": 17
+  },
+  "references_delivered": 27,
+  "references_total": 39,
+  "llm_calls_per_deck": {
+   "min": 5,
+   "max": 9
+  },
+  "tenders_with_bid_warnings": {
+   "tender-004": [
+    "no requirement has strong evidence"
+   ],
+   "tender-014": [
+    "no requirement has strong evidence",
+    "no delivered reference project",
+    "every matched consultant is a weak match"
+   ],
+   "tender-015": [
+    "no requirement has strong evidence"
+   ]
+  },
+  "decks_with_validator_issues": 0,
+  "render_seconds_median": 0.382,
+  "pdf_seconds_median": 1.52
+ },
+ "tenders": [
+  {
+   "tender": "tender-001",
+   "issuer": "Meridian Consumer Goods Group",
+   "title": "Global HRIS Integration Across 11 Countries",
+   "rows": [
+    {
+     "requirement": "MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems",
+     "top_hit": "CV-0028",
+     "top_similarity": 0.74,
+     "evidence_id": "CV-0028",
+     "similarity": 0.74,
+     "evidence_text": "Employee_028 (MuleSoft Developer) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Designed versioned API"
+    },
+    {
+     "requirement": "Master data management with cross-system duplicate employee prevention",
+     "top_hit": "PRJ-0001",
+     "top_similarity": 0.562,
+     "evidence_id": "PRJ-0001",
+     "similarity": 0.562,
+     "evidence_text": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, RE"
+    },
+    {
+     "requirement": "Statutory payroll reporting formats per country",
+     "top_hit": "PRJ-0029",
+     "top_similarity": 0.419,
+     "evidence_id": "PRJ-0029",
+     "similarity": 0.419,
+     "evidence_text": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management,"
+    },
+    {
+     "requirement": "Versioned API layer with handover documentation to internal IT",
+     "top_hit": "olivesoft-007",
+     "top_similarity": 0.32,
+     "evidence_id": "CV-0026",
+     "similarity": 0.394,
+     "evidence_text": "Employee_026 (Senior Integration Architect) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer good"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0026",
+     "name": "Employee_026",
+     "role": "Senior Integration Architect",
+     "years": 10,
+     "skills": "REST APIs, DataWeave, MuleSoft, SAP SuccessFactors, Master Data Management",
+     "score": 0.7
+    },
+    {
+     "cv_id": "CV-0028",
+     "name": "Employee_028",
+     "role": "MuleSoft Developer",
+     "years": 8,
+     "skills": "Anypoint Platform, MuleSoft, SAP SuccessFactors, Master Data Management, API-led connectivity",
+     "score": 0.67
+    },
+    {
+     "cv_id": "CV-0018",
+     "name": "Employee_018",
+     "role": "Integration Developer",
+     "years": 7,
+     "skills": "DataWeave, OAuth 2.0, MuleSoft, SAP SuccessFactors, Master Data Management",
+     "score": 0.67
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0029",
+     "score": 0.75,
+     "delivered": true,
+     "title": "Multi-country HR and payroll integration hub for a logistics group"
+    },
+    {
+     "id": "PRJ-0001",
+     "score": 0.62,
+     "delivered": true,
+     "title": "Employee master data consolidation with versioned APIs for a consumer goods company"
+    },
+    {
+     "id": "olivesoft-004",
+     "score": 0.47,
+     "delivered": false,
+     "title": "MuleSoft platform and business data flows"
+    }
+   ],
+   "llm_steps": 8,
+   "citations": [
+    "CV-0018",
+    "CV-0026",
+    "CV-0028",
+    "PRJ-0001",
+    "PRJ-0029",
+    "olivesoft-004"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.387,
+   "pdf_s": 1.35,
+   "issues": []
+  },
+  {
+   "tender": "tender-002",
+   "issuer": "Nordvale Logistics Group",
+   "title": "Talent and Payroll Data Pipeline Modernisation",
+   "rows": [
+    {
+     "requirement": "Talend ETL pipeline over applicant tracking system data",
+     "top_hit": "PRJ-0022",
+     "top_similarity": 0.732,
+     "evidence_id": "PRJ-0022",
+     "similarity": 0.732,
+     "evidence_text": "Recruitment and applicant tracking ETL modernisation for a logistics group (client sector: logistics). Tech stack: Talend, ETL, Python, Data reconciliation. Out"
+    },
+    {
+     "requirement": "SSIS package migration onto the new platform",
+     "top_hit": "PRJ-0014",
+     "top_similarity": 0.565,
+     "evidence_id": "PRJ-0014",
+     "similarity": 0.565,
+     "evidence_text": "SSIS to Talend pipeline migration for an insurance operator (client sector: insurance). Tech stack: Talend, SSIS, SQL Server, ETL. Outcome: 9 legacy packages re"
+    },
+    {
+     "requirement": "Incremental load strategy with partial-failure tolerance",
+     "top_hit": "olivesoft-023",
+     "top_similarity": 0.256,
+     "evidence_id": "PRJ-0001",
+     "similarity": 0.239,
+     "evidence_text": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, RE"
+    },
+    {
+     "requirement": "Reconciliation report detecting drift between legacy and new extracts",
+     "top_hit": "olivesoft-011",
+     "top_similarity": 0.265,
+     "evidence_id": "PRJ-0022",
+     "similarity": 0.323,
+     "evidence_text": "Recruitment and applicant tracking ETL modernisation for a logistics group (client sector: logistics). Tech stack: Talend, ETL, Python, Data reconciliation. Out"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0052",
+     "name": "Employee_052",
+     "role": "Data Integration Engineer",
+     "years": 6,
+     "skills": "Data reconciliation, Talend, SSIS, ETL, SQL Server",
+     "score": 0.76
+    },
+    {
+     "cv_id": "CV-0056",
+     "name": "Employee_056",
+     "role": "ETL Developer",
+     "years": 3,
+     "skills": "Data reconciliation, Talend, SSIS, ETL, SQL Server",
+     "score": 0.75
+    },
+    {
+     "cv_id": "CV-0031",
+     "name": "Employee_031",
+     "role": "Senior ETL Engineer",
+     "years": 10,
+     "skills": "Azure Data Factory, Talend, SSIS, ETL, SQL Server",
+     "score": 0.72
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0022",
+     "score": 0.71,
+     "delivered": true,
+     "title": "Recruitment and applicant tracking ETL modernisation for a logistics group"
+    },
+    {
+     "id": "PRJ-0014",
+     "score": 0.65,
+     "delivered": true,
+     "title": "SSIS to Talend pipeline migration for an insurance operator"
+    },
+    {
+     "id": "olivesoft-003",
+     "score": 0.5,
+     "delivered": false,
+     "title": "Talend reporting solution"
+    }
+   ],
+   "llm_steps": 7,
+   "citations": [
+    "CV-0031",
+    "CV-0052",
+    "CV-0056",
+    "PRJ-0001",
+    "PRJ-0014",
+    "PRJ-0022",
+    "olivesoft-003"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.411,
+   "pdf_s": 1.53,
+   "issues": []
+  },
+  {
+   "tender": "tender-003",
+   "issuer": "Helvetia Industrial AG",
+   "title": "Executive HR Analytics and Workforce Reporting",
+   "rows": [
+    {
+     "requirement": "Power BI reporting layer replacing six divisional reporting packs",
+     "top_hit": "olivesoft-003",
+     "top_similarity": 0.48,
+     "evidence_id": "PRJ-0017",
+     "similarity": 0.55,
+     "evidence_text": "Governed workforce analytics in Power BI for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, DAX, Semantic model design, Row-level "
+    },
+    {
+     "requirement": "Governed semantic model with KPI definitions signed off by HR leadership",
+     "top_hit": "CV-0005",
+     "top_similarity": 0.689,
+     "evidence_id": "CV-0005",
+     "similarity": 0.689,
+     "evidence_text": "Employee_005 (Senior BI Consultant) worked on 'HR KPI semantic model and executive dashboards for a healthcare organisation' in the healthcare sector. Replaced "
+    },
+    {
+     "requirement": "Three-year historical comparison",
+     "top_hit": "CV-0029",
+     "top_similarity": 0.287,
+     "evidence_id": "CV-0029",
+     "similarity": 0.287,
+     "evidence_text": "Employee_029 (Data Scientist (Similarity Search)) worked on 'Prior-art crawler with auditable matching for a public sector (justice) authority' in the public se"
+    },
+    {
+     "requirement": "Row-level security scoped to divisional HR managers",
+     "top_hit": "CV-0030",
+     "top_similarity": 0.597,
+     "evidence_id": "CV-0030",
+     "similarity": 0.597,
+     "evidence_text": "Employee_030 (Power BI Developer) worked on 'Governed workforce analytics in Power BI for a healthcare organisation' in the healthcare sector. Implemented row-l"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0049",
+     "name": "Employee_049",
+     "role": "BI Solution Architect",
+     "years": 11,
+     "skills": "Azure Synapse, Power Query, SQL, Power BI, DAX",
+     "score": 0.7
+    },
+    {
+     "cv_id": "CV-0030",
+     "name": "Employee_030",
+     "role": "Power BI Developer",
+     "years": 6,
+     "skills": "Power Query, Power BI, DAX, Semantic model design, Row-level security",
+     "score": 0.7
+    },
+    {
+     "cv_id": "CV-0005",
+     "name": "Employee_005",
+     "role": "Senior BI Consultant",
+     "years": 10,
+     "skills": "Azure Synapse, Power BI, DAX, Semantic model design, Row-level security",
+     "score": 0.7
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0031",
+     "score": 0.68,
+     "delivered": true,
+     "title": "HR KPI semantic model and executive dashboards for a healthcare organisation"
+    },
+    {
+     "id": "PRJ-0017",
+     "score": 0.65,
+     "delivered": true,
+     "title": "Governed workforce analytics in Power BI for a healthcare organisation"
+    },
+    {
+     "id": "olivesoft-003",
+     "score": 0.51,
+     "delivered": false,
+     "title": "Talend reporting solution"
+    }
+   ],
+   "llm_steps": 8,
+   "citations": [
+    "CV-0005",
+    "CV-0029",
+    "CV-0030",
+    "CV-0049",
+    "PRJ-0017",
+    "PRJ-0031",
+    "olivesoft-003"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.412,
+   "pdf_s": 1.63,
+   "issues": []
+  },
+  {
+   "tender": "tender-004",
+   "issuer": "Beaumont Retail Holdings",
+   "title": "Unified Customer 360 Across ERP, Commerce and Support",
+   "rows": [
+    {
+     "requirement": "System integration unifying Cegid ERP, commerce, marketing, and support records",
+     "top_hit": "CV-0027",
+     "top_similarity": 0.531,
+     "evidence_id": "CV-0027",
+     "similarity": 0.531,
+     "evidence_text": "Employee_027 (Integration Consultant) worked on 'Internal delivery for a consumer goods client' in the consumer goods sector. Connected Sales Cloud opportunitie"
+    },
+    {
+     "requirement": "Identity resolution on email, loyalty number, and postcode fallback",
+     "top_hit": "olivesoft-031",
+     "top_similarity": 0.268,
+     "evidence_id": "CV-0004",
+     "similarity": 0.271,
+     "evidence_text": "Employee_004 (Senior Data Engineer) worked on 'Customer single view on BigQuery for a retail chain' in the retail sector. Unified ERP, e-commerce, marketing and"
+    },
+    {
+     "requirement": "BigQuery analytical landing zone on GCP",
+     "top_hit": "olivesoft-019",
+     "top_similarity": 0.493,
+     "evidence_id": "CV-0004",
+     "similarity": 0.447,
+     "evidence_text": "Employee_004 (Senior Data Engineer) worked on 'Customer single view on BigQuery for a retail chain' in the retail sector. Unified ERP, e-commerce, marketing and"
+    },
+    {
+     "requirement": "Consent and opt-out propagation to downstream systems within 24 hours",
+     "top_hit": "PRJ-0034",
+     "top_similarity": 0.405,
+     "evidence_id": "PRJ-0034",
+     "similarity": 0.405,
+     "evidence_text": "Consent-aware customer data platform on GCP for a retail brand (client sector: retail). Tech stack: BigQuery, GCP, Consent management, Pub/Sub. Outcome: Opt-out"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0044",
+     "name": "Employee_044",
+     "role": "Customer Data Architect",
+     "years": 13,
+     "skills": "Looker Studio, Data quality, BigQuery, GCP, Identity resolution",
+     "score": 0.59
+    },
+    {
+     "cv_id": "CV-0004",
+     "name": "Employee_004",
+     "role": "Senior Data Engineer",
+     "years": 9,
+     "skills": "Looker Studio, Data quality, BigQuery, GCP, Identity resolution",
+     "score": 0.57
+    },
+    {
+     "cv_id": "CV-0007",
+     "name": "Employee_007",
+     "role": "Data Engineer",
+     "years": 6,
+     "skills": "Pub/Sub, BigQuery, GCP, Identity resolution, Consent management",
+     "score": 0.57
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0018",
+     "score": 0.65,
+     "delivered": true,
+     "title": "Customer single view on BigQuery for a retail chain"
+    },
+    {
+     "id": "PRJ-0034",
+     "score": 0.59,
+     "delivered": true,
+     "title": "Consent-aware customer data platform on GCP for a retail brand"
+    },
+    {
+     "id": "olivesoft-031",
+     "score": 0.53,
+     "delivered": false,
+     "title": "Salesforce Customer 360 and loyalty"
+    }
+   ],
+   "llm_steps": 8,
+   "citations": [
+    "CV-0004",
+    "CV-0007",
+    "CV-0027",
+    "CV-0044",
+    "PRJ-0018",
+    "PRJ-0034",
+    "olivesoft-031"
+   ],
+   "bid_warnings": [
+    "no requirement has strong evidence"
+   ],
+   "render_s": 0.371,
+   "pdf_s": 1.69,
+   "issues": []
+  },
+  {
+   "tender": "tender-005",
+   "issuer": "Calderon Fashion Group",
+   "title": "Real-Time Order Event Streaming Platform",
+   "rows": [
+    {
+     "requirement": "Kafka ingestion of order events from commerce and warehouse systems",
+     "top_hit": "CV-0037",
+     "top_similarity": 0.618,
+     "evidence_id": "CV-0037",
+     "similarity": 0.618,
+     "evidence_text": "Employee_037 (Senior Streaming Engineer) worked on 'Order event streaming into a Databricks lakehouse for a fashion retail business' in the fashion retail secto"
+    },
+    {
+     "requirement": "Databricks lakehouse modelling with explicit late-event handling",
+     "top_hit": "PRJ-0026",
+     "top_similarity": 0.66,
+     "evidence_id": "PRJ-0026",
+     "similarity": 0.66,
+     "evidence_text": "Order event streaming into a Databricks lakehouse for a fashion retail business (client sector: fashion retail). Tech stack: Kafka, Databricks, Delta Lake, Spar"
+    },
+    {
+     "requirement": "Market-currency normalisation and returns treatment",
+     "top_hit": "PRJ-0020",
+     "top_similarity": 0.266,
+     "evidence_id": "PRJ-0020",
+     "similarity": 0.266,
+     "evidence_text": "Multi-market sales and returns lakehouse model for a retail brand (client sector: retail). Tech stack: Databricks, Lakehouse, Kafka, Data observability. Outcome"
+    },
+    {
+     "requirement": "Operational monitoring of pipeline health, excluding downstream finance replacement",
+     "top_hit": "olivesoft-006",
+     "top_similarity": 0.4,
+     "evidence_id": "CV-0037",
+     "similarity": 0.468,
+     "evidence_text": "Employee_037 (Senior Streaming Engineer) worked on 'Multi-market sales and returns lakehouse model for a retail brand' in the retail sector. Modelled multi-curr"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0037",
+     "name": "Employee_037",
+     "role": "Senior Streaming Engineer",
+     "years": 9,
+     "skills": "Spark Structured Streaming, Kafka, Databricks, Lakehouse, Delta Lake",
+     "score": 0.73
+    },
+    {
+     "cv_id": "CV-0039",
+     "name": "Employee_039",
+     "role": "Data Platform Engineer",
+     "years": 7,
+     "skills": "Data observability, Kafka, Databricks, Lakehouse, Delta Lake",
+     "score": 0.66
+    },
+    {
+     "cv_id": "CV-0015",
+     "name": "Employee_015",
+     "role": "Lakehouse Architect",
+     "years": 13,
+     "skills": "Spark Structured Streaming, Kafka, Databricks, Lakehouse, Delta Lake",
+     "score": 0.62
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0026",
+     "score": 0.77,
+     "delivered": true,
+     "title": "Order event streaming into a Databricks lakehouse for a fashion retail business"
+    },
+    {
+     "id": "PRJ-0020",
+     "score": 0.57,
+     "delivered": true,
+     "title": "Multi-market sales and returns lakehouse model for a retail brand"
+    },
+    {
+     "id": "PRJ-0009",
+     "score": 0.47,
+     "delivered": true,
+     "title": "Telecom billing mediation on event streams"
+    }
+   ],
+   "llm_steps": 8,
+   "citations": [
+    "CV-0015",
+    "CV-0037",
+    "CV-0039",
+    "PRJ-0009",
+    "PRJ-0020",
+    "PRJ-0026"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.376,
+   "pdf_s": 1.46,
+   "issues": []
+  },
+  {
+   "tender": "tender-006",
+   "issuer": "Aldergate Insurance plc",
+   "title": "Service Cloud Contact Centre and Case Management Overhaul",
+   "rows": [
+    {
+     "requirement": "Salesforce Service Cloud implementation with unified omnichannel queue",
+     "top_hit": "CV-0059",
+     "top_similarity": 0.512,
+     "evidence_id": "CV-0059",
+     "similarity": 0.512,
+     "evidence_text": "Employee_059 (Salesforce Technical Architect) worked on 'Service Cloud contact centre rollout for a banking provider' in the banking sector. Rolled out Service "
+    },
+    {
+     "requirement": "Migration of 14 years of open and closed case history",
+     "top_hit": "PRJ-0011",
+     "top_similarity": 0.384,
+     "evidence_id": "PRJ-0011",
+     "similarity": 0.384,
+     "evidence_text": "Oracle ERP data migration with Informatica (client sector: banking). Tech stack: Informatica PowerCenter, Oracle, ETL. Outcome: Ledger history moved with zero r"
+    },
+    {
+     "requirement": "Integration to policy administration for case and policy consistency",
+     "top_hit": "PRJ-0016",
+     "top_similarity": 0.613,
+     "evidence_id": "PRJ-0016",
+     "similarity": 0.613,
+     "evidence_text": "Policy-aware case management on Salesforce for an insurance group (client sector: insurance). Tech stack: Salesforce Service Cloud, Apex, Salesforce Flow, Chang"
+    },
+    {
+     "requirement": "Phased cutover, parallel-run period, and adviser change management",
+     "top_hit": "olivesoft-022",
+     "top_similarity": 0.253,
+     "evidence_id": "CV-0024",
+     "similarity": 0.32,
+     "evidence_text": "Employee_024 (Salesforce Consultant) worked on 'Policy-aware case management on Salesforce for an insurance group' in the insurance sector. Rolled out Service C"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0024",
+     "name": "Employee_024",
+     "role": "Salesforce Consultant",
+     "years": 9,
+     "skills": "Change management, Salesforce Service Cloud, Omni-Channel routing, Apex, Case migration",
+     "score": 0.72
+    },
+    {
+     "cv_id": "CV-0043",
+     "name": "Employee_043",
+     "role": "Salesforce Developer",
+     "years": 3,
+     "skills": "Data Loader, Lightning Web Components, Salesforce Service Cloud, Omni-Channel routing, Apex",
+     "score": 0.69
+    },
+    {
+     "cv_id": "CV-0059",
+     "name": "Employee_059",
+     "role": "Salesforce Technical Architect",
+     "years": 15,
+     "skills": "Lightning Web Components, Change management, Salesforce Service Cloud, Omni-Channel routing, Apex",
+     "score": 0.56
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0007",
+     "score": 0.68,
+     "delivered": true,
+     "title": "Service Cloud contact centre rollout for a banking provider"
+    },
+    {
+     "id": "PRJ-0016",
+     "score": 0.68,
+     "delivered": true,
+     "title": "Policy-aware case management on Salesforce for an insurance group"
+    },
+    {
+     "id": "PRJ-0035",
+     "score": 0.46,
+     "delivered": true,
+     "title": "Offline-capable case handling and oversight dashboards for a public sector (interior) agency"
+    }
+   ],
+   "llm_steps": 7,
+   "citations": [
+    "CV-0024",
+    "CV-0043",
+    "CV-0059",
+    "PRJ-0007",
+    "PRJ-0011",
+    "PRJ-0016",
+    "PRJ-0035"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.542,
+   "pdf_s": 1.43,
+   "issues": []
+  },
+  {
+   "tender": "tender-007",
+   "issuer": "Vanterra Minerals SA",
+   "title": "Demand Forecasting for Industrial Raw Materials",
+   "rows": [
+    {
+     "requirement": "Machine learning demand forecasting per material and customer",
+     "top_hit": "CV-0036",
+     "top_similarity": 0.79,
+     "evidence_id": "CV-0036",
+     "similarity": 0.79,
+     "evidence_text": "Employee_036 (Machine Learning Engineer) worked on 'Customer-level demand forecasting for a consumer goods supplier' in the consumer goods sector. Built machine"
+    },
+    {
+     "requirement": "Explainable forecasts with confidence bands, not point estimates",
+     "top_hit": "PRJ-0005",
+     "top_similarity": 0.436,
+     "evidence_id": "PRJ-0005",
+     "similarity": 0.436,
+     "evidence_text": "Explainable forecasting with planner feedback loop for a consumer goods company (client sector: consumer goods). Tech stack: Machine learning, Explainable AI, S"
+    },
+    {
+     "requirement": "ERP order data integration feeding the forecasting pipeline",
+     "top_hit": "CV-0017",
+     "top_similarity": 0.557,
+     "evidence_id": "CV-0017",
+     "similarity": 0.557,
+     "evidence_text": "Employee_017 (Forecasting Lead) worked on 'Customer-level demand forecasting for a consumer goods supplier' in the consumer goods sector. Built machine learning"
+    },
+    {
+     "requirement": "Planner override captured as training signal",
+     "top_hit": "PRJ-0005",
+     "top_similarity": 0.425,
+     "evidence_id": "PRJ-0005",
+     "similarity": 0.425,
+     "evidence_text": "Explainable forecasting with planner feedback loop for a consumer goods company (client sector: consumer goods). Tech stack: Machine learning, Explainable AI, S"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0025",
+     "name": "Employee_025",
+     "role": "Senior Data Scientist",
+     "years": 9,
+     "skills": "MLflow, ERP data integration, Machine learning, Demand forecasting, Explainable AI",
+     "score": 0.72
+    },
+    {
+     "cv_id": "CV-0017",
+     "name": "Employee_017",
+     "role": "Forecasting Lead",
+     "years": 14,
+     "skills": "ERP data integration, LightGBM, Machine learning, Demand forecasting, Explainable AI",
+     "score": 0.72
+    },
+    {
+     "cv_id": "CV-0036",
+     "name": "Employee_036",
+     "role": "Machine Learning Engineer",
+     "years": 5,
+     "skills": "LightGBM, Machine learning, Demand forecasting, Explainable AI, Prediction intervals",
+     "score": 0.72
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0015",
+     "score": 0.65,
+     "delivered": true,
+     "title": "Customer-level demand forecasting for a consumer goods supplier"
+    },
+    {
+     "id": "PRJ-0005",
+     "score": 0.59,
+     "delivered": true,
+     "title": "Explainable forecasting with planner feedback loop for a consumer goods company"
+    },
+    {
+     "id": "olivesoft-017",
+     "score": 0.56,
+     "delivered": false,
+     "title": "Sales and product-demand forecasting"
+    }
+   ],
+   "llm_steps": 9,
+   "citations": [
+    "CV-0017",
+    "CV-0025",
+    "CV-0036",
+    "PRJ-0005",
+    "PRJ-0015",
+    "olivesoft-017"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.379,
+   "pdf_s": 1.62,
+   "issues": []
+  },
+  {
+   "tender": "tender-008",
+   "issuer": "Beaumont Retail Holdings",
+   "title": "Grounded Support Assistant for Product and Returns Queries",
+   "rows": [
+    {
+     "requirement": "Retrieval augmented generation assistant over an approved internal corpus",
+     "top_hit": "CV-0034",
+     "top_similarity": 0.615,
+     "evidence_id": "CV-0034",
+     "similarity": 0.615,
+     "evidence_text": "Employee_034 (AI Solutions Architect) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retri"
+    },
+    {
+     "requirement": "Mandatory refusal and human handover when the corpus does not support an answer",
+     "top_hit": "olivesoft-036",
+     "top_similarity": 0.179,
+     "evidence_id": "CV-0016",
+     "similarity": 0.192,
+     "evidence_text": "Employee_016 (Senior AI Engineer) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retrieval"
+    },
+    {
+     "requirement": "Source citations to document and page for every answer",
+     "top_hit": "olivesoft-034",
+     "top_similarity": 0.185,
+     "evidence_id": "CV-0034",
+     "similarity": 0.222,
+     "evidence_text": "Employee_034 (AI Solutions Architect) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retri"
+    },
+    {
+     "requirement": "Evaluation against 500 historical queries against an agreed accuracy floor",
+     "top_hit": "PRJ-0019",
+     "top_similarity": 0.391,
+     "evidence_id": "PRJ-0019",
+     "similarity": 0.391,
+     "evidence_text": "Official statistics warehouse with end-to-end lineage for a healthcare body (client sector: healthcare). Tech stack: BigQuery, Snowflake, Data lineage, dbt. Out"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0034",
+     "name": "Employee_034",
+     "role": "AI Solutions Architect",
+     "years": 12,
+     "skills": "LlamaIndex, Python, LangChain, Retrieval augmented generation, LLM evaluation",
+     "score": 0.59
+    },
+    {
+     "cv_id": "CV-0021",
+     "name": "Employee_021",
+     "role": "LLM Application Engineer",
+     "years": 7,
+     "skills": "Prompt injection defense, LangChain, Python, Retrieval augmented generation, LLM evaluation",
+     "score": 0.53
+    },
+    {
+     "cv_id": "CV-0016",
+     "name": "Employee_016",
+     "role": "Senior AI Engineer",
+     "years": 9,
+     "skills": "Prompt injection defense, Retrieval augmented generation, LLM evaluation, Source citations, pgvector",
+     "score": 0.52
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0030",
+     "score": 0.61,
+     "delivered": true,
+     "title": "Grounded customer support assistant for an insurance business"
+    },
+    {
+     "id": "olivesoft-032",
+     "score": 0.41,
+     "delivered": false,
+     "title": "OliveSoft data-driven go-to-market strategy"
+    },
+    {
+     "id": "olivesoft-008",
+     "score": 0.38,
+     "delivered": false,
+     "title": "Human-resources process automation"
+    }
+   ],
+   "llm_steps": 6,
+   "citations": [
+    "CV-0016",
+    "CV-0021",
+    "CV-0034",
+    "PRJ-0019",
+    "PRJ-0030",
+    "olivesoft-008",
+    "olivesoft-032"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.339,
+   "pdf_s": 1.54,
+   "issues": []
+  },
+  {
+   "tender": "tender-009",
+   "issuer": "Calderon Fashion Group",
+   "title": "Automated Visual Inspection for Textile Quality Control",
+   "rows": [
+    {
+     "requirement": "Computer vision inspection covering the seven highest-return defect classes",
+     "top_hit": "PRJ-0025",
+     "top_similarity": 0.647,
+     "evidence_id": "PRJ-0025",
+     "similarity": 0.647,
+     "evidence_text": "Edge visual inspection for textile quality control at an industrial manufacturing plant (client sector: industrial manufacturing). Tech stack: Computer vision, "
+    },
+    {
+     "requirement": "False-negative bias on safety-critical defects",
+     "top_hit": "PRJ-0006",
+     "top_similarity": 0.407,
+     "evidence_id": "PRJ-0006",
+     "similarity": 0.407,
+     "evidence_text": "Inspection label cleanup and defect model training for a fashion retail producer (client sector: fashion retail). Tech stack: Computer vision, Defect detection,"
+    },
+    {
+     "requirement": "Edge inference with offline operation and opportunistic sync",
+     "top_hit": "PRJ-0025",
+     "top_similarity": 0.424,
+     "evidence_id": "PRJ-0025",
+     "similarity": 0.424,
+     "evidence_text": "Edge visual inspection for textile quality control at an industrial manufacturing plant (client sector: industrial manufacturing). Tech stack: Computer vision, "
+    },
+    {
+     "requirement": "Training ground truth adjudication from inconsistent historical inspector decisions",
+     "top_hit": "PRJ-0006",
+     "top_similarity": 0.416,
+     "evidence_id": "PRJ-0006",
+     "similarity": 0.416,
+     "evidence_text": "Inspection label cleanup and defect model training for a fashion retail producer (client sector: fashion retail). Tech stack: Computer vision, Defect detection,"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0035",
+     "name": "Employee_035",
+     "role": "Senior ML Engineer (Vision)",
+     "years": 13,
+     "skills": "Computer vision, Defect detection, Edge inference, PyTorch, OpenCV",
+     "score": 0.72
+    },
+    {
+     "cv_id": "CV-0006",
+     "name": "Employee_006",
+     "role": "Edge AI Engineer",
+     "years": 6,
+     "skills": "ONNX Runtime, Computer vision, Defect detection, Edge inference, PyTorch",
+     "score": 0.7
+    },
+    {
+     "cv_id": "CV-0022",
+     "name": "Employee_022",
+     "role": "Computer Vision Engineer",
+     "years": 6,
+     "skills": "NVIDIA Jetson, Computer vision, Defect detection, Edge inference, PyTorch",
+     "score": 0.7
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0025",
+     "score": 0.77,
+     "delivered": true,
+     "title": "Edge visual inspection for textile quality control at an industrial manufacturing plant"
+    },
+    {
+     "id": "PRJ-0006",
+     "score": 0.7,
+     "delivered": true,
+     "title": "Inspection label cleanup and defect model training for a fashion retail producer"
+    },
+    {
+     "id": "PRJ-0008",
+     "score": 0.36,
+     "delivered": true,
+     "title": "Offline field inspection mobile app for a telecom network operator"
+    }
+   ],
+   "llm_steps": 9,
+   "citations": [
+    "CV-0006",
+    "CV-0022",
+    "CV-0035",
+    "PRJ-0006",
+    "PRJ-0008",
+    "PRJ-0025"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.432,
+   "pdf_s": 1.42,
+   "issues": []
+  },
+  {
+   "tender": "tender-011",
+   "issuer": "Ministry of Interior, Republic of Valdemar",
+   "title": "Citizen Services CRM and Case Analytics",
+   "rows": [
+    {
+     "requirement": "CRM Analytics on the existing Salesforce platform for central case oversight",
+     "top_hit": "CV-0046",
+     "top_similarity": 0.75,
+     "evidence_id": "CV-0046",
+     "similarity": 0.75,
+     "evidence_text": "Employee_046 (Salesforce CRM Analytics Consultant) worked on 'Citizen case analytics on Salesforce for a public sector (interior) ministry' in the public sector"
+    },
+    {
+     "requirement": "Monthly reporting pack covering volume, resolution time, and backlog by office",
+     "top_hit": "olivesoft-003",
+     "top_similarity": 0.418,
+     "evidence_id": "PRJ-0032",
+     "similarity": 0.376,
+     "evidence_text": "Regional sales dashboards in Tableau (client sector: retail). Tech stack: Tableau, SQL, Excel. Outcome: Sales managers self-serve weekly figures.."
+    },
+    {
+     "requirement": "Offline working capability in 30 municipal offices with reconciliation on reconnect",
+     "top_hit": "PRJ-0035",
+     "top_similarity": 0.503,
+     "evidence_id": "PRJ-0035",
+     "similarity": 0.503,
+     "evidence_text": "Offline-capable case handling and oversight dashboards for a public sector (interior) agency (client sector: public sector (interior)). Tech stack: Salesforce C"
+    },
+    {
+     "requirement": "Citizen record data residency restricted to ministry-operated infrastructure",
+     "top_hit": "PRJ-0035",
+     "top_similarity": 0.337,
+     "evidence_id": "PRJ-0035",
+     "similarity": 0.337,
+     "evidence_text": "Offline-capable case handling and oversight dashboards for a public sector (interior) agency (client sector: public sector (interior)). Tech stack: Salesforce C"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0053",
+     "name": "Employee_053",
+     "role": "Senior Salesforce Architect",
+     "years": 14,
+     "skills": "Case management, Salesforce CRM Analytics, Salesforce Field Service, Offline sync, Data residency",
+     "score": 0.75
+    },
+    {
+     "cv_id": "CV-0046",
+     "name": "Employee_046",
+     "role": "Salesforce CRM Analytics Consultant",
+     "years": 6,
+     "skills": "Salesforce Shield, SAQL, Salesforce CRM Analytics, Salesforce Field Service, Offline sync",
+     "score": 0.75
+    },
+    {
+     "cv_id": "CV-0032",
+     "name": "Employee_032",
+     "role": "Salesforce Developer",
+     "years": 5,
+     "skills": "Case management, Salesforce Shield, SAQL, Salesforce CRM Analytics, Salesforce Field Service",
+     "score": 0.74
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0021",
+     "score": 0.8,
+     "delivered": true,
+     "title": "Citizen case analytics on Salesforce for a public sector (interior) ministry"
+    },
+    {
+     "id": "PRJ-0035",
+     "score": 0.72,
+     "delivered": true,
+     "title": "Offline-capable case handling and oversight dashboards for a public sector (interior) agency"
+    },
+    {
+     "id": "PRJ-0016",
+     "score": 0.47,
+     "delivered": true,
+     "title": "Policy-aware case management on Salesforce for an insurance group"
+    }
+   ],
+   "llm_steps": 7,
+   "citations": [
+    "CV-0032",
+    "CV-0046",
+    "CV-0053",
+    "PRJ-0016",
+    "PRJ-0021",
+    "PRJ-0032",
+    "PRJ-0035"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.379,
+   "pdf_s": 1.55,
+   "issues": []
+  },
+  {
+   "tender": "tender-012",
+   "issuer": "National Statistics Directorate, Republic of Valdemar",
+   "title": "Public Statistics Data Platform and Open Data Portal",
+   "rows": [
+    {
+     "requirement": "BigQuery warehouse for validated statistical series on GCP",
+     "top_hit": "olivesoft-019",
+     "top_similarity": 0.584,
+     "evidence_id": "CV-0042",
+     "similarity": 0.561,
+     "evidence_text": "Employee_042 (Senior Data Platform Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. B"
+    },
+    {
+     "requirement": "Snowflake modelling of statistical outputs with full lineage to submitting unit",
+     "top_hit": "PRJ-0019",
+     "top_similarity": 0.498,
+     "evidence_id": "PRJ-0019",
+     "similarity": 0.498,
+     "evidence_text": "Official statistics warehouse with end-to-end lineage for a healthcare body (client sector: healthcare). Tech stack: BigQuery, Snowflake, Data lineage, dbt. Out"
+    },
+    {
+     "requirement": "Submission specification enforcement rejecting non-conforming files with specific errors",
+     "top_hit": "PRJ-0028",
+     "top_similarity": 0.457,
+     "evidence_id": "PRJ-0028",
+     "similarity": 0.457,
+     "evidence_text": "Validated submissions and open data release pipeline for a public statistics body (client sector: public statistics). Tech stack: Schema validation, De-identifi"
+    },
+    {
+     "requirement": "Documented and approved de-identification review before publication",
+     "top_hit": "CV-0050",
+     "top_similarity": 0.409,
+     "evidence_id": "CV-0050",
+     "similarity": 0.409,
+     "evidence_text": "Employee_050 (Analytics Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Enforced sub"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0045",
+     "name": "Employee_045",
+     "role": "Data Governance Lead",
+     "years": 15,
+     "skills": "Great Expectations, GCP, BigQuery, Snowflake, Data lineage",
+     "score": 0.68
+    },
+    {
+     "cv_id": "CV-0042",
+     "name": "Employee_042",
+     "role": "Senior Data Platform Engineer",
+     "years": 9,
+     "skills": "dbt, GCP, BigQuery, Snowflake, Data lineage",
+     "score": 0.65
+    },
+    {
+     "cv_id": "CV-0050",
+     "name": "Employee_050",
+     "role": "Analytics Engineer",
+     "years": 7,
+     "skills": "dbt, BigQuery, Snowflake, Data lineage, De-identification",
+     "score": 0.64
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0019",
+     "score": 0.62,
+     "delivered": true,
+     "title": "Official statistics warehouse with end-to-end lineage for a healthcare body"
+    },
+    {
+     "id": "PRJ-0028",
+     "score": 0.59,
+     "delivered": true,
+     "title": "Validated submissions and open data release pipeline for a public statistics body"
+    },
+    {
+     "id": "olivesoft-019",
+     "score": 0.42,
+     "delivered": false,
+     "title": "BigQuery SQL workflow cloud platform"
+    }
+   ],
+   "llm_steps": 9,
+   "citations": [
+    "CV-0042",
+    "CV-0045",
+    "CV-0050",
+    "PRJ-0019",
+    "PRJ-0028",
+    "olivesoft-019"
+   ],
+   "bid_warnings": [],
+   "render_s": 0.382,
+   "pdf_s": 1.42,
+   "issues": []
+  },
+  {
+   "tender": "tender-014",
+   "issuer": "St. Adalbert Regional Health Trust",
+   "title": "Catering and Facilities Management Services Framework",
+   "rows": [
+    {
+     "requirement": "Five-year framework with two break points",
+     "top_hit": "olivesoft-022",
+     "top_similarity": 0.308,
+     "evidence_id": null,
+     "similarity": null,
+     "evidence_text": null
+    },
+    {
+     "requirement": "Allergen management evidence to current standards",
+     "top_hit": "olivesoft-036",
+     "top_similarity": 0.145,
+     "evidence_id": "CV-0042",
+     "similarity": 0.172,
+     "evidence_text": "Employee_042 (Senior Data Platform Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. B"
+    },
+    {
+     "requirement": "Ethical sourcing policy compliance",
+     "top_hit": "olivesoft-036",
+     "top_similarity": 0.446,
+     "evidence_id": "PRJ-0010",
+     "similarity": 0.337,
+     "evidence_text": "Prior-art crawler with auditable matching for a public sector (justice) authority (client sector: public sector (justice)). Tech stack: Web crawler, Similarity "
+    },
+    {
+     "requirement": "Transition plan for two sites on an interim arrangement ending in eleven weeks",
+     "top_hit": "olivesoft-035",
+     "top_similarity": 0.323,
+     "evidence_id": null,
+     "similarity": null,
+     "evidence_text": null
+    },
+    {
+     "requirement": "Transparent pricing separable by site and service line",
+     "top_hit": "olivesoft-031",
+     "top_similarity": 0.269,
+     "evidence_id": "PRJ-0024",
+     "similarity": 0.339,
+     "evidence_text": "Customer self-service web portal for a telecom provider (client sector: telecom). Tech stack: React, Next.js, TypeScript, PostgreSQL. Outcome: Self-service adop"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0044",
+     "name": "Employee_044",
+     "role": "Customer Data Architect",
+     "years": 13,
+     "skills": "BigQuery, GCP, Identity resolution, Consent management, dbt",
+     "score": 0.33
+    },
+    {
+     "cv_id": "CV-0007",
+     "name": "Employee_007",
+     "role": "Data Engineer",
+     "years": 6,
+     "skills": "BigQuery, GCP, Identity resolution, Consent management, dbt",
+     "score": 0.33
+    },
+    {
+     "cv_id": "CV-0005",
+     "name": "Employee_005",
+     "role": "Senior BI Consultant",
+     "years": 10,
+     "skills": "Power BI, DAX, Semantic model design, Row-level security, KPI governance",
+     "score": 0.28
+    }
+   ],
+   "references": [
+    {
+     "id": "olivesoft-036",
+     "score": 0.46,
+     "delivered": false,
+     "title": "ISO 27001 compliance assessment"
+    },
+    {
+     "id": "olivesoft-031",
+     "score": 0.31,
+     "delivered": false,
+     "title": "Salesforce Customer 360 and loyalty"
+    },
+    {
+     "id": "olivesoft-010",
+     "score": 0.29,
+     "delivered": false,
+     "title": "HR reporting and monitoring platform"
+    }
+   ],
+   "llm_steps": 5,
+   "citations": [
+    "CV-0005",
+    "CV-0007",
+    "CV-0042",
+    "CV-0044",
+    "PRJ-0010",
+    "PRJ-0024",
+    "olivesoft-010",
+    "olivesoft-031",
+    "olivesoft-036"
+   ],
+   "bid_warnings": [
+    "no requirement has strong evidence",
+    "no delivered reference project",
+    "every matched consultant is a weak match"
+   ],
+   "render_s": 0.341,
+   "pdf_s": 1.52,
+   "issues": []
+  },
+  {
+   "tender": "tender-015",
+   "issuer": "Beaumont Retail Holdings",
+   "title": "Unified Customer 360 Across ERP, Commerce and Support",
+   "rows": [
+    {
+     "requirement": "System integration unifying Cegid ERP, commerce, marketing, and support records",
+     "top_hit": "CV-0027",
+     "top_similarity": 0.531,
+     "evidence_id": "CV-0027",
+     "similarity": 0.531,
+     "evidence_text": "Employee_027 (Integration Consultant) worked on 'Internal delivery for a consumer goods client' in the consumer goods sector. Connected Sales Cloud opportunitie"
+    },
+    {
+     "requirement": "Identity resolution on email, loyalty number, and postcode fallback",
+     "top_hit": "olivesoft-031",
+     "top_similarity": 0.268,
+     "evidence_id": "CV-0004",
+     "similarity": 0.271,
+     "evidence_text": "Employee_004 (Senior Data Engineer) worked on 'Customer single view on BigQuery for a retail chain' in the retail sector. Unified ERP, e-commerce, marketing and"
+    },
+    {
+     "requirement": "BigQuery analytical landing zone on GCP",
+     "top_hit": "olivesoft-019",
+     "top_similarity": 0.493,
+     "evidence_id": "CV-0004",
+     "similarity": 0.447,
+     "evidence_text": "Employee_004 (Senior Data Engineer) worked on 'Customer single view on BigQuery for a retail chain' in the retail sector. Unified ERP, e-commerce, marketing and"
+    },
+    {
+     "requirement": "Consent and opt-out propagation to downstream systems within 24 hours",
+     "top_hit": "PRJ-0034",
+     "top_similarity": 0.405,
+     "evidence_id": "PRJ-0034",
+     "similarity": 0.405,
+     "evidence_text": "Consent-aware customer data platform on GCP for a retail brand (client sector: retail). Tech stack: BigQuery, GCP, Consent management, Pub/Sub. Outcome: Opt-out"
+    }
+   ],
+   "team": [
+    {
+     "cv_id": "CV-0044",
+     "name": "Employee_044",
+     "role": "Customer Data Architect",
+     "years": 13,
+     "skills": "Looker Studio, Data quality, BigQuery, GCP, Identity resolution",
+     "score": 0.59
+    },
+    {
+     "cv_id": "CV-0004",
+     "name": "Employee_004",
+     "role": "Senior Data Engineer",
+     "years": 9,
+     "skills": "Looker Studio, Data quality, BigQuery, GCP, Identity resolution",
+     "score": 0.57
+    },
+    {
+     "cv_id": "CV-0007",
+     "name": "Employee_007",
+     "role": "Data Engineer",
+     "years": 6,
+     "skills": "Pub/Sub, BigQuery, GCP, Identity resolution, Consent management",
+     "score": 0.57
+    }
+   ],
+   "references": [
+    {
+     "id": "PRJ-0018",
+     "score": 0.65,
+     "delivered": true,
+     "title": "Customer single view on BigQuery for a retail chain"
+    },
+    {
+     "id": "PRJ-0034",
+     "score": 0.59,
+     "delivered": true,
+     "title": "Consent-aware customer data platform on GCP for a retail brand"
+    },
+    {
+     "id": "olivesoft-031",
+     "score": 0.53,
+     "delivered": false,
+     "title": "Salesforce Customer 360 and loyalty"
+    }
+   ],
+   "llm_steps": 8,
+   "citations": [
+    "CV-0004",
+    "CV-0007",
+    "CV-0027",
+    "CV-0044",
+    "PRJ-0018",
+    "PRJ-0034",
+    "olivesoft-031"
+   ],
+   "bid_warnings": [
+    "no requirement has strong evidence"
+   ],
+   "render_s": 0.425,
+   "pdf_s": 1.49,
+   "issues": []
+  }
+ ]
+}

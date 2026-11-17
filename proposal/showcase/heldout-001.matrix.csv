@@ -1,0 +1,6 @@
+﻿requirement,fit,score,evidence_id,evidence,shown
+HL7 FHIR API exposing patient summaries from four record systems,Partial,0.46,PRJ-0019,"Related asset only, flagged for review",yes
+Master patient index matching duplicate records across systems,Gap,0.34,PRJ-0010,"Weak match only, flagged for review",yes
+Role-based access with an audit log of every record read kept seven years,Gap,0.35,CV-0033,"Weak match only, flagged for review",yes
+Hosting restricted to the national health cloud region,Gap,0.00,,,yes
+Dashboard of transfer delays and duplicate-record rates for hospital managers,Partial,0.41,PRJ-0031,Dashboard shows transfer delays & duplicates.,yes

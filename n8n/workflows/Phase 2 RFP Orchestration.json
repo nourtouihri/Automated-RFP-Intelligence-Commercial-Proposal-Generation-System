@@ -1,0 +1,1105 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "jsCode": "const request = $json.body ?? $json;\n\n// Single source of truth for all service endpoints.\nconst config = {\n  detectionUrl: 'http://detection:8000',\n  researchUrl: 'http://research:8002',\n  ragUrl: 'http://rag:8001',\n  proposalUrl: 'http://proposal:8003'\n};\n\n// Accept either a direct tender object or a wrapped webhook body.\nconst tender = request?.tender ?? request;\n\nif (!tender || !tender.id || !tender.title) {\n  throw new Error('Tender payload missing required id/title fields');\n}\n\nreturn {\n  json: {\n    config,\n    tender\n  }\n};\n"
+      },
+      "id": "08d6fb9e-2532-4e47-af31-c49929a2e4c6",
+      "name": "Validate Tender and Configure URLs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1072,
+        -304
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $json.config.detectionUrl.replace(/\\/$/, '') + '/tenders/ingest' }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.tender) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "97c31de0-3abe-4d33-aec3-d742c08d0a22",
+      "name": "1 - Ingest and Normalize Tender",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -848,
+        -304
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Validate Tender and Configure URLs').first().json.config.researchUrl.replace(/\\/$/, '') + '/research/' + encodeURIComponent($json.id) }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {}
+          ]
+        },
+        "options": {
+          "timeout": 45000
+        }
+      },
+      "id": "190e976a-86a9-4201-9633-0a500b896524",
+      "name": "2 - Run Prospect Research",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -624,
+        -304
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 3000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const tender = $('1 - Ingest and Normalize Tender').first().json;\nconst research = $json;\nconst requirements = Array.isArray(tender.requirements) ? tender.requirements : [];\nconst requirementTexts = requirements.map((req) => typeof req === 'string' ? req : (req && req.text) || JSON.stringify(req));\nconst tenderText = [\n  tender.title || '',\n  tender.description || '',\n  tender.issuer || '',\n  ...(Array.isArray(tender.categories) ? tender.categories : []),\n  ...requirementTexts\n].filter(Boolean).join('\\n');\n\nconst brief = research && research.brief ? research.brief : '';\nconst entities = research && research.entities ? research.entities : [];\n\nreturn {\n  json: {\n    tender,\n    research,\n    rag_query: `${tenderText}\\n\\n${brief}`.trim(),\n    candidate_entities: entities\n  }\n};\n"
+      },
+      "id": "1cd303b0-8bc3-4ef9-bb27-79ceae09d98e",
+      "name": "Prepare RAG Context",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -400,
+        -304
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://rag:8001/query",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ text: $json.rag_query, top_k: 5, doc_type: 'cv', similarity_threshold: 0.20 }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "31ea704b-f96a-4b95-a98a-21f766d97ce1",
+      "name": "3A - Match CVs",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -176,
+        -304
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000,
+      "alwaysOutputData": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const values = $input.all().flatMap((item) => Array.isArray(item.json) ? item.json : [item.json]);\nconst matches = values.filter((value) => value && value.id);\nreturn [{ json: { cv_matches: matches } }];\n"
+      },
+      "id": "d0f22226-bab2-4798-9b4d-8b3d68fe83ea",
+      "name": "Collect CV Matches",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        48,
+        -304
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://rag:8001/query",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ text: $json.rag_query, top_k: 5, doc_type: 'project', similarity_threshold: 0.20 }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "cfca9ab4-4fc7-4e31-a4d7-49de517af64e",
+      "name": "3B - Match Projects",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -176,
+        -112
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000,
+      "alwaysOutputData": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const values = $input.all().flatMap((item) => Array.isArray(item.json) ? item.json : [item.json]);\nconst matches = values.filter((value) => value && value.id);\nreturn [{ json: { project_matches: matches } }];\n"
+      },
+      "id": "72897601-b5e2-48c6-bc69-608e82fdd156",
+      "name": "Collect Project Matches",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        48,
+        -112
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "numberInputs": 3,
+        "options": {}
+      },
+      "id": "130b7523-f741-43da-a0b1-9c8fe3a71deb",
+      "name": "Merge RAG Results",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        272,
+        -320
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "seconds",
+              "secondsInterval": 20
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -3520,
+        48
+      ],
+      "id": "5ee7cb78-cb60-43b1-b518-c39ad5cbb8c9",
+      "name": "Schedule Trigger",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -1296,
+        -128
+      ],
+      "id": "093ce083-e8db-45d5-9af5-aba18f0e818e"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://ingestion:8004/ingest/TED",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"page\": {{ $json.page }} }",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "2994ed26-0fcb-46c9-ac39-253b839923d6",
+      "name": "Ingestion",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -2832,
+        -224
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000
+    },
+    {
+      "parameters": {
+        "jsCode": "const stopCondition= $input.first().json.page ==$input.last().json.page_cap\nreturn {\n  page: $input.first().json.page,\n  notices:$input.last().json.notices ,\n  stop: stopCondition\n};\n"
+      },
+      "id": "27ee78d7-fbe1-46af-bbdf-c3cc759b64df",
+      "name": "fetch single batch by page",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2432,
+        -336
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.first().json.notices"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2208,
+        -384
+      ],
+      "id": "4981cb57-b50b-4fb7-a01b-40c637212b85",
+      "name": "filter values"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "411c3cd2-0859-49f7-9cec-d6a3c1970caf",
+              "leftValue": "={{ $json.stop }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -2208,
+        -176
+      ],
+      "id": "565971bb-0506-4984-a8a7-78552820706c",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "jsCode": "const page = $input.first().json.page || 0\nreturn {\n  page: page+1,\n};\n"
+      },
+      "id": "4c3eb969-9980-48b3-a1cd-d39ae37850eb",
+      "name": "Page counter node",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3104,
+        -272
+      ]
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -2688,
+        -352
+      ],
+      "id": "49ed18c5-9ddb-4ace-8eeb-19a2067c6198",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://proposal:8003/proposal/{{ $json.tender_id }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "cv_matches",
+              "value": "={{ $json.cv_matches }}"
+            },
+            {
+              "name": "project_matches",
+              "value": "={{ $json.project_matches }}"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "id": "6240cccc-8c77-42f8-a3f2-dd320c21b164",
+      "name": "Proposal",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        496,
+        -128
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "\nreturn {\n  tender_id: $input.first().json.tender.id}\n;"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        48,
+        -496
+      ],
+      "id": "3222076c-f6c9-4eab-a087-48f9e38188b9",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://ingestion:8004/ingest/SAM",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"page\": {{ $json.page }} }",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "8ee9489b-b1db-4c65-915a-52f2bdcc55e0",
+      "name": "Ingestion1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -2816,
+        448
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000
+    },
+    {
+      "parameters": {
+        "jsCode": "const stopCondition= $input.first().json.page ==$input.last().json.page_cap\nreturn {\n  page: $input.first().json.page,\n  notices:$input.last().json.notices ,\n  stop: stopCondition\n};\n"
+      },
+      "id": "94a998ee-a7dc-4fc5-a02f-097e2a039632",
+      "name": "fetch single batch by page1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2416,
+        336
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.first().json.notices"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2192,
+        288
+      ],
+      "id": "ec540b29-e1c5-436d-a95e-290c448036c0",
+      "name": "filter values1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "411c3cd2-0859-49f7-9cec-d6a3c1970caf",
+              "leftValue": "={{ $json.stop }}",
+              "rightValue": false,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -2192,
+        496
+      ],
+      "id": "599064e1-311f-4507-800a-fdb3f02d7de5",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "jsCode": "const page = $input.first().json.page || 0\nreturn {\n  page: page+1,\n};\n"
+      },
+      "id": "b8ddb939-0a01-4251-a393-085ebb19933b",
+      "name": "Page counter node1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -3088,
+        400
+      ]
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -2672,
+        320
+      ],
+      "id": "3ca7107d-51c6-4859-8154-91e12b2291a4",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -1680,
+        -128
+      ],
+      "id": "c1d77dbf-c87c-4859-a6cc-c39ca1fb341c",
+      "name": "Merge2"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "olivesoft-pipeline",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "2c06b67d-07b6-428c-b4b3-0a7c49ebeb25",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -3520,
+        816
+      ],
+      "webhookId": "f288b77a-afc0-4378-84f4-d99af995aaa3"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ execution_id: $execution.id }) }}",
+        "options": {
+          "responseCode": 202
+        }
+      },
+      "id": "866ba47f-1e61-4609-bdd5-efa915adfba0",
+      "name": "Respond with Execution ID",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        -3296,
+        816
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://ingestion:8004/ingest/TED",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"page\": {{ Number($('Webhook').first().json.body.page) || 1 }} }",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "5fd83d09-e4a7-4060-8afb-8bad43de6625",
+      "name": "Fetch One TED Page",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -3072,
+        816
+      ],
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=http://ingestion:8004/ingest/SAM",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Internal-Token",
+              "value": "super-token"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"page\": {{ Number($('Webhook').first().json.body.page) || 1 }} }",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "d8c977cb-3c84-4097-ade6-79c77dd8966e",
+      "name": "Fetch One SAM Page",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -3072,
+        1008
+      ],
+      "retryOnFail": true,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -2848,
+        912
+      ],
+      "id": "08ee5635-dc3a-484a-87da-42327c958048",
+      "name": "Merge TED and SAM"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $('Webhook').first().json.body || {};\nconst limit = Math.min(Math.max(Number(body.limit) || 3, 1), 10);\n\n// TED and SAM take turns, so a short run still covers both sources. A failed SAM fetch (no API key) leaves only TED.\nconst queues = $input.all().map((item) => [...(item.json.notices || [])]);\nconst picked = [];\nwhile (picked.length < limit && queues.some((q) => q.length)) {\n  for (const q of queues) if (q.length && picked.length < limit) picked.push(q.shift());\n}\n\n// Same id the UI's \"Send to Detection\" gives a notice, so both paths land on one tender.\nreturn picked.map((notice) => ({\n  json: { ...notice, id: `${String(notice.source || 'TED').toLowerCase()}-${notice.id}` }\n}));\n"
+      },
+      "id": "fcd1fd2a-081a-44c4-9c8c-5fcacf945249",
+      "name": "Pick Notices",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -2624,
+        816
+      ]
+    }
+  ],
+  "connections": {
+    "Validate Tender and Configure URLs": {
+      "main": [
+        [
+          {
+            "node": "1 - Ingest and Normalize Tender",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "1 - Ingest and Normalize Tender": {
+      "main": [
+        [
+          {
+            "node": "2 - Run Prospect Research",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "2 - Run Prospect Research": {
+      "main": [
+        [
+          {
+            "node": "Prepare RAG Context",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare RAG Context": {
+      "main": [
+        [
+          {
+            "node": "3A - Match CVs",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "3B - Match Projects",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "3A - Match CVs": {
+      "main": [
+        [
+          {
+            "node": "Collect CV Matches",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Collect CV Matches": {
+      "main": [
+        [
+          {
+            "node": "Merge RAG Results",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "3B - Match Projects": {
+      "main": [
+        [
+          {
+            "node": "Collect Project Matches",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Collect Project Matches": {
+      "main": [
+        [
+          {
+            "node": "Merge RAG Results",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Merge RAG Results": {
+      "main": [
+        [
+          {
+            "node": "Proposal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Page counter node1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Page counter node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Validate Tender and Configure URLs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ingestion": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "fetch single batch by page": {
+      "main": [
+        [
+          {
+            "node": "filter values",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "filter values": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Page counter node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Page counter node": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Ingestion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "fetch single batch by page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Proposal": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "Merge RAG Results",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ingestion1": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "fetch single batch by page1": {
+      "main": [
+        [
+          {
+            "node": "filter values1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "filter values1": {
+      "main": [
+        [
+          {
+            "node": "Merge2",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Page counter node1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Page counter node1": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Ingestion1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "fetch single batch by page1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Respond with Execution ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond with Execution ID": {
+      "main": [
+        [
+          {
+            "node": "Fetch One TED Page",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Fetch One SAM Page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch One TED Page": {
+      "main": [
+        [
+          {
+            "node": "Merge TED and SAM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pick Notices": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fetch One SAM Page": {
+      "main": [
+        [
+          {
+            "node": "Merge TED and SAM",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge TED and SAM": {
+      "main": [
+        [
+          {
+            "node": "Pick Notices",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "nodeGroups": [
+    {
+      "id": "106841d9-3b77-478f-8739-49eed868f952",
+      "name": "Ingestion via TED",
+      "nodeIds": [
+        "2994ed26-0fcb-46c9-ac39-253b839923d6",
+        "27ee78d7-fbe1-46af-bbdf-c3cc759b64df",
+        "4981cb57-b50b-4fb7-a01b-40c637212b85",
+        "565971bb-0506-4984-a8a7-78552820706c",
+        "4c3eb969-9980-48b3-a1cd-d39ae37850eb",
+        "49ed18c5-9ddb-4ace-8eeb-19a2067c6198"
+      ],
+      "description": "Each individual run of ingestion node fetches TED (EU) tenders per page. This group loops over all pages till they're all ingested."
+    },
+    {
+      "id": "05136d3d-b33d-4594-965b-7f9a0201eca7",
+      "name": "Ingestion via SAM",
+      "nodeIds": [
+        "8ee9489b-b1db-4c65-915a-52f2bdcc55e0",
+        "94a998ee-a7dc-4fc5-a02f-097e2a039632",
+        "ec540b29-e1c5-436d-a95e-290c448036c0",
+        "599064e1-311f-4507-800a-fdb3f02d7de5",
+        "b8ddb939-0a01-4251-a393-085ebb19933b",
+        "3ca7107d-51c6-4859-8154-91e12b2291a4"
+      ],
+      "description": "Each individual run of ingestion node fetches SAM (USA) tenders per page. This group loops over all pages till they're all ingested."
+    },
+    {
+      "id": "0f2a7ae3-ad06-4597-9836-649b04c3ef63",
+      "name": "Run from the UI",
+      "nodeIds": [
+        "2c06b67d-07b6-428c-b4b3-0a7c49ebeb25",
+        "866ba47f-1e61-4609-bdd5-efa915adfba0",
+        "5fd83d09-e4a7-4060-8afb-8bad43de6625",
+        "d8c977cb-3c84-4097-ade6-79c77dd8966e",
+        "08ee5635-dc3a-484a-87da-42327c958048",
+        "fcd1fd2a-081a-44c4-9c8c-5fcacf945249"
+      ],
+      "description": "The UI's Run Full Pipeline button posts {page, limit} here. It answers at once with the execution id, fetches that page from TED and SAM, and sends their first notices (3 by default, 10 at most, taking turns between the two sources) through the per-tender loop."
+    }
+  ],
+  "meta": {
+    "instanceId": "53c4305b9c4377852625e532f9459426ba8067ebabdf5bacdfcca3309b9e623b"
+  }
+}

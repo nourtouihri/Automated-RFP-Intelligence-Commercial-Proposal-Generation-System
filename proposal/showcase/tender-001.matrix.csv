@@ -1,0 +1,5 @@
+﻿requirement,fit,score,evidence_id,evidence,shown
+"MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems",Strong,0.74,CV-0028,MuleSoft Developer handled multi‑country HR integration,yes
+Master data management with cross-system duplicate employee prevention,Strong,0.56,PRJ-0001,Consolidates employee data via versioned APIs.,yes
+Statutory payroll reporting formats per country,Partial,0.42,PRJ-0029,Asset shows payroll integration across 6 providers.,yes
+Versioned API layer with handover documentation to internal IT,Gap,0.39,CV-0026,"Weak match only, flagged for review",yes

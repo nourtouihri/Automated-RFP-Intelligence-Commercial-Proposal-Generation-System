@@ -1,0 +1,12 @@
+name: Edit proposal
+method: PUT
+url: '{{proposalUrl}}/proposal/edit/ef50e61d-c40b-45e8-9c8c-6ab2a244fc96'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "slide": 1,
+      "prompt": "Change irst pillar's title to Define Elligibility"
+    }

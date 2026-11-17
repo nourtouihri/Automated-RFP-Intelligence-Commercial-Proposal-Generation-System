@@ -1,0 +1,14 @@
+{
+  "id": "heldout-002",
+  "title": "Parcel Tracking and Delivery Time Prediction",
+  "issuer": "Corvane Express Courier Ltd",
+  "deadline": "2026-11-27",
+  "raw_text": "Corvane Express Courier moves 90,000 parcels a day through six regional depots. Scan events arrive from handheld devices and sorting machines in different formats, and customers only see a status that is refreshed every four hours. We require a streaming ingestion pipeline that normalises scan events into one parcel timeline, a customer-facing tracking API with updates within five minutes, and a model that predicts the delivery time window per parcel and flags parcels at risk of missing it. Predictions must be explained to dispatchers in plain language. Three years of historical scan data is available for training.",
+  "source": "simulated_feed",
+  "requirements": [
+    "Streaming ingestion normalising scan events from handheld devices and sorting machines",
+    "Customer tracking API refreshed within five minutes",
+    "Delivery time window prediction with at-risk parcel flagging",
+    "Plain-language explanation of predictions for dispatchers"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "case_count": 13,
+  "k": 5,
+  "precision_at_k": 0.07692307692307693,
+  "recall_at_k": 0.38461538461538464,
+  "mean_reciprocal_rank": 0.38461538461538464,
+  "cases": [
+    {
+      "id": "cv-fastapi-backend",
+      "retrieved_ids": [
+        "CV-0004",
+        "CV-0014",
+        "CV-0023",
+        "CV-0051",
+        "CV-0026"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "cv-react-fullstack",
+      "retrieved_ids": [
+        "CV-0051",
+        "CV-0054",
+        "CV-0010",
+        "CV-0021",
+        "CV-0011"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "cv-rag-data",
+      "retrieved_ids": [
+        "CV-0014",
+        "CV-0025",
+        "CV-0009",
+        "CV-0042",
+        "CV-0039"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "cv-kubernetes-cloud",
+      "retrieved_ids": [
+        "CV-0013",
+        "CV-0026",
+        "CV-0008",
+        "CV-0059",
+        "CV-0007"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "project-banking-modernization",
+      "retrieved_ids": [
+        "olivesoft-012",
+        "olivesoft-019",
+        "olivesoft-008",
+        "olivesoft-005",
+        "olivesoft-004"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "project-healthcare-ai",
+      "retrieved_ids": [
+        "olivesoft-008",
+        "olivesoft-028",
+        "olivesoft-005",
+        "olivesoft-027",
+        "olivesoft-001"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "project-retail-automation",
+      "retrieved_ids": [
+        "olivesoft-008",
+        "olivesoft-024",
+        "olivesoft-012",
+        "olivesoft-004",
+        "olivesoft-025"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "project-mobile-real-estate",
+      "retrieved_ids": [
+        "PRJ-0008",
+        "PRJ-0002",
+        "PRJ-0013",
+        "olivesoft-030",
+        "olivesoft-027"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "tool-enterprise-rag",
+      "retrieved_ids": [
+        "TOOL-003",
+        "TOOL-005",
+        "TOOL-004",
+        "TOOL-001",
+        "TOOL-006"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "tool-regulated-healthcare",
+      "retrieved_ids": [
+        "TOOL-006",
+        "TOOL-005",
+        "TOOL-003",
+        "TOOL-004",
+        "TOOL-001"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-olia-agentic-rag",
+      "retrieved_ids": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-013",
+        "olivesoft-014",
+        "olivesoft-004"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-odoo-n8n-migration",
+      "retrieved_ids": [
+        "olivesoft-025",
+        "olivesoft-008",
+        "olivesoft-024",
+        "olivesoft-027",
+        "olivesoft-028"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "olivesoft-iso27001",
+      "retrieved_ids": [
+        "olivesoft-036",
+        "olivesoft-011",
+        "olivesoft-026",
+        "PRJ-0003",
+        "olivesoft-022"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    }
+  ],
+  "corpus_chunks": 224
+}

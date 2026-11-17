@@ -1,0 +1,72 @@
+[
+  {
+    "data": {
+      "project_name": "Unified HR Solution for Seamless Employee Management",
+      "project_description": "An international HR management solution that serves as a centralized Human Resources Information System (HRIS), consolidating employee data from across the organization. It connects key platforms like SAP SuccessFactors, Talent Connect, and local payroll systems through a robust integration layer built with MuleSoft, ensuring real-time, two-way data flows for accurate information management, compliance, improved reporting, and enhanced employee experience.",
+      "client": null,
+      "technologies_used": [
+        "MuleSoft",
+        "SAP SuccessFactors"
+      ],
+      "industry_category": "Human Resources"
+    },
+    "url": "https://www.olivesoft.fr/en/article/building-unified-hr-solution-seamless-employee-management"
+  },
+  {
+    "data": {
+      "project_name": "From Fragmented Data to Growth: Empowering Sales With Data",
+      "project_description": "The project aimed to build a single source of truth for all customer interactions across multiple systems (in-store, online, etc.) and transform that data into real-time, actionable intelligence. This involved designing a centralized CRM solution backed by Google Cloud Platform (GCP) and BigQuery, creating automated daily pipelines to pull data from systems like ERP (Cegid), e-commerce backend, marketing platforms, and support tools. The process included organizing and standardizing data, developing custom segmentation logic, and building Power BI dashboards for sales and marketing operations to provide real-time visibility into sales, customer activity, campaign performance, and KPIs.",
+      "client": null,
+      "technologies_used": [
+        "Google Cloud Platform",
+        "BigQuery",
+        "Cegid",
+        "Power BI"
+      ],
+      "industry_category": "Retail and E-commerce"    
+    },
+    "url": "https://www.olivesoft.fr/en/article/fragmented-data-growth-empowering-sales-data"
+  },
+  {
+    "data": {
+      "project_name": "Transforming Forecasting with AI-powered Dashboards and Integration",
+      "project_description": "The project aimed to transform forecasting by addressing data fragmentation and lack of clarity. It involved integrating fragmented systems into a single, scalable environment, linking the ERP system Sage X3 to Google Cloud Storage. Dataform was used to build intelligent pipelines, and BigQuery was utilized for deep dives into sales, logistics, and resource flows. Time series models were implemented for demand forecasting, leading to reduced waste, fewer shortages, and better margins. The solution culminated in clear, easy-to-use dashboards created with PowerBI, enabling all departments to access actionable insights.",
+      "client": null,
+      "technologies_used": [
+        "Sage X3",
+        "Google Cloud Storage",
+        "Dataform",
+        "BigQuery",
+        "Power BI"
+      ],
+      "industry_category": "Supply Chain"
+    },
+    "url": "https://www.olivesoft.fr/en/article/transforming-forecasting-ai-powered-dashboards-and-integration"
+  },
+  {
+    "data": {
+      "project_name": "New Fashion CRM Platform",
+      "project_description": "Transforming a business from data overload to clear customer insights by rebuilding their initial Customer Data Platform. This involved cleaning and standardizing data, implementing a precise deduplication process, enriching customer profiles, harmonizing addresses, recalculating metrics with clear business rules, and redesigning Power BI dashboards for sharper insights.",
+      "client": "New Fashion",
+      "technologies_used": [
+        "Google Cloud Platform",
+        "Power BI"
+      ],
+      "industry_category": "Fashion"
+    },
+    "url": "https://www.olivesoft.fr/en/article/turning-data-overload-clear-customer-insights-story-new-fashion-crm-platform"
+  },
+  {
+    "data": {
+      "project_name": "Counterfeit and Grey Market Detection on Social and Second-Hand Platforms",
+      "project_description": "An AI proof of concept (PoC) capable of identifying suspicious listings of luxury products at scale across second-hand and social media platforms. The solution uses a hybrid approach combining visual similarity analysis with expert validation. Second-hand platforms and social networks such as Vinted, Leboncoin, and Facebook Marketplace have become major channels for counterfeiters. The system automatically identifies potentially counterfeit listings by leveraging visual similarity to detect suspicious products.",
+      "client": null,
+      "technologies_used": [
+        "CoAtNet",
+        "FAISS"
+      ],
+      "industry_category": "Luxury"
+    },
+    "url": "https://www.olivesoft.fr/fr/article/detection-de-contrefacons-et-marche-gris-sur-les-plateformes-sociales-et-de-seconde-main"
+  }
+]

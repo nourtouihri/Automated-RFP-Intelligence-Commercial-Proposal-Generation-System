@@ -1,0 +1,366 @@
+openapi: 3.1.0
+info:
+  title: Proposal Deck Service API
+  version: 1.2.0
+  description: |-
+    Proposal deck generation, review and slide editing.
+
+    All endpoints except /health require the X-Internal-Token header (the
+    shared internal-service token). Errors always come back in the shared
+    envelope shape: {"error": {code, message, field?, retryable,
+    request_id?}}, with an X-Request-ID response header that stitches a
+    trigger's log lines across services.
+servers:
+  - url: http://proposal:8003
+tags:
+  - name: proposals
+  - name: meta
+paths:
+  /health:
+    get:
+      tags: [meta]
+      summary: Liveness probe
+      operationId: health
+      responses:
+        "200":
+          description: The service is up.
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [status]
+                properties:
+                  status:
+                    type: string
+                    example: ok
+  /proposal/{tender_id}:
+    parameters:
+      - name: tender_id
+        in: path
+        required: true
+        schema:
+          $ref: "#/components/schemas/TenderId"
+        description: The tender to generate, fetch or edit a deck for.
+    post:
+      tags: [proposals]
+      summary: Generate and store the proposal deck for a tender
+      operationId: runProposal
+      description: |-
+        Runs the full composition (per-requirement RAG queries, LLM prose
+        steps, code-computed facts) for a stored tender, then saves the deck
+        to the shared sqlite store for review and returns a confirmation.
+        Callers branch on stable `code`/`retryable` in the error envelope;
+        a 503 is a provider fault worth re-triggering, a 400 is bad input.
+      security:
+        - internalToken: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProposalRequest"
+      responses:
+        "200":
+          description: The deck was composed and saved for review.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProposalResult"
+        "400":
+          $ref: "#/responses/BadRequest"
+        "401":
+          $ref: "#/responses/Unauthorized"
+        "404":
+          $ref: "#/responses/NotFound"
+        "500":
+          $ref: "#/responses/Internal"   # no font at all: operator task
+        "503":
+          $ref: "#/responses/UpstreamUnavailable"
+    get:
+      tags: [proposals]
+      summary: Read the result JSON written by the last run
+      operationId: getProposal
+      security:
+        - internalToken: []
+      responses:
+        "200":
+          description: The stored run result.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProposalResult"
+        "400":
+          $ref: "#/responses/BadRequest"
+        "401":
+          $ref: "#/responses/Unauthorized"
+        "404":
+          $ref: "#/responses/NotFound"
+  /proposal:
+    get:
+      tags: [proposals]
+      summary: List every stored deck with its row identity
+      operationId: listProposals
+      description: |-
+        Rows newest-first. `kind` is never "rejected": a deck that failed
+        render validation was composed but never stored.
+      security:
+        - internalToken: []
+      responses:
+        "200":
+          description: One entry per stored deck, newest first.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ProposalListItem"
+        "401":
+          $ref: "#/responses/Unauthorized"
+  /proposal/edit/{tender_id}:
+    put:
+      tags: [proposals]
+      summary: Edit one slide of a stored proposal with a prompt
+      operationId: editProposal
+      description: |-
+        One reviewer prompt against one slide of the stored deck. The agent
+        may write only the fields the slide spec allows; verification
+        results, ids, scores, delivery flags and the whole slides 4/5
+        (buyer profile, verification matrix) stay code-owned, and no-bid
+        decks are refused. A pillar's evidence may only cite ids the deck
+        already shows. `changed=false` means nothing changed and the row was
+        left untouched. A 422/400 renders the shared envelope, never the
+        FastAPI default.
+      security:
+        - internalToken: []
+      parameters:
+        - name: tender_id
+          in: path
+          required: true
+          schema:
+            $ref: "#/components/schemas/TenderId"
+          description: The proposal id, the same value as the tender id.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EditProposalRequest"
+      responses:
+        "200":
+          description: The fields the prompt actually changed.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EditProposalResult"
+        "400":
+          $ref: "#/responses/BadRequest"
+        "401":
+          $ref: "#/responses/Unauthorized"
+        "404":
+          $ref: "#/responses/NotFound"
+  /proposal/refuse/{tender_id}:
+    put:
+      tags: [proposals]
+      summary: Refuse a stored proposal or no-bid deck
+      operationId: refuseProposal
+      description: |-
+        The review decision with no rendering: the stored deck's review_status
+        becomes "refused" and nothing else moves — no pptx/pdf is built (that
+        is accept's job) and the row's warnings and artifact index stay as
+        they were saved. Refusing an already refused deck is a 409.
+      security:
+        - internalToken: []
+      parameters:
+        - name: tender_id
+          in: path
+          required: true
+          schema:
+            $ref: "#/components/schemas/TenderId"
+          description: The proposal id, the same value as the tender id.
+      responses:
+        "200":
+          description: The deck's review_status is now refused.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProposalRefuseResult"
+        "400":
+          $ref: "#/responses/BadRequest"
+        "401":
+          $ref: "#/responses/Unauthorized"
+        "404":
+          $ref: "#/responses/NotFound"
+        "409":
+          $ref: "#/responses/Conflict"
+components:
+  securitySchemes:
+    internalToken:
+      type: apiKey
+      in: header
+      name: X-Internal-Token
+  schemas:
+    TenderId:
+      type: string
+      pattern: "^[A-Za-z0-9._-]{1,64}$"
+      example: tender-001
+    ProposalRequest:
+      type: object
+      description: The team matches n8n aggregated for one tender; every fact
+        is read from the hit metadata (rag.ingest_json embeds the source
+        record behind metadata.record_id).
+      properties:
+        cv_matches:
+          type: array
+          items:
+            $ref: "#/components/schemas/Hit"
+          default: []
+        project_matches:
+          type: array
+          items:
+            $ref: "#/components/schemas/Hit"
+          default: []
+    Hit:
+      type: object
+      description: One RAG hit; metadata must carry record_id, similarity
+        stays within 0..1.
+      required: [metadata, similarity]
+      properties:
+        metadata:
+          type: object
+          required: [record_id]
+          properties:
+            record_id:
+              type: string
+        similarity:
+          type: number
+          minimum: 0
+          maximum: 1
+    ProposalResult:
+      type: object
+      required: [body]
+      properties:
+        body:
+          type: string
+          example: Proposal Saved for review
+    ProposalListItem:
+      type: object
+      description: One stored deck row — row identity plus the full deck.
+      required: [tender_id, kind, deck]
+      properties:
+        tender_id:
+          $ref: "#/components/schemas/TenderId"
+        kind:
+          type: string
+          enum: [proposal, no_bid]
+        review_status:
+          type: string
+          enum: [accepted, refused, draft]
+          default: draft
+        deck:
+          type: object
+          description: "proposal: the 9-slide deck (meta, letter, summary,
+            buyer, requirements, approach, team, references, investment).
+            no_bid: the 3-slide refusal deck (cover, matrix, warnings)."
+    EditProposalRequest:
+      type: object
+      required: [slide, prompt]
+      properties:
+        slide:
+          type: integer
+          minimum: 1
+          maximum: 9
+          description: The deck's 1-based slide number (render order).
+          example: 1
+        prompt:
+          type: string
+          minLength: 1
+          maxLength: 2000
+          description: The reviewer's instruction.
+          example: Make the headline more concrete about the data platform scope.
+    EditProposalResult:
+      type: object
+      properties:
+        updated:
+          description: The slide's complete new value (same shape as the
+            slide's stored value), schema-checked before saving; null when
+            nothing changed.
+        changed:
+          type: boolean
+          description: false when the agent answered "no change" or only
+            unusable rewrites; the stored deck was left untouched.
+    ProposalRefuseResult:
+      type: object
+      description: What a refusal changes — the row's identity and its new
+        review state. The deck body, its warnings and its artifact index are
+        untouched.
+      required: [tender_id, kind, review_status]
+      properties:
+        tender_id:
+          $ref: "#/components/schemas/TenderId"
+        kind:
+          type: string
+          enum: [proposal, no_bid]
+        review_status:
+          type: string
+          enum: [refused]
+    ErrorEnvelope:
+      type: object
+      required: [error]
+      properties:
+        error:
+          $ref: "#/components/schemas/Error"
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+          example: BAD_REQUEST
+        message:
+          type: string
+        field:
+          type: string
+        retryable:
+          type: boolean
+        request_id:
+          type: string
+responses:
+  BadRequest:
+    description: The request is invalid — bad tender id, off-surface edit,
+      a reshape in the agent's reply (extra or missing key, changed list
+      length), an unknown evidence id, or malformed data.
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"
+  NotFound:
+    description: No tender or no stored deck for the id.
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"
+  Conflict:
+    description: The deck is already refused — the review status did not move.
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"
+  Unauthorized:
+    description: Missing or invalid X-Internal-Token.
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"
+  Internal:
+    description: The deck would render blind (no font at all) — an operator
+      task, not retryable.
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"
+  UpstreamUnavailable:
+    description: A composition step or the LLM provider failed after its own
+      retries — worth re-triggering (retryable).
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/ErrorEnvelope"

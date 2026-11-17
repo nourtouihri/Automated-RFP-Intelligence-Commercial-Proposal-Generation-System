@@ -1,0 +1,5 @@
+name: Get proposal file
+method: GET
+url: '{{proposalUrl}}/proposal/38fb0c7b-84e0-4762-afc7-35c1ba333fcb/files/38fb0c7b-84e0-4762-afc7-35c1ba333fcb.pptx'
+headers:
+  X-Internal-Token: '{{internalToken}}'

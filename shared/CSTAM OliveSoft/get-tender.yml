@@ -1,0 +1,5 @@
+name: Get tender
+method: GET
+url: '{{detectionUrl}}/tenders/tender-001'
+headers:
+  X-Internal-Token: '{{internalToken}}'

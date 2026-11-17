@@ -1,0 +1,2060 @@
+{
+  "case_count": 11,
+  "k": 5,
+  "precision_at_k": 0.2181818181818182,
+  "recall_at_k": 0.8636363636363636,
+  "mean_reciprocal_rank": 0.9090909090909091,
+  "cases": [
+    {
+      "id": "cv-fastapi-backend",
+      "retrieved_ids": [
+        "CV-0007",
+        "CV-0016",
+        "CV-0058",
+        "CV-0015",
+        "CV-0019"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "reciprocal_rank": 1.0,
+      "query": "Backend engineer experienced with FastAPI, Java, CI/CD and workflow automation",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0007",
+        "CV-0010"
+      ],
+      "ndcg_at_k": 0.6131471927654584,
+      "precision_at_10": 0.2,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0007",
+        "CV-0016",
+        "CV-0058",
+        "CV-0015",
+        "CV-0019",
+        "CV-0059",
+        "CV-0096",
+        "CV-0010",
+        "CV-0115",
+        "CV-0023"
+      ],
+      "latency_ms": 16.703786666039377,
+      "latency_samples_ms": [
+        16.92750002257526,
+        15.048399975057691,
+        16.53320004697889,
+        15.698899980634451,
+        16.95389999076724,
+        16.926699958276004,
+        17.72620005067438,
+        17.44279998820275,
+        17.566800001077354,
+        17.39559997804463,
+        16.760599974077195,
+        16.92439999897033,
+        16.31849998375401,
+        16.56160003039986,
+        15.77170001110062
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0007",
+          "doc_type": "cv",
+          "content": "CV-0007 (Employee_007) - Backend Developer, 10 years of experience. Skills: Kotlin, Java, FastAPI, n8n, Tailwind CSS, CI/CD, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes. Past projects: Retail customer portal revamp (retail) - role Backend Developer, tech stack Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes; Education data platform migration (education) - role Backend Developer, tech stack FastAPI, Tailwind CSS, n8n, Java, CI/CD, PostgreSQL, Next.js, Docker; Retail mobile app for field agents (retail) - role Backend Developer, tech stack CI/CD, FastAPI, n8n.",
+          "metadata": {
+            "role": "Backend Developer",
+            "years_experience": 10,
+            "skills": [
+              "Kotlin",
+              "Java",
+              "FastAPI",
+              "n8n",
+              "Tailwind CSS",
+              "CI/CD",
+              "Next.js",
+              "PostgreSQL",
+              "Docker",
+              "Python",
+              "Spring Boot",
+              "Kubernetes"
+            ],
+            "project_ids": [
+              "PRJ-0124",
+              "PRJ-0125",
+              "PRJ-0126"
+            ],
+            "record_id": "CV-0007"
+          },
+          "similarity": 0.558359070647839,
+          "ranking_score": 0.558359070647839
+        },
+        {
+          "record_id": "CV-0016",
+          "doc_type": "cv",
+          "content": "CV-0016 (Employee_016) - DevOps Engineer, 11 years of experience. Skills: LlamaIndex, TensorFlow, CI/CD, Qdrant, PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn, Django, Java, FastAPI, LangChain, Redis, GCP, Docker, Tailwind CSS. Certifications: PMP. Past projects: Telecom data platform migration (telecom) - role DevOps Engineer, tech stack PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn; Logistics customer portal revamp (logistics) - role DevOps Engineer, tech stack ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex; Energy API integration hub (energy) - role DevOps Engineer, tech stack Qdrant, CI/CD, LlamaIndex; Real estate internal workflow automation (real estate) - role DevOps Engineer, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD.",
+          "metadata": {
+            "role": "DevOps Engineer",
+            "years_experience": 11,
+            "skills": [
+              "LlamaIndex",
+              "TensorFlow",
+              "CI/CD",
+              "Qdrant",
+              "PostgreSQL",
+              "Flutter",
+              "REST APIs",
+              "ChromaDB",
+              "Python",
+              "Scikit-learn",
+              "Django",
+              "Java",
+              "FastAPI",
+              "LangChain",
+              "Redis",
+              "GCP",
+              "Docker",
+              "Tailwind CSS"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0007",
+              "PRJ-0141",
+              "PRJ-0142",
+              "PRJ-0117"
+            ],
+            "record_id": "CV-0016"
+          },
+          "similarity": 0.53601208559485,
+          "ranking_score": 0.53601208559485
+        },
+        {
+          "record_id": "CV-0058",
+          "doc_type": "cv",
+          "content": "CV-0058 (Employee_058) - Integration Developer, 7 years of experience. Skills: REST APIs, Flutter, Telematics, FastAPI, Offline Sync, MuleSoft, Python, Azure DevOps, Docker. Certifications: Scrum Master (CSM). Past projects: Telematics API integration with maintenance and fuel systems (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Offline Sync, Telematics, MuleSoft; Driver app with offline proof of delivery (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics.",
+          "metadata": {
+            "role": "Integration Developer",
+            "years_experience": 7,
+            "skills": [
+              "REST APIs",
+              "Flutter",
+              "Telematics",
+              "FastAPI",
+              "Offline Sync",
+              "MuleSoft",
+              "Python",
+              "Azure DevOps",
+              "Docker"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0037",
+              "PRJ-0038"
+            ],
+            "record_id": "CV-0058"
+          },
+          "similarity": 0.5216977852769629,
+          "ranking_score": 0.5216977852769629
+        },
+        {
+          "record_id": "CV-0015",
+          "doc_type": "cv",
+          "content": "CV-0015 (Employee_015) - DevOps Engineer, 11 years of experience. Skills: GraphQL, ChromaDB, Java, FastAPI, Tailwind CSS, Django, Next.js, LangChain, React, Swift, JavaScript, Qdrant, CI/CD, TensorFlow, LlamaIndex. Past projects: Banking internal workflow automation (banking) - role DevOps Engineer, tech stack Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript; Education internal workflow automation (education) - role DevOps Engineer, tech stack Tailwind CSS, GraphQL, Django, Next.js, ChromaDB; Logistics customer portal revamp (logistics) - role DevOps Engineer, tech stack ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex.",
+          "metadata": {
+            "role": "DevOps Engineer",
+            "years_experience": 11,
+            "skills": [
+              "GraphQL",
+              "ChromaDB",
+              "Java",
+              "FastAPI",
+              "Tailwind CSS",
+              "Django",
+              "Next.js",
+              "LangChain",
+              "React",
+              "Swift",
+              "JavaScript",
+              "Qdrant",
+              "CI/CD",
+              "TensorFlow",
+              "LlamaIndex"
+            ],
+            "project_ids": [
+              "PRJ-0139",
+              "PRJ-0140",
+              "PRJ-0141"
+            ],
+            "record_id": "CV-0015"
+          },
+          "similarity": 0.5196211259866481,
+          "ranking_score": 0.5196211259866481
+        },
+        {
+          "record_id": "CV-0019",
+          "doc_type": "cv",
+          "content": "CV-0019 (Employee_019) - Cloud Architect, 8 years of experience. Skills: Pinecone, LlamaIndex, REST APIs, CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python. Certifications: AWS Certified Developer. Past projects: Energy mobile app for field agents (energy) - role Cloud Architect, tech stack CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs; Real estate real-time analytics dashboard (real estate) - role Cloud Architect, tech stack Pinecone, LlamaIndex, CI/CD.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 8,
+            "skills": [
+              "Pinecone",
+              "LlamaIndex",
+              "REST APIs",
+              "CI/CD",
+              "Next.js",
+              "PostgreSQL",
+              "Docker",
+              "Azure",
+              "Kubernetes",
+              "Python"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0131",
+              "PRJ-0146"
+            ],
+            "record_id": "CV-0019"
+          },
+          "similarity": 0.5174824525986086,
+          "ranking_score": 0.5174824525986086
+        }
+      ]
+    },
+    {
+      "id": "cv-react-fullstack",
+      "retrieved_ids": [
+        "CV-0076",
+        "CV-0084",
+        "CV-0075",
+        "CV-0077",
+        "CV-0121"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0,
+      "query": "Full-stack developer with React, REST API and infrastructure as code experience",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0006",
+        "CV-0013"
+      ],
+      "ndcg_at_k": 0.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 0.5,
+      "retrieved_ids_at_10": [
+        "CV-0076",
+        "CV-0084",
+        "CV-0075",
+        "CV-0077",
+        "CV-0121",
+        "CV-0006",
+        "CV-0085",
+        "CV-0119",
+        "CV-0118",
+        "CV-0086"
+      ],
+      "latency_ms": 16.021866665687412,
+      "latency_samples_ms": [
+        14.319300011266023,
+        15.683199977502227,
+        16.372099984437227,
+        14.491199981421232,
+        15.80870000179857,
+        15.758800029288977,
+        16.97009999770671,
+        15.8100999542512,
+        16.049299971200526,
+        16.840199998114258,
+        16.78980002179742,
+        18.483499996364117,
+        16.15959999617189,
+        15.804600028786808,
+        14.987500035203993
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0076",
+          "doc_type": "cv",
+          "content": "CV-0076 (Employee_076) - Full Stack Developer, 14 years of experience. Skills: React Native, TypeScript, GraphQL, Cypress, Node.js, SQL, Python, Django, Spring Boot, Firebase, Offline Sync, REST APIs. Certifications: Scrum Master (CSM). Past projects: Mobile sync service with conflict resolution (energy) - role Full Stack Developer, tech stack React Native, TypeScript, Firebase, Cypress, Offline Sync; Field technician app with offline job capture (energy) - role Full Stack Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs.",
+          "metadata": {
+            "role": "Full Stack Developer",
+            "years_experience": 14,
+            "skills": [
+              "React Native",
+              "TypeScript",
+              "GraphQL",
+              "Cypress",
+              "Node.js",
+              "SQL",
+              "Python",
+              "Django",
+              "Spring Boot",
+              "Firebase",
+              "Offline Sync",
+              "REST APIs"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0050",
+              "PRJ-0049"
+            ],
+            "record_id": "CV-0076"
+          },
+          "similarity": 0.6148852763489429,
+          "ranking_score": 0.6148852763489429
+        },
+        {
+          "record_id": "CV-0084",
+          "doc_type": "cv",
+          "content": "CV-0084 (Employee_084) - Frontend Developer, 14 years of experience. Skills: Next.js, TypeScript, WCAG Accessibility, Tailwind CSS, React, Cypress, Docker, Azure DevOps, Drupal, SEO. Certifications: Scrum Master (CSM). Past projects: Accessible parent portal built in Next.js (education) - role Frontend Developer, tech stack Next.js, TypeScript, React, Tailwind CSS, Cypress; Public website component library and content workflow (education) - role Frontend Developer, tech stack Next.js, TypeScript, React, Drupal, SEO.",
+          "metadata": {
+            "role": "Frontend Developer",
+            "years_experience": 14,
+            "skills": [
+              "Next.js",
+              "TypeScript",
+              "WCAG Accessibility",
+              "Tailwind CSS",
+              "React",
+              "Cypress",
+              "Docker",
+              "Azure DevOps",
+              "Drupal",
+              "SEO"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0055",
+              "PRJ-0056"
+            ],
+            "record_id": "CV-0084"
+          },
+          "similarity": 0.5399810633072198,
+          "ranking_score": 0.5399810633072198
+        },
+        {
+          "record_id": "CV-0075",
+          "doc_type": "cv",
+          "content": "CV-0075 (Employee_075) - Mobile Developer, 6 years of experience. Skills: React Native, TypeScript, Offline Sync, Cypress, Firebase, SQL, Python, TensorFlow, REST APIs. Certifications: Scrum Master (CSM). Past projects: Field technician app with offline job capture (energy) - role Mobile Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs.",
+          "metadata": {
+            "role": "Mobile Developer",
+            "years_experience": 6,
+            "skills": [
+              "React Native",
+              "TypeScript",
+              "Offline Sync",
+              "Cypress",
+              "Firebase",
+              "SQL",
+              "Python",
+              "TensorFlow",
+              "REST APIs"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0049"
+            ],
+            "record_id": "CV-0075"
+          },
+          "similarity": 0.5307047848294754,
+          "ranking_score": 0.5307047848294754
+        },
+        {
+          "record_id": "CV-0077",
+          "doc_type": "cv",
+          "content": "CV-0077 (Employee_077) - Mobile Developer, 10 years of experience. Skills: React Native, TypeScript, Cypress, Node.js, Offline Sync, SQL, Git, Spring Boot, REST APIs, Firebase. Certifications: Scrum Master (CSM). Past projects: Field technician app with offline job capture (energy) - role Mobile Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs; Mobile sync service with conflict resolution (energy) - role Mobile Developer, tech stack React Native, TypeScript, Firebase, Cypress, Offline Sync.",
+          "metadata": {
+            "role": "Mobile Developer",
+            "years_experience": 10,
+            "skills": [
+              "React Native",
+              "TypeScript",
+              "Cypress",
+              "Node.js",
+              "Offline Sync",
+              "SQL",
+              "Git",
+              "Spring Boot",
+              "REST APIs",
+              "Firebase"
+            ],
+            "certifications": [
+              "Scrum Master (CSM)"
+            ],
+            "project_ids": [
+              "PRJ-0049",
+              "PRJ-0050"
+            ],
+            "record_id": "CV-0077"
+          },
+          "similarity": 0.5192095902305182,
+          "ranking_score": 0.5192095902305182
+        },
+        {
+          "record_id": "CV-0121",
+          "doc_type": "cv",
+          "content": "CV-0121 (Employee_121) - Frontend Developer, 14 years of experience. Skills: React, SEO, Next.js, Node.js, Tailwind CSS, Cypress, Docker, Azure DevOps, MongoDB, Drupal, TypeScript. Certifications: Microsoft Azure Fundamentals. Past projects: Online property listing platform (real estate) - role Frontend Developer, tech stack Tailwind CSS, Next.js, Drupal, Cypress, TypeScript; Parent and student web portal (education) - role Frontend Developer, tech stack Next.js, Drupal, React, TypeScript, Cypress.",
+          "metadata": {
+            "role": "Frontend Developer",
+            "years_experience": 14,
+            "skills": [
+              "React",
+              "SEO",
+              "Next.js",
+              "Node.js",
+              "Tailwind CSS",
+              "Cypress",
+              "Docker",
+              "Azure DevOps",
+              "MongoDB",
+              "Drupal",
+              "TypeScript"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0085",
+              "PRJ-0083"
+            ],
+            "record_id": "CV-0121"
+          },
+          "similarity": 0.5130733175909309,
+          "ranking_score": 0.5130733175909309
+        }
+      ]
+    },
+    {
+      "id": "cv-rag-data",
+      "retrieved_ids": [
+        "CV-0005",
+        "CV-0012",
+        "CV-0044",
+        "CV-0016",
+        "CV-0115"
+      ],
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Data engineer experienced with Python, LlamaIndex and ChromaDB for a RAG platform",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0005",
+        "CV-0012",
+        "CV-0016"
+      ],
+      "ndcg_at_k": 0.9674679834891693,
+      "precision_at_10": 0.3,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0005",
+        "CV-0012",
+        "CV-0044",
+        "CV-0016",
+        "CV-0115",
+        "CV-0042",
+        "CV-0043",
+        "CV-0015",
+        "CV-0019",
+        "CV-0009"
+      ],
+      "latency_ms": 19.058446667622775,
+      "latency_samples_ms": [
+        15.743999974802136,
+        16.508599976077676,
+        17.630500020459294,
+        18.29930004896596,
+        16.078000015113503,
+        22.527199995238334,
+        21.674800023902208,
+        19.830600009299815,
+        20.673200022429228,
+        20.50990000134334,
+        19.932999974116683,
+        18.22829997399822,
+        18.8888999982737,
+        18.58949998859316,
+        20.760899991728365
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0005",
+          "doc_type": "cv",
+          "content": "CV-0005 (Employee_005) - Data Engineer, 15 years of experience. Skills: Qdrant, Azure, Kotlin, GraphQL, Tailwind CSS, Flutter, Scikit-learn, GCP, PostgreSQL, REST APIs, ChromaDB, Python, LlamaIndex, n8n, Swift, PyTorch. Certifications: AWS Certified Developer. Past projects: Telecom data platform migration (telecom) - role Data Engineer, tech stack PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn; Logistics real-time analytics dashboard (logistics) - role Data Engineer, tech stack LlamaIndex, n8n, Swift, PyTorch.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 15,
+            "skills": [
+              "Qdrant",
+              "Azure",
+              "Kotlin",
+              "GraphQL",
+              "Tailwind CSS",
+              "Flutter",
+              "Scikit-learn",
+              "GCP",
+              "PostgreSQL",
+              "REST APIs",
+              "ChromaDB",
+              "Python",
+              "LlamaIndex",
+              "n8n",
+              "Swift",
+              "PyTorch"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0007",
+              "PRJ-0010"
+            ],
+            "record_id": "CV-0005"
+          },
+          "similarity": 0.513210688390563,
+          "ranking_score": 0.513210688390563
+        },
+        {
+          "record_id": "CV-0012",
+          "doc_type": "cv",
+          "content": "CV-0012 (Employee_012) - Data Engineer, 6 years of experience. Skills: Docker, Tailwind CSS, LlamaIndex, Python, ChromaDB, CI/CD, Redis, Django, GCP, Qdrant, TensorFlow. Certifications: Certified Kubernetes Administrator. Past projects: Real estate internal workflow automation (real estate) - role Data Engineer, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD; Telecom AI-powered document processing (telecom) - role Data Engineer, tech stack Tailwind CSS, LlamaIndex, Python, ChromaDB; Telecom customer portal revamp (telecom) - role Data Engineer, tech stack Docker, CI/CD, LlamaIndex, Python.",
+          "metadata": {
+            "role": "Data Engineer",
+            "years_experience": 6,
+            "skills": [
+              "Docker",
+              "Tailwind CSS",
+              "LlamaIndex",
+              "Python",
+              "ChromaDB",
+              "CI/CD",
+              "Redis",
+              "Django",
+              "GCP",
+              "Qdrant",
+              "TensorFlow"
+            ],
+            "certifications": [
+              "Certified Kubernetes Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0117",
+              "PRJ-0135",
+              "PRJ-0136"
+            ],
+            "record_id": "CV-0012"
+          },
+          "similarity": 0.5078594911966119,
+          "ranking_score": 0.5078594911966119
+        },
+        {
+          "record_id": "CV-0044",
+          "doc_type": "cv",
+          "content": "CV-0044 (Employee_044) - Backend Developer, 6 years of experience. Skills: RAG, Python, ChromaDB, Prompt Evaluation, FastAPI, CI/CD, SQL, LangChain, Pinecone. Certifications: AWS Certified Developer. Past projects: RAG evaluation harness against historical queries (retail) - role Backend Developer, tech stack RAG, Python, LangChain, Pinecone, FastAPI; Grounded RAG support assistant with citations (retail) - role Backend Developer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+          "metadata": {
+            "role": "Backend Developer",
+            "years_experience": 6,
+            "skills": [
+              "RAG",
+              "Python",
+              "ChromaDB",
+              "Prompt Evaluation",
+              "FastAPI",
+              "CI/CD",
+              "SQL",
+              "LangChain",
+              "Pinecone"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0028",
+              "PRJ-0027"
+            ],
+            "record_id": "CV-0044"
+          },
+          "similarity": 0.5057379696424977,
+          "ranking_score": 0.5057379696424977
+        },
+        {
+          "record_id": "CV-0016",
+          "doc_type": "cv",
+          "content": "CV-0016 (Employee_016) - DevOps Engineer, 11 years of experience. Skills: LlamaIndex, TensorFlow, CI/CD, Qdrant, PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn, Django, Java, FastAPI, LangChain, Redis, GCP, Docker, Tailwind CSS. Certifications: PMP. Past projects: Telecom data platform migration (telecom) - role DevOps Engineer, tech stack PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn; Logistics customer portal revamp (logistics) - role DevOps Engineer, tech stack ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex; Energy API integration hub (energy) - role DevOps Engineer, tech stack Qdrant, CI/CD, LlamaIndex; Real estate internal workflow automation (real estate) - role DevOps Engineer, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD.",
+          "metadata": {
+            "role": "DevOps Engineer",
+            "years_experience": 11,
+            "skills": [
+              "LlamaIndex",
+              "TensorFlow",
+              "CI/CD",
+              "Qdrant",
+              "PostgreSQL",
+              "Flutter",
+              "REST APIs",
+              "ChromaDB",
+              "Python",
+              "Scikit-learn",
+              "Django",
+              "Java",
+              "FastAPI",
+              "LangChain",
+              "Redis",
+              "GCP",
+              "Docker",
+              "Tailwind CSS"
+            ],
+            "certifications": [
+              "PMP"
+            ],
+            "project_ids": [
+              "PRJ-0007",
+              "PRJ-0141",
+              "PRJ-0142",
+              "PRJ-0117"
+            ],
+            "record_id": "CV-0016"
+          },
+          "similarity": 0.46903779497749853,
+          "ranking_score": 0.46903779497749853
+        },
+        {
+          "record_id": "CV-0115",
+          "doc_type": "cv",
+          "content": "CV-0115 (Employee_115) - Backend Developer, 2 years of experience. Skills: FastAPI, OpenAI, Prompt Evaluation, Python, ChromaDB, RAG, Docker, CI/CD, Spring Boot, HuggingFace, LangChain, NLP, Pinecone. Certifications: AWS Certified Developer. Past projects: Policy question assistant over internal documents (insurance) - role Backend Developer, tech stack Python, HuggingFace, FastAPI, LangChain, NLP; Contract clause extraction with human review (public administration) - role Backend Developer, tech stack ChromaDB, RAG, Pinecone, LangChain, Python.",
+          "metadata": {
+            "role": "Backend Developer",
+            "years_experience": 2,
+            "skills": [
+              "FastAPI",
+              "OpenAI",
+              "Prompt Evaluation",
+              "Python",
+              "ChromaDB",
+              "RAG",
+              "Docker",
+              "CI/CD",
+              "Spring Boot",
+              "HuggingFace",
+              "LangChain",
+              "NLP",
+              "Pinecone"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0079",
+              "PRJ-0080"
+            ],
+            "record_id": "CV-0115"
+          },
+          "similarity": 0.46434361669499036,
+          "ranking_score": 0.46434361669499036
+        }
+      ]
+    },
+    {
+      "id": "cv-kubernetes-cloud",
+      "retrieved_ids": [
+        "CV-0020",
+        "CV-0080",
+        "CV-0078",
+        "CV-0128",
+        "CV-0019"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Cloud architecture profile with Kubernetes, TypeScript and REST APIs",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0020"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0020",
+        "CV-0080",
+        "CV-0078",
+        "CV-0128",
+        "CV-0019",
+        "CV-0127",
+        "CV-0129",
+        "CV-0079",
+        "CV-0126",
+        "CV-0131"
+      ],
+      "latency_ms": 18.890706659294665,
+      "latency_samples_ms": [
+        22.784799977671355,
+        22.19590003369376,
+        23.906599963083863,
+        19.513899984303862,
+        20.678200002294034,
+        19.763600022997707,
+        17.717599985189736,
+        18.525299965403974,
+        17.371099966112524,
+        16.78220002213493,
+        16.822599980514497,
+        15.471599996089935,
+        17.458299989812076,
+        17.546200018841773,
+        16.822699981275946
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0020",
+          "doc_type": "cv",
+          "content": "CV-0020 (Employee_020) - Solutions Architect, 7 years of experience. Skills: Flutter, Kubernetes, TypeScript, MongoDB, REST APIs. Certifications: Certified Kubernetes Administrator. Past projects: Retail API integration hub (retail) - role Solutions Architect, tech stack TypeScript, MongoDB, Kubernetes, REST APIs; Healthcare API integration hub (healthcare) - role Solutions Architect, tech stack Kubernetes, Flutter, TypeScript, REST APIs; Banking customer portal revamp (banking) - role Solutions Architect, tech stack REST APIs, Kubernetes, Flutter.",
+          "metadata": {
+            "role": "Solutions Architect",
+            "years_experience": 7,
+            "skills": [
+              "Flutter",
+              "Kubernetes",
+              "TypeScript",
+              "MongoDB",
+              "REST APIs"
+            ],
+            "certifications": [
+              "Certified Kubernetes Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0147",
+              "PRJ-0148",
+              "PRJ-0149"
+            ],
+            "record_id": "CV-0020"
+          },
+          "similarity": 0.48981793741476193,
+          "ranking_score": 0.48981793741476193
+        },
+        {
+          "record_id": "CV-0080",
+          "doc_type": "cv",
+          "content": "CV-0080 (Employee_080) - Cloud Architect, 4 years of experience. Skills: Kubernetes, Terraform, Docker, Prometheus, Azure, SQL, AWS, GitHub Actions. Certifications: Certified Kubernetes Administrator. Past projects: Platform monitoring and disaster recovery on Kubernetes (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Prometheus, AWS, GitHub Actions; Virtual machine to Kubernetes migration in risk waves (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Docker, AWS, GitHub Actions.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 4,
+            "skills": [
+              "Kubernetes",
+              "Terraform",
+              "Docker",
+              "Prometheus",
+              "Azure",
+              "SQL",
+              "AWS",
+              "GitHub Actions"
+            ],
+            "certifications": [
+              "Certified Kubernetes Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0052",
+              "PRJ-0051"
+            ],
+            "record_id": "CV-0080"
+          },
+          "similarity": 0.4837911996849127,
+          "ranking_score": 0.4837911996849127
+        },
+        {
+          "record_id": "CV-0078",
+          "doc_type": "cv",
+          "content": "CV-0078 (Employee_078) - Cloud Architect, 11 years of experience. Skills: Kubernetes, Terraform, Prometheus, Grafana, AWS, CI/CD, Git, Swift, GitHub Actions. Certifications: Certified Kubernetes Administrator. Past projects: Platform monitoring and disaster recovery on Kubernetes (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Prometheus, AWS, GitHub Actions.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 11,
+            "skills": [
+              "Kubernetes",
+              "Terraform",
+              "Prometheus",
+              "Grafana",
+              "AWS",
+              "CI/CD",
+              "Git",
+              "Swift",
+              "GitHub Actions"
+            ],
+            "certifications": [
+              "Certified Kubernetes Administrator"
+            ],
+            "project_ids": [
+              "PRJ-0052"
+            ],
+            "record_id": "CV-0078"
+          },
+          "similarity": 0.4728887240337651,
+          "ranking_score": 0.4728887240337651
+        },
+        {
+          "record_id": "CV-0128",
+          "doc_type": "cv",
+          "content": "CV-0128 (Employee_128) - Cloud Architect, 13 years of experience. Skills: AWS, Docker, Terraform, GCP, GitHub Actions, Kubernetes, Python, Git, MongoDB, Grafana. Certifications: Microsoft Azure Fundamentals. Past projects: Kubernetes platform for regional utilities (energy) - role Cloud Architect, tech stack Grafana, AWS, Terraform, Docker, GCP, Kubernetes.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 13,
+            "skills": [
+              "AWS",
+              "Docker",
+              "Terraform",
+              "GCP",
+              "GitHub Actions",
+              "Kubernetes",
+              "Python",
+              "Git",
+              "MongoDB",
+              "Grafana"
+            ],
+            "certifications": [
+              "Microsoft Azure Fundamentals"
+            ],
+            "project_ids": [
+              "PRJ-0094"
+            ],
+            "record_id": "CV-0128"
+          },
+          "similarity": 0.434748958778978,
+          "ranking_score": 0.434748958778978
+        },
+        {
+          "record_id": "CV-0019",
+          "doc_type": "cv",
+          "content": "CV-0019 (Employee_019) - Cloud Architect, 8 years of experience. Skills: Pinecone, LlamaIndex, REST APIs, CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python. Certifications: AWS Certified Developer. Past projects: Energy mobile app for field agents (energy) - role Cloud Architect, tech stack CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs; Real estate real-time analytics dashboard (real estate) - role Cloud Architect, tech stack Pinecone, LlamaIndex, CI/CD.",
+          "metadata": {
+            "role": "Cloud Architect",
+            "years_experience": 8,
+            "skills": [
+              "Pinecone",
+              "LlamaIndex",
+              "REST APIs",
+              "CI/CD",
+              "Next.js",
+              "PostgreSQL",
+              "Docker",
+              "Azure",
+              "Kubernetes",
+              "Python"
+            ],
+            "certifications": [
+              "AWS Certified Developer"
+            ],
+            "project_ids": [
+              "PRJ-0131",
+              "PRJ-0146"
+            ],
+            "record_id": "CV-0019"
+          },
+          "similarity": 0.4296816999266314,
+          "ranking_score": 0.4296816999266314
+        }
+      ]
+    },
+    {
+      "id": "project-banking-modernization",
+      "retrieved_ids": [
+        "PRJ-0004",
+        "PRJ-0139",
+        "olivesoft-012",
+        "PRJ-0077",
+        "PRJ-0093"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Banking legacy modernization using Terraform, machine learning and workflow automation",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0004"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0004",
+        "PRJ-0139",
+        "olivesoft-012",
+        "PRJ-0077",
+        "PRJ-0093",
+        "PRJ-0063",
+        "olivesoft-019",
+        "PRJ-0149",
+        "PRJ-0117",
+        "PRJ-0008"
+      ],
+      "latency_ms": 19.501199992373586,
+      "latency_samples_ms": [
+        17.177299945615232,
+        21.038100006990135,
+        27.231299958657473,
+        21.206599951256067,
+        34.57449999405071,
+        19.468100043013692,
+        14.802000019699335,
+        15.42650000192225,
+        17.545599956065416,
+        18.046699988190085,
+        17.19270000467077,
+        17.097400035709143,
+        17.320299986749887,
+        17.957800009753555,
+        16.433099983260036
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0004",
+          "doc_type": "project",
+          "content": "Project PRJ-0004: Banking legacy system modernization for a banking client, using Scikit-learn, Terraform, n8n, React, TensorFlow. Sector: banking. Outcome: Reduced manual processing time by 56%.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Scikit-learn",
+              "Terraform",
+              "n8n",
+              "React",
+              "TensorFlow"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0004"
+          },
+          "similarity": 0.7203037290286505,
+          "ranking_score": 0.7203037290286505
+        },
+        {
+          "record_id": "PRJ-0139",
+          "doc_type": "project",
+          "content": "Project PRJ-0139: Banking internal workflow automation for a banking client, using Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript. Sector: banking.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Django",
+              "FastAPI",
+              "Tailwind CSS",
+              "Next.js",
+              "Java",
+              "React",
+              "Swift",
+              "JavaScript"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0139"
+          },
+          "similarity": 0.5975238702063939,
+          "ranking_score": 0.5975238702063939
+        },
+        {
+          "record_id": "olivesoft-012",
+          "doc_type": "project",
+          "content": "OliveSoft project: Business-process automation. Type: pfe internship project, edition 2025. Domain: business process automation, BPM. Model and automate onboarding, payroll, bank reconciliation and accounting processes based on ROI. Tech stack: BPMN, Talend, MuleSoft, Power Automate, Git. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "business process automation",
+              "BPM"
+            ],
+            "tech_stack": [
+              "BPMN",
+              "Talend",
+              "MuleSoft",
+              "Power Automate",
+              "Git"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 14,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-012"
+          },
+          "similarity": 0.4872798584809648,
+          "ranking_score": 0.4872798584809648
+        },
+        {
+          "record_id": "PRJ-0077",
+          "doc_type": "project",
+          "content": "Project PRJ-0077: Credit risk scoring model with monitoring for a banking client, using Docker, Azure ML, TensorFlow, Scikit-learn, PyTorch. Sector: banking. Outcome: Delivered on schedule with a 29% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Docker",
+              "Azure ML",
+              "TensorFlow",
+              "Scikit-learn",
+              "PyTorch"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0077"
+          },
+          "similarity": 0.47578951646032597,
+          "ranking_score": 0.47578951646032597
+        },
+        {
+          "record_id": "PRJ-0093",
+          "doc_type": "project",
+          "content": "Project PRJ-0093: Multi-cloud cost optimisation programme for a banking client, using GCP, Docker, GitHub Actions, Prometheus, Terraform. Sector: banking. Outcome: Delivered on schedule with a 22% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "GCP",
+              "Docker",
+              "GitHub Actions",
+              "Prometheus",
+              "Terraform"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0093"
+          },
+          "similarity": 0.4651801324113272,
+          "ranking_score": 0.4651801324113272
+        }
+      ]
+    },
+    {
+      "id": "project-healthcare-ai",
+      "retrieved_ids": [
+        "PRJ-0012",
+        "PRJ-0130",
+        "PRJ-0009",
+        "PRJ-0144",
+        "PRJ-0058"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Healthcare AI document processing delivered with AWS and Azure",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0012"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0012",
+        "PRJ-0130",
+        "PRJ-0009",
+        "PRJ-0144",
+        "PRJ-0058",
+        "PRJ-0134",
+        "PRJ-0129",
+        "PRJ-0062",
+        "PRJ-0148",
+        "PRJ-0061"
+      ],
+      "latency_ms": 16.14460665344571,
+      "latency_samples_ms": [
+        17.248300020582974,
+        15.64880000660196,
+        16.361699963454157,
+        15.544499969109893,
+        15.3273000032641,
+        15.590999973937869,
+        19.976699957624078,
+        20.266100007575005,
+        15.62199997715652,
+        15.163499978370965,
+        14.393099991139024,
+        15.110199979972094,
+        16.626099997665733,
+        15.034499985631555,
+        14.255299989599735
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0012",
+          "doc_type": "project",
+          "content": "Project PRJ-0012: Healthcare AI-powered document processing for a healthcare client, using AWS, Azure, Swift, Redis. Sector: healthcare. Outcome: Reduced manual processing time by 52%.",
+          "metadata": {
+            "client_sector": "healthcare",
+            "tech_stack": [
+              "AWS",
+              "Azure",
+              "Swift",
+              "Redis"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0012"
+          },
+          "similarity": 0.871591637069042,
+          "ranking_score": 0.871591637069042
+        },
+        {
+          "record_id": "PRJ-0130",
+          "doc_type": "project",
+          "content": "Project PRJ-0130: Public administration AI-powered document processing for a public administration client, using PostgreSQL, GraphQL, Azure, Django. Sector: public administration.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "PostgreSQL",
+              "GraphQL",
+              "Azure",
+              "Django"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0130"
+          },
+          "similarity": 0.5463148648392551,
+          "ranking_score": 0.5463148648392551
+        },
+        {
+          "record_id": "PRJ-0009",
+          "doc_type": "project",
+          "content": "Project PRJ-0009: Logistics AI-powered document processing for a logistics client, using PostgreSQL, Swift, Kotlin, Tailwind CSS, GraphQL, Python. Sector: logistics. Outcome: Improved system response time by 20%.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "PostgreSQL",
+              "Swift",
+              "Kotlin",
+              "Tailwind CSS",
+              "GraphQL",
+              "Python"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0009"
+          },
+          "similarity": 0.5408366526311047,
+          "ranking_score": 0.5408366526311047
+        },
+        {
+          "record_id": "PRJ-0144",
+          "doc_type": "project",
+          "content": "Project PRJ-0144: Retail AI-powered document processing for a retail client, using Kotlin, JavaScript, GCP, PostgreSQL, PyTorch. Sector: retail.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Kotlin",
+              "JavaScript",
+              "GCP",
+              "PostgreSQL",
+              "PyTorch"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0144"
+          },
+          "similarity": 0.5079764099863595,
+          "ranking_score": 0.5079764099863595
+        },
+        {
+          "record_id": "PRJ-0058",
+          "doc_type": "project",
+          "content": "Project PRJ-0058: Consent-aware patient record exchange with audit trail for a healthcare client, using HL7 FHIR, REST APIs, Consent Management, Data Residency, Azure. Sector: healthcare. Outcome: Delivered on schedule with a 15% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "healthcare",
+            "tech_stack": [
+              "HL7 FHIR",
+              "REST APIs",
+              "Consent Management",
+              "Data Residency",
+              "Azure"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0058"
+          },
+          "similarity": 0.4712360185048674,
+          "ranking_score": 0.4712360185048674
+        }
+      ]
+    },
+    {
+      "id": "project-retail-automation",
+      "retrieved_ids": [
+        "PRJ-0008",
+        "PRJ-0119",
+        "PRJ-0139",
+        "PRJ-0147",
+        "PRJ-0140"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Retail workflow automation with Python, MongoDB and ChromaDB",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0008"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0008",
+        "PRJ-0119",
+        "PRJ-0139",
+        "PRJ-0147",
+        "PRJ-0140",
+        "PRJ-0003",
+        "olivesoft-012",
+        "PRJ-0117",
+        "olivesoft-008",
+        "olivesoft-024"
+      ],
+      "latency_ms": 16.701733328712482,
+      "latency_samples_ms": [
+        18.76439998159185,
+        15.825800015591085,
+        16.80119999218732,
+        16.887900012079626,
+        16.6857999865897,
+        16.756400000303984,
+        18.09919998049736,
+        18.11559998895973,
+        15.824000001884997,
+        16.388299991376698,
+        16.048500023316592,
+        15.011199982836843,
+        16.64599997457117,
+        16.80149999447167,
+        15.870200004428625
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0008",
+          "doc_type": "project",
+          "content": "Project PRJ-0008: Retail internal workflow automation for a retail client, using MongoDB, ChromaDB, Redis, Python, PyTorch. Sector: retail. Outcome: Improved system response time by 27%.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "MongoDB",
+              "ChromaDB",
+              "Redis",
+              "Python",
+              "PyTorch"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0008"
+          },
+          "similarity": 0.8151924310593637,
+          "ranking_score": 0.8151924310593637
+        },
+        {
+          "record_id": "PRJ-0119",
+          "doc_type": "project",
+          "content": "Project PRJ-0119: Logistics internal workflow automation for a logistics client, using MongoDB, JavaScript, Pinecone, Flutter. Sector: logistics.",
+          "metadata": {
+            "client_sector": "logistics",
+            "tech_stack": [
+              "MongoDB",
+              "JavaScript",
+              "Pinecone",
+              "Flutter"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0119"
+          },
+          "similarity": 0.6381522408013317,
+          "ranking_score": 0.6381522408013317
+        },
+        {
+          "record_id": "PRJ-0139",
+          "doc_type": "project",
+          "content": "Project PRJ-0139: Banking internal workflow automation for a banking client, using Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript. Sector: banking.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Django",
+              "FastAPI",
+              "Tailwind CSS",
+              "Next.js",
+              "Java",
+              "React",
+              "Swift",
+              "JavaScript"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0139"
+          },
+          "similarity": 0.5590901758714022,
+          "ranking_score": 0.5590901758714022
+        },
+        {
+          "record_id": "PRJ-0147",
+          "doc_type": "project",
+          "content": "Project PRJ-0147: Retail API integration hub for a retail client, using TypeScript, MongoDB, Kubernetes, REST APIs. Sector: retail.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "TypeScript",
+              "MongoDB",
+              "Kubernetes",
+              "REST APIs"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0147"
+          },
+          "similarity": 0.5437866353916267,
+          "ranking_score": 0.5437866353916267
+        },
+        {
+          "record_id": "PRJ-0140",
+          "doc_type": "project",
+          "content": "Project PRJ-0140: Education internal workflow automation for an education client, using Tailwind CSS, GraphQL, Django, Next.js, ChromaDB. Sector: education.",
+          "metadata": {
+            "client_sector": "education",
+            "tech_stack": [
+              "Tailwind CSS",
+              "GraphQL",
+              "Django",
+              "Next.js",
+              "ChromaDB"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0140"
+          },
+          "similarity": 0.5344637829342042,
+          "ranking_score": 0.5344637829342042
+        }
+      ]
+    },
+    {
+      "id": "project-mobile-real-estate",
+      "retrieved_ids": [
+        "PRJ-0006",
+        "PRJ-0133",
+        "PRJ-0011",
+        "PRJ-0126",
+        "PRJ-0121"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Real estate mobile application for field agents using Flutter and Swift",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0006"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0006",
+        "PRJ-0133",
+        "PRJ-0011",
+        "PRJ-0126",
+        "PRJ-0121",
+        "PRJ-0117",
+        "PRJ-0138",
+        "PRJ-0131",
+        "PRJ-0129",
+        "PRJ-0134"
+      ],
+      "latency_ms": 20.2738600045753,
+      "latency_samples_ms": [
+        15.135699999518692,
+        17.871499992907047,
+        17.887099995277822,
+        14.406599977519363,
+        17.252499994356185,
+        19.083799968939275,
+        18.412900040857494,
+        15.796200023032725,
+        22.658500005491078,
+        28.231000003870577,
+        28.264300024602562,
+        27.294699975755066,
+        25.64669999992475,
+        21.224600030109286,
+        14.941800036467612
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0006",
+          "doc_type": "project",
+          "content": "Project PRJ-0006: Real estate mobile app for field agents for a real estate client, using Scikit-learn, Swift, Flutter, Terraform, Redis. Sector: real estate. Outcome: Reduced manual processing time by 35%.",
+          "metadata": {
+            "client_sector": "real estate",
+            "tech_stack": [
+              "Scikit-learn",
+              "Swift",
+              "Flutter",
+              "Terraform",
+              "Redis"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0006"
+          },
+          "similarity": 0.837098826121282,
+          "ranking_score": 0.837098826121282
+        },
+        {
+          "record_id": "PRJ-0133",
+          "doc_type": "project",
+          "content": "Project PRJ-0133: Telecom mobile app for field agents for a telecom client, using Flutter, JavaScript, LangChain, Next.js. Sector: telecom.",
+          "metadata": {
+            "client_sector": "telecom",
+            "tech_stack": [
+              "Flutter",
+              "JavaScript",
+              "LangChain",
+              "Next.js"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0133"
+          },
+          "similarity": 0.6239693004103672,
+          "ranking_score": 0.6239693004103672
+        },
+        {
+          "record_id": "PRJ-0011",
+          "doc_type": "project",
+          "content": "Project PRJ-0011: Insurance mobile app for field agents for an insurance client, using Flutter, Redis, LlamaIndex, MongoDB, GCP. Sector: insurance. Outcome: Delivered on schedule with a 22% reduction in reported defects.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Flutter",
+              "Redis",
+              "LlamaIndex",
+              "MongoDB",
+              "GCP"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0011"
+          },
+          "similarity": 0.5892602528599451,
+          "ranking_score": 0.5892602528599451
+        },
+        {
+          "record_id": "PRJ-0126",
+          "doc_type": "project",
+          "content": "Project PRJ-0126: Retail mobile app for field agents for a retail client, using CI/CD, FastAPI, n8n. Sector: retail.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "CI/CD",
+              "FastAPI",
+              "n8n"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0126"
+          },
+          "similarity": 0.5622307198710654,
+          "ranking_score": 0.5622307198710654
+        },
+        {
+          "record_id": "PRJ-0121",
+          "doc_type": "project",
+          "content": "Project PRJ-0121: Education mobile app for field agents for an education client, using Node.js, Django, GCP, REST APIs, Swift, PostgreSQL, JavaScript, Java, React. Sector: education.",
+          "metadata": {
+            "client_sector": "education",
+            "tech_stack": [
+              "Node.js",
+              "Django",
+              "GCP",
+              "REST APIs",
+              "Swift",
+              "PostgreSQL",
+              "JavaScript",
+              "Java",
+              "React"
+            ],
+            "has_outcome": false,
+            "record_id": "PRJ-0121"
+          },
+          "similarity": 0.5204045147514859,
+          "ranking_score": 0.5204045147514859
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-olia-agentic-rag",
+      "retrieved_ids": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-014",
+        "olivesoft-029",
+        "olivesoft-004"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "OliveSoft agentic AI platform with FastAPI microservices, RAG, React and multiple LLM providers",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-027"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-014",
+        "olivesoft-029",
+        "olivesoft-004",
+        "olivesoft-013",
+        "olivesoft-002",
+        "olivesoft-032",
+        "olivesoft-034",
+        "olivesoft-008"
+      ],
+      "latency_ms": 24.08355999117096,
+      "latency_samples_ms": [
+        24.23290000297129,
+        20.024699973873794,
+        18.63099995534867,
+        24.165900016669184,
+        34.134100016672164,
+        45.998699963092804,
+        25.566999975126237,
+        21.322700020391494,
+        33.7009999784641,
+        19.171499996446073,
+        20.08919999934733,
+        17.946999985724688,
+        19.71580000827089,
+        18.487799970898777,
+        18.064100004266948
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-027",
+          "doc_type": "project",
+          "content": "OliveSoft project: OLIA agentic AI full-stack platform. Type: pfe internship project, edition 2026. Domain: generative AI, agents, fullstack. Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices. Tech stack: Python, FastAPI, React, TypeScript, RAG, OpenAI, Ollama. Status: proposed. Client: OliveSoft (internal product).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "generative AI",
+              "agents",
+              "fullstack"
+            ],
+            "tech_stack": [
+              "Python",
+              "FastAPI",
+              "React",
+              "TypeScript",
+              "RAG",
+              "OpenAI",
+              "Ollama"
+            ],
+            "client": "OliveSoft (internal product)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 4,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-027"
+          },
+          "similarity": 0.7707416195056578,
+          "ranking_score": 0.7707416195056578
+        },
+        {
+          "record_id": "olivesoft-028",
+          "doc_type": "project",
+          "content": "OliveSoft project: OLIA cloud-agnostic DevSecOps. Type: pfe internship project, edition 2026. Domain: devsecops, cloud, MLOps, observability. Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Tech stack: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Status: proposed. Client: OliveSoft (internal product).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "devsecops",
+              "cloud",
+              "MLOps",
+              "observability"
+            ],
+            "tech_stack": [
+              "Kubernetes",
+              "Docker",
+              "GitHub Actions",
+              "Grafana",
+              "Prometheus",
+              "FastAPI",
+              "Keycloak"
+            ],
+            "client": "OliveSoft (internal product)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 7,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-028"
+          },
+          "similarity": 0.6040946548272464,
+          "ranking_score": 0.6040946548272464
+        },
+        {
+          "record_id": "olivesoft-014",
+          "doc_type": "project",
+          "content": "OliveSoft project: Digital-marketing LLM chatbot. Type: pfe internship project, edition 2025. Domain: AI/LLM, chatbot, digital marketing. Design, fine-tune, deploy and monitor a contextual digital-marketing chatbot. Tech stack: Python, Rasa, Dialogflow, Mistral, Claude, Gemini, OpenAI. Status: proposed.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2025",
+            "domain": [
+              "AI/LLM",
+              "chatbot",
+              "digital marketing"
+            ],
+            "tech_stack": [
+              "Python",
+              "Rasa",
+              "Dialogflow",
+              "Mistral",
+              "Claude",
+              "Gemini",
+              "OpenAI"
+            ],
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 16,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-014"
+          },
+          "similarity": 0.5163904214692274,
+          "ranking_score": 0.5163904214692274
+        },
+        {
+          "record_id": "olivesoft-029",
+          "doc_type": "project",
+          "content": "OliveSoft project: OLIA product management and QA. Type: pfe internship project, edition 2026. Domain: product management, QA, generative AI. Manage the OLIA roadmap, backlog, specifications, UAT, beta feedback and product analytics. Tech stack: Agile, Scrum, Product Management, React, Python, Jira. Status: proposed. Client: OliveSoft (internal product).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "product management",
+              "QA",
+              "generative AI"
+            ],
+            "tech_stack": [
+              "Agile",
+              "Scrum",
+              "Product Management",
+              "React",
+              "Python",
+              "Jira"
+            ],
+            "client": "OliveSoft (internal product)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 6,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-029"
+          },
+          "similarity": 0.5103593882237326,
+          "ranking_score": 0.5103593882237326
+        },
+        {
+          "record_id": "olivesoft-004",
+          "doc_type": "project",
+          "content": "OliveSoft project: MuleSoft platform and business data flows. Type: pfe internship project, edition 2023/2024. Domain: API integration, data integration. Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Tech stack: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Status: proposed.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2023/2024",
+            "domain": [
+              "API integration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "MuleSoft",
+              "Microservices",
+              "Datadog",
+              "CI/CD",
+              "Azure DevOps"
+            ],
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 6,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-004"
+          },
+          "similarity": 0.5039094943874601,
+          "ranking_score": 0.5039094943874601
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-odoo-n8n-migration",
+      "retrieved_ids": [
+        "olivesoft-025",
+        "PRJ-0045",
+        "PRJ-0046",
+        "PRJ-0003",
+        "olivesoft-008"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Odoo ERP migration from BoondManager with PostgreSQL, custom Python modules and n8n workflows",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-025"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-025",
+        "PRJ-0045",
+        "PRJ-0046",
+        "PRJ-0003",
+        "olivesoft-008",
+        "PRJ-0008",
+        "PRJ-0109",
+        "PRJ-0106",
+        "PRJ-0007",
+        "olivesoft-024"
+      ],
+      "latency_ms": 23.445506669425715,
+      "latency_samples_ms": [
+        26.742300018668175,
+        28.256300021894276,
+        27.298900007735938,
+        23.457199975382537,
+        19.862900022417307,
+        22.882600023876876,
+        24.931899970397353,
+        19.963599974289536,
+        22.76459999848157,
+        21.80200000293553,
+        21.11570001579821,
+        21.44910005154088,
+        20.26840002508834,
+        26.383899967186153,
+        24.503199965693057
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-025",
+          "doc_type": "project",
+          "content": "OliveSoft project: Odoo Community internal integration. Type: pfe internship project, edition 2026. Domain: ERP, open source, internal tooling. Replace BoondManager using customized Odoo modules, data migration and n8n workflow automation. Tech stack: Odoo Community, Python, PostgreSQL, JavaScript, XML, n8n. Status: proposed. Client: OliveSoft (internal). Notes: Source slide title and final task were partially truncated.",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "ERP",
+              "open source",
+              "internal tooling"
+            ],
+            "tech_stack": [
+              "Odoo Community",
+              "Python",
+              "PostgreSQL",
+              "JavaScript",
+              "XML",
+              "n8n"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "medium",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 2,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-025"
+          },
+          "similarity": 0.7361258428678767,
+          "ranking_score": 0.7361258428678767
+        },
+        {
+          "record_id": "PRJ-0045",
+          "doc_type": "project",
+          "content": "Project PRJ-0045: Odoo ERP rollout for distribution and invoicing for a retail client, using Odoo Community, PostgreSQL, Data Migration, JavaScript, REST APIs. Sector: retail. Outcome: Delivered on schedule with a 22% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "retail",
+            "tech_stack": [
+              "Odoo Community",
+              "PostgreSQL",
+              "Data Migration",
+              "JavaScript",
+              "REST APIs"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0045"
+          },
+          "similarity": 0.6227267017427439,
+          "ranking_score": 0.6227267017427439
+        },
+        {
+          "record_id": "PRJ-0046",
+          "doc_type": "project",
+          "content": "Project PRJ-0046: Odoo custom modules and bank statement reconciliation for a banking client, using Odoo Community, PostgreSQL, XML, n8n, Data Migration. Sector: banking. Outcome: Delivered on schedule with a 19% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "banking",
+            "tech_stack": [
+              "Odoo Community",
+              "PostgreSQL",
+              "XML",
+              "n8n",
+              "Data Migration"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0046"
+          },
+          "similarity": 0.5721738373191468,
+          "ranking_score": 0.5721738373191468
+        },
+        {
+          "record_id": "PRJ-0003",
+          "doc_type": "project",
+          "content": "Project PRJ-0003: Manufacturing internal workflow automation for a manufacturing client, using GraphQL, AWS, React, PostgreSQL, TypeScript, Pinecone. Sector: manufacturing. Outcome: Cut infrastructure costs by 34% after migration.",
+          "metadata": {
+            "client_sector": "manufacturing",
+            "tech_stack": [
+              "GraphQL",
+              "AWS",
+              "React",
+              "PostgreSQL",
+              "TypeScript",
+              "Pinecone"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0003"
+          },
+          "similarity": 0.43529267100029756,
+          "ranking_score": 0.43529267100029756
+        },
+        {
+          "record_id": "olivesoft-008",
+          "doc_type": "project",
+          "content": "OliveSoft project: Human-resources process automation. Type: pfe internship project, edition 2023/2024. Domain: HR, data integration, BI. Automate HR extraction, warehousing, email and dashboards from Boond ERP. Tech stack: BoondManager API, Talend, Azure, Apache Airflow, Power BI. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2023/2024",
+            "domain": [
+              "HR",
+              "data integration",
+              "BI"
+            ],
+            "tech_stack": [
+              "BoondManager API",
+              "Talend",
+              "Azure",
+              "Apache Airflow",
+              "Power BI"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 10,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-008"
+          },
+          "similarity": 0.4098812866323737,
+          "ranking_score": 0.4098812866323737
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-iso27001",
+      "retrieved_ids": [
+        "olivesoft-036",
+        "PRJ-0041",
+        "PRJ-0042",
+        "PRJ-0105",
+        "PRJ-0033"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "ISO 27001 Annex A gap assessment and ISMS policy improvement",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-036"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-036",
+        "PRJ-0041",
+        "PRJ-0042",
+        "PRJ-0105",
+        "PRJ-0033",
+        "PRJ-0091",
+        "PRJ-0034",
+        "PRJ-0066",
+        "PRJ-0040",
+        "PRJ-0018"
+      ],
+      "latency_ms": 18.318640002204727,
+      "latency_samples_ms": [
+        22.499899961985648,
+        22.868799977004528,
+        16.62499998928979,
+        16.148499969858676,
+        15.96590003464371,
+        15.603900013957173,
+        16.36000000871718,
+        21.226000040769577,
+        19.88460001302883,
+        20.45670000370592,
+        22.048900020308793,
+        16.197899996768683,
+        15.934199967887253,
+        14.645799994468689,
+        18.313500040676445
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-036",
+          "doc_type": "project",
+          "content": "OliveSoft project: ISO 27001 compliance assessment. Type: pfe internship project, edition 2026. Domain: information security, compliance. Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Tech stack: ISO 27001, ISMS, Confluence, Jira, GED. Status: proposed. Client: OliveSoft (internal).",
+          "metadata": {
+            "relationship": "pfe_internship_project",
+            "edition": "2026",
+            "domain": [
+              "information security",
+              "compliance"
+            ],
+            "tech_stack": [
+              "ISO 27001",
+              "ISMS",
+              "Confluence",
+              "Jira",
+              "GED"
+            ],
+            "client": "OliveSoft (internal)",
+            "outcome": "proposed",
+            "confidence": "high",
+            "sources": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 13,
+                "tier": 1
+              }
+            ],
+            "record_id": "olivesoft-036"
+          },
+          "similarity": 0.5838679771794436,
+          "ranking_score": 0.5838679771794436
+        },
+        {
+          "record_id": "PRJ-0041",
+          "doc_type": "project",
+          "content": "Project PRJ-0041: ISO 27001 certification readiness programme for a healthcare client, using ISO 27001, ISMS, Confluence, Risk Assessment, Jira. Sector: healthcare. Outcome: Delivered on schedule with a 42% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "healthcare",
+            "tech_stack": [
+              "ISO 27001",
+              "ISMS",
+              "Confluence",
+              "Risk Assessment",
+              "Jira"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0041"
+          },
+          "similarity": 0.5549634601286354,
+          "ranking_score": 0.5549634601286354
+        },
+        {
+          "record_id": "PRJ-0042",
+          "doc_type": "project",
+          "content": "Project PRJ-0042: Security policy framework and internal audit cycle for an insurance client, using ISO 27001, ISMS, Confluence, Threat Modeling, Audit Preparation. Sector: insurance. Outcome: Delivered on schedule with a 25% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "insurance",
+            "tech_stack": [
+              "ISO 27001",
+              "ISMS",
+              "Confluence",
+              "Threat Modeling",
+              "Audit Preparation"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0042"
+          },
+          "similarity": 0.484780459134579,
+          "ranking_score": 0.484780459134579
+        },
+        {
+          "record_id": "PRJ-0105",
+          "doc_type": "project",
+          "content": "Project PRJ-0105: Security policy refresh and staff training for a public administration client, using Microsoft Entra ID, Policy Writing, Risk Assessment, Threat Modeling, ISO 27001. Sector: public administration. Outcome: Delivered on schedule with a 45% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Microsoft Entra ID",
+              "Policy Writing",
+              "Risk Assessment",
+              "Threat Modeling",
+              "ISO 27001"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0105"
+          },
+          "similarity": 0.36174539657403276,
+          "ranking_score": 0.36174539657403276
+        },
+        {
+          "record_id": "PRJ-0033",
+          "doc_type": "project",
+          "content": "Project PRJ-0033: Citizen services CRM Analytics for a public administration client, using Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync. Sector: public administration. Outcome: Delivered on schedule with a 34% reduction in manual effort.",
+          "metadata": {
+            "client_sector": "public administration",
+            "tech_stack": [
+              "Salesforce",
+              "CRM Analytics",
+              "Lightning",
+              "Data Residency",
+              "Offline Sync"
+            ],
+            "has_outcome": true,
+            "record_id": "PRJ-0033"
+          },
+          "similarity": 0.29908696312023797,
+          "ranking_score": 0.29908696312023797
+        }
+      ]
+    }
+  ],
+  "variant": "semantic_baseline",
+  "ndcg_at_k": 0.870965016023148,
+  "precision_at_10": 0.1272727272727273,
+  "recall_at_10": 0.9545454545454546,
+  "empty_result_rate": 0,
+  "average_latency_ms": 19.013083027322974,
+  "latency_repeats": 15,
+  "latency_scope": "warm serial retrieval including query embedding; excludes initialization and I/O",
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "corpus_chunks": 543
+}

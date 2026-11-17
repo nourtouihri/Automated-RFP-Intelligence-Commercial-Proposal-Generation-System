@@ -1,0 +1,12 @@
+# Generator (render, validate, compose)
+python-pptx>=1.0
+pydantic>=2.6
+pillow>=10
+# Tests
+pytest>=8
+# Feasibility harness only (ONNX MiniLM, no torch needed)
+numpy>=1.26
+onnxruntime>=1.17
+tokenizers>=0.15
+# LLM adapter (also in the root requirements.txt)
+httpx

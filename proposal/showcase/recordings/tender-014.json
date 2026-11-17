@@ -1,0 +1,1817 @@
+{
+ "source": {
+  "run": "llm-run-final-sim",
+  "model": "openai/gpt-oss-20b",
+  "kind": "no_bid",
+  "note": "replies recorded from a real run; hits re-retrieved with the same in-memory RAG (run_llm.py)"
+ },
+ "tender": {
+  "id": "tender-014",
+  "title": "Catering and Facilities Management Services Framework",
+  "issuer": "St. Adalbert Regional Health Trust",
+  "deadline": "2026-10-31",
+  "raw_text": "St. Adalbert Regional Health Trust is retendering catering, vending, and soft facilities management across four hospital sites, totalling roughly 1.1 million meals per month. The framework runs for five years with two break points. Current performance on patient satisfaction is poor and the trust expects measurable improvement. Suppliers must evidence allergen management to current standards, and must meet the trust's ethical sourcing policy. Two sites are operating under an interim arrangement that ends in eleven weeks, so a transition plan is required. Pricing must be transparent and separable by site and by service line. The trust is not seeking a proprietary system as part of this contract.",
+  "source": "simulated_feed",
+  "requirements": [
+   "Five-year framework with two break points",
+   "Allergen management evidence to current standards",
+   "Ethical sourcing policy compliance",
+   "Transition plan for two sites on an interim arrangement ending in eleven weeks",
+   "Transparent pricing separable by site and service line"
+  ]
+ },
+ "requirement_matches": {
+  "Five-year framework with two break points": [
+   {
+    "content": "OliveSoft project initiative 'Project allocation by resource availability' (2025, status: proposed, relationship: pfe_internship_project). Optimize project staffing, timesheets, invoicing and financial KPIs with Salesforce and ERP integration. Domains: resource management, Salesforce, finance. Technologies: Salesforce, Apex, Lightning, Talend, Boond, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-022",
+     "name": "Project allocation by resource availability",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "resource management",
+      "Salesforce",
+      "finance"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "Talend",
+      "Boond",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 24,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.30789270398810614,
+    "ranking_score": 0.38789270398810616
+   },
+   {
+    "content": "OliveSoft project initiative 'OLIA product management and QA' (2026, status: proposed, relationship: pfe_internship_project). Manage the OLIA roadmap, backlog, specifications, UAT, beta feedback and product analytics. Domains: product management, QA, generative AI. Technologies: Agile, Scrum, Product Management, React, Python, Jira. Planned work: . Client context: OliveSoft (internal product).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-029",
+     "name": "OLIA product management and QA",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal product)",
+     "domains": [
+      "product management",
+      "QA",
+      "generative AI"
+     ],
+     "tech_stack": [
+      "Agile",
+      "Scrum",
+      "Product Management",
+      "React",
+      "Python",
+      "Jira"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 6,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2845016681237906,
+    "ranking_score": 0.3645016681237906
+   },
+   {
+    "content": "OliveSoft project initiative 'Salesforce Customer 360 and loyalty' (2026, status: proposed, relationship: pfe_internship_project). Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Domains: CRM, customer loyalty, Salesforce. Technologies: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-031",
+     "name": "Salesforce Customer 360 and loyalty",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "Not specified",
+     "domains": [
+      "CRM",
+      "customer loyalty",
+      "Salesforce"
+     ],
+     "tech_stack": [
+      "Salesforce Data Cloud",
+      "Salesforce Core",
+      "Einstein Agentforce",
+      "Apex",
+      "Lightning"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 9,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.27673525301053864,
+    "ranking_score": 0.35673525301053866
+   },
+   {
+    "content": "OliveSoft project initiative 'Annual employee evaluation system' (2025, status: proposed, relationship: pfe_internship_project). Automate employee evaluations, notifications, scoring and KPI dashboards in Salesforce. Domains: HR, Salesforce. Technologies: Salesforce, Apex, Lightning, SQL, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-020",
+     "name": "Annual employee evaluation system",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "HR",
+      "Salesforce"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "SQL",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 22,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2669944047286712,
+    "ranking_score": 0.3469944047286712
+   },
+   {
+    "content": "OliveSoft project initiative 'OliveSoft data-driven go-to-market strategy' (2026, status: proposed, relationship: pfe_internship_project). Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Domains: sales, go-to-market, business development. Technologies: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-032",
+     "name": "OliveSoft data-driven go-to-market strategy",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "sales",
+      "go-to-market",
+      "business development"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Apollo",
+      "Brevo",
+      "BI"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2646017318283536,
+    "ranking_score": 0.34460173182835363
+   }
+  ],
+  "Allergen management evidence to current standards": [
+   {
+    "content": "OliveSoft project initiative 'ISO 27001 compliance assessment' (2026, status: proposed, relationship: pfe_internship_project). Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Domains: information security, compliance. Technologies: ISO 27001, ISMS, Confluence, Jira, GED. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-036",
+     "name": "ISO 27001 compliance assessment",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "information security",
+      "compliance"
+     ],
+     "tech_stack": [
+      "ISO 27001",
+      "ISMS",
+      "Confluence",
+      "Jira",
+      "GED"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 13,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.14516010652078848,
+    "ranking_score": 0.2251601065207885
+   },
+   {
+    "content": "OliveSoft project initiative 'Cross-brand product recommendation' (2025, status: proposed, relationship: pfe_internship_project). Recommend personalized cross-brand outfits from customer preferences, history and sales periods. Domains: retail, luxury, recommendation, AI. Technologies: MuleSoft, DataWeave, AI Chain, BigQuery, GCP. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-021",
+     "name": "Cross-brand product recommendation",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "Not specified",
+     "domains": [
+      "retail",
+      "luxury",
+      "recommendation",
+      "AI"
+     ],
+     "tech_stack": [
+      "MuleSoft",
+      "DataWeave",
+      "AI Chain",
+      "BigQuery",
+      "GCP"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 23,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.10952739868876835,
+    "ranking_score": 0.18952739868876833
+   },
+   {
+    "content": "OliveSoft project initiative 'Talend reporting solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Domains: reporting, BI, data integration. Technologies: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-003",
+     "name": "Talend reporting solution",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "reporting",
+      "BI",
+      "data integration"
+     ],
+     "tech_stack": [
+      "Talend",
+      "Power BI",
+      "GCP",
+      "Datadog",
+      "ServiceNow",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.10057625183717368,
+    "ranking_score": 0.18057625183717368
+   },
+   {
+    "content": "Employee_042 (Senior Data Platform Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it. Tech stack: BigQuery, Snowflake, Data lineage, dbt.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0042",
+     "person": "Employee_042",
+     "role": "Senior Data Platform Engineer",
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.17226114398700818,
+    "ranking_score": 0.17226114398700818
+   },
+   {
+    "content": "Employee_050 (Analytics Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Enforced submission specifications that reject malformed files with precise error messages, and ran a documented de-identification review before open data release. Tech stack: BigQuery, Snowflake, Data lineage, dbt.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0050",
+     "person": "Employee_050",
+     "role": "Analytics Engineer",
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.1716948987495631,
+    "ranking_score": 0.1716948987495631
+   }
+  ],
+  "Ethical sourcing policy compliance": [
+   {
+    "content": "OliveSoft project initiative 'ISO 27001 compliance assessment' (2026, status: proposed, relationship: pfe_internship_project). Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Domains: information security, compliance. Technologies: ISO 27001, ISMS, Confluence, Jira, GED. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-036",
+     "name": "ISO 27001 compliance assessment",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "information security",
+      "compliance"
+     ],
+     "tech_stack": [
+      "ISO 27001",
+      "ISMS",
+      "Confluence",
+      "Jira",
+      "GED"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 13,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.4461553375141595,
+    "ranking_score": 0.5261553375141594
+   },
+   {
+    "content": "Prior-art crawler with auditable matching for a public sector (justice) authority (client sector: public sector (justice)). Tech stack: Web crawler, Similarity detection, Elasticsearch, Audit logging. Outcome: Every match decision reproducible for external appeal; class code filters across 6 classes..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0010",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    },
+    "similarity": 0.33746345346558004,
+    "ranking_score": 0.33746345346558004
+   },
+   {
+    "content": "Employee_033 (Information Retrieval Engineer) worked on 'Prior-art crawler with auditable matching for a public sector (justice) authority' in the public sector (justice) sector. Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler. Tech stack: Web crawler, Similarity detection, Elasticsearch, Audit logging.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0033",
+     "person": "Employee_033",
+     "role": "Information Retrieval Engineer",
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    },
+    "similarity": 0.3323604649689323,
+    "ranking_score": 0.3323604649689323
+   },
+   {
+    "content": "Validated submissions and open data release pipeline for a public statistics body (client sector: public statistics). Tech stack: Schema validation, De-identification, Great Expectations, GCP. Outcome: Non-conforming files rejected with specific errors; every release passes a signed disclosure review..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0028",
+     "client_sector": "public statistics",
+     "tech_stack": [
+      "Schema validation",
+      "De-identification",
+      "Great Expectations",
+      "GCP"
+     ]
+    },
+    "similarity": 0.3304463013836467,
+    "ranking_score": 0.3304463013836467
+   },
+   {
+    "content": "OliveSoft project initiative 'Industrialized Power BI development' (2026, status: proposed, relationship: pfe_internship_project). Version, test and deploy Power BI assets through governed CI/CD environments. Domains: BI, devops, governance. Technologies: Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor, DAX Studio. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-026",
+     "name": "Industrialized Power BI development",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "Not specified",
+     "domains": [
+      "BI",
+      "devops",
+      "governance"
+     ],
+     "tech_stack": [
+      "Power BI",
+      "Azure DevOps",
+      "Git",
+      "YAML Pipelines",
+      "Tabular Editor",
+      "DAX Studio"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 3,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.24405289403242011,
+    "ranking_score": 0.3240528940324201
+   }
+  ],
+  "Transition plan for two sites on an interim arrangement ending in eleven weeks": [
+   {
+    "content": "OliveSoft project initiative 'OliveSoft website redesign' (2026, status: proposed, relationship: pfe_internship_project). Redesign the OliveSoft website for modern UX, performance, mobile usability and commercial SEO. Domains: web, UX/UI, SEO. Technologies: Drupal, HTML, CSS, Figma, Next.js, React, Google Analytics. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-035",
+     "name": "OliveSoft website redesign",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "web",
+      "UX/UI",
+      "SEO"
+     ],
+     "tech_stack": [
+      "Drupal",
+      "HTML",
+      "CSS",
+      "Figma",
+      "Next.js",
+      "React",
+      "Google Analytics"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 12,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.32297412531039366,
+    "ranking_score": 0.40297412531039367
+   },
+   {
+    "content": "OliveSoft project initiative 'Project allocation by resource availability' (2025, status: proposed, relationship: pfe_internship_project). Optimize project staffing, timesheets, invoicing and financial KPIs with Salesforce and ERP integration. Domains: resource management, Salesforce, finance. Technologies: Salesforce, Apex, Lightning, Talend, Boond, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-022",
+     "name": "Project allocation by resource availability",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "resource management",
+      "Salesforce",
+      "finance"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "Apex",
+      "Lightning",
+      "Talend",
+      "Boond",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 24,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2855425831356365,
+    "ranking_score": 0.36554258313563653
+   },
+   {
+    "content": "OliveSoft project initiative 'OliveSoft data-driven go-to-market strategy' (2026, status: proposed, relationship: pfe_internship_project). Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Domains: sales, go-to-market, business development. Technologies: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-032",
+     "name": "OliveSoft data-driven go-to-market strategy",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "sales",
+      "go-to-market",
+      "business development"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Apollo",
+      "Brevo",
+      "BI"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.28135524620693336,
+    "ranking_score": 0.3613552462069334
+   },
+   {
+    "content": "OliveSoft project initiative 'Industrialized Power BI development' (2026, status: proposed, relationship: pfe_internship_project). Version, test and deploy Power BI assets through governed CI/CD environments. Domains: BI, devops, governance. Technologies: Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor, DAX Studio. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-026",
+     "name": "Industrialized Power BI development",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "Not specified",
+     "domains": [
+      "BI",
+      "devops",
+      "governance"
+     ],
+     "tech_stack": [
+      "Power BI",
+      "Azure DevOps",
+      "Git",
+      "YAML Pipelines",
+      "Tabular Editor",
+      "DAX Studio"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 3,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2587520432999653,
+    "ranking_score": 0.33875204329996533
+   },
+   {
+    "content": "OliveSoft project initiative 'Asynchronous Talend flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Migrate SOAP services to REST APIs and improve Talend routes with automated tests. Domains: ESB, data integration. Technologies: Talend Open Studio, Apache Camel, ESB, REST API, TMC. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-007",
+     "name": "Asynchronous Talend flows",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "ESB",
+      "data integration"
+     ],
+     "tech_stack": [
+      "Talend Open Studio",
+      "Apache Camel",
+      "ESB",
+      "REST API",
+      "TMC"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 9,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.2513441129319317,
+    "ranking_score": 0.3313441129319317
+   }
+  ],
+  "Transparent pricing separable by site and service line": [
+   {
+    "content": "OliveSoft project initiative 'Salesforce Customer 360 and loyalty' (2026, status: proposed, relationship: pfe_internship_project). Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Domains: CRM, customer loyalty, Salesforce. Technologies: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-031",
+     "name": "Salesforce Customer 360 and loyalty",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "Not specified",
+     "domains": [
+      "CRM",
+      "customer loyalty",
+      "Salesforce"
+     ],
+     "tech_stack": [
+      "Salesforce Data Cloud",
+      "Salesforce Core",
+      "Einstein Agentforce",
+      "Apex",
+      "Lightning"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 9,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.26873362002775797,
+    "ranking_score": 0.348733620027758
+   },
+   {
+    "content": "Customer self-service web portal for a telecom provider (client sector: telecom). Tech stack: React, Next.js, TypeScript, PostgreSQL. Outcome: Self-service adoption up 18%; call volumes fell in the first quarter..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0024",
+     "client_sector": "telecom",
+     "tech_stack": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+     ]
+    },
+    "similarity": 0.33929935305608083,
+    "ranking_score": 0.33929935305608083
+   },
+   {
+    "content": "OliveSoft project initiative 'OliveSoft data-driven go-to-market strategy' (2026, status: proposed, relationship: pfe_internship_project). Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Domains: sales, go-to-market, business development. Technologies: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Planned work: . Client context: OliveSoft (internal).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-032",
+     "name": "OliveSoft data-driven go-to-market strategy",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "sales",
+      "go-to-market",
+      "business development"
+     ],
+     "tech_stack": [
+      "Salesforce",
+      "ValueOrbit",
+      "LinkedIn",
+      "Clay",
+      "Apollo",
+      "Brevo",
+      "BI"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.25668032529560886,
+    "ranking_score": 0.3366803252956089
+   },
+   {
+    "content": "B2B ordering web shop for a consumer goods distributor (client sector: consumer goods). Tech stack: Next.js, Spring Boot, PostgreSQL, REST APIs. Outcome: Online share of orders grew to 58% within a year..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0027",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "Next.js",
+      "Spring Boot",
+      "PostgreSQL",
+      "REST APIs"
+     ]
+    },
+    "similarity": 0.3011304594285241,
+    "ranking_score": 0.3011304594285241
+   },
+   {
+    "content": "Multi-market sales and returns lakehouse model for a retail brand (client sector: retail). Tech stack: Databricks, Lakehouse, Kafka, Data observability. Outcome: Currency-normalised sales across 12 markets; pipeline incidents detected 37% faster..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0020",
+     "client_sector": "retail",
+     "tech_stack": [
+      "Databricks",
+      "Lakehouse",
+      "Kafka",
+      "Data observability"
+     ]
+    },
+    "similarity": 0.300977641207413,
+    "ranking_score": 0.300977641207413
+   }
+  ]
+ },
+ "cv_matches": [
+  {
+   "content": "Employee_044 (Customer Data Architect) worked on 'Consent-aware customer data platform on GCP for a retail brand' in the retail sector. Built consent and opt-out propagation so downstream marketing tools honoured a customer withdrawal the same day. Tech stack: BigQuery, GCP, Consent management.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0044",
+    "person": "Employee_044",
+    "role": "Customer Data Architect",
+    "project_name": "Consent-aware customer data platform on GCP for a retail brand",
+    "client_sector": "retail",
+    "tech_stack": [
+     "BigQuery",
+     "GCP",
+     "Consent management"
+    ]
+   },
+   "similarity": 0.32654036386232677,
+   "ranking_score": 0.32654036386232677
+  },
+  {
+   "content": "Employee_007 (Data Engineer) worked on 'Consent-aware customer data platform on GCP for a retail brand' in the retail sector. Built consent and opt-out propagation so downstream marketing tools honoured a customer withdrawal the same day. Tech stack: BigQuery, GCP, Consent management, Pub/Sub.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0007",
+    "person": "Employee_007",
+    "role": "Data Engineer",
+    "project_name": "Consent-aware customer data platform on GCP for a retail brand",
+    "client_sector": "retail",
+    "tech_stack": [
+     "BigQuery",
+     "GCP",
+     "Consent management",
+     "Pub/Sub"
+    ]
+   },
+   "similarity": 0.3251330795507613,
+   "ranking_score": 0.3251330795507613
+  },
+  {
+   "content": "Employee_005 (Senior BI Consultant) worked on 'HR KPI semantic model and executive dashboards for a healthcare organisation' in the healthcare sector. Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team. Tech stack: Power BI, KPI governance.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0005",
+    "person": "Employee_005",
+    "role": "Senior BI Consultant",
+    "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+    "client_sector": "healthcare",
+    "tech_stack": [
+     "Power BI",
+     "KPI governance"
+    ]
+   },
+   "similarity": 0.2754322996494487,
+   "ranking_score": 0.2754322996494487
+  }
+ ],
+ "project_matches": [
+  {
+   "content": "OliveSoft project initiative 'ISO 27001 compliance assessment' (2026, status: proposed, relationship: pfe_internship_project). Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Domains: information security, compliance. Technologies: ISO 27001, ISMS, Confluence, Jira, GED. Planned work: . Client context: OliveSoft (internal).",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-036",
+    "name": "ISO 27001 compliance assessment",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2026",
+    "client": "OliveSoft (internal)",
+    "domains": [
+     "information security",
+     "compliance"
+    ],
+    "tech_stack": [
+     "ISO 27001",
+     "ISMS",
+     "Confluence",
+     "Jira",
+     "GED"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "mergedpfebook2026.pdf",
+      "page": 13,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.4613928693541804,
+   "ranking_score": 0.5413928693541804
+  },
+  {
+   "content": "OliveSoft project initiative 'Salesforce Customer 360 and loyalty' (2026, status: proposed, relationship: pfe_internship_project). Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes. Domains: CRM, customer loyalty, Salesforce. Technologies: Salesforce Data Cloud, Salesforce Core, Einstein Agentforce, Apex, Lightning. Planned work: . Client context: Not specified.",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-031",
+    "name": "Salesforce Customer 360 and loyalty",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2026",
+    "client": "Not specified",
+    "domains": [
+     "CRM",
+     "customer loyalty",
+     "Salesforce"
+    ],
+    "tech_stack": [
+     "Salesforce Data Cloud",
+     "Salesforce Core",
+     "Einstein Agentforce",
+     "Apex",
+     "Lightning"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "mergedpfebook2026.pdf",
+      "page": 9,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.31014352797483524,
+   "ranking_score": 0.39014352797483526
+  },
+  {
+   "content": "OliveSoft project initiative 'HR reporting and monitoring platform' (2025, status: proposed, relationship: pfe_internship_project). Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems. Domains: HR, reporting, data integration. Technologies: Talend, Power BI, Azure SQL, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-010",
+    "name": "HR reporting and monitoring platform",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2025",
+    "client": "OliveSoft (internal)",
+    "domains": [
+     "HR",
+     "reporting",
+     "data integration"
+    ],
+    "tech_stack": [
+     "Talend",
+     "Power BI",
+     "Azure SQL",
+     "Azure DevOps"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2025.pdf",
+      "page": 12,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.28971984958527025,
+   "ranking_score": 0.36971984958527027
+  },
+  {
+   "content": "OliveSoft project initiative 'Talend reporting solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Domains: reporting, BI, data integration. Technologies: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Planned work: . Client context: Not specified.",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-003",
+    "name": "Talend reporting solution",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2023/2024",
+    "client": "Not specified",
+    "domains": [
+     "reporting",
+     "BI",
+     "data integration"
+    ],
+    "tech_stack": [
+     "Talend",
+     "Power BI",
+     "GCP",
+     "Datadog",
+     "ServiceNow",
+     "Azure DevOps"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2023.pdf",
+      "page": 5,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.2871808538361641,
+   "ranking_score": 0.3671808538361641
+  },
+  {
+   "content": "OliveSoft project initiative 'Industrialized Power BI development' (2026, status: proposed, relationship: pfe_internship_project). Version, test and deploy Power BI assets through governed CI/CD environments. Domains: BI, devops, governance. Technologies: Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor, DAX Studio. Planned work: . Client context: Not specified.",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-026",
+    "name": "Industrialized Power BI development",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2026",
+    "client": "Not specified",
+    "domains": [
+     "BI",
+     "devops",
+     "governance"
+    ],
+    "tech_stack": [
+     "Power BI",
+     "Azure DevOps",
+     "Git",
+     "YAML Pipelines",
+     "Tabular Editor",
+     "DAX Studio"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "mergedpfebook2026.pdf",
+      "page": 3,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.26960324639832944,
+   "ranking_score": 0.34960324639832946
+  }
+ ],
+ "records": {
+  "olivesoft-022": {
+   "id": "olivesoft-022",
+   "name": "Project allocation by resource availability",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "resource management",
+    "Salesforce",
+    "finance"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Optimize project staffing, timesheets, invoicing and financial KPIs with Salesforce and ERP integration.",
+   "tech_stack": {
+    "technologies": [
+     "Salesforce",
+     "Apex",
+     "Lightning",
+     "Talend",
+     "Boond",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 24,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-029": {
+   "id": "olivesoft-029",
+   "name": "OLIA product management and QA",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "product management",
+    "QA",
+    "generative AI"
+   ],
+   "client": "OliveSoft (internal product)",
+   "description": "Manage the OLIA roadmap, backlog, specifications, UAT, beta feedback and product analytics.",
+   "tech_stack": {
+    "technologies": [
+     "Agile",
+     "Scrum",
+     "Product Management",
+     "React",
+     "Python",
+     "Jira"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 6,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-031": {
+   "id": "olivesoft-031",
+   "name": "Salesforce Customer 360 and loyalty",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "CRM",
+    "customer loyalty",
+    "Salesforce"
+   ],
+   "description": "Unify, deduplicate and segment customer profiles and operate personalized loyalty programmes.",
+   "tech_stack": {
+    "technologies": [
+     "Salesforce Data Cloud",
+     "Salesforce Core",
+     "Einstein Agentforce",
+     "Apex",
+     "Lightning"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 9,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-020": {
+   "id": "olivesoft-020",
+   "name": "Annual employee evaluation system",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "HR",
+    "Salesforce"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Automate employee evaluations, notifications, scoring and KPI dashboards in Salesforce.",
+   "tech_stack": {
+    "technologies": [
+     "Salesforce",
+     "Apex",
+     "Lightning",
+     "SQL",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 22,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-032": {
+   "id": "olivesoft-032",
+   "name": "OliveSoft data-driven go-to-market strategy",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "sales",
+    "go-to-market",
+    "business development"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis.",
+   "tech_stack": {
+    "technologies": [
+     "Salesforce",
+     "ValueOrbit",
+     "LinkedIn",
+     "Clay",
+     "Apollo",
+     "Brevo",
+     "BI"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 5,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-036": {
+   "id": "olivesoft-036",
+   "name": "ISO 27001 compliance assessment",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "information security",
+    "compliance"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures.",
+   "tech_stack": {
+    "technologies": [
+     "ISO 27001",
+     "ISMS",
+     "Confluence",
+     "Jira",
+     "GED"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 13,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-021": {
+   "id": "olivesoft-021",
+   "name": "Cross-brand product recommendation",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "retail",
+    "luxury",
+    "recommendation",
+    "AI"
+   ],
+   "description": "Recommend personalized cross-brand outfits from customer preferences, history and sales periods.",
+   "tech_stack": {
+    "technologies": [
+     "MuleSoft",
+     "DataWeave",
+     "AI Chain",
+     "BigQuery",
+     "GCP"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 23,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-003": {
+   "id": "olivesoft-003",
+   "name": "Talend reporting solution",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "reporting",
+    "BI",
+    "data integration"
+   ],
+   "description": "Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Power BI",
+     "GCP",
+     "Datadog",
+     "ServiceNow",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 5,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "CV-0042": {
+   "cv_id": "CV-0042",
+   "name": "Employee_042",
+   "role": "Senior Data Platform Engineer",
+   "years_experience": 9,
+   "skills": [
+    "BigQuery",
+    "Snowflake",
+    "Data lineage",
+    "De-identification",
+    "Schema validation",
+    "dbt",
+    "Open data publishing",
+    "GCP"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "description": "Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it.",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Data Engineer"
+   ]
+  },
+  "CV-0050": {
+   "cv_id": "CV-0050",
+   "name": "Employee_050",
+   "role": "Analytics Engineer",
+   "years_experience": 7,
+   "skills": [
+    "BigQuery",
+    "Snowflake",
+    "Data lineage",
+    "De-identification",
+    "Schema validation",
+    "Open data publishing",
+    "dbt"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Validated submissions and open data release pipeline for a public statistics body",
+     "client_sector": "public statistics",
+     "description": "Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it.",
+     "tech_stack": [
+      "Schema validation",
+      "De-identification"
+     ]
+    },
+    {
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "description": "Enforced submission specifications that reject malformed files with precise error messages, and ran a documented de-identification review before open data release.",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Data Engineer"
+   ]
+  },
+  "PRJ-0010": {
+   "project_id": "PRJ-0010",
+   "client_sector": "public sector (justice)",
+   "summary": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+   "tech_stack": [
+    "Web crawler",
+    "Similarity detection",
+    "Elasticsearch",
+    "Audit logging"
+   ],
+   "outcome": "Every match decision reproducible for external appeal; class code filters across 6 classes."
+  },
+  "CV-0033": {
+   "cv_id": "CV-0033",
+   "name": "Employee_033",
+   "role": "Information Retrieval Engineer",
+   "years_experience": 5,
+   "skills": [
+    "Similarity detection",
+    "Image embeddings",
+    "Text similarity",
+    "Web crawler",
+    "Python",
+    "Elasticsearch",
+    "Audit logging"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Trademark image and word-mark similarity search for a public sector (justice) registry",
+     "client_sector": "public sector (justice)",
+     "description": "Built similarity detection over logo images and word marks, returning ranked candidates with the matched evidence shown rather than an opaque score.",
+     "tech_stack": [
+      "Similarity detection",
+      "Image embeddings",
+      "Text similarity"
+     ]
+    },
+    {
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "description": "Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler.",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    }
+   ],
+   "certifications": [
+    "Elastic Certified Engineer"
+   ]
+  },
+  "PRJ-0028": {
+   "project_id": "PRJ-0028",
+   "client_sector": "public statistics",
+   "summary": "Validated submissions and open data release pipeline for a public statistics body",
+   "tech_stack": [
+    "Schema validation",
+    "De-identification",
+    "Great Expectations",
+    "GCP"
+   ],
+   "outcome": "Non-conforming files rejected with specific errors; every release passes a signed disclosure review."
+  },
+  "olivesoft-026": {
+   "id": "olivesoft-026",
+   "name": "Industrialized Power BI development",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "BI",
+    "devops",
+    "governance"
+   ],
+   "description": "Version, test and deploy Power BI assets through governed CI/CD environments.",
+   "tech_stack": {
+    "technologies": [
+     "Power BI",
+     "Azure DevOps",
+     "Git",
+     "YAML Pipelines",
+     "Tabular Editor",
+     "DAX Studio"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 3,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-035": {
+   "id": "olivesoft-035",
+   "name": "OliveSoft website redesign",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "web",
+    "UX/UI",
+    "SEO"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Redesign the OliveSoft website for modern UX, performance, mobile usability and commercial SEO.",
+   "tech_stack": {
+    "technologies": [
+     "Drupal",
+     "HTML",
+     "CSS",
+     "Figma",
+     "Next.js",
+     "React",
+     "Google Analytics"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 12,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-007": {
+   "id": "olivesoft-007",
+   "name": "Asynchronous Talend flows",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "ESB",
+    "data integration"
+   ],
+   "description": "Migrate SOAP services to REST APIs and improve Talend routes with automated tests.",
+   "tech_stack": {
+    "technologies": [
+     "Talend Open Studio",
+     "Apache Camel",
+     "ESB",
+     "REST API",
+     "TMC"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 9,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "PRJ-0024": {
+   "project_id": "PRJ-0024",
+   "client_sector": "telecom",
+   "summary": "Customer self-service web portal for a telecom provider",
+   "tech_stack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "PostgreSQL"
+   ],
+   "outcome": "Self-service adoption up 18%; call volumes fell in the first quarter."
+  },
+  "PRJ-0027": {
+   "project_id": "PRJ-0027",
+   "client_sector": "consumer goods",
+   "summary": "B2B ordering web shop for a consumer goods distributor",
+   "tech_stack": [
+    "Next.js",
+    "Spring Boot",
+    "PostgreSQL",
+    "REST APIs"
+   ],
+   "outcome": "Online share of orders grew to 58% within a year."
+  },
+  "PRJ-0020": {
+   "project_id": "PRJ-0020",
+   "client_sector": "retail",
+   "summary": "Multi-market sales and returns lakehouse model for a retail brand",
+   "tech_stack": [
+    "Databricks",
+    "Lakehouse",
+    "Kafka",
+    "Data observability"
+   ],
+   "outcome": "Currency-normalised sales across 12 markets; pipeline incidents detected 37% faster."
+  },
+  "CV-0044": {
+   "cv_id": "CV-0044",
+   "name": "Employee_044",
+   "role": "Customer Data Architect",
+   "years_experience": 13,
+   "skills": [
+    "BigQuery",
+    "GCP",
+    "Identity resolution",
+    "Consent management",
+    "dbt",
+    "Looker Studio",
+    "Data quality"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Customer single view on BigQuery for a retail chain",
+     "client_sector": "retail",
+     "description": "Unified ERP, e-commerce, marketing and support customer records in a BigQuery landing zone, matching people on email and loyalty id with a postcode fallback.",
+     "tech_stack": [
+      "BigQuery",
+      "GCP",
+      "Identity resolution"
+     ]
+    },
+    {
+     "project_name": "Consent-aware customer data platform on GCP for a retail brand",
+     "client_sector": "retail",
+     "description": "Built consent and opt-out propagation so downstream marketing tools honoured a customer withdrawal the same day.",
+     "tech_stack": [
+      "BigQuery",
+      "GCP",
+      "Consent management"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Data Engineer"
+   ]
+  },
+  "CV-0007": {
+   "cv_id": "CV-0007",
+   "name": "Employee_007",
+   "role": "Data Engineer",
+   "years_experience": 6,
+   "skills": [
+    "BigQuery",
+    "GCP",
+    "Identity resolution",
+    "Consent management",
+    "dbt",
+    "Pub/Sub"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Customer single view on BigQuery for a retail chain",
+     "client_sector": "retail",
+     "description": "Unified ERP, e-commerce, marketing and support customer records in a BigQuery landing zone, matching people on email and loyalty id with a postcode fallback.",
+     "tech_stack": [
+      "BigQuery",
+      "GCP",
+      "Identity resolution"
+     ]
+    },
+    {
+     "project_name": "Consent-aware customer data platform on GCP for a retail brand",
+     "client_sector": "retail",
+     "description": "Built consent and opt-out propagation so downstream marketing tools honoured a customer withdrawal the same day.",
+     "tech_stack": [
+      "BigQuery",
+      "GCP",
+      "Consent management",
+      "Pub/Sub"
+     ]
+    },
+    {
+     "project_name": "Offline field inspection mobile app for a telecom network operator",
+     "client_sector": "telecom",
+     "description": "Supported the delivery team on integration and data tasks.",
+     "tech_stack": [
+      "Flutter",
+      "Firebase"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Cloud Architect"
+   ]
+  },
+  "CV-0005": {
+   "cv_id": "CV-0005",
+   "name": "Employee_005",
+   "role": "Senior BI Consultant",
+   "years_experience": 10,
+   "skills": [
+    "Power BI",
+    "DAX",
+    "Semantic model design",
+    "Row-level security",
+    "KPI governance",
+    "Azure Synapse"
+   ],
+   "past_projects": [
+    {
+     "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+     "client_sector": "healthcare",
+     "description": "Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team.",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance"
+     ]
+    },
+    {
+     "project_name": "Offline field inspection mobile app for a telecom network operator",
+     "client_sector": "telecom",
+     "description": "Supported the delivery team on integration and data tasks.",
+     "tech_stack": [
+      "Flutter",
+      "Firebase"
+     ]
+    }
+   ],
+   "certifications": [
+    "Microsoft Certified: Power BI Data Analyst Associate"
+   ]
+  },
+  "olivesoft-010": {
+   "id": "olivesoft-010",
+   "name": "HR reporting and monitoring platform",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "HR",
+    "reporting",
+    "data integration"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Power BI",
+     "Azure SQL",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 12,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "replies": []
+}

@@ -1,0 +1,28 @@
+.env
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+*.db
+*.sqlite3
+.idea/
+.vscode/
+.DS_Store
+dist/
+build/
+*.egg-info/
+*.log
+
+# Local-only planning/instruction files — never commit these
+AGENTS.md
+person2-detection-and-agent-plan.md
+yc-research-plan-upgrades.md
+/proposal/RESEARCH_CONTRACT.md
+/proposal/feasibility/results/data_rag_check.md
+/proposal/feasibility/results/llm_run.md
+/proposal/feasibility/results/output_check.md
+/proposal/feasibility/results/phase2_check.md
+
+# proposal demo output (python -m proposal.demo)
+/out/
+insights_agent/data/

@@ -1,0 +1,16 @@
+{
+  "id": "heldout-004",
+  "title": "Subscriber Churn Prediction and Retention Dashboard",
+  "issuer": "Solenne Mobile S.A.",
+  "deadline": "2026-11-30",
+  "raw_text": "Solenne Mobile has 3.2 million subscribers and loses about 1.8 percent of them each month, while retention offers are sent to everyone rather than to those likely to leave. We require a churn prediction model trained on billing, usage and call-centre data, scored weekly, with the main drivers of each prediction visible to retention agents. Scores and offers must be written back to Salesforce Service Cloud so agents see them during calls. A dashboard must track offer acceptance and measured churn reduction against a control group. Customer data must be pseudonymised before it reaches the training environment.",
+  "source": "simulated_feed",
+  "requirements": [
+    "Churn prediction model trained on billing, usage and call-centre data",
+    "Weekly scoring with the main drivers visible to retention agents",
+    "Write-back of scores and offers to Salesforce Service Cloud",
+    "Dashboard of offer acceptance and churn reduction against a control group",
+    "Pseudonymisation of customer data before it reaches the training environment",
+    "Integration with the existing billing data warehouse"
+  ]
+}

@@ -1,0 +1,5 @@
+name: Accept proposal
+method: PUT
+url: '{{proposalUrl}}/proposal/accept/ef50e61d-c40b-45e8-9c8c-6ab2a244fc96'
+headers:
+  X-Internal-Token: '{{internalToken}}'

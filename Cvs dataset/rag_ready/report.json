@@ -1,0 +1,175 @@
+{
+  "chunk_version": "v1",
+  "total_chunks": 543,
+  "chunks_per_doc_type": {
+    "company_profile": 7,
+    "tools_tech_stack": 7,
+    "client_portfolio": 2,
+    "project_reference": 6,
+    "cv": 151,
+    "project": 149,
+    "technology": 149,
+    "stack_by_domain": 20,
+    "client": 16,
+    "olivesoft_project": 36
+  },
+  "synthetic_chunks": 359,
+  "real_chunks": 184,
+  "tokens_min_median_max": [
+    20,
+    58,
+    150
+  ],
+  "issues": [
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0118: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0119: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0120: only ~26 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0122: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0123: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0125: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0126: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0127: only ~27 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0128: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0129: only ~24 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0130: only ~26 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0132: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0133: only ~24 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0134: only ~27 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0135: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0136: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0137: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0139: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0140: only ~24 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0141: only ~28 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0142: only ~20 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0143: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0144: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0145: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0146: only ~24 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0147: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0148: only ~23 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "projects_clean.json",
+      "message": "PRJ-0149: only ~22 tokens"
+    },
+    {
+      "level": "WARN",
+      "source": "technology",
+      "message": "4 near-duplicate pairs, see review_needed.json"
+    },
+    {
+      "level": "WARN",
+      "source": "references",
+      "message": "18 references to ids that are not chunks, e.g. ['website-001', 'website-002', 'website-003', 'website-004', 'website-005']"
+    }
+  ]
+}

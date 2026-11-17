@@ -1,0 +1,5072 @@
+[
+  {
+    "id": "CV-0001",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_001",
+    "text": "CV-0001 (Employee_001) - Solutions Architect, 2 years of experience. Skills: Redis, PostgreSQL, GCP, Django, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD. Past projects: Real estate internal workflow automation (real estate) - role Solutions Architect, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "10f9303879744c3fd26d162e25eec54e",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 2,
+      "skills": [
+        "Redis",
+        "PostgreSQL",
+        "GCP",
+        "Django",
+        "Docker",
+        "ChromaDB",
+        "Tailwind CSS",
+        "LlamaIndex",
+        "Qdrant",
+        "TensorFlow",
+        "CI/CD"
+      ],
+      "project_ids": [
+        "PRJ-0117"
+      ]
+    }
+  },
+  {
+    "id": "CV-0002",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_002",
+    "text": "CV-0002 (Employee_002) - AI/ML Engineer, 1 years of experience. Skills: AWS, CI/CD, GCP, Tailwind CSS, LangChain, Django, GraphQL, Terraform. Certifications: AWS Certified Developer. Past projects: Public administration real-time analytics dashboard (public administration) - role AI/ML Engineer, tech stack Tailwind CSS, GraphQL, GCP, Django, CI/CD.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b476680cdd4b9f0e121a64aea9036c75",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 1,
+      "skills": [
+        "AWS",
+        "CI/CD",
+        "GCP",
+        "Tailwind CSS",
+        "LangChain",
+        "Django",
+        "GraphQL",
+        "Terraform"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0118"
+      ]
+    }
+  },
+  {
+    "id": "CV-0003",
+    "doc_type": "cv",
+    "title": "Frontend Developer - Employee_003",
+    "text": "CV-0003 (Employee_003) - Frontend Developer, 7 years of experience. Skills: Pinecone, MongoDB, JavaScript, Flutter. Certifications: AWS Certified Solutions Architect. Past projects: Logistics internal workflow automation (logistics) - role Frontend Developer, tech stack MongoDB, JavaScript, Pinecone, Flutter.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ca61d3d8eaa5608f618d2207a81d9b0e",
+    "metadata": {
+      "role": "Frontend Developer",
+      "years_experience": 7,
+      "skills": [
+        "Pinecone",
+        "MongoDB",
+        "JavaScript",
+        "Flutter"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect"
+      ],
+      "project_ids": [
+        "PRJ-0119"
+      ]
+    }
+  },
+  {
+    "id": "CV-0004",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_004",
+    "text": "CV-0004 (Employee_004) - Solutions Architect, 4 years of experience. Skills: Next.js, GCP, Node.js, REST APIs, Django, PyTorch, Swift, PostgreSQL, JavaScript, Java, React. Certifications: AWS Certified Developer. Past projects: Public administration legacy system modernization (public administration) - role Solutions Architect, tech stack PyTorch, Next.js, GCP, Node.js; Education mobile app for field agents (education) - role Solutions Architect, tech stack Node.js, Django, GCP, REST APIs, Swift, PostgreSQL, JavaScript, Java, React; Real estate legacy system modernization (real estate) - role Solutions Architect, tech stack Node.js, REST APIs, PyTorch, Next.js, GCP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "17c3a6f0529b3dac0dd1bc1d00310291",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 4,
+      "skills": [
+        "Next.js",
+        "GCP",
+        "Node.js",
+        "REST APIs",
+        "Django",
+        "PyTorch",
+        "Swift",
+        "PostgreSQL",
+        "JavaScript",
+        "Java",
+        "React"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0120",
+        "PRJ-0121",
+        "PRJ-0122"
+      ]
+    }
+  },
+  {
+    "id": "CV-0005",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_005",
+    "text": "CV-0005 (Employee_005) - Data Engineer, 15 years of experience. Skills: Qdrant, Azure, Kotlin, GraphQL, Tailwind CSS, Flutter, Scikit-learn, GCP, PostgreSQL, REST APIs, ChromaDB, Python, LlamaIndex, n8n, Swift, PyTorch. Certifications: AWS Certified Developer. Past projects: Telecom data platform migration (telecom) - role Data Engineer, tech stack PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn; Logistics real-time analytics dashboard (logistics) - role Data Engineer, tech stack LlamaIndex, n8n, Swift, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8442c6d950e204dd06a99d2373a5e6b8",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 15,
+      "skills": [
+        "Qdrant",
+        "Azure",
+        "Kotlin",
+        "GraphQL",
+        "Tailwind CSS",
+        "Flutter",
+        "Scikit-learn",
+        "GCP",
+        "PostgreSQL",
+        "REST APIs",
+        "ChromaDB",
+        "Python",
+        "LlamaIndex",
+        "n8n",
+        "Swift",
+        "PyTorch"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0007",
+        "PRJ-0010"
+      ]
+    }
+  },
+  {
+    "id": "CV-0006",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_006",
+    "text": "CV-0006 (Employee_006) - Full Stack Developer, 11 years of experience. Skills: Terraform, React, REST APIs, Flutter, PyTorch, Tailwind CSS, Python, FastAPI, Node.js, n8n, Pinecone, AWS, Azure, Swift, Redis. Past projects: Education customer portal revamp (education) - role Full Stack Developer, tech stack REST APIs, Terraform, React, Flutter, Tailwind CSS, Python, FastAPI; Logistics data platform migration (logistics) - role Full Stack Developer, tech stack Node.js, Terraform, n8n, Flutter, Pinecone, React; Healthcare AI-powered document processing (healthcare) - role Full Stack Developer, tech stack AWS, Azure, Swift, Redis.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "59cb019a5e471d9bdf3c6f651add39b5",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 11,
+      "skills": [
+        "Terraform",
+        "React",
+        "REST APIs",
+        "Flutter",
+        "PyTorch",
+        "Tailwind CSS",
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "n8n",
+        "Pinecone",
+        "AWS",
+        "Azure",
+        "Swift",
+        "Redis"
+      ],
+      "project_ids": [
+        "PRJ-0123",
+        "PRJ-0005",
+        "PRJ-0012"
+      ]
+    }
+  },
+  {
+    "id": "CV-0007",
+    "doc_type": "cv",
+    "title": "Backend Developer - Employee_007",
+    "text": "CV-0007 (Employee_007) - Backend Developer, 10 years of experience. Skills: Kotlin, Java, FastAPI, n8n, Tailwind CSS, CI/CD, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes. Past projects: Retail customer portal revamp (retail) - role Backend Developer, tech stack Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes; Education data platform migration (education) - role Backend Developer, tech stack FastAPI, Tailwind CSS, n8n, Java, CI/CD, PostgreSQL, Next.js, Docker; Retail mobile app for field agents (retail) - role Backend Developer, tech stack CI/CD, FastAPI, n8n.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "2ef26f93d9abf2e767233886beff067e",
+    "metadata": {
+      "role": "Backend Developer",
+      "years_experience": 10,
+      "skills": [
+        "Kotlin",
+        "Java",
+        "FastAPI",
+        "n8n",
+        "Tailwind CSS",
+        "CI/CD",
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Python",
+        "Spring Boot",
+        "Kubernetes"
+      ],
+      "project_ids": [
+        "PRJ-0124",
+        "PRJ-0125",
+        "PRJ-0126"
+      ]
+    }
+  },
+  {
+    "id": "CV-0008",
+    "doc_type": "cv",
+    "title": "QA Engineer - Employee_008",
+    "text": "CV-0008 (Employee_008) - QA Engineer, 2 years of experience. Skills: GCP, React, ChromaDB, Java, Python. Past projects: Real estate customer portal revamp (real estate) - role QA Engineer, tech stack ChromaDB, GCP, Python, React, Java.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "778d77c673f778d7722a4a3a8e598048",
+    "metadata": {
+      "role": "QA Engineer",
+      "years_experience": 2,
+      "skills": [
+        "GCP",
+        "React",
+        "ChromaDB",
+        "Java",
+        "Python"
+      ],
+      "project_ids": [
+        "PRJ-0127"
+      ]
+    }
+  },
+  {
+    "id": "CV-0009",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_009",
+    "text": "CV-0009 (Employee_009) - Data Scientist, 11 years of experience. Skills: Azure, Django, Swift, PostgreSQL, GraphQL, Kotlin, TensorFlow, MongoDB, ChromaDB, Redis, Python, PyTorch. Certifications: AWS Certified Solutions Architect. Past projects: Retail internal workflow automation (retail) - role Data Scientist, tech stack MongoDB, ChromaDB, Redis, Python, PyTorch; Energy customer portal revamp (energy) - role Data Scientist, tech stack Azure, PostgreSQL, Swift, Kotlin, TensorFlow; Healthcare mobile app for field agents (healthcare) - role Data Scientist, tech stack PostgreSQL, Django, TensorFlow, GraphQL; Public administration AI-powered document processing (public administration) - role Data Scientist, tech stack PostgreSQL, GraphQL, Azure, Django.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "98ba675033e74bb239a97a86f429e0bc",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 11,
+      "skills": [
+        "Azure",
+        "Django",
+        "Swift",
+        "PostgreSQL",
+        "GraphQL",
+        "Kotlin",
+        "TensorFlow",
+        "MongoDB",
+        "ChromaDB",
+        "Redis",
+        "Python",
+        "PyTorch"
+      ],
+      "certifications": [
+        "AWS Certified Solutions Architect"
+      ],
+      "project_ids": [
+        "PRJ-0008",
+        "PRJ-0128",
+        "PRJ-0129",
+        "PRJ-0130"
+      ]
+    }
+  },
+  {
+    "id": "CV-0010",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_010",
+    "text": "CV-0010 (Employee_010) - Solutions Architect, 9 years of experience. Skills: Next.js, PostgreSQL, Docker, CI/CD, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs, Kotlin, n8n, Java, Tailwind CSS, Spring Boot, FastAPI. Certifications: PMP. Past projects: Energy mobile app for field agents (energy) - role Solutions Architect, tech stack CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs; Telecom API integration hub (telecom) - role Solutions Architect, tech stack PostgreSQL, Next.js, CI/CD, Docker; Retail customer portal revamp (retail) - role Solutions Architect, tech stack Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes; Education data platform migration (education) - role Solutions Architect, tech stack FastAPI, Tailwind CSS, n8n, Java, CI/CD, PostgreSQL, Next.js, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "832c4e4e09d0b4ef0387fcbdb053a496",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 9,
+      "skills": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "CI/CD",
+        "Azure",
+        "Kubernetes",
+        "Python",
+        "Pinecone",
+        "LlamaIndex",
+        "REST APIs",
+        "Kotlin",
+        "n8n",
+        "Java",
+        "Tailwind CSS",
+        "Spring Boot",
+        "FastAPI"
+      ],
+      "certifications": [
+        "PMP"
+      ],
+      "project_ids": [
+        "PRJ-0131",
+        "PRJ-0132",
+        "PRJ-0124",
+        "PRJ-0125"
+      ]
+    }
+  },
+  {
+    "id": "CV-0011",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_011",
+    "text": "CV-0011 (Employee_011) - Cloud Architect, 2 years of experience. Skills: PostgreSQL, JavaScript, Next.js, CI/CD, ChromaDB, LangChain, Flutter, MongoDB, GraphQL, AWS, React, TypeScript, Pinecone. Certifications: AWS Certified Developer. Past projects: Telecom mobile app for field agents (telecom) - role Cloud Architect, tech stack Flutter, JavaScript, LangChain, Next.js; Real estate AI-powered document processing (real estate) - role Cloud Architect, tech stack PostgreSQL, CI/CD, ChromaDB, MongoDB, Next.js; Manufacturing internal workflow automation (manufacturing) - role Cloud Architect, tech stack GraphQL, AWS, React, PostgreSQL, TypeScript, Pinecone.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "be2d6062a7d04213f8b95cd56bb170dc",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 2,
+      "skills": [
+        "PostgreSQL",
+        "JavaScript",
+        "Next.js",
+        "CI/CD",
+        "ChromaDB",
+        "LangChain",
+        "Flutter",
+        "MongoDB",
+        "GraphQL",
+        "AWS",
+        "React",
+        "TypeScript",
+        "Pinecone"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0133",
+        "PRJ-0134",
+        "PRJ-0003"
+      ]
+    }
+  },
+  {
+    "id": "CV-0012",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_012",
+    "text": "CV-0012 (Employee_012) - Data Engineer, 6 years of experience. Skills: Docker, Tailwind CSS, LlamaIndex, Python, ChromaDB, CI/CD, Redis, Django, GCP, Qdrant, TensorFlow. Certifications: Certified Kubernetes Administrator. Past projects: Real estate internal workflow automation (real estate) - role Data Engineer, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD; Telecom AI-powered document processing (telecom) - role Data Engineer, tech stack Tailwind CSS, LlamaIndex, Python, ChromaDB; Telecom customer portal revamp (telecom) - role Data Engineer, tech stack Docker, CI/CD, LlamaIndex, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a2f719b2fcdfa99884f11b388b8ed439",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Docker",
+        "Tailwind CSS",
+        "LlamaIndex",
+        "Python",
+        "ChromaDB",
+        "CI/CD",
+        "Redis",
+        "Django",
+        "GCP",
+        "Qdrant",
+        "TensorFlow"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0117",
+        "PRJ-0135",
+        "PRJ-0136"
+      ]
+    }
+  },
+  {
+    "id": "CV-0013",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_013",
+    "text": "CV-0013 (Employee_013) - Solutions Architect, 5 years of experience. Skills: Tailwind CSS, Terraform, Python, FastAPI, React, REST APIs, Flutter. Past projects: Education customer portal revamp (education) - role Solutions Architect, tech stack REST APIs, Terraform, React, Flutter, Tailwind CSS, Python, FastAPI; Insurance customer portal revamp (insurance) - role Solutions Architect, tech stack Terraform, Tailwind CSS, React, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ae5fd2f214f777f6c5feff04bad00dcd",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 5,
+      "skills": [
+        "Tailwind CSS",
+        "Terraform",
+        "Python",
+        "FastAPI",
+        "React",
+        "REST APIs",
+        "Flutter"
+      ],
+      "project_ids": [
+        "PRJ-0123",
+        "PRJ-0137"
+      ]
+    }
+  },
+  {
+    "id": "CV-0014",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_014",
+    "text": "CV-0014 (Employee_014) - Business Analyst, 7 years of experience. Skills: Spring Boot, PostgreSQL, Docker, Kubernetes, Tailwind CSS, Azure, Python, Next.js, JavaScript, React, Swift, CI/CD, Pinecone, LlamaIndex, REST APIs, Kotlin, n8n, Java. Certifications: Scrum Master (CSM). Past projects: Logistics mobile app for field agents (logistics) - role Business Analyst, tech stack PostgreSQL, Kubernetes, Spring Boot, Tailwind CSS, Azure, JavaScript, React, Swift; Energy mobile app for field agents (energy) - role Business Analyst, tech stack CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs; Retail customer portal revamp (retail) - role Business Analyst, tech stack Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "1d825bcc31578cd51472616abc47ee5c",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 7,
+      "skills": [
+        "Spring Boot",
+        "PostgreSQL",
+        "Docker",
+        "Kubernetes",
+        "Tailwind CSS",
+        "Azure",
+        "Python",
+        "Next.js",
+        "JavaScript",
+        "React",
+        "Swift",
+        "CI/CD",
+        "Pinecone",
+        "LlamaIndex",
+        "REST APIs",
+        "Kotlin",
+        "n8n",
+        "Java"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0138",
+        "PRJ-0131",
+        "PRJ-0124"
+      ]
+    }
+  },
+  {
+    "id": "CV-0015",
+    "doc_type": "cv",
+    "title": "DevOps Engineer - Employee_015",
+    "text": "CV-0015 (Employee_015) - DevOps Engineer, 11 years of experience. Skills: GraphQL, ChromaDB, Java, FastAPI, Tailwind CSS, Django, Next.js, LangChain, React, Swift, JavaScript, Qdrant, CI/CD, TensorFlow, LlamaIndex. Past projects: Banking internal workflow automation (banking) - role DevOps Engineer, tech stack Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript; Education internal workflow automation (education) - role DevOps Engineer, tech stack Tailwind CSS, GraphQL, Django, Next.js, ChromaDB; Logistics customer portal revamp (logistics) - role DevOps Engineer, tech stack ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b709c0a6f85743d3a0faa8788f9d4b29",
+    "metadata": {
+      "role": "DevOps Engineer",
+      "years_experience": 11,
+      "skills": [
+        "GraphQL",
+        "ChromaDB",
+        "Java",
+        "FastAPI",
+        "Tailwind CSS",
+        "Django",
+        "Next.js",
+        "LangChain",
+        "React",
+        "Swift",
+        "JavaScript",
+        "Qdrant",
+        "CI/CD",
+        "TensorFlow",
+        "LlamaIndex"
+      ],
+      "project_ids": [
+        "PRJ-0139",
+        "PRJ-0140",
+        "PRJ-0141"
+      ]
+    }
+  },
+  {
+    "id": "CV-0016",
+    "doc_type": "cv",
+    "title": "DevOps Engineer - Employee_016",
+    "text": "CV-0016 (Employee_016) - DevOps Engineer, 11 years of experience. Skills: LlamaIndex, TensorFlow, CI/CD, Qdrant, PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn, Django, Java, FastAPI, LangChain, Redis, GCP, Docker, Tailwind CSS. Certifications: PMP. Past projects: Telecom data platform migration (telecom) - role DevOps Engineer, tech stack PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn; Logistics customer portal revamp (logistics) - role DevOps Engineer, tech stack ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex; Energy API integration hub (energy) - role DevOps Engineer, tech stack Qdrant, CI/CD, LlamaIndex; Real estate internal workflow automation (real estate) - role DevOps Engineer, tech stack Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "20587da06bb5232d2d6d44bb3abd3e7f",
+    "metadata": {
+      "role": "DevOps Engineer",
+      "years_experience": 11,
+      "skills": [
+        "LlamaIndex",
+        "TensorFlow",
+        "CI/CD",
+        "Qdrant",
+        "PostgreSQL",
+        "Flutter",
+        "REST APIs",
+        "ChromaDB",
+        "Python",
+        "Scikit-learn",
+        "Django",
+        "Java",
+        "FastAPI",
+        "LangChain",
+        "Redis",
+        "GCP",
+        "Docker",
+        "Tailwind CSS"
+      ],
+      "certifications": [
+        "PMP"
+      ],
+      "project_ids": [
+        "PRJ-0007",
+        "PRJ-0141",
+        "PRJ-0142",
+        "PRJ-0117"
+      ]
+    }
+  },
+  {
+    "id": "CV-0017",
+    "doc_type": "cv",
+    "title": "Project Manager - Employee_017",
+    "text": "CV-0017 (Employee_017) - Project Manager, 4 years of experience. Skills: Java, JavaScript, PostgreSQL, Swift, React, Kubernetes, Spring Boot, Tailwind CSS, Azure, Django, FastAPI, Next.js, Node.js, GCP, REST APIs. Past projects: Logistics mobile app for field agents (logistics) - role Project Manager, tech stack PostgreSQL, Kubernetes, Spring Boot, Tailwind CSS, Azure, JavaScript, React, Swift; Banking internal workflow automation (banking) - role Project Manager, tech stack Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript; Education mobile app for field agents (education) - role Project Manager, tech stack Node.js, Django, GCP, REST APIs, Swift, PostgreSQL, JavaScript, Java, React; Manufacturing real-time analytics dashboard (manufacturing) - role Project Manager, tech stack Swift, React, JavaScript, Java.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c4ce81080a76cb7da3978b6dd7298622",
+    "metadata": {
+      "role": "Project Manager",
+      "years_experience": 4,
+      "skills": [
+        "Java",
+        "JavaScript",
+        "PostgreSQL",
+        "Swift",
+        "React",
+        "Kubernetes",
+        "Spring Boot",
+        "Tailwind CSS",
+        "Azure",
+        "Django",
+        "FastAPI",
+        "Next.js",
+        "Node.js",
+        "GCP",
+        "REST APIs"
+      ],
+      "project_ids": [
+        "PRJ-0138",
+        "PRJ-0139",
+        "PRJ-0121",
+        "PRJ-0143"
+      ]
+    }
+  },
+  {
+    "id": "CV-0018",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_018",
+    "text": "CV-0018 (Employee_018) - Business Analyst, 11 years of experience. Skills: PyTorch, Kotlin, PostgreSQL, Redis, GCP, JavaScript, Node.js, Terraform, n8n, Flutter, Pinecone, React. Past projects: Retail AI-powered document processing (retail) - role Business Analyst, tech stack Kotlin, JavaScript, GCP, PostgreSQL, PyTorch; Logistics data platform migration (logistics) - role Business Analyst, tech stack Node.js, Terraform, n8n, Flutter, Pinecone, React; Education API integration hub (education) - role Business Analyst, tech stack Redis, JavaScript, PyTorch, Kotlin.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "554a1d3eea333ea34a328a41581231ee",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 11,
+      "skills": [
+        "PyTorch",
+        "Kotlin",
+        "PostgreSQL",
+        "Redis",
+        "GCP",
+        "JavaScript",
+        "Node.js",
+        "Terraform",
+        "n8n",
+        "Flutter",
+        "Pinecone",
+        "React"
+      ],
+      "project_ids": [
+        "PRJ-0144",
+        "PRJ-0005",
+        "PRJ-0145"
+      ]
+    }
+  },
+  {
+    "id": "CV-0019",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_019",
+    "text": "CV-0019 (Employee_019) - Cloud Architect, 8 years of experience. Skills: Pinecone, LlamaIndex, REST APIs, CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python. Certifications: AWS Certified Developer. Past projects: Energy mobile app for field agents (energy) - role Cloud Architect, tech stack CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs; Real estate real-time analytics dashboard (real estate) - role Cloud Architect, tech stack Pinecone, LlamaIndex, CI/CD.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "55f9968cc66c9330edbbd0411f9e0133",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 8,
+      "skills": [
+        "Pinecone",
+        "LlamaIndex",
+        "REST APIs",
+        "CI/CD",
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Azure",
+        "Kubernetes",
+        "Python"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0131",
+        "PRJ-0146"
+      ]
+    }
+  },
+  {
+    "id": "CV-0020",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_020",
+    "text": "CV-0020 (Employee_020) - Solutions Architect, 7 years of experience. Skills: Flutter, Kubernetes, TypeScript, MongoDB, REST APIs. Certifications: Certified Kubernetes Administrator. Past projects: Retail API integration hub (retail) - role Solutions Architect, tech stack TypeScript, MongoDB, Kubernetes, REST APIs; Healthcare API integration hub (healthcare) - role Solutions Architect, tech stack Kubernetes, Flutter, TypeScript, REST APIs; Banking customer portal revamp (banking) - role Solutions Architect, tech stack REST APIs, Kubernetes, Flutter.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "caf31606473d53eea35f99eab5e96d5f",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 7,
+      "skills": [
+        "Flutter",
+        "Kubernetes",
+        "TypeScript",
+        "MongoDB",
+        "REST APIs"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0147",
+        "PRJ-0148",
+        "PRJ-0149"
+      ]
+    }
+  },
+  {
+    "id": "CV-0021",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_021",
+    "text": "CV-0021 (Employee_021) - Integration Architect, 14 years of experience. Skills: MuleSoft, REST APIs, SAP SuccessFactors, Azure DevOps, DataWeave, Git, Datadog. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role Integration Architect, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "fc47337d77cc27dee3f023e88abef951",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 14,
+      "skills": [
+        "MuleSoft",
+        "REST APIs",
+        "SAP SuccessFactors",
+        "Azure DevOps",
+        "DataWeave",
+        "Git",
+        "Datadog"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0013"
+      ]
+    }
+  },
+  {
+    "id": "CV-0022",
+    "doc_type": "cv",
+    "title": "MuleSoft Developer - Employee_022",
+    "text": "CV-0022 (Employee_022) - MuleSoft Developer, 4 years of experience. Skills: MuleSoft, REST APIs, API Management, Azure DevOps, Master Data Management, DataWeave, SQL, CI/CD, Spring Boot, Datadog, SAP SuccessFactors. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role MuleSoft Developer, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "450bc21ff62b99bbcf607b230c4414d0",
+    "metadata": {
+      "role": "MuleSoft Developer",
+      "years_experience": 4,
+      "skills": [
+        "MuleSoft",
+        "REST APIs",
+        "API Management",
+        "Azure DevOps",
+        "Master Data Management",
+        "DataWeave",
+        "SQL",
+        "CI/CD",
+        "Spring Boot",
+        "Datadog",
+        "SAP SuccessFactors"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0013"
+      ]
+    }
+  },
+  {
+    "id": "CV-0023",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_023",
+    "text": "CV-0023 (Employee_023) - Solutions Architect, 11 years of experience. Skills: MuleSoft, REST APIs, DataWeave, Azure DevOps, Datadog, Docker, Spring Boot, Flutter, SAP SuccessFactors, Master Data Management, API Management. Certifications: MuleSoft Certified Developer. Past projects: HR systems integration layer (consumer goods) - role Solutions Architect, tech stack MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors; Versioned API platform with handover documentation (retail) - role Solutions Architect, tech stack MuleSoft, REST APIs, Master Data Management, API Management, SAP SuccessFactors.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "15cb72618d0042cc269e65f0ba04603a",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 11,
+      "skills": [
+        "MuleSoft",
+        "REST APIs",
+        "DataWeave",
+        "Azure DevOps",
+        "Datadog",
+        "Docker",
+        "Spring Boot",
+        "Flutter",
+        "SAP SuccessFactors",
+        "Master Data Management",
+        "API Management"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0013",
+        "PRJ-0014"
+      ]
+    }
+  },
+  {
+    "id": "CV-0024",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_024",
+    "text": "CV-0024 (Employee_024) - Data Engineer, 3 years of experience. Skills: Talend, SQL, SSIS, SQL Server, Data Quality, Azure DevOps, Docker, CI/CD, MongoDB, Kotlin, Apache Airflow. Certifications: Microsoft Azure Fundamentals. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role Data Engineer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality; Incremental ETL pipeline migration from SSIS (logistics) - role Data Engineer, tech stack Talend, SQL, Data Quality, Apache Airflow, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "f89e1ab5ae7cf36576d7e0dad40fe03e",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 3,
+      "skills": [
+        "Talend",
+        "SQL",
+        "SSIS",
+        "SQL Server",
+        "Data Quality",
+        "Azure DevOps",
+        "Docker",
+        "CI/CD",
+        "MongoDB",
+        "Kotlin",
+        "Apache Airflow"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0016",
+        "PRJ-0015"
+      ]
+    }
+  },
+  {
+    "id": "CV-0025",
+    "doc_type": "cv",
+    "title": "ETL Developer - Employee_025",
+    "text": "CV-0025 (Employee_025) - ETL Developer, 13 years of experience. Skills: Talend, SQL, Data Quality, SQL Server, Apache Airflow, Azure DevOps. Certifications: Talend Data Integration Certified Developer. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role ETL Developer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality; Incremental ETL pipeline migration from SSIS (logistics) - role ETL Developer, tech stack Talend, SQL, Data Quality, Apache Airflow, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "07467d955185ca42d6c3b41065b53fbf",
+    "metadata": {
+      "role": "ETL Developer",
+      "years_experience": 13,
+      "skills": [
+        "Talend",
+        "SQL",
+        "Data Quality",
+        "SQL Server",
+        "Apache Airflow",
+        "Azure DevOps"
+      ],
+      "certifications": [
+        "Talend Data Integration Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0016",
+        "PRJ-0015"
+      ]
+    }
+  },
+  {
+    "id": "CV-0026",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_026",
+    "text": "CV-0026 (Employee_026) - Data Engineer, 6 years of experience. Skills: Talend, SQL, SSIS, SQL Server, Data Quality, Azure DevOps, CI/CD, Docker, Apache Airflow. Certifications: Talend Data Integration Certified Developer. Past projects: Workforce data warehouse with reconciliation reports (logistics) - role Data Engineer, tech stack Talend, SQL, Apache Airflow, SQL Server, Data Quality.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "9e255b025cc339b05cc7ed58dae9d483",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Talend",
+        "SQL",
+        "SSIS",
+        "SQL Server",
+        "Data Quality",
+        "Azure DevOps",
+        "CI/CD",
+        "Docker",
+        "Apache Airflow"
+      ],
+      "certifications": [
+        "Talend Data Integration Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0016"
+      ]
+    }
+  },
+  {
+    "id": "CV-0027",
+    "doc_type": "cv",
+    "title": "BI Developer - Employee_027",
+    "text": "CV-0027 (Employee_027) - BI Developer, 14 years of experience. Skills: Power BI, DAX, Azure DevOps, Data Modelling, Row-Level Security, Azure SQL, Docker, SQL. Certifications: Microsoft Power BI Data Analyst. Past projects: Executive HR analytics semantic model (manufacturing) - role BI Developer, tech stack Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security; Divisional reporting consolidation in Power BI (manufacturing) - role BI Developer, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "10cefa2fb5aecd8b2afba248dcefcacb",
+    "metadata": {
+      "role": "BI Developer",
+      "years_experience": 14,
+      "skills": [
+        "Power BI",
+        "DAX",
+        "Azure DevOps",
+        "Data Modelling",
+        "Row-Level Security",
+        "Azure SQL",
+        "Docker",
+        "SQL"
+      ],
+      "certifications": [
+        "Microsoft Power BI Data Analyst"
+      ],
+      "project_ids": [
+        "PRJ-0017",
+        "PRJ-0018"
+      ]
+    }
+  },
+  {
+    "id": "CV-0028",
+    "doc_type": "cv",
+    "title": "Data Analyst - Employee_028",
+    "text": "CV-0028 (Employee_028) - Data Analyst, 11 years of experience. Skills: Power BI, DAX, Azure SQL, Data Modelling, Row-Level Security, Git, CI/CD, GraphQL, Azure DevOps, SQL. Certifications: Scrum Master (CSM). Past projects: Executive HR analytics semantic model (manufacturing) - role Data Analyst, tech stack Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security; Divisional reporting consolidation in Power BI (manufacturing) - role Data Analyst, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8dfe5ac8064cf428909ddfc22560821e",
+    "metadata": {
+      "role": "Data Analyst",
+      "years_experience": 11,
+      "skills": [
+        "Power BI",
+        "DAX",
+        "Azure SQL",
+        "Data Modelling",
+        "Row-Level Security",
+        "Git",
+        "CI/CD",
+        "GraphQL",
+        "Azure DevOps",
+        "SQL"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0017",
+        "PRJ-0018"
+      ]
+    }
+  },
+  {
+    "id": "CV-0029",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_029",
+    "text": "CV-0029 (Employee_029) - Business Analyst, 13 years of experience. Skills: Power BI, DAX, SQL, Row-Level Security, Azure SQL, Azure DevOps, CI/CD, Git, Spring Boot, Kotlin. Certifications: Microsoft Power BI Data Analyst. Past projects: Divisional reporting consolidation in Power BI (manufacturing) - role Business Analyst, tech stack Power BI, DAX, Azure SQL, Row-Level Security, SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5d8dfa93d7a68e144cda9c4cbac0703b",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 13,
+      "skills": [
+        "Power BI",
+        "DAX",
+        "SQL",
+        "Row-Level Security",
+        "Azure SQL",
+        "Azure DevOps",
+        "CI/CD",
+        "Git",
+        "Spring Boot",
+        "Kotlin"
+      ],
+      "certifications": [
+        "Microsoft Power BI Data Analyst"
+      ],
+      "project_ids": [
+        "PRJ-0018"
+      ]
+    }
+  },
+  {
+    "id": "CV-0030",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_030",
+    "text": "CV-0030 (Employee_030) - Data Engineer, 10 years of experience. Skills: GCP, BigQuery, Identity Resolution, Talend, MuleSoft, Python, Git. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Data Engineer, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft; Multi-channel customer identity resolution (retail) - role Data Engineer, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "36450eb8e46963e16f27edccffbd72fb",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 10,
+      "skills": [
+        "GCP",
+        "BigQuery",
+        "Identity Resolution",
+        "Talend",
+        "MuleSoft",
+        "Python",
+        "Git"
+      ],
+      "certifications": [
+        "Google Professional Cloud Architect"
+      ],
+      "project_ids": [
+        "PRJ-0019",
+        "PRJ-0020"
+      ]
+    }
+  },
+  {
+    "id": "CV-0031",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_031",
+    "text": "CV-0031 (Employee_031) - Cloud Architect, 3 years of experience. Skills: GCP, BigQuery, Python, Talend, Terraform, Identity Resolution, SQL, Django, Spring Boot, MuleSoft. Certifications: Google Professional Data Engineer. Past projects: Multi-channel customer identity resolution (retail) - role Cloud Architect, tech stack GCP, BigQuery, Python, MuleSoft, Identity Resolution; Customer 360 on BigQuery (retail) - role Cloud Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5f1ec225d1df3e01760d919f880a8e80",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 3,
+      "skills": [
+        "GCP",
+        "BigQuery",
+        "Python",
+        "Talend",
+        "Terraform",
+        "Identity Resolution",
+        "SQL",
+        "Django",
+        "Spring Boot",
+        "MuleSoft"
+      ],
+      "certifications": [
+        "Google Professional Data Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0020",
+        "PRJ-0019"
+      ]
+    }
+  },
+  {
+    "id": "CV-0032",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_032",
+    "text": "CV-0032 (Employee_032) - Integration Architect, 4 years of experience. Skills: GCP, BigQuery, Talend, Python, MuleSoft, Docker, Git, TensorFlow, Django, Identity Resolution. Certifications: Google Professional Cloud Architect. Past projects: Customer 360 on BigQuery (retail) - role Integration Architect, tech stack GCP, BigQuery, Talend, Identity Resolution, MuleSoft.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "fdbdac031a1f8707f428004994c5c04e",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 4,
+      "skills": [
+        "GCP",
+        "BigQuery",
+        "Talend",
+        "Python",
+        "MuleSoft",
+        "Docker",
+        "Git",
+        "TensorFlow",
+        "Django",
+        "Identity Resolution"
+      ],
+      "certifications": [
+        "Google Professional Cloud Architect"
+      ],
+      "project_ids": [
+        "PRJ-0019"
+      ]
+    }
+  },
+  {
+    "id": "CV-0033",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_033",
+    "text": "CV-0033 (Employee_033) - Data Engineer, 6 years of experience. Skills: Kafka, Databricks, Azure, Spark, GCP, SQL, CI/CD, Django, Terraform, Python. Certifications: Confluent Certified Developer. Past projects: Real-time order event streaming platform (retail) - role Data Engineer, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "1dd2f785c35df510b02cf932543a3517",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Kafka",
+        "Databricks",
+        "Azure",
+        "Spark",
+        "GCP",
+        "SQL",
+        "CI/CD",
+        "Django",
+        "Terraform",
+        "Python"
+      ],
+      "certifications": [
+        "Confluent Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0021"
+      ]
+    }
+  },
+  {
+    "id": "CV-0034",
+    "doc_type": "cv",
+    "title": "Streaming Engineer - Employee_034",
+    "text": "CV-0034 (Employee_034) - Streaming Engineer, 7 years of experience. Skills: Kafka, Databricks, GCP, Terraform, Azure, Datadog, Git, Azure DevOps, Python, Spark. Certifications: Databricks Certified Data Engineer. Past projects: Databricks lakehouse with late-event handling (retail) - role Streaming Engineer, tech stack Kafka, Databricks, Python, Datadog, Terraform; Real-time order event streaming platform (retail) - role Streaming Engineer, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7db832b5dea868103a9e3fada382740f",
+    "metadata": {
+      "role": "Streaming Engineer",
+      "years_experience": 7,
+      "skills": [
+        "Kafka",
+        "Databricks",
+        "GCP",
+        "Terraform",
+        "Azure",
+        "Datadog",
+        "Git",
+        "Azure DevOps",
+        "Python",
+        "Spark"
+      ],
+      "certifications": [
+        "Databricks Certified Data Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0022",
+        "PRJ-0021"
+      ]
+    }
+  },
+  {
+    "id": "CV-0035",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_035",
+    "text": "CV-0035 (Employee_035) - Cloud Architect, 10 years of experience. Skills: Kafka, Databricks, Spark, Azure, GCP, SQL, CI/CD, Python, Datadog, Terraform. Certifications: Databricks Certified Data Engineer. Past projects: Databricks lakehouse with late-event handling (retail) - role Cloud Architect, tech stack Kafka, Databricks, Python, Datadog, Terraform; Real-time order event streaming platform (retail) - role Cloud Architect, tech stack Kafka, Databricks, Terraform, Python, Spark.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5c5a1430ec825d7d62b6d7ead1d63329",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 10,
+      "skills": [
+        "Kafka",
+        "Databricks",
+        "Spark",
+        "Azure",
+        "GCP",
+        "SQL",
+        "CI/CD",
+        "Python",
+        "Datadog",
+        "Terraform"
+      ],
+      "certifications": [
+        "Databricks Certified Data Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0022",
+        "PRJ-0021"
+      ]
+    }
+  },
+  {
+    "id": "CV-0036",
+    "doc_type": "cv",
+    "title": "Salesforce Developer - Employee_036",
+    "text": "CV-0036 (Employee_036) - Salesforce Developer, 6 years of experience. Skills: Salesforce Service Cloud, Apex, Data Migration, Talend, Azure DevOps, Lightning, SQL, CI/CD. Certifications: Salesforce Platform Developer I. Past projects: Case history migration and omnichannel routing (insurance) - role Salesforce Developer, tech stack Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration; Service Cloud contact centre implementation (insurance) - role Salesforce Developer, tech stack Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5aaddebbe86ee77fc175622cb8440b50",
+    "metadata": {
+      "role": "Salesforce Developer",
+      "years_experience": 6,
+      "skills": [
+        "Salesforce Service Cloud",
+        "Apex",
+        "Data Migration",
+        "Talend",
+        "Azure DevOps",
+        "Lightning",
+        "SQL",
+        "CI/CD"
+      ],
+      "certifications": [
+        "Salesforce Platform Developer I"
+      ],
+      "project_ids": [
+        "PRJ-0024",
+        "PRJ-0023"
+      ]
+    }
+  },
+  {
+    "id": "CV-0037",
+    "doc_type": "cv",
+    "title": "Salesforce Consultant - Employee_037",
+    "text": "CV-0037 (Employee_037) - Salesforce Consultant, 5 years of experience. Skills: Salesforce Service Cloud, Apex, Azure DevOps, Data Migration, Lightning, MuleSoft, Docker, SQL. Certifications: Salesforce Certified Administrator. Past projects: Case history migration and omnichannel routing (insurance) - role Salesforce Consultant, tech stack Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "24984f7f43cbff47e015f52343d95920",
+    "metadata": {
+      "role": "Salesforce Consultant",
+      "years_experience": 5,
+      "skills": [
+        "Salesforce Service Cloud",
+        "Apex",
+        "Azure DevOps",
+        "Data Migration",
+        "Lightning",
+        "MuleSoft",
+        "Docker",
+        "SQL"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0024"
+      ]
+    }
+  },
+  {
+    "id": "CV-0038",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_038",
+    "text": "CV-0038 (Employee_038) - Solutions Architect, 9 years of experience. Skills: Salesforce Service Cloud, Apex, Azure DevOps, Data Migration, MuleSoft, Python, SQL, Lightning. Certifications: Salesforce Certified Administrator. Past projects: Service Cloud contact centre implementation (insurance) - role Solutions Architect, tech stack Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8bb83807e7b258c1ef6ca3e75f1fd947",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 9,
+      "skills": [
+        "Salesforce Service Cloud",
+        "Apex",
+        "Azure DevOps",
+        "Data Migration",
+        "MuleSoft",
+        "Python",
+        "SQL",
+        "Lightning"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0023"
+      ]
+    }
+  },
+  {
+    "id": "CV-0039",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_039",
+    "text": "CV-0039 (Employee_039) - Data Scientist, 12 years of experience. Skills: Python, Scikit-learn, Power BI, MLOps, BigQuery, Docker, SQL, MongoDB, Django, TensorFlow, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Forecast override dashboard with feedback loop (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, TensorFlow, MLOps, PyTorch; Demand forecasting with confidence bands (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7c95497e2db75eb10770ec7c2165f2ac",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 12,
+      "skills": [
+        "Python",
+        "Scikit-learn",
+        "Power BI",
+        "MLOps",
+        "BigQuery",
+        "Docker",
+        "SQL",
+        "MongoDB",
+        "Django",
+        "TensorFlow",
+        "PyTorch"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0026",
+        "PRJ-0025"
+      ]
+    }
+  },
+  {
+    "id": "CV-0040",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_040",
+    "text": "CV-0040 (Employee_040) - AI/ML Engineer, 3 years of experience. Skills: Python, Scikit-learn, BigQuery, TensorFlow, MLOps, PyTorch, Azure DevOps. Certifications: Microsoft Azure Fundamentals. Past projects: Demand forecasting with confidence bands (manufacturing) - role AI/ML Engineer, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a7a1016bae8d54abec14c8872a27ebb0",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 3,
+      "skills": [
+        "Python",
+        "Scikit-learn",
+        "BigQuery",
+        "TensorFlow",
+        "MLOps",
+        "PyTorch",
+        "Azure DevOps"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0025"
+      ]
+    }
+  },
+  {
+    "id": "CV-0041",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_041",
+    "text": "CV-0041 (Employee_041) - Data Scientist, 14 years of experience. Skills: Python, Scikit-learn, BigQuery, TensorFlow, PyTorch, Docker, Azure DevOps, MLOps. Certifications: Microsoft Azure Fundamentals. Past projects: Forecast override dashboard with feedback loop (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, TensorFlow, MLOps, PyTorch; Demand forecasting with confidence bands (manufacturing) - role Data Scientist, tech stack Python, Scikit-learn, MLOps, TensorFlow, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "3a593f1e8e37d8472f4c22f9888ffa5a",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 14,
+      "skills": [
+        "Python",
+        "Scikit-learn",
+        "BigQuery",
+        "TensorFlow",
+        "PyTorch",
+        "Docker",
+        "Azure DevOps",
+        "MLOps"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0026",
+        "PRJ-0025"
+      ]
+    }
+  },
+  {
+    "id": "CV-0042",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_042",
+    "text": "CV-0042 (Employee_042) - AI/ML Engineer, 7 years of experience. Skills: RAG, Python, FastAPI, ChromaDB, OpenAI, Pinecone, Git, Azure DevOps, Redis, Spring Boot, LangChain. Certifications: AWS Certified Developer. Past projects: Grounded RAG support assistant with citations (retail) - role AI/ML Engineer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b4bc274aa39d38e13862d186ffd4968f",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 7,
+      "skills": [
+        "RAG",
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "OpenAI",
+        "Pinecone",
+        "Git",
+        "Azure DevOps",
+        "Redis",
+        "Spring Boot",
+        "LangChain"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0027"
+      ]
+    }
+  },
+  {
+    "id": "CV-0043",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_043",
+    "text": "CV-0043 (Employee_043) - AI/ML Engineer, 12 years of experience. Skills: RAG, Python, Pinecone, ChromaDB, FastAPI, Azure DevOps, CI/CD, Redis, Flutter, LangChain. Certifications: Microsoft Azure Fundamentals. Past projects: Grounded RAG support assistant with citations (retail) - role AI/ML Engineer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a7545cbf10c69863e362d458fd3112cd",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 12,
+      "skills": [
+        "RAG",
+        "Python",
+        "Pinecone",
+        "ChromaDB",
+        "FastAPI",
+        "Azure DevOps",
+        "CI/CD",
+        "Redis",
+        "Flutter",
+        "LangChain"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0027"
+      ]
+    }
+  },
+  {
+    "id": "CV-0044",
+    "doc_type": "cv",
+    "title": "Backend Developer - Employee_044",
+    "text": "CV-0044 (Employee_044) - Backend Developer, 6 years of experience. Skills: RAG, Python, ChromaDB, Prompt Evaluation, FastAPI, CI/CD, SQL, LangChain, Pinecone. Certifications: AWS Certified Developer. Past projects: RAG evaluation harness against historical queries (retail) - role Backend Developer, tech stack RAG, Python, LangChain, Pinecone, FastAPI; Grounded RAG support assistant with citations (retail) - role Backend Developer, tech stack RAG, Python, Pinecone, LangChain, FastAPI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "4a5273e7116b5fbe4b0e29ed9564c2dc",
+    "metadata": {
+      "role": "Backend Developer",
+      "years_experience": 6,
+      "skills": [
+        "RAG",
+        "Python",
+        "ChromaDB",
+        "Prompt Evaluation",
+        "FastAPI",
+        "CI/CD",
+        "SQL",
+        "LangChain",
+        "Pinecone"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0028",
+        "PRJ-0027"
+      ]
+    }
+  },
+  {
+    "id": "CV-0045",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_045",
+    "text": "CV-0045 (Employee_045) - AI/ML Engineer, 6 years of experience. Skills: Computer Vision, PyTorch, OpenCV, Edge AI, MLOps, ONNX, Azure DevOps, SQL, Kotlin, Python. Certifications: AWS Certified Developer. Past projects: Offline edge inference with opportunistic sync (manufacturing) - role AI/ML Engineer, tech stack Computer Vision, PyTorch, ONNX, Python, Edge AI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "3b3b03e27644b1f3d6f1398a55fbc5f9",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Computer Vision",
+        "PyTorch",
+        "OpenCV",
+        "Edge AI",
+        "MLOps",
+        "ONNX",
+        "Azure DevOps",
+        "SQL",
+        "Kotlin",
+        "Python"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0030"
+      ]
+    }
+  },
+  {
+    "id": "CV-0046",
+    "doc_type": "cv",
+    "title": "Computer Vision Engineer - Employee_046",
+    "text": "CV-0046 (Employee_046) - Computer Vision Engineer, 5 years of experience. Skills: Computer Vision, PyTorch, Edge AI, Docker, Python, ONNX, SQL, OpenCV. Certifications: NVIDIA Deep Learning Institute Certificate. Past projects: Automated visual inspection on a production line (textile manufacturing) - role Computer Vision Engineer, tech stack Computer Vision, PyTorch, Edge AI, Docker, OpenCV.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c08f10710089ee4876813eda7002d1bc",
+    "metadata": {
+      "role": "Computer Vision Engineer",
+      "years_experience": 5,
+      "skills": [
+        "Computer Vision",
+        "PyTorch",
+        "Edge AI",
+        "Docker",
+        "Python",
+        "ONNX",
+        "SQL",
+        "OpenCV"
+      ],
+      "certifications": [
+        "NVIDIA Deep Learning Institute Certificate"
+      ],
+      "project_ids": [
+        "PRJ-0029"
+      ]
+    }
+  },
+  {
+    "id": "CV-0047",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_047",
+    "text": "CV-0047 (Employee_047) - Data Scientist, 13 years of experience. Skills: Computer Vision, PyTorch, MLOps, OpenCV, Docker, Edge AI, Azure DevOps, Python, TensorFlow, ONNX. Certifications: NVIDIA Deep Learning Institute Certificate. Past projects: Automated visual inspection on a production line (textile manufacturing) - role Data Scientist, tech stack Computer Vision, PyTorch, Edge AI, Docker, OpenCV; Offline edge inference with opportunistic sync (manufacturing) - role Data Scientist, tech stack Computer Vision, PyTorch, ONNX, Python, Edge AI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a695ed24cf082263ebe171e81442a70d",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 13,
+      "skills": [
+        "Computer Vision",
+        "PyTorch",
+        "MLOps",
+        "OpenCV",
+        "Docker",
+        "Edge AI",
+        "Azure DevOps",
+        "Python",
+        "TensorFlow",
+        "ONNX"
+      ],
+      "certifications": [
+        "NVIDIA Deep Learning Institute Certificate"
+      ],
+      "project_ids": [
+        "PRJ-0029",
+        "PRJ-0030"
+      ]
+    }
+  },
+  {
+    "id": "CV-0048",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_048",
+    "text": "CV-0048 (Employee_048) - AI/ML Engineer, 14 years of experience. Skills: NLP, Computer Vision, Elasticsearch, FastAPI, HuggingFace, Docker, Git, Redis, Flutter, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role AI/ML Engineer, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "4a1f50e56875e79a9c781cd1e0216ad2",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 14,
+      "skills": [
+        "NLP",
+        "Computer Vision",
+        "Elasticsearch",
+        "FastAPI",
+        "HuggingFace",
+        "Docker",
+        "Git",
+        "Redis",
+        "Flutter",
+        "PyTorch"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0032"
+      ]
+    }
+  },
+  {
+    "id": "CV-0049",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_049",
+    "text": "CV-0049 (Employee_049) - Data Scientist, 8 years of experience. Skills: NLP, Computer Vision, Audit Logging, Python, FastAPI, Azure DevOps, Git, Spring Boot, TensorFlow, PyTorch, Elasticsearch, HuggingFace. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role Data Scientist, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch; Document similarity detection with ranked evidence (public administration) - role Data Scientist, tech stack NLP, Computer Vision, HuggingFace, FastAPI, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b7034a19fbaa04ef611d881206429825",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 8,
+      "skills": [
+        "NLP",
+        "Computer Vision",
+        "Audit Logging",
+        "Python",
+        "FastAPI",
+        "Azure DevOps",
+        "Git",
+        "Spring Boot",
+        "TensorFlow",
+        "PyTorch",
+        "Elasticsearch",
+        "HuggingFace"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0032",
+        "PRJ-0031"
+      ]
+    }
+  },
+  {
+    "id": "CV-0050",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_050",
+    "text": "CV-0050 (Employee_050) - AI/ML Engineer, 9 years of experience. Skills: NLP, Computer Vision, HuggingFace, Elasticsearch, FastAPI, Azure DevOps, SQL, Spring Boot, Redis, PyTorch. Certifications: Microsoft Azure Fundamentals. Past projects: Image and text matching with auditable decision trail (public administration) - role AI/ML Engineer, tech stack NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "e9f1be47fa5d2a6f90a0d74ca46dfbad",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 9,
+      "skills": [
+        "NLP",
+        "Computer Vision",
+        "HuggingFace",
+        "Elasticsearch",
+        "FastAPI",
+        "Azure DevOps",
+        "SQL",
+        "Spring Boot",
+        "Redis",
+        "PyTorch"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0032"
+      ]
+    }
+  },
+  {
+    "id": "CV-0051",
+    "doc_type": "cv",
+    "title": "Salesforce Developer - Employee_051",
+    "text": "CV-0051 (Employee_051) - Salesforce Developer, 13 years of experience. Skills: Salesforce, CRM Analytics, Lightning, Apex, Azure DevOps, Offline Sync, Git, SQL, Spring Boot, Django, Data Residency. Certifications: Salesforce Certified Administrator. Past projects: Citizen services CRM Analytics (public administration) - role Salesforce Developer, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "bbc39c6d079f010214b476b8e18efd79",
+    "metadata": {
+      "role": "Salesforce Developer",
+      "years_experience": 13,
+      "skills": [
+        "Salesforce",
+        "CRM Analytics",
+        "Lightning",
+        "Apex",
+        "Azure DevOps",
+        "Offline Sync",
+        "Git",
+        "SQL",
+        "Spring Boot",
+        "Django",
+        "Data Residency"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0033"
+      ]
+    }
+  },
+  {
+    "id": "CV-0052",
+    "doc_type": "cv",
+    "title": "Salesforce Consultant - Employee_052",
+    "text": "CV-0052 (Employee_052) - Salesforce Consultant, 6 years of experience. Skills: Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync, Git, CI/CD, Django. Certifications: Salesforce Certified Administrator. Past projects: Offline-capable case management with reconciliation (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning; Citizen services CRM Analytics (public administration) - role Salesforce Consultant, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8410201d306a2aed3df08f7df8f226dc",
+    "metadata": {
+      "role": "Salesforce Consultant",
+      "years_experience": 6,
+      "skills": [
+        "Salesforce",
+        "CRM Analytics",
+        "Lightning",
+        "Data Residency",
+        "Offline Sync",
+        "Git",
+        "CI/CD",
+        "Django"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0034",
+        "PRJ-0033"
+      ]
+    }
+  },
+  {
+    "id": "CV-0053",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_053",
+    "text": "CV-0053 (Employee_053) - Business Analyst, 11 years of experience. Skills: Salesforce, CRM Analytics, Apex, Azure DevOps, Lightning, SQL, TensorFlow, GraphQL, Data Residency, Offline Sync. Certifications: Salesforce Certified Administrator. Past projects: Citizen services CRM Analytics (public administration) - role Business Analyst, tech stack Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "6e004bfdb6a1815e9d6ffbe9cb2c9957",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 11,
+      "skills": [
+        "Salesforce",
+        "CRM Analytics",
+        "Apex",
+        "Azure DevOps",
+        "Lightning",
+        "SQL",
+        "TensorFlow",
+        "GraphQL",
+        "Data Residency",
+        "Offline Sync"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0033"
+      ]
+    }
+  },
+  {
+    "id": "CV-0054",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_054",
+    "text": "CV-0054 (Employee_054) - Data Engineer, 10 years of experience. Skills: BigQuery, Snowflake, Data Lineage, Terraform, Python, Apache Airflow, CI/CD, Azure DevOps, Django, dbt. Certifications: SnowPro Core. Past projects: Open data portal with lineage and de-identification (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow; Public statistics warehouse on BigQuery (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b539bb6beb2ead4d637df2dc25b2ce92",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 10,
+      "skills": [
+        "BigQuery",
+        "Snowflake",
+        "Data Lineage",
+        "Terraform",
+        "Python",
+        "Apache Airflow",
+        "CI/CD",
+        "Azure DevOps",
+        "Django",
+        "dbt"
+      ],
+      "certifications": [
+        "SnowPro Core"
+      ],
+      "project_ids": [
+        "PRJ-0036",
+        "PRJ-0035"
+      ]
+    }
+  },
+  {
+    "id": "CV-0055",
+    "doc_type": "cv",
+    "title": "Data Architect - Employee_055",
+    "text": "CV-0055 (Employee_055) - Data Architect, 12 years of experience. Skills: BigQuery, Snowflake, GCP, Apache Airflow, Python, Terraform, Docker, Azure DevOps, Swift, Kotlin, dbt. Certifications: SnowPro Core. Past projects: Public statistics warehouse on BigQuery (public administration) - role Data Architect, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ffed6984183ed2fc685e70268ca03cc9",
+    "metadata": {
+      "role": "Data Architect",
+      "years_experience": 12,
+      "skills": [
+        "BigQuery",
+        "Snowflake",
+        "GCP",
+        "Apache Airflow",
+        "Python",
+        "Terraform",
+        "Docker",
+        "Azure DevOps",
+        "Swift",
+        "Kotlin",
+        "dbt"
+      ],
+      "certifications": [
+        "SnowPro Core"
+      ],
+      "project_ids": [
+        "PRJ-0035"
+      ]
+    }
+  },
+  {
+    "id": "CV-0056",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_056",
+    "text": "CV-0056 (Employee_056) - Data Engineer, 11 years of experience. Skills: BigQuery, Snowflake, dbt, Python, GCP, CI/CD, Azure DevOps, TensorFlow, Data Lineage, Apache Airflow, Terraform. Certifications: Google Professional Data Engineer. Past projects: Open data portal with lineage and de-identification (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow; Public statistics warehouse on BigQuery (public administration) - role Data Engineer, tech stack BigQuery, Snowflake, Terraform, Python, dbt.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a689a535a6a28fe94ff9eae6149dc596",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 11,
+      "skills": [
+        "BigQuery",
+        "Snowflake",
+        "dbt",
+        "Python",
+        "GCP",
+        "CI/CD",
+        "Azure DevOps",
+        "TensorFlow",
+        "Data Lineage",
+        "Apache Airflow",
+        "Terraform"
+      ],
+      "certifications": [
+        "Google Professional Data Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0036",
+        "PRJ-0035"
+      ]
+    }
+  },
+  {
+    "id": "CV-0057",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_057",
+    "text": "CV-0057 (Employee_057) - Mobile Developer, 8 years of experience. Skills: REST APIs, Flutter, Docker, Telematics, FastAPI, Offline Sync, SQL, GraphQL. Certifications: Scrum Master (CSM). Past projects: Driver app with offline proof of delivery (logistics) - role Mobile Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "2601ff8d9771ff05b259842bc9402e1d",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 8,
+      "skills": [
+        "REST APIs",
+        "Flutter",
+        "Docker",
+        "Telematics",
+        "FastAPI",
+        "Offline Sync",
+        "SQL",
+        "GraphQL"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0038"
+      ]
+    }
+  },
+  {
+    "id": "CV-0058",
+    "doc_type": "cv",
+    "title": "Integration Developer - Employee_058",
+    "text": "CV-0058 (Employee_058) - Integration Developer, 7 years of experience. Skills: REST APIs, Flutter, Telematics, FastAPI, Offline Sync, MuleSoft, Python, Azure DevOps, Docker. Certifications: Scrum Master (CSM). Past projects: Telematics API integration with maintenance and fuel systems (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Offline Sync, Telematics, MuleSoft; Driver app with offline proof of delivery (logistics) - role Integration Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "36c1b49175e4b3f366d883a34f9651a7",
+    "metadata": {
+      "role": "Integration Developer",
+      "years_experience": 7,
+      "skills": [
+        "REST APIs",
+        "Flutter",
+        "Telematics",
+        "FastAPI",
+        "Offline Sync",
+        "MuleSoft",
+        "Python",
+        "Azure DevOps",
+        "Docker"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0037",
+        "PRJ-0038"
+      ]
+    }
+  },
+  {
+    "id": "CV-0059",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_059",
+    "text": "CV-0059 (Employee_059) - Full Stack Developer, 9 years of experience. Skills: REST APIs, Flutter, Offline Sync, FastAPI, MuleSoft, Docker, CI/CD, Django, Telematics. Certifications: Scrum Master (CSM). Past projects: Driver app with offline proof of delivery (logistics) - role Full Stack Developer, tech stack REST APIs, Flutter, Docker, Offline Sync, Telematics; Telematics API integration with maintenance and fuel systems (logistics) - role Full Stack Developer, tech stack REST APIs, Flutter, Offline Sync, Telematics, MuleSoft.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c5a18a6aa37a9d5ddff2871c90290c68",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 9,
+      "skills": [
+        "REST APIs",
+        "Flutter",
+        "Offline Sync",
+        "FastAPI",
+        "MuleSoft",
+        "Docker",
+        "CI/CD",
+        "Django",
+        "Telematics"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0038",
+        "PRJ-0037"
+      ]
+    }
+  },
+  {
+    "id": "CV-0060",
+    "doc_type": "cv",
+    "title": "Security Engineer - Employee_060",
+    "text": "CV-0060 (Employee_060) - Security Engineer, 12 years of experience. Skills: Penetration Testing, OWASP, Trivy, Semgrep, Risk Assessment, Docker, Python, Redis, TensorFlow, Burp Suite, Nmap, OWASP ZAP. Certifications: Offensive Security Certified Professional. Past projects: Application penetration test with remediation tracking (banking) - role Security Engineer, tech stack Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "1d7732c9fa6ad8e97268bde16e4af4bd",
+    "metadata": {
+      "role": "Security Engineer",
+      "years_experience": 12,
+      "skills": [
+        "Penetration Testing",
+        "OWASP",
+        "Trivy",
+        "Semgrep",
+        "Risk Assessment",
+        "Docker",
+        "Python",
+        "Redis",
+        "TensorFlow",
+        "Burp Suite",
+        "Nmap",
+        "OWASP ZAP"
+      ],
+      "certifications": [
+        "Offensive Security Certified Professional"
+      ],
+      "project_ids": [
+        "PRJ-0039"
+      ]
+    }
+  },
+  {
+    "id": "CV-0061",
+    "doc_type": "cv",
+    "title": "Penetration Tester - Employee_061",
+    "text": "CV-0061 (Employee_061) - Penetration Tester, 10 years of experience. Skills: Penetration Testing, OWASP, Semgrep, OWASP ZAP, Burp Suite, SQL, Python, Kotlin, Nmap. Certifications: CompTIA Security+. Past projects: Container and dependency vulnerability scanning in CI/CD (banking) - role Penetration Tester, tech stack Penetration Testing, OWASP, Semgrep, Nmap, Burp Suite; Application penetration test with remediation tracking (banking) - role Penetration Tester, tech stack Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "58944955de4c926f650ef64de929d82c",
+    "metadata": {
+      "role": "Penetration Tester",
+      "years_experience": 10,
+      "skills": [
+        "Penetration Testing",
+        "OWASP",
+        "Semgrep",
+        "OWASP ZAP",
+        "Burp Suite",
+        "SQL",
+        "Python",
+        "Kotlin",
+        "Nmap"
+      ],
+      "certifications": [
+        "CompTIA Security+"
+      ],
+      "project_ids": [
+        "PRJ-0040",
+        "PRJ-0039"
+      ]
+    }
+  },
+  {
+    "id": "CV-0062",
+    "doc_type": "cv",
+    "title": "Security Consultant - Employee_062",
+    "text": "CV-0062 (Employee_062) - Security Consultant, 14 years of experience. Skills: Penetration Testing, OWASP, Burp Suite, Trivy, Risk Assessment, SQL, Git, Semgrep, Nmap, OWASP ZAP. Certifications: Offensive Security Certified Professional. Past projects: Container and dependency vulnerability scanning in CI/CD (banking) - role Security Consultant, tech stack Penetration Testing, OWASP, Semgrep, Nmap, Burp Suite; Application penetration test with remediation tracking (banking) - role Security Consultant, tech stack Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "e1bfcc1f7f24f003212c3337d32c0ba4",
+    "metadata": {
+      "role": "Security Consultant",
+      "years_experience": 14,
+      "skills": [
+        "Penetration Testing",
+        "OWASP",
+        "Burp Suite",
+        "Trivy",
+        "Risk Assessment",
+        "SQL",
+        "Git",
+        "Semgrep",
+        "Nmap",
+        "OWASP ZAP"
+      ],
+      "certifications": [
+        "Offensive Security Certified Professional"
+      ],
+      "project_ids": [
+        "PRJ-0040",
+        "PRJ-0039"
+      ]
+    }
+  },
+  {
+    "id": "CV-0063",
+    "doc_type": "cv",
+    "title": "Security Consultant - Employee_063",
+    "text": "CV-0063 (Employee_063) - Security Consultant, 11 years of experience. Skills: ISO 27001, ISMS, Policy Writing, Risk Assessment, Audit Preparation, Git, Python, MongoDB, Confluence, Jira. Certifications: ISO 27001 Lead Implementer. Past projects: ISO 27001 certification readiness programme (healthcare) - role Security Consultant, tech stack ISO 27001, ISMS, Confluence, Risk Assessment, Jira.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ed1b6cc46b7aba6a5d63317398e33773",
+    "metadata": {
+      "role": "Security Consultant",
+      "years_experience": 11,
+      "skills": [
+        "ISO 27001",
+        "ISMS",
+        "Policy Writing",
+        "Risk Assessment",
+        "Audit Preparation",
+        "Git",
+        "Python",
+        "MongoDB",
+        "Confluence",
+        "Jira"
+      ],
+      "certifications": [
+        "ISO 27001 Lead Implementer"
+      ],
+      "project_ids": [
+        "PRJ-0041"
+      ]
+    }
+  },
+  {
+    "id": "CV-0064",
+    "doc_type": "cv",
+    "title": "GRC Analyst - Employee_064",
+    "text": "CV-0064 (Employee_064) - GRC Analyst, 13 years of experience. Skills: ISO 27001, ISMS, Threat Modeling, Audit Preparation, Jira, Risk Assessment, CI/CD, Azure DevOps, Swift, MongoDB, Confluence. Certifications: ISO 27001 Lead Implementer. Past projects: ISO 27001 certification readiness programme (healthcare) - role GRC Analyst, tech stack ISO 27001, ISMS, Confluence, Risk Assessment, Jira.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d7b8415acc5992c3468576b47bca053a",
+    "metadata": {
+      "role": "GRC Analyst",
+      "years_experience": 13,
+      "skills": [
+        "ISO 27001",
+        "ISMS",
+        "Threat Modeling",
+        "Audit Preparation",
+        "Jira",
+        "Risk Assessment",
+        "CI/CD",
+        "Azure DevOps",
+        "Swift",
+        "MongoDB",
+        "Confluence"
+      ],
+      "certifications": [
+        "ISO 27001 Lead Implementer"
+      ],
+      "project_ids": [
+        "PRJ-0041"
+      ]
+    }
+  },
+  {
+    "id": "CV-0065",
+    "doc_type": "cv",
+    "title": "Information Security Manager - Employee_065",
+    "text": "CV-0065 (Employee_065) - Information Security Manager, 10 years of experience. Skills: ISO 27001, ISMS, Risk Assessment, Confluence, Threat Modeling, Policy Writing, Python, Git, Jira. Certifications: ISO 27001 Lead Implementer. Past projects: ISO 27001 certification readiness programme (healthcare) - role Information Security Manager, tech stack ISO 27001, ISMS, Confluence, Risk Assessment, Jira.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "82199e1dab8b6348cc4c46020423a6eb",
+    "metadata": {
+      "role": "Information Security Manager",
+      "years_experience": 10,
+      "skills": [
+        "ISO 27001",
+        "ISMS",
+        "Risk Assessment",
+        "Confluence",
+        "Threat Modeling",
+        "Policy Writing",
+        "Python",
+        "Git",
+        "Jira"
+      ],
+      "certifications": [
+        "ISO 27001 Lead Implementer"
+      ],
+      "project_ids": [
+        "PRJ-0041"
+      ]
+    }
+  },
+  {
+    "id": "CV-0066",
+    "doc_type": "cv",
+    "title": "SAP Consultant - Employee_066",
+    "text": "CV-0066 (Employee_066) - SAP Consultant, 14 years of experience. Skills: SAP S/4HANA, ABAP, SAP Fiori, Azure DevOps, MuleSoft, Data Migration, SQL, CI/CD, Master Data Management, SAP BTP. Certifications: PMP. Past projects: ERP integration layer for warehouse and supplier systems (logistics) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management; ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Consultant, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "11ec4d78513d46b15ad214837df249b8",
+    "metadata": {
+      "role": "SAP Consultant",
+      "years_experience": 14,
+      "skills": [
+        "SAP S/4HANA",
+        "ABAP",
+        "SAP Fiori",
+        "Azure DevOps",
+        "MuleSoft",
+        "Data Migration",
+        "SQL",
+        "CI/CD",
+        "Master Data Management",
+        "SAP BTP"
+      ],
+      "certifications": [
+        "PMP"
+      ],
+      "project_ids": [
+        "PRJ-0044",
+        "PRJ-0043"
+      ]
+    }
+  },
+  {
+    "id": "CV-0067",
+    "doc_type": "cv",
+    "title": "SAP Developer - Employee_067",
+    "text": "CV-0067 (Employee_067) - SAP Developer, 10 years of experience. Skills: SAP S/4HANA, ABAP, Data Migration, SAP Fiori, SAP BTP, Azure DevOps, SQL, Flutter, Django, MuleSoft, Master Data Management. Certifications: SAP Certified Application Associate. Past projects: ERP finance and procurement migration to S/4HANA (manufacturing) - role SAP Developer, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration; ERP integration layer for warehouse and supplier systems (logistics) - role SAP Developer, tech stack SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "da7ff859fe49788177fc27988c5dfae0",
+    "metadata": {
+      "role": "SAP Developer",
+      "years_experience": 10,
+      "skills": [
+        "SAP S/4HANA",
+        "ABAP",
+        "Data Migration",
+        "SAP Fiori",
+        "SAP BTP",
+        "Azure DevOps",
+        "SQL",
+        "Flutter",
+        "Django",
+        "MuleSoft",
+        "Master Data Management"
+      ],
+      "certifications": [
+        "SAP Certified Application Associate"
+      ],
+      "project_ids": [
+        "PRJ-0043",
+        "PRJ-0044"
+      ]
+    }
+  },
+  {
+    "id": "CV-0068",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_068",
+    "text": "CV-0068 (Employee_068) - Solutions Architect, 8 years of experience. Skills: SAP S/4HANA, ABAP, Master Data Management, Azure DevOps, SAP BTP, Git, CI/CD, Flutter, Swift, SAP Fiori, Data Migration. Certifications: SAP Certified Application Associate. Past projects: ERP finance and procurement migration to S/4HANA (manufacturing) - role Solutions Architect, tech stack SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "12231c96404596ad6cb73d86ba7fbea2",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 8,
+      "skills": [
+        "SAP S/4HANA",
+        "ABAP",
+        "Master Data Management",
+        "Azure DevOps",
+        "SAP BTP",
+        "Git",
+        "CI/CD",
+        "Flutter",
+        "Swift",
+        "SAP Fiori",
+        "Data Migration"
+      ],
+      "certifications": [
+        "SAP Certified Application Associate"
+      ],
+      "project_ids": [
+        "PRJ-0043"
+      ]
+    }
+  },
+  {
+    "id": "CV-0069",
+    "doc_type": "cv",
+    "title": "ERP Developer - Employee_069",
+    "text": "CV-0069 (Employee_069) - ERP Developer, 6 years of experience. Skills: Odoo Community, PostgreSQL, Python, Data Migration, n8n, SQL, CI/CD, Swift, JavaScript, REST APIs. Certifications: Scrum Master (CSM). Past projects: Odoo ERP rollout for distribution and invoicing (retail) - role ERP Developer, tech stack Odoo Community, PostgreSQL, Data Migration, JavaScript, REST APIs.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "4600499a79c49ccf58b733f35ff1efee",
+    "metadata": {
+      "role": "ERP Developer",
+      "years_experience": 6,
+      "skills": [
+        "Odoo Community",
+        "PostgreSQL",
+        "Python",
+        "Data Migration",
+        "n8n",
+        "SQL",
+        "CI/CD",
+        "Swift",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0045"
+      ]
+    }
+  },
+  {
+    "id": "CV-0070",
+    "doc_type": "cv",
+    "title": "ERP Functional Consultant - Employee_070",
+    "text": "CV-0070 (Employee_070) - ERP Functional Consultant, 3 years of experience. Skills: Odoo Community, PostgreSQL, JavaScript, REST APIs, Data Migration, Python, SQL, Kotlin, Django. Certifications: Odoo Functional Certification. Past projects: Odoo ERP rollout for distribution and invoicing (retail) - role ERP Functional Consultant, tech stack Odoo Community, PostgreSQL, Data Migration, JavaScript, REST APIs.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "dd3c51efef3fd3cf3c30e05de5015629",
+    "metadata": {
+      "role": "ERP Functional Consultant",
+      "years_experience": 3,
+      "skills": [
+        "Odoo Community",
+        "PostgreSQL",
+        "JavaScript",
+        "REST APIs",
+        "Data Migration",
+        "Python",
+        "SQL",
+        "Kotlin",
+        "Django"
+      ],
+      "certifications": [
+        "Odoo Functional Certification"
+      ],
+      "project_ids": [
+        "PRJ-0045"
+      ]
+    }
+  },
+  {
+    "id": "CV-0071",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_071",
+    "text": "CV-0071 (Employee_071) - Full Stack Developer, 4 years of experience. Skills: Odoo Community, PostgreSQL, JavaScript, n8n, REST APIs, Azure DevOps, Git, MongoDB, XML, Data Migration. Certifications: Odoo Functional Certification. Past projects: Odoo custom modules and bank statement reconciliation (banking) - role Full Stack Developer, tech stack Odoo Community, PostgreSQL, XML, n8n, Data Migration.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "391f4d7848ae84696a1438f6f1be222a",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 4,
+      "skills": [
+        "Odoo Community",
+        "PostgreSQL",
+        "JavaScript",
+        "n8n",
+        "REST APIs",
+        "Azure DevOps",
+        "Git",
+        "MongoDB",
+        "XML",
+        "Data Migration"
+      ],
+      "certifications": [
+        "Odoo Functional Certification"
+      ],
+      "project_ids": [
+        "PRJ-0046"
+      ]
+    }
+  },
+  {
+    "id": "CV-0072",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_072",
+    "text": "CV-0072 (Employee_072) - Mobile Developer, 14 years of experience. Skills: Flutter, Firebase, CI/CD, Offline Sync, OAuth 2.0, Swift, Python, Redis, REST APIs, Kotlin. Certifications: Google Associate Android Developer. Past projects: Cross-platform mobile banking app with biometric sign-in (banking) - role Mobile Developer, tech stack Flutter, Firebase, REST APIs, Kotlin, OAuth 2.0.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a603c29e27e71255627b8ca91e072428",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 14,
+      "skills": [
+        "Flutter",
+        "Firebase",
+        "CI/CD",
+        "Offline Sync",
+        "OAuth 2.0",
+        "Swift",
+        "Python",
+        "Redis",
+        "REST APIs",
+        "Kotlin"
+      ],
+      "certifications": [
+        "Google Associate Android Developer"
+      ],
+      "project_ids": [
+        "PRJ-0047"
+      ]
+    }
+  },
+  {
+    "id": "CV-0073",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_073",
+    "text": "CV-0073 (Employee_073) - Mobile Developer, 10 years of experience. Skills: Flutter, Firebase, CI/CD, REST APIs, Kotlin, SQL, Azure DevOps, TensorFlow, OAuth 2.0, Swift. Certifications: Scrum Master (CSM). Past projects: Cross-platform mobile banking app with biometric sign-in (banking) - role Mobile Developer, tech stack Flutter, Firebase, REST APIs, Kotlin, OAuth 2.0; Push notification and mobile analytics service (banking) - role Mobile Developer, tech stack Flutter, Firebase, Kotlin, Swift, OAuth 2.0.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7bfa3198273bec419e9b6de6669aa640",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 10,
+      "skills": [
+        "Flutter",
+        "Firebase",
+        "CI/CD",
+        "REST APIs",
+        "Kotlin",
+        "SQL",
+        "Azure DevOps",
+        "TensorFlow",
+        "OAuth 2.0",
+        "Swift"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0047",
+        "PRJ-0048"
+      ]
+    }
+  },
+  {
+    "id": "CV-0074",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_074",
+    "text": "CV-0074 (Employee_074) - Full Stack Developer, 13 years of experience. Skills: Flutter, Firebase, Swift, REST APIs, CI/CD, Kotlin, Docker, OAuth 2.0. Certifications: Scrum Master (CSM). Past projects: Push notification and mobile analytics service (banking) - role Full Stack Developer, tech stack Flutter, Firebase, Kotlin, Swift, OAuth 2.0.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8195c4ae6da7525c4a88b489732e5839",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 13,
+      "skills": [
+        "Flutter",
+        "Firebase",
+        "Swift",
+        "REST APIs",
+        "CI/CD",
+        "Kotlin",
+        "Docker",
+        "OAuth 2.0"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0048"
+      ]
+    }
+  },
+  {
+    "id": "CV-0075",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_075",
+    "text": "CV-0075 (Employee_075) - Mobile Developer, 6 years of experience. Skills: React Native, TypeScript, Offline Sync, Cypress, Firebase, SQL, Python, TensorFlow, REST APIs. Certifications: Scrum Master (CSM). Past projects: Field technician app with offline job capture (energy) - role Mobile Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "9e1b49dd4f5e33a2760a5191600fc358",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 6,
+      "skills": [
+        "React Native",
+        "TypeScript",
+        "Offline Sync",
+        "Cypress",
+        "Firebase",
+        "SQL",
+        "Python",
+        "TensorFlow",
+        "REST APIs"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0049"
+      ]
+    }
+  },
+  {
+    "id": "CV-0076",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_076",
+    "text": "CV-0076 (Employee_076) - Full Stack Developer, 14 years of experience. Skills: React Native, TypeScript, GraphQL, Cypress, Node.js, SQL, Python, Django, Spring Boot, Firebase, Offline Sync, REST APIs. Certifications: Scrum Master (CSM). Past projects: Mobile sync service with conflict resolution (energy) - role Full Stack Developer, tech stack React Native, TypeScript, Firebase, Cypress, Offline Sync; Field technician app with offline job capture (energy) - role Full Stack Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a3c68b4dc825d6da7f95869ee80fae45",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 14,
+      "skills": [
+        "React Native",
+        "TypeScript",
+        "GraphQL",
+        "Cypress",
+        "Node.js",
+        "SQL",
+        "Python",
+        "Django",
+        "Spring Boot",
+        "Firebase",
+        "Offline Sync",
+        "REST APIs"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0050",
+        "PRJ-0049"
+      ]
+    }
+  },
+  {
+    "id": "CV-0077",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_077",
+    "text": "CV-0077 (Employee_077) - Mobile Developer, 10 years of experience. Skills: React Native, TypeScript, Cypress, Node.js, Offline Sync, SQL, Git, Spring Boot, REST APIs, Firebase. Certifications: Scrum Master (CSM). Past projects: Field technician app with offline job capture (energy) - role Mobile Developer, tech stack React Native, TypeScript, Offline Sync, Cypress, REST APIs; Mobile sync service with conflict resolution (energy) - role Mobile Developer, tech stack React Native, TypeScript, Firebase, Cypress, Offline Sync.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "298aaeb29b20a07ad3720464d9c3ca11",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 10,
+      "skills": [
+        "React Native",
+        "TypeScript",
+        "Cypress",
+        "Node.js",
+        "Offline Sync",
+        "SQL",
+        "Git",
+        "Spring Boot",
+        "REST APIs",
+        "Firebase"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0049",
+        "PRJ-0050"
+      ]
+    }
+  },
+  {
+    "id": "CV-0078",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_078",
+    "text": "CV-0078 (Employee_078) - Cloud Architect, 11 years of experience. Skills: Kubernetes, Terraform, Prometheus, Grafana, AWS, CI/CD, Git, Swift, GitHub Actions. Certifications: Certified Kubernetes Administrator. Past projects: Platform monitoring and disaster recovery on Kubernetes (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Prometheus, AWS, GitHub Actions.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "0822ba27f965650dcbc5b07947b555e0",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 11,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Prometheus",
+        "Grafana",
+        "AWS",
+        "CI/CD",
+        "Git",
+        "Swift",
+        "GitHub Actions"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0052"
+      ]
+    }
+  },
+  {
+    "id": "CV-0079",
+    "doc_type": "cv",
+    "title": "DevOps Engineer - Employee_079",
+    "text": "CV-0079 (Employee_079) - DevOps Engineer, 13 years of experience. Skills: Kubernetes, Terraform, AWS, Helm, Prometheus, Azure, Git, Azure DevOps, MongoDB, Docker, GitHub Actions. Certifications: Microsoft Azure Fundamentals. Past projects: Virtual machine to Kubernetes migration in risk waves (telecom) - role DevOps Engineer, tech stack Kubernetes, Terraform, Docker, AWS, GitHub Actions.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c9bc73b7896d49a7ecfa7890170d85d1",
+    "metadata": {
+      "role": "DevOps Engineer",
+      "years_experience": 13,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Helm",
+        "Prometheus",
+        "Azure",
+        "Git",
+        "Azure DevOps",
+        "MongoDB",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0051"
+      ]
+    }
+  },
+  {
+    "id": "CV-0080",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_080",
+    "text": "CV-0080 (Employee_080) - Cloud Architect, 4 years of experience. Skills: Kubernetes, Terraform, Docker, Prometheus, Azure, SQL, AWS, GitHub Actions. Certifications: Certified Kubernetes Administrator. Past projects: Platform monitoring and disaster recovery on Kubernetes (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Prometheus, AWS, GitHub Actions; Virtual machine to Kubernetes migration in risk waves (telecom) - role Cloud Architect, tech stack Kubernetes, Terraform, Docker, AWS, GitHub Actions.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "4d7e59dfb2e6147f394cc45c499a5fbf",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 4,
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Docker",
+        "Prometheus",
+        "Azure",
+        "SQL",
+        "AWS",
+        "GitHub Actions"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0052",
+        "PRJ-0051"
+      ]
+    }
+  },
+  {
+    "id": "CV-0081",
+    "doc_type": "cv",
+    "title": "IAM Engineer - Employee_081",
+    "text": "CV-0081 (Employee_081) - IAM Engineer, 3 years of experience. Skills: OAuth 2.0, OpenID Connect, Keycloak, Okta, Key Vault, Git, Python, Django, Spring Boot, Microsoft Entra ID, Audit Logging. Certifications: Microsoft Identity and Access Administrator. Past projects: Customer identity and consent service (banking) - role IAM Engineer, tech stack OAuth 2.0, OpenID Connect, Keycloak, Microsoft Entra ID, Audit Logging; National single sign-on platform for public services (public administration) - role IAM Engineer, tech stack OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "3d38e35ff65fb93b019c2a39191a84ec",
+    "metadata": {
+      "role": "IAM Engineer",
+      "years_experience": 3,
+      "skills": [
+        "OAuth 2.0",
+        "OpenID Connect",
+        "Keycloak",
+        "Okta",
+        "Key Vault",
+        "Git",
+        "Python",
+        "Django",
+        "Spring Boot",
+        "Microsoft Entra ID",
+        "Audit Logging"
+      ],
+      "certifications": [
+        "Microsoft Identity and Access Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0054",
+        "PRJ-0053"
+      ]
+    }
+  },
+  {
+    "id": "CV-0082",
+    "doc_type": "cv",
+    "title": "Security Engineer - Employee_082",
+    "text": "CV-0082 (Employee_082) - Security Engineer, 9 years of experience. Skills: OAuth 2.0, OpenID Connect, REST APIs, Audit Logging, Key Vault, Okta, Azure DevOps, CI/CD, MongoDB, GraphQL, Keycloak, Microsoft Entra ID. Certifications: Certified Information Systems Security Professional. Past projects: National single sign-on platform for public services (public administration) - role Security Engineer, tech stack OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID; Customer identity and consent service (banking) - role Security Engineer, tech stack OAuth 2.0, OpenID Connect, Keycloak, Microsoft Entra ID, Audit Logging.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "0aaa2523980a77cc5cac3da257eb82cb",
+    "metadata": {
+      "role": "Security Engineer",
+      "years_experience": 9,
+      "skills": [
+        "OAuth 2.0",
+        "OpenID Connect",
+        "REST APIs",
+        "Audit Logging",
+        "Key Vault",
+        "Okta",
+        "Azure DevOps",
+        "CI/CD",
+        "MongoDB",
+        "GraphQL",
+        "Keycloak",
+        "Microsoft Entra ID"
+      ],
+      "certifications": [
+        "Certified Information Systems Security Professional"
+      ],
+      "project_ids": [
+        "PRJ-0053",
+        "PRJ-0054"
+      ]
+    }
+  },
+  {
+    "id": "CV-0083",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_083",
+    "text": "CV-0083 (Employee_083) - Integration Architect, 14 years of experience. Skills: OAuth 2.0, OpenID Connect, Keycloak, Audit Logging, Microsoft Entra ID, REST APIs, Git, Python, Key Vault. Certifications: Certified Information Systems Security Professional. Past projects: National single sign-on platform for public services (public administration) - role Integration Architect, tech stack OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "90f75531c00b1ab9ce4e22cf6913a7d5",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 14,
+      "skills": [
+        "OAuth 2.0",
+        "OpenID Connect",
+        "Keycloak",
+        "Audit Logging",
+        "Microsoft Entra ID",
+        "REST APIs",
+        "Git",
+        "Python",
+        "Key Vault"
+      ],
+      "certifications": [
+        "Certified Information Systems Security Professional"
+      ],
+      "project_ids": [
+        "PRJ-0053"
+      ]
+    }
+  },
+  {
+    "id": "CV-0084",
+    "doc_type": "cv",
+    "title": "Frontend Developer - Employee_084",
+    "text": "CV-0084 (Employee_084) - Frontend Developer, 14 years of experience. Skills: Next.js, TypeScript, WCAG Accessibility, Tailwind CSS, React, Cypress, Docker, Azure DevOps, Drupal, SEO. Certifications: Scrum Master (CSM). Past projects: Accessible parent portal built in Next.js (education) - role Frontend Developer, tech stack Next.js, TypeScript, React, Tailwind CSS, Cypress; Public website component library and content workflow (education) - role Frontend Developer, tech stack Next.js, TypeScript, React, Drupal, SEO.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8c84d2a2534a1f18e8d4860eae96c68a",
+    "metadata": {
+      "role": "Frontend Developer",
+      "years_experience": 14,
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "WCAG Accessibility",
+        "Tailwind CSS",
+        "React",
+        "Cypress",
+        "Docker",
+        "Azure DevOps",
+        "Drupal",
+        "SEO"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0055",
+        "PRJ-0056"
+      ]
+    }
+  },
+  {
+    "id": "CV-0085",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_085",
+    "text": "CV-0085 (Employee_085) - Full Stack Developer, 13 years of experience. Skills: Next.js, TypeScript, Drupal, React, Tailwind CSS, Git, Azure DevOps, SEO. Certifications: Scrum Master (CSM). Past projects: Public website component library and content workflow (education) - role Full Stack Developer, tech stack Next.js, TypeScript, React, Drupal, SEO.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "25ead6a4116c51a95e59d679d31c6ef3",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 13,
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Drupal",
+        "React",
+        "Tailwind CSS",
+        "Git",
+        "Azure DevOps",
+        "SEO"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0056"
+      ]
+    }
+  },
+  {
+    "id": "CV-0086",
+    "doc_type": "cv",
+    "title": "UX Developer - Employee_086",
+    "text": "CV-0086 (Employee_086) - UX Developer, 11 years of experience. Skills: Next.js, TypeScript, Drupal, Figma, SEO, Cypress, Docker, CI/CD, Flutter, GraphQL, React, Tailwind CSS. Certifications: Scrum Master (CSM). Past projects: Accessible parent portal built in Next.js (education) - role UX Developer, tech stack Next.js, TypeScript, React, Tailwind CSS, Cypress.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ae7a47933a680990777b00f97e37b773",
+    "metadata": {
+      "role": "UX Developer",
+      "years_experience": 11,
+      "skills": [
+        "Next.js",
+        "TypeScript",
+        "Drupal",
+        "Figma",
+        "SEO",
+        "Cypress",
+        "Docker",
+        "CI/CD",
+        "Flutter",
+        "GraphQL",
+        "React",
+        "Tailwind CSS"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0055"
+      ]
+    }
+  },
+  {
+    "id": "CV-0087",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_087",
+    "text": "CV-0087 (Employee_087) - Integration Architect, 8 years of experience. Skills: HL7 FHIR, REST APIs, MuleSoft, Audit Logging, Consent Management, Docker, Azure DevOps, Azure, Data Residency. Certifications: HL7 FHIR Proficiency. Past projects: FHIR interoperability layer for clinics and laboratories (healthcare) - role Integration Architect, tech stack HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging; Consent-aware patient record exchange with audit trail (healthcare) - role Integration Architect, tech stack HL7 FHIR, REST APIs, Consent Management, Data Residency, Azure.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5fa1d0c33a079ee3cf442badadadbe72",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 8,
+      "skills": [
+        "HL7 FHIR",
+        "REST APIs",
+        "MuleSoft",
+        "Audit Logging",
+        "Consent Management",
+        "Docker",
+        "Azure DevOps",
+        "Azure",
+        "Data Residency"
+      ],
+      "certifications": [
+        "HL7 FHIR Proficiency"
+      ],
+      "project_ids": [
+        "PRJ-0057",
+        "PRJ-0058"
+      ]
+    }
+  },
+  {
+    "id": "CV-0088",
+    "doc_type": "cv",
+    "title": "Integration Developer - Employee_088",
+    "text": "CV-0088 (Employee_088) - Integration Developer, 10 years of experience. Skills: HL7 FHIR, REST APIs, Consent Management, Azure, Audit Logging, SOAP, Git, CI/CD, TensorFlow, MuleSoft. Certifications: MuleSoft Certified Developer. Past projects: FHIR interoperability layer for clinics and laboratories (healthcare) - role Integration Developer, tech stack HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7b2428d4017c9fb065de1025ff7fae25",
+    "metadata": {
+      "role": "Integration Developer",
+      "years_experience": 10,
+      "skills": [
+        "HL7 FHIR",
+        "REST APIs",
+        "Consent Management",
+        "Azure",
+        "Audit Logging",
+        "SOAP",
+        "Git",
+        "CI/CD",
+        "TensorFlow",
+        "MuleSoft"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0057"
+      ]
+    }
+  },
+  {
+    "id": "CV-0089",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_089",
+    "text": "CV-0089 (Employee_089) - Solutions Architect, 7 years of experience. Skills: HL7 FHIR, REST APIs, Audit Logging, Azure, SOAP, MuleSoft, Azure DevOps, Python, Spring Boot, TensorFlow, Consent Management, Data Residency. Certifications: MuleSoft Certified Developer. Past projects: Consent-aware patient record exchange with audit trail (healthcare) - role Solutions Architect, tech stack HL7 FHIR, REST APIs, Consent Management, Data Residency, Azure; FHIR interoperability layer for clinics and laboratories (healthcare) - role Solutions Architect, tech stack HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d63a54a17109b19a2eb51c63acab4e3a",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 7,
+      "skills": [
+        "HL7 FHIR",
+        "REST APIs",
+        "Audit Logging",
+        "Azure",
+        "SOAP",
+        "MuleSoft",
+        "Azure DevOps",
+        "Python",
+        "Spring Boot",
+        "TensorFlow",
+        "Consent Management",
+        "Data Residency"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0058",
+        "PRJ-0057"
+      ]
+    }
+  },
+  {
+    "id": "CV-0090",
+    "doc_type": "cv",
+    "title": "BI Developer - Employee_090",
+    "text": "CV-0090 (Employee_090) - BI Developer, 11 years of experience. Skills: Tableau, SQL, Azure Data Factory, Qlik Sense, Data Modelling, Azure Synapse, Git, Django, Row-Level Security. Certifications: Microsoft Power BI Data Analyst. Past projects: Governed data model with regional row-level security (retail) - role BI Developer, tech stack Tableau, SQL, Data Modelling, Row-Level Security, Azure Data Factory; Self-service Tableau analytics for supply chain (retail) - role BI Developer, tech stack Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "223eaee3a310649150607a93e65169d6",
+    "metadata": {
+      "role": "BI Developer",
+      "years_experience": 11,
+      "skills": [
+        "Tableau",
+        "SQL",
+        "Azure Data Factory",
+        "Qlik Sense",
+        "Data Modelling",
+        "Azure Synapse",
+        "Git",
+        "Django",
+        "Row-Level Security"
+      ],
+      "certifications": [
+        "Microsoft Power BI Data Analyst"
+      ],
+      "project_ids": [
+        "PRJ-0060",
+        "PRJ-0059"
+      ]
+    }
+  },
+  {
+    "id": "CV-0091",
+    "doc_type": "cv",
+    "title": "Data Analyst - Employee_091",
+    "text": "CV-0091 (Employee_091) - Data Analyst, 10 years of experience. Skills: Tableau, SQL, Data Modelling, Qlik Sense, Azure Synapse, Azure Data Factory, Python, Spring Boot, Row-Level Security. Certifications: Tableau Desktop Specialist. Past projects: Self-service Tableau analytics for supply chain (retail) - role Data Analyst, tech stack Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "bdd5d699097f0a89eabf3c42ad0b1dbb",
+    "metadata": {
+      "role": "Data Analyst",
+      "years_experience": 10,
+      "skills": [
+        "Tableau",
+        "SQL",
+        "Data Modelling",
+        "Qlik Sense",
+        "Azure Synapse",
+        "Azure Data Factory",
+        "Python",
+        "Spring Boot",
+        "Row-Level Security"
+      ],
+      "certifications": [
+        "Tableau Desktop Specialist"
+      ],
+      "project_ids": [
+        "PRJ-0059"
+      ]
+    }
+  },
+  {
+    "id": "CV-0092",
+    "doc_type": "cv",
+    "title": "BI Developer - Employee_092",
+    "text": "CV-0092 (Employee_092) - BI Developer, 7 years of experience. Skills: Tableau, SQL, Row-Level Security, Looker, Qlik Sense, Data Modelling, Azure DevOps, Docker, Kotlin, Azure Synapse. Certifications: Tableau Desktop Specialist. Past projects: Self-service Tableau analytics for supply chain (retail) - role BI Developer, tech stack Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "eebc2512c0b27c5b030252633e0728a7",
+    "metadata": {
+      "role": "BI Developer",
+      "years_experience": 7,
+      "skills": [
+        "Tableau",
+        "SQL",
+        "Row-Level Security",
+        "Looker",
+        "Qlik Sense",
+        "Data Modelling",
+        "Azure DevOps",
+        "Docker",
+        "Kotlin",
+        "Azure Synapse"
+      ],
+      "certifications": [
+        "Tableau Desktop Specialist"
+      ],
+      "project_ids": [
+        "PRJ-0059"
+      ]
+    }
+  },
+  {
+    "id": "CV-0093",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_093",
+    "text": "CV-0093 (Employee_093) - Data Engineer, 5 years of experience. Skills: Azure Data Factory, Informatica, Data Quality, Data Lineage, Apache NiFi, Fivetran, Azure DevOps, Docker, SQL, Boomi. Certifications: Microsoft Azure Data Engineer Associate. Past projects: Claims data pipelines with quality checks and lineage (insurance) - role Data Engineer, tech stack Azure Data Factory, Informatica, SQL, Data Quality, Boomi; Integration tool consolidation with job migration (insurance) - role Data Engineer, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b08e528dba557f3a4de57445803e11ce",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 5,
+      "skills": [
+        "Azure Data Factory",
+        "Informatica",
+        "Data Quality",
+        "Data Lineage",
+        "Apache NiFi",
+        "Fivetran",
+        "Azure DevOps",
+        "Docker",
+        "SQL",
+        "Boomi"
+      ],
+      "certifications": [
+        "Microsoft Azure Data Engineer Associate"
+      ],
+      "project_ids": [
+        "PRJ-0062",
+        "PRJ-0061"
+      ]
+    }
+  },
+  {
+    "id": "CV-0094",
+    "doc_type": "cv",
+    "title": "ETL Developer - Employee_094",
+    "text": "CV-0094 (Employee_094) - ETL Developer, 4 years of experience. Skills: Azure Data Factory, Informatica, Data Quality, Boomi, Data Lineage, SQL, CI/CD, Spring Boot, Fivetran, Apache NiFi. Certifications: Informatica Data Integration Certification. Past projects: Claims data pipelines with quality checks and lineage (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, SQL, Data Quality, Boomi; Integration tool consolidation with job migration (insurance) - role ETL Developer, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "1be4af3824c20e40405211da7a47a12d",
+    "metadata": {
+      "role": "ETL Developer",
+      "years_experience": 4,
+      "skills": [
+        "Azure Data Factory",
+        "Informatica",
+        "Data Quality",
+        "Boomi",
+        "Data Lineage",
+        "SQL",
+        "CI/CD",
+        "Spring Boot",
+        "Fivetran",
+        "Apache NiFi"
+      ],
+      "certifications": [
+        "Informatica Data Integration Certification"
+      ],
+      "project_ids": [
+        "PRJ-0062",
+        "PRJ-0061"
+      ]
+    }
+  },
+  {
+    "id": "CV-0095",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_095",
+    "text": "CV-0095 (Employee_095) - Integration Architect, 9 years of experience. Skills: Azure Data Factory, Informatica, Data Lineage, SQL, Fivetran, Docker, Python, Apache NiFi. Certifications: Microsoft Azure Data Engineer Associate. Past projects: Integration tool consolidation with job migration (insurance) - role Integration Architect, tech stack Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d40791768ca5851a011dfef8add5611b",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 9,
+      "skills": [
+        "Azure Data Factory",
+        "Informatica",
+        "Data Lineage",
+        "SQL",
+        "Fivetran",
+        "Docker",
+        "Python",
+        "Apache NiFi"
+      ],
+      "certifications": [
+        "Microsoft Azure Data Engineer Associate"
+      ],
+      "project_ids": [
+        "PRJ-0061"
+      ]
+    }
+  },
+  {
+    "id": "CV-0096",
+    "doc_type": "cv",
+    "title": "QA Automation Engineer - Employee_096",
+    "text": "CV-0096 (Employee_096) - QA Automation Engineer, 8 years of experience. Skills: Test Automation, Selenium, Postman, Jira, CI/CD, Python, Azure DevOps, Redis, MongoDB, JMeter, Cypress. Certifications: Scrum Master (CSM). Past projects: Regression automation suite for online banking (banking) - role QA Automation Engineer, tech stack Test Automation, Selenium, Jira, JMeter, Cypress.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "fac9fe2ad3cc5aeb60349cd82d54d6e5",
+    "metadata": {
+      "role": "QA Automation Engineer",
+      "years_experience": 8,
+      "skills": [
+        "Test Automation",
+        "Selenium",
+        "Postman",
+        "Jira",
+        "CI/CD",
+        "Python",
+        "Azure DevOps",
+        "Redis",
+        "MongoDB",
+        "JMeter",
+        "Cypress"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0063"
+      ]
+    }
+  },
+  {
+    "id": "CV-0097",
+    "doc_type": "cv",
+    "title": "QA Automation Engineer - Employee_097",
+    "text": "CV-0097 (Employee_097) - QA Automation Engineer, 7 years of experience. Skills: Test Automation, Selenium, CI/CD, Cypress, JMeter, Docker, Git, MongoDB, Azure DevOps. Certifications: ISTQB Certified Tester. Past projects: Pre-release performance and API test pipeline (banking) - role QA Automation Engineer, tech stack Test Automation, Selenium, Azure DevOps, CI/CD, Cypress.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "902f2a56738b64efa44099b3520845e0",
+    "metadata": {
+      "role": "QA Automation Engineer",
+      "years_experience": 7,
+      "skills": [
+        "Test Automation",
+        "Selenium",
+        "CI/CD",
+        "Cypress",
+        "JMeter",
+        "Docker",
+        "Git",
+        "MongoDB",
+        "Azure DevOps"
+      ],
+      "certifications": [
+        "ISTQB Certified Tester"
+      ],
+      "project_ids": [
+        "PRJ-0064"
+      ]
+    }
+  },
+  {
+    "id": "CV-0098",
+    "doc_type": "cv",
+    "title": "Test Manager - Employee_098",
+    "text": "CV-0098 (Employee_098) - Test Manager, 11 years of experience. Skills: Test Automation, Selenium, JMeter, Jira, Postman, Docker, Git, Flutter, Cypress, Azure DevOps, CI/CD. Certifications: Scrum Master (CSM). Past projects: Regression automation suite for online banking (banking) - role Test Manager, tech stack Test Automation, Selenium, Jira, JMeter, Cypress; Pre-release performance and API test pipeline (banking) - role Test Manager, tech stack Test Automation, Selenium, Azure DevOps, CI/CD, Cypress.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "2259fce913e57a76a8a22b34aafce9ed",
+    "metadata": {
+      "role": "Test Manager",
+      "years_experience": 11,
+      "skills": [
+        "Test Automation",
+        "Selenium",
+        "JMeter",
+        "Jira",
+        "Postman",
+        "Docker",
+        "Git",
+        "Flutter",
+        "Cypress",
+        "Azure DevOps",
+        "CI/CD"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0063",
+        "PRJ-0064"
+      ]
+    }
+  },
+  {
+    "id": "CV-0099",
+    "doc_type": "cv",
+    "title": "IoT Engineer - Employee_099",
+    "text": "CV-0099 (Employee_099) - IoT Engineer, 8 years of experience. Skills: IoT, MQTT, Azure IoT Hub, Python, Time-Series Forecasting, CI/CD, Git, Edge AI, Docker. Certifications: Microsoft Azure Fundamentals. Past projects: Edge gateway fleet with remote updates (manufacturing) - role IoT Engineer, tech stack IoT, MQTT, Edge AI, Azure IoT Hub, Docker; Machine condition monitoring over MQTT (manufacturing) - role IoT Engineer, tech stack IoT, MQTT, Docker, Azure IoT Hub, Edge AI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "2c580b9cfbebcbcaaa3dd9cf9f7c0a52",
+    "metadata": {
+      "role": "IoT Engineer",
+      "years_experience": 8,
+      "skills": [
+        "IoT",
+        "MQTT",
+        "Azure IoT Hub",
+        "Python",
+        "Time-Series Forecasting",
+        "CI/CD",
+        "Git",
+        "Edge AI",
+        "Docker"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0066",
+        "PRJ-0065"
+      ]
+    }
+  },
+  {
+    "id": "CV-0100",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_100",
+    "text": "CV-0100 (Employee_100) - Data Engineer, 4 years of experience. Skills: IoT, MQTT, Azure IoT Hub, Docker, Python, Time-Series Forecasting, GraphQL, Edge AI. Certifications: Microsoft Azure IoT Developer Specialty. Past projects: Machine condition monitoring over MQTT (manufacturing) - role Data Engineer, tech stack IoT, MQTT, Docker, Azure IoT Hub, Edge AI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "14120806fc7de53d269f00204d62cd8b",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 4,
+      "skills": [
+        "IoT",
+        "MQTT",
+        "Azure IoT Hub",
+        "Docker",
+        "Python",
+        "Time-Series Forecasting",
+        "GraphQL",
+        "Edge AI"
+      ],
+      "certifications": [
+        "Microsoft Azure IoT Developer Specialty"
+      ],
+      "project_ids": [
+        "PRJ-0065"
+      ]
+    }
+  },
+  {
+    "id": "CV-0101",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_101",
+    "text": "CV-0101 (Employee_101) - Cloud Architect, 11 years of experience. Skills: IoT, MQTT, Docker, Python, Edge AI, CI/CD, Azure DevOps, Azure IoT Hub. Certifications: Microsoft Azure IoT Developer Specialty. Past projects: Edge gateway fleet with remote updates (manufacturing) - role Cloud Architect, tech stack IoT, MQTT, Edge AI, Azure IoT Hub, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "a3a77b3c4c95c1e51c31ada8de134a49",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 11,
+      "skills": [
+        "IoT",
+        "MQTT",
+        "Docker",
+        "Python",
+        "Edge AI",
+        "CI/CD",
+        "Azure DevOps",
+        "Azure IoT Hub"
+      ],
+      "certifications": [
+        "Microsoft Azure IoT Developer Specialty"
+      ],
+      "project_ids": [
+        "PRJ-0066"
+      ]
+    }
+  },
+  {
+    "id": "CV-0102",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_102",
+    "text": "CV-0102 (Employee_102) - Data Engineer, 9 years of experience. Skills: Talend, Azure, Terraform, Snowflake, Data Quality, SQL, Git, Azure DevOps, Redis, Python. Certifications: SnowPro Core. Past projects: Customer billing data warehouse refresh (telecom) - role Data Engineer, tech stack Python, Azure, SQL, Data Quality, Terraform.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "928c4aa05a71291d21d6221ec8e4fdd0",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 9,
+      "skills": [
+        "Talend",
+        "Azure",
+        "Terraform",
+        "Snowflake",
+        "Data Quality",
+        "SQL",
+        "Git",
+        "Azure DevOps",
+        "Redis",
+        "Python"
+      ],
+      "certifications": [
+        "SnowPro Core"
+      ],
+      "project_ids": [
+        "PRJ-0068"
+      ]
+    }
+  },
+  {
+    "id": "CV-0103",
+    "doc_type": "cv",
+    "title": "ETL Developer - Employee_103",
+    "text": "CV-0103 (Employee_103) - ETL Developer, 15 years of experience. Skills: SQL, Data Quality, Azure, Databricks, Git, Azure DevOps, Snowflake, Python, Talend, Apache Airflow. Certifications: SnowPro Core. Past projects: Supply chain data hub with daily reconciliation (logistics) - role ETL Developer, tech stack Snowflake, Databricks, Python, Talend, Apache Airflow.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d5f2e2f6e734cabd5748d5a94e383d96",
+    "metadata": {
+      "role": "ETL Developer",
+      "years_experience": 15,
+      "skills": [
+        "SQL",
+        "Data Quality",
+        "Azure",
+        "Databricks",
+        "Git",
+        "Azure DevOps",
+        "Snowflake",
+        "Python",
+        "Talend",
+        "Apache Airflow"
+      ],
+      "certifications": [
+        "SnowPro Core"
+      ],
+      "project_ids": [
+        "PRJ-0069"
+      ]
+    }
+  },
+  {
+    "id": "CV-0104",
+    "doc_type": "cv",
+    "title": "Data Architect - Employee_104",
+    "text": "CV-0104 (Employee_104) - Data Architect, 8 years of experience. Skills: Data Quality, Talend, dbt, Snowflake, Azure DevOps, Python, Flutter, Apache Airflow, SQL, Azure. Certifications: Microsoft Azure Data Engineer Associate. Past projects: Energy consumption data lake on Azure (energy) - role Data Architect, tech stack Apache Airflow, Data Quality, Snowflake, dbt, SQL, Azure.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ef55cf4834574a3a2c7b1aceb2ec759b",
+    "metadata": {
+      "role": "Data Architect",
+      "years_experience": 8,
+      "skills": [
+        "Data Quality",
+        "Talend",
+        "dbt",
+        "Snowflake",
+        "Azure DevOps",
+        "Python",
+        "Flutter",
+        "Apache Airflow",
+        "SQL",
+        "Azure"
+      ],
+      "certifications": [
+        "Microsoft Azure Data Engineer Associate"
+      ],
+      "project_ids": [
+        "PRJ-0067"
+      ]
+    }
+  },
+  {
+    "id": "CV-0105",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_105",
+    "text": "CV-0105 (Employee_105) - Data Engineer, 9 years of experience. Skills: Data Quality, Snowflake, Terraform, Apache Airflow, Python, dbt, Azure DevOps, TensorFlow, Redis, Talend, Databricks, Azure. Certifications: Microsoft Azure Data Engineer Associate. Past projects: Property portfolio reporting warehouse (real estate) - role Data Engineer, tech stack Terraform, Apache Airflow, Talend, Databricks, Azure.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7014f10a8e9bab35bedf22ae31e6f3e8",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 9,
+      "skills": [
+        "Data Quality",
+        "Snowflake",
+        "Terraform",
+        "Apache Airflow",
+        "Python",
+        "dbt",
+        "Azure DevOps",
+        "TensorFlow",
+        "Redis",
+        "Talend",
+        "Databricks",
+        "Azure"
+      ],
+      "certifications": [
+        "Microsoft Azure Data Engineer Associate"
+      ],
+      "project_ids": [
+        "PRJ-0070"
+      ]
+    }
+  },
+  {
+    "id": "CV-0106",
+    "doc_type": "cv",
+    "title": "BI Developer - Employee_106",
+    "text": "CV-0106 (Employee_106) - BI Developer, 6 years of experience. Skills: Azure SQL, Data Modelling, Tableau, Looker, Python, SQL, Qlik Sense, Power BI. Certifications: Tableau Desktop Specialist. Past projects: Store sales and margin dashboard (retail) - role BI Developer, tech stack Qlik Sense, Power BI, Looker, SQL, Azure SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "6fa405608a085067ec826ba356065ddf",
+    "metadata": {
+      "role": "BI Developer",
+      "years_experience": 6,
+      "skills": [
+        "Azure SQL",
+        "Data Modelling",
+        "Tableau",
+        "Looker",
+        "Python",
+        "SQL",
+        "Qlik Sense",
+        "Power BI"
+      ],
+      "certifications": [
+        "Tableau Desktop Specialist"
+      ],
+      "project_ids": [
+        "PRJ-0073"
+      ]
+    }
+  },
+  {
+    "id": "CV-0107",
+    "doc_type": "cv",
+    "title": "Data Analyst - Employee_107",
+    "text": "CV-0107 (Employee_107) - Data Analyst, 2 years of experience. Skills: Azure SQL, Looker, Tableau, Qlik Sense, Python, CI/CD, TensorFlow, Flutter, Power BI, Row-Level Security, SQL, DAX. Certifications: Tableau Desktop Specialist. Past projects: Claims analytics reporting suite (insurance) - role Data Analyst, tech stack Tableau, Qlik Sense, Looker, Power BI, Row-Level Security; Hospital capacity and waiting time reporting (healthcare) - role Data Analyst, tech stack Row-Level Security, SQL, Azure SQL, Tableau, DAX.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5e51e0a9931f9acf1f419fa57fef2ab8",
+    "metadata": {
+      "role": "Data Analyst",
+      "years_experience": 2,
+      "skills": [
+        "Azure SQL",
+        "Looker",
+        "Tableau",
+        "Qlik Sense",
+        "Python",
+        "CI/CD",
+        "TensorFlow",
+        "Flutter",
+        "Power BI",
+        "Row-Level Security",
+        "SQL",
+        "DAX"
+      ],
+      "certifications": [
+        "Tableau Desktop Specialist"
+      ],
+      "project_ids": [
+        "PRJ-0072",
+        "PRJ-0074"
+      ]
+    }
+  },
+  {
+    "id": "CV-0108",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_108",
+    "text": "CV-0108 (Employee_108) - Business Analyst, 2 years of experience. Skills: DAX, Power BI, Data Modelling, Tableau, Row-Level Security, SQL, Python, Redis, Azure SQL, Qlik Sense, Looker. Certifications: Tableau Desktop Specialist. Past projects: Hospital capacity and waiting time reporting (healthcare) - role Business Analyst, tech stack Row-Level Security, SQL, Azure SQL, Tableau, DAX; Claims analytics reporting suite (insurance) - role Business Analyst, tech stack Tableau, Qlik Sense, Looker, Power BI, Row-Level Security.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "251da91621b35413c840ea98a3358f23",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 2,
+      "skills": [
+        "DAX",
+        "Power BI",
+        "Data Modelling",
+        "Tableau",
+        "Row-Level Security",
+        "SQL",
+        "Python",
+        "Redis",
+        "Azure SQL",
+        "Qlik Sense",
+        "Looker"
+      ],
+      "certifications": [
+        "Tableau Desktop Specialist"
+      ],
+      "project_ids": [
+        "PRJ-0074",
+        "PRJ-0072"
+      ]
+    }
+  },
+  {
+    "id": "CV-0109",
+    "doc_type": "cv",
+    "title": "BI Developer - Employee_109",
+    "text": "CV-0109 (Employee_109) - BI Developer, 6 years of experience. Skills: Row-Level Security, Azure SQL, Qlik Sense, Azure DevOps, DAX, SQL, Git, GraphQL, Power BI, Looker. Certifications: Microsoft Power BI Data Analyst. Past projects: Store sales and margin dashboard (retail) - role BI Developer, tech stack Qlik Sense, Power BI, Looker, SQL, Azure SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "60ae5a6f10639ade98acfba9df98b07a",
+    "metadata": {
+      "role": "BI Developer",
+      "years_experience": 6,
+      "skills": [
+        "Row-Level Security",
+        "Azure SQL",
+        "Qlik Sense",
+        "Azure DevOps",
+        "DAX",
+        "SQL",
+        "Git",
+        "GraphQL",
+        "Power BI",
+        "Looker"
+      ],
+      "certifications": [
+        "Microsoft Power BI Data Analyst"
+      ],
+      "project_ids": [
+        "PRJ-0073"
+      ]
+    }
+  },
+  {
+    "id": "CV-0110",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_110",
+    "text": "CV-0110 (Employee_110) - Data Scientist, 7 years of experience. Skills: MLOps, Azure ML, PyTorch, Docker, Python, SQL, Git, Spring Boot, Time-Series Forecasting, BigQuery. Certifications: Google Professional Machine Learning Engineer. Past projects: Predictive maintenance for turbines (energy) - role Data Scientist, tech stack Python, Time-Series Forecasting, Azure ML, BigQuery, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "654745fa2f2ab27f87e31819832f629d",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 7,
+      "skills": [
+        "MLOps",
+        "Azure ML",
+        "PyTorch",
+        "Docker",
+        "Python",
+        "SQL",
+        "Git",
+        "Spring Boot",
+        "Time-Series Forecasting",
+        "BigQuery"
+      ],
+      "certifications": [
+        "Google Professional Machine Learning Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0076"
+      ]
+    }
+  },
+  {
+    "id": "CV-0111",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_111",
+    "text": "CV-0111 (Employee_111) - AI/ML Engineer, 9 years of experience. Skills: Python, SQL, Scikit-learn, PyTorch, BigQuery, Azure DevOps, Time-Series Forecasting, Azure ML. Certifications: Microsoft Azure Fundamentals. Past projects: Predictive maintenance for turbines (energy) - role AI/ML Engineer, tech stack Python, Time-Series Forecasting, Azure ML, BigQuery, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "43816350e0fb6e5cf5de23fa861be0e4",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 9,
+      "skills": [
+        "Python",
+        "SQL",
+        "Scikit-learn",
+        "PyTorch",
+        "BigQuery",
+        "Azure DevOps",
+        "Time-Series Forecasting",
+        "Azure ML"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0076"
+      ]
+    }
+  },
+  {
+    "id": "CV-0112",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_112",
+    "text": "CV-0112 (Employee_112) - Data Scientist, 6 years of experience. Skills: Time-Series Forecasting, TensorFlow, BigQuery, Azure ML, SQL, MLOps, Python, CI/CD, Docker, Scikit-learn, PyTorch. Certifications: Google Professional Machine Learning Engineer. Past projects: Credit risk scoring model with monitoring (banking) - role Data Scientist, tech stack Docker, Azure ML, TensorFlow, Scikit-learn, PyTorch.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "5ac6fef4a2960ddaaa002ca7971361d1",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 6,
+      "skills": [
+        "Time-Series Forecasting",
+        "TensorFlow",
+        "BigQuery",
+        "Azure ML",
+        "SQL",
+        "MLOps",
+        "Python",
+        "CI/CD",
+        "Docker",
+        "Scikit-learn",
+        "PyTorch"
+      ],
+      "certifications": [
+        "Google Professional Machine Learning Engineer"
+      ],
+      "project_ids": [
+        "PRJ-0077"
+      ]
+    }
+  },
+  {
+    "id": "CV-0113",
+    "doc_type": "cv",
+    "title": "Data Scientist - Employee_113",
+    "text": "CV-0113 (Employee_113) - Data Scientist, 4 years of experience. Skills: Scikit-learn, Azure ML, Time-Series Forecasting, MLOps, Git, CI/CD, GraphQL, MongoDB, PyTorch, Python, BigQuery. Certifications: Microsoft Azure Fundamentals. Past projects: Customer churn prediction for subscribers (telecom) - role Data Scientist, tech stack PyTorch, Python, Azure ML, Time-Series Forecasting, BigQuery.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "adf0c008c8a8e4a934d536b9ed42400d",
+    "metadata": {
+      "role": "Data Scientist",
+      "years_experience": 4,
+      "skills": [
+        "Scikit-learn",
+        "Azure ML",
+        "Time-Series Forecasting",
+        "MLOps",
+        "Git",
+        "CI/CD",
+        "GraphQL",
+        "MongoDB",
+        "PyTorch",
+        "Python",
+        "BigQuery"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0075"
+      ]
+    }
+  },
+  {
+    "id": "CV-0114",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_114",
+    "text": "CV-0114 (Employee_114) - AI/ML Engineer, 3 years of experience. Skills: ChromaDB, Python, FastAPI, NLP, HuggingFace, Git, Docker, Spring Boot, RAG, Pinecone, LangChain. Certifications: AWS Certified Developer. Past projects: Contract clause extraction with human review (public administration) - role AI/ML Engineer, tech stack ChromaDB, RAG, Pinecone, LangChain, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "04fa9cdad6d6649307e292636a4e567a",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 3,
+      "skills": [
+        "ChromaDB",
+        "Python",
+        "FastAPI",
+        "NLP",
+        "HuggingFace",
+        "Git",
+        "Docker",
+        "Spring Boot",
+        "RAG",
+        "Pinecone",
+        "LangChain"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0080"
+      ]
+    }
+  },
+  {
+    "id": "CV-0115",
+    "doc_type": "cv",
+    "title": "Backend Developer - Employee_115",
+    "text": "CV-0115 (Employee_115) - Backend Developer, 2 years of experience. Skills: FastAPI, OpenAI, Prompt Evaluation, Python, ChromaDB, RAG, Docker, CI/CD, Spring Boot, HuggingFace, LangChain, NLP, Pinecone. Certifications: AWS Certified Developer. Past projects: Policy question assistant over internal documents (insurance) - role Backend Developer, tech stack Python, HuggingFace, FastAPI, LangChain, NLP; Contract clause extraction with human review (public administration) - role Backend Developer, tech stack ChromaDB, RAG, Pinecone, LangChain, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "299c0388974a82bc7cd78e8f1f349c79",
+    "metadata": {
+      "role": "Backend Developer",
+      "years_experience": 2,
+      "skills": [
+        "FastAPI",
+        "OpenAI",
+        "Prompt Evaluation",
+        "Python",
+        "ChromaDB",
+        "RAG",
+        "Docker",
+        "CI/CD",
+        "Spring Boot",
+        "HuggingFace",
+        "LangChain",
+        "NLP",
+        "Pinecone"
+      ],
+      "certifications": [
+        "AWS Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0079",
+        "PRJ-0080"
+      ]
+    }
+  },
+  {
+    "id": "CV-0116",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_116",
+    "text": "CV-0116 (Employee_116) - AI/ML Engineer, 15 years of experience. Skills: RAG, NLP, ChromaDB, OpenAI, Python, SQL, HuggingFace, Pinecone, LangChain. Certifications: Microsoft Azure Fundamentals. Past projects: Multilingual customer email triage (telecom) - role AI/ML Engineer, tech stack OpenAI, Python, ChromaDB, NLP, HuggingFace; Contract clause extraction with human review (public administration) - role AI/ML Engineer, tech stack ChromaDB, RAG, Pinecone, LangChain, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "1d25ca5cf7430b59addeb7a823d1eadc",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 15,
+      "skills": [
+        "RAG",
+        "NLP",
+        "ChromaDB",
+        "OpenAI",
+        "Python",
+        "SQL",
+        "HuggingFace",
+        "Pinecone",
+        "LangChain"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0081",
+        "PRJ-0080"
+      ]
+    }
+  },
+  {
+    "id": "CV-0117",
+    "doc_type": "cv",
+    "title": "AI/ML Engineer - Employee_117",
+    "text": "CV-0117 (Employee_117) - AI/ML Engineer, 6 years of experience. Skills: Pinecone, HuggingFace, NLP, LangChain, Python, CI/CD, Prompt Evaluation, RAG, ChromaDB. Certifications: Microsoft Azure Fundamentals. Past projects: Clinical note summarisation prototype (healthcare) - role AI/ML Engineer, tech stack Prompt Evaluation, NLP, RAG, HuggingFace, ChromaDB.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "600a919a2d422aafc337f27a0497c5c5",
+    "metadata": {
+      "role": "AI/ML Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Pinecone",
+        "HuggingFace",
+        "NLP",
+        "LangChain",
+        "Python",
+        "CI/CD",
+        "Prompt Evaluation",
+        "RAG",
+        "ChromaDB"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0082"
+      ]
+    }
+  },
+  {
+    "id": "CV-0118",
+    "doc_type": "cv",
+    "title": "Frontend Developer - Employee_118",
+    "text": "CV-0118 (Employee_118) - Frontend Developer, 11 years of experience. Skills: Node.js, WCAG Accessibility, React, TypeScript, SEO, Drupal, CI/CD, Git, Spring Boot, Swift, Figma, Next.js. Certifications: Scrum Master (CSM). Past projects: Corporate website migration to Next.js (manufacturing) - role Frontend Developer, tech stack WCAG Accessibility, Drupal, TypeScript, Figma, Node.js, Next.js.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "e9377cd7eee957ba263c52844b66bdf6",
+    "metadata": {
+      "role": "Frontend Developer",
+      "years_experience": 11,
+      "skills": [
+        "Node.js",
+        "WCAG Accessibility",
+        "React",
+        "TypeScript",
+        "SEO",
+        "Drupal",
+        "CI/CD",
+        "Git",
+        "Spring Boot",
+        "Swift",
+        "Figma",
+        "Next.js"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0084"
+      ]
+    }
+  },
+  {
+    "id": "CV-0119",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_119",
+    "text": "CV-0119 (Employee_119) - Full Stack Developer, 5 years of experience. Skills: React, Next.js, TypeScript, Cypress, SQL, Docker, Flutter, Redis, Drupal, Tailwind CSS. Certifications: Scrum Master (CSM). Past projects: Parent and student web portal (education) - role Full Stack Developer, tech stack Next.js, Drupal, React, TypeScript, Cypress; Online property listing platform (real estate) - role Full Stack Developer, tech stack Tailwind CSS, Next.js, Drupal, Cypress, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "9e2bbbf80db1f7fee8713d33b5966f65",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 5,
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Cypress",
+        "SQL",
+        "Docker",
+        "Flutter",
+        "Redis",
+        "Drupal",
+        "Tailwind CSS"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0083",
+        "PRJ-0085"
+      ]
+    }
+  },
+  {
+    "id": "CV-0120",
+    "doc_type": "cv",
+    "title": "UX Developer - Employee_120",
+    "text": "CV-0120 (Employee_120) - UX Developer, 7 years of experience. Skills: Node.js, Tailwind CSS, WCAG Accessibility, Next.js, SEO, React, Git, CI/CD, GraphQL, Drupal, Cypress, TypeScript. Certifications: Scrum Master (CSM). Past projects: Online property listing platform (real estate) - role UX Developer, tech stack Tailwind CSS, Next.js, Drupal, Cypress, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "89244c256adec9ee1bda4f9cd2134eb5",
+    "metadata": {
+      "role": "UX Developer",
+      "years_experience": 7,
+      "skills": [
+        "Node.js",
+        "Tailwind CSS",
+        "WCAG Accessibility",
+        "Next.js",
+        "SEO",
+        "React",
+        "Git",
+        "CI/CD",
+        "GraphQL",
+        "Drupal",
+        "Cypress",
+        "TypeScript"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0085"
+      ]
+    }
+  },
+  {
+    "id": "CV-0121",
+    "doc_type": "cv",
+    "title": "Frontend Developer - Employee_121",
+    "text": "CV-0121 (Employee_121) - Frontend Developer, 14 years of experience. Skills: React, SEO, Next.js, Node.js, Tailwind CSS, Cypress, Docker, Azure DevOps, MongoDB, Drupal, TypeScript. Certifications: Microsoft Azure Fundamentals. Past projects: Online property listing platform (real estate) - role Frontend Developer, tech stack Tailwind CSS, Next.js, Drupal, Cypress, TypeScript; Parent and student web portal (education) - role Frontend Developer, tech stack Next.js, Drupal, React, TypeScript, Cypress.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "4b64481a69fa22e0bc023c59e659e539",
+    "metadata": {
+      "role": "Frontend Developer",
+      "years_experience": 14,
+      "skills": [
+        "React",
+        "SEO",
+        "Next.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Cypress",
+        "Docker",
+        "Azure DevOps",
+        "MongoDB",
+        "Drupal",
+        "TypeScript"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0085",
+        "PRJ-0083"
+      ]
+    }
+  },
+  {
+    "id": "CV-0122",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_122",
+    "text": "CV-0122 (Employee_122) - Mobile Developer, 12 years of experience. Skills: REST APIs, Swift, TypeScript, React Native, Docker, Azure DevOps, Flutter, Django, Firebase, Offline Sync, CI/CD. Certifications: Scrum Master (CSM). Past projects: Customer loyalty mobile app (retail) - role Mobile Developer, tech stack Firebase, Offline Sync, CI/CD, Swift, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "74c99a2945fa1db84e87755cb39cec13",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 12,
+      "skills": [
+        "REST APIs",
+        "Swift",
+        "TypeScript",
+        "React Native",
+        "Docker",
+        "Azure DevOps",
+        "Flutter",
+        "Django",
+        "Firebase",
+        "Offline Sync",
+        "CI/CD"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0087"
+      ]
+    }
+  },
+  {
+    "id": "CV-0123",
+    "doc_type": "cv",
+    "title": "Full Stack Developer - Employee_123",
+    "text": "CV-0123 (Employee_123) - Full Stack Developer, 13 years of experience. Skills: TypeScript, Offline Sync, CI/CD, Flutter, Kotlin, SQL, Git, Django, Firebase, Swift. Certifications: Google Associate Android Developer. Past projects: Customer loyalty mobile app (retail) - role Full Stack Developer, tech stack Firebase, Offline Sync, CI/CD, Swift, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8d8978daa8629de10d5d6482943d7328",
+    "metadata": {
+      "role": "Full Stack Developer",
+      "years_experience": 13,
+      "skills": [
+        "TypeScript",
+        "Offline Sync",
+        "CI/CD",
+        "Flutter",
+        "Kotlin",
+        "SQL",
+        "Git",
+        "Django",
+        "Firebase",
+        "Swift"
+      ],
+      "certifications": [
+        "Google Associate Android Developer"
+      ],
+      "project_ids": [
+        "PRJ-0087"
+      ]
+    }
+  },
+  {
+    "id": "CV-0124",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_124",
+    "text": "CV-0124 (Employee_124) - Mobile Developer, 4 years of experience. Skills: REST APIs, React Native, Flutter, Swift, Git, CI/CD, MongoDB, GraphQL, Firebase, Offline Sync, TypeScript. Certifications: Scrum Master (CSM). Past projects: Claims photo capture app for policyholders (insurance) - role Mobile Developer, tech stack GraphQL, React Native, REST APIs, Swift, CI/CD; Customer loyalty mobile app (retail) - role Mobile Developer, tech stack Firebase, Offline Sync, CI/CD, Swift, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d9d3ca0cc73b7ea99e755406bdb4ccaa",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 4,
+      "skills": [
+        "REST APIs",
+        "React Native",
+        "Flutter",
+        "Swift",
+        "Git",
+        "CI/CD",
+        "MongoDB",
+        "GraphQL",
+        "Firebase",
+        "Offline Sync",
+        "TypeScript"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0088",
+        "PRJ-0087"
+      ]
+    }
+  },
+  {
+    "id": "CV-0125",
+    "doc_type": "cv",
+    "title": "Mobile Developer - Employee_125",
+    "text": "CV-0125 (Employee_125) - Mobile Developer, 10 years of experience. Skills: Offline Sync, React Native, Swift, Flutter, REST APIs, GraphQL, Docker, Git, Firebase, CI/CD, TypeScript. Certifications: Scrum Master (CSM). Past projects: Customer loyalty mobile app (retail) - role Mobile Developer, tech stack Firebase, Offline Sync, CI/CD, Swift, TypeScript.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "6ad74c9fa473306c1b8e6f0e91f30bf6",
+    "metadata": {
+      "role": "Mobile Developer",
+      "years_experience": 10,
+      "skills": [
+        "Offline Sync",
+        "React Native",
+        "Swift",
+        "Flutter",
+        "REST APIs",
+        "GraphQL",
+        "Docker",
+        "Git",
+        "Firebase",
+        "CI/CD",
+        "TypeScript"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0087"
+      ]
+    }
+  },
+  {
+    "id": "CV-0126",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_126",
+    "text": "CV-0126 (Employee_126) - Cloud Architect, 6 years of experience. Skills: GCP, Terraform, Azure, Grafana, SQL, Python, Docker, AWS, Kubernetes. Certifications: Microsoft Azure Fundamentals. Past projects: Datacentre exit and container migration (telecom) - role Cloud Architect, tech stack Docker, Azure, AWS, Terraform, Kubernetes.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "6f99020774d4849485fb38e8ffc207b4",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 6,
+      "skills": [
+        "GCP",
+        "Terraform",
+        "Azure",
+        "Grafana",
+        "SQL",
+        "Python",
+        "Docker",
+        "AWS",
+        "Kubernetes"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0091"
+      ]
+    }
+  },
+  {
+    "id": "CV-0127",
+    "doc_type": "cv",
+    "title": "DevOps Engineer - Employee_127",
+    "text": "CV-0127 (Employee_127) - DevOps Engineer, 9 years of experience. Skills: Grafana, AWS, Helm, Terraform, GCP, Docker, Python, Git, Spring Boot, Kotlin, Prometheus, GitHub Actions, Kubernetes, Azure. Certifications: Certified Kubernetes Administrator. Past projects: Infrastructure as code baseline for retail platforms (retail) - role DevOps Engineer, tech stack Helm, Prometheus, GitHub Actions, Kubernetes, Azure, Terraform; Multi-cloud cost optimisation programme (banking) - role DevOps Engineer, tech stack GCP, Docker, GitHub Actions, Prometheus, Terraform.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d2010241c955aed830ff99eac48e1d85",
+    "metadata": {
+      "role": "DevOps Engineer",
+      "years_experience": 9,
+      "skills": [
+        "Grafana",
+        "AWS",
+        "Helm",
+        "Terraform",
+        "GCP",
+        "Docker",
+        "Python",
+        "Git",
+        "Spring Boot",
+        "Kotlin",
+        "Prometheus",
+        "GitHub Actions",
+        "Kubernetes",
+        "Azure"
+      ],
+      "certifications": [
+        "Certified Kubernetes Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0092",
+        "PRJ-0093"
+      ]
+    }
+  },
+  {
+    "id": "CV-0128",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_128",
+    "text": "CV-0128 (Employee_128) - Cloud Architect, 13 years of experience. Skills: AWS, Docker, Terraform, GCP, GitHub Actions, Kubernetes, Python, Git, MongoDB, Grafana. Certifications: Microsoft Azure Fundamentals. Past projects: Kubernetes platform for regional utilities (energy) - role Cloud Architect, tech stack Grafana, AWS, Terraform, Docker, GCP, Kubernetes.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "158b7e34e58456c60b4458d814e9a727",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 13,
+      "skills": [
+        "AWS",
+        "Docker",
+        "Terraform",
+        "GCP",
+        "GitHub Actions",
+        "Kubernetes",
+        "Python",
+        "Git",
+        "MongoDB",
+        "Grafana"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0094"
+      ]
+    }
+  },
+  {
+    "id": "CV-0129",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_129",
+    "text": "CV-0129 (Employee_129) - Cloud Architect, 2 years of experience. Skills: Grafana, GCP, Prometheus, Azure, GitHub Actions, Python, CI/CD, TensorFlow, Docker, AWS, Terraform, Kubernetes, Helm. Certifications: Microsoft Azure Fundamentals. Past projects: Datacentre exit and container migration (telecom) - role Cloud Architect, tech stack Docker, Azure, AWS, Terraform, Kubernetes; Infrastructure as code baseline for retail platforms (retail) - role Cloud Architect, tech stack Helm, Prometheus, GitHub Actions, Kubernetes, Azure, Terraform.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8c0560235213bf337f7887f3902de98a",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 2,
+      "skills": [
+        "Grafana",
+        "GCP",
+        "Prometheus",
+        "Azure",
+        "GitHub Actions",
+        "Python",
+        "CI/CD",
+        "TensorFlow",
+        "Docker",
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Helm"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0091",
+        "PRJ-0092"
+      ]
+    }
+  },
+  {
+    "id": "CV-0130",
+    "doc_type": "cv",
+    "title": "Integration Developer - Employee_130",
+    "text": "CV-0130 (Employee_130) - Integration Developer, 14 years of experience. Skills: OAuth 2.0, SOAP, Azure DevOps, API Management, Datadog, SQL, CI/CD, Kotlin, GraphQL, REST APIs. Certifications: MuleSoft Certified Developer. Past projects: Supplier onboarding integration layer (consumer goods) - role Integration Developer, tech stack SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7d1e6f26d7b4c87c8ca8265a6b36c050",
+    "metadata": {
+      "role": "Integration Developer",
+      "years_experience": 14,
+      "skills": [
+        "OAuth 2.0",
+        "SOAP",
+        "Azure DevOps",
+        "API Management",
+        "Datadog",
+        "SQL",
+        "CI/CD",
+        "Kotlin",
+        "GraphQL",
+        "REST APIs"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0096"
+      ]
+    }
+  },
+  {
+    "id": "CV-0131",
+    "doc_type": "cv",
+    "title": "Integration Architect - Employee_131",
+    "text": "CV-0131 (Employee_131) - Integration Architect, 14 years of experience. Skills: DataWeave, Azure DevOps, OAuth 2.0, SOAP, Git, Flutter, API Management, REST APIs, Kafka, Datadog. Certifications: MuleSoft Certified Developer. Past projects: Student information system integration (education) - role Integration Architect, tech stack API Management, DataWeave, Azure DevOps, REST APIs, Kafka; Supplier onboarding integration layer (consumer goods) - role Integration Architect, tech stack SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "9ecdbe46ec31f659c872122d2162af9a",
+    "metadata": {
+      "role": "Integration Architect",
+      "years_experience": 14,
+      "skills": [
+        "DataWeave",
+        "Azure DevOps",
+        "OAuth 2.0",
+        "SOAP",
+        "Git",
+        "Flutter",
+        "API Management",
+        "REST APIs",
+        "Kafka",
+        "Datadog"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0098",
+        "PRJ-0096"
+      ]
+    }
+  },
+  {
+    "id": "CV-0132",
+    "doc_type": "cv",
+    "title": "Solutions Architect - Employee_132",
+    "text": "CV-0132 (Employee_132) - Solutions Architect, 4 years of experience. Skills: Azure DevOps, API Management, REST APIs, Talend, MuleSoft, SQL, MongoDB, Redis, DataWeave, Datadog. Past projects: Order and shipment event integration (logistics) - role Solutions Architect, tech stack DataWeave, MuleSoft, Talend, Datadog, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8d7582c878ee852b52649e6b00b12659",
+    "metadata": {
+      "role": "Solutions Architect",
+      "years_experience": 4,
+      "skills": [
+        "Azure DevOps",
+        "API Management",
+        "REST APIs",
+        "Talend",
+        "MuleSoft",
+        "SQL",
+        "MongoDB",
+        "Redis",
+        "DataWeave",
+        "Datadog"
+      ],
+      "project_ids": [
+        "PRJ-0097"
+      ]
+    }
+  },
+  {
+    "id": "CV-0133",
+    "doc_type": "cv",
+    "title": "Integration Developer - Employee_133",
+    "text": "CV-0133 (Employee_133) - Integration Developer, 5 years of experience. Skills: REST APIs, MuleSoft, Datadog, OAuth 2.0, Talend, Docker, CI/CD, TensorFlow, Redis, SOAP, Azure DevOps, DataWeave. Certifications: MuleSoft Certified Developer. Past projects: Supplier onboarding integration layer (consumer goods) - role Integration Developer, tech stack SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps; Order and shipment event integration (logistics) - role Integration Developer, tech stack DataWeave, MuleSoft, Talend, Datadog, Azure DevOps.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "14fd2fc02d547bb9ba107a3eb320f8cd",
+    "metadata": {
+      "role": "Integration Developer",
+      "years_experience": 5,
+      "skills": [
+        "REST APIs",
+        "MuleSoft",
+        "Datadog",
+        "OAuth 2.0",
+        "Talend",
+        "Docker",
+        "CI/CD",
+        "TensorFlow",
+        "Redis",
+        "SOAP",
+        "Azure DevOps",
+        "DataWeave"
+      ],
+      "certifications": [
+        "MuleSoft Certified Developer"
+      ],
+      "project_ids": [
+        "PRJ-0096",
+        "PRJ-0097"
+      ]
+    }
+  },
+  {
+    "id": "CV-0134",
+    "doc_type": "cv",
+    "title": "Salesforce Developer - Employee_134",
+    "text": "CV-0134 (Employee_134) - Salesforce Developer, 10 years of experience. Skills: Azure DevOps, SQL, Talend, Lightning, Salesforce, CI/CD, Kotlin, GraphQL, MuleSoft, Apex. Certifications: Salesforce Platform Developer I. Past projects: Customer service case portal on Salesforce (telecom) - role Salesforce Developer, tech stack Salesforce, MuleSoft, SQL, Apex, Lightning.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "d07b784d78087c066d58a83e28994700",
+    "metadata": {
+      "role": "Salesforce Developer",
+      "years_experience": 10,
+      "skills": [
+        "Azure DevOps",
+        "SQL",
+        "Talend",
+        "Lightning",
+        "Salesforce",
+        "CI/CD",
+        "Kotlin",
+        "GraphQL",
+        "MuleSoft",
+        "Apex"
+      ],
+      "certifications": [
+        "Salesforce Platform Developer I"
+      ],
+      "project_ids": [
+        "PRJ-0100"
+      ]
+    }
+  },
+  {
+    "id": "CV-0135",
+    "doc_type": "cv",
+    "title": "Salesforce Consultant - Employee_135",
+    "text": "CV-0135 (Employee_135) - Salesforce Consultant, 7 years of experience. Skills: Apex, CRM Analytics, Salesforce, Data Quality, Data Migration, Lightning, Git, CI/CD, TensorFlow, Django, Azure DevOps, MuleSoft, SQL. Certifications: Salesforce Certified Administrator. Past projects: Membership and donor CRM (education) - role Salesforce Consultant, tech stack Azure DevOps, MuleSoft, Salesforce, CRM Analytics, Apex; Broker management CRM implementation (insurance) - role Salesforce Consultant, tech stack Lightning, Apex, Azure DevOps, MuleSoft, SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c2f85b5894665abaaf8b48864a0c4fdd",
+    "metadata": {
+      "role": "Salesforce Consultant",
+      "years_experience": 7,
+      "skills": [
+        "Apex",
+        "CRM Analytics",
+        "Salesforce",
+        "Data Quality",
+        "Data Migration",
+        "Lightning",
+        "Git",
+        "CI/CD",
+        "TensorFlow",
+        "Django",
+        "Azure DevOps",
+        "MuleSoft",
+        "SQL"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0102",
+        "PRJ-0101"
+      ]
+    }
+  },
+  {
+    "id": "CV-0136",
+    "doc_type": "cv",
+    "title": "Business Analyst - Employee_136",
+    "text": "CV-0136 (Employee_136) - Business Analyst, 8 years of experience. Skills: Data Migration, SQL, Azure DevOps, Apex, CRM Analytics, Talend, CI/CD, Lightning, MuleSoft, Data Quality. Certifications: Salesforce Platform Developer I. Past projects: Broker management CRM implementation (insurance) - role Business Analyst, tech stack Lightning, Apex, Azure DevOps, MuleSoft, SQL; Sales Cloud rollout for a distributor (consumer goods) - role Business Analyst, tech stack Apex, Data Quality, Talend, Data Migration, MuleSoft.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "dd1f4475d6fa005019f037b768cc695f",
+    "metadata": {
+      "role": "Business Analyst",
+      "years_experience": 8,
+      "skills": [
+        "Data Migration",
+        "SQL",
+        "Azure DevOps",
+        "Apex",
+        "CRM Analytics",
+        "Talend",
+        "CI/CD",
+        "Lightning",
+        "MuleSoft",
+        "Data Quality"
+      ],
+      "certifications": [
+        "Salesforce Platform Developer I"
+      ],
+      "project_ids": [
+        "PRJ-0101",
+        "PRJ-0099"
+      ]
+    }
+  },
+  {
+    "id": "CV-0137",
+    "doc_type": "cv",
+    "title": "Salesforce Developer - Employee_137",
+    "text": "CV-0137 (Employee_137) - Salesforce Developer, 5 years of experience. Skills: Salesforce, Apex, CRM Analytics, Azure DevOps, Data Quality, Lightning, Docker, Python, Flutter, Kotlin, MuleSoft, SQL. Certifications: Salesforce Certified Administrator. Past projects: Broker management CRM implementation (insurance) - role Salesforce Developer, tech stack Lightning, Apex, Azure DevOps, MuleSoft, SQL.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "6fc0c16b65d1a7ec66d7f810470f2a38",
+    "metadata": {
+      "role": "Salesforce Developer",
+      "years_experience": 5,
+      "skills": [
+        "Salesforce",
+        "Apex",
+        "CRM Analytics",
+        "Azure DevOps",
+        "Data Quality",
+        "Lightning",
+        "Docker",
+        "Python",
+        "Flutter",
+        "Kotlin",
+        "MuleSoft",
+        "SQL"
+      ],
+      "certifications": [
+        "Salesforce Certified Administrator"
+      ],
+      "project_ids": [
+        "PRJ-0101"
+      ]
+    }
+  },
+  {
+    "id": "CV-0138",
+    "doc_type": "cv",
+    "title": "Security Engineer - Employee_138",
+    "text": "CV-0138 (Employee_138) - Security Engineer, 5 years of experience. Skills: Audit Preparation, Threat Modeling, Risk Assessment, OAuth 2.0, CI/CD, SQL, Flutter, Penetration Testing, ISO 27001, OWASP. Certifications: Certified Information Security Manager. Past projects: Cloud security posture review and hardening (banking) - role Security Engineer, tech stack Risk Assessment, Penetration Testing, ISO 27001, OAuth 2.0, OWASP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c33b49bf27f9b70e7ef9ca56dc6b479f",
+    "metadata": {
+      "role": "Security Engineer",
+      "years_experience": 5,
+      "skills": [
+        "Audit Preparation",
+        "Threat Modeling",
+        "Risk Assessment",
+        "OAuth 2.0",
+        "CI/CD",
+        "SQL",
+        "Flutter",
+        "Penetration Testing",
+        "ISO 27001",
+        "OWASP"
+      ],
+      "certifications": [
+        "Certified Information Security Manager"
+      ],
+      "project_ids": [
+        "PRJ-0103"
+      ]
+    }
+  },
+  {
+    "id": "CV-0139",
+    "doc_type": "cv",
+    "title": "Security Consultant - Employee_139",
+    "text": "CV-0139 (Employee_139) - Security Consultant, 7 years of experience. Skills: ISO 27001, Okta, Policy Writing, Microsoft Entra ID, OWASP, Audit Preparation, Python, Azure DevOps, Risk Assessment, Threat Modeling. Certifications: CompTIA Security+. Past projects: Security policy refresh and staff training (public administration) - role Security Consultant, tech stack Microsoft Entra ID, Policy Writing, Risk Assessment, Threat Modeling, ISO 27001.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "c166dcec4e5293915791b05fec646868",
+    "metadata": {
+      "role": "Security Consultant",
+      "years_experience": 7,
+      "skills": [
+        "ISO 27001",
+        "Okta",
+        "Policy Writing",
+        "Microsoft Entra ID",
+        "OWASP",
+        "Audit Preparation",
+        "Python",
+        "Azure DevOps",
+        "Risk Assessment",
+        "Threat Modeling"
+      ],
+      "certifications": [
+        "CompTIA Security+"
+      ],
+      "project_ids": [
+        "PRJ-0105"
+      ]
+    }
+  },
+  {
+    "id": "CV-0140",
+    "doc_type": "cv",
+    "title": "GRC Analyst - Employee_140",
+    "text": "CV-0140 (Employee_140) - GRC Analyst, 7 years of experience. Skills: Policy Writing, ISO 27001, Threat Modeling, Penetration Testing, Audit Preparation, Okta, Python, Docker, OWASP, Microsoft Entra ID, OAuth 2.0. Certifications: CompTIA Security+. Past projects: Identity and access management clean-up (healthcare) - role GRC Analyst, tech stack OWASP, ISO 27001, Microsoft Entra ID, Policy Writing, OAuth 2.0.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "7531795d050ce9e0a3ad909d038b916c",
+    "metadata": {
+      "role": "GRC Analyst",
+      "years_experience": 7,
+      "skills": [
+        "Policy Writing",
+        "ISO 27001",
+        "Threat Modeling",
+        "Penetration Testing",
+        "Audit Preparation",
+        "Okta",
+        "Python",
+        "Docker",
+        "OWASP",
+        "Microsoft Entra ID",
+        "OAuth 2.0"
+      ],
+      "certifications": [
+        "CompTIA Security+"
+      ],
+      "project_ids": [
+        "PRJ-0104"
+      ]
+    }
+  },
+  {
+    "id": "CV-0141",
+    "doc_type": "cv",
+    "title": "ERP Developer - Employee_141",
+    "text": "CV-0141 (Employee_141) - ERP Developer, 14 years of experience. Skills: Odoo Community, SAP Fiori, Data Migration, Azure DevOps, SAP S/4HANA, SAP BTP, CI/CD, Python, Master Data Management, SQL. Certifications: PMP. Past projects: Maintenance planning module for an ERP (energy) - role ERP Developer, tech stack Master Data Management, Azure DevOps, Odoo Community, Data Migration, SAP Fiori; ERP inventory and purchasing rollout (manufacturing) - role ERP Developer, tech stack SAP Fiori, Odoo Community, SQL, Data Migration, SAP BTP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "b83c8a9fdf884f08e99a9cdf65660cb3",
+    "metadata": {
+      "role": "ERP Developer",
+      "years_experience": 14,
+      "skills": [
+        "Odoo Community",
+        "SAP Fiori",
+        "Data Migration",
+        "Azure DevOps",
+        "SAP S/4HANA",
+        "SAP BTP",
+        "CI/CD",
+        "Python",
+        "Master Data Management",
+        "SQL"
+      ],
+      "certifications": [
+        "PMP"
+      ],
+      "project_ids": [
+        "PRJ-0108",
+        "PRJ-0106"
+      ]
+    }
+  },
+  {
+    "id": "CV-0142",
+    "doc_type": "cv",
+    "title": "SAP Consultant - Employee_142",
+    "text": "CV-0142 (Employee_142) - SAP Consultant, 6 years of experience. Skills: ABAP, SQL, SAP BTP, Odoo Community, SAP Fiori, PostgreSQL, CI/CD, Redis, Azure DevOps, Master Data Management, Data Migration. Certifications: SAP Certified Application Associate. Past projects: Finance close automation on ERP (consumer goods) - role SAP Consultant, tech stack SAP Fiori, Azure DevOps, Master Data Management, ABAP, SQL; ERP inventory and purchasing rollout (manufacturing) - role SAP Consultant, tech stack SAP Fiori, Odoo Community, SQL, Data Migration, SAP BTP.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "32770d2d1d86c09602e74efe0deee63f",
+    "metadata": {
+      "role": "SAP Consultant",
+      "years_experience": 6,
+      "skills": [
+        "ABAP",
+        "SQL",
+        "SAP BTP",
+        "Odoo Community",
+        "SAP Fiori",
+        "PostgreSQL",
+        "CI/CD",
+        "Redis",
+        "Azure DevOps",
+        "Master Data Management",
+        "Data Migration"
+      ],
+      "certifications": [
+        "SAP Certified Application Associate"
+      ],
+      "project_ids": [
+        "PRJ-0107",
+        "PRJ-0106"
+      ]
+    }
+  },
+  {
+    "id": "CV-0143",
+    "doc_type": "cv",
+    "title": "ERP Functional Consultant - Employee_143",
+    "text": "CV-0143 (Employee_143) - ERP Functional Consultant, 6 years of experience. Skills: SAP S/4HANA, Master Data Management, Data Migration, SQL, PostgreSQL, Git, Python, MongoDB, Azure DevOps, SAP BTP. Certifications: SAP Certified Application Associate. Past projects: ERP data migration and cutover support (logistics) - role ERP Functional Consultant, tech stack Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "9845f6c7765d4fd82cc8ccca988ebc25",
+    "metadata": {
+      "role": "ERP Functional Consultant",
+      "years_experience": 6,
+      "skills": [
+        "SAP S/4HANA",
+        "Master Data Management",
+        "Data Migration",
+        "SQL",
+        "PostgreSQL",
+        "Git",
+        "Python",
+        "MongoDB",
+        "Azure DevOps",
+        "SAP BTP"
+      ],
+      "certifications": [
+        "SAP Certified Application Associate"
+      ],
+      "project_ids": [
+        "PRJ-0109"
+      ]
+    }
+  },
+  {
+    "id": "CV-0144",
+    "doc_type": "cv",
+    "title": "ERP Developer - Employee_144",
+    "text": "CV-0144 (Employee_144) - ERP Developer, 2 years of experience. Skills: Master Data Management, ABAP, PostgreSQL, Azure DevOps, Data Migration, Git, Odoo Community, SAP Fiori. Past projects: Maintenance planning module for an ERP (energy) - role ERP Developer, tech stack Master Data Management, Azure DevOps, Odoo Community, Data Migration, SAP Fiori.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "8c7ef3e25957da6ab2b6a7d309579451",
+    "metadata": {
+      "role": "ERP Developer",
+      "years_experience": 2,
+      "skills": [
+        "Master Data Management",
+        "ABAP",
+        "PostgreSQL",
+        "Azure DevOps",
+        "Data Migration",
+        "Git",
+        "Odoo Community",
+        "SAP Fiori"
+      ],
+      "project_ids": [
+        "PRJ-0108"
+      ]
+    }
+  },
+  {
+    "id": "CV-0145",
+    "doc_type": "cv",
+    "title": "QA Automation Engineer - Employee_145",
+    "text": "CV-0145 (Employee_145) - QA Automation Engineer, 14 years of experience. Skills: Cypress, Test Automation, Postman, Azure DevOps, Jira, Python, Git, GraphQL, Spring Boot, Selenium, JMeter, Docker. Certifications: ISTQB Certified Tester. Past projects: Regression test automation for payments (banking) - role QA Automation Engineer, tech stack Selenium, JMeter, Postman, Cypress, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "965e64801cd8d095c12ec09859435b52",
+    "metadata": {
+      "role": "QA Automation Engineer",
+      "years_experience": 14,
+      "skills": [
+        "Cypress",
+        "Test Automation",
+        "Postman",
+        "Azure DevOps",
+        "Jira",
+        "Python",
+        "Git",
+        "GraphQL",
+        "Spring Boot",
+        "Selenium",
+        "JMeter",
+        "Docker"
+      ],
+      "certifications": [
+        "ISTQB Certified Tester"
+      ],
+      "project_ids": [
+        "PRJ-0110"
+      ]
+    }
+  },
+  {
+    "id": "CV-0146",
+    "doc_type": "cv",
+    "title": "Test Manager - Employee_146",
+    "text": "CV-0146 (Employee_146) - Test Manager, 11 years of experience. Skills: CI/CD, Test Automation, Python, Selenium, Postman, Jira, Azure DevOps, SQL, JMeter, Cypress, Docker. Certifications: Scrum Master (CSM). Past projects: Regression test automation for payments (banking) - role Test Manager, tech stack Selenium, JMeter, Postman, Cypress, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "353db20ae8a931ae67ed48d36b6b5ccd",
+    "metadata": {
+      "role": "Test Manager",
+      "years_experience": 11,
+      "skills": [
+        "CI/CD",
+        "Test Automation",
+        "Python",
+        "Selenium",
+        "Postman",
+        "Jira",
+        "Azure DevOps",
+        "SQL",
+        "JMeter",
+        "Cypress",
+        "Docker"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0110"
+      ]
+    }
+  },
+  {
+    "id": "CV-0147",
+    "doc_type": "cv",
+    "title": "QA Automation Engineer - Employee_147",
+    "text": "CV-0147 (Employee_147) - QA Automation Engineer, 6 years of experience. Skills: Cypress, CI/CD, Azure DevOps, Jira, JMeter, Docker, Test Automation, Python. Certifications: Scrum Master (CSM). Past projects: API contract testing for partner integrations (telecom) - role QA Automation Engineer, tech stack Azure DevOps, JMeter, Test Automation, Cypress, Python.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "e090f95657b2184d174ec6056577ccec",
+    "metadata": {
+      "role": "QA Automation Engineer",
+      "years_experience": 6,
+      "skills": [
+        "Cypress",
+        "CI/CD",
+        "Azure DevOps",
+        "Jira",
+        "JMeter",
+        "Docker",
+        "Test Automation",
+        "Python"
+      ],
+      "certifications": [
+        "Scrum Master (CSM)"
+      ],
+      "project_ids": [
+        "PRJ-0112"
+      ]
+    }
+  },
+  {
+    "id": "CV-0148",
+    "doc_type": "cv",
+    "title": "IoT Engineer - Employee_148",
+    "text": "CV-0148 (Employee_148) - IoT Engineer, 11 years of experience. Skills: Azure, IoT, Grafana, Docker, MQTT, Python, Azure IoT Hub, Edge AI. Certifications: Microsoft Azure Fundamentals. Past projects: Cold-chain temperature monitoring (logistics) - role IoT Engineer, tech stack IoT, Azure IoT Hub, Python, Grafana, Edge AI.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "770251c939de2844879a7ef74ca3d110",
+    "metadata": {
+      "role": "IoT Engineer",
+      "years_experience": 11,
+      "skills": [
+        "Azure",
+        "IoT",
+        "Grafana",
+        "Docker",
+        "MQTT",
+        "Python",
+        "Azure IoT Hub",
+        "Edge AI"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0114"
+      ]
+    }
+  },
+  {
+    "id": "CV-0149",
+    "doc_type": "cv",
+    "title": "Data Engineer - Employee_149",
+    "text": "CV-0149 (Employee_149) - Data Engineer, 7 years of experience. Skills: Time-Series Forecasting, Edge AI, Docker, IoT, Azure IoT Hub, Azure, Git, CI/CD, Django, Redis, MQTT. Certifications: Microsoft Azure IoT Developer Specialty. Past projects: Smart meter data ingestion (energy) - role Data Engineer, tech stack Edge AI, MQTT, IoT, Azure, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "2c60bd5a76e5e028ae902f42d8c778a4",
+    "metadata": {
+      "role": "Data Engineer",
+      "years_experience": 7,
+      "skills": [
+        "Time-Series Forecasting",
+        "Edge AI",
+        "Docker",
+        "IoT",
+        "Azure IoT Hub",
+        "Azure",
+        "Git",
+        "CI/CD",
+        "Django",
+        "Redis",
+        "MQTT"
+      ],
+      "certifications": [
+        "Microsoft Azure IoT Developer Specialty"
+      ],
+      "project_ids": [
+        "PRJ-0113"
+      ]
+    }
+  },
+  {
+    "id": "CV-0150",
+    "doc_type": "cv",
+    "title": "Cloud Architect - Employee_150",
+    "text": "CV-0150 (Employee_150) - Cloud Architect, 2 years of experience. Skills: IoT, Docker, Time-Series Forecasting, Grafana, Azure, Azure DevOps, Git, Azure IoT Hub, Python, Edge AI. Certifications: Microsoft Azure Fundamentals. Past projects: Cold-chain temperature monitoring (logistics) - role Cloud Architect, tech stack IoT, Azure IoT Hub, Python, Grafana, Edge AI; Production line sensor monitoring (manufacturing) - role Cloud Architect, tech stack Grafana, Time-Series Forecasting, Azure, IoT, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "ef92063898d57e147802076da7260324",
+    "metadata": {
+      "role": "Cloud Architect",
+      "years_experience": 2,
+      "skills": [
+        "IoT",
+        "Docker",
+        "Time-Series Forecasting",
+        "Grafana",
+        "Azure",
+        "Azure DevOps",
+        "Git",
+        "Azure IoT Hub",
+        "Python",
+        "Edge AI"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0114",
+        "PRJ-0115"
+      ]
+    }
+  },
+  {
+    "id": "CV-0151",
+    "doc_type": "cv",
+    "title": "IoT Engineer - Employee_151",
+    "text": "CV-0151 (Employee_151) - IoT Engineer, 2 years of experience. Skills: Docker, IoT, Kafka, Azure IoT Hub, SQL, Django, Edge AI, MQTT, Azure. Certifications: Microsoft Azure Fundamentals. Past projects: Smart meter data ingestion (energy) - role IoT Engineer, tech stack Edge AI, MQTT, IoT, Azure, Docker.",
+    "lang": "en",
+    "synthetic": true,
+    "source_file": "cvs_clean.json",
+    "chunk_version": "v1",
+    "content_hash": "018e488cd8e808048bd9b22dca0c5479",
+    "metadata": {
+      "role": "IoT Engineer",
+      "years_experience": 2,
+      "skills": [
+        "Docker",
+        "IoT",
+        "Kafka",
+        "Azure IoT Hub",
+        "SQL",
+        "Django",
+        "Edge AI",
+        "MQTT",
+        "Azure"
+      ],
+      "certifications": [
+        "Microsoft Azure Fundamentals"
+      ],
+      "project_ids": [
+        "PRJ-0113"
+      ]
+    }
+  }
+]

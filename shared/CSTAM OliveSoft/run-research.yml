@@ -1,0 +1,5 @@
+name: Run research
+method: POST
+url: '{{researchUrl}}/research/tender-010'
+headers:
+  X-Internal-Token: '{{internalToken}}'

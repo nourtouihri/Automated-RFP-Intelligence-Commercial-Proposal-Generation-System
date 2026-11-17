@@ -1,0 +1,279 @@
+{
+  "generated_at_utc": "2026-10-19T21:04:18.294271+00:00",
+  "base_commit": "cefaa6b8e2c65d72f0f6853bacc0d9c1d5a8216c",
+  "corpus_mode": "canonical_jsonl",
+  "case_count": 11,
+  "corpus_chunks": 543,
+  "k": 5,
+  "document_types": {
+    "company_profile": 7,
+    "tools_tech_stack": 7,
+    "client_portfolio": 2,
+    "project": 191,
+    "cv": 151,
+    "tool": 169,
+    "client": 16
+  },
+  "input_sha256": {
+    "Cvs dataset\\rag_ready\\all_chunks.fixed.jsonl": "2109699ee8daddd4ce0e4aa5c49d7c560c876853099bf86e4a16e3cdce92b022",
+    "rag\\eval_dataset_543.json": "c7feb78ee43532adc3e993601c267397d334a2c5754035878b5c9188859733f5"
+  },
+  "implementation_sha256": {
+    "rag\\evaluate_local.py": "d558df5a4b6b84c30f29beeb7faa6cece036e825c2b0f1f7a80dd61acba17d9d",
+    "rag\\evaluation.py": "a9e42b25919fc041f4f983a68855770420370423d27b1a88db3df3de8c718831",
+    "rag\\embeddings.py": "7c4b248e2d5bd2bda5ec1b5335592be2f9b4c617559676f7c0ba1020ec135560",
+    "rag\\ranking.py": "6b43382ad27f19babae31525b5bbfc5b4d92c7a82bc4fd9d869a46d4025c59ea",
+    "rag\\doc_types.py": "f07e2d26de7f61c189d97574f3b2195aaec8c7df71941b69cd0e932d6959843d",
+    "rag\\retrieval_corpus.py": "f989dc1dcf77db90870aa8561513a54291d0304ff3b11658be2cf6949f27d480",
+    "rag\\bm25_retriever.py": "f83dbca5c56675ade14a0cbcb6c3c6f4fcbff78feabe4fa8b7d0d0e696bd4dd7",
+    "rag\\hybrid_retriever.py": "fc69a69bf5e00c920607b6202a55b01e10b2a729fc7fb48041f95b3629a9a92c",
+    "rag\\evaluate_retrieval_variants.py": "a220e115362d2b75ae9693581d375282243fd7d4d0a2aed4ebf2a860bb5ad916"
+  },
+  "configuration": {
+    "rrf_c": 60.0,
+    "candidate_depth": 20,
+    "metadata_weight": 0.5,
+    "threads": 1,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalize_embeddings": true,
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "bm25_epsilon": 0.25,
+    "tokenizer": "lowercase alphanumeric [a-z0-9]+, no stemming or stopword removal"
+  },
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "rank-bm25": "0.2.2",
+      "sentence-transformers": "4.1.0",
+      "torch": "2.14.1",
+      "numpy": "2.4.6",
+      "transformers": "4.57.6"
+    }
+  },
+  "setup": {
+    "semantic_setup_ms": 39137.69980001962,
+    "bm25_setup_ms": 14.826599974185228
+  },
+  "metric_definitions": {
+    "precision_at_k": "unique retrieved relevant IDs / fixed k, including short result lists",
+    "recall_at_k": "unique retrieved relevant IDs / number of relevant IDs",
+    "mean_reciprocal_rank": "macro mean reciprocal rank of first relevant result within top k",
+    "ndcg_at_k": "binary DCG / ideal DCG; discount log2(rank+1)",
+    "aggregation": "unweighted macro mean across every case; none skipped"
+  },
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "baseline_metrics_preserved": true,
+  "limitations": [
+    "Corpus provided explicitly; verify its hashes against the intended canonical inputs.",
+    "Empty-content chunks receive zero vectors; original source-record corpora contain no such chunks.",
+    "The semantic branch of both hybrids retains its original metadata-aware ranking.",
+    "Latency uses warm serial queries on one machine; no production throughput claim.",
+    "No embedding cache: hybrid latency includes a semantic query embedding.",
+    "Relevance labels are sparse and this dataset is too small to establish general superiority."
+  ],
+  "selection_policy": "maximize Recall@K, then nDCG@K, MRR@K and Precision@K; ties retained",
+  "best_quality_variants": [
+    "hybrid_rrf",
+    "hybrid_metadata"
+  ],
+  "fastest_among_best_quality": "hybrid_rrf",
+  "variants": {
+    "semantic_baseline": {
+      "precision_at_k": 0.18181818181818182,
+      "recall_at_k": 0.9090909090909091,
+      "mean_reciprocal_rank": 0.8636363636363636,
+      "ndcg_at_k": 0.8755390685064961,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 20.606754541707534,
+      "case_changes_vs_semantic": []
+    },
+    "bm25_only": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 0.8939393939393939,
+      "ndcg_at_k": 0.9209936139610416,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 1.1073121109582258,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-fastapi-backend",
+          "query": "Backend engineer experienced with FastAPI, Java, CI/CD and workflow automation",
+          "baseline_retrieved_ids": [
+            "CV-0007",
+            "CV-0016",
+            "CV-0058",
+            "CV-0015",
+            "CV-0019"
+          ],
+          "retrieved_ids": [
+            "CV-0015",
+            "CV-0007",
+            "CV-0016",
+            "CV-0044",
+            "CV-0115"
+          ],
+          "reciprocal_rank_delta": -0.5,
+          "recall_delta": 0.0,
+          "ndcg_delta": -0.36907024642854247
+        },
+        {
+          "id": "cv-react-fullstack",
+          "query": "Full-stack developer with React, REST API and infrastructure as code experience",
+          "baseline_retrieved_ids": [
+            "CV-0076",
+            "CV-0084",
+            "CV-0075",
+            "CV-0077",
+            "CV-0121"
+          ],
+          "retrieved_ids": [
+            "CV-0059",
+            "CV-0076",
+            "CV-0006",
+            "CV-0119",
+            "CV-0085"
+          ],
+          "reciprocal_rank_delta": 0.3333333333333333,
+          "recall_delta": 1.0,
+          "ndcg_delta": 0.5
+        },
+        {
+          "id": "cv-rag-data",
+          "query": "Data engineer experienced with Python, LlamaIndex and ChromaDB for a RAG platform",
+          "baseline_retrieved_ids": [
+            "CV-0005",
+            "CV-0012",
+            "CV-0044",
+            "CV-0016",
+            "CV-0115"
+          ],
+          "retrieved_ids": [
+            "CV-0012",
+            "CV-0016",
+            "CV-0116",
+            "CV-0005",
+            "CV-0114"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.36907024642854247
+        }
+      ]
+    },
+    "hybrid_rrf": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 0.9545454545454546,
+      "ndcg_at_k": 0.966448159415587,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 20.739890915468674,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-react-fullstack",
+          "query": "Full-stack developer with React, REST API and infrastructure as code experience",
+          "baseline_retrieved_ids": [
+            "CV-0076",
+            "CV-0084",
+            "CV-0075",
+            "CV-0077",
+            "CV-0121"
+          ],
+          "retrieved_ids": [
+            "CV-0076",
+            "CV-0006",
+            "CV-0119",
+            "CV-0085",
+            "CV-0075"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 1.0,
+          "ndcg_delta": 0.6309297535714575
+        },
+        {
+          "id": "cv-rag-data",
+          "query": "Data engineer experienced with Python, LlamaIndex and ChromaDB for a RAG platform",
+          "baseline_retrieved_ids": [
+            "CV-0005",
+            "CV-0012",
+            "CV-0044",
+            "CV-0016",
+            "CV-0115"
+          ],
+          "retrieved_ids": [
+            "CV-0012",
+            "CV-0005",
+            "CV-0016",
+            "CV-0044",
+            "CV-0042"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.36907024642854247
+        }
+      ]
+    },
+    "hybrid_metadata": {
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mean_reciprocal_rank": 0.9545454545454546,
+      "ndcg_at_k": 0.966448159415587,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "empty_result_rate": 0,
+      "average_latency_ms": 68.68841515141398,
+      "case_changes_vs_semantic": [
+        {
+          "id": "cv-react-fullstack",
+          "query": "Full-stack developer with React, REST API and infrastructure as code experience",
+          "baseline_retrieved_ids": [
+            "CV-0076",
+            "CV-0084",
+            "CV-0075",
+            "CV-0077",
+            "CV-0121"
+          ],
+          "retrieved_ids": [
+            "CV-0076",
+            "CV-0006",
+            "CV-0119",
+            "CV-0085",
+            "CV-0075"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 1.0,
+          "ndcg_delta": 0.6309297535714575
+        },
+        {
+          "id": "cv-rag-data",
+          "query": "Data engineer experienced with Python, LlamaIndex and ChromaDB for a RAG platform",
+          "baseline_retrieved_ids": [
+            "CV-0005",
+            "CV-0012",
+            "CV-0044",
+            "CV-0016",
+            "CV-0115"
+          ],
+          "retrieved_ids": [
+            "CV-0012",
+            "CV-0005",
+            "CV-0016",
+            "CV-0044",
+            "CV-0042"
+          ],
+          "reciprocal_rank_delta": 0.5,
+          "recall_delta": 0.0,
+          "ndcg_delta": 0.36907024642854247
+        }
+      ]
+    }
+  }
+}

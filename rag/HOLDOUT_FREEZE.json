@@ -1,0 +1,37 @@
+{
+  "purpose": "Held-out (independent) retrieval test set. Queries = verbatim tender feed text; labels = pre-committed ground_truth.json. Frozen before any retrieval run on it. No RRF/metadata tuning against this set.",
+  "built_from": {
+    "tender_feed": [
+      "detection/data/simulated_feed/tender_001.json",
+      "detection/data/simulated_feed/tender_002.json",
+      "detection/data/simulated_feed/tender_003.json",
+      "detection/data/simulated_feed/tender_004.json",
+      "detection/data/simulated_feed/tender_005.json",
+      "detection/data/simulated_feed/tender_006.json",
+      "detection/data/simulated_feed/tender_007.json",
+      "detection/data/simulated_feed/tender_008.json",
+      "detection/data/simulated_feed/tender_009.json",
+      "detection/data/simulated_feed/tender_010.json",
+      "detection/data/simulated_feed/tender_011.json",
+      "detection/data/simulated_feed/tender_012.json",
+      "detection/data/simulated_feed/tender_013.json",
+      "detection/data/simulated_feed/tender_014.json",
+      "detection/data/simulated_feed/tender_015.json"
+    ],
+    "ground_truth": "Cvs dataset/ground_truth.json",
+    "corpus": "Cvs dataset/rag_ready/all_chunks.fixed.jsonl"
+  },
+  "query_rule": "title + requirement lines verbatim (tender-013: requirement sentences parsed from raw_text per check_coverage.requirement_lines)",
+  "label_rule": "per-tender cv_ids / project_ids from ground_truth.json, unmodified",
+  "excluded_from_scoring": {
+    "tender-014": "negative control (no relevant ids by design)",
+    "tender-015": "duplicate of tender-004 (kept, disclosed)"
+  },
+  "case_count": 28,
+  "dev_benchmark_frozen": {
+    "eval_dataset": "rag/eval_dataset.json",
+    "eval_dataset_sha256": "5143442b79b7f3a97718eb098546b96bd7f26aa3e45aadd0d5efcdab70b3e6b8",
+    "corpus_sha256": "2109699ee8daddd4ce0e4aa5c49d7c560c876853099bf86e4a16e3cdce92b022",
+    "holdout_dataset_sha256": "ccc7600b24091b80d361f07a4a67b2d0722a053df2d0a2be57341447afadfec7"
+  }
+}

@@ -1,0 +1,5 @@
+name: Refuse proposal
+method: PUT
+url: '{{proposalUrl}}/proposal/refuse/e3309615-3788-4f0e-aa04-528e944c5380'
+headers:
+  X-Internal-Token: '{{internalToken}}'

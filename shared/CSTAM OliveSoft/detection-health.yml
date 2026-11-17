@@ -1,0 +1,3 @@
+name: Detection health
+method: GET
+url: '{{detectionUrl}}/health'

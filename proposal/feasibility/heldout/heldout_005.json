@@ -1,0 +1,14 @@
+{
+  "id": "heldout-005",
+  "title": "Student Success Analytics and Data Governance Platform for the Université de Tunis El Manar and Partner Faculties (Phase 2, 2026–2028)",
+  "issuer": "Université de Tunis El Manar",
+  "deadline": "2026-12-11",
+  "raw_text": "L’Université de Tunis El Manar keeps enrolment, attendance and examination results in separate faculty systems, so no one can see why first-year students leave. We require one student data warehouse that combines these sources, an early-warning dashboard that flags students at risk of dropping out, and a data governance framework with a catalogue and a named owner for every dataset. Processing must comply with the national personal data protection law. Faculty administrators must be able to explain every flag to the student concerned.",
+  "source": "simulated_feed",
+  "requirements": [
+    "Single student data warehouse combining enrolment, attendance and examination results",
+    "Early-warning dashboard for students at risk of dropping out",
+    "Data governance with a catalogue and a named owner for every dataset",
+    "Compliance with the national personal data protection law"
+  ]
+}

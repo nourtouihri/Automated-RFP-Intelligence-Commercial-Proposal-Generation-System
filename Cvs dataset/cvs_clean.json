@@ -1,0 +1,7041 @@
+[
+  {
+    "cv_id": "CV-0001",
+    "name": "Employee_001",
+    "role": "Solutions Architect",
+    "years_experience": 2,
+    "skills": [
+      "Redis",
+      "PostgreSQL",
+      "GCP",
+      "Django",
+      "Docker",
+      "ChromaDB",
+      "Tailwind CSS",
+      "LlamaIndex",
+      "Qdrant",
+      "TensorFlow",
+      "CI/CD"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0117",
+        "project_name": "Real estate internal workflow automation",
+        "client_sector": "real estate",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Redis",
+          "Django",
+          "GCP",
+          "Docker",
+          "ChromaDB",
+          "Tailwind CSS",
+          "LlamaIndex",
+          "Qdrant",
+          "TensorFlow",
+          "CI/CD"
+        ],
+        "description": "Contributed as Solutions Architect on a real estate sector project, working with Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0002",
+    "name": "Employee_002",
+    "role": "AI/ML Engineer",
+    "years_experience": 1,
+    "skills": [
+      "AWS",
+      "CI/CD",
+      "GCP",
+      "Tailwind CSS",
+      "LangChain",
+      "Django",
+      "GraphQL",
+      "Terraform"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0118",
+        "project_name": "Public administration real-time analytics dashboard",
+        "client_sector": "public administration",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "GraphQL",
+          "GCP",
+          "Django",
+          "CI/CD"
+        ],
+        "description": "Contributed as AI/ML Engineer on a public administration sector project, working with Tailwind CSS, GraphQL, GCP, Django, CI/CD."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0003",
+    "name": "Employee_003",
+    "role": "Frontend Developer",
+    "years_experience": 7,
+    "skills": [
+      "Pinecone",
+      "MongoDB",
+      "JavaScript",
+      "Flutter"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0119",
+        "project_name": "Logistics internal workflow automation",
+        "client_sector": "logistics",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "MongoDB",
+          "JavaScript",
+          "Pinecone",
+          "Flutter"
+        ],
+        "description": "Contributed as Frontend Developer on a logistics sector project, working with MongoDB, JavaScript, Pinecone, Flutter."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0004",
+    "name": "Employee_004",
+    "role": "Solutions Architect",
+    "years_experience": 4,
+    "skills": [
+      "Next.js",
+      "GCP",
+      "Node.js",
+      "REST APIs",
+      "Django",
+      "PyTorch",
+      "Swift",
+      "PostgreSQL",
+      "JavaScript",
+      "Java",
+      "React"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0120",
+        "project_name": "Public administration legacy system modernization",
+        "client_sector": "public administration",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "PyTorch",
+          "Next.js",
+          "GCP",
+          "Node.js"
+        ],
+        "description": "Contributed as Solutions Architect on a public administration sector project, working with PyTorch, Next.js, GCP, Node.js."
+      },
+      {
+        "project_id": "PRJ-0121",
+        "project_name": "Education mobile app for field agents",
+        "client_sector": "education",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Node.js",
+          "Django",
+          "GCP",
+          "REST APIs",
+          "Swift",
+          "PostgreSQL",
+          "JavaScript",
+          "Java",
+          "React"
+        ],
+        "description": "Contributed as Solutions Architect on an education sector project, working with Node.js, Django, GCP, REST APIs, Swift, PostgreSQL, JavaScript, Java, React."
+      },
+      {
+        "project_id": "PRJ-0122",
+        "project_name": "Real estate legacy system modernization",
+        "client_sector": "real estate",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Node.js",
+          "REST APIs",
+          "PyTorch",
+          "Next.js",
+          "GCP"
+        ],
+        "description": "Contributed as Solutions Architect on a real estate sector project, working with Node.js, REST APIs, PyTorch, Next.js, GCP."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0005",
+    "name": "Employee_005",
+    "role": "Data Engineer",
+    "years_experience": 15,
+    "skills": [
+      "Qdrant",
+      "Azure",
+      "Kotlin",
+      "GraphQL",
+      "Tailwind CSS",
+      "Flutter",
+      "Scikit-learn",
+      "GCP",
+      "PostgreSQL",
+      "REST APIs",
+      "ChromaDB",
+      "Python",
+      "LlamaIndex",
+      "n8n",
+      "Swift",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0007",
+        "project_name": "Telecom data platform migration",
+        "client_sector": "telecom",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "PostgreSQL",
+          "Flutter",
+          "REST APIs",
+          "ChromaDB",
+          "Python",
+          "Scikit-learn"
+        ],
+        "description": "Contributed as Data Engineer on a telecom sector project, working with PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn."
+      },
+      {
+        "project_id": "PRJ-0010",
+        "project_name": "Logistics real-time analytics dashboard",
+        "client_sector": "logistics",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "LlamaIndex",
+          "n8n",
+          "Swift",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Engineer on a logistics sector project, working with LlamaIndex, n8n, Swift, PyTorch."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0006",
+    "name": "Employee_006",
+    "role": "Full Stack Developer",
+    "years_experience": 11,
+    "skills": [
+      "Terraform",
+      "React",
+      "REST APIs",
+      "Flutter",
+      "PyTorch",
+      "Tailwind CSS",
+      "Python",
+      "FastAPI",
+      "Node.js",
+      "n8n",
+      "Pinecone",
+      "AWS",
+      "Azure",
+      "Swift",
+      "Redis"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0123",
+        "project_name": "Education customer portal revamp",
+        "client_sector": "education",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Terraform",
+          "React",
+          "Flutter",
+          "Tailwind CSS",
+          "Python",
+          "FastAPI"
+        ],
+        "description": "Contributed as Full Stack Developer on an education sector project, working with REST APIs, Terraform, React, Flutter, Tailwind CSS, Python, FastAPI."
+      },
+      {
+        "project_id": "PRJ-0005",
+        "project_name": "Logistics data platform migration",
+        "client_sector": "logistics",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Node.js",
+          "Terraform",
+          "n8n",
+          "Flutter",
+          "Pinecone",
+          "React"
+        ],
+        "description": "Contributed as Full Stack Developer on a logistics sector project, working with Node.js, Terraform, n8n, Flutter, Pinecone, React."
+      },
+      {
+        "project_id": "PRJ-0012",
+        "project_name": "Healthcare AI-powered document processing",
+        "client_sector": "healthcare",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "AWS",
+          "Azure",
+          "Swift",
+          "Redis"
+        ],
+        "description": "Contributed as Full Stack Developer on a healthcare sector project, working with AWS, Azure, Swift, Redis."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0007",
+    "name": "Employee_007",
+    "role": "Backend Developer",
+    "years_experience": 10,
+    "skills": [
+      "Kotlin",
+      "Java",
+      "FastAPI",
+      "n8n",
+      "Tailwind CSS",
+      "CI/CD",
+      "Next.js",
+      "PostgreSQL",
+      "Docker",
+      "Python",
+      "Spring Boot",
+      "Kubernetes"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0124",
+        "project_name": "Retail customer portal revamp",
+        "client_sector": "retail",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "Kotlin",
+          "n8n",
+          "CI/CD",
+          "Java",
+          "Tailwind CSS",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Python",
+          "Spring Boot",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Backend Developer on a retail sector project, working with Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes."
+      },
+      {
+        "project_id": "PRJ-0125",
+        "project_name": "Education data platform migration",
+        "client_sector": "education",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "FastAPI",
+          "Tailwind CSS",
+          "n8n",
+          "Java",
+          "CI/CD",
+          "PostgreSQL",
+          "Next.js",
+          "Docker"
+        ],
+        "description": "Contributed as Backend Developer on an education sector project, working with FastAPI, Tailwind CSS, n8n, Java, CI/CD, PostgreSQL, Next.js, Docker."
+      },
+      {
+        "project_id": "PRJ-0126",
+        "project_name": "Retail mobile app for field agents",
+        "client_sector": "retail",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "CI/CD",
+          "FastAPI",
+          "n8n"
+        ],
+        "description": "Contributed as Backend Developer on a retail sector project, working with CI/CD, FastAPI, n8n."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0008",
+    "name": "Employee_008",
+    "role": "QA Engineer",
+    "years_experience": 2,
+    "skills": [
+      "GCP",
+      "React",
+      "ChromaDB",
+      "Java",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0127",
+        "project_name": "Real estate customer portal revamp",
+        "client_sector": "real estate",
+        "role": "QA Engineer",
+        "tech_stack": [
+          "ChromaDB",
+          "GCP",
+          "Python",
+          "React",
+          "Java"
+        ],
+        "description": "Contributed as QA Engineer on a real estate sector project, working with ChromaDB, GCP, Python, React, Java."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0009",
+    "name": "Employee_009",
+    "role": "Data Scientist",
+    "years_experience": 11,
+    "skills": [
+      "Azure",
+      "Django",
+      "Swift",
+      "PostgreSQL",
+      "GraphQL",
+      "Kotlin",
+      "TensorFlow",
+      "MongoDB",
+      "ChromaDB",
+      "Redis",
+      "Python",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0008",
+        "project_name": "Retail internal workflow automation",
+        "client_sector": "retail",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "MongoDB",
+          "ChromaDB",
+          "Redis",
+          "Python",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a retail sector project, working with MongoDB, ChromaDB, Redis, Python, PyTorch."
+      },
+      {
+        "project_id": "PRJ-0128",
+        "project_name": "Energy customer portal revamp",
+        "client_sector": "energy",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Azure",
+          "PostgreSQL",
+          "Swift",
+          "Kotlin",
+          "TensorFlow"
+        ],
+        "description": "Contributed as Data Scientist on an energy sector project, working with Azure, PostgreSQL, Swift, Kotlin, TensorFlow."
+      },
+      {
+        "project_id": "PRJ-0129",
+        "project_name": "Healthcare mobile app for field agents",
+        "client_sector": "healthcare",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "PostgreSQL",
+          "Django",
+          "TensorFlow",
+          "GraphQL"
+        ],
+        "description": "Contributed as Data Scientist on a healthcare sector project, working with PostgreSQL, Django, TensorFlow, GraphQL."
+      },
+      {
+        "project_id": "PRJ-0130",
+        "project_name": "Public administration AI-powered document processing",
+        "client_sector": "public administration",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "PostgreSQL",
+          "GraphQL",
+          "Azure",
+          "Django"
+        ],
+        "description": "Contributed as Data Scientist on a public administration sector project, working with PostgreSQL, GraphQL, Azure, Django."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Solutions Architect"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0010",
+    "name": "Employee_010",
+    "role": "Solutions Architect",
+    "years_experience": 9,
+    "skills": [
+      "Next.js",
+      "PostgreSQL",
+      "Docker",
+      "CI/CD",
+      "Azure",
+      "Kubernetes",
+      "Python",
+      "Pinecone",
+      "LlamaIndex",
+      "REST APIs",
+      "Kotlin",
+      "n8n",
+      "Java",
+      "Tailwind CSS",
+      "Spring Boot",
+      "FastAPI"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0131",
+        "project_name": "Energy mobile app for field agents",
+        "client_sector": "energy",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "CI/CD",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Azure",
+          "Kubernetes",
+          "Python",
+          "Pinecone",
+          "LlamaIndex",
+          "REST APIs"
+        ],
+        "description": "Contributed as Solutions Architect on an energy sector project, working with CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0132",
+        "project_name": "Telecom API integration hub",
+        "client_sector": "telecom",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "PostgreSQL",
+          "Next.js",
+          "CI/CD",
+          "Docker"
+        ],
+        "description": "Contributed as Solutions Architect on a telecom sector project, working with PostgreSQL, Next.js, CI/CD, Docker."
+      },
+      {
+        "project_id": "PRJ-0124",
+        "project_name": "Retail customer portal revamp",
+        "client_sector": "retail",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Kotlin",
+          "n8n",
+          "CI/CD",
+          "Java",
+          "Tailwind CSS",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Python",
+          "Spring Boot",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Solutions Architect on a retail sector project, working with Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes."
+      },
+      {
+        "project_id": "PRJ-0125",
+        "project_name": "Education data platform migration",
+        "client_sector": "education",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "FastAPI",
+          "Tailwind CSS",
+          "n8n",
+          "Java",
+          "CI/CD",
+          "PostgreSQL",
+          "Next.js",
+          "Docker"
+        ],
+        "description": "Contributed as Solutions Architect on an education sector project, working with FastAPI, Tailwind CSS, n8n, Java, CI/CD, PostgreSQL, Next.js, Docker."
+      }
+    ],
+    "certifications": [
+      "PMP"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0011",
+    "name": "Employee_011",
+    "role": "Cloud Architect",
+    "years_experience": 2,
+    "skills": [
+      "PostgreSQL",
+      "JavaScript",
+      "Next.js",
+      "CI/CD",
+      "ChromaDB",
+      "LangChain",
+      "Flutter",
+      "MongoDB",
+      "GraphQL",
+      "AWS",
+      "React",
+      "TypeScript",
+      "Pinecone"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0133",
+        "project_name": "Telecom mobile app for field agents",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Flutter",
+          "JavaScript",
+          "LangChain",
+          "Next.js"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Flutter, JavaScript, LangChain, Next.js."
+      },
+      {
+        "project_id": "PRJ-0134",
+        "project_name": "Real estate AI-powered document processing",
+        "client_sector": "real estate",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "PostgreSQL",
+          "CI/CD",
+          "ChromaDB",
+          "MongoDB",
+          "Next.js"
+        ],
+        "description": "Contributed as Cloud Architect on a real estate sector project, working with PostgreSQL, CI/CD, ChromaDB, MongoDB, Next.js."
+      },
+      {
+        "project_id": "PRJ-0003",
+        "project_name": "Manufacturing internal workflow automation",
+        "client_sector": "manufacturing",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "GraphQL",
+          "AWS",
+          "React",
+          "PostgreSQL",
+          "TypeScript",
+          "Pinecone"
+        ],
+        "description": "Contributed as Cloud Architect on a manufacturing sector project, working with GraphQL, AWS, React, PostgreSQL, TypeScript, Pinecone."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0012",
+    "name": "Employee_012",
+    "role": "Data Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Docker",
+      "Tailwind CSS",
+      "LlamaIndex",
+      "Python",
+      "ChromaDB",
+      "CI/CD",
+      "Redis",
+      "Django",
+      "GCP",
+      "Qdrant",
+      "TensorFlow"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0117",
+        "project_name": "Real estate internal workflow automation",
+        "client_sector": "real estate",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Redis",
+          "Django",
+          "GCP",
+          "Docker",
+          "ChromaDB",
+          "Tailwind CSS",
+          "LlamaIndex",
+          "Qdrant",
+          "TensorFlow",
+          "CI/CD"
+        ],
+        "description": "Contributed as Data Engineer on a real estate sector project, working with Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD."
+      },
+      {
+        "project_id": "PRJ-0135",
+        "project_name": "Telecom AI-powered document processing",
+        "client_sector": "telecom",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "LlamaIndex",
+          "Python",
+          "ChromaDB"
+        ],
+        "description": "Contributed as Data Engineer on a telecom sector project, working with Tailwind CSS, LlamaIndex, Python, ChromaDB."
+      },
+      {
+        "project_id": "PRJ-0136",
+        "project_name": "Telecom customer portal revamp",
+        "client_sector": "telecom",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Docker",
+          "CI/CD",
+          "LlamaIndex",
+          "Python"
+        ],
+        "description": "Contributed as Data Engineer on a telecom sector project, working with Docker, CI/CD, LlamaIndex, Python."
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0013",
+    "name": "Employee_013",
+    "role": "Solutions Architect",
+    "years_experience": 5,
+    "skills": [
+      "Tailwind CSS",
+      "Terraform",
+      "Python",
+      "FastAPI",
+      "React",
+      "REST APIs",
+      "Flutter"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0123",
+        "project_name": "Education customer portal revamp",
+        "client_sector": "education",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "REST APIs",
+          "Terraform",
+          "React",
+          "Flutter",
+          "Tailwind CSS",
+          "Python",
+          "FastAPI"
+        ],
+        "description": "Contributed as Solutions Architect on an education sector project, working with REST APIs, Terraform, React, Flutter, Tailwind CSS, Python, FastAPI."
+      },
+      {
+        "project_id": "PRJ-0137",
+        "project_name": "Insurance customer portal revamp",
+        "client_sector": "insurance",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Terraform",
+          "Tailwind CSS",
+          "React",
+          "Python"
+        ],
+        "description": "Contributed as Solutions Architect on an insurance sector project, working with Terraform, Tailwind CSS, React, Python."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0014",
+    "name": "Employee_014",
+    "role": "Business Analyst",
+    "years_experience": 7,
+    "skills": [
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Tailwind CSS",
+      "Azure",
+      "Python",
+      "Next.js",
+      "JavaScript",
+      "React",
+      "Swift",
+      "CI/CD",
+      "Pinecone",
+      "LlamaIndex",
+      "REST APIs",
+      "Kotlin",
+      "n8n",
+      "Java"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0138",
+        "project_name": "Logistics mobile app for field agents",
+        "client_sector": "logistics",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "PostgreSQL",
+          "Kubernetes",
+          "Spring Boot",
+          "Tailwind CSS",
+          "Azure",
+          "JavaScript",
+          "React",
+          "Swift"
+        ],
+        "description": "Contributed as Business Analyst on a logistics sector project, working with PostgreSQL, Kubernetes, Spring Boot, Tailwind CSS, Azure, JavaScript, React, Swift."
+      },
+      {
+        "project_id": "PRJ-0131",
+        "project_name": "Energy mobile app for field agents",
+        "client_sector": "energy",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "CI/CD",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Azure",
+          "Kubernetes",
+          "Python",
+          "Pinecone",
+          "LlamaIndex",
+          "REST APIs"
+        ],
+        "description": "Contributed as Business Analyst on an energy sector project, working with CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0124",
+        "project_name": "Retail customer portal revamp",
+        "client_sector": "retail",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Kotlin",
+          "n8n",
+          "CI/CD",
+          "Java",
+          "Tailwind CSS",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Python",
+          "Spring Boot",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Business Analyst on a retail sector project, working with Kotlin, n8n, CI/CD, Java, Tailwind CSS, Next.js, PostgreSQL, Docker, Python, Spring Boot, Kubernetes."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0015",
+    "name": "Employee_015",
+    "role": "DevOps Engineer",
+    "years_experience": 11,
+    "skills": [
+      "GraphQL",
+      "ChromaDB",
+      "Java",
+      "FastAPI",
+      "Tailwind CSS",
+      "Django",
+      "Next.js",
+      "LangChain",
+      "React",
+      "Swift",
+      "JavaScript",
+      "Qdrant",
+      "CI/CD",
+      "TensorFlow",
+      "LlamaIndex"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0139",
+        "project_name": "Banking internal workflow automation",
+        "client_sector": "banking",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Django",
+          "FastAPI",
+          "Tailwind CSS",
+          "Next.js",
+          "Java",
+          "React",
+          "Swift",
+          "JavaScript"
+        ],
+        "description": "Contributed as DevOps Engineer on a banking sector project, working with Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript."
+      },
+      {
+        "project_id": "PRJ-0140",
+        "project_name": "Education internal workflow automation",
+        "client_sector": "education",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "GraphQL",
+          "Django",
+          "Next.js",
+          "ChromaDB"
+        ],
+        "description": "Contributed as DevOps Engineer on an education sector project, working with Tailwind CSS, GraphQL, Django, Next.js, ChromaDB."
+      },
+      {
+        "project_id": "PRJ-0141",
+        "project_name": "Logistics customer portal revamp",
+        "client_sector": "logistics",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "ChromaDB",
+          "Django",
+          "Java",
+          "FastAPI",
+          "LangChain",
+          "Qdrant",
+          "CI/CD",
+          "TensorFlow",
+          "LlamaIndex"
+        ],
+        "description": "Contributed as DevOps Engineer on a logistics sector project, working with ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0016",
+    "name": "Employee_016",
+    "role": "DevOps Engineer",
+    "years_experience": 11,
+    "skills": [
+      "LlamaIndex",
+      "TensorFlow",
+      "CI/CD",
+      "Qdrant",
+      "PostgreSQL",
+      "Flutter",
+      "REST APIs",
+      "ChromaDB",
+      "Python",
+      "Scikit-learn",
+      "Django",
+      "Java",
+      "FastAPI",
+      "LangChain",
+      "Redis",
+      "GCP",
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0007",
+        "project_name": "Telecom data platform migration",
+        "client_sector": "telecom",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "PostgreSQL",
+          "Flutter",
+          "REST APIs",
+          "ChromaDB",
+          "Python",
+          "Scikit-learn"
+        ],
+        "description": "Contributed as DevOps Engineer on a telecom sector project, working with PostgreSQL, Flutter, REST APIs, ChromaDB, Python, Scikit-learn."
+      },
+      {
+        "project_id": "PRJ-0141",
+        "project_name": "Logistics customer portal revamp",
+        "client_sector": "logistics",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "ChromaDB",
+          "Django",
+          "Java",
+          "FastAPI",
+          "LangChain",
+          "Qdrant",
+          "CI/CD",
+          "TensorFlow",
+          "LlamaIndex"
+        ],
+        "description": "Contributed as DevOps Engineer on a logistics sector project, working with ChromaDB, Django, Java, FastAPI, LangChain, Qdrant, CI/CD, TensorFlow, LlamaIndex."
+      },
+      {
+        "project_id": "PRJ-0142",
+        "project_name": "Energy API integration hub",
+        "client_sector": "energy",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Qdrant",
+          "CI/CD",
+          "LlamaIndex"
+        ],
+        "description": "Contributed as DevOps Engineer on an energy sector project, working with Qdrant, CI/CD, LlamaIndex."
+      },
+      {
+        "project_id": "PRJ-0117",
+        "project_name": "Real estate internal workflow automation",
+        "client_sector": "real estate",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Redis",
+          "Django",
+          "GCP",
+          "Docker",
+          "ChromaDB",
+          "Tailwind CSS",
+          "LlamaIndex",
+          "Qdrant",
+          "TensorFlow",
+          "CI/CD"
+        ],
+        "description": "Contributed as DevOps Engineer on a real estate sector project, working with Redis, Django, GCP, Docker, ChromaDB, Tailwind CSS, LlamaIndex, Qdrant, TensorFlow, CI/CD."
+      }
+    ],
+    "certifications": [
+      "PMP"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0017",
+    "name": "Employee_017",
+    "role": "Project Manager",
+    "years_experience": 4,
+    "skills": [
+      "Java",
+      "JavaScript",
+      "PostgreSQL",
+      "Swift",
+      "React",
+      "Kubernetes",
+      "Spring Boot",
+      "Tailwind CSS",
+      "Azure",
+      "Django",
+      "FastAPI",
+      "Next.js",
+      "Node.js",
+      "GCP",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0138",
+        "project_name": "Logistics mobile app for field agents",
+        "client_sector": "logistics",
+        "role": "Project Manager",
+        "tech_stack": [
+          "PostgreSQL",
+          "Kubernetes",
+          "Spring Boot",
+          "Tailwind CSS",
+          "Azure",
+          "JavaScript",
+          "React",
+          "Swift"
+        ],
+        "description": "Contributed as Project Manager on a logistics sector project, working with PostgreSQL, Kubernetes, Spring Boot, Tailwind CSS, Azure, JavaScript, React, Swift."
+      },
+      {
+        "project_id": "PRJ-0139",
+        "project_name": "Banking internal workflow automation",
+        "client_sector": "banking",
+        "role": "Project Manager",
+        "tech_stack": [
+          "Django",
+          "FastAPI",
+          "Tailwind CSS",
+          "Next.js",
+          "Java",
+          "React",
+          "Swift",
+          "JavaScript"
+        ],
+        "description": "Contributed as Project Manager on a banking sector project, working with Django, FastAPI, Tailwind CSS, Next.js, Java, React, Swift, JavaScript."
+      },
+      {
+        "project_id": "PRJ-0121",
+        "project_name": "Education mobile app for field agents",
+        "client_sector": "education",
+        "role": "Project Manager",
+        "tech_stack": [
+          "Node.js",
+          "Django",
+          "GCP",
+          "REST APIs",
+          "Swift",
+          "PostgreSQL",
+          "JavaScript",
+          "Java",
+          "React"
+        ],
+        "description": "Contributed as Project Manager on an education sector project, working with Node.js, Django, GCP, REST APIs, Swift, PostgreSQL, JavaScript, Java, React."
+      },
+      {
+        "project_id": "PRJ-0143",
+        "project_name": "Manufacturing real-time analytics dashboard",
+        "client_sector": "manufacturing",
+        "role": "Project Manager",
+        "tech_stack": [
+          "Swift",
+          "React",
+          "JavaScript",
+          "Java"
+        ],
+        "description": "Contributed as Project Manager on a manufacturing sector project, working with Swift, React, JavaScript, Java."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0018",
+    "name": "Employee_018",
+    "role": "Business Analyst",
+    "years_experience": 11,
+    "skills": [
+      "PyTorch",
+      "Kotlin",
+      "PostgreSQL",
+      "Redis",
+      "GCP",
+      "JavaScript",
+      "Node.js",
+      "Terraform",
+      "n8n",
+      "Flutter",
+      "Pinecone",
+      "React"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0144",
+        "project_name": "Retail AI-powered document processing",
+        "client_sector": "retail",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Kotlin",
+          "JavaScript",
+          "GCP",
+          "PostgreSQL",
+          "PyTorch"
+        ],
+        "description": "Contributed as Business Analyst on a retail sector project, working with Kotlin, JavaScript, GCP, PostgreSQL, PyTorch."
+      },
+      {
+        "project_id": "PRJ-0005",
+        "project_name": "Logistics data platform migration",
+        "client_sector": "logistics",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Node.js",
+          "Terraform",
+          "n8n",
+          "Flutter",
+          "Pinecone",
+          "React"
+        ],
+        "description": "Contributed as Business Analyst on a logistics sector project, working with Node.js, Terraform, n8n, Flutter, Pinecone, React."
+      },
+      {
+        "project_id": "PRJ-0145",
+        "project_name": "Education API integration hub",
+        "client_sector": "education",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Redis",
+          "JavaScript",
+          "PyTorch",
+          "Kotlin"
+        ],
+        "description": "Contributed as Business Analyst on an education sector project, working with Redis, JavaScript, PyTorch, Kotlin."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0019",
+    "name": "Employee_019",
+    "role": "Cloud Architect",
+    "years_experience": 8,
+    "skills": [
+      "Pinecone",
+      "LlamaIndex",
+      "REST APIs",
+      "CI/CD",
+      "Next.js",
+      "PostgreSQL",
+      "Docker",
+      "Azure",
+      "Kubernetes",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0131",
+        "project_name": "Energy mobile app for field agents",
+        "client_sector": "energy",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "CI/CD",
+          "Next.js",
+          "PostgreSQL",
+          "Docker",
+          "Azure",
+          "Kubernetes",
+          "Python",
+          "Pinecone",
+          "LlamaIndex",
+          "REST APIs"
+        ],
+        "description": "Contributed as Cloud Architect on an energy sector project, working with CI/CD, Next.js, PostgreSQL, Docker, Azure, Kubernetes, Python, Pinecone, LlamaIndex, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0146",
+        "project_name": "Real estate real-time analytics dashboard",
+        "client_sector": "real estate",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Pinecone",
+          "LlamaIndex",
+          "CI/CD"
+        ],
+        "description": "Contributed as Cloud Architect on a real estate sector project, working with Pinecone, LlamaIndex, CI/CD."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0020",
+    "name": "Employee_020",
+    "role": "Solutions Architect",
+    "years_experience": 7,
+    "skills": [
+      "Flutter",
+      "Kubernetes",
+      "TypeScript",
+      "MongoDB",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0147",
+        "project_name": "Retail API integration hub",
+        "client_sector": "retail",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "TypeScript",
+          "MongoDB",
+          "Kubernetes",
+          "REST APIs"
+        ],
+        "description": "Contributed as Solutions Architect on a retail sector project, working with TypeScript, MongoDB, Kubernetes, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0148",
+        "project_name": "Healthcare API integration hub",
+        "client_sector": "healthcare",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Kubernetes",
+          "Flutter",
+          "TypeScript",
+          "REST APIs"
+        ],
+        "description": "Contributed as Solutions Architect on a healthcare sector project, working with Kubernetes, Flutter, TypeScript, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0149",
+        "project_name": "Banking customer portal revamp",
+        "client_sector": "banking",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "REST APIs",
+          "Kubernetes",
+          "Flutter"
+        ],
+        "description": "Contributed as Solutions Architect on a banking sector project, working with REST APIs, Kubernetes, Flutter."
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0021",
+    "name": "Employee_021",
+    "role": "Integration Architect",
+    "years_experience": 14,
+    "skills": [
+      "MuleSoft",
+      "REST APIs",
+      "SAP SuccessFactors",
+      "Azure DevOps",
+      "DataWeave",
+      "Git",
+      "Datadog"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0013",
+        "project_name": "HR systems integration layer",
+        "client_sector": "consumer goods",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "MuleSoft",
+          "REST APIs",
+          "Datadog",
+          "DataWeave",
+          "SAP SuccessFactors"
+        ],
+        "description": "Contributed as Integration Architect on a consumer goods sector project, working with MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0022",
+    "name": "Employee_022",
+    "role": "MuleSoft Developer",
+    "years_experience": 4,
+    "skills": [
+      "MuleSoft",
+      "REST APIs",
+      "API Management",
+      "Azure DevOps",
+      "Master Data Management",
+      "DataWeave",
+      "SQL",
+      "CI/CD",
+      "Spring Boot",
+      "Datadog",
+      "SAP SuccessFactors"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0013",
+        "project_name": "HR systems integration layer",
+        "client_sector": "consumer goods",
+        "role": "MuleSoft Developer",
+        "tech_stack": [
+          "MuleSoft",
+          "REST APIs",
+          "Datadog",
+          "DataWeave",
+          "SAP SuccessFactors"
+        ],
+        "description": "Contributed as MuleSoft Developer on a consumer goods sector project, working with MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0023",
+    "name": "Employee_023",
+    "role": "Solutions Architect",
+    "years_experience": 11,
+    "skills": [
+      "MuleSoft",
+      "REST APIs",
+      "DataWeave",
+      "Azure DevOps",
+      "Datadog",
+      "Docker",
+      "Spring Boot",
+      "Flutter",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "API Management"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0013",
+        "project_name": "HR systems integration layer",
+        "client_sector": "consumer goods",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "MuleSoft",
+          "REST APIs",
+          "Datadog",
+          "DataWeave",
+          "SAP SuccessFactors"
+        ],
+        "description": "Contributed as Solutions Architect on a consumer goods sector project, working with MuleSoft, REST APIs, Datadog, DataWeave, SAP SuccessFactors."
+      },
+      {
+        "project_id": "PRJ-0014",
+        "project_name": "Versioned API platform with handover documentation",
+        "client_sector": "retail",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "MuleSoft",
+          "REST APIs",
+          "Master Data Management",
+          "API Management",
+          "SAP SuccessFactors"
+        ],
+        "description": "Contributed as Solutions Architect on a retail sector project, working with MuleSoft, REST APIs, Master Data Management, API Management, SAP SuccessFactors."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0024",
+    "name": "Employee_024",
+    "role": "Data Engineer",
+    "years_experience": 3,
+    "skills": [
+      "Talend",
+      "SQL",
+      "SSIS",
+      "SQL Server",
+      "Data Quality",
+      "Azure DevOps",
+      "Docker",
+      "CI/CD",
+      "MongoDB",
+      "Kotlin",
+      "Apache Airflow"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0016",
+        "project_name": "Workforce data warehouse with reconciliation reports",
+        "client_sector": "logistics",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Talend",
+          "SQL",
+          "Apache Airflow",
+          "SQL Server",
+          "Data Quality"
+        ],
+        "description": "Contributed as Data Engineer on a logistics sector project, working with Talend, SQL, Apache Airflow, SQL Server, Data Quality."
+      },
+      {
+        "project_id": "PRJ-0015",
+        "project_name": "Incremental ETL pipeline migration from SSIS",
+        "client_sector": "logistics",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Talend",
+          "SQL",
+          "Data Quality",
+          "Apache Airflow",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Data Engineer on a logistics sector project, working with Talend, SQL, Data Quality, Apache Airflow, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0025",
+    "name": "Employee_025",
+    "role": "ETL Developer",
+    "years_experience": 13,
+    "skills": [
+      "Talend",
+      "SQL",
+      "Data Quality",
+      "SQL Server",
+      "Apache Airflow",
+      "Azure DevOps"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0016",
+        "project_name": "Workforce data warehouse with reconciliation reports",
+        "client_sector": "logistics",
+        "role": "ETL Developer",
+        "tech_stack": [
+          "Talend",
+          "SQL",
+          "Apache Airflow",
+          "SQL Server",
+          "Data Quality"
+        ],
+        "description": "Contributed as ETL Developer on a logistics sector project, working with Talend, SQL, Apache Airflow, SQL Server, Data Quality."
+      },
+      {
+        "project_id": "PRJ-0015",
+        "project_name": "Incremental ETL pipeline migration from SSIS",
+        "client_sector": "logistics",
+        "role": "ETL Developer",
+        "tech_stack": [
+          "Talend",
+          "SQL",
+          "Data Quality",
+          "Apache Airflow",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as ETL Developer on a logistics sector project, working with Talend, SQL, Data Quality, Apache Airflow, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "Talend Data Integration Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0026",
+    "name": "Employee_026",
+    "role": "Data Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Talend",
+      "SQL",
+      "SSIS",
+      "SQL Server",
+      "Data Quality",
+      "Azure DevOps",
+      "CI/CD",
+      "Docker",
+      "Apache Airflow"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0016",
+        "project_name": "Workforce data warehouse with reconciliation reports",
+        "client_sector": "logistics",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Talend",
+          "SQL",
+          "Apache Airflow",
+          "SQL Server",
+          "Data Quality"
+        ],
+        "description": "Contributed as Data Engineer on a logistics sector project, working with Talend, SQL, Apache Airflow, SQL Server, Data Quality."
+      }
+    ],
+    "certifications": [
+      "Talend Data Integration Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0027",
+    "name": "Employee_027",
+    "role": "BI Developer",
+    "years_experience": 14,
+    "skills": [
+      "Power BI",
+      "DAX",
+      "Azure DevOps",
+      "Data Modelling",
+      "Row-Level Security",
+      "Azure SQL",
+      "Docker",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0017",
+        "project_name": "Executive HR analytics semantic model",
+        "client_sector": "manufacturing",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Power BI",
+          "DAX",
+          "Data Modelling",
+          "Azure DevOps",
+          "Row-Level Security"
+        ],
+        "description": "Contributed as BI Developer on a manufacturing sector project, working with Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security."
+      },
+      {
+        "project_id": "PRJ-0018",
+        "project_name": "Divisional reporting consolidation in Power BI",
+        "client_sector": "manufacturing",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Power BI",
+          "DAX",
+          "Azure SQL",
+          "Row-Level Security",
+          "SQL"
+        ],
+        "description": "Contributed as BI Developer on a manufacturing sector project, working with Power BI, DAX, Azure SQL, Row-Level Security, SQL."
+      }
+    ],
+    "certifications": [
+      "Microsoft Power BI Data Analyst"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0028",
+    "name": "Employee_028",
+    "role": "Data Analyst",
+    "years_experience": 11,
+    "skills": [
+      "Power BI",
+      "DAX",
+      "Azure SQL",
+      "Data Modelling",
+      "Row-Level Security",
+      "Git",
+      "CI/CD",
+      "GraphQL",
+      "Azure DevOps",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0017",
+        "project_name": "Executive HR analytics semantic model",
+        "client_sector": "manufacturing",
+        "role": "Data Analyst",
+        "tech_stack": [
+          "Power BI",
+          "DAX",
+          "Data Modelling",
+          "Azure DevOps",
+          "Row-Level Security"
+        ],
+        "description": "Contributed as Data Analyst on a manufacturing sector project, working with Power BI, DAX, Data Modelling, Azure DevOps, Row-Level Security."
+      },
+      {
+        "project_id": "PRJ-0018",
+        "project_name": "Divisional reporting consolidation in Power BI",
+        "client_sector": "manufacturing",
+        "role": "Data Analyst",
+        "tech_stack": [
+          "Power BI",
+          "DAX",
+          "Azure SQL",
+          "Row-Level Security",
+          "SQL"
+        ],
+        "description": "Contributed as Data Analyst on a manufacturing sector project, working with Power BI, DAX, Azure SQL, Row-Level Security, SQL."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0029",
+    "name": "Employee_029",
+    "role": "Business Analyst",
+    "years_experience": 13,
+    "skills": [
+      "Power BI",
+      "DAX",
+      "SQL",
+      "Row-Level Security",
+      "Azure SQL",
+      "Azure DevOps",
+      "CI/CD",
+      "Git",
+      "Spring Boot",
+      "Kotlin"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0018",
+        "project_name": "Divisional reporting consolidation in Power BI",
+        "client_sector": "manufacturing",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Power BI",
+          "DAX",
+          "Azure SQL",
+          "Row-Level Security",
+          "SQL"
+        ],
+        "description": "Contributed as Business Analyst on a manufacturing sector project, working with Power BI, DAX, Azure SQL, Row-Level Security, SQL."
+      }
+    ],
+    "certifications": [
+      "Microsoft Power BI Data Analyst"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0030",
+    "name": "Employee_030",
+    "role": "Data Engineer",
+    "years_experience": 10,
+    "skills": [
+      "GCP",
+      "BigQuery",
+      "Identity Resolution",
+      "Talend",
+      "MuleSoft",
+      "Python",
+      "Git"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0019",
+        "project_name": "Customer 360 on BigQuery",
+        "client_sector": "retail",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "GCP",
+          "BigQuery",
+          "Talend",
+          "Identity Resolution",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Data Engineer on a retail sector project, working with GCP, BigQuery, Talend, Identity Resolution, MuleSoft."
+      },
+      {
+        "project_id": "PRJ-0020",
+        "project_name": "Multi-channel customer identity resolution",
+        "client_sector": "retail",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "GCP",
+          "BigQuery",
+          "Python",
+          "MuleSoft",
+          "Identity Resolution"
+        ],
+        "description": "Contributed as Data Engineer on a retail sector project, working with GCP, BigQuery, Python, MuleSoft, Identity Resolution."
+      }
+    ],
+    "certifications": [
+      "Google Professional Cloud Architect"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0031",
+    "name": "Employee_031",
+    "role": "Cloud Architect",
+    "years_experience": 3,
+    "skills": [
+      "GCP",
+      "BigQuery",
+      "Python",
+      "Talend",
+      "Terraform",
+      "Identity Resolution",
+      "SQL",
+      "Django",
+      "Spring Boot",
+      "MuleSoft"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0020",
+        "project_name": "Multi-channel customer identity resolution",
+        "client_sector": "retail",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "GCP",
+          "BigQuery",
+          "Python",
+          "MuleSoft",
+          "Identity Resolution"
+        ],
+        "description": "Contributed as Cloud Architect on a retail sector project, working with GCP, BigQuery, Python, MuleSoft, Identity Resolution."
+      },
+      {
+        "project_id": "PRJ-0019",
+        "project_name": "Customer 360 on BigQuery",
+        "client_sector": "retail",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "GCP",
+          "BigQuery",
+          "Talend",
+          "Identity Resolution",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Cloud Architect on a retail sector project, working with GCP, BigQuery, Talend, Identity Resolution, MuleSoft."
+      }
+    ],
+    "certifications": [
+      "Google Professional Data Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0032",
+    "name": "Employee_032",
+    "role": "Integration Architect",
+    "years_experience": 4,
+    "skills": [
+      "GCP",
+      "BigQuery",
+      "Talend",
+      "Python",
+      "MuleSoft",
+      "Docker",
+      "Git",
+      "TensorFlow",
+      "Django",
+      "Identity Resolution"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0019",
+        "project_name": "Customer 360 on BigQuery",
+        "client_sector": "retail",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "GCP",
+          "BigQuery",
+          "Talend",
+          "Identity Resolution",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Integration Architect on a retail sector project, working with GCP, BigQuery, Talend, Identity Resolution, MuleSoft."
+      }
+    ],
+    "certifications": [
+      "Google Professional Cloud Architect"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0033",
+    "name": "Employee_033",
+    "role": "Data Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Kafka",
+      "Databricks",
+      "Azure",
+      "Spark",
+      "GCP",
+      "SQL",
+      "CI/CD",
+      "Django",
+      "Terraform",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0021",
+        "project_name": "Real-time order event streaming platform",
+        "client_sector": "retail",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Kafka",
+          "Databricks",
+          "Terraform",
+          "Python",
+          "Spark"
+        ],
+        "description": "Contributed as Data Engineer on a retail sector project, working with Kafka, Databricks, Terraform, Python, Spark."
+      }
+    ],
+    "certifications": [
+      "Confluent Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0034",
+    "name": "Employee_034",
+    "role": "Streaming Engineer",
+    "years_experience": 7,
+    "skills": [
+      "Kafka",
+      "Databricks",
+      "GCP",
+      "Terraform",
+      "Azure",
+      "Datadog",
+      "Git",
+      "Azure DevOps",
+      "Python",
+      "Spark"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0022",
+        "project_name": "Databricks lakehouse with late-event handling",
+        "client_sector": "retail",
+        "role": "Streaming Engineer",
+        "tech_stack": [
+          "Kafka",
+          "Databricks",
+          "Python",
+          "Datadog",
+          "Terraform"
+        ],
+        "description": "Contributed as Streaming Engineer on a retail sector project, working with Kafka, Databricks, Python, Datadog, Terraform."
+      },
+      {
+        "project_id": "PRJ-0021",
+        "project_name": "Real-time order event streaming platform",
+        "client_sector": "retail",
+        "role": "Streaming Engineer",
+        "tech_stack": [
+          "Kafka",
+          "Databricks",
+          "Terraform",
+          "Python",
+          "Spark"
+        ],
+        "description": "Contributed as Streaming Engineer on a retail sector project, working with Kafka, Databricks, Terraform, Python, Spark."
+      }
+    ],
+    "certifications": [
+      "Databricks Certified Data Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0035",
+    "name": "Employee_035",
+    "role": "Cloud Architect",
+    "years_experience": 10,
+    "skills": [
+      "Kafka",
+      "Databricks",
+      "Spark",
+      "Azure",
+      "GCP",
+      "SQL",
+      "CI/CD",
+      "Python",
+      "Datadog",
+      "Terraform"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0022",
+        "project_name": "Databricks lakehouse with late-event handling",
+        "client_sector": "retail",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Kafka",
+          "Databricks",
+          "Python",
+          "Datadog",
+          "Terraform"
+        ],
+        "description": "Contributed as Cloud Architect on a retail sector project, working with Kafka, Databricks, Python, Datadog, Terraform."
+      },
+      {
+        "project_id": "PRJ-0021",
+        "project_name": "Real-time order event streaming platform",
+        "client_sector": "retail",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Kafka",
+          "Databricks",
+          "Terraform",
+          "Python",
+          "Spark"
+        ],
+        "description": "Contributed as Cloud Architect on a retail sector project, working with Kafka, Databricks, Terraform, Python, Spark."
+      }
+    ],
+    "certifications": [
+      "Databricks Certified Data Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0036",
+    "name": "Employee_036",
+    "role": "Salesforce Developer",
+    "years_experience": 6,
+    "skills": [
+      "Salesforce Service Cloud",
+      "Apex",
+      "Data Migration",
+      "Talend",
+      "Azure DevOps",
+      "Lightning",
+      "SQL",
+      "CI/CD"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0024",
+        "project_name": "Case history migration and omnichannel routing",
+        "client_sector": "insurance",
+        "role": "Salesforce Developer",
+        "tech_stack": [
+          "Salesforce Service Cloud",
+          "Apex",
+          "Azure DevOps",
+          "Lightning",
+          "Data Migration"
+        ],
+        "description": "Contributed as Salesforce Developer on an insurance sector project, working with Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration."
+      },
+      {
+        "project_id": "PRJ-0023",
+        "project_name": "Service Cloud contact centre implementation",
+        "client_sector": "insurance",
+        "role": "Salesforce Developer",
+        "tech_stack": [
+          "Salesforce Service Cloud",
+          "Apex",
+          "Data Migration",
+          "Lightning",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Salesforce Developer on an insurance sector project, working with Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "Salesforce Platform Developer I"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0037",
+    "name": "Employee_037",
+    "role": "Salesforce Consultant",
+    "years_experience": 5,
+    "skills": [
+      "Salesforce Service Cloud",
+      "Apex",
+      "Azure DevOps",
+      "Data Migration",
+      "Lightning",
+      "MuleSoft",
+      "Docker",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0024",
+        "project_name": "Case history migration and omnichannel routing",
+        "client_sector": "insurance",
+        "role": "Salesforce Consultant",
+        "tech_stack": [
+          "Salesforce Service Cloud",
+          "Apex",
+          "Azure DevOps",
+          "Lightning",
+          "Data Migration"
+        ],
+        "description": "Contributed as Salesforce Consultant on an insurance sector project, working with Salesforce Service Cloud, Apex, Azure DevOps, Lightning, Data Migration."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0038",
+    "name": "Employee_038",
+    "role": "Solutions Architect",
+    "years_experience": 9,
+    "skills": [
+      "Salesforce Service Cloud",
+      "Apex",
+      "Azure DevOps",
+      "Data Migration",
+      "MuleSoft",
+      "Python",
+      "SQL",
+      "Lightning"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0023",
+        "project_name": "Service Cloud contact centre implementation",
+        "client_sector": "insurance",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "Salesforce Service Cloud",
+          "Apex",
+          "Data Migration",
+          "Lightning",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Solutions Architect on an insurance sector project, working with Salesforce Service Cloud, Apex, Data Migration, Lightning, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0039",
+    "name": "Employee_039",
+    "role": "Data Scientist",
+    "years_experience": 12,
+    "skills": [
+      "Python",
+      "Scikit-learn",
+      "Power BI",
+      "MLOps",
+      "BigQuery",
+      "Docker",
+      "SQL",
+      "MongoDB",
+      "Django",
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0026",
+        "project_name": "Forecast override dashboard with feedback loop",
+        "client_sector": "manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "MLOps",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a manufacturing sector project, working with Python, Scikit-learn, TensorFlow, MLOps, PyTorch."
+      },
+      {
+        "project_id": "PRJ-0025",
+        "project_name": "Demand forecasting with confidence bands",
+        "client_sector": "manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Python",
+          "Scikit-learn",
+          "MLOps",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a manufacturing sector project, working with Python, Scikit-learn, MLOps, TensorFlow, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0040",
+    "name": "Employee_040",
+    "role": "AI/ML Engineer",
+    "years_experience": 3,
+    "skills": [
+      "Python",
+      "Scikit-learn",
+      "BigQuery",
+      "TensorFlow",
+      "MLOps",
+      "PyTorch",
+      "Azure DevOps"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0025",
+        "project_name": "Demand forecasting with confidence bands",
+        "client_sector": "manufacturing",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "Python",
+          "Scikit-learn",
+          "MLOps",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "description": "Contributed as AI/ML Engineer on a manufacturing sector project, working with Python, Scikit-learn, MLOps, TensorFlow, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0041",
+    "name": "Employee_041",
+    "role": "Data Scientist",
+    "years_experience": 14,
+    "skills": [
+      "Python",
+      "Scikit-learn",
+      "BigQuery",
+      "TensorFlow",
+      "PyTorch",
+      "Docker",
+      "Azure DevOps",
+      "MLOps"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0026",
+        "project_name": "Forecast override dashboard with feedback loop",
+        "client_sector": "manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Python",
+          "Scikit-learn",
+          "TensorFlow",
+          "MLOps",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a manufacturing sector project, working with Python, Scikit-learn, TensorFlow, MLOps, PyTorch."
+      },
+      {
+        "project_id": "PRJ-0025",
+        "project_name": "Demand forecasting with confidence bands",
+        "client_sector": "manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Python",
+          "Scikit-learn",
+          "MLOps",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a manufacturing sector project, working with Python, Scikit-learn, MLOps, TensorFlow, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0042",
+    "name": "Employee_042",
+    "role": "AI/ML Engineer",
+    "years_experience": 7,
+    "skills": [
+      "RAG",
+      "Python",
+      "FastAPI",
+      "ChromaDB",
+      "OpenAI",
+      "Pinecone",
+      "Git",
+      "Azure DevOps",
+      "Redis",
+      "Spring Boot",
+      "LangChain"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0027",
+        "project_name": "Grounded RAG support assistant with citations",
+        "client_sector": "retail",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "RAG",
+          "Python",
+          "Pinecone",
+          "LangChain",
+          "FastAPI"
+        ],
+        "description": "Contributed as AI/ML Engineer on a retail sector project, working with RAG, Python, Pinecone, LangChain, FastAPI."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0043",
+    "name": "Employee_043",
+    "role": "AI/ML Engineer",
+    "years_experience": 12,
+    "skills": [
+      "RAG",
+      "Python",
+      "Pinecone",
+      "ChromaDB",
+      "FastAPI",
+      "Azure DevOps",
+      "CI/CD",
+      "Redis",
+      "Flutter",
+      "LangChain"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0027",
+        "project_name": "Grounded RAG support assistant with citations",
+        "client_sector": "retail",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "RAG",
+          "Python",
+          "Pinecone",
+          "LangChain",
+          "FastAPI"
+        ],
+        "description": "Contributed as AI/ML Engineer on a retail sector project, working with RAG, Python, Pinecone, LangChain, FastAPI."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0044",
+    "name": "Employee_044",
+    "role": "Backend Developer",
+    "years_experience": 6,
+    "skills": [
+      "RAG",
+      "Python",
+      "ChromaDB",
+      "Prompt Evaluation",
+      "FastAPI",
+      "CI/CD",
+      "SQL",
+      "LangChain",
+      "Pinecone"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0028",
+        "project_name": "RAG evaluation harness against historical queries",
+        "client_sector": "retail",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "RAG",
+          "Python",
+          "LangChain",
+          "Pinecone",
+          "FastAPI"
+        ],
+        "description": "Contributed as Backend Developer on a retail sector project, working with RAG, Python, LangChain, Pinecone, FastAPI."
+      },
+      {
+        "project_id": "PRJ-0027",
+        "project_name": "Grounded RAG support assistant with citations",
+        "client_sector": "retail",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "RAG",
+          "Python",
+          "Pinecone",
+          "LangChain",
+          "FastAPI"
+        ],
+        "description": "Contributed as Backend Developer on a retail sector project, working with RAG, Python, Pinecone, LangChain, FastAPI."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0045",
+    "name": "Employee_045",
+    "role": "AI/ML Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Computer Vision",
+      "PyTorch",
+      "OpenCV",
+      "Edge AI",
+      "MLOps",
+      "ONNX",
+      "Azure DevOps",
+      "SQL",
+      "Kotlin",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0030",
+        "project_name": "Offline edge inference with opportunistic sync",
+        "client_sector": "manufacturing",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "Computer Vision",
+          "PyTorch",
+          "ONNX",
+          "Python",
+          "Edge AI"
+        ],
+        "description": "Contributed as AI/ML Engineer on a manufacturing sector project, working with Computer Vision, PyTorch, ONNX, Python, Edge AI."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0046",
+    "name": "Employee_046",
+    "role": "Computer Vision Engineer",
+    "years_experience": 5,
+    "skills": [
+      "Computer Vision",
+      "PyTorch",
+      "Edge AI",
+      "Docker",
+      "Python",
+      "ONNX",
+      "SQL",
+      "OpenCV"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0029",
+        "project_name": "Automated visual inspection on a production line",
+        "client_sector": "textile manufacturing",
+        "role": "Computer Vision Engineer",
+        "tech_stack": [
+          "Computer Vision",
+          "PyTorch",
+          "Edge AI",
+          "Docker",
+          "OpenCV"
+        ],
+        "description": "Contributed as Computer Vision Engineer on a textile manufacturing sector project, working with Computer Vision, PyTorch, Edge AI, Docker, OpenCV."
+      }
+    ],
+    "certifications": [
+      "NVIDIA Deep Learning Institute Certificate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0047",
+    "name": "Employee_047",
+    "role": "Data Scientist",
+    "years_experience": 13,
+    "skills": [
+      "Computer Vision",
+      "PyTorch",
+      "MLOps",
+      "OpenCV",
+      "Docker",
+      "Edge AI",
+      "Azure DevOps",
+      "Python",
+      "TensorFlow",
+      "ONNX"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0029",
+        "project_name": "Automated visual inspection on a production line",
+        "client_sector": "textile manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Computer Vision",
+          "PyTorch",
+          "Edge AI",
+          "Docker",
+          "OpenCV"
+        ],
+        "description": "Contributed as Data Scientist on a textile manufacturing sector project, working with Computer Vision, PyTorch, Edge AI, Docker, OpenCV."
+      },
+      {
+        "project_id": "PRJ-0030",
+        "project_name": "Offline edge inference with opportunistic sync",
+        "client_sector": "manufacturing",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Computer Vision",
+          "PyTorch",
+          "ONNX",
+          "Python",
+          "Edge AI"
+        ],
+        "description": "Contributed as Data Scientist on a manufacturing sector project, working with Computer Vision, PyTorch, ONNX, Python, Edge AI."
+      }
+    ],
+    "certifications": [
+      "NVIDIA Deep Learning Institute Certificate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0048",
+    "name": "Employee_048",
+    "role": "AI/ML Engineer",
+    "years_experience": 14,
+    "skills": [
+      "NLP",
+      "Computer Vision",
+      "Elasticsearch",
+      "FastAPI",
+      "HuggingFace",
+      "Docker",
+      "Git",
+      "Redis",
+      "Flutter",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0032",
+        "project_name": "Image and text matching with auditable decision trail",
+        "client_sector": "public administration",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "NLP",
+          "Computer Vision",
+          "PyTorch",
+          "FastAPI",
+          "Elasticsearch"
+        ],
+        "description": "Contributed as AI/ML Engineer on a public administration sector project, working with NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0049",
+    "name": "Employee_049",
+    "role": "Data Scientist",
+    "years_experience": 8,
+    "skills": [
+      "NLP",
+      "Computer Vision",
+      "Audit Logging",
+      "Python",
+      "FastAPI",
+      "Azure DevOps",
+      "Git",
+      "Spring Boot",
+      "TensorFlow",
+      "PyTorch",
+      "Elasticsearch",
+      "HuggingFace"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0032",
+        "project_name": "Image and text matching with auditable decision trail",
+        "client_sector": "public administration",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "NLP",
+          "Computer Vision",
+          "PyTorch",
+          "FastAPI",
+          "Elasticsearch"
+        ],
+        "description": "Contributed as Data Scientist on a public administration sector project, working with NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch."
+      },
+      {
+        "project_id": "PRJ-0031",
+        "project_name": "Document similarity detection with ranked evidence",
+        "client_sector": "public administration",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "NLP",
+          "Computer Vision",
+          "HuggingFace",
+          "FastAPI",
+          "Python"
+        ],
+        "description": "Contributed as Data Scientist on a public administration sector project, working with NLP, Computer Vision, HuggingFace, FastAPI, Python."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0050",
+    "name": "Employee_050",
+    "role": "AI/ML Engineer",
+    "years_experience": 9,
+    "skills": [
+      "NLP",
+      "Computer Vision",
+      "HuggingFace",
+      "Elasticsearch",
+      "FastAPI",
+      "Azure DevOps",
+      "SQL",
+      "Spring Boot",
+      "Redis",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0032",
+        "project_name": "Image and text matching with auditable decision trail",
+        "client_sector": "public administration",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "NLP",
+          "Computer Vision",
+          "PyTorch",
+          "FastAPI",
+          "Elasticsearch"
+        ],
+        "description": "Contributed as AI/ML Engineer on a public administration sector project, working with NLP, Computer Vision, PyTorch, FastAPI, Elasticsearch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0051",
+    "name": "Employee_051",
+    "role": "Salesforce Developer",
+    "years_experience": 13,
+    "skills": [
+      "Salesforce",
+      "CRM Analytics",
+      "Lightning",
+      "Apex",
+      "Azure DevOps",
+      "Offline Sync",
+      "Git",
+      "SQL",
+      "Spring Boot",
+      "Django",
+      "Data Residency"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0033",
+        "project_name": "Citizen services CRM Analytics",
+        "client_sector": "public administration",
+        "role": "Salesforce Developer",
+        "tech_stack": [
+          "Salesforce",
+          "CRM Analytics",
+          "Lightning",
+          "Data Residency",
+          "Offline Sync"
+        ],
+        "description": "Contributed as Salesforce Developer on a public administration sector project, working with Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0052",
+    "name": "Employee_052",
+    "role": "Salesforce Consultant",
+    "years_experience": 6,
+    "skills": [
+      "Salesforce",
+      "CRM Analytics",
+      "Lightning",
+      "Data Residency",
+      "Offline Sync",
+      "Git",
+      "CI/CD",
+      "Django"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0034",
+        "project_name": "Offline-capable case management with reconciliation",
+        "client_sector": "public administration",
+        "role": "Salesforce Consultant",
+        "tech_stack": [
+          "Salesforce",
+          "CRM Analytics",
+          "Offline Sync",
+          "Data Residency",
+          "Lightning"
+        ],
+        "description": "Contributed as Salesforce Consultant on a public administration sector project, working with Salesforce, CRM Analytics, Offline Sync, Data Residency, Lightning."
+      },
+      {
+        "project_id": "PRJ-0033",
+        "project_name": "Citizen services CRM Analytics",
+        "client_sector": "public administration",
+        "role": "Salesforce Consultant",
+        "tech_stack": [
+          "Salesforce",
+          "CRM Analytics",
+          "Lightning",
+          "Data Residency",
+          "Offline Sync"
+        ],
+        "description": "Contributed as Salesforce Consultant on a public administration sector project, working with Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0053",
+    "name": "Employee_053",
+    "role": "Business Analyst",
+    "years_experience": 11,
+    "skills": [
+      "Salesforce",
+      "CRM Analytics",
+      "Apex",
+      "Azure DevOps",
+      "Lightning",
+      "SQL",
+      "TensorFlow",
+      "GraphQL",
+      "Data Residency",
+      "Offline Sync"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0033",
+        "project_name": "Citizen services CRM Analytics",
+        "client_sector": "public administration",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Salesforce",
+          "CRM Analytics",
+          "Lightning",
+          "Data Residency",
+          "Offline Sync"
+        ],
+        "description": "Contributed as Business Analyst on a public administration sector project, working with Salesforce, CRM Analytics, Lightning, Data Residency, Offline Sync."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0054",
+    "name": "Employee_054",
+    "role": "Data Engineer",
+    "years_experience": 10,
+    "skills": [
+      "BigQuery",
+      "Snowflake",
+      "Data Lineage",
+      "Terraform",
+      "Python",
+      "Apache Airflow",
+      "CI/CD",
+      "Azure DevOps",
+      "Django",
+      "dbt"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0036",
+        "project_name": "Open data portal with lineage and de-identification",
+        "client_sector": "public administration",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "BigQuery",
+          "Snowflake",
+          "Data Lineage",
+          "dbt",
+          "Apache Airflow"
+        ],
+        "description": "Contributed as Data Engineer on a public administration sector project, working with BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow."
+      },
+      {
+        "project_id": "PRJ-0035",
+        "project_name": "Public statistics warehouse on BigQuery",
+        "client_sector": "public administration",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "BigQuery",
+          "Snowflake",
+          "Terraform",
+          "Python",
+          "dbt"
+        ],
+        "description": "Contributed as Data Engineer on a public administration sector project, working with BigQuery, Snowflake, Terraform, Python, dbt."
+      }
+    ],
+    "certifications": [
+      "SnowPro Core"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0055",
+    "name": "Employee_055",
+    "role": "Data Architect",
+    "years_experience": 12,
+    "skills": [
+      "BigQuery",
+      "Snowflake",
+      "GCP",
+      "Apache Airflow",
+      "Python",
+      "Terraform",
+      "Docker",
+      "Azure DevOps",
+      "Swift",
+      "Kotlin",
+      "dbt"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0035",
+        "project_name": "Public statistics warehouse on BigQuery",
+        "client_sector": "public administration",
+        "role": "Data Architect",
+        "tech_stack": [
+          "BigQuery",
+          "Snowflake",
+          "Terraform",
+          "Python",
+          "dbt"
+        ],
+        "description": "Contributed as Data Architect on a public administration sector project, working with BigQuery, Snowflake, Terraform, Python, dbt."
+      }
+    ],
+    "certifications": [
+      "SnowPro Core"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0056",
+    "name": "Employee_056",
+    "role": "Data Engineer",
+    "years_experience": 11,
+    "skills": [
+      "BigQuery",
+      "Snowflake",
+      "dbt",
+      "Python",
+      "GCP",
+      "CI/CD",
+      "Azure DevOps",
+      "TensorFlow",
+      "Data Lineage",
+      "Apache Airflow",
+      "Terraform"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0036",
+        "project_name": "Open data portal with lineage and de-identification",
+        "client_sector": "public administration",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "BigQuery",
+          "Snowflake",
+          "Data Lineage",
+          "dbt",
+          "Apache Airflow"
+        ],
+        "description": "Contributed as Data Engineer on a public administration sector project, working with BigQuery, Snowflake, Data Lineage, dbt, Apache Airflow."
+      },
+      {
+        "project_id": "PRJ-0035",
+        "project_name": "Public statistics warehouse on BigQuery",
+        "client_sector": "public administration",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "BigQuery",
+          "Snowflake",
+          "Terraform",
+          "Python",
+          "dbt"
+        ],
+        "description": "Contributed as Data Engineer on a public administration sector project, working with BigQuery, Snowflake, Terraform, Python, dbt."
+      }
+    ],
+    "certifications": [
+      "Google Professional Data Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0057",
+    "name": "Employee_057",
+    "role": "Mobile Developer",
+    "years_experience": 8,
+    "skills": [
+      "REST APIs",
+      "Flutter",
+      "Docker",
+      "Telematics",
+      "FastAPI",
+      "Offline Sync",
+      "SQL",
+      "GraphQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0038",
+        "project_name": "Driver app with offline proof of delivery",
+        "client_sector": "logistics",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Flutter",
+          "Docker",
+          "Offline Sync",
+          "Telematics"
+        ],
+        "description": "Contributed as Mobile Developer on a logistics sector project, working with REST APIs, Flutter, Docker, Offline Sync, Telematics."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0058",
+    "name": "Employee_058",
+    "role": "Integration Developer",
+    "years_experience": 7,
+    "skills": [
+      "REST APIs",
+      "Flutter",
+      "Telematics",
+      "FastAPI",
+      "Offline Sync",
+      "MuleSoft",
+      "Python",
+      "Azure DevOps",
+      "Docker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0037",
+        "project_name": "Telematics API integration with maintenance and fuel systems",
+        "client_sector": "logistics",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Flutter",
+          "Offline Sync",
+          "Telematics",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Integration Developer on a logistics sector project, working with REST APIs, Flutter, Offline Sync, Telematics, MuleSoft."
+      },
+      {
+        "project_id": "PRJ-0038",
+        "project_name": "Driver app with offline proof of delivery",
+        "client_sector": "logistics",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Flutter",
+          "Docker",
+          "Offline Sync",
+          "Telematics"
+        ],
+        "description": "Contributed as Integration Developer on a logistics sector project, working with REST APIs, Flutter, Docker, Offline Sync, Telematics."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0059",
+    "name": "Employee_059",
+    "role": "Full Stack Developer",
+    "years_experience": 9,
+    "skills": [
+      "REST APIs",
+      "Flutter",
+      "Offline Sync",
+      "FastAPI",
+      "MuleSoft",
+      "Docker",
+      "CI/CD",
+      "Django",
+      "Telematics"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0038",
+        "project_name": "Driver app with offline proof of delivery",
+        "client_sector": "logistics",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Flutter",
+          "Docker",
+          "Offline Sync",
+          "Telematics"
+        ],
+        "description": "Contributed as Full Stack Developer on a logistics sector project, working with REST APIs, Flutter, Docker, Offline Sync, Telematics."
+      },
+      {
+        "project_id": "PRJ-0037",
+        "project_name": "Telematics API integration with maintenance and fuel systems",
+        "client_sector": "logistics",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "REST APIs",
+          "Flutter",
+          "Offline Sync",
+          "Telematics",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Full Stack Developer on a logistics sector project, working with REST APIs, Flutter, Offline Sync, Telematics, MuleSoft."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0060",
+    "name": "Employee_060",
+    "role": "Security Engineer",
+    "years_experience": 12,
+    "skills": [
+      "Penetration Testing",
+      "OWASP",
+      "Trivy",
+      "Semgrep",
+      "Risk Assessment",
+      "Docker",
+      "Python",
+      "Redis",
+      "TensorFlow",
+      "Burp Suite",
+      "Nmap",
+      "OWASP ZAP"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0039",
+        "project_name": "Application penetration test with remediation tracking",
+        "client_sector": "banking",
+        "role": "Security Engineer",
+        "tech_stack": [
+          "Penetration Testing",
+          "OWASP",
+          "Burp Suite",
+          "Nmap",
+          "OWASP ZAP"
+        ],
+        "description": "Contributed as Security Engineer on a banking sector project, working with Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP."
+      }
+    ],
+    "certifications": [
+      "Offensive Security Certified Professional"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0061",
+    "name": "Employee_061",
+    "role": "Penetration Tester",
+    "years_experience": 10,
+    "skills": [
+      "Penetration Testing",
+      "OWASP",
+      "Semgrep",
+      "OWASP ZAP",
+      "Burp Suite",
+      "SQL",
+      "Python",
+      "Kotlin",
+      "Nmap"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0040",
+        "project_name": "Container and dependency vulnerability scanning in CI/CD",
+        "client_sector": "banking",
+        "role": "Penetration Tester",
+        "tech_stack": [
+          "Penetration Testing",
+          "OWASP",
+          "Semgrep",
+          "Nmap",
+          "Burp Suite"
+        ],
+        "description": "Contributed as Penetration Tester on a banking sector project, working with Penetration Testing, OWASP, Semgrep, Nmap, Burp Suite."
+      },
+      {
+        "project_id": "PRJ-0039",
+        "project_name": "Application penetration test with remediation tracking",
+        "client_sector": "banking",
+        "role": "Penetration Tester",
+        "tech_stack": [
+          "Penetration Testing",
+          "OWASP",
+          "Burp Suite",
+          "Nmap",
+          "OWASP ZAP"
+        ],
+        "description": "Contributed as Penetration Tester on a banking sector project, working with Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP."
+      }
+    ],
+    "certifications": [
+      "CompTIA Security+"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0062",
+    "name": "Employee_062",
+    "role": "Security Consultant",
+    "years_experience": 14,
+    "skills": [
+      "Penetration Testing",
+      "OWASP",
+      "Burp Suite",
+      "Trivy",
+      "Risk Assessment",
+      "SQL",
+      "Git",
+      "Semgrep",
+      "Nmap",
+      "OWASP ZAP"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0040",
+        "project_name": "Container and dependency vulnerability scanning in CI/CD",
+        "client_sector": "banking",
+        "role": "Security Consultant",
+        "tech_stack": [
+          "Penetration Testing",
+          "OWASP",
+          "Semgrep",
+          "Nmap",
+          "Burp Suite"
+        ],
+        "description": "Contributed as Security Consultant on a banking sector project, working with Penetration Testing, OWASP, Semgrep, Nmap, Burp Suite."
+      },
+      {
+        "project_id": "PRJ-0039",
+        "project_name": "Application penetration test with remediation tracking",
+        "client_sector": "banking",
+        "role": "Security Consultant",
+        "tech_stack": [
+          "Penetration Testing",
+          "OWASP",
+          "Burp Suite",
+          "Nmap",
+          "OWASP ZAP"
+        ],
+        "description": "Contributed as Security Consultant on a banking sector project, working with Penetration Testing, OWASP, Burp Suite, Nmap, OWASP ZAP."
+      }
+    ],
+    "certifications": [
+      "Offensive Security Certified Professional"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0063",
+    "name": "Employee_063",
+    "role": "Security Consultant",
+    "years_experience": 11,
+    "skills": [
+      "ISO 27001",
+      "ISMS",
+      "Policy Writing",
+      "Risk Assessment",
+      "Audit Preparation",
+      "Git",
+      "Python",
+      "MongoDB",
+      "Confluence",
+      "Jira"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0041",
+        "project_name": "ISO 27001 certification readiness programme",
+        "client_sector": "healthcare",
+        "role": "Security Consultant",
+        "tech_stack": [
+          "ISO 27001",
+          "ISMS",
+          "Confluence",
+          "Risk Assessment",
+          "Jira"
+        ],
+        "description": "Contributed as Security Consultant on a healthcare sector project, working with ISO 27001, ISMS, Confluence, Risk Assessment, Jira."
+      }
+    ],
+    "certifications": [
+      "ISO 27001 Lead Implementer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0064",
+    "name": "Employee_064",
+    "role": "GRC Analyst",
+    "years_experience": 13,
+    "skills": [
+      "ISO 27001",
+      "ISMS",
+      "Threat Modeling",
+      "Audit Preparation",
+      "Jira",
+      "Risk Assessment",
+      "CI/CD",
+      "Azure DevOps",
+      "Swift",
+      "MongoDB",
+      "Confluence"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0041",
+        "project_name": "ISO 27001 certification readiness programme",
+        "client_sector": "healthcare",
+        "role": "GRC Analyst",
+        "tech_stack": [
+          "ISO 27001",
+          "ISMS",
+          "Confluence",
+          "Risk Assessment",
+          "Jira"
+        ],
+        "description": "Contributed as GRC Analyst on a healthcare sector project, working with ISO 27001, ISMS, Confluence, Risk Assessment, Jira."
+      }
+    ],
+    "certifications": [
+      "ISO 27001 Lead Implementer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0065",
+    "name": "Employee_065",
+    "role": "Information Security Manager",
+    "years_experience": 10,
+    "skills": [
+      "ISO 27001",
+      "ISMS",
+      "Risk Assessment",
+      "Confluence",
+      "Threat Modeling",
+      "Policy Writing",
+      "Python",
+      "Git",
+      "Jira"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0041",
+        "project_name": "ISO 27001 certification readiness programme",
+        "client_sector": "healthcare",
+        "role": "Information Security Manager",
+        "tech_stack": [
+          "ISO 27001",
+          "ISMS",
+          "Confluence",
+          "Risk Assessment",
+          "Jira"
+        ],
+        "description": "Contributed as Information Security Manager on a healthcare sector project, working with ISO 27001, ISMS, Confluence, Risk Assessment, Jira."
+      }
+    ],
+    "certifications": [
+      "ISO 27001 Lead Implementer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0066",
+    "name": "Employee_066",
+    "role": "SAP Consultant",
+    "years_experience": 14,
+    "skills": [
+      "SAP S/4HANA",
+      "ABAP",
+      "SAP Fiori",
+      "Azure DevOps",
+      "MuleSoft",
+      "Data Migration",
+      "SQL",
+      "CI/CD",
+      "Master Data Management",
+      "SAP BTP"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0044",
+        "project_name": "ERP integration layer for warehouse and supplier systems",
+        "client_sector": "logistics",
+        "role": "SAP Consultant",
+        "tech_stack": [
+          "SAP S/4HANA",
+          "ABAP",
+          "Azure DevOps",
+          "MuleSoft",
+          "Master Data Management"
+        ],
+        "description": "Contributed as SAP Consultant on a logistics sector project, working with SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management."
+      },
+      {
+        "project_id": "PRJ-0043",
+        "project_name": "ERP finance and procurement migration to S/4HANA",
+        "client_sector": "manufacturing",
+        "role": "SAP Consultant",
+        "tech_stack": [
+          "SAP S/4HANA",
+          "ABAP",
+          "SAP BTP",
+          "SAP Fiori",
+          "Data Migration"
+        ],
+        "description": "Contributed as SAP Consultant on a manufacturing sector project, working with SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration."
+      }
+    ],
+    "certifications": [
+      "PMP"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0067",
+    "name": "Employee_067",
+    "role": "SAP Developer",
+    "years_experience": 10,
+    "skills": [
+      "SAP S/4HANA",
+      "ABAP",
+      "Data Migration",
+      "SAP Fiori",
+      "SAP BTP",
+      "Azure DevOps",
+      "SQL",
+      "Flutter",
+      "Django",
+      "MuleSoft",
+      "Master Data Management"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0043",
+        "project_name": "ERP finance and procurement migration to S/4HANA",
+        "client_sector": "manufacturing",
+        "role": "SAP Developer",
+        "tech_stack": [
+          "SAP S/4HANA",
+          "ABAP",
+          "SAP BTP",
+          "SAP Fiori",
+          "Data Migration"
+        ],
+        "description": "Contributed as SAP Developer on a manufacturing sector project, working with SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration."
+      },
+      {
+        "project_id": "PRJ-0044",
+        "project_name": "ERP integration layer for warehouse and supplier systems",
+        "client_sector": "logistics",
+        "role": "SAP Developer",
+        "tech_stack": [
+          "SAP S/4HANA",
+          "ABAP",
+          "Azure DevOps",
+          "MuleSoft",
+          "Master Data Management"
+        ],
+        "description": "Contributed as SAP Developer on a logistics sector project, working with SAP S/4HANA, ABAP, Azure DevOps, MuleSoft, Master Data Management."
+      }
+    ],
+    "certifications": [
+      "SAP Certified Application Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0068",
+    "name": "Employee_068",
+    "role": "Solutions Architect",
+    "years_experience": 8,
+    "skills": [
+      "SAP S/4HANA",
+      "ABAP",
+      "Master Data Management",
+      "Azure DevOps",
+      "SAP BTP",
+      "Git",
+      "CI/CD",
+      "Flutter",
+      "Swift",
+      "SAP Fiori",
+      "Data Migration"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0043",
+        "project_name": "ERP finance and procurement migration to S/4HANA",
+        "client_sector": "manufacturing",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "SAP S/4HANA",
+          "ABAP",
+          "SAP BTP",
+          "SAP Fiori",
+          "Data Migration"
+        ],
+        "description": "Contributed as Solutions Architect on a manufacturing sector project, working with SAP S/4HANA, ABAP, SAP BTP, SAP Fiori, Data Migration."
+      }
+    ],
+    "certifications": [
+      "SAP Certified Application Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0069",
+    "name": "Employee_069",
+    "role": "ERP Developer",
+    "years_experience": 6,
+    "skills": [
+      "Odoo Community",
+      "PostgreSQL",
+      "Python",
+      "Data Migration",
+      "n8n",
+      "SQL",
+      "CI/CD",
+      "Swift",
+      "JavaScript",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0045",
+        "project_name": "Odoo ERP rollout for distribution and invoicing",
+        "client_sector": "retail",
+        "role": "ERP Developer",
+        "tech_stack": [
+          "Odoo Community",
+          "PostgreSQL",
+          "Data Migration",
+          "JavaScript",
+          "REST APIs"
+        ],
+        "description": "Contributed as ERP Developer on a retail sector project, working with Odoo Community, PostgreSQL, Data Migration, JavaScript, REST APIs."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0070",
+    "name": "Employee_070",
+    "role": "ERP Functional Consultant",
+    "years_experience": 3,
+    "skills": [
+      "Odoo Community",
+      "PostgreSQL",
+      "JavaScript",
+      "REST APIs",
+      "Data Migration",
+      "Python",
+      "SQL",
+      "Kotlin",
+      "Django"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0045",
+        "project_name": "Odoo ERP rollout for distribution and invoicing",
+        "client_sector": "retail",
+        "role": "ERP Functional Consultant",
+        "tech_stack": [
+          "Odoo Community",
+          "PostgreSQL",
+          "Data Migration",
+          "JavaScript",
+          "REST APIs"
+        ],
+        "description": "Contributed as ERP Functional Consultant on a retail sector project, working with Odoo Community, PostgreSQL, Data Migration, JavaScript, REST APIs."
+      }
+    ],
+    "certifications": [
+      "Odoo Functional Certification"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0071",
+    "name": "Employee_071",
+    "role": "Full Stack Developer",
+    "years_experience": 4,
+    "skills": [
+      "Odoo Community",
+      "PostgreSQL",
+      "JavaScript",
+      "n8n",
+      "REST APIs",
+      "Azure DevOps",
+      "Git",
+      "MongoDB",
+      "XML",
+      "Data Migration"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0046",
+        "project_name": "Odoo custom modules and bank statement reconciliation",
+        "client_sector": "banking",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Odoo Community",
+          "PostgreSQL",
+          "XML",
+          "n8n",
+          "Data Migration"
+        ],
+        "description": "Contributed as Full Stack Developer on a banking sector project, working with Odoo Community, PostgreSQL, XML, n8n, Data Migration."
+      }
+    ],
+    "certifications": [
+      "Odoo Functional Certification"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0072",
+    "name": "Employee_072",
+    "role": "Mobile Developer",
+    "years_experience": 14,
+    "skills": [
+      "Flutter",
+      "Firebase",
+      "CI/CD",
+      "Offline Sync",
+      "OAuth 2.0",
+      "Swift",
+      "Python",
+      "Redis",
+      "REST APIs",
+      "Kotlin"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0047",
+        "project_name": "Cross-platform mobile banking app with biometric sign-in",
+        "client_sector": "banking",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "REST APIs",
+          "Kotlin",
+          "OAuth 2.0"
+        ],
+        "description": "Contributed as Mobile Developer on a banking sector project, working with Flutter, Firebase, REST APIs, Kotlin, OAuth 2.0."
+      }
+    ],
+    "certifications": [
+      "Google Associate Android Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0073",
+    "name": "Employee_073",
+    "role": "Mobile Developer",
+    "years_experience": 10,
+    "skills": [
+      "Flutter",
+      "Firebase",
+      "CI/CD",
+      "REST APIs",
+      "Kotlin",
+      "SQL",
+      "Azure DevOps",
+      "TensorFlow",
+      "OAuth 2.0",
+      "Swift"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0047",
+        "project_name": "Cross-platform mobile banking app with biometric sign-in",
+        "client_sector": "banking",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "REST APIs",
+          "Kotlin",
+          "OAuth 2.0"
+        ],
+        "description": "Contributed as Mobile Developer on a banking sector project, working with Flutter, Firebase, REST APIs, Kotlin, OAuth 2.0."
+      },
+      {
+        "project_id": "PRJ-0048",
+        "project_name": "Push notification and mobile analytics service",
+        "client_sector": "banking",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Kotlin",
+          "Swift",
+          "OAuth 2.0"
+        ],
+        "description": "Contributed as Mobile Developer on a banking sector project, working with Flutter, Firebase, Kotlin, Swift, OAuth 2.0."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0074",
+    "name": "Employee_074",
+    "role": "Full Stack Developer",
+    "years_experience": 13,
+    "skills": [
+      "Flutter",
+      "Firebase",
+      "Swift",
+      "REST APIs",
+      "CI/CD",
+      "Kotlin",
+      "Docker",
+      "OAuth 2.0"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0048",
+        "project_name": "Push notification and mobile analytics service",
+        "client_sector": "banking",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Flutter",
+          "Firebase",
+          "Kotlin",
+          "Swift",
+          "OAuth 2.0"
+        ],
+        "description": "Contributed as Full Stack Developer on a banking sector project, working with Flutter, Firebase, Kotlin, Swift, OAuth 2.0."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0075",
+    "name": "Employee_075",
+    "role": "Mobile Developer",
+    "years_experience": 6,
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Offline Sync",
+      "Cypress",
+      "Firebase",
+      "SQL",
+      "Python",
+      "TensorFlow",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0049",
+        "project_name": "Field technician app with offline job capture",
+        "client_sector": "energy",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "React Native",
+          "TypeScript",
+          "Offline Sync",
+          "Cypress",
+          "REST APIs"
+        ],
+        "description": "Contributed as Mobile Developer on an energy sector project, working with React Native, TypeScript, Offline Sync, Cypress, REST APIs."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0076",
+    "name": "Employee_076",
+    "role": "Full Stack Developer",
+    "years_experience": 14,
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "GraphQL",
+      "Cypress",
+      "Node.js",
+      "SQL",
+      "Python",
+      "Django",
+      "Spring Boot",
+      "Firebase",
+      "Offline Sync",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0050",
+        "project_name": "Mobile sync service with conflict resolution",
+        "client_sector": "energy",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "React Native",
+          "TypeScript",
+          "Firebase",
+          "Cypress",
+          "Offline Sync"
+        ],
+        "description": "Contributed as Full Stack Developer on an energy sector project, working with React Native, TypeScript, Firebase, Cypress, Offline Sync."
+      },
+      {
+        "project_id": "PRJ-0049",
+        "project_name": "Field technician app with offline job capture",
+        "client_sector": "energy",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "React Native",
+          "TypeScript",
+          "Offline Sync",
+          "Cypress",
+          "REST APIs"
+        ],
+        "description": "Contributed as Full Stack Developer on an energy sector project, working with React Native, TypeScript, Offline Sync, Cypress, REST APIs."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0077",
+    "name": "Employee_077",
+    "role": "Mobile Developer",
+    "years_experience": 10,
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Cypress",
+      "Node.js",
+      "Offline Sync",
+      "SQL",
+      "Git",
+      "Spring Boot",
+      "REST APIs",
+      "Firebase"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0049",
+        "project_name": "Field technician app with offline job capture",
+        "client_sector": "energy",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "React Native",
+          "TypeScript",
+          "Offline Sync",
+          "Cypress",
+          "REST APIs"
+        ],
+        "description": "Contributed as Mobile Developer on an energy sector project, working with React Native, TypeScript, Offline Sync, Cypress, REST APIs."
+      },
+      {
+        "project_id": "PRJ-0050",
+        "project_name": "Mobile sync service with conflict resolution",
+        "client_sector": "energy",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "React Native",
+          "TypeScript",
+          "Firebase",
+          "Cypress",
+          "Offline Sync"
+        ],
+        "description": "Contributed as Mobile Developer on an energy sector project, working with React Native, TypeScript, Firebase, Cypress, Offline Sync."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0078",
+    "name": "Employee_078",
+    "role": "Cloud Architect",
+    "years_experience": 11,
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "AWS",
+      "CI/CD",
+      "Git",
+      "Swift",
+      "GitHub Actions"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0052",
+        "project_name": "Platform monitoring and disaster recovery on Kubernetes",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Kubernetes",
+          "Terraform",
+          "Prometheus",
+          "AWS",
+          "GitHub Actions"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Kubernetes, Terraform, Prometheus, AWS, GitHub Actions."
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0079",
+    "name": "Employee_079",
+    "role": "DevOps Engineer",
+    "years_experience": 13,
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Helm",
+      "Prometheus",
+      "Azure",
+      "Git",
+      "Azure DevOps",
+      "MongoDB",
+      "Docker",
+      "GitHub Actions"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0051",
+        "project_name": "Virtual machine to Kubernetes migration in risk waves",
+        "client_sector": "telecom",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Kubernetes",
+          "Terraform",
+          "Docker",
+          "AWS",
+          "GitHub Actions"
+        ],
+        "description": "Contributed as DevOps Engineer on a telecom sector project, working with Kubernetes, Terraform, Docker, AWS, GitHub Actions."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0080",
+    "name": "Employee_080",
+    "role": "Cloud Architect",
+    "years_experience": 4,
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Docker",
+      "Prometheus",
+      "Azure",
+      "SQL",
+      "AWS",
+      "GitHub Actions"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0052",
+        "project_name": "Platform monitoring and disaster recovery on Kubernetes",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Kubernetes",
+          "Terraform",
+          "Prometheus",
+          "AWS",
+          "GitHub Actions"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Kubernetes, Terraform, Prometheus, AWS, GitHub Actions."
+      },
+      {
+        "project_id": "PRJ-0051",
+        "project_name": "Virtual machine to Kubernetes migration in risk waves",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Kubernetes",
+          "Terraform",
+          "Docker",
+          "AWS",
+          "GitHub Actions"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Kubernetes, Terraform, Docker, AWS, GitHub Actions."
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0081",
+    "name": "Employee_081",
+    "role": "IAM Engineer",
+    "years_experience": 3,
+    "skills": [
+      "OAuth 2.0",
+      "OpenID Connect",
+      "Keycloak",
+      "Okta",
+      "Key Vault",
+      "Git",
+      "Python",
+      "Django",
+      "Spring Boot",
+      "Microsoft Entra ID",
+      "Audit Logging"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0054",
+        "project_name": "Customer identity and consent service",
+        "client_sector": "banking",
+        "role": "IAM Engineer",
+        "tech_stack": [
+          "OAuth 2.0",
+          "OpenID Connect",
+          "Keycloak",
+          "Microsoft Entra ID",
+          "Audit Logging"
+        ],
+        "description": "Contributed as IAM Engineer on a banking sector project, working with OAuth 2.0, OpenID Connect, Keycloak, Microsoft Entra ID, Audit Logging."
+      },
+      {
+        "project_id": "PRJ-0053",
+        "project_name": "National single sign-on platform for public services",
+        "client_sector": "public administration",
+        "role": "IAM Engineer",
+        "tech_stack": [
+          "OAuth 2.0",
+          "OpenID Connect",
+          "Key Vault",
+          "Keycloak",
+          "Microsoft Entra ID"
+        ],
+        "description": "Contributed as IAM Engineer on a public administration sector project, working with OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID."
+      }
+    ],
+    "certifications": [
+      "Microsoft Identity and Access Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0082",
+    "name": "Employee_082",
+    "role": "Security Engineer",
+    "years_experience": 9,
+    "skills": [
+      "OAuth 2.0",
+      "OpenID Connect",
+      "REST APIs",
+      "Audit Logging",
+      "Key Vault",
+      "Okta",
+      "Azure DevOps",
+      "CI/CD",
+      "MongoDB",
+      "GraphQL",
+      "Keycloak",
+      "Microsoft Entra ID"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0053",
+        "project_name": "National single sign-on platform for public services",
+        "client_sector": "public administration",
+        "role": "Security Engineer",
+        "tech_stack": [
+          "OAuth 2.0",
+          "OpenID Connect",
+          "Key Vault",
+          "Keycloak",
+          "Microsoft Entra ID"
+        ],
+        "description": "Contributed as Security Engineer on a public administration sector project, working with OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID."
+      },
+      {
+        "project_id": "PRJ-0054",
+        "project_name": "Customer identity and consent service",
+        "client_sector": "banking",
+        "role": "Security Engineer",
+        "tech_stack": [
+          "OAuth 2.0",
+          "OpenID Connect",
+          "Keycloak",
+          "Microsoft Entra ID",
+          "Audit Logging"
+        ],
+        "description": "Contributed as Security Engineer on a banking sector project, working with OAuth 2.0, OpenID Connect, Keycloak, Microsoft Entra ID, Audit Logging."
+      }
+    ],
+    "certifications": [
+      "Certified Information Systems Security Professional"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0083",
+    "name": "Employee_083",
+    "role": "Integration Architect",
+    "years_experience": 14,
+    "skills": [
+      "OAuth 2.0",
+      "OpenID Connect",
+      "Keycloak",
+      "Audit Logging",
+      "Microsoft Entra ID",
+      "REST APIs",
+      "Git",
+      "Python",
+      "Key Vault"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0053",
+        "project_name": "National single sign-on platform for public services",
+        "client_sector": "public administration",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "OAuth 2.0",
+          "OpenID Connect",
+          "Key Vault",
+          "Keycloak",
+          "Microsoft Entra ID"
+        ],
+        "description": "Contributed as Integration Architect on a public administration sector project, working with OAuth 2.0, OpenID Connect, Key Vault, Keycloak, Microsoft Entra ID."
+      }
+    ],
+    "certifications": [
+      "Certified Information Systems Security Professional"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0084",
+    "name": "Employee_084",
+    "role": "Frontend Developer",
+    "years_experience": 14,
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "WCAG Accessibility",
+      "Tailwind CSS",
+      "React",
+      "Cypress",
+      "Docker",
+      "Azure DevOps",
+      "Drupal",
+      "SEO"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0055",
+        "project_name": "Accessible parent portal built in Next.js",
+        "client_sector": "education",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "Next.js",
+          "TypeScript",
+          "React",
+          "Tailwind CSS",
+          "Cypress"
+        ],
+        "description": "Contributed as Frontend Developer on an education sector project, working with Next.js, TypeScript, React, Tailwind CSS, Cypress."
+      },
+      {
+        "project_id": "PRJ-0056",
+        "project_name": "Public website component library and content workflow",
+        "client_sector": "education",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "Next.js",
+          "TypeScript",
+          "React",
+          "Drupal",
+          "SEO"
+        ],
+        "description": "Contributed as Frontend Developer on an education sector project, working with Next.js, TypeScript, React, Drupal, SEO."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0085",
+    "name": "Employee_085",
+    "role": "Full Stack Developer",
+    "years_experience": 13,
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Drupal",
+      "React",
+      "Tailwind CSS",
+      "Git",
+      "Azure DevOps",
+      "SEO"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0056",
+        "project_name": "Public website component library and content workflow",
+        "client_sector": "education",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Next.js",
+          "TypeScript",
+          "React",
+          "Drupal",
+          "SEO"
+        ],
+        "description": "Contributed as Full Stack Developer on an education sector project, working with Next.js, TypeScript, React, Drupal, SEO."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0086",
+    "name": "Employee_086",
+    "role": "UX Developer",
+    "years_experience": 11,
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Drupal",
+      "Figma",
+      "SEO",
+      "Cypress",
+      "Docker",
+      "CI/CD",
+      "Flutter",
+      "GraphQL",
+      "React",
+      "Tailwind CSS"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0055",
+        "project_name": "Accessible parent portal built in Next.js",
+        "client_sector": "education",
+        "role": "UX Developer",
+        "tech_stack": [
+          "Next.js",
+          "TypeScript",
+          "React",
+          "Tailwind CSS",
+          "Cypress"
+        ],
+        "description": "Contributed as UX Developer on an education sector project, working with Next.js, TypeScript, React, Tailwind CSS, Cypress."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0087",
+    "name": "Employee_087",
+    "role": "Integration Architect",
+    "years_experience": 8,
+    "skills": [
+      "HL7 FHIR",
+      "REST APIs",
+      "MuleSoft",
+      "Audit Logging",
+      "Consent Management",
+      "Docker",
+      "Azure DevOps",
+      "Azure",
+      "Data Residency"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0057",
+        "project_name": "FHIR interoperability layer for clinics and laboratories",
+        "client_sector": "healthcare",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "HL7 FHIR",
+          "REST APIs",
+          "MuleSoft",
+          "Azure",
+          "Audit Logging"
+        ],
+        "description": "Contributed as Integration Architect on a healthcare sector project, working with HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging."
+      },
+      {
+        "project_id": "PRJ-0058",
+        "project_name": "Consent-aware patient record exchange with audit trail",
+        "client_sector": "healthcare",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "HL7 FHIR",
+          "REST APIs",
+          "Consent Management",
+          "Data Residency",
+          "Azure"
+        ],
+        "description": "Contributed as Integration Architect on a healthcare sector project, working with HL7 FHIR, REST APIs, Consent Management, Data Residency, Azure."
+      }
+    ],
+    "certifications": [
+      "HL7 FHIR Proficiency"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0088",
+    "name": "Employee_088",
+    "role": "Integration Developer",
+    "years_experience": 10,
+    "skills": [
+      "HL7 FHIR",
+      "REST APIs",
+      "Consent Management",
+      "Azure",
+      "Audit Logging",
+      "SOAP",
+      "Git",
+      "CI/CD",
+      "TensorFlow",
+      "MuleSoft"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0057",
+        "project_name": "FHIR interoperability layer for clinics and laboratories",
+        "client_sector": "healthcare",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "HL7 FHIR",
+          "REST APIs",
+          "MuleSoft",
+          "Azure",
+          "Audit Logging"
+        ],
+        "description": "Contributed as Integration Developer on a healthcare sector project, working with HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0089",
+    "name": "Employee_089",
+    "role": "Solutions Architect",
+    "years_experience": 7,
+    "skills": [
+      "HL7 FHIR",
+      "REST APIs",
+      "Audit Logging",
+      "Azure",
+      "SOAP",
+      "MuleSoft",
+      "Azure DevOps",
+      "Python",
+      "Spring Boot",
+      "TensorFlow",
+      "Consent Management",
+      "Data Residency"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0058",
+        "project_name": "Consent-aware patient record exchange with audit trail",
+        "client_sector": "healthcare",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "HL7 FHIR",
+          "REST APIs",
+          "Consent Management",
+          "Data Residency",
+          "Azure"
+        ],
+        "description": "Contributed as Solutions Architect on a healthcare sector project, working with HL7 FHIR, REST APIs, Consent Management, Data Residency, Azure."
+      },
+      {
+        "project_id": "PRJ-0057",
+        "project_name": "FHIR interoperability layer for clinics and laboratories",
+        "client_sector": "healthcare",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "HL7 FHIR",
+          "REST APIs",
+          "MuleSoft",
+          "Azure",
+          "Audit Logging"
+        ],
+        "description": "Contributed as Solutions Architect on a healthcare sector project, working with HL7 FHIR, REST APIs, MuleSoft, Azure, Audit Logging."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0090",
+    "name": "Employee_090",
+    "role": "BI Developer",
+    "years_experience": 11,
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Azure Data Factory",
+      "Qlik Sense",
+      "Data Modelling",
+      "Azure Synapse",
+      "Git",
+      "Django",
+      "Row-Level Security"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0060",
+        "project_name": "Governed data model with regional row-level security",
+        "client_sector": "retail",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Tableau",
+          "SQL",
+          "Data Modelling",
+          "Row-Level Security",
+          "Azure Data Factory"
+        ],
+        "description": "Contributed as BI Developer on a retail sector project, working with Tableau, SQL, Data Modelling, Row-Level Security, Azure Data Factory."
+      },
+      {
+        "project_id": "PRJ-0059",
+        "project_name": "Self-service Tableau analytics for supply chain",
+        "client_sector": "retail",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Tableau",
+          "SQL",
+          "Azure Synapse",
+          "Row-Level Security",
+          "Qlik Sense"
+        ],
+        "description": "Contributed as BI Developer on a retail sector project, working with Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense."
+      }
+    ],
+    "certifications": [
+      "Microsoft Power BI Data Analyst"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0091",
+    "name": "Employee_091",
+    "role": "Data Analyst",
+    "years_experience": 10,
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Data Modelling",
+      "Qlik Sense",
+      "Azure Synapse",
+      "Azure Data Factory",
+      "Python",
+      "Spring Boot",
+      "Row-Level Security"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0059",
+        "project_name": "Self-service Tableau analytics for supply chain",
+        "client_sector": "retail",
+        "role": "Data Analyst",
+        "tech_stack": [
+          "Tableau",
+          "SQL",
+          "Azure Synapse",
+          "Row-Level Security",
+          "Qlik Sense"
+        ],
+        "description": "Contributed as Data Analyst on a retail sector project, working with Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense."
+      }
+    ],
+    "certifications": [
+      "Tableau Desktop Specialist"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0092",
+    "name": "Employee_092",
+    "role": "BI Developer",
+    "years_experience": 7,
+    "skills": [
+      "Tableau",
+      "SQL",
+      "Row-Level Security",
+      "Looker",
+      "Qlik Sense",
+      "Data Modelling",
+      "Azure DevOps",
+      "Docker",
+      "Kotlin",
+      "Azure Synapse"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0059",
+        "project_name": "Self-service Tableau analytics for supply chain",
+        "client_sector": "retail",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Tableau",
+          "SQL",
+          "Azure Synapse",
+          "Row-Level Security",
+          "Qlik Sense"
+        ],
+        "description": "Contributed as BI Developer on a retail sector project, working with Tableau, SQL, Azure Synapse, Row-Level Security, Qlik Sense."
+      }
+    ],
+    "certifications": [
+      "Tableau Desktop Specialist"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0093",
+    "name": "Employee_093",
+    "role": "Data Engineer",
+    "years_experience": 5,
+    "skills": [
+      "Azure Data Factory",
+      "Informatica",
+      "Data Quality",
+      "Data Lineage",
+      "Apache NiFi",
+      "Fivetran",
+      "Azure DevOps",
+      "Docker",
+      "SQL",
+      "Boomi"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0062",
+        "project_name": "Claims data pipelines with quality checks and lineage",
+        "client_sector": "insurance",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Azure Data Factory",
+          "Informatica",
+          "SQL",
+          "Data Quality",
+          "Boomi"
+        ],
+        "description": "Contributed as Data Engineer on an insurance sector project, working with Azure Data Factory, Informatica, SQL, Data Quality, Boomi."
+      },
+      {
+        "project_id": "PRJ-0061",
+        "project_name": "Integration tool consolidation with job migration",
+        "client_sector": "insurance",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Azure Data Factory",
+          "Informatica",
+          "Fivetran",
+          "Data Lineage",
+          "Apache NiFi"
+        ],
+        "description": "Contributed as Data Engineer on an insurance sector project, working with Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Data Engineer Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0094",
+    "name": "Employee_094",
+    "role": "ETL Developer",
+    "years_experience": 4,
+    "skills": [
+      "Azure Data Factory",
+      "Informatica",
+      "Data Quality",
+      "Boomi",
+      "Data Lineage",
+      "SQL",
+      "CI/CD",
+      "Spring Boot",
+      "Fivetran",
+      "Apache NiFi"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0062",
+        "project_name": "Claims data pipelines with quality checks and lineage",
+        "client_sector": "insurance",
+        "role": "ETL Developer",
+        "tech_stack": [
+          "Azure Data Factory",
+          "Informatica",
+          "SQL",
+          "Data Quality",
+          "Boomi"
+        ],
+        "description": "Contributed as ETL Developer on an insurance sector project, working with Azure Data Factory, Informatica, SQL, Data Quality, Boomi."
+      },
+      {
+        "project_id": "PRJ-0061",
+        "project_name": "Integration tool consolidation with job migration",
+        "client_sector": "insurance",
+        "role": "ETL Developer",
+        "tech_stack": [
+          "Azure Data Factory",
+          "Informatica",
+          "Fivetran",
+          "Data Lineage",
+          "Apache NiFi"
+        ],
+        "description": "Contributed as ETL Developer on an insurance sector project, working with Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi."
+      }
+    ],
+    "certifications": [
+      "Informatica Data Integration Certification"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0095",
+    "name": "Employee_095",
+    "role": "Integration Architect",
+    "years_experience": 9,
+    "skills": [
+      "Azure Data Factory",
+      "Informatica",
+      "Data Lineage",
+      "SQL",
+      "Fivetran",
+      "Docker",
+      "Python",
+      "Apache NiFi"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0061",
+        "project_name": "Integration tool consolidation with job migration",
+        "client_sector": "insurance",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "Azure Data Factory",
+          "Informatica",
+          "Fivetran",
+          "Data Lineage",
+          "Apache NiFi"
+        ],
+        "description": "Contributed as Integration Architect on an insurance sector project, working with Azure Data Factory, Informatica, Fivetran, Data Lineage, Apache NiFi."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Data Engineer Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0096",
+    "name": "Employee_096",
+    "role": "QA Automation Engineer",
+    "years_experience": 8,
+    "skills": [
+      "Test Automation",
+      "Selenium",
+      "Postman",
+      "Jira",
+      "CI/CD",
+      "Python",
+      "Azure DevOps",
+      "Redis",
+      "MongoDB",
+      "JMeter",
+      "Cypress"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0063",
+        "project_name": "Regression automation suite for online banking",
+        "client_sector": "banking",
+        "role": "QA Automation Engineer",
+        "tech_stack": [
+          "Test Automation",
+          "Selenium",
+          "Jira",
+          "JMeter",
+          "Cypress"
+        ],
+        "description": "Contributed as QA Automation Engineer on a banking sector project, working with Test Automation, Selenium, Jira, JMeter, Cypress."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0097",
+    "name": "Employee_097",
+    "role": "QA Automation Engineer",
+    "years_experience": 7,
+    "skills": [
+      "Test Automation",
+      "Selenium",
+      "CI/CD",
+      "Cypress",
+      "JMeter",
+      "Docker",
+      "Git",
+      "MongoDB",
+      "Azure DevOps"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0064",
+        "project_name": "Pre-release performance and API test pipeline",
+        "client_sector": "banking",
+        "role": "QA Automation Engineer",
+        "tech_stack": [
+          "Test Automation",
+          "Selenium",
+          "Azure DevOps",
+          "CI/CD",
+          "Cypress"
+        ],
+        "description": "Contributed as QA Automation Engineer on a banking sector project, working with Test Automation, Selenium, Azure DevOps, CI/CD, Cypress."
+      }
+    ],
+    "certifications": [
+      "ISTQB Certified Tester"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0098",
+    "name": "Employee_098",
+    "role": "Test Manager",
+    "years_experience": 11,
+    "skills": [
+      "Test Automation",
+      "Selenium",
+      "JMeter",
+      "Jira",
+      "Postman",
+      "Docker",
+      "Git",
+      "Flutter",
+      "Cypress",
+      "Azure DevOps",
+      "CI/CD"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0063",
+        "project_name": "Regression automation suite for online banking",
+        "client_sector": "banking",
+        "role": "Test Manager",
+        "tech_stack": [
+          "Test Automation",
+          "Selenium",
+          "Jira",
+          "JMeter",
+          "Cypress"
+        ],
+        "description": "Contributed as Test Manager on a banking sector project, working with Test Automation, Selenium, Jira, JMeter, Cypress."
+      },
+      {
+        "project_id": "PRJ-0064",
+        "project_name": "Pre-release performance and API test pipeline",
+        "client_sector": "banking",
+        "role": "Test Manager",
+        "tech_stack": [
+          "Test Automation",
+          "Selenium",
+          "Azure DevOps",
+          "CI/CD",
+          "Cypress"
+        ],
+        "description": "Contributed as Test Manager on a banking sector project, working with Test Automation, Selenium, Azure DevOps, CI/CD, Cypress."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0099",
+    "name": "Employee_099",
+    "role": "IoT Engineer",
+    "years_experience": 8,
+    "skills": [
+      "IoT",
+      "MQTT",
+      "Azure IoT Hub",
+      "Python",
+      "Time-Series Forecasting",
+      "CI/CD",
+      "Git",
+      "Edge AI",
+      "Docker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0066",
+        "project_name": "Edge gateway fleet with remote updates",
+        "client_sector": "manufacturing",
+        "role": "IoT Engineer",
+        "tech_stack": [
+          "IoT",
+          "MQTT",
+          "Edge AI",
+          "Azure IoT Hub",
+          "Docker"
+        ],
+        "description": "Contributed as IoT Engineer on a manufacturing sector project, working with IoT, MQTT, Edge AI, Azure IoT Hub, Docker."
+      },
+      {
+        "project_id": "PRJ-0065",
+        "project_name": "Machine condition monitoring over MQTT",
+        "client_sector": "manufacturing",
+        "role": "IoT Engineer",
+        "tech_stack": [
+          "IoT",
+          "MQTT",
+          "Docker",
+          "Azure IoT Hub",
+          "Edge AI"
+        ],
+        "description": "Contributed as IoT Engineer on a manufacturing sector project, working with IoT, MQTT, Docker, Azure IoT Hub, Edge AI."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0100",
+    "name": "Employee_100",
+    "role": "Data Engineer",
+    "years_experience": 4,
+    "skills": [
+      "IoT",
+      "MQTT",
+      "Azure IoT Hub",
+      "Docker",
+      "Python",
+      "Time-Series Forecasting",
+      "GraphQL",
+      "Edge AI"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0065",
+        "project_name": "Machine condition monitoring over MQTT",
+        "client_sector": "manufacturing",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "IoT",
+          "MQTT",
+          "Docker",
+          "Azure IoT Hub",
+          "Edge AI"
+        ],
+        "description": "Contributed as Data Engineer on a manufacturing sector project, working with IoT, MQTT, Docker, Azure IoT Hub, Edge AI."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure IoT Developer Specialty"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0101",
+    "name": "Employee_101",
+    "role": "Cloud Architect",
+    "years_experience": 11,
+    "skills": [
+      "IoT",
+      "MQTT",
+      "Docker",
+      "Python",
+      "Edge AI",
+      "CI/CD",
+      "Azure DevOps",
+      "Azure IoT Hub"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0066",
+        "project_name": "Edge gateway fleet with remote updates",
+        "client_sector": "manufacturing",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "IoT",
+          "MQTT",
+          "Edge AI",
+          "Azure IoT Hub",
+          "Docker"
+        ],
+        "description": "Contributed as Cloud Architect on a manufacturing sector project, working with IoT, MQTT, Edge AI, Azure IoT Hub, Docker."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure IoT Developer Specialty"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0102",
+    "name": "Employee_102",
+    "role": "Data Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Talend",
+      "Azure",
+      "Terraform",
+      "Snowflake",
+      "Data Quality",
+      "SQL",
+      "Git",
+      "Azure DevOps",
+      "Redis",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0068",
+        "project_name": "Customer billing data warehouse refresh",
+        "client_sector": "telecom",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Python",
+          "Azure",
+          "SQL",
+          "Data Quality",
+          "Terraform"
+        ],
+        "description": "Contributed as Data Engineer on a telecom sector project, working with Python, Azure, SQL, Data Quality, Terraform."
+      }
+    ],
+    "certifications": [
+      "SnowPro Core"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0103",
+    "name": "Employee_103",
+    "role": "ETL Developer",
+    "years_experience": 15,
+    "skills": [
+      "SQL",
+      "Data Quality",
+      "Azure",
+      "Databricks",
+      "Git",
+      "Azure DevOps",
+      "Snowflake",
+      "Python",
+      "Talend",
+      "Apache Airflow"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0069",
+        "project_name": "Supply chain data hub with daily reconciliation",
+        "client_sector": "logistics",
+        "role": "ETL Developer",
+        "tech_stack": [
+          "Snowflake",
+          "Databricks",
+          "Python",
+          "Talend",
+          "Apache Airflow"
+        ],
+        "description": "Contributed as ETL Developer on a logistics sector project, working with Snowflake, Databricks, Python, Talend, Apache Airflow."
+      }
+    ],
+    "certifications": [
+      "SnowPro Core"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0104",
+    "name": "Employee_104",
+    "role": "Data Architect",
+    "years_experience": 8,
+    "skills": [
+      "Data Quality",
+      "Talend",
+      "dbt",
+      "Snowflake",
+      "Azure DevOps",
+      "Python",
+      "Flutter",
+      "Apache Airflow",
+      "SQL",
+      "Azure"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0067",
+        "project_name": "Energy consumption data lake on Azure",
+        "client_sector": "energy",
+        "role": "Data Architect",
+        "tech_stack": [
+          "Apache Airflow",
+          "Data Quality",
+          "Snowflake",
+          "dbt",
+          "SQL",
+          "Azure"
+        ],
+        "description": "Contributed as Data Architect on an energy sector project, working with Apache Airflow, Data Quality, Snowflake, dbt, SQL, Azure."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Data Engineer Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0105",
+    "name": "Employee_105",
+    "role": "Data Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Data Quality",
+      "Snowflake",
+      "Terraform",
+      "Apache Airflow",
+      "Python",
+      "dbt",
+      "Azure DevOps",
+      "TensorFlow",
+      "Redis",
+      "Talend",
+      "Databricks",
+      "Azure"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0070",
+        "project_name": "Property portfolio reporting warehouse",
+        "client_sector": "real estate",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Terraform",
+          "Apache Airflow",
+          "Talend",
+          "Databricks",
+          "Azure"
+        ],
+        "description": "Contributed as Data Engineer on a real estate sector project, working with Terraform, Apache Airflow, Talend, Databricks, Azure."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Data Engineer Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0106",
+    "name": "Employee_106",
+    "role": "BI Developer",
+    "years_experience": 6,
+    "skills": [
+      "Azure SQL",
+      "Data Modelling",
+      "Tableau",
+      "Looker",
+      "Python",
+      "SQL",
+      "Qlik Sense",
+      "Power BI"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0073",
+        "project_name": "Store sales and margin dashboard",
+        "client_sector": "retail",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Qlik Sense",
+          "Power BI",
+          "Looker",
+          "SQL",
+          "Azure SQL"
+        ],
+        "description": "Contributed as BI Developer on a retail sector project, working with Qlik Sense, Power BI, Looker, SQL, Azure SQL."
+      }
+    ],
+    "certifications": [
+      "Tableau Desktop Specialist"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0107",
+    "name": "Employee_107",
+    "role": "Data Analyst",
+    "years_experience": 2,
+    "skills": [
+      "Azure SQL",
+      "Looker",
+      "Tableau",
+      "Qlik Sense",
+      "Python",
+      "CI/CD",
+      "TensorFlow",
+      "Flutter",
+      "Power BI",
+      "Row-Level Security",
+      "SQL",
+      "DAX"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0072",
+        "project_name": "Claims analytics reporting suite",
+        "client_sector": "insurance",
+        "role": "Data Analyst",
+        "tech_stack": [
+          "Tableau",
+          "Qlik Sense",
+          "Looker",
+          "Power BI",
+          "Row-Level Security"
+        ],
+        "description": "Contributed as Data Analyst on an insurance sector project, working with Tableau, Qlik Sense, Looker, Power BI, Row-Level Security."
+      },
+      {
+        "project_id": "PRJ-0074",
+        "project_name": "Hospital capacity and waiting time reporting",
+        "client_sector": "healthcare",
+        "role": "Data Analyst",
+        "tech_stack": [
+          "Row-Level Security",
+          "SQL",
+          "Azure SQL",
+          "Tableau",
+          "DAX"
+        ],
+        "description": "Contributed as Data Analyst on a healthcare sector project, working with Row-Level Security, SQL, Azure SQL, Tableau, DAX."
+      }
+    ],
+    "certifications": [
+      "Tableau Desktop Specialist"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0108",
+    "name": "Employee_108",
+    "role": "Business Analyst",
+    "years_experience": 2,
+    "skills": [
+      "DAX",
+      "Power BI",
+      "Data Modelling",
+      "Tableau",
+      "Row-Level Security",
+      "SQL",
+      "Python",
+      "Redis",
+      "Azure SQL",
+      "Qlik Sense",
+      "Looker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0074",
+        "project_name": "Hospital capacity and waiting time reporting",
+        "client_sector": "healthcare",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Row-Level Security",
+          "SQL",
+          "Azure SQL",
+          "Tableau",
+          "DAX"
+        ],
+        "description": "Contributed as Business Analyst on a healthcare sector project, working with Row-Level Security, SQL, Azure SQL, Tableau, DAX."
+      },
+      {
+        "project_id": "PRJ-0072",
+        "project_name": "Claims analytics reporting suite",
+        "client_sector": "insurance",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Tableau",
+          "Qlik Sense",
+          "Looker",
+          "Power BI",
+          "Row-Level Security"
+        ],
+        "description": "Contributed as Business Analyst on an insurance sector project, working with Tableau, Qlik Sense, Looker, Power BI, Row-Level Security."
+      }
+    ],
+    "certifications": [
+      "Tableau Desktop Specialist"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0109",
+    "name": "Employee_109",
+    "role": "BI Developer",
+    "years_experience": 6,
+    "skills": [
+      "Row-Level Security",
+      "Azure SQL",
+      "Qlik Sense",
+      "Azure DevOps",
+      "DAX",
+      "SQL",
+      "Git",
+      "GraphQL",
+      "Power BI",
+      "Looker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0073",
+        "project_name": "Store sales and margin dashboard",
+        "client_sector": "retail",
+        "role": "BI Developer",
+        "tech_stack": [
+          "Qlik Sense",
+          "Power BI",
+          "Looker",
+          "SQL",
+          "Azure SQL"
+        ],
+        "description": "Contributed as BI Developer on a retail sector project, working with Qlik Sense, Power BI, Looker, SQL, Azure SQL."
+      }
+    ],
+    "certifications": [
+      "Microsoft Power BI Data Analyst"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0110",
+    "name": "Employee_110",
+    "role": "Data Scientist",
+    "years_experience": 7,
+    "skills": [
+      "MLOps",
+      "Azure ML",
+      "PyTorch",
+      "Docker",
+      "Python",
+      "SQL",
+      "Git",
+      "Spring Boot",
+      "Time-Series Forecasting",
+      "BigQuery"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0076",
+        "project_name": "Predictive maintenance for turbines",
+        "client_sector": "energy",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Python",
+          "Time-Series Forecasting",
+          "Azure ML",
+          "BigQuery",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on an energy sector project, working with Python, Time-Series Forecasting, Azure ML, BigQuery, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Google Professional Machine Learning Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0111",
+    "name": "Employee_111",
+    "role": "AI/ML Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "PyTorch",
+      "BigQuery",
+      "Azure DevOps",
+      "Time-Series Forecasting",
+      "Azure ML"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0076",
+        "project_name": "Predictive maintenance for turbines",
+        "client_sector": "energy",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "Python",
+          "Time-Series Forecasting",
+          "Azure ML",
+          "BigQuery",
+          "PyTorch"
+        ],
+        "description": "Contributed as AI/ML Engineer on an energy sector project, working with Python, Time-Series Forecasting, Azure ML, BigQuery, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0112",
+    "name": "Employee_112",
+    "role": "Data Scientist",
+    "years_experience": 6,
+    "skills": [
+      "Time-Series Forecasting",
+      "TensorFlow",
+      "BigQuery",
+      "Azure ML",
+      "SQL",
+      "MLOps",
+      "Python",
+      "CI/CD",
+      "Docker",
+      "Scikit-learn",
+      "PyTorch"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0077",
+        "project_name": "Credit risk scoring model with monitoring",
+        "client_sector": "banking",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "Docker",
+          "Azure ML",
+          "TensorFlow",
+          "Scikit-learn",
+          "PyTorch"
+        ],
+        "description": "Contributed as Data Scientist on a banking sector project, working with Docker, Azure ML, TensorFlow, Scikit-learn, PyTorch."
+      }
+    ],
+    "certifications": [
+      "Google Professional Machine Learning Engineer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0113",
+    "name": "Employee_113",
+    "role": "Data Scientist",
+    "years_experience": 4,
+    "skills": [
+      "Scikit-learn",
+      "Azure ML",
+      "Time-Series Forecasting",
+      "MLOps",
+      "Git",
+      "CI/CD",
+      "GraphQL",
+      "MongoDB",
+      "PyTorch",
+      "Python",
+      "BigQuery"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0075",
+        "project_name": "Customer churn prediction for subscribers",
+        "client_sector": "telecom",
+        "role": "Data Scientist",
+        "tech_stack": [
+          "PyTorch",
+          "Python",
+          "Azure ML",
+          "Time-Series Forecasting",
+          "BigQuery"
+        ],
+        "description": "Contributed as Data Scientist on a telecom sector project, working with PyTorch, Python, Azure ML, Time-Series Forecasting, BigQuery."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0114",
+    "name": "Employee_114",
+    "role": "AI/ML Engineer",
+    "years_experience": 3,
+    "skills": [
+      "ChromaDB",
+      "Python",
+      "FastAPI",
+      "NLP",
+      "HuggingFace",
+      "Git",
+      "Docker",
+      "Spring Boot",
+      "RAG",
+      "Pinecone",
+      "LangChain"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0080",
+        "project_name": "Contract clause extraction with human review",
+        "client_sector": "public administration",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "ChromaDB",
+          "RAG",
+          "Pinecone",
+          "LangChain",
+          "Python"
+        ],
+        "description": "Contributed as AI/ML Engineer on a public administration sector project, working with ChromaDB, RAG, Pinecone, LangChain, Python."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0115",
+    "name": "Employee_115",
+    "role": "Backend Developer",
+    "years_experience": 2,
+    "skills": [
+      "FastAPI",
+      "OpenAI",
+      "Prompt Evaluation",
+      "Python",
+      "ChromaDB",
+      "RAG",
+      "Docker",
+      "CI/CD",
+      "Spring Boot",
+      "HuggingFace",
+      "LangChain",
+      "NLP",
+      "Pinecone"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0079",
+        "project_name": "Policy question assistant over internal documents",
+        "client_sector": "insurance",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "Python",
+          "HuggingFace",
+          "FastAPI",
+          "LangChain",
+          "NLP"
+        ],
+        "description": "Contributed as Backend Developer on an insurance sector project, working with Python, HuggingFace, FastAPI, LangChain, NLP."
+      },
+      {
+        "project_id": "PRJ-0080",
+        "project_name": "Contract clause extraction with human review",
+        "client_sector": "public administration",
+        "role": "Backend Developer",
+        "tech_stack": [
+          "ChromaDB",
+          "RAG",
+          "Pinecone",
+          "LangChain",
+          "Python"
+        ],
+        "description": "Contributed as Backend Developer on a public administration sector project, working with ChromaDB, RAG, Pinecone, LangChain, Python."
+      }
+    ],
+    "certifications": [
+      "AWS Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0116",
+    "name": "Employee_116",
+    "role": "AI/ML Engineer",
+    "years_experience": 15,
+    "skills": [
+      "RAG",
+      "NLP",
+      "ChromaDB",
+      "OpenAI",
+      "Python",
+      "SQL",
+      "HuggingFace",
+      "Pinecone",
+      "LangChain"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0081",
+        "project_name": "Multilingual customer email triage",
+        "client_sector": "telecom",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "OpenAI",
+          "Python",
+          "ChromaDB",
+          "NLP",
+          "HuggingFace"
+        ],
+        "description": "Contributed as AI/ML Engineer on a telecom sector project, working with OpenAI, Python, ChromaDB, NLP, HuggingFace."
+      },
+      {
+        "project_id": "PRJ-0080",
+        "project_name": "Contract clause extraction with human review",
+        "client_sector": "public administration",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "ChromaDB",
+          "RAG",
+          "Pinecone",
+          "LangChain",
+          "Python"
+        ],
+        "description": "Contributed as AI/ML Engineer on a public administration sector project, working with ChromaDB, RAG, Pinecone, LangChain, Python."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0117",
+    "name": "Employee_117",
+    "role": "AI/ML Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Pinecone",
+      "HuggingFace",
+      "NLP",
+      "LangChain",
+      "Python",
+      "CI/CD",
+      "Prompt Evaluation",
+      "RAG",
+      "ChromaDB"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0082",
+        "project_name": "Clinical note summarisation prototype",
+        "client_sector": "healthcare",
+        "role": "AI/ML Engineer",
+        "tech_stack": [
+          "Prompt Evaluation",
+          "NLP",
+          "RAG",
+          "HuggingFace",
+          "ChromaDB"
+        ],
+        "description": "Contributed as AI/ML Engineer on a healthcare sector project, working with Prompt Evaluation, NLP, RAG, HuggingFace, ChromaDB."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0118",
+    "name": "Employee_118",
+    "role": "Frontend Developer",
+    "years_experience": 11,
+    "skills": [
+      "Node.js",
+      "WCAG Accessibility",
+      "React",
+      "TypeScript",
+      "SEO",
+      "Drupal",
+      "CI/CD",
+      "Git",
+      "Spring Boot",
+      "Swift",
+      "Figma",
+      "Next.js"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0084",
+        "project_name": "Corporate website migration to Next.js",
+        "client_sector": "manufacturing",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "WCAG Accessibility",
+          "Drupal",
+          "TypeScript",
+          "Figma",
+          "Node.js",
+          "Next.js"
+        ],
+        "description": "Contributed as Frontend Developer on a manufacturing sector project, working with WCAG Accessibility, Drupal, TypeScript, Figma, Node.js, Next.js."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0119",
+    "name": "Employee_119",
+    "role": "Full Stack Developer",
+    "years_experience": 5,
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Cypress",
+      "SQL",
+      "Docker",
+      "Flutter",
+      "Redis",
+      "Drupal",
+      "Tailwind CSS"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0083",
+        "project_name": "Parent and student web portal",
+        "client_sector": "education",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Next.js",
+          "Drupal",
+          "React",
+          "TypeScript",
+          "Cypress"
+        ],
+        "description": "Contributed as Full Stack Developer on an education sector project, working with Next.js, Drupal, React, TypeScript, Cypress."
+      },
+      {
+        "project_id": "PRJ-0085",
+        "project_name": "Online property listing platform",
+        "client_sector": "real estate",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "Next.js",
+          "Drupal",
+          "Cypress",
+          "TypeScript"
+        ],
+        "description": "Contributed as Full Stack Developer on a real estate sector project, working with Tailwind CSS, Next.js, Drupal, Cypress, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0120",
+    "name": "Employee_120",
+    "role": "UX Developer",
+    "years_experience": 7,
+    "skills": [
+      "Node.js",
+      "Tailwind CSS",
+      "WCAG Accessibility",
+      "Next.js",
+      "SEO",
+      "React",
+      "Git",
+      "CI/CD",
+      "GraphQL",
+      "Drupal",
+      "Cypress",
+      "TypeScript"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0085",
+        "project_name": "Online property listing platform",
+        "client_sector": "real estate",
+        "role": "UX Developer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "Next.js",
+          "Drupal",
+          "Cypress",
+          "TypeScript"
+        ],
+        "description": "Contributed as UX Developer on a real estate sector project, working with Tailwind CSS, Next.js, Drupal, Cypress, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0121",
+    "name": "Employee_121",
+    "role": "Frontend Developer",
+    "years_experience": 14,
+    "skills": [
+      "React",
+      "SEO",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "Cypress",
+      "Docker",
+      "Azure DevOps",
+      "MongoDB",
+      "Drupal",
+      "TypeScript"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0085",
+        "project_name": "Online property listing platform",
+        "client_sector": "real estate",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "Tailwind CSS",
+          "Next.js",
+          "Drupal",
+          "Cypress",
+          "TypeScript"
+        ],
+        "description": "Contributed as Frontend Developer on a real estate sector project, working with Tailwind CSS, Next.js, Drupal, Cypress, TypeScript."
+      },
+      {
+        "project_id": "PRJ-0083",
+        "project_name": "Parent and student web portal",
+        "client_sector": "education",
+        "role": "Frontend Developer",
+        "tech_stack": [
+          "Next.js",
+          "Drupal",
+          "React",
+          "TypeScript",
+          "Cypress"
+        ],
+        "description": "Contributed as Frontend Developer on an education sector project, working with Next.js, Drupal, React, TypeScript, Cypress."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0122",
+    "name": "Employee_122",
+    "role": "Mobile Developer",
+    "years_experience": 12,
+    "skills": [
+      "REST APIs",
+      "Swift",
+      "TypeScript",
+      "React Native",
+      "Docker",
+      "Azure DevOps",
+      "Flutter",
+      "Django",
+      "Firebase",
+      "Offline Sync",
+      "CI/CD"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0087",
+        "project_name": "Customer loyalty mobile app",
+        "client_sector": "retail",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Firebase",
+          "Offline Sync",
+          "CI/CD",
+          "Swift",
+          "TypeScript"
+        ],
+        "description": "Contributed as Mobile Developer on a retail sector project, working with Firebase, Offline Sync, CI/CD, Swift, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0123",
+    "name": "Employee_123",
+    "role": "Full Stack Developer",
+    "years_experience": 13,
+    "skills": [
+      "TypeScript",
+      "Offline Sync",
+      "CI/CD",
+      "Flutter",
+      "Kotlin",
+      "SQL",
+      "Git",
+      "Django",
+      "Firebase",
+      "Swift"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0087",
+        "project_name": "Customer loyalty mobile app",
+        "client_sector": "retail",
+        "role": "Full Stack Developer",
+        "tech_stack": [
+          "Firebase",
+          "Offline Sync",
+          "CI/CD",
+          "Swift",
+          "TypeScript"
+        ],
+        "description": "Contributed as Full Stack Developer on a retail sector project, working with Firebase, Offline Sync, CI/CD, Swift, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Google Associate Android Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0124",
+    "name": "Employee_124",
+    "role": "Mobile Developer",
+    "years_experience": 4,
+    "skills": [
+      "REST APIs",
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Git",
+      "CI/CD",
+      "MongoDB",
+      "GraphQL",
+      "Firebase",
+      "Offline Sync",
+      "TypeScript"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0088",
+        "project_name": "Claims photo capture app for policyholders",
+        "client_sector": "insurance",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "GraphQL",
+          "React Native",
+          "REST APIs",
+          "Swift",
+          "CI/CD"
+        ],
+        "description": "Contributed as Mobile Developer on an insurance sector project, working with GraphQL, React Native, REST APIs, Swift, CI/CD."
+      },
+      {
+        "project_id": "PRJ-0087",
+        "project_name": "Customer loyalty mobile app",
+        "client_sector": "retail",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Firebase",
+          "Offline Sync",
+          "CI/CD",
+          "Swift",
+          "TypeScript"
+        ],
+        "description": "Contributed as Mobile Developer on a retail sector project, working with Firebase, Offline Sync, CI/CD, Swift, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0125",
+    "name": "Employee_125",
+    "role": "Mobile Developer",
+    "years_experience": 10,
+    "skills": [
+      "Offline Sync",
+      "React Native",
+      "Swift",
+      "Flutter",
+      "REST APIs",
+      "GraphQL",
+      "Docker",
+      "Git",
+      "Firebase",
+      "CI/CD",
+      "TypeScript"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0087",
+        "project_name": "Customer loyalty mobile app",
+        "client_sector": "retail",
+        "role": "Mobile Developer",
+        "tech_stack": [
+          "Firebase",
+          "Offline Sync",
+          "CI/CD",
+          "Swift",
+          "TypeScript"
+        ],
+        "description": "Contributed as Mobile Developer on a retail sector project, working with Firebase, Offline Sync, CI/CD, Swift, TypeScript."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0126",
+    "name": "Employee_126",
+    "role": "Cloud Architect",
+    "years_experience": 6,
+    "skills": [
+      "GCP",
+      "Terraform",
+      "Azure",
+      "Grafana",
+      "SQL",
+      "Python",
+      "Docker",
+      "AWS",
+      "Kubernetes"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0091",
+        "project_name": "Datacentre exit and container migration",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Docker",
+          "Azure",
+          "AWS",
+          "Terraform",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Docker, Azure, AWS, Terraform, Kubernetes."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0127",
+    "name": "Employee_127",
+    "role": "DevOps Engineer",
+    "years_experience": 9,
+    "skills": [
+      "Grafana",
+      "AWS",
+      "Helm",
+      "Terraform",
+      "GCP",
+      "Docker",
+      "Python",
+      "Git",
+      "Spring Boot",
+      "Kotlin",
+      "Prometheus",
+      "GitHub Actions",
+      "Kubernetes",
+      "Azure"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0092",
+        "project_name": "Infrastructure as code baseline for retail platforms",
+        "client_sector": "retail",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "Helm",
+          "Prometheus",
+          "GitHub Actions",
+          "Kubernetes",
+          "Azure",
+          "Terraform"
+        ],
+        "description": "Contributed as DevOps Engineer on a retail sector project, working with Helm, Prometheus, GitHub Actions, Kubernetes, Azure, Terraform."
+      },
+      {
+        "project_id": "PRJ-0093",
+        "project_name": "Multi-cloud cost optimisation programme",
+        "client_sector": "banking",
+        "role": "DevOps Engineer",
+        "tech_stack": [
+          "GCP",
+          "Docker",
+          "GitHub Actions",
+          "Prometheus",
+          "Terraform"
+        ],
+        "description": "Contributed as DevOps Engineer on a banking sector project, working with GCP, Docker, GitHub Actions, Prometheus, Terraform."
+      }
+    ],
+    "certifications": [
+      "Certified Kubernetes Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0128",
+    "name": "Employee_128",
+    "role": "Cloud Architect",
+    "years_experience": 13,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "GitHub Actions",
+      "Kubernetes",
+      "Python",
+      "Git",
+      "MongoDB",
+      "Grafana"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0094",
+        "project_name": "Kubernetes platform for regional utilities",
+        "client_sector": "energy",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Grafana",
+          "AWS",
+          "Terraform",
+          "Docker",
+          "GCP",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Cloud Architect on an energy sector project, working with Grafana, AWS, Terraform, Docker, GCP, Kubernetes."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0129",
+    "name": "Employee_129",
+    "role": "Cloud Architect",
+    "years_experience": 2,
+    "skills": [
+      "Grafana",
+      "GCP",
+      "Prometheus",
+      "Azure",
+      "GitHub Actions",
+      "Python",
+      "CI/CD",
+      "TensorFlow",
+      "Docker",
+      "AWS",
+      "Terraform",
+      "Kubernetes",
+      "Helm"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0091",
+        "project_name": "Datacentre exit and container migration",
+        "client_sector": "telecom",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Docker",
+          "Azure",
+          "AWS",
+          "Terraform",
+          "Kubernetes"
+        ],
+        "description": "Contributed as Cloud Architect on a telecom sector project, working with Docker, Azure, AWS, Terraform, Kubernetes."
+      },
+      {
+        "project_id": "PRJ-0092",
+        "project_name": "Infrastructure as code baseline for retail platforms",
+        "client_sector": "retail",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Helm",
+          "Prometheus",
+          "GitHub Actions",
+          "Kubernetes",
+          "Azure",
+          "Terraform"
+        ],
+        "description": "Contributed as Cloud Architect on a retail sector project, working with Helm, Prometheus, GitHub Actions, Kubernetes, Azure, Terraform."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0130",
+    "name": "Employee_130",
+    "role": "Integration Developer",
+    "years_experience": 14,
+    "skills": [
+      "OAuth 2.0",
+      "SOAP",
+      "Azure DevOps",
+      "API Management",
+      "Datadog",
+      "SQL",
+      "CI/CD",
+      "Kotlin",
+      "GraphQL",
+      "REST APIs"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0096",
+        "project_name": "Supplier onboarding integration layer",
+        "client_sector": "consumer goods",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "SOAP",
+          "Datadog",
+          "OAuth 2.0",
+          "REST APIs",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Integration Developer on a consumer goods sector project, working with SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0131",
+    "name": "Employee_131",
+    "role": "Integration Architect",
+    "years_experience": 14,
+    "skills": [
+      "DataWeave",
+      "Azure DevOps",
+      "OAuth 2.0",
+      "SOAP",
+      "Git",
+      "Flutter",
+      "API Management",
+      "REST APIs",
+      "Kafka",
+      "Datadog"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0098",
+        "project_name": "Student information system integration",
+        "client_sector": "education",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "API Management",
+          "DataWeave",
+          "Azure DevOps",
+          "REST APIs",
+          "Kafka"
+        ],
+        "description": "Contributed as Integration Architect on an education sector project, working with API Management, DataWeave, Azure DevOps, REST APIs, Kafka."
+      },
+      {
+        "project_id": "PRJ-0096",
+        "project_name": "Supplier onboarding integration layer",
+        "client_sector": "consumer goods",
+        "role": "Integration Architect",
+        "tech_stack": [
+          "SOAP",
+          "Datadog",
+          "OAuth 2.0",
+          "REST APIs",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Integration Architect on a consumer goods sector project, working with SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0132",
+    "name": "Employee_132",
+    "role": "Solutions Architect",
+    "years_experience": 4,
+    "skills": [
+      "Azure DevOps",
+      "API Management",
+      "REST APIs",
+      "Talend",
+      "MuleSoft",
+      "SQL",
+      "MongoDB",
+      "Redis",
+      "DataWeave",
+      "Datadog"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0097",
+        "project_name": "Order and shipment event integration",
+        "client_sector": "logistics",
+        "role": "Solutions Architect",
+        "tech_stack": [
+          "DataWeave",
+          "MuleSoft",
+          "Talend",
+          "Datadog",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Solutions Architect on a logistics sector project, working with DataWeave, MuleSoft, Talend, Datadog, Azure DevOps."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0133",
+    "name": "Employee_133",
+    "role": "Integration Developer",
+    "years_experience": 5,
+    "skills": [
+      "REST APIs",
+      "MuleSoft",
+      "Datadog",
+      "OAuth 2.0",
+      "Talend",
+      "Docker",
+      "CI/CD",
+      "TensorFlow",
+      "Redis",
+      "SOAP",
+      "Azure DevOps",
+      "DataWeave"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0096",
+        "project_name": "Supplier onboarding integration layer",
+        "client_sector": "consumer goods",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "SOAP",
+          "Datadog",
+          "OAuth 2.0",
+          "REST APIs",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Integration Developer on a consumer goods sector project, working with SOAP, Datadog, OAuth 2.0, REST APIs, Azure DevOps."
+      },
+      {
+        "project_id": "PRJ-0097",
+        "project_name": "Order and shipment event integration",
+        "client_sector": "logistics",
+        "role": "Integration Developer",
+        "tech_stack": [
+          "DataWeave",
+          "MuleSoft",
+          "Talend",
+          "Datadog",
+          "Azure DevOps"
+        ],
+        "description": "Contributed as Integration Developer on a logistics sector project, working with DataWeave, MuleSoft, Talend, Datadog, Azure DevOps."
+      }
+    ],
+    "certifications": [
+      "MuleSoft Certified Developer"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0134",
+    "name": "Employee_134",
+    "role": "Salesforce Developer",
+    "years_experience": 10,
+    "skills": [
+      "Azure DevOps",
+      "SQL",
+      "Talend",
+      "Lightning",
+      "Salesforce",
+      "CI/CD",
+      "Kotlin",
+      "GraphQL",
+      "MuleSoft",
+      "Apex"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0100",
+        "project_name": "Customer service case portal on Salesforce",
+        "client_sector": "telecom",
+        "role": "Salesforce Developer",
+        "tech_stack": [
+          "Salesforce",
+          "MuleSoft",
+          "SQL",
+          "Apex",
+          "Lightning"
+        ],
+        "description": "Contributed as Salesforce Developer on a telecom sector project, working with Salesforce, MuleSoft, SQL, Apex, Lightning."
+      }
+    ],
+    "certifications": [
+      "Salesforce Platform Developer I"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0135",
+    "name": "Employee_135",
+    "role": "Salesforce Consultant",
+    "years_experience": 7,
+    "skills": [
+      "Apex",
+      "CRM Analytics",
+      "Salesforce",
+      "Data Quality",
+      "Data Migration",
+      "Lightning",
+      "Git",
+      "CI/CD",
+      "TensorFlow",
+      "Django",
+      "Azure DevOps",
+      "MuleSoft",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0102",
+        "project_name": "Membership and donor CRM",
+        "client_sector": "education",
+        "role": "Salesforce Consultant",
+        "tech_stack": [
+          "Azure DevOps",
+          "MuleSoft",
+          "Salesforce",
+          "CRM Analytics",
+          "Apex"
+        ],
+        "description": "Contributed as Salesforce Consultant on an education sector project, working with Azure DevOps, MuleSoft, Salesforce, CRM Analytics, Apex."
+      },
+      {
+        "project_id": "PRJ-0101",
+        "project_name": "Broker management CRM implementation",
+        "client_sector": "insurance",
+        "role": "Salesforce Consultant",
+        "tech_stack": [
+          "Lightning",
+          "Apex",
+          "Azure DevOps",
+          "MuleSoft",
+          "SQL"
+        ],
+        "description": "Contributed as Salesforce Consultant on an insurance sector project, working with Lightning, Apex, Azure DevOps, MuleSoft, SQL."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0136",
+    "name": "Employee_136",
+    "role": "Business Analyst",
+    "years_experience": 8,
+    "skills": [
+      "Data Migration",
+      "SQL",
+      "Azure DevOps",
+      "Apex",
+      "CRM Analytics",
+      "Talend",
+      "CI/CD",
+      "Lightning",
+      "MuleSoft",
+      "Data Quality"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0101",
+        "project_name": "Broker management CRM implementation",
+        "client_sector": "insurance",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Lightning",
+          "Apex",
+          "Azure DevOps",
+          "MuleSoft",
+          "SQL"
+        ],
+        "description": "Contributed as Business Analyst on an insurance sector project, working with Lightning, Apex, Azure DevOps, MuleSoft, SQL."
+      },
+      {
+        "project_id": "PRJ-0099",
+        "project_name": "Sales Cloud rollout for a distributor",
+        "client_sector": "consumer goods",
+        "role": "Business Analyst",
+        "tech_stack": [
+          "Apex",
+          "Data Quality",
+          "Talend",
+          "Data Migration",
+          "MuleSoft"
+        ],
+        "description": "Contributed as Business Analyst on a consumer goods sector project, working with Apex, Data Quality, Talend, Data Migration, MuleSoft."
+      }
+    ],
+    "certifications": [
+      "Salesforce Platform Developer I"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0137",
+    "name": "Employee_137",
+    "role": "Salesforce Developer",
+    "years_experience": 5,
+    "skills": [
+      "Salesforce",
+      "Apex",
+      "CRM Analytics",
+      "Azure DevOps",
+      "Data Quality",
+      "Lightning",
+      "Docker",
+      "Python",
+      "Flutter",
+      "Kotlin",
+      "MuleSoft",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0101",
+        "project_name": "Broker management CRM implementation",
+        "client_sector": "insurance",
+        "role": "Salesforce Developer",
+        "tech_stack": [
+          "Lightning",
+          "Apex",
+          "Azure DevOps",
+          "MuleSoft",
+          "SQL"
+        ],
+        "description": "Contributed as Salesforce Developer on an insurance sector project, working with Lightning, Apex, Azure DevOps, MuleSoft, SQL."
+      }
+    ],
+    "certifications": [
+      "Salesforce Certified Administrator"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0138",
+    "name": "Employee_138",
+    "role": "Security Engineer",
+    "years_experience": 5,
+    "skills": [
+      "Audit Preparation",
+      "Threat Modeling",
+      "Risk Assessment",
+      "OAuth 2.0",
+      "CI/CD",
+      "SQL",
+      "Flutter",
+      "Penetration Testing",
+      "ISO 27001",
+      "OWASP"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0103",
+        "project_name": "Cloud security posture review and hardening",
+        "client_sector": "banking",
+        "role": "Security Engineer",
+        "tech_stack": [
+          "Risk Assessment",
+          "Penetration Testing",
+          "ISO 27001",
+          "OAuth 2.0",
+          "OWASP"
+        ],
+        "description": "Contributed as Security Engineer on a banking sector project, working with Risk Assessment, Penetration Testing, ISO 27001, OAuth 2.0, OWASP."
+      }
+    ],
+    "certifications": [
+      "Certified Information Security Manager"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0139",
+    "name": "Employee_139",
+    "role": "Security Consultant",
+    "years_experience": 7,
+    "skills": [
+      "ISO 27001",
+      "Okta",
+      "Policy Writing",
+      "Microsoft Entra ID",
+      "OWASP",
+      "Audit Preparation",
+      "Python",
+      "Azure DevOps",
+      "Risk Assessment",
+      "Threat Modeling"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0105",
+        "project_name": "Security policy refresh and staff training",
+        "client_sector": "public administration",
+        "role": "Security Consultant",
+        "tech_stack": [
+          "Microsoft Entra ID",
+          "Policy Writing",
+          "Risk Assessment",
+          "Threat Modeling",
+          "ISO 27001"
+        ],
+        "description": "Contributed as Security Consultant on a public administration sector project, working with Microsoft Entra ID, Policy Writing, Risk Assessment, Threat Modeling, ISO 27001."
+      }
+    ],
+    "certifications": [
+      "CompTIA Security+"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0140",
+    "name": "Employee_140",
+    "role": "GRC Analyst",
+    "years_experience": 7,
+    "skills": [
+      "Policy Writing",
+      "ISO 27001",
+      "Threat Modeling",
+      "Penetration Testing",
+      "Audit Preparation",
+      "Okta",
+      "Python",
+      "Docker",
+      "OWASP",
+      "Microsoft Entra ID",
+      "OAuth 2.0"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0104",
+        "project_name": "Identity and access management clean-up",
+        "client_sector": "healthcare",
+        "role": "GRC Analyst",
+        "tech_stack": [
+          "OWASP",
+          "ISO 27001",
+          "Microsoft Entra ID",
+          "Policy Writing",
+          "OAuth 2.0"
+        ],
+        "description": "Contributed as GRC Analyst on a healthcare sector project, working with OWASP, ISO 27001, Microsoft Entra ID, Policy Writing, OAuth 2.0."
+      }
+    ],
+    "certifications": [
+      "CompTIA Security+"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0141",
+    "name": "Employee_141",
+    "role": "ERP Developer",
+    "years_experience": 14,
+    "skills": [
+      "Odoo Community",
+      "SAP Fiori",
+      "Data Migration",
+      "Azure DevOps",
+      "SAP S/4HANA",
+      "SAP BTP",
+      "CI/CD",
+      "Python",
+      "Master Data Management",
+      "SQL"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0108",
+        "project_name": "Maintenance planning module for an ERP",
+        "client_sector": "energy",
+        "role": "ERP Developer",
+        "tech_stack": [
+          "Master Data Management",
+          "Azure DevOps",
+          "Odoo Community",
+          "Data Migration",
+          "SAP Fiori"
+        ],
+        "description": "Contributed as ERP Developer on an energy sector project, working with Master Data Management, Azure DevOps, Odoo Community, Data Migration, SAP Fiori."
+      },
+      {
+        "project_id": "PRJ-0106",
+        "project_name": "ERP inventory and purchasing rollout",
+        "client_sector": "manufacturing",
+        "role": "ERP Developer",
+        "tech_stack": [
+          "SAP Fiori",
+          "Odoo Community",
+          "SQL",
+          "Data Migration",
+          "SAP BTP"
+        ],
+        "description": "Contributed as ERP Developer on a manufacturing sector project, working with SAP Fiori, Odoo Community, SQL, Data Migration, SAP BTP."
+      }
+    ],
+    "certifications": [
+      "PMP"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0142",
+    "name": "Employee_142",
+    "role": "SAP Consultant",
+    "years_experience": 6,
+    "skills": [
+      "ABAP",
+      "SQL",
+      "SAP BTP",
+      "Odoo Community",
+      "SAP Fiori",
+      "PostgreSQL",
+      "CI/CD",
+      "Redis",
+      "Azure DevOps",
+      "Master Data Management",
+      "Data Migration"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0107",
+        "project_name": "Finance close automation on ERP",
+        "client_sector": "consumer goods",
+        "role": "SAP Consultant",
+        "tech_stack": [
+          "SAP Fiori",
+          "Azure DevOps",
+          "Master Data Management",
+          "ABAP",
+          "SQL"
+        ],
+        "description": "Contributed as SAP Consultant on a consumer goods sector project, working with SAP Fiori, Azure DevOps, Master Data Management, ABAP, SQL."
+      },
+      {
+        "project_id": "PRJ-0106",
+        "project_name": "ERP inventory and purchasing rollout",
+        "client_sector": "manufacturing",
+        "role": "SAP Consultant",
+        "tech_stack": [
+          "SAP Fiori",
+          "Odoo Community",
+          "SQL",
+          "Data Migration",
+          "SAP BTP"
+        ],
+        "description": "Contributed as SAP Consultant on a manufacturing sector project, working with SAP Fiori, Odoo Community, SQL, Data Migration, SAP BTP."
+      }
+    ],
+    "certifications": [
+      "SAP Certified Application Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0143",
+    "name": "Employee_143",
+    "role": "ERP Functional Consultant",
+    "years_experience": 6,
+    "skills": [
+      "SAP S/4HANA",
+      "Master Data Management",
+      "Data Migration",
+      "SQL",
+      "PostgreSQL",
+      "Git",
+      "Python",
+      "MongoDB",
+      "Azure DevOps",
+      "SAP BTP"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0109",
+        "project_name": "ERP data migration and cutover support",
+        "client_sector": "logistics",
+        "role": "ERP Functional Consultant",
+        "tech_stack": [
+          "Azure DevOps",
+          "Master Data Management",
+          "SQL",
+          "SAP BTP",
+          "Data Migration"
+        ],
+        "description": "Contributed as ERP Functional Consultant on a logistics sector project, working with Azure DevOps, Master Data Management, SQL, SAP BTP, Data Migration."
+      }
+    ],
+    "certifications": [
+      "SAP Certified Application Associate"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0144",
+    "name": "Employee_144",
+    "role": "ERP Developer",
+    "years_experience": 2,
+    "skills": [
+      "Master Data Management",
+      "ABAP",
+      "PostgreSQL",
+      "Azure DevOps",
+      "Data Migration",
+      "Git",
+      "Odoo Community",
+      "SAP Fiori"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0108",
+        "project_name": "Maintenance planning module for an ERP",
+        "client_sector": "energy",
+        "role": "ERP Developer",
+        "tech_stack": [
+          "Master Data Management",
+          "Azure DevOps",
+          "Odoo Community",
+          "Data Migration",
+          "SAP Fiori"
+        ],
+        "description": "Contributed as ERP Developer on an energy sector project, working with Master Data Management, Azure DevOps, Odoo Community, Data Migration, SAP Fiori."
+      }
+    ],
+    "certifications": [],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0145",
+    "name": "Employee_145",
+    "role": "QA Automation Engineer",
+    "years_experience": 14,
+    "skills": [
+      "Cypress",
+      "Test Automation",
+      "Postman",
+      "Azure DevOps",
+      "Jira",
+      "Python",
+      "Git",
+      "GraphQL",
+      "Spring Boot",
+      "Selenium",
+      "JMeter",
+      "Docker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0110",
+        "project_name": "Regression test automation for payments",
+        "client_sector": "banking",
+        "role": "QA Automation Engineer",
+        "tech_stack": [
+          "Selenium",
+          "JMeter",
+          "Postman",
+          "Cypress",
+          "Docker"
+        ],
+        "description": "Contributed as QA Automation Engineer on a banking sector project, working with Selenium, JMeter, Postman, Cypress, Docker."
+      }
+    ],
+    "certifications": [
+      "ISTQB Certified Tester"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0146",
+    "name": "Employee_146",
+    "role": "Test Manager",
+    "years_experience": 11,
+    "skills": [
+      "CI/CD",
+      "Test Automation",
+      "Python",
+      "Selenium",
+      "Postman",
+      "Jira",
+      "Azure DevOps",
+      "SQL",
+      "JMeter",
+      "Cypress",
+      "Docker"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0110",
+        "project_name": "Regression test automation for payments",
+        "client_sector": "banking",
+        "role": "Test Manager",
+        "tech_stack": [
+          "Selenium",
+          "JMeter",
+          "Postman",
+          "Cypress",
+          "Docker"
+        ],
+        "description": "Contributed as Test Manager on a banking sector project, working with Selenium, JMeter, Postman, Cypress, Docker."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0147",
+    "name": "Employee_147",
+    "role": "QA Automation Engineer",
+    "years_experience": 6,
+    "skills": [
+      "Cypress",
+      "CI/CD",
+      "Azure DevOps",
+      "Jira",
+      "JMeter",
+      "Docker",
+      "Test Automation",
+      "Python"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0112",
+        "project_name": "API contract testing for partner integrations",
+        "client_sector": "telecom",
+        "role": "QA Automation Engineer",
+        "tech_stack": [
+          "Azure DevOps",
+          "JMeter",
+          "Test Automation",
+          "Cypress",
+          "Python"
+        ],
+        "description": "Contributed as QA Automation Engineer on a telecom sector project, working with Azure DevOps, JMeter, Test Automation, Cypress, Python."
+      }
+    ],
+    "certifications": [
+      "Scrum Master (CSM)"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0148",
+    "name": "Employee_148",
+    "role": "IoT Engineer",
+    "years_experience": 11,
+    "skills": [
+      "Azure",
+      "IoT",
+      "Grafana",
+      "Docker",
+      "MQTT",
+      "Python",
+      "Azure IoT Hub",
+      "Edge AI"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0114",
+        "project_name": "Cold-chain temperature monitoring",
+        "client_sector": "logistics",
+        "role": "IoT Engineer",
+        "tech_stack": [
+          "IoT",
+          "Azure IoT Hub",
+          "Python",
+          "Grafana",
+          "Edge AI"
+        ],
+        "description": "Contributed as IoT Engineer on a logistics sector project, working with IoT, Azure IoT Hub, Python, Grafana, Edge AI."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0149",
+    "name": "Employee_149",
+    "role": "Data Engineer",
+    "years_experience": 7,
+    "skills": [
+      "Time-Series Forecasting",
+      "Edge AI",
+      "Docker",
+      "IoT",
+      "Azure IoT Hub",
+      "Azure",
+      "Git",
+      "CI/CD",
+      "Django",
+      "Redis",
+      "MQTT"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0113",
+        "project_name": "Smart meter data ingestion",
+        "client_sector": "energy",
+        "role": "Data Engineer",
+        "tech_stack": [
+          "Edge AI",
+          "MQTT",
+          "IoT",
+          "Azure",
+          "Docker"
+        ],
+        "description": "Contributed as Data Engineer on an energy sector project, working with Edge AI, MQTT, IoT, Azure, Docker."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure IoT Developer Specialty"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0150",
+    "name": "Employee_150",
+    "role": "Cloud Architect",
+    "years_experience": 2,
+    "skills": [
+      "IoT",
+      "Docker",
+      "Time-Series Forecasting",
+      "Grafana",
+      "Azure",
+      "Azure DevOps",
+      "Git",
+      "Azure IoT Hub",
+      "Python",
+      "Edge AI"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0114",
+        "project_name": "Cold-chain temperature monitoring",
+        "client_sector": "logistics",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "IoT",
+          "Azure IoT Hub",
+          "Python",
+          "Grafana",
+          "Edge AI"
+        ],
+        "description": "Contributed as Cloud Architect on a logistics sector project, working with IoT, Azure IoT Hub, Python, Grafana, Edge AI."
+      },
+      {
+        "project_id": "PRJ-0115",
+        "project_name": "Production line sensor monitoring",
+        "client_sector": "manufacturing",
+        "role": "Cloud Architect",
+        "tech_stack": [
+          "Grafana",
+          "Time-Series Forecasting",
+          "Azure",
+          "IoT",
+          "Docker"
+        ],
+        "description": "Contributed as Cloud Architect on a manufacturing sector project, working with Grafana, Time-Series Forecasting, Azure, IoT, Docker."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  },
+  {
+    "cv_id": "CV-0151",
+    "name": "Employee_151",
+    "role": "IoT Engineer",
+    "years_experience": 2,
+    "skills": [
+      "Docker",
+      "IoT",
+      "Kafka",
+      "Azure IoT Hub",
+      "SQL",
+      "Django",
+      "Edge AI",
+      "MQTT",
+      "Azure"
+    ],
+    "past_projects": [
+      {
+        "project_id": "PRJ-0113",
+        "project_name": "Smart meter data ingestion",
+        "client_sector": "energy",
+        "role": "IoT Engineer",
+        "tech_stack": [
+          "Edge AI",
+          "MQTT",
+          "IoT",
+          "Azure",
+          "Docker"
+        ],
+        "description": "Contributed as IoT Engineer on an energy sector project, working with Edge AI, MQTT, IoT, Azure, Docker."
+      }
+    ],
+    "certifications": [
+      "Microsoft Azure Fundamentals"
+    ],
+    "synthetic": true
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "service-001",
+    "doc_type": "tools_tech_stack",
+    "title": "Service: Data Integration",
+    "text": "Service: Data Integration. Data Integration: secure and reliable ETL or ELT pipelines, API-based automation, real-time or batch synchronization across on-premise, cloud and hybrid systems, with attention to data quality, consistency and security. Business value: removes silos, unified real-time view, automated processes, accurate reporting. Tools: Talend, SSIS (Microsoft), MuleSoft, Boomi, Workato, n8n.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "4e5032c50b1d015f67f80ce57977f0e6",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  },
+  {
+    "id": "service-002",
+    "doc_type": "tools_tech_stack",
+    "title": "Service: BI & Dashboarding",
+    "text": "Service: BI & Dashboarding. BI & Dashboarding: data modeling, KPI definition, advanced visualization, and semantic layers on top of ERP, CRM, cloud services and databases, for finance, operations, marketing and HR teams. Tools: Power BI, Tableau, Qlik Sense, Google Data Studio / Looker Studio.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "b7e6f194986eba19c72904075d937479",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  },
+  {
+    "id": "service-003",
+    "doc_type": "tools_tech_stack",
+    "title": "Service: AI Development",
+    "text": "Service: AI Development. AI Development: end-to-end AI projects covering ideation, data preparation, model development, testing, deployment and monitoring. Technologies: machine learning, deep learning, NLP, computer vision and generative AI. Solutions are designed to be scalable, explainable and integrated into existing processes. Use cases: automating repetitive tasks, anomaly detection, customer personalization, logistics optimization, demand forecasting. AI tooling listed on the site: Azure Machine Learning, Google Vertex AI, LangGraph, n8n, BigQuery.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "04b8829cbaedfc69e90cc8952b53bbfa",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  },
+  {
+    "id": "service-004",
+    "doc_type": "tools_tech_stack",
+    "title": "Service: Salesforce Ecosystem",
+    "text": "Service: Salesforce Ecosystem. Salesforce Ecosystem: implementation, customization and API integration of Salesforce with the client's information system. Clouds: Sales Cloud, Service Cloud, Marketing Cloud, Experience Cloud, Commerce Cloud, CRM and CRM Analytics. Automation via Flow, Apex and Lightning, plus platform governance. Goal: a 360-degree customer view, better lead tracking and automated service interactions. OliveSoft is listed as a Salesforce Integration Partner.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "d3db31fb631ffb052db9ed2f1e867304",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  },
+  {
+    "id": "service-005",
+    "doc_type": "tools_tech_stack",
+    "title": "Service: Data Platform",
+    "text": "Service: Data Platform. Data Platform: design and management of modern scalable data infrastructure including data lakes, data warehouses and data marts on cloud or on-premise, covering ingestion, storage, catalog management and data governance. Technologies: Snowflake, Google Cloud Platform (GCP), Microsoft Azure, Databricks, Apache Kafka.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "66b3079338ff724c8836e7b1e0337bef",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/services"
+    }
+  },
+  {
+    "id": "stack-001",
+    "doc_type": "tools_tech_stack",
+    "title": "Technology and platform summary",
+    "text": "Technology and platform summary. Technologies mastered by OliveSoft teams: Integration/automation: MuleSoft, Boomi, Talend, SSIS, Workato, Make, Power Automate, n8n. Cloud/data: Google Cloud Platform, BigQuery, Microsoft Azure, Snowflake, Databricks, Apache Kafka, Dataform. BI: Power BI, Tableau, Qlik Sense, Looker Studio. CRM: Salesforce. AI: Azure Machine Learning, Google Vertex AI, LangGraph, CoAtNet, FAISS. ERP/HR systems seen in projects: Sage X3, Cegid, SAP SuccessFactors, Talent Connect.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "4761d2f01be23aa1db1230aea9cb0e24",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  },
+  {
+    "id": "stack-002",
+    "doc_type": "tools_tech_stack",
+    "title": "Strategic partnerships",
+    "text": "Strategic partnerships. OliveSoft partnerships: Google Cloud (Cloud Partner), Microsoft Azure (Cloud Partner), Make (Integration Partner), n8n (Certified Partner), Databricks (Technology Partner), Workato (Solutions Partner), Salesforce (Integration Partner), Qlik (Distribution Partner), Datadog (Advanced Partner, observability).",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "00778a27ef0f18d4848aa355daebe17e",
+    "metadata": {
+      "category": "tools_tech_stack",
+      "source_url": "https://www.olivesoft.fr/fr/esprit-olivesoft"
+    }
+  }
+]

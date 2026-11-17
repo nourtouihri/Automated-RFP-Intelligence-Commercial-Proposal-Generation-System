@@ -1,0 +1,21 @@
+{
+  "status": "user_supplied_unverified_reference",
+  "reason": "The exact 543-chunk all_chunks.fixed.jsonl and 21-case dataset were not present in the supplied local project, Yasser repository, or teammate repository at inspection time.",
+  "corpus_path": "Cvs dataset/all_chunks.fixed.jsonl",
+  "dataset_path": "rag/eval_dataset.json",
+  "case_count": 21,
+  "corpus_chunks": 543,
+  "k": 5,
+  "precision_at_k": 0.2095238095,
+  "recall_at_k": 0.9285714286,
+  "mean_reciprocal_rank": 0.9047619048,
+  "skipped_cases": 0,
+  "verified_benchmark_directory": "bundled-13-20261016-final",
+  "verified_case_count": 13,
+  "verified_corpus_chunks": 127,
+  "verified_precision_at_k": 0.2,
+  "verified_recall_at_k": 1.0,
+  "verified_mean_reciprocal_rank": 0.9423076923076923,
+  "yasser_base_commit": "b37e437622693699ccac9060189abb37a4294c14",
+  "teammate_read_only_revision": "e42d9df510fa8a558172676069cfaf21bf43ac6d"
+}

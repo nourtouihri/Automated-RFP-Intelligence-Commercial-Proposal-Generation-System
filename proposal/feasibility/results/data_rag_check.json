@@ -1,0 +1,1478 @@
+{
+ "worktree_commit": "cefaa6b",
+ "record_ids": {
+  "chunks": 543,
+  "chunk_has_metadata_record_id": 0,
+  "unique_ids": 543,
+  "matched_by_doc_type": {
+   "company_profile": {
+    "chunks": 7,
+    "in_source_records": 0
+   },
+   "tools_tech_stack": {
+    "chunks": 7,
+    "in_source_records": 0
+   },
+   "client_portfolio": {
+    "chunks": 2,
+    "in_source_records": 0
+   },
+   "project_reference": {
+    "chunks": 6,
+    "in_source_records": 0
+   },
+   "cv": {
+    "chunks": 151,
+    "in_source_records": 151
+   },
+   "project": {
+    "chunks": 149,
+    "in_source_records": 149
+   },
+   "technology": {
+    "chunks": 149,
+    "in_source_records": 149
+   },
+   "stack_by_domain": {
+    "chunks": 20,
+    "in_source_records": 20
+   },
+   "client": {
+    "chunks": 16,
+    "in_source_records": 16
+   },
+   "olivesoft_project": {
+    "chunks": 36,
+    "in_source_records": 36
+   }
+  },
+  "unmatched_examples": {
+   "company_profile": [
+    "company-001",
+    "company-002",
+    "company-003"
+   ],
+   "tools_tech_stack": [
+    "service-001",
+    "service-002",
+    "service-003"
+   ],
+   "client_portfolio": [
+    "client-001",
+    "client-002"
+   ],
+   "project_reference": [
+    "project-001",
+    "project-002",
+    "project-003"
+   ]
+  },
+  "review_needed": {
+   "near_duplicates": 4,
+   "dangling_references": 18,
+   "ground_truth_missing_ids": 0
+  }
+ },
+ "projects": {
+  "n": 149,
+  "fields": [
+   "client_sector",
+   "description",
+   "name",
+   "outcome",
+   "project_id",
+   "synthetic",
+   "tech_stack"
+  ],
+  "has_status_field": false,
+  "outcome_null": 33,
+  "synthetic": 149,
+  "delivered_by_the_outcome_rule": 116,
+  "outcome_openers": [
+   [
+    "Delivered on",
+    106
+   ],
+   [
+    "Cut infrastructure",
+    4
+   ],
+   [
+    "Reduced manual",
+    3
+   ],
+   [
+    "Improved system",
+    2
+   ],
+   [
+    "Increased platform",
+    1
+   ]
+  ]
+ },
+ "ideas": {
+  "chunks": 36,
+  "have_project_origin": 0,
+  "have_relationship": 36,
+  "recognised_as_ideas": 36,
+  "boost_on_main": 0.08,
+  "boost_here": 0.0
+ },
+ "ground_truth": {
+  "tenders_in_file": 15,
+  "tenders_used": 14,
+  "uncovered_not_found_in_feed": [
+   "Applicant tracking system data source",
+   "Consent propagation within 24 hours",
+   "Cegid ERP integration",
+   "Policy administration system integration",
+   "Adviser change management",
+   "ERP order data integration",
+   "Explainable forecasts",
+   "Ground truth adjudication of inconsistent inspector decisions",
+   "Consent propagation within 24 hours",
+   "Cegid ERP integration"
+  ],
+  "rows": 57,
+  "uncovered_rows": 13
+ },
+ "bands": {
+  "Strong": {
+   "rows": 15,
+   "uncovered_rows": 3,
+   "covered_top_is_relevant": 11,
+   "covered_rows": 12,
+   "covered_but_relevant_in_top5": 12
+  },
+  "Partial": {
+   "rows": 15,
+   "uncovered_rows": 3,
+   "covered_top_is_relevant": 9,
+   "covered_rows": 12,
+   "covered_but_relevant_in_top5": 10
+  },
+  "Gap": {
+   "rows": 27,
+   "uncovered_rows": 7,
+   "covered_top_is_relevant": 5,
+   "covered_rows": 20,
+   "covered_but_relevant_in_top5": 7
+  }
+ },
+ "top_type_by_band": {
+  "Strong": {
+   "cv": 1,
+   "project": 14
+  },
+  "Partial": {
+   "project": 15
+  },
+  "Gap": {
+   "project": 25,
+   "cv": 2
+  }
+ },
+ "uncovered_mapping": [
+  [
+   "tender-001",
+   "Statutory payroll reporting formats per country",
+   "Statutory payroll reporting formats per country",
+   1.0,
+   0.32
+  ],
+  [
+   "tender-002",
+   "Talend ETL pipeline over applicant tracking system data",
+   "Applicant tracking system data source",
+   0.65,
+   0.58
+  ],
+  [
+   "tender-004",
+   "System integration unifying Cegid ERP, commerce, marketing, and support records",
+   "Cegid ERP integration",
+   0.75,
+   0.55
+  ],
+  [
+   "tender-004",
+   "Consent and opt-out propagation to downstream systems within 24 hours",
+   "Consent propagation within 24 hours",
+   0.69,
+   0.29
+  ],
+  [
+   "tender-005",
+   "Market-currency normalisation and returns treatment",
+   "Market-currency normalisation and returns treatment",
+   1.0,
+   0.22
+  ],
+  [
+   "tender-006",
+   "Integration to policy administration for case and policy consistency",
+   "Policy administration system integration",
+   0.75,
+   0.48
+  ],
+  [
+   "tender-006",
+   "Phased cutover, parallel-run period, and adviser change management",
+   "Adviser change management",
+   0.71,
+   0.34
+  ],
+  [
+   "tender-007",
+   "Explainable forecasts with confidence bands, not point estimates",
+   "Explainable forecasts",
+   0.66,
+   0.44
+  ],
+  [
+   "tender-007",
+   "ERP order data integration feeding the forecasting pipeline",
+   "ERP order data integration",
+   0.79,
+   0.53
+  ],
+  [
+   "tender-009",
+   "Training ground truth adjudication from inconsistent historical inspector decisions",
+   "Ground truth adjudication of inconsistent inspector decisions",
+   0.89,
+   0.35
+  ],
+  [
+   "tender-010",
+   "National and international class code handling",
+   "National and international class code handling",
+   1.0,
+   0.31
+  ],
+  [
+   "tender-015",
+   "System integration unifying Cegid ERP, commerce, marketing, and support records",
+   "Cegid ERP integration",
+   0.75,
+   0.55
+  ],
+  [
+   "tender-015",
+   "Consent and opt-out propagation to downstream systems within 24 hours",
+   "Consent propagation within 24 hours",
+   0.69,
+   0.29
+  ]
+ ],
+ "sweep": [
+  {
+   "threshold": 0.3,
+   "rows_at_or_above": 48,
+   "right_asset_share_at_or_above": 0.46,
+   "rows_below": 9,
+   "uncovered_share_below": 0.33,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 3
+  },
+  {
+   "threshold": 0.35,
+   "rows_at_or_above": 40,
+   "right_asset_share_at_or_above": 0.53,
+   "rows_below": 17,
+   "uncovered_share_below": 0.35,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 5
+  },
+  {
+   "threshold": 0.4,
+   "rows_at_or_above": 30,
+   "right_asset_share_at_or_above": 0.67,
+   "rows_below": 27,
+   "uncovered_share_below": 0.26,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 7
+  },
+  {
+   "threshold": 0.45,
+   "rows_at_or_above": 27,
+   "right_asset_share_at_or_above": 0.74,
+   "rows_below": 30,
+   "uncovered_share_below": 0.27,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 7
+  },
+  {
+   "threshold": 0.5,
+   "rows_at_or_above": 24,
+   "right_asset_share_at_or_above": 0.75,
+   "rows_below": 33,
+   "uncovered_share_below": 0.27,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 9
+  },
+  {
+   "threshold": 0.55,
+   "rows_at_or_above": 15,
+   "right_asset_share_at_or_above": 0.73,
+   "rows_below": 42,
+   "uncovered_share_below": 0.24,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 17
+  },
+  {
+   "threshold": 0.6,
+   "rows_at_or_above": 6,
+   "right_asset_share_at_or_above": 0.83,
+   "rows_below": 51,
+   "uncovered_share_below": 0.25,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 23
+  },
+  {
+   "threshold": 0.65,
+   "rows_at_or_above": 4,
+   "right_asset_share_at_or_above": 0.75,
+   "rows_below": 53,
+   "uncovered_share_below": 0.25,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 25
+  },
+  {
+   "threshold": 0.7,
+   "rows_at_or_above": 2,
+   "right_asset_share_at_or_above": 1.0,
+   "rows_below": 55,
+   "uncovered_share_below": 0.24,
+   "covered_rows_with_a_relevant_hit_in_top5_below": 27
+  }
+ ],
+ "tender_level": [
+  {
+   "tender": "tender-001",
+   "cv_recall_at_3": 0.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project_reference",
+    "project",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-002",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project_reference",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-003",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project",
+    "olivesoft_project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-004",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project_reference",
+    "project",
+    "project",
+    "project_reference",
+    "olivesoft_project"
+   ],
+   "project_top5_are_PRJ": 2
+  },
+  {
+   "tender": "tender-005",
+   "cv_recall_at_3": 1.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 5
+  },
+  {
+   "tender": "tender-006",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 5
+  },
+  {
+   "tender": "tender-007",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 0.5,
+   "project_top5_types": [
+    "project",
+    "project_reference",
+    "project",
+    "olivesoft_project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 3
+  },
+  {
+   "tender": "tender-008",
+   "cv_recall_at_3": 0.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 5
+  },
+  {
+   "tender": "tender-009",
+   "cv_recall_at_3": 1.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project_reference",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-010",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project_reference",
+    "olivesoft_project",
+    "project_reference"
+   ],
+   "project_top5_are_PRJ": 2
+  },
+  {
+   "tender": "tender-011",
+   "cv_recall_at_3": 1.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "client",
+    "project",
+    "client"
+   ],
+   "project_top5_are_PRJ": 3
+  },
+  {
+   "tender": "tender-012",
+   "cv_recall_at_3": 1.0,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project",
+    "project",
+    "project",
+    "olivesoft_project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-014",
+   "cv_recall_at_3": 0.0,
+   "project_recall_at_5": 0.0,
+   "project_top5_types": [
+    "project",
+    "olivesoft_project",
+    "project",
+    "project",
+    "project"
+   ],
+   "project_top5_are_PRJ": 4
+  },
+  {
+   "tender": "tender-015",
+   "cv_recall_at_3": 0.6666666666666666,
+   "project_recall_at_5": 1.0,
+   "project_top5_types": [
+    "project_reference",
+    "project",
+    "project",
+    "project_reference",
+    "olivesoft_project"
+   ],
+   "project_top5_are_PRJ": 2
+  }
+ ],
+ "ideas_top1": {
+  "rows": 57,
+  "top1_is_an_idea": 3,
+  "main_corpus_reported": "19 of 53 rows (feasibility-report.md)"
+ },
+ "reference_cards": {
+  "cards": 42,
+  "not_a_PRJ_record": 3,
+  "no_source_record": 0,
+  "title_is_just_the_id": 0,
+  "delivered": 38,
+  "ideas": 3,
+  "by_type": {
+   "project": 39,
+   "olivesoft_project": 3
+  },
+  "examples_without_record": []
+ },
+ "rows_detail": [
+  {
+   "top1_is_idea": false,
+   "tender": "tender-001",
+   "requirement": "MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems",
+   "score": 0.59,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "cv"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-001",
+   "requirement": "Master data management with cross-system duplicate employee prevention",
+   "score": 0.39,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-001",
+   "requirement": "Statutory payroll reporting formats per country",
+   "score": 0.32,
+   "uncovered": true,
+   "uncovered_as_worded": "Statutory payroll reporting formats per country",
+   "uncovered_match_sim": 1.0,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-001",
+   "requirement": "Versioned API layer with handover documentation to internal IT",
+   "score": 0.59,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-002",
+   "requirement": "Talend ETL pipeline over applicant tracking system data",
+   "score": 0.58,
+   "uncovered": true,
+   "uncovered_as_worded": "Applicant tracking system data source",
+   "uncovered_match_sim": 0.65,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-002",
+   "requirement": "SSIS package migration onto the new platform",
+   "score": 0.6,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-002",
+   "requirement": "Incremental load strategy with partial-failure tolerance",
+   "score": 0.33,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-002",
+   "requirement": "Reconciliation report detecting drift between legacy and new extracts",
+   "score": 0.31,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-003",
+   "requirement": "Power BI reporting layer replacing six divisional reporting packs",
+   "score": 0.67,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-003",
+   "requirement": "Governed semantic model with KPI definitions signed off by HR leadership",
+   "score": 0.52,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-003",
+   "requirement": "Three-year historical comparison",
+   "score": 0.34,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-003",
+   "requirement": "Row-level security scoped to divisional HR managers",
+   "score": 0.54,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-004",
+   "requirement": "System integration unifying Cegid ERP, commerce, marketing, and support records",
+   "score": 0.55,
+   "uncovered": true,
+   "uncovered_as_worded": "Cegid ERP integration",
+   "uncovered_match_sim": 0.75,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-004",
+   "requirement": "Identity resolution on email, loyalty number, and postcode fallback",
+   "score": 0.5,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-004",
+   "requirement": "BigQuery analytical landing zone on GCP",
+   "score": 0.52,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-004",
+   "requirement": "Consent and opt-out propagation to downstream systems within 24 hours",
+   "score": 0.29,
+   "uncovered": true,
+   "uncovered_as_worded": "Consent propagation within 24 hours",
+   "uncovered_match_sim": 0.69,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-005",
+   "requirement": "Kafka ingestion of order events from commerce and warehouse systems",
+   "score": 0.56,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-005",
+   "requirement": "Databricks lakehouse modelling with explicit late-event handling",
+   "score": 0.79,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-005",
+   "requirement": "Market-currency normalisation and returns treatment",
+   "score": 0.22,
+   "uncovered": true,
+   "uncovered_as_worded": "Market-currency normalisation and returns treatment",
+   "uncovered_match_sim": 1.0,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-005",
+   "requirement": "Operational monitoring of pipeline health, excluding downstream finance replacement",
+   "score": 0.42,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-006",
+   "requirement": "Salesforce Service Cloud implementation with unified omnichannel queue",
+   "score": 0.49,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-006",
+   "requirement": "Migration of 14 years of open and closed case history",
+   "score": 0.48,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-006",
+   "requirement": "Integration to policy administration for case and policy consistency",
+   "score": 0.48,
+   "uncovered": true,
+   "uncovered_as_worded": "Policy administration system integration",
+   "uncovered_match_sim": 0.75,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-006",
+   "requirement": "Phased cutover, parallel-run period, and adviser change management",
+   "score": 0.34,
+   "uncovered": true,
+   "uncovered_as_worded": "Adviser change management",
+   "uncovered_match_sim": 0.71,
+   "top_is_relevant": false,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-007",
+   "requirement": "Machine learning demand forecasting per material and customer",
+   "score": 0.68,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-007",
+   "requirement": "Explainable forecasts with confidence bands, not point estimates",
+   "score": 0.44,
+   "uncovered": true,
+   "uncovered_as_worded": "Explainable forecasts",
+   "uncovered_match_sim": 0.66,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-007",
+   "requirement": "ERP order data integration feeding the forecasting pipeline",
+   "score": 0.53,
+   "uncovered": true,
+   "uncovered_as_worded": "ERP order data integration",
+   "uncovered_match_sim": 0.79,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-007",
+   "requirement": "Planner override captured as training signal",
+   "score": 0.32,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-008",
+   "requirement": "Retrieval augmented generation assistant over an approved internal corpus",
+   "score": 0.37,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-008",
+   "requirement": "Mandatory refusal and human handover when the corpus does not support an answer",
+   "score": 0.26,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-008",
+   "requirement": "Source citations to document and page for every answer",
+   "score": 0.22,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-008",
+   "requirement": "Evaluation against 500 historical queries against an agreed accuracy floor",
+   "score": 0.52,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-009",
+   "requirement": "Computer vision inspection covering the seven highest-return defect classes",
+   "score": 0.55,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-009",
+   "requirement": "False-negative bias on safety-critical defects",
+   "score": 0.29,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-009",
+   "requirement": "Edge inference with offline operation and opportunistic sync",
+   "score": 0.79,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-009",
+   "requirement": "Training ground truth adjudication from inconsistent historical inspector decisions",
+   "score": 0.35,
+   "uncovered": true,
+   "uncovered_as_worded": "Ground truth adjudication of inconsistent inspector decisions",
+   "uncovered_match_sim": 0.89,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-010",
+   "requirement": "Similarity detection across image marks and word marks",
+   "score": 0.51,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-010",
+   "requirement": "National and international class code handling",
+   "score": 0.31,
+   "uncovered": true,
+   "uncovered_as_worded": "National and international class code handling",
+   "uncovered_match_sim": 1.0,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-010",
+   "requirement": "Ranked candidate list exposing the matched basis, not a bare score",
+   "score": 0.2,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "cv"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-010",
+   "requirement": "Auditable decision trail sufficient for external appeal review",
+   "score": 0.37,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-011",
+   "requirement": "CRM Analytics on the existing Salesforce platform for central case oversight",
+   "score": 0.55,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-011",
+   "requirement": "Monthly reporting pack covering volume, resolution time, and backlog by office",
+   "score": 0.44,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-011",
+   "requirement": "Offline working capability in 30 municipal offices with reconciliation on reconnect",
+   "score": 0.58,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-011",
+   "requirement": "Citizen record data residency restricted to ministry-operated infrastructure",
+   "score": 0.37,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-012",
+   "requirement": "BigQuery warehouse for validated statistical series on GCP",
+   "score": 0.62,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-012",
+   "requirement": "Snowflake modelling of statistical outputs with full lineage to submitting unit",
+   "score": 0.37,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "cv"
+  },
+  {
+   "top1_is_idea": true,
+   "tender": "tender-012",
+   "requirement": "Submission specification enforcement rejecting non-conforming files with specific errors",
+   "score": 0.28,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-012",
+   "requirement": "Documented and approved de-identification review before publication",
+   "score": 0.39,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": true,
+   "tender": "tender-014",
+   "requirement": "Five-year framework with two break points",
+   "score": 0.3,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-014",
+   "requirement": "Allergen management evidence to current standards",
+   "score": 0.21,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": true,
+   "tender": "tender-014",
+   "requirement": "Ethical sourcing policy compliance",
+   "score": 0.38,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-014",
+   "requirement": "Transition plan for two sites on an interim arrangement ending in eleven weeks",
+   "score": 0.37,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-014",
+   "requirement": "Transparent pricing separable by site and service line",
+   "score": 0.35,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-015",
+   "requirement": "System integration unifying Cegid ERP, commerce, marketing, and support records",
+   "score": 0.55,
+   "uncovered": true,
+   "uncovered_as_worded": "Cegid ERP integration",
+   "uncovered_match_sim": 0.75,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-015",
+   "requirement": "Identity resolution on email, loyalty number, and postcode fallback",
+   "score": 0.5,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-015",
+   "requirement": "BigQuery analytical landing zone on GCP",
+   "score": 0.52,
+   "uncovered": false,
+   "uncovered_as_worded": null,
+   "uncovered_match_sim": null,
+   "top_is_relevant": true,
+   "relevant_in_top5": true,
+   "top_type": "project"
+  },
+  {
+   "top1_is_idea": false,
+   "tender": "tender-015",
+   "requirement": "Consent and opt-out propagation to downstream systems within 24 hours",
+   "score": 0.29,
+   "uncovered": true,
+   "uncovered_as_worded": "Consent propagation within 24 hours",
+   "uncovered_match_sim": 0.69,
+   "top_is_relevant": false,
+   "relevant_in_top5": false,
+   "top_type": "project"
+  }
+ ],
+ "tenders": [
+  {
+   "tender": "tender-001",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.59,
+   "rows": [
+    0.59,
+    0.39,
+    0.32,
+    0.59
+   ]
+  },
+  {
+   "tender": "tender-002",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.6,
+   "rows": [
+    0.58,
+    0.6,
+    0.33,
+    0.31
+   ]
+  },
+  {
+   "tender": "tender-003",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.67,
+   "rows": [
+    0.67,
+    0.52,
+    0.34,
+    0.54
+   ]
+  },
+  {
+   "tender": "tender-004",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.55,
+   "rows": [
+    0.55,
+    0.5,
+    0.52,
+    0.29
+   ]
+  },
+  {
+   "tender": "tender-005",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.79,
+   "rows": [
+    0.56,
+    0.79,
+    0.22,
+    0.42
+   ]
+  },
+  {
+   "tender": "tender-006",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.49,
+   "rows": [
+    0.49,
+    0.48,
+    0.48,
+    0.34
+   ]
+  },
+  {
+   "tender": "tender-007",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.68,
+   "rows": [
+    0.68,
+    0.44,
+    0.53,
+    0.32
+   ]
+  },
+  {
+   "tender": "tender-008",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.52,
+   "rows": [
+    0.37,
+    0.26,
+    0.22,
+    0.52
+   ]
+  },
+  {
+   "tender": "tender-009",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.79,
+   "rows": [
+    0.55,
+    0.29,
+    0.79,
+    0.35
+   ]
+  },
+  {
+   "tender": "tender-010",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.51,
+   "rows": [
+    0.51,
+    0.31,
+    0.2,
+    0.37
+   ]
+  },
+  {
+   "tender": "tender-011",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.58,
+   "rows": [
+    0.55,
+    0.44,
+    0.58,
+    0.37
+   ]
+  },
+  {
+   "tender": "tender-012",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.62,
+   "rows": [
+    0.62,
+    0.37,
+    0.28,
+    0.39
+   ]
+  },
+  {
+   "tender": "tender-014",
+   "kind": "simulated",
+   "verdict": "no-bid",
+   "best": 0.38,
+   "rows": [
+    0.3,
+    0.21,
+    0.38,
+    0.37,
+    0.35
+   ]
+  },
+  {
+   "tender": "tender-015",
+   "kind": "simulated",
+   "verdict": "bid",
+   "best": 0.55,
+   "rows": [
+    0.55,
+    0.5,
+    0.52,
+    0.29
+   ]
+  },
+  {
+   "tender": "heldout-001",
+   "kind": "held-out",
+   "verdict": "bid",
+   "best": 0.64,
+   "rows": [
+    0.64,
+    0.36,
+    0.39,
+    0.41,
+    0.5
+   ]
+  },
+  {
+   "tender": "heldout-002",
+   "kind": "held-out",
+   "verdict": "bid",
+   "best": 0.47,
+   "rows": [
+    0.32,
+    0.47,
+    0.39,
+    0.33
+   ]
+  },
+  {
+   "tender": "heldout-003",
+   "kind": "held-out",
+   "verdict": "no-bid",
+   "best": 0.32,
+   "rows": [
+    0.3,
+    0.13,
+    0.32,
+    0.23,
+    0.21
+   ]
+  },
+  {
+   "tender": "heldout-004",
+   "kind": "held-out",
+   "verdict": "bid",
+   "best": 0.71,
+   "rows": [
+    0.71,
+    0.36,
+    0.46,
+    0.38,
+    0.4,
+    0.63
+   ]
+  },
+  {
+   "tender": "heldout-005",
+   "kind": "held-out",
+   "verdict": "bid",
+   "best": 0.48,
+   "rows": [
+    0.48,
+    0.38,
+    0.44,
+    0.38
+   ]
+  }
+ ],
+ "tender_bands": {
+  "simulated": {
+   "Strong": 15,
+   "Gap": 27,
+   "Partial": 15
+  },
+  "held-out": {
+   "Strong": 3,
+   "Gap": 14,
+   "Partial": 7
+  }
+ }
+}

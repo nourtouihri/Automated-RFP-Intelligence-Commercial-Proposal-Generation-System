@@ -1,0 +1,13 @@
+cv-fastapi-backend               rank 28  right 0.362  best wrong 0.524
+cv-react-fullstack               rank None  right None  best wrong 0.53
+cv-rag-data                      rank 37  right 0.249  best wrong 0.378
+cv-kubernetes-cloud              rank 22  right 0.253  best wrong 0.474
+project-banking-modernization    rank 44  right 0.283  best wrong 0.491
+project-healthcare-ai            rank None  right None  best wrong 0.416
+project-retail-automation        rank None  right None  best wrong 0.477
+project-mobile-real-estate       rank None  right None  best wrong 0.5
+tool-enterprise-rag              rank 1  right 0.592  best wrong 0.389
+tool-regulated-healthcare        rank 1  right 0.621  best wrong 0.288
+olivesoft-olia-agentic-rag       rank 1  right 0.776  best wrong 0.615
+olivesoft-odoo-n8n-migration     rank 1  right 0.742  best wrong 0.42
+olivesoft-iso27001               rank 1  right 0.572  best wrong 0.298

@@ -1,0 +1,1511 @@
+{
+ "source": {
+  "run": "llm-run-final-heldout",
+  "model": "openai/gpt-oss-20b",
+  "kind": "proposal",
+  "note": "replies recorded from a real run; hits re-retrieved with the same in-memory RAG (run_llm.py)"
+ },
+ "tender": {
+  "id": "heldout-001",
+  "title": "Regional Patient Record Interoperability Platform",
+  "issuer": "Northgate Regional Health Authority",
+  "deadline": "2026-12-04",
+  "raw_text": "Northgate Regional Health Authority runs eleven hospitals on four different electronic patient record systems, and clinicians re-enter allergy and medication data whenever a patient is transferred. We require an interoperability layer that exposes patient summaries through HL7 FHIR APIs, with a master patient index that matches records across the four systems. Access must be role-based, and every read of a patient record must be audit-logged and kept for seven years. Data may not leave the national health cloud region. A clinical dashboard must show transfer delays and duplicate-record rates to hospital managers.",
+  "source": "simulated_feed",
+  "requirements": [
+   "HL7 FHIR API exposing patient summaries from four record systems",
+   "Master patient index matching duplicate records across systems",
+   "Role-based access with an audit log of every record read kept seven years",
+   "Hosting restricted to the national health cloud region",
+   "Dashboard of transfer delays and duplicate-record rates for hospital managers"
+  ]
+ },
+ "requirement_matches": {
+  "HL7 FHIR API exposing patient summaries from four record systems": [
+   {
+    "content": "Official statistics warehouse with end-to-end lineage for a healthcare body (client sector: healthcare). Tech stack: BigQuery, Snowflake, Data lineage, dbt. Outcome: Each published series traceable to its submitting unit; 56% fewer correction notices..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0019",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.45573600650531193,
+    "ranking_score": 0.45573600650531193
+   },
+   {
+    "content": "Employee_042 (Senior Data Platform Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it. Tech stack: BigQuery, Snowflake, Data lineage, dbt.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0042",
+     "person": "Employee_042",
+     "role": "Senior Data Platform Engineer",
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.4277151345426452,
+    "ranking_score": 0.4277151345426452
+   },
+   {
+    "content": "OliveSoft capability 'Regulated Interoperability Delivery Pack' in Custom Software Development. Domain patterns for systems requiring auditable interoperability, privacy, and accessibility controls. Capabilities: FHIR and HL7 integration, audit trails, consent management, accessibility engineering, data residency design. Technologies: HL7 FHIR, OAuth 2.0, OpenID Connect, FastAPI, PostgreSQL. Use cases: healthcare integration, public-sector platforms, regulated customer portals. Standards and certifications: HL7 FHIR, GDPR, WCAG 2.1 AA.",
+    "doc_type": "tool",
+    "metadata": {
+     "record_id": "TOOL-006",
+     "name": "Regulated Interoperability Delivery Pack",
+     "category": "Custom Software Development",
+     "capabilities": [
+      "FHIR and HL7 integration",
+      "audit trails",
+      "consent management",
+      "accessibility engineering",
+      "data residency design"
+     ],
+     "technologies": [
+      "HL7 FHIR",
+      "OAuth 2.0",
+      "OpenID Connect",
+      "FastAPI",
+      "PostgreSQL"
+     ],
+     "use_cases": [
+      "healthcare integration",
+      "public-sector platforms",
+      "regulated customer portals"
+     ],
+     "certifications": [
+      "HL7 FHIR",
+      "GDPR",
+      "WCAG 2.1 AA"
+     ]
+    },
+    "similarity": 0.39637768246201094,
+    "ranking_score": 0.39637768246201094
+   },
+   {
+    "content": "Employee_050 (Analytics Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Enforced submission specifications that reject malformed files with precise error messages, and ran a documented de-identification review before open data release. Tech stack: BigQuery, Snowflake, Data lineage, dbt.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0050",
+     "person": "Employee_050",
+     "role": "Analytics Engineer",
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.37864460835792907,
+    "ranking_score": 0.37864460835792907
+   },
+   {
+    "content": "HR KPI semantic model and executive dashboards for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, KPI governance, SQL, Power Query. Outcome: Three years of historical workforce data comparable on one model; report preparation time down 49%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0031",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance",
+      "SQL",
+      "Power Query"
+     ]
+    },
+    "similarity": 0.36850737374867026,
+    "ranking_score": 0.36850737374867026
+   }
+  ],
+  "Master patient index matching duplicate records across systems": [
+   {
+    "content": "Prior-art crawler with auditable matching for a public sector (justice) authority (client sector: public sector (justice)). Tech stack: Web crawler, Similarity detection, Elasticsearch, Audit logging. Outcome: Every match decision reproducible for external appeal; class code filters across 6 classes..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0010",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    },
+    "similarity": 0.3443989024838882,
+    "ranking_score": 0.3443989024838882
+   },
+   {
+    "content": "Employee_040 (Senior Search & ML Engineer) worked on 'Prior-art crawler with auditable matching for a public sector (justice) authority' in the public sector (justice) sector. Built similarity detection over logo images and word marks, returning ranked candidates with the matched evidence shown rather than an opaque score. Tech stack: Web crawler, Similarity detection.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0040",
+     "person": "Employee_040",
+     "role": "Senior Search & ML Engineer",
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection"
+     ]
+    },
+    "similarity": 0.3295967953565161,
+    "ranking_score": 0.3295967953565161
+   },
+   {
+    "content": "Employee_029 (Data Scientist (Similarity Search)) worked on 'Prior-art crawler with auditable matching for a public sector (justice) authority' in the public sector (justice) sector. Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler. Tech stack: Web crawler, Similarity detection.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0029",
+     "person": "Employee_029",
+     "role": "Data Scientist (Similarity Search)",
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection"
+     ]
+    },
+    "similarity": 0.32187780035957336,
+    "ranking_score": 0.32187780035957336
+   },
+   {
+    "content": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, REST APIs, Master Data Management. Outcome: Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0001",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Anypoint Platform",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.3203834092366159,
+    "ranking_score": 0.3203834092366159
+   },
+   {
+    "content": "Official statistics warehouse with end-to-end lineage for a healthcare body (client sector: healthcare). Tech stack: BigQuery, Snowflake, Data lineage, dbt. Outcome: Each published series traceable to its submitting unit; 56% fewer correction notices..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0019",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    },
+    "similarity": 0.29407726588158745,
+    "ranking_score": 0.29407726588158745
+   }
+  ],
+  "Role-based access with an audit log of every record read kept seven years": [
+   {
+    "content": "OliveSoft project initiative 'Talend ETL and ESB monitoring platform' (2025, status: proposed, relationship: pfe_internship_project). Improve OliveSoft's Talend audit platform with embedded BI and infrastructure automation. Domains: monitoring, audit, BI, devops. Technologies: Talend, Java, Power BI, Azure SQL, Terraform, CI/CD. Planned work: . Client context: OliveSoft (internal product).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-011",
+     "name": "Talend ETL and ESB monitoring platform",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "OliveSoft (internal product)",
+     "domains": [
+      "monitoring",
+      "audit",
+      "BI",
+      "devops"
+     ],
+     "tech_stack": [
+      "Talend",
+      "Java",
+      "Power BI",
+      "Azure SQL",
+      "Terraform",
+      "CI/CD"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 13,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.308275582072858,
+    "ranking_score": 0.388275582072858
+   },
+   {
+    "content": "Employee_033 (Information Retrieval Engineer) worked on 'Prior-art crawler with auditable matching for a public sector (justice) authority' in the public sector (justice) sector. Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler. Tech stack: Web crawler, Similarity detection, Elasticsearch, Audit logging.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0033",
+     "person": "Employee_033",
+     "role": "Information Retrieval Engineer",
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    },
+    "similarity": 0.34549777812990856,
+    "ranking_score": 0.34549777812990856
+   },
+   {
+    "content": "Employee_030 (Power BI Developer) worked on 'Governed workforce analytics in Power BI for a healthcare organisation' in the healthcare sector. Implemented row-level security by division and multi-year historical trend views for workforce, absence and attrition reporting. Tech stack: Power BI, DAX, Semantic model design, Row-level security.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0030",
+     "person": "Employee_030",
+     "role": "Power BI Developer",
+     "project_name": "Governed workforce analytics in Power BI for a healthcare organisation",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "DAX",
+      "Semantic model design",
+      "Row-level security"
+     ]
+    },
+    "similarity": 0.32584291814431676,
+    "ranking_score": 0.32584291814431676
+   },
+   {
+    "content": "Prior-art crawler with auditable matching for a public sector (justice) authority (client sector: public sector (justice)). Tech stack: Web crawler, Similarity detection, Elasticsearch, Audit logging. Outcome: Every match decision reproducible for external appeal; class code filters across 6 classes..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0010",
+     "client_sector": "public sector (justice)",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    },
+    "similarity": 0.3224930573766845,
+    "ranking_score": 0.3224930573766845
+   },
+   {
+    "content": "OliveSoft project initiative 'Talend reporting solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Domains: reporting, BI, data integration. Technologies: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-003",
+     "name": "Talend reporting solution",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "reporting",
+      "BI",
+      "data integration"
+     ],
+     "tech_stack": [
+      "Talend",
+      "Power BI",
+      "GCP",
+      "Datadog",
+      "ServiceNow",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.20681975363152005,
+    "ranking_score": 0.28681975363152007
+   }
+  ],
+  "Hosting restricted to the national health cloud region": [
+   {
+    "content": "OliveSoft project initiative 'GCP data-platform evolution' (2023/2024, status: proposed, relationship: pfe_internship_project). Evolve a GCP data platform with Terraform infrastructure, Azure DevOps delivery, Pub/Sub streaming and Cloud Run scalability. Domains: data platform, cloud, devops. Technologies: GCP, Python, Terraform, Pub/Sub, Cloud Run, Azure DevOps. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-005",
+     "name": "GCP data-platform evolution",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "data platform",
+      "cloud",
+      "devops"
+     ],
+     "tech_stack": [
+      "GCP",
+      "Python",
+      "Terraform",
+      "Pub/Sub",
+      "Cloud Run",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 7,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.3703919680073838,
+    "ranking_score": 0.4503919680073838
+   },
+   {
+    "content": "OliveSoft project initiative 'Talend TOS platform on Microsoft Azure' (2023/2024, status: proposed, relationship: pfe_internship_project). Deploy Talend Open Studio on Azure with Terraform, Airflow, Docker CI/CD and Kubernetes. Domains: data integration, devops, cloud. Technologies: Talend Open Studio, Azure, Terraform, Apache Airflow, Docker, Kubernetes, Helm. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-001",
+     "name": "Talend TOS platform on Microsoft Azure",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "data integration",
+      "devops",
+      "cloud"
+     ],
+     "tech_stack": [
+      "Talend Open Studio",
+      "Azure",
+      "Terraform",
+      "Apache Airflow",
+      "Docker",
+      "Kubernetes",
+      "Helm"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 3,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.3559487136214544,
+    "ranking_score": 0.43594871362145443
+   },
+   {
+    "content": "OliveSoft project initiative 'OLIA cloud-agnostic DevSecOps' (2026, status: proposed, relationship: pfe_internship_project). Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Domains: devsecops, cloud, MLOps, observability. Technologies: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Planned work: . Client context: OliveSoft (internal product).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-028",
+     "name": "OLIA cloud-agnostic DevSecOps",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal product)",
+     "domains": [
+      "devsecops",
+      "cloud",
+      "MLOps",
+      "observability"
+     ],
+     "tech_stack": [
+      "Kubernetes",
+      "Docker",
+      "GitHub Actions",
+      "Grafana",
+      "Prometheus",
+      "FastAPI",
+      "Keycloak"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 7,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.327917930711925,
+    "ranking_score": 0.407917930711925
+   },
+   {
+    "content": "OliveSoft project initiative 'BigQuery SQL workflow cloud platform' (2025, status: proposed, relationship: pfe_internship_project). Create, version, optimize, schedule and trace BigQuery SQL workflows on Google Cloud. Domains: data platform, cloud, SQL. Technologies: GCP, BigQuery, SQL, Git, CI/CD, Terraform. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-019",
+     "name": "BigQuery SQL workflow cloud platform",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2025",
+     "client": "Not specified",
+     "domains": [
+      "data platform",
+      "cloud",
+      "SQL"
+     ],
+     "tech_stack": [
+      "GCP",
+      "BigQuery",
+      "SQL",
+      "Git",
+      "CI/CD",
+      "Terraform"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2025.pdf",
+       "page": 21,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.3003981535350821,
+    "ranking_score": 0.3803981535350821
+   },
+   {
+    "content": "OliveSoft project initiative 'Salesforce customer master reference' (2023/2024, status: proposed, relationship: pfe_internship_project). Configure Salesforce Sales Cloud roles, permissions, Lightning interfaces, Apex triggers and CI/CD. Domains: CRM, Salesforce. Technologies: Salesforce Sales Cloud, Apex, Lightning, Azure DevOps. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-009",
+     "name": "Salesforce customer master reference",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "CRM",
+      "Salesforce"
+     ],
+     "tech_stack": [
+      "Salesforce Sales Cloud",
+      "Apex",
+      "Lightning",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 11,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.29403670397470555,
+    "ranking_score": 0.37403670397470556
+   }
+  ],
+  "Dashboard of transfer delays and duplicate-record rates for hospital managers": [
+   {
+    "content": "HR KPI semantic model and executive dashboards for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, KPI governance, SQL, Power Query. Outcome: Three years of historical workforce data comparable on one model; report preparation time down 49%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0031",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance",
+      "SQL",
+      "Power Query"
+     ]
+    },
+    "similarity": 0.410802800544789,
+    "ranking_score": 0.410802800544789
+   },
+   {
+    "content": "Governed workforce analytics in Power BI for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, DAX, Semantic model design, Row-level security. Outcome: 6 divisional reporting packs replaced; HR managers see only their own division..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0017",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "DAX",
+      "Semantic model design",
+      "Row-level security"
+     ]
+    },
+    "similarity": 0.38381584397428986,
+    "ranking_score": 0.38381584397428986
+   },
+   {
+    "content": "Service Cloud contact centre rollout for a banking provider (client sector: banking). Tech stack: Salesforce Service Cloud, Omni-Channel routing, Case migration, Data Loader. Outcome: 11 years of case history migrated; average handling time down 44%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0007",
+     "client_sector": "banking",
+     "tech_stack": [
+      "Salesforce Service Cloud",
+      "Omni-Channel routing",
+      "Case migration",
+      "Data Loader"
+     ]
+    },
+    "similarity": 0.3785333698107212,
+    "ranking_score": 0.3785333698107212
+   },
+   {
+    "content": "Regional sales dashboards in Tableau (client sector: retail). Tech stack: Tableau, SQL, Excel. Outcome: Sales managers self-serve weekly figures..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0032",
+     "client_sector": "retail",
+     "tech_stack": [
+      "Tableau",
+      "SQL",
+      "Excel"
+     ]
+    },
+    "similarity": 0.37332177949238493,
+    "ranking_score": 0.37332177949238493
+   },
+   {
+    "content": "Employee_005 (Senior BI Consultant) worked on 'HR KPI semantic model and executive dashboards for a healthcare organisation' in the healthcare sector. Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team. Tech stack: Power BI, KPI governance.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0005",
+     "person": "Employee_005",
+     "role": "Senior BI Consultant",
+     "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance"
+     ]
+    },
+    "similarity": 0.36059298849993227,
+    "ranking_score": 0.36059298849993227
+   }
+  ]
+ },
+ "cv_matches": [
+  {
+   "content": "Employee_050 (Analytics Engineer) worked on 'Official statistics warehouse with end-to-end lineage for a healthcare body' in the healthcare sector. Enforced submission specifications that reject malformed files with precise error messages, and ran a documented de-identification review before open data release. Tech stack: BigQuery, Snowflake, Data lineage, dbt.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0050",
+    "person": "Employee_050",
+    "role": "Analytics Engineer",
+    "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+    "client_sector": "healthcare",
+    "tech_stack": [
+     "BigQuery",
+     "Snowflake",
+     "Data lineage",
+     "dbt"
+    ]
+   },
+   "similarity": 0.4402319963696091,
+   "ranking_score": 0.4402319963696091
+  },
+  {
+   "content": "Employee_005 (Senior BI Consultant) worked on 'HR KPI semantic model and executive dashboards for a healthcare organisation' in the healthcare sector. Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team. Tech stack: Power BI, KPI governance.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0005",
+    "person": "Employee_005",
+    "role": "Senior BI Consultant",
+    "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+    "client_sector": "healthcare",
+    "tech_stack": [
+     "Power BI",
+     "KPI governance"
+    ]
+   },
+   "similarity": 0.43652799090270006,
+   "ranking_score": 0.43652799090270006
+  },
+  {
+   "content": "Employee_018 (Integration Developer) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, Master Data Management.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0018",
+    "person": "Employee_018",
+    "role": "Integration Developer",
+    "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+    "client_sector": "consumer goods",
+    "tech_stack": [
+     "MuleSoft",
+     "Master Data Management"
+    ]
+   },
+   "similarity": 0.4347279952770995,
+   "ranking_score": 0.4347279952770995
+  }
+ ],
+ "project_matches": [
+  {
+   "content": "Official statistics warehouse with end-to-end lineage for a healthcare body (client sector: healthcare). Tech stack: BigQuery, Snowflake, Data lineage, dbt. Outcome: Each published series traceable to its submitting unit; 56% fewer correction notices..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0019",
+    "client_sector": "healthcare",
+    "tech_stack": [
+     "BigQuery",
+     "Snowflake",
+     "Data lineage",
+     "dbt"
+    ]
+   },
+   "similarity": 0.4822024335070362,
+   "ranking_score": 0.4822024335070362
+  },
+  {
+   "content": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, REST APIs, Master Data Management. Outcome: Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0001",
+    "client_sector": "consumer goods",
+    "tech_stack": [
+     "MuleSoft",
+     "Anypoint Platform",
+     "REST APIs",
+     "Master Data Management"
+    ]
+   },
+   "similarity": 0.47975625233604874,
+   "ranking_score": 0.47975625233604874
+  },
+  {
+   "content": "HR KPI semantic model and executive dashboards for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, KPI governance, SQL, Power Query. Outcome: Three years of historical workforce data comparable on one model; report preparation time down 49%..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0031",
+    "client_sector": "healthcare",
+    "tech_stack": [
+     "Power BI",
+     "KPI governance",
+     "SQL",
+     "Power Query"
+    ]
+   },
+   "similarity": 0.46851325741432237,
+   "ranking_score": 0.46851325741432237
+  },
+  {
+   "content": "OliveSoft project initiative 'Talend reporting solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Domains: reporting, BI, data integration. Technologies: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Planned work: . Client context: Not specified.",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-003",
+    "name": "Talend reporting solution",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2023/2024",
+    "client": "Not specified",
+    "domains": [
+     "reporting",
+     "BI",
+     "data integration"
+    ],
+    "tech_stack": [
+     "Talend",
+     "Power BI",
+     "GCP",
+     "Datadog",
+     "ServiceNow",
+     "Azure DevOps"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2023.pdf",
+      "page": 5,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.3481101967434863,
+   "ranking_score": 0.4281101967434863
+  },
+  {
+   "content": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave. Outcome: Single employee golden record across 6 payroll providers; duplicate hires fell by 32%..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0029",
+    "client_sector": "logistics",
+    "tech_stack": [
+     "MuleSoft",
+     "SAP SuccessFactors",
+     "Master Data Management",
+     "DataWeave"
+    ]
+   },
+   "similarity": 0.4273758487992241,
+   "ranking_score": 0.4273758487992241
+  }
+ ],
+ "records": {
+  "PRJ-0019": {
+   "project_id": "PRJ-0019",
+   "client_sector": "healthcare",
+   "summary": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+   "tech_stack": [
+    "BigQuery",
+    "Snowflake",
+    "Data lineage",
+    "dbt"
+   ],
+   "outcome": "Each published series traceable to its submitting unit; 56% fewer correction notices."
+  },
+  "CV-0042": {
+   "cv_id": "CV-0042",
+   "name": "Employee_042",
+   "role": "Senior Data Platform Engineer",
+   "years_experience": 9,
+   "skills": [
+    "BigQuery",
+    "Snowflake",
+    "Data lineage",
+    "De-identification",
+    "Schema validation",
+    "dbt",
+    "Open data publishing",
+    "GCP"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "description": "Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it.",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Data Engineer"
+   ]
+  },
+  "TOOL-006": {
+   "tool_id": "TOOL-006",
+   "name": "Regulated Interoperability Delivery Pack",
+   "category": "Custom Software Development",
+   "description": "Domain patterns for systems requiring auditable interoperability, privacy, and accessibility controls.",
+   "capabilities": [
+    "FHIR and HL7 integration",
+    "audit trails",
+    "consent management",
+    "accessibility engineering",
+    "data residency design"
+   ],
+   "technologies": [
+    "HL7 FHIR",
+    "OAuth 2.0",
+    "OpenID Connect",
+    "FastAPI",
+    "PostgreSQL"
+   ],
+   "use_cases": [
+    "healthcare integration",
+    "public-sector platforms",
+    "regulated customer portals"
+   ],
+   "certifications": [
+    "HL7 FHIR",
+    "GDPR",
+    "WCAG 2.1 AA"
+   ]
+  },
+  "CV-0050": {
+   "cv_id": "CV-0050",
+   "name": "Employee_050",
+   "role": "Analytics Engineer",
+   "years_experience": 7,
+   "skills": [
+    "BigQuery",
+    "Snowflake",
+    "Data lineage",
+    "De-identification",
+    "Schema validation",
+    "Open data publishing",
+    "dbt"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Validated submissions and open data release pipeline for a public statistics body",
+     "client_sector": "public statistics",
+     "description": "Built a BigQuery warehouse for validated statistical series and Snowflake models that trace every published figure back to the unit that submitted it.",
+     "tech_stack": [
+      "Schema validation",
+      "De-identification"
+     ]
+    },
+    {
+     "project_name": "Official statistics warehouse with end-to-end lineage for a healthcare body",
+     "client_sector": "healthcare",
+     "description": "Enforced submission specifications that reject malformed files with precise error messages, and ran a documented de-identification review before open data release.",
+     "tech_stack": [
+      "BigQuery",
+      "Snowflake",
+      "Data lineage",
+      "dbt"
+     ]
+    }
+   ],
+   "certifications": [
+    "Google Professional Data Engineer"
+   ]
+  },
+  "PRJ-0031": {
+   "project_id": "PRJ-0031",
+   "client_sector": "healthcare",
+   "summary": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+   "tech_stack": [
+    "Power BI",
+    "KPI governance",
+    "SQL",
+    "Power Query"
+   ],
+   "outcome": "Three years of historical workforce data comparable on one model; report preparation time down 49%."
+  },
+  "PRJ-0010": {
+   "project_id": "PRJ-0010",
+   "client_sector": "public sector (justice)",
+   "summary": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+   "tech_stack": [
+    "Web crawler",
+    "Similarity detection",
+    "Elasticsearch",
+    "Audit logging"
+   ],
+   "outcome": "Every match decision reproducible for external appeal; class code filters across 6 classes."
+  },
+  "CV-0040": {
+   "cv_id": "CV-0040",
+   "name": "Employee_040",
+   "role": "Senior Search & ML Engineer",
+   "years_experience": 13,
+   "skills": [
+    "Similarity detection",
+    "Image embeddings",
+    "Text similarity",
+    "Web crawler",
+    "Python"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "description": "Built similarity detection over logo images and word marks, returning ranked candidates with the matched evidence shown rather than an opaque score.",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection"
+     ]
+    },
+    {
+     "project_name": "Customer self-service web portal for a telecom provider",
+     "client_sector": "telecom",
+     "description": "Supported the delivery team on integration and data tasks.",
+     "tech_stack": [
+      "React",
+      "Next.js"
+     ]
+    }
+   ],
+   "certifications": [
+    "Elastic Certified Engineer"
+   ]
+  },
+  "CV-0029": {
+   "cv_id": "CV-0029",
+   "name": "Employee_029",
+   "role": "Data Scientist (Similarity Search)",
+   "years_experience": 6,
+   "skills": [
+    "Similarity detection",
+    "Image embeddings",
+    "Text similarity",
+    "Web crawler",
+    "FAISS"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Trademark image and word-mark similarity search for a public sector (justice) registry",
+     "client_sector": "public sector (justice)",
+     "description": "Built similarity detection over logo images and word marks, returning ranked candidates with the matched evidence shown rather than an opaque score.",
+     "tech_stack": [
+      "Similarity detection",
+      "Image embeddings",
+      "Text similarity",
+      "FAISS"
+     ]
+    },
+    {
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "description": "Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler.",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection"
+     ]
+    },
+    {
+     "project_name": "Customer self-service web portal for a telecom provider",
+     "client_sector": "telecom",
+     "description": "Supported the delivery team on integration and data tasks.",
+     "tech_stack": [
+      "React",
+      "Next.js"
+     ]
+    }
+   ],
+   "certifications": [
+    "Elastic Certified Engineer"
+   ]
+  },
+  "PRJ-0001": {
+   "project_id": "PRJ-0001",
+   "client_sector": "consumer goods",
+   "summary": "Employee master data consolidation with versioned APIs for a consumer goods company",
+   "tech_stack": [
+    "MuleSoft",
+    "Anypoint Platform",
+    "REST APIs",
+    "Master Data Management"
+   ],
+   "outcome": "Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off."
+  },
+  "olivesoft-011": {
+   "id": "olivesoft-011",
+   "name": "Talend ETL and ESB monitoring platform",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "monitoring",
+    "audit",
+    "BI",
+    "devops"
+   ],
+   "client": "OliveSoft (internal product)",
+   "description": "Improve OliveSoft's Talend audit platform with embedded BI and infrastructure automation.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Java",
+     "Power BI",
+     "Azure SQL",
+     "Terraform",
+     "CI/CD"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 13,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "CV-0033": {
+   "cv_id": "CV-0033",
+   "name": "Employee_033",
+   "role": "Information Retrieval Engineer",
+   "years_experience": 5,
+   "skills": [
+    "Similarity detection",
+    "Image embeddings",
+    "Text similarity",
+    "Web crawler",
+    "Python",
+    "Elasticsearch",
+    "Audit logging"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Trademark image and word-mark similarity search for a public sector (justice) registry",
+     "client_sector": "public sector (justice)",
+     "description": "Built similarity detection over logo images and word marks, returning ranked candidates with the matched evidence shown rather than an opaque score.",
+     "tech_stack": [
+      "Similarity detection",
+      "Image embeddings",
+      "Text similarity"
+     ]
+    },
+    {
+     "project_name": "Prior-art crawler with auditable matching for a public sector (justice) authority",
+     "client_sector": "public sector (justice)",
+     "description": "Handled national and international classification codes and kept an auditable decision trail that could withstand an appeal; wrote the prior-art web crawler.",
+     "tech_stack": [
+      "Web crawler",
+      "Similarity detection",
+      "Elasticsearch",
+      "Audit logging"
+     ]
+    }
+   ],
+   "certifications": [
+    "Elastic Certified Engineer"
+   ]
+  },
+  "CV-0030": {
+   "cv_id": "CV-0030",
+   "name": "Employee_030",
+   "role": "Power BI Developer",
+   "years_experience": 6,
+   "skills": [
+    "Power BI",
+    "DAX",
+    "Semantic model design",
+    "Row-level security",
+    "KPI governance",
+    "Power Query"
+   ],
+   "past_projects": [
+    {
+     "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+     "client_sector": "healthcare",
+     "description": "Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team.",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance",
+      "Power Query"
+     ]
+    },
+    {
+     "project_name": "Governed workforce analytics in Power BI for a healthcare organisation",
+     "client_sector": "healthcare",
+     "description": "Implemented row-level security by division and multi-year historical trend views for workforce, absence and attrition reporting.",
+     "tech_stack": [
+      "Power BI",
+      "DAX",
+      "Semantic model design",
+      "Row-level security"
+     ]
+    }
+   ],
+   "certifications": [
+    "Microsoft Certified: Power BI Data Analyst Associate"
+   ]
+  },
+  "olivesoft-003": {
+   "id": "olivesoft-003",
+   "name": "Talend reporting solution",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "reporting",
+    "BI",
+    "data integration"
+   ],
+   "description": "Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Power BI",
+     "GCP",
+     "Datadog",
+     "ServiceNow",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 5,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-005": {
+   "id": "olivesoft-005",
+   "name": "GCP data-platform evolution",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "data platform",
+    "cloud",
+    "devops"
+   ],
+   "description": "Evolve a GCP data platform with Terraform infrastructure, Azure DevOps delivery, Pub/Sub streaming and Cloud Run scalability.",
+   "tech_stack": {
+    "technologies": [
+     "GCP",
+     "Python",
+     "Terraform",
+     "Pub/Sub",
+     "Cloud Run",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 7,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-001": {
+   "id": "olivesoft-001",
+   "name": "Talend TOS platform on Microsoft Azure",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "data integration",
+    "devops",
+    "cloud"
+   ],
+   "description": "Deploy Talend Open Studio on Azure with Terraform, Airflow, Docker CI/CD and Kubernetes.",
+   "tech_stack": {
+    "technologies": [
+     "Talend Open Studio",
+     "Azure",
+     "Terraform",
+     "Apache Airflow",
+     "Docker",
+     "Kubernetes",
+     "Helm"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 3,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-028": {
+   "id": "olivesoft-028",
+   "name": "OLIA cloud-agnostic DevSecOps",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "devsecops",
+    "cloud",
+    "MLOps",
+    "observability"
+   ],
+   "client": "OliveSoft (internal product)",
+   "description": "Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation.",
+   "tech_stack": {
+    "technologies": [
+     "Kubernetes",
+     "Docker",
+     "GitHub Actions",
+     "Grafana",
+     "Prometheus",
+     "FastAPI",
+     "Keycloak"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 7,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-019": {
+   "id": "olivesoft-019",
+   "name": "BigQuery SQL workflow cloud platform",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "data platform",
+    "cloud",
+    "SQL"
+   ],
+   "description": "Create, version, optimize, schedule and trace BigQuery SQL workflows on Google Cloud.",
+   "tech_stack": {
+    "technologies": [
+     "GCP",
+     "BigQuery",
+     "SQL",
+     "Git",
+     "CI/CD",
+     "Terraform"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 21,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-009": {
+   "id": "olivesoft-009",
+   "name": "Salesforce customer master reference",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "CRM",
+    "Salesforce"
+   ],
+   "description": "Configure Salesforce Sales Cloud roles, permissions, Lightning interfaces, Apex triggers and CI/CD.",
+   "tech_stack": {
+    "technologies": [
+     "Salesforce Sales Cloud",
+     "Apex",
+     "Lightning",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 11,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "PRJ-0017": {
+   "project_id": "PRJ-0017",
+   "client_sector": "healthcare",
+   "summary": "Governed workforce analytics in Power BI for a healthcare organisation",
+   "tech_stack": [
+    "Power BI",
+    "DAX",
+    "Semantic model design",
+    "Row-level security"
+   ],
+   "outcome": "6 divisional reporting packs replaced; HR managers see only their own division."
+  },
+  "PRJ-0007": {
+   "project_id": "PRJ-0007",
+   "client_sector": "banking",
+   "summary": "Service Cloud contact centre rollout for a banking provider",
+   "tech_stack": [
+    "Salesforce Service Cloud",
+    "Omni-Channel routing",
+    "Case migration",
+    "Data Loader"
+   ],
+   "outcome": "11 years of case history migrated; average handling time down 44%."
+  },
+  "PRJ-0032": {
+   "project_id": "PRJ-0032",
+   "client_sector": "retail",
+   "summary": "Regional sales dashboards in Tableau",
+   "tech_stack": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "outcome": "Sales managers self-serve weekly figures."
+  },
+  "CV-0005": {
+   "cv_id": "CV-0005",
+   "name": "Employee_005",
+   "role": "Senior BI Consultant",
+   "years_experience": 10,
+   "skills": [
+    "Power BI",
+    "DAX",
+    "Semantic model design",
+    "Row-level security",
+    "KPI governance",
+    "Azure Synapse"
+   ],
+   "past_projects": [
+    {
+     "project_name": "HR KPI semantic model and executive dashboards for a healthcare organisation",
+     "client_sector": "healthcare",
+     "description": "Replaced divisional spreadsheet packs with one governed Power BI semantic model whose KPI definitions were agreed with the HR leadership team.",
+     "tech_stack": [
+      "Power BI",
+      "KPI governance"
+     ]
+    },
+    {
+     "project_name": "Offline field inspection mobile app for a telecom network operator",
+     "client_sector": "telecom",
+     "description": "Supported the delivery team on integration and data tasks.",
+     "tech_stack": [
+      "Flutter",
+      "Firebase"
+     ]
+    }
+   ],
+   "certifications": [
+    "Microsoft Certified: Power BI Data Analyst Associate"
+   ]
+  },
+  "CV-0018": {
+   "cv_id": "CV-0018",
+   "name": "Employee_018",
+   "role": "Integration Developer",
+   "years_experience": 7,
+   "skills": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "API-led connectivity",
+    "DataWeave",
+    "OAuth 2.0"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "description": "Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries.",
+     "tech_stack": [
+      "MuleSoft",
+      "Master Data Management"
+     ]
+    },
+    {
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "description": "Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports.",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    }
+   ],
+   "certifications": [
+    "MuleSoft Certified Developer"
+   ]
+  },
+  "PRJ-0029": {
+   "project_id": "PRJ-0029",
+   "client_sector": "logistics",
+   "summary": "Multi-country HR and payroll integration hub for a logistics group",
+   "tech_stack": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "DataWeave"
+   ],
+   "outcome": "Single employee golden record across 6 payroll providers; duplicate hires fell by 32%."
+  }
+ },
+ "replies": [
+  {
+   "step": "brief",
+   "reply": "{\"headline\":\"Unified Patient Summary Platform\",\"subtitle\":\"FHIR APIs, Master Index, Audit Log, Cloud‑Only Hosting\",\"key_messages\":[\"Integrate four EHRs via HL7 FHIR\",\"Master patient index eliminates duplicates\",\"Role‑based access with 7‑year audit trail\"],\"tone\":\"Clear, technical, focused on compliance\"}"
+  },
+  {
+   "step": "letter",
+   "reply": "{\"salutation\":\"Dear Northgate Regional Health Authority\",\"paragraphs\":[\"We propose a Unified Patient Summary Platform that connects four EHRs using HL7 FHIR APIs and a Master Index to remove duplicate records. The solution stores audit logs for seven years, ensuring role‑based access and full regulatory compliance.\",\"The platform runs entirely on cloud hosting, simplifying deployment and scaling while maintaining strict data security controls. Our design supports future expansion to additional data sources and analytics modules.\"]}"
+  },
+  {
+   "step": "letter",
+   "reply": "{\"salutation\":\"Dear Northgate Regional Health Authority Team\",\"paragraphs\":[\"We propose a Unified Patient Summary Platform that integrates four EHRs through HL7 FHIR APIs, ensuring a single, accurate record for each patient.\",\"The system features a master patient index to eliminate duplicates and role‑based access with a seven‑year audit trail, hosted exclusively on secure cloud infrastructure.\"],\"closing\":\"Sincerely, OliveSoft\"}"
+  },
+  {
+   "step": "summary",
+   "reply": "{\"title\":\"Unified Patient Summary Platform\",\"pillars\":[{\"title\":\"FHIR Integration\",\"body\":\"Integrates four EHRs through HL7 FHIR APIs ensuring data consistency across systems.\",\"evidence\":[\"CV-0050\",\"PRJ-0019\"]},{\"title\":\"Master Index\",\"body\":\"A master patient index removes duplicates, providing a single source of truth.\",\"evidence\":[\"CV-0050\",\"PRJ-0019\"]},{\"title\":\"Audit & Access\",\"body\":\"Role‑based access with a 7‑year audit trail safeguards compliance and accountability.\",\"evidence\":[\"CV-0050\"]}],\"why_us\":\"Data lineage experience and secure cloud‑only hosting align with your compliance and integration needs.\"}"
+  },
+  {
+   "step": "needs",
+   "reply": "{\"needs\":[{\"title\":\"FHIR API for Patient Summaries\",\"body\":\"Expose patient summaries from four EHRs via HL7 FHIR to support clinician data access.\"},{\"title\":\"Master Patient Index Integration\",\"body\":\"Match duplicate records across all systems to eliminate re‑entry of allergy and medication data.\"},{\"title\":\"Role‑Based Audit Logging\",\"body\":\"Log each record read with seven‑year retention and restrict data to national health cloud.\"}]}"
+  },
+  {
+   "step": "evidence",
+   "reply": "{\"line\":\"Not applicable.\"}"
+  },
+  {
+   "step": "evidence",
+   "reply": "{\"line\":\"Dashboard shows transfer delays & duplicates.\"}"
+  },
+  {
+   "step": "approach",
+   "reply": "{\"phases\":[{\"name\":\"Analysis & Design\",\"weeks\":3,\"body\":\"Define API schema, master index logic, audit rules, and cloud compliance requirements.\"},{\"name\":\"Implementation\",\"weeks\":8,\"body\":\"Develop FHIR APIs, patient index, role‑based access, and audit logging.\"},{\"name\":\"Integration & Testing\",\"weeks\":4,\"body\":\"Connect to four EHRs, validate duplicate handling, and perform security tests.\"},{\"name\":\"Dashboard & Handover\",\"weeks\":2,\"body\":\"Deploy performance dashboard, finalize documentation, and transfer to operations.\"}]}"
+  },
+  {
+   "step": "approach",
+   "reply": "{\"phases\":[{\"name\":\"Data Connect\",\"weeks\":6,\"body\":\"Connect the four EHRs to a unified FHIR API for patient summaries.\"},{\"name\":\"Index & Audit\",\"weeks\":5,\"body\":\"Build master index to dedupe records and configure role-based audit logging.\"}]}"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "client-001",
+    "doc_type": "client_portfolio",
+    "title": "Reference clients",
+    "text": "Reference clients. Client references displayed on OliveSoft's website: BNP Paribas, Bouygues Telecom, BVLGARI, CELINE, COFIROUTE, GIVENCHY, Groupe BPCE, CISION, Courreges, Intersport, Jacquemus, Kenzo, Lefebvre, Lemaire, Loewe, Marc Jacobs, MBPS, Rimowa, RTE, Skill and you, Timbu, TotalEnergies, SATISFY, SOEUR, BEACHCOMBER, Electre, Etam. These span luxury and fashion, retail, banking, telecom, energy and infrastructure.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "87189211e97f41ff89cf3cdcc3728cb7",
+    "metadata": {
+      "category": "client_portfolio",
+      "source_url": "https://www.olivesoft.fr/fr"
+    }
+  },
+  {
+    "id": "client-002",
+    "doc_type": "client_portfolio",
+    "title": "Client sector grouping",
+    "text": "Client sector grouping. Grouping of OliveSoft reference clients by sector (derived from the logos on its website): Luxury and fashion: BVLGARI, CELINE, GIVENCHY, Courreges, Jacquemus, Kenzo, Lemaire, Loewe, Marc Jacobs, Rimowa, SATISFY, SOEUR, Etam. Retail and sport: Intersport, BEACHCOMBER. Banking: BNP Paribas, Groupe BPCE. Telecom: Bouygues Telecom. Energy and mobility: TotalEnergies, RTE, COFIROUTE. Media, publishing and services: CISION, Electre, Lefebvre, MBPS, Skill and you, Timbu.",
+    "lang": "en",
+    "synthetic": false,
+    "source_file": "olivesoft_knowledge_base.jsonl",
+    "chunk_version": "v1",
+    "content_hash": "bf471cdadd03af6daf3fab80ae53af5c",
+    "metadata": {
+      "category": "client_portfolio",
+      "source_url": "https://www.olivesoft.fr/fr"
+    }
+  }
+]

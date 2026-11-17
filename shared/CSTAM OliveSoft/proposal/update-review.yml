@@ -1,0 +1,8 @@
+name: Update review
+method: PUT
+url: '{{proposalUrl}}/proposal/ef50e61d-c40b-45e8-9c8c-6ab2a244fc96/review'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: "{\n  \"deck_generated_at\": \"2026-10-30T23:47:36.399857\",\n  \n  \"sections\": {\n    \"summary\": \"approved\",\n    \"team\": \"review\"\n  },\n  \"signed_off_by\": \"Ama\"\n}"

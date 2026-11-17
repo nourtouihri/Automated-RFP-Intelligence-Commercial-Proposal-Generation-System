@@ -1,0 +1,175 @@
+{
+  "tender-001": {
+    "cv_ids": [
+      "CV-0021",
+      "CV-0022",
+      "CV-0023"
+    ],
+    "project_ids": [
+      "PRJ-0013",
+      "PRJ-0014"
+    ],
+    "note": ""
+  },
+  "tender-002": {
+    "cv_ids": [
+      "CV-0024",
+      "CV-0025",
+      "CV-0026"
+    ],
+    "project_ids": [
+      "PRJ-0015",
+      "PRJ-0016"
+    ],
+    "note": ""
+  },
+  "tender-003": {
+    "cv_ids": [
+      "CV-0027",
+      "CV-0028",
+      "CV-0029"
+    ],
+    "project_ids": [
+      "PRJ-0017",
+      "PRJ-0018"
+    ],
+    "note": ""
+  },
+  "tender-004": {
+    "cv_ids": [
+      "CV-0030",
+      "CV-0031",
+      "CV-0032"
+    ],
+    "project_ids": [
+      "PRJ-0019",
+      "PRJ-0020"
+    ],
+    "note": ""
+  },
+  "tender-005": {
+    "cv_ids": [
+      "CV-0033",
+      "CV-0034",
+      "CV-0035"
+    ],
+    "project_ids": [
+      "PRJ-0021",
+      "PRJ-0022"
+    ],
+    "note": ""
+  },
+  "tender-006": {
+    "cv_ids": [
+      "CV-0036",
+      "CV-0037",
+      "CV-0038"
+    ],
+    "project_ids": [
+      "PRJ-0023",
+      "PRJ-0024"
+    ],
+    "note": ""
+  },
+  "tender-007": {
+    "cv_ids": [
+      "CV-0039",
+      "CV-0040",
+      "CV-0041"
+    ],
+    "project_ids": [
+      "PRJ-0025",
+      "PRJ-0026"
+    ],
+    "note": ""
+  },
+  "tender-008": {
+    "cv_ids": [
+      "CV-0042",
+      "CV-0043",
+      "CV-0044"
+    ],
+    "project_ids": [
+      "PRJ-0027",
+      "PRJ-0028"
+    ],
+    "note": ""
+  },
+  "tender-009": {
+    "cv_ids": [
+      "CV-0045",
+      "CV-0046",
+      "CV-0047"
+    ],
+    "project_ids": [
+      "PRJ-0029",
+      "PRJ-0030"
+    ],
+    "note": ""
+  },
+  "tender-010": {
+    "cv_ids": [
+      "CV-0048",
+      "CV-0049",
+      "CV-0050"
+    ],
+    "project_ids": [
+      "PRJ-0031",
+      "PRJ-0032"
+    ],
+    "note": ""
+  },
+  "tender-011": {
+    "cv_ids": [
+      "CV-0051",
+      "CV-0052",
+      "CV-0053"
+    ],
+    "project_ids": [
+      "PRJ-0033",
+      "PRJ-0034"
+    ],
+    "note": ""
+  },
+  "tender-012": {
+    "cv_ids": [
+      "CV-0054",
+      "CV-0055",
+      "CV-0056"
+    ],
+    "project_ids": [
+      "PRJ-0035",
+      "PRJ-0036"
+    ],
+    "note": ""
+  },
+  "tender-013": {
+    "cv_ids": [
+      "CV-0057",
+      "CV-0058",
+      "CV-0059"
+    ],
+    "project_ids": [
+      "PRJ-0037",
+      "PRJ-0038"
+    ],
+    "note": ""
+  },
+  "tender-014": {
+    "cv_ids": [],
+    "project_ids": [],
+    "note": "Catering and facilities services - no IT match in Olivesoft's scope."
+  },
+  "tender-015": {
+    "cv_ids": [
+      "CV-0030",
+      "CV-0031",
+      "CV-0032"
+    ],
+    "project_ids": [
+      "PRJ-0019",
+      "PRJ-0020"
+    ],
+    "note": "Re-post of tender-004; same matches."
+  }
+}

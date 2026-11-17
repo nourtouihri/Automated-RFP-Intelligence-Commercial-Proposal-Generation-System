@@ -1,0 +1,1126 @@
+{
+ "source": {
+  "run": "llm-run-final-sim",
+  "model": "openai/gpt-oss-20b",
+  "kind": "proposal",
+  "note": "replies recorded from a real run; hits re-retrieved with the same in-memory RAG (run_llm.py)"
+ },
+ "tender": {
+  "id": "tender-001",
+  "title": "Global HRIS Integration Across 11 Countries",
+  "issuer": "Meridian Consumer Goods Group",
+  "deadline": "2026-11-20",
+  "raw_text": "Meridian Consumer Goods Group is consolidating HR data for 4,200 employees across 11 countries. We operate SAP SuccessFactors for core HR, a third-party talent marketplace for contingent staffing, and four separate local payroll systems. We require an integration layer built on MuleSoft to unify these into a single employee record, with master data management so duplicate employees are not created across systems. Payroll interfaces must respect local statutory reporting formats. The integration must be deployed as versioned APIs and documented for our internal IT team, who will maintain it after handover.",
+  "source": "simulated_feed",
+  "requirements": [
+   "MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems",
+   "Master data management with cross-system duplicate employee prevention",
+   "Statutory payroll reporting formats per country",
+   "Versioned API layer with handover documentation to internal IT"
+  ]
+ },
+ "requirement_matches": {
+  "MuleSoft integration layer unifying SuccessFactors, talent marketplace, and 4 local payroll systems": [
+   {
+    "content": "Employee_028 (MuleSoft Developer) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0028",
+     "person": "Employee_028",
+     "role": "MuleSoft Developer",
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.7399666128623588,
+    "ranking_score": 0.7399666128623588
+   },
+   {
+    "content": "Employee_026 (Senior Integration Architect) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0026",
+     "person": "Employee_026",
+     "role": "Senior Integration Architect",
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    "similarity": 0.7360569576516086,
+    "ranking_score": 0.7360569576516086
+   },
+   {
+    "content": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave. Outcome: Single employee golden record across 6 payroll providers; duplicate hires fell by 32%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0029",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    "similarity": 0.7346533403434556,
+    "ranking_score": 0.7346533403434556
+   },
+   {
+    "content": "Employee_018 (Integration Developer) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0018",
+     "person": "Employee_018",
+     "role": "Integration Developer",
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.6868325958245576,
+    "ranking_score": 0.6868325958245576
+   },
+   {
+    "content": "Employee_027 (Integration Consultant) worked on 'Internal delivery for a consumer goods client' in the consumer goods sector. Connected Sales Cloud opportunities to an ERP through a small MuleSoft layer. Tech stack: Salesforce Sales Cloud, MuleSoft, REST APIs.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0027",
+     "person": "Employee_027",
+     "role": "Integration Consultant",
+     "project_name": "Internal delivery for a consumer goods client",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "Salesforce Sales Cloud",
+      "MuleSoft",
+      "REST APIs"
+     ]
+    },
+    "similarity": 0.6639475402381579,
+    "ranking_score": 0.6639475402381579
+   }
+  ],
+  "Master data management with cross-system duplicate employee prevention": [
+   {
+    "content": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, REST APIs, Master Data Management. Outcome: Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0001",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Anypoint Platform",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.5618150571456617,
+    "ranking_score": 0.5618150571456617
+   },
+   {
+    "content": "Employee_018 (Integration Developer) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0018",
+     "person": "Employee_018",
+     "role": "Integration Developer",
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.5274263347464543,
+    "ranking_score": 0.5274263347464543
+   },
+   {
+    "content": "Employee_028 (MuleSoft Developer) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, Anypoint Platform, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0028",
+     "person": "Employee_028",
+     "role": "MuleSoft Developer",
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Anypoint Platform",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.5078855050813812,
+    "ranking_score": 0.5078855050813812
+   },
+   {
+    "content": "Employee_026 (Senior Integration Architect) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, REST APIs, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0026",
+     "person": "Employee_026",
+     "role": "Senior Integration Architect",
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.4851631500827699,
+    "ranking_score": 0.4851631500827699
+   },
+   {
+    "content": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave. Outcome: Single employee golden record across 6 payroll providers; duplicate hires fell by 32%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0029",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    "similarity": 0.3862363668967767,
+    "ranking_score": 0.3862363668967767
+   }
+  ],
+  "Statutory payroll reporting formats per country": [
+   {
+    "content": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave. Outcome: Single employee golden record across 6 payroll providers; duplicate hires fell by 32%..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0029",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    "similarity": 0.41934201765940404,
+    "ranking_score": 0.41934201765940404
+   },
+   {
+    "content": "OliveSoft project initiative 'Talend reporting solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting. Domains: reporting, BI, data integration. Technologies: Talend, Power BI, GCP, Datadog, ServiceNow, Azure DevOps. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-003",
+     "name": "Talend reporting solution",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "reporting",
+      "BI",
+      "data integration"
+     ],
+     "tech_stack": [
+      "Talend",
+      "Power BI",
+      "GCP",
+      "Datadog",
+      "ServiceNow",
+      "Azure DevOps"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 5,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.31758697697564936,
+    "ranking_score": 0.3975869769756494
+   },
+   {
+    "content": "Employee_018 (Integration Developer) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0018",
+     "person": "Employee_018",
+     "role": "Integration Developer",
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    "similarity": 0.3877485662018612,
+    "ranking_score": 0.3877485662018612
+   },
+   {
+    "content": "Regional sales dashboards in Tableau (client sector: retail). Tech stack: Tableau, SQL, Excel. Outcome: Sales managers self-serve weekly figures..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0032",
+     "client_sector": "retail",
+     "tech_stack": [
+      "Tableau",
+      "SQL",
+      "Excel"
+     ]
+    },
+    "similarity": 0.3672668410807017,
+    "ranking_score": 0.3672668410807017
+   },
+   {
+    "content": "Governed workforce analytics in Power BI for a healthcare organisation (client sector: healthcare). Tech stack: Power BI, DAX, Semantic model design, Row-level security. Outcome: 6 divisional reporting packs replaced; HR managers see only their own division..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0017",
+     "client_sector": "healthcare",
+     "tech_stack": [
+      "Power BI",
+      "DAX",
+      "Semantic model design",
+      "Row-level security"
+     ]
+    },
+    "similarity": 0.35443760808427416,
+    "ranking_score": 0.35443760808427416
+   }
+  ],
+  "Versioned API layer with handover documentation to internal IT": [
+   {
+    "content": "OliveSoft project initiative 'Asynchronous Talend flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Migrate SOAP services to REST APIs and improve Talend routes with automated tests. Domains: ESB, data integration. Technologies: Talend Open Studio, Apache Camel, ESB, REST API, TMC. Planned work: . Client context: Not specified.",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-007",
+     "name": "Asynchronous Talend flows",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2023/2024",
+     "client": "Not specified",
+     "domains": [
+      "ESB",
+      "data integration"
+     ],
+     "tech_stack": [
+      "Talend Open Studio",
+      "Apache Camel",
+      "ESB",
+      "REST API",
+      "TMC"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "pfebook2023.pdf",
+       "page": 9,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.32007385638983366,
+    "ranking_score": 0.40007385638983367
+   },
+   {
+    "content": "Employee_026 (Senior Integration Architect) worked on 'Employee master data consolidation with versioned APIs for a consumer goods company' in the consumer goods sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, REST APIs, Master Data Management.",
+    "doc_type": "cv",
+    "metadata": {
+     "record_id": "CV-0026",
+     "person": "Employee_026",
+     "role": "Senior Integration Architect",
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.39386916907091285,
+    "ranking_score": 0.39386916907091285
+   },
+   {
+    "content": "OliveSoft project initiative 'Odoo Community internal integration' (2026, status: proposed, relationship: pfe_internship_project). Replace BoondManager using customized Odoo modules, data migration and n8n workflow automation. Domains: ERP, open source, internal tooling. Technologies: Odoo Community, Python, PostgreSQL, JavaScript, XML, n8n. Planned work: . Client context: OliveSoft (internal). Source note: Source slide title and final task were partially truncated..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-025",
+     "name": "Odoo Community internal integration",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal)",
+     "domains": [
+      "ERP",
+      "open source",
+      "internal tooling"
+     ],
+     "tech_stack": [
+      "Odoo Community",
+      "Python",
+      "PostgreSQL",
+      "JavaScript",
+      "XML",
+      "n8n"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "medium",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 2,
+       "tier": 1
+      }
+     ],
+     "notes": "Source slide title and final task were partially truncated."
+    },
+    "similarity": 0.25373137084341196,
+    "ranking_score": 0.333731370843412
+   },
+   {
+    "content": "OliveSoft project initiative 'OLIA agentic AI full-stack platform' (2026, status: proposed, relationship: pfe_internship_project). Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices. Domains: generative AI, agents, fullstack. Technologies: Python, FastAPI, React, TypeScript, RAG, OpenAI, Ollama. Planned work: . Client context: OliveSoft (internal product).",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "olivesoft-027",
+     "name": "OLIA agentic AI full-stack platform",
+     "project_origin": "olivesoft",
+     "project_kind": "pfe_internship_project",
+     "evidence_status": "proposed",
+     "is_completed": false,
+     "matching_priority_boost": 0.08,
+     "edition": "2026",
+     "client": "OliveSoft (internal product)",
+     "domains": [
+      "generative AI",
+      "agents",
+      "fullstack"
+     ],
+     "tech_stack": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "RAG",
+      "OpenAI",
+      "Ollama"
+     ],
+     "tasks": [],
+     "aliases": [],
+     "duration": null,
+     "confidence": "high",
+     "source_references": [
+      {
+       "file": "mergedpfebook2026.pdf",
+       "page": 4,
+       "tier": 1
+      }
+     ],
+     "notes": null
+    },
+    "similarity": 0.22395545286598623,
+    "ranking_score": 0.30395545286598624
+   },
+   {
+    "content": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, REST APIs, Master Data Management. Outcome: Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off..",
+    "doc_type": "project",
+    "metadata": {
+     "record_id": "PRJ-0001",
+     "client_sector": "consumer goods",
+     "tech_stack": [
+      "MuleSoft",
+      "Anypoint Platform",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    },
+    "similarity": 0.30098647628122227,
+    "ranking_score": 0.30098647628122227
+   }
+  ]
+ },
+ "cv_matches": [
+  {
+   "content": "Employee_026 (Senior Integration Architect) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0026",
+    "person": "Employee_026",
+    "role": "Senior Integration Architect",
+    "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+    "client_sector": "logistics",
+    "tech_stack": [
+     "MuleSoft",
+     "SAP SuccessFactors",
+     "Master Data Management",
+     "DataWeave"
+    ]
+   },
+   "similarity": 0.7003905714825681,
+   "ranking_score": 0.7003905714825681
+  },
+  {
+   "content": "Employee_028 (MuleSoft Developer) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0028",
+    "person": "Employee_028",
+    "role": "MuleSoft Developer",
+    "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+    "client_sector": "logistics",
+    "tech_stack": [
+     "MuleSoft",
+     "SAP SuccessFactors",
+     "Master Data Management"
+    ]
+   },
+   "similarity": 0.670944018494743,
+   "ranking_score": 0.670944018494743
+  },
+  {
+   "content": "Employee_018 (Integration Developer) worked on 'Multi-country HR and payroll integration hub for a logistics group' in the logistics sector. Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports. Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave.",
+   "doc_type": "cv",
+   "metadata": {
+    "record_id": "CV-0018",
+    "person": "Employee_018",
+    "role": "Integration Developer",
+    "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+    "client_sector": "logistics",
+    "tech_stack": [
+     "MuleSoft",
+     "SAP SuccessFactors",
+     "Master Data Management",
+     "DataWeave"
+    ]
+   },
+   "similarity": 0.6651956222647455,
+   "ranking_score": 0.6651956222647455
+  }
+ ],
+ "project_matches": [
+  {
+   "content": "Multi-country HR and payroll integration hub for a logistics group (client sector: logistics). Tech stack: MuleSoft, SAP SuccessFactors, Master Data Management, DataWeave. Outcome: Single employee golden record across 6 payroll providers; duplicate hires fell by 32%..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0029",
+    "client_sector": "logistics",
+    "tech_stack": [
+     "MuleSoft",
+     "SAP SuccessFactors",
+     "Master Data Management",
+     "DataWeave"
+    ]
+   },
+   "similarity": 0.7462705138033627,
+   "ranking_score": 0.7462705138033627
+  },
+  {
+   "content": "Employee master data consolidation with versioned APIs for a consumer goods company (client sector: consumer goods). Tech stack: MuleSoft, Anypoint Platform, REST APIs, Master Data Management. Outcome: Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off..",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "PRJ-0001",
+    "client_sector": "consumer goods",
+    "tech_stack": [
+     "MuleSoft",
+     "Anypoint Platform",
+     "REST APIs",
+     "Master Data Management"
+    ]
+   },
+   "similarity": 0.6205458079947991,
+   "ranking_score": 0.6205458079947991
+  },
+  {
+   "content": "OliveSoft project initiative 'MuleSoft platform and business data flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Domains: API integration, data integration. Technologies: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Planned work: . Client context: Not specified.",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-004",
+    "name": "MuleSoft platform and business data flows",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2023/2024",
+    "client": "Not specified",
+    "domains": [
+     "API integration",
+     "data integration"
+    ],
+    "tech_stack": [
+     "MuleSoft",
+     "Microservices",
+     "Datadog",
+     "CI/CD",
+     "Azure DevOps"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2023.pdf",
+      "page": 6,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.47103335385838613,
+   "ranking_score": 0.5510333538583861
+  },
+  {
+   "content": "OliveSoft project initiative 'Human-resources process automation' (2023/2024, status: proposed, relationship: pfe_internship_project). Automate HR extraction, warehousing, email and dashboards from Boond ERP. Domains: HR, data integration, BI. Technologies: BoondManager API, Talend, Azure, Apache Airflow, Power BI. Planned work: . Client context: OliveSoft (internal).",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-008",
+    "name": "Human-resources process automation",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2023/2024",
+    "client": "OliveSoft (internal)",
+    "domains": [
+     "HR",
+     "data integration",
+     "BI"
+    ],
+    "tech_stack": [
+     "BoondManager API",
+     "Talend",
+     "Azure",
+     "Apache Airflow",
+     "Power BI"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2023.pdf",
+      "page": 10,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.45171209547766905,
+   "ranking_score": 0.5317120954776691
+  },
+  {
+   "content": "OliveSoft project initiative 'HR reporting and monitoring platform' (2025, status: proposed, relationship: pfe_internship_project). Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems. Domains: HR, reporting, data integration. Technologies: Talend, Power BI, Azure SQL, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+   "doc_type": "project",
+   "metadata": {
+    "record_id": "olivesoft-010",
+    "name": "HR reporting and monitoring platform",
+    "project_origin": "olivesoft",
+    "project_kind": "pfe_internship_project",
+    "evidence_status": "proposed",
+    "is_completed": false,
+    "matching_priority_boost": 0.08,
+    "edition": "2025",
+    "client": "OliveSoft (internal)",
+    "domains": [
+     "HR",
+     "reporting",
+     "data integration"
+    ],
+    "tech_stack": [
+     "Talend",
+     "Power BI",
+     "Azure SQL",
+     "Azure DevOps"
+    ],
+    "tasks": [],
+    "aliases": [],
+    "duration": null,
+    "confidence": "high",
+    "source_references": [
+     {
+      "file": "pfebook2025.pdf",
+      "page": 12,
+      "tier": 1
+     }
+    ],
+    "notes": null
+   },
+   "similarity": 0.4483157816581433,
+   "ranking_score": 0.5283157816581433
+  }
+ ],
+ "records": {
+  "CV-0028": {
+   "cv_id": "CV-0028",
+   "name": "Employee_028",
+   "role": "MuleSoft Developer",
+   "years_experience": 8,
+   "skills": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "API-led connectivity",
+    "Anypoint Platform"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "description": "Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries.",
+     "tech_stack": [
+      "MuleSoft",
+      "Anypoint Platform",
+      "Master Data Management"
+     ]
+    },
+    {
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "description": "Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports.",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management"
+     ]
+    }
+   ],
+   "certifications": [
+    "MuleSoft Certified Integration Architect"
+   ]
+  },
+  "CV-0026": {
+   "cv_id": "CV-0026",
+   "name": "Employee_026",
+   "role": "Senior Integration Architect",
+   "years_experience": 10,
+   "skills": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "API-led connectivity",
+    "REST APIs",
+    "DataWeave"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "description": "Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries.",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    },
+    {
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "description": "Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports.",
+     "tech_stack": [
+      "MuleSoft",
+      "REST APIs",
+      "Master Data Management"
+     ]
+    }
+   ],
+   "certifications": [
+    "MuleSoft Certified Integration Architect"
+   ]
+  },
+  "PRJ-0029": {
+   "project_id": "PRJ-0029",
+   "client_sector": "logistics",
+   "summary": "Multi-country HR and payroll integration hub for a logistics group",
+   "tech_stack": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "DataWeave"
+   ],
+   "outcome": "Single employee golden record across 6 payroll providers; duplicate hires fell by 32%."
+  },
+  "CV-0018": {
+   "cv_id": "CV-0018",
+   "name": "Employee_018",
+   "role": "Integration Developer",
+   "years_experience": 7,
+   "skills": [
+    "MuleSoft",
+    "SAP SuccessFactors",
+    "Master Data Management",
+    "API-led connectivity",
+    "DataWeave",
+    "OAuth 2.0"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Employee master data consolidation with versioned APIs for a consumer goods company",
+     "client_sector": "consumer goods",
+     "description": "Built MuleSoft flows linking SuccessFactors to regional payroll engines, with master data rules that stopped duplicate employee records appearing across countries.",
+     "tech_stack": [
+      "MuleSoft",
+      "Master Data Management"
+     ]
+    },
+    {
+     "project_name": "Multi-country HR and payroll integration hub for a logistics group",
+     "client_sector": "logistics",
+     "description": "Designed versioned API contracts and a handover pack so the client's IT team could run the integration estate, including country-specific statutory payroll exports.",
+     "tech_stack": [
+      "MuleSoft",
+      "SAP SuccessFactors",
+      "Master Data Management",
+      "DataWeave"
+     ]
+    }
+   ],
+   "certifications": [
+    "MuleSoft Certified Developer"
+   ]
+  },
+  "CV-0027": {
+   "cv_id": "CV-0027",
+   "name": "Employee_027",
+   "role": "Integration Consultant",
+   "years_experience": 10,
+   "skills": [
+    "Salesforce Sales Cloud",
+    "MuleSoft",
+    "REST APIs",
+    "Pre-sales"
+   ],
+   "past_projects": [
+    {
+     "project_name": "Internal delivery for a consumer goods client",
+     "client_sector": "consumer goods",
+     "description": "Connected Sales Cloud opportunities to an ERP through a small MuleSoft layer.",
+     "tech_stack": [
+      "Salesforce Sales Cloud",
+      "MuleSoft",
+      "REST APIs"
+     ]
+    }
+   ],
+   "certifications": []
+  },
+  "PRJ-0001": {
+   "project_id": "PRJ-0001",
+   "client_sector": "consumer goods",
+   "summary": "Employee master data consolidation with versioned APIs for a consumer goods company",
+   "tech_stack": [
+    "MuleSoft",
+    "Anypoint Platform",
+    "REST APIs",
+    "Master Data Management"
+   ],
+   "outcome": "Statutory payroll feeds validated per country; internal IT took over support after handover documentation was signed off."
+  },
+  "olivesoft-003": {
+   "id": "olivesoft-003",
+   "name": "Talend reporting solution",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "reporting",
+    "BI",
+    "data integration"
+   ],
+   "description": "Extract and transform Talend Management Console, Datadog and ServiceNow data into Power BI reporting.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Power BI",
+     "GCP",
+     "Datadog",
+     "ServiceNow",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 5,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "PRJ-0032": {
+   "project_id": "PRJ-0032",
+   "client_sector": "retail",
+   "summary": "Regional sales dashboards in Tableau",
+   "tech_stack": [
+    "Tableau",
+    "SQL",
+    "Excel"
+   ],
+   "outcome": "Sales managers self-serve weekly figures."
+  },
+  "PRJ-0017": {
+   "project_id": "PRJ-0017",
+   "client_sector": "healthcare",
+   "summary": "Governed workforce analytics in Power BI for a healthcare organisation",
+   "tech_stack": [
+    "Power BI",
+    "DAX",
+    "Semantic model design",
+    "Row-level security"
+   ],
+   "outcome": "6 divisional reporting packs replaced; HR managers see only their own division."
+  },
+  "olivesoft-007": {
+   "id": "olivesoft-007",
+   "name": "Asynchronous Talend flows",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "ESB",
+    "data integration"
+   ],
+   "description": "Migrate SOAP services to REST APIs and improve Talend routes with automated tests.",
+   "tech_stack": {
+    "technologies": [
+     "Talend Open Studio",
+     "Apache Camel",
+     "ESB",
+     "REST API",
+     "TMC"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 9,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-025": {
+   "id": "olivesoft-025",
+   "name": "Odoo Community internal integration",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "ERP",
+    "open source",
+    "internal tooling"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Replace BoondManager using customized Odoo modules, data migration and n8n workflow automation.",
+   "tech_stack": {
+    "technologies": [
+     "Odoo Community",
+     "Python",
+     "PostgreSQL",
+     "JavaScript",
+     "XML",
+     "n8n"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 2,
+     "tier": 1
+    }
+   ],
+   "confidence": "medium",
+   "notes": "Source slide title and final task were partially truncated."
+  },
+  "olivesoft-027": {
+   "id": "olivesoft-027",
+   "name": "OLIA agentic AI full-stack platform",
+   "relationship": "pfe_internship_project",
+   "edition": "2026",
+   "domain": [
+    "generative AI",
+    "agents",
+    "fullstack"
+   ],
+   "client": "OliveSoft (internal product)",
+   "description": "Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices.",
+   "tech_stack": {
+    "technologies": [
+     "Python",
+     "FastAPI",
+     "React",
+     "TypeScript",
+     "RAG",
+     "OpenAI",
+     "Ollama"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "mergedpfebook2026.pdf",
+     "page": 4,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-004": {
+   "id": "olivesoft-004",
+   "name": "MuleSoft platform and business data flows",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "API integration",
+    "data integration"
+   ],
+   "description": "Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD.",
+   "tech_stack": {
+    "technologies": [
+     "MuleSoft",
+     "Microservices",
+     "Datadog",
+     "CI/CD",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 6,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-008": {
+   "id": "olivesoft-008",
+   "name": "Human-resources process automation",
+   "relationship": "pfe_internship_project",
+   "edition": "2023/2024",
+   "domain": [
+    "HR",
+    "data integration",
+    "BI"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Automate HR extraction, warehousing, email and dashboards from Boond ERP.",
+   "tech_stack": {
+    "technologies": [
+     "BoondManager API",
+     "Talend",
+     "Azure",
+     "Apache Airflow",
+     "Power BI"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2023.pdf",
+     "page": 10,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  },
+  "olivesoft-010": {
+   "id": "olivesoft-010",
+   "name": "HR reporting and monitoring platform",
+   "relationship": "pfe_internship_project",
+   "edition": "2025",
+   "domain": [
+    "HR",
+    "reporting",
+    "data integration"
+   ],
+   "client": "OliveSoft (internal)",
+   "description": "Track and analyze HR data from campaigns, social networks, collaboration platforms and ERP systems.",
+   "tech_stack": {
+    "technologies": [
+     "Talend",
+     "Power BI",
+     "Azure SQL",
+     "Azure DevOps"
+    ]
+   },
+   "outcome": "proposed",
+   "sources": [
+    {
+     "file": "pfebook2025.pdf",
+     "page": 12,
+     "tier": 1
+    }
+   ],
+   "confidence": "high"
+  }
+ },
+ "replies": [
+  {
+   "step": "brief",
+   "reply": "{\"headline\":\"Unified HRIS Across 11 Nations\",\"subtitle\":\"MuleSoft‑based integration of SuccessFactors, marketplace, payroll\",\"key_messages\":[\"Single employee view from disparate systems\",\"Prevent duplicate hires with master data rules\",\"Country‑specific payroll interfaces documented\"],\"tone\":\"Confident, precise, focused on integration\"}"
+  },
+  {
+   "step": "letter",
+   "reply": "{\"salutation\":\"Dear Meridian Consumer Goods Group team,\",\"paragraphs\":[\"We propose a unified HRIS across 11 nations using MuleSoft to integrate SuccessFactors, the marketplace, and payroll. The result is a single employee view across all systems.\",\"By enforcing master data rules, we prevent duplicate hires and document country‑specific payroll interfaces, ensuring data integrity and compliance in every jurisdiction.\"],\"closing\":\"Sincerely,\"}"
+  },
+  {
+   "step": "summary",
+   "reply": "{\"title\":\"Unified HRIS for 11 Countries\",\"pillars\":[{\"title\":\"Single Employee View\",\"body\":\"Create one employee record across all national HR and payroll systems.\",\"evidence\":[\"CV-0026\",\"PRJ-0029\"]},{\"title\":\"Duplicate Hire Prevention\",\"body\":\"Enforce master data rules to stop duplicate hires across the organization.\",\"evidence\":[\"CV-0026\",\"CV-0028\"]},{\"title\":\"Country Payroll Integration\",\"body\":\"Document country‑specific payroll interfaces for smooth statutory reporting.\",\"evidence\":[\"CV-0028\",\"PRJ-0001\"]}],\"why_us\":\"OliveSoft delivers focused MuleSoft integrations, with clear documentation and handover for client ownership.\"}"
+  },
+  {
+   "step": "needs",
+   "reply": "{\"needs\":[{\"title\":\"Unify Employee Records\",\"body\":\"Integrate SuccessFactors, marketplace, and payroll into a single master record across all 11 countries.\"},{\"title\":\"Prevent Duplicate Hires\",\"body\":\"Implement master data rules to avoid creation of duplicate employee entries across integrated systems.\"},{\"title\":\"Country‑Specific Payroll Interfaces\",\"body\":\"Document and deliver statutory payroll reporting formats for each of the four local payroll systems.\"}]}"
+  },
+  {
+   "step": "evidence",
+   "reply": "{\"line\":\"MuleSoft Developer handled multi‑country HR integration\"}"
+  },
+  {
+   "step": "evidence",
+   "reply": "{\"line\":\"Consolidates employee data via versioned APIs.\"}"
+  },
+  {
+   "step": "evidence",
+   "reply": "{\"line\":\"Asset shows payroll integration across 6 providers.\"}"
+  },
+  {
+   "step": "approach",
+   "reply": "{\"phases\":[{\"name\":\"Design & Scope\",\"weeks\":4,\"body\":\"Define integration architecture and master data rules.\"},{\"name\":\"Build & Test\",\"weeks\":8,\"body\":\"Develop MuleSoft layer, API, and payroll interfaces.\"},{\"name\":\"Validation\",\"weeks\":4,\"body\":\"Verify duplicate prevention and statutory reporting.\"},{\"name\":\"Hand‑over\",\"weeks\":2,\"body\":\"Document API versioning and deliver to internal IT.\"}]}"
+  }
+ ]
+}

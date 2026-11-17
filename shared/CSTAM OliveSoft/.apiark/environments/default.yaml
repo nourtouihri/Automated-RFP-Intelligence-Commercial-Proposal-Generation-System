@@ -1,0 +1,8 @@
+name: Default
+variables:
+  ingestionUrl: http://localhost:8004
+  proposalUrl: http://localhost:8003
+  researchUrl: http://localhost:8002
+  internalToken: super-token
+  detectionUrl: http://localhost:8000
+scope: shared

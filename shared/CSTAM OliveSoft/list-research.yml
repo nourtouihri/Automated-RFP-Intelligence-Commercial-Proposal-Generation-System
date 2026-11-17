@@ -1,0 +1,5 @@
+name: List research
+method: GET
+url: '{{researchUrl}}/research'
+headers:
+  X-Internal-Token: '{{internalToken}}'

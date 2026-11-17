@@ -1,0 +1,11 @@
+name: Ingest SAM tenders
+method: POST
+url: '{{ingestionUrl}}/ingest/SAM'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "page": 1
+    }

@@ -1,0 +1,2492 @@
+{
+  "case_count": 13,
+  "k": 5,
+  "precision_at_k": 0.2,
+  "recall_at_k": 1.0,
+  "mean_reciprocal_rank": 1.0,
+  "cases": [
+    {
+      "id": "cv-fastapi-backend",
+      "retrieved_ids": [
+        "CV-0051",
+        "CV-0009",
+        "CV-0023",
+        "CV-0019",
+        "CV-0014"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Backend engineer with FastAPI and PostgreSQL experience in production web services",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0051"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0051",
+        "CV-0009",
+        "CV-0023",
+        "CV-0019",
+        "CV-0014",
+        "CV-0011",
+        "CV-0026",
+        "CV-0044",
+        "CV-0004",
+        "CV-0007"
+      ],
+      "latency_ms": 20.695266663096845,
+      "latency_samples_ms": [
+        20.999800006393343,
+        22.672599996440113,
+        18.41339998645708
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0051",
+          "doc_type": "cv",
+          "content": "Employee_051 is a Full Stack Developer with 9 years of experience. Skills: React, FastAPI, PostgreSQL, Docker.",
+          "metadata": {
+            "record_id": "CV-0051",
+            "person": "Employee_051",
+            "role": "Full Stack Developer",
+            "skills": [
+              "React",
+              "FastAPI",
+              "PostgreSQL",
+              "Docker"
+            ]
+          },
+          "similarity": 0.5171704851893126,
+          "ranking_score": 0.5171704851893126
+        },
+        {
+          "record_id": "CV-0009",
+          "doc_type": "cv",
+          "content": "Employee_009 is a Backend Developer with 3 years of experience. Skills: Java, Spring Boot, PostgreSQL, REST APIs.",
+          "metadata": {
+            "record_id": "CV-0009",
+            "person": "Employee_009",
+            "role": "Backend Developer",
+            "skills": [
+              "Java",
+              "Spring Boot",
+              "PostgreSQL",
+              "REST APIs"
+            ]
+          },
+          "similarity": 0.5050510625354971,
+          "ranking_score": 0.5050510625354971
+        },
+        {
+          "record_id": "CV-0023",
+          "doc_type": "cv",
+          "content": "Employee_023 is a Backend Developer with 1 years of experience. Skills: Node.js, GraphQL, MongoDB, Redis.",
+          "metadata": {
+            "record_id": "CV-0023",
+            "person": "Employee_023",
+            "role": "Backend Developer",
+            "skills": [
+              "Node.js",
+              "GraphQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          "similarity": 0.4845288653994396,
+          "ranking_score": 0.4845288653994396
+        },
+        {
+          "record_id": "CV-0019",
+          "doc_type": "cv",
+          "content": "Employee_019 is a Backend Developer with 5 years of experience. Skills: Kafka, Java, Spring Boot, PostgreSQL.",
+          "metadata": {
+            "record_id": "CV-0019",
+            "person": "Employee_019",
+            "role": "Backend Developer",
+            "skills": [
+              "Kafka",
+              "Java",
+              "Spring Boot",
+              "PostgreSQL"
+            ]
+          },
+          "similarity": 0.47253106003596923,
+          "ranking_score": 0.47253106003596923
+        },
+        {
+          "record_id": "CV-0014",
+          "doc_type": "cv",
+          "content": "Employee_014 (Data Engineer) worked on 'Internal delivery for a logistics client' in the logistics sector. Ran nightly batch pipelines and a shared KPI dashboard for an operations team. Tech stack: Python, Airflow, PostgreSQL.",
+          "metadata": {
+            "record_id": "CV-0014",
+            "person": "Employee_014",
+            "role": "Data Engineer",
+            "project_name": "Internal delivery for a logistics client",
+            "client_sector": "logistics",
+            "tech_stack": [
+              "Python",
+              "Airflow",
+              "PostgreSQL"
+            ]
+          },
+          "similarity": 0.4579609651169906,
+          "ranking_score": 0.4579609651169906
+        }
+      ]
+    },
+    {
+      "id": "cv-react-fullstack",
+      "retrieved_ids": [
+        "CV-0011",
+        "CV-0051",
+        "CV-0010",
+        "CV-0023",
+        "CV-0054"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Full-stack developer with Next.js, TypeScript and PostgreSQL for a web shop",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0011"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0011",
+        "CV-0051",
+        "CV-0010",
+        "CV-0023",
+        "CV-0054",
+        "CV-0009",
+        "CV-0019",
+        "CV-0025",
+        "CV-0040",
+        "CV-0021"
+      ],
+      "latency_ms": 18.41843331931159,
+      "latency_samples_ms": [
+        18.286699953023344,
+        17.952799971681088,
+        19.015800033230335
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0011",
+          "doc_type": "cv",
+          "content": "Employee_011 is a Full Stack Developer with 1 years of experience. Skills: Next.js, Node.js, PostgreSQL, TypeScript.",
+          "metadata": {
+            "record_id": "CV-0011",
+            "person": "Employee_011",
+            "role": "Full Stack Developer",
+            "skills": [
+              "Next.js",
+              "Node.js",
+              "PostgreSQL",
+              "TypeScript"
+            ]
+          },
+          "similarity": 0.5760159881056831,
+          "ranking_score": 0.5760159881056831
+        },
+        {
+          "record_id": "CV-0051",
+          "doc_type": "cv",
+          "content": "Employee_051 is a Full Stack Developer with 9 years of experience. Skills: React, FastAPI, PostgreSQL, Docker.",
+          "metadata": {
+            "record_id": "CV-0051",
+            "person": "Employee_051",
+            "role": "Full Stack Developer",
+            "skills": [
+              "React",
+              "FastAPI",
+              "PostgreSQL",
+              "Docker"
+            ]
+          },
+          "similarity": 0.48941374785497654,
+          "ranking_score": 0.48941374785497654
+        },
+        {
+          "record_id": "CV-0010",
+          "doc_type": "cv",
+          "content": "Employee_010 is a Frontend Developer with 5 years of experience. Skills: React, Next.js, TypeScript, Tailwind CSS.",
+          "metadata": {
+            "record_id": "CV-0010",
+            "person": "Employee_010",
+            "role": "Frontend Developer",
+            "skills": [
+              "React",
+              "Next.js",
+              "TypeScript",
+              "Tailwind CSS"
+            ]
+          },
+          "similarity": 0.4369854514024394,
+          "ranking_score": 0.4369854514024394
+        },
+        {
+          "record_id": "CV-0023",
+          "doc_type": "cv",
+          "content": "Employee_023 is a Backend Developer with 1 years of experience. Skills: Node.js, GraphQL, MongoDB, Redis.",
+          "metadata": {
+            "record_id": "CV-0023",
+            "person": "Employee_023",
+            "role": "Backend Developer",
+            "skills": [
+              "Node.js",
+              "GraphQL",
+              "MongoDB",
+              "Redis"
+            ]
+          },
+          "similarity": 0.4338380561641533,
+          "ranking_score": 0.4338380561641533
+        },
+        {
+          "record_id": "CV-0054",
+          "doc_type": "cv",
+          "content": "Employee_054 (Frontend Developer) worked on 'Customer self-service web portal for a telecom provider' in the telecom sector. Worked as frontend developer on design, build and release. Tech stack: React, TypeScript.",
+          "metadata": {
+            "record_id": "CV-0054",
+            "person": "Employee_054",
+            "role": "Frontend Developer",
+            "project_name": "Customer self-service web portal for a telecom provider",
+            "client_sector": "telecom",
+            "tech_stack": [
+              "React",
+              "TypeScript"
+            ]
+          },
+          "similarity": 0.43126736322458453,
+          "ranking_score": 0.43126736322458453
+        }
+      ]
+    },
+    {
+      "id": "cv-rag-data",
+      "retrieved_ids": [
+        "CV-0034",
+        "CV-0016",
+        "CV-0021",
+        "CV-0006",
+        "CV-0033"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "AI profile with LlamaIndex, pgvector and LangChain to ship a retrieval augmented generation assistant",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0034"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0034",
+        "CV-0016",
+        "CV-0021",
+        "CV-0006",
+        "CV-0033",
+        "CV-0047",
+        "CV-0040",
+        "CV-0029",
+        "CV-0052",
+        "CV-0025"
+      ],
+      "latency_ms": 19.462900003418326,
+      "latency_samples_ms": [
+        19.043500011321157,
+        19.72179999575019,
+        19.623400003183633
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0034",
+          "doc_type": "cv",
+          "content": "Employee_034 (AI Solutions Architect) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retrieval augmented generation assistant over an approved document corpus that cites document and page, and refuses with a human handover when evidence is missing. Tech stack: LLM evaluation, Retrieval augmented generation, LangChain, Python.",
+          "metadata": {
+            "record_id": "CV-0034",
+            "person": "Employee_034",
+            "role": "AI Solutions Architect",
+            "project_name": "LLM answer quality evaluation programme for an insurance service desk",
+            "client_sector": "insurance",
+            "tech_stack": [
+              "LLM evaluation",
+              "Retrieval augmented generation",
+              "LangChain",
+              "Python"
+            ]
+          },
+          "similarity": 0.6680338199313156,
+          "ranking_score": 0.6680338199313156
+        },
+        {
+          "record_id": "CV-0016",
+          "doc_type": "cv",
+          "content": "Employee_016 (Senior AI Engineer) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retrieval augmented generation assistant over an approved document corpus that cites document and page, and refuses with a human handover when evidence is missing. Tech stack: LLM evaluation, Retrieval augmented generation.",
+          "metadata": {
+            "record_id": "CV-0016",
+            "person": "Employee_016",
+            "role": "Senior AI Engineer",
+            "project_name": "LLM answer quality evaluation programme for an insurance service desk",
+            "client_sector": "insurance",
+            "tech_stack": [
+              "LLM evaluation",
+              "Retrieval augmented generation"
+            ]
+          },
+          "similarity": 0.645712710291796,
+          "ranking_score": 0.645712710291796
+        },
+        {
+          "record_id": "CV-0021",
+          "doc_type": "cv",
+          "content": "Employee_021 (LLM Application Engineer) worked on 'LLM answer quality evaluation programme for an insurance service desk' in the insurance sector. Shipped a retrieval augmented generation assistant over an approved document corpus that cites document and page, and refuses with a human handover when evidence is missing. Tech stack: LLM evaluation, Retrieval augmented generation, LangChain, Python.",
+          "metadata": {
+            "record_id": "CV-0021",
+            "person": "Employee_021",
+            "role": "LLM Application Engineer",
+            "project_name": "LLM answer quality evaluation programme for an insurance service desk",
+            "client_sector": "insurance",
+            "tech_stack": [
+              "LLM evaluation",
+              "Retrieval augmented generation",
+              "LangChain",
+              "Python"
+            ]
+          },
+          "similarity": 0.609309434575387,
+          "ranking_score": 0.609309434575387
+        },
+        {
+          "record_id": "CV-0006",
+          "doc_type": "cv",
+          "content": "Employee_006 is a Edge AI Engineer with 6 years of experience. Skills: Computer vision, Defect detection, Edge inference, PyTorch, ONNX Runtime, Label adjudication, OpenCV. Certifications: NVIDIA DLI: Building AI-Based Defect Detection.",
+          "metadata": {
+            "record_id": "CV-0006",
+            "person": "Employee_006",
+            "role": "Edge AI Engineer",
+            "skills": [
+              "Computer vision",
+              "Defect detection",
+              "Edge inference",
+              "PyTorch",
+              "ONNX Runtime",
+              "Label adjudication",
+              "OpenCV"
+            ]
+          },
+          "similarity": 0.358934242919577,
+          "ranking_score": 0.358934242919577
+        },
+        {
+          "record_id": "CV-0033",
+          "doc_type": "cv",
+          "content": "Employee_033 is a Information Retrieval Engineer with 5 years of experience. Skills: Similarity detection, Image embeddings, Text similarity, Web crawler, Python, Elasticsearch, Audit logging. Certifications: Elastic Certified Engineer.",
+          "metadata": {
+            "record_id": "CV-0033",
+            "person": "Employee_033",
+            "role": "Information Retrieval Engineer",
+            "skills": [
+              "Similarity detection",
+              "Image embeddings",
+              "Text similarity",
+              "Web crawler",
+              "Python",
+              "Elasticsearch",
+              "Audit logging"
+            ]
+          },
+          "similarity": 0.35529174867673835,
+          "ranking_score": 0.35529174867673835
+        }
+      ]
+    },
+    {
+      "id": "cv-kubernetes-cloud",
+      "retrieved_ids": [
+        "CV-0013",
+        "CV-0008",
+        "CV-0007",
+        "CV-0059",
+        "CV-0015"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Cloud architecture profile with Kubernetes, Terraform and serverless on AWS",
+      "doc_type": "cv",
+      "relevant_ids": [
+        "CV-0013"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "CV-0013",
+        "CV-0008",
+        "CV-0007",
+        "CV-0059",
+        "CV-0015",
+        "CV-0036",
+        "CV-0025",
+        "CV-0017",
+        "CV-0014",
+        "CV-0044"
+      ],
+      "latency_ms": 18.9696666590559,
+      "latency_samples_ms": [
+        20.703400019556284,
+        18.237799988128245,
+        17.967799969483167
+      ],
+      "matches": [
+        {
+          "record_id": "CV-0013",
+          "doc_type": "cv",
+          "content": "Employee_013 is a Cloud Architect with 1 years of experience. Skills: AWS, Terraform, Kubernetes, Serverless.",
+          "metadata": {
+            "record_id": "CV-0013",
+            "person": "Employee_013",
+            "role": "Cloud Architect",
+            "skills": [
+              "AWS",
+              "Terraform",
+              "Kubernetes",
+              "Serverless"
+            ]
+          },
+          "similarity": 0.5248032054555418,
+          "ranking_score": 0.5248032054555418
+        },
+        {
+          "record_id": "CV-0008",
+          "doc_type": "cv",
+          "content": "Employee_008 is a DevOps Engineer with 12 years of experience. Skills: Docker, Kubernetes, Terraform, CI/CD.",
+          "metadata": {
+            "record_id": "CV-0008",
+            "person": "Employee_008",
+            "role": "DevOps Engineer",
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "Terraform",
+              "CI/CD"
+            ]
+          },
+          "similarity": 0.2913867112517562,
+          "ranking_score": 0.2913867112517562
+        },
+        {
+          "record_id": "CV-0007",
+          "doc_type": "cv",
+          "content": "Employee_007 is a Data Engineer with 6 years of experience. Skills: BigQuery, GCP, Identity resolution, Consent management, dbt, Pub/Sub. Certifications: Google Professional Cloud Architect.",
+          "metadata": {
+            "record_id": "CV-0007",
+            "person": "Employee_007",
+            "role": "Data Engineer",
+            "skills": [
+              "BigQuery",
+              "GCP",
+              "Identity resolution",
+              "Consent management",
+              "dbt",
+              "Pub/Sub"
+            ]
+          },
+          "similarity": 0.24970412047627416,
+          "ranking_score": 0.24970412047627416
+        },
+        {
+          "record_id": "CV-0059",
+          "doc_type": "cv",
+          "content": "Employee_059 (Salesforce Technical Architect) worked on 'Service Cloud contact centre rollout for a banking provider' in the banking sector. Rolled out Service Cloud with a single omnichannel queue for phone, email and chat, migrating more than a decade of historical cases. Tech stack: Salesforce Service Cloud, Omni-Channel routing, Case migration.",
+          "metadata": {
+            "record_id": "CV-0059",
+            "person": "Employee_059",
+            "role": "Salesforce Technical Architect",
+            "project_name": "Service Cloud contact centre rollout for a banking provider",
+            "client_sector": "banking",
+            "tech_stack": [
+              "Salesforce Service Cloud",
+              "Omni-Channel routing",
+              "Case migration"
+            ]
+          },
+          "similarity": 0.22625521401777557,
+          "ranking_score": 0.22625521401777557
+        },
+        {
+          "record_id": "CV-0015",
+          "doc_type": "cv",
+          "content": "Employee_015 is a Lakehouse Architect with 13 years of experience. Skills: Kafka, Databricks, Lakehouse, Delta Lake, Late-arriving event handling, Python, Spark Structured Streaming, Grafana. Certifications: Databricks Certified Data Engineer Professional.",
+          "metadata": {
+            "record_id": "CV-0015",
+            "person": "Employee_015",
+            "role": "Lakehouse Architect",
+            "skills": [
+              "Kafka",
+              "Databricks",
+              "Lakehouse",
+              "Delta Lake",
+              "Late-arriving event handling",
+              "Python",
+              "Spark Structured Streaming",
+              "Grafana"
+            ]
+          },
+          "similarity": 0.21276540884347778,
+          "ranking_score": 0.21276540884347778
+        }
+      ]
+    },
+    {
+      "id": "project-banking-modernization",
+      "retrieved_ids": [
+        "PRJ-0011",
+        "PRJ-0014",
+        "olivesoft-007",
+        "olivesoft-011",
+        "olivesoft-032"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Banking legacy data migration using Informatica and Oracle ETL",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0011"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0011",
+        "PRJ-0014",
+        "olivesoft-007",
+        "olivesoft-011",
+        "olivesoft-032",
+        "olivesoft-025",
+        "PRJ-0022",
+        "PRJ-0007",
+        "olivesoft-004",
+        "olivesoft-003"
+      ],
+      "latency_ms": 14.666366662519673,
+      "latency_samples_ms": [
+        15.531199984252453,
+        14.197300013620406,
+        14.270599989686161
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0011",
+          "doc_type": "project",
+          "content": "Oracle ERP data migration with Informatica (client sector: banking). Tech stack: Informatica PowerCenter, Oracle, ETL. Outcome: Ledger history moved with zero reconciliation breaks..",
+          "metadata": {
+            "record_id": "PRJ-0011",
+            "client_sector": "banking",
+            "tech_stack": [
+              "Informatica PowerCenter",
+              "Oracle",
+              "ETL"
+            ]
+          },
+          "similarity": 0.8262028645327555,
+          "ranking_score": 0.8262028645327555
+        },
+        {
+          "record_id": "PRJ-0014",
+          "doc_type": "project",
+          "content": "SSIS to Talend pipeline migration for an insurance operator (client sector: insurance). Tech stack: Talend, SSIS, SQL Server, ETL. Outcome: 9 legacy packages retired; incremental loads recover from partial failures with no manual reruns..",
+          "metadata": {
+            "record_id": "PRJ-0014",
+            "client_sector": "insurance",
+            "tech_stack": [
+              "Talend",
+              "SSIS",
+              "SQL Server",
+              "ETL"
+            ]
+          },
+          "similarity": 0.45549310368618134,
+          "ranking_score": 0.45549310368618134
+        },
+        {
+          "record_id": "olivesoft-007",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Asynchronous Talend flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Migrate SOAP services to REST APIs and improve Talend routes with automated tests. Domains: ESB, data integration. Technologies: Talend Open Studio, Apache Camel, ESB, REST API, TMC. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-007",
+            "name": "Asynchronous Talend flows",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "Not specified",
+            "domains": [
+              "ESB",
+              "data integration"
+            ],
+            "tech_stack": [
+              "Talend Open Studio",
+              "Apache Camel",
+              "ESB",
+              "REST API",
+              "TMC"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 9,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3673854890765646,
+          "ranking_score": 0.4473854890765646
+        },
+        {
+          "record_id": "olivesoft-011",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Talend ETL and ESB monitoring platform' (2025, status: proposed, relationship: pfe_internship_project). Improve OliveSoft's Talend audit platform with embedded BI and infrastructure automation. Domains: monitoring, audit, BI, devops. Technologies: Talend, Java, Power BI, Azure SQL, Terraform, CI/CD. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-011",
+            "name": "Talend ETL and ESB monitoring platform",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "monitoring",
+              "audit",
+              "BI",
+              "devops"
+            ],
+            "tech_stack": [
+              "Talend",
+              "Java",
+              "Power BI",
+              "Azure SQL",
+              "Terraform",
+              "CI/CD"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 13,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.35445419265734307,
+          "ranking_score": 0.4344541926573431
+        },
+        {
+          "record_id": "olivesoft-032",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OliveSoft data-driven go-to-market strategy' (2026, status: proposed, relationship: pfe_internship_project). Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Domains: sales, go-to-market, business development. Technologies: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Planned work: . Client context: OliveSoft (internal).",
+          "metadata": {
+            "record_id": "olivesoft-032",
+            "name": "OliveSoft data-driven go-to-market strategy",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "sales",
+              "go-to-market",
+              "business development"
+            ],
+            "tech_stack": [
+              "Salesforce",
+              "ValueOrbit",
+              "LinkedIn",
+              "Clay",
+              "Apollo",
+              "Brevo",
+              "BI"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 5,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3402407078514906,
+          "ranking_score": 0.4202407078514906
+        }
+      ]
+    },
+    {
+      "id": "project-healthcare-ai",
+      "retrieved_ids": [
+        "PRJ-0004",
+        "olivesoft-024",
+        "olivesoft-004",
+        "olivesoft-028",
+        "olivesoft-019"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Healthcare approval workflow application delivered with FastAPI, Docker and Kubernetes",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0004"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0004",
+        "olivesoft-024",
+        "olivesoft-004",
+        "olivesoft-028",
+        "olivesoft-019",
+        "olivesoft-006",
+        "olivesoft-001",
+        "olivesoft-008",
+        "olivesoft-023",
+        "olivesoft-012"
+      ],
+      "latency_ms": 15.402366678851346,
+      "latency_samples_ms": [
+        15.577399986796081,
+        15.321600018069148,
+        15.30810003168881
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0004",
+          "doc_type": "project",
+          "content": "Custom approval workflow application for a healthcare back office (client sector: healthcare). Tech stack: React, FastAPI, Docker, Kubernetes. Outcome: Manual approval steps cut by 39%; 12 paper forms retired..",
+          "metadata": {
+            "record_id": "PRJ-0004",
+            "client_sector": "healthcare",
+            "tech_stack": [
+              "React",
+              "FastAPI",
+              "Docker",
+              "Kubernetes"
+            ]
+          },
+          "similarity": 0.8165143514641919,
+          "ranking_score": 0.8165143514641919
+        },
+        {
+          "record_id": "olivesoft-024",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Apache Airflow workflow scheduler' (2026, status: proposed, relationship: pfe_internship_project). Orchestrate data flows with DAG dependencies, retries, alerts, monitoring and production deployment. Domains: orchestration, data integration. Technologies: Apache Airflow, Python, Datadog, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-024",
+            "name": "Apache Airflow workflow scheduler",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "Not specified",
+            "domains": [
+              "orchestration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "Apache Airflow",
+              "Python",
+              "Datadog",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 1,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.4335709009114993,
+          "ranking_score": 0.5135709009114993
+        },
+        {
+          "record_id": "olivesoft-004",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'MuleSoft platform and business data flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Domains: API integration, data integration. Technologies: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-004",
+            "name": "MuleSoft platform and business data flows",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "Not specified",
+            "domains": [
+              "API integration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "MuleSoft",
+              "Microservices",
+              "Datadog",
+              "CI/CD",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 6,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.41514928340142326,
+          "ranking_score": 0.4951492834014233
+        },
+        {
+          "record_id": "olivesoft-028",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OLIA cloud-agnostic DevSecOps' (2026, status: proposed, relationship: pfe_internship_project). Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Domains: devsecops, cloud, MLOps, observability. Technologies: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-028",
+            "name": "OLIA cloud-agnostic DevSecOps",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "devsecops",
+              "cloud",
+              "MLOps",
+              "observability"
+            ],
+            "tech_stack": [
+              "Kubernetes",
+              "Docker",
+              "GitHub Actions",
+              "Grafana",
+              "Prometheus",
+              "FastAPI",
+              "Keycloak"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 7,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.40488870031436314,
+          "ranking_score": 0.48488870031436315
+        },
+        {
+          "record_id": "olivesoft-019",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'BigQuery SQL workflow cloud platform' (2025, status: proposed, relationship: pfe_internship_project). Create, version, optimize, schedule and trace BigQuery SQL workflows on Google Cloud. Domains: data platform, cloud, SQL. Technologies: GCP, BigQuery, SQL, Git, CI/CD, Terraform. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-019",
+            "name": "BigQuery SQL workflow cloud platform",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "Not specified",
+            "domains": [
+              "data platform",
+              "cloud",
+              "SQL"
+            ],
+            "tech_stack": [
+              "GCP",
+              "BigQuery",
+              "SQL",
+              "Git",
+              "CI/CD",
+              "Terraform"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 21,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3711251975623583,
+          "ranking_score": 0.4511251975623583
+        }
+      ]
+    },
+    {
+      "id": "project-retail-automation",
+      "retrieved_ids": [
+        "PRJ-0026",
+        "PRJ-0020",
+        "olivesoft-004",
+        "olivesoft-032",
+        "PRJ-0009"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Retail order event streaming into a Databricks lakehouse using Spark Structured Streaming",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0026"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0026",
+        "PRJ-0020",
+        "olivesoft-004",
+        "olivesoft-032",
+        "PRJ-0009",
+        "olivesoft-017",
+        "olivesoft-024",
+        "olivesoft-006",
+        "PRJ-0019",
+        "olivesoft-002"
+      ],
+      "latency_ms": 14.021033343548575,
+      "latency_samples_ms": [
+        13.876600016374141,
+        13.153100037015975,
+        15.033399977255613
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0026",
+          "doc_type": "project",
+          "content": "Order event streaming into a Databricks lakehouse for a fashion retail business (client sector: fashion retail). Tech stack: Kafka, Databricks, Delta Lake, Spark Structured Streaming. Outcome: Order visibility moved from overnight to near real time; late events reconciled automatically..",
+          "metadata": {
+            "record_id": "PRJ-0026",
+            "client_sector": "fashion retail",
+            "tech_stack": [
+              "Kafka",
+              "Databricks",
+              "Delta Lake",
+              "Spark Structured Streaming"
+            ]
+          },
+          "similarity": 0.8650684579740014,
+          "ranking_score": 0.8650684579740014
+        },
+        {
+          "record_id": "PRJ-0020",
+          "doc_type": "project",
+          "content": "Multi-market sales and returns lakehouse model for a retail brand (client sector: retail). Tech stack: Databricks, Lakehouse, Kafka, Data observability. Outcome: Currency-normalised sales across 12 markets; pipeline incidents detected 37% faster..",
+          "metadata": {
+            "record_id": "PRJ-0020",
+            "client_sector": "retail",
+            "tech_stack": [
+              "Databricks",
+              "Lakehouse",
+              "Kafka",
+              "Data observability"
+            ]
+          },
+          "similarity": 0.5195329734775057,
+          "ranking_score": 0.5195329734775057
+        },
+        {
+          "record_id": "olivesoft-004",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'MuleSoft platform and business data flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Domains: API integration, data integration. Technologies: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-004",
+            "name": "MuleSoft platform and business data flows",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "Not specified",
+            "domains": [
+              "API integration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "MuleSoft",
+              "Microservices",
+              "Datadog",
+              "CI/CD",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 6,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3733935672382675,
+          "ranking_score": 0.4533935672382675
+        },
+        {
+          "record_id": "olivesoft-032",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OliveSoft data-driven go-to-market strategy' (2026, status: proposed, relationship: pfe_internship_project). Build a scalable outbound acquisition engine with ICP segmentation, automation and performance analysis. Domains: sales, go-to-market, business development. Technologies: Salesforce, ValueOrbit, LinkedIn, Clay, Apollo, Brevo, BI. Planned work: . Client context: OliveSoft (internal).",
+          "metadata": {
+            "record_id": "olivesoft-032",
+            "name": "OliveSoft data-driven go-to-market strategy",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "sales",
+              "go-to-market",
+              "business development"
+            ],
+            "tech_stack": [
+              "Salesforce",
+              "ValueOrbit",
+              "LinkedIn",
+              "Clay",
+              "Apollo",
+              "Brevo",
+              "BI"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 5,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3507215135627645,
+          "ranking_score": 0.4307215135627645
+        },
+        {
+          "record_id": "PRJ-0009",
+          "doc_type": "project",
+          "content": "Telecom billing mediation on event streams (client sector: telecom). Tech stack: Kafka, Java, Spring Boot. Outcome: Billing records mediated in seconds instead of hours..",
+          "metadata": {
+            "record_id": "PRJ-0009",
+            "client_sector": "telecom",
+            "tech_stack": [
+              "Kafka",
+              "Java",
+              "Spring Boot"
+            ]
+          },
+          "similarity": 0.4208940697649933,
+          "ranking_score": 0.4208940697649933
+        }
+      ]
+    },
+    {
+      "id": "project-mobile-real-estate",
+      "retrieved_ids": [
+        "PRJ-0008",
+        "PRJ-0013",
+        "PRJ-0035",
+        "olivesoft-002",
+        "PRJ-0004"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Offline field inspection mobile application for field agents using Flutter",
+      "doc_type": "project",
+      "relevant_ids": [
+        "PRJ-0008"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "PRJ-0008",
+        "PRJ-0013",
+        "PRJ-0035",
+        "olivesoft-002",
+        "PRJ-0004",
+        "olivesoft-011",
+        "olivesoft-027",
+        "olivesoft-006",
+        "olivesoft-008",
+        "olivesoft-023"
+      ],
+      "latency_ms": 21.104133338667452,
+      "latency_samples_ms": [
+        23.194000008516014,
+        20.584199985023588,
+        19.534200022462755
+      ],
+      "matches": [
+        {
+          "record_id": "PRJ-0008",
+          "doc_type": "project",
+          "content": "Offline field inspection mobile app for a telecom network operator (client sector: telecom). Tech stack: Flutter, Firebase, SQLite, REST APIs. Outcome: Inspectors capture findings without signal; reports filed 50% faster..",
+          "metadata": {
+            "record_id": "PRJ-0008",
+            "client_sector": "telecom",
+            "tech_stack": [
+              "Flutter",
+              "Firebase",
+              "SQLite",
+              "REST APIs"
+            ]
+          },
+          "similarity": 0.8448545053878149,
+          "ranking_score": 0.8448545053878149
+        },
+        {
+          "record_id": "PRJ-0013",
+          "doc_type": "project",
+          "content": "Offline-first driver app fed by telematics data for an energy utilities company (client sector: energy utilities). Tech stack: Flutter, Offline-first mobile, API integration, Localisation. Outcome: Delivery proof and logbooks captured in poor connectivity across 5 depots; paper retired within 29 days..",
+          "metadata": {
+            "record_id": "PRJ-0013",
+            "client_sector": "energy utilities",
+            "tech_stack": [
+              "Flutter",
+              "Offline-first mobile",
+              "API integration",
+              "Localisation"
+            ]
+          },
+          "similarity": 0.5187331041592782,
+          "ranking_score": 0.5187331041592782
+        },
+        {
+          "record_id": "PRJ-0035",
+          "doc_type": "project",
+          "content": "Offline-capable case handling and oversight dashboards for a public sector (interior) agency (client sector: public sector (interior)). Tech stack: Salesforce CRM Analytics, Salesforce Field Service, Offline sync, Data residency. Outcome: Offices keep working through outages and reconcile on reconnect; records never leave sovereign hosting..",
+          "metadata": {
+            "record_id": "PRJ-0035",
+            "client_sector": "public sector (interior)",
+            "tech_stack": [
+              "Salesforce CRM Analytics",
+              "Salesforce Field Service",
+              "Offline sync",
+              "Data residency"
+            ]
+          },
+          "similarity": 0.43195218904048377,
+          "ranking_score": 0.43195218904048377
+        },
+        {
+          "record_id": "olivesoft-002",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Smart-object management solution' (2023/2024, status: proposed, relationship: pfe_internship_project). Remote smart-object management with endpoint collection, analysis and visualization. Domains: IoT, data integration, BI. Technologies: Talend, MuleSoft, REST API, Angular, Power BI, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-002",
+            "name": "Smart-object management solution",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "Not specified",
+            "domains": [
+              "IoT",
+              "data integration",
+              "BI"
+            ],
+            "tech_stack": [
+              "Talend",
+              "MuleSoft",
+              "REST API",
+              "Angular",
+              "Power BI",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 4,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.2605294990527149,
+          "ranking_score": 0.3405294990527149
+        },
+        {
+          "record_id": "PRJ-0004",
+          "doc_type": "project",
+          "content": "Custom approval workflow application for a healthcare back office (client sector: healthcare). Tech stack: React, FastAPI, Docker, Kubernetes. Outcome: Manual approval steps cut by 39%; 12 paper forms retired..",
+          "metadata": {
+            "record_id": "PRJ-0004",
+            "client_sector": "healthcare",
+            "tech_stack": [
+              "React",
+              "FastAPI",
+              "Docker",
+              "Kubernetes"
+            ]
+          },
+          "similarity": 0.33593977219835885,
+          "ranking_score": 0.33593977219835885
+        }
+      ]
+    },
+    {
+      "id": "tool-enterprise-rag",
+      "retrieved_ids": [
+        "TOOL-003",
+        "TOOL-005",
+        "TOOL-004",
+        "TOOL-001",
+        "TOOL-006"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Evidence-grounded enterprise knowledge assistant with pgvector, source citations and prompt injection defenses",
+      "doc_type": "tool",
+      "relevant_ids": [
+        "TOOL-003"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "TOOL-003",
+        "TOOL-005",
+        "TOOL-004",
+        "TOOL-001",
+        "TOOL-006",
+        "TOOL-002"
+      ],
+      "latency_ms": 19.07723331047843,
+      "latency_samples_ms": [
+        22.052999993320554,
+        17.809299984946847,
+        17.369399953167886
+      ],
+      "matches": [
+        {
+          "record_id": "TOOL-003",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Enterprise RAG and AI Knowledge Assistant' in Data/AI Integration Consulting. Evidence-grounded retrieval augmented generation for internal documents with evaluation and guardrails. Capabilities: document ingestion, semantic retrieval, RAG evaluation, source citations, prompt-injection defenses. Technologies: Python, FastAPI, pgvector, Supabase, sentence-transformers, OpenAI, Anthropic. Use cases: knowledge assistants, proposal intelligence, policy search. Standards and certifications: GDPR data minimization.",
+          "metadata": {
+            "record_id": "TOOL-003",
+            "name": "Enterprise RAG and AI Knowledge Assistant",
+            "category": "Data/AI Integration Consulting",
+            "capabilities": [
+              "document ingestion",
+              "semantic retrieval",
+              "RAG evaluation",
+              "source citations",
+              "prompt-injection defenses"
+            ],
+            "technologies": [
+              "Python",
+              "FastAPI",
+              "pgvector",
+              "Supabase",
+              "sentence-transformers",
+              "OpenAI",
+              "Anthropic"
+            ],
+            "use_cases": [
+              "knowledge assistants",
+              "proposal intelligence",
+              "policy search"
+            ],
+            "certifications": [
+              "GDPR data minimization"
+            ]
+          },
+          "similarity": 0.5920075800380467,
+          "ranking_score": 0.5920075800380467
+        },
+        {
+          "record_id": "TOOL-005",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Data Integration and Analytics Platform' in Data/AI Integration Consulting. Batch and event-driven integration patterns for governed operational analytics and machine learning. Capabilities: ETL and ELT, data quality, event streaming, analytics dashboards, ML pipelines. Technologies: Python, Apache Airflow, Kafka, dbt, PostgreSQL, Power BI. Use cases: enterprise data hubs, predictive analytics, legacy integration. Standards and certifications: GDPR, data lineage controls.",
+          "metadata": {
+            "record_id": "TOOL-005",
+            "name": "Data Integration and Analytics Platform",
+            "category": "Data/AI Integration Consulting",
+            "capabilities": [
+              "ETL and ELT",
+              "data quality",
+              "event streaming",
+              "analytics dashboards",
+              "ML pipelines"
+            ],
+            "technologies": [
+              "Python",
+              "Apache Airflow",
+              "Kafka",
+              "dbt",
+              "PostgreSQL",
+              "Power BI"
+            ],
+            "use_cases": [
+              "enterprise data hubs",
+              "predictive analytics",
+              "legacy integration"
+            ],
+            "certifications": [
+              "GDPR",
+              "data lineage controls"
+            ]
+          },
+          "similarity": 0.3889892969991398,
+          "ranking_score": 0.3889892969991398
+        },
+        {
+          "record_id": "TOOL-004",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Application Security Assessment Toolkit' in Security Assessment & Penetration Testing. Repeatable web, API, mobile, and cloud security assessment methodology with remediation evidence. Capabilities: penetration testing, vulnerability assessment, threat modeling, secure code review, remediation verification. Technologies: Burp Suite, OWASP ZAP, Nmap, Semgrep, Trivy. Use cases: pre-production assurance, regulatory audit preparation, third-party risk review. Standards and certifications: OWASP Testing Guide, ISO 27001, PCI DSS.",
+          "metadata": {
+            "record_id": "TOOL-004",
+            "name": "Application Security Assessment Toolkit",
+            "category": "Security Assessment & Penetration Testing",
+            "capabilities": [
+              "penetration testing",
+              "vulnerability assessment",
+              "threat modeling",
+              "secure code review",
+              "remediation verification"
+            ],
+            "technologies": [
+              "Burp Suite",
+              "OWASP ZAP",
+              "Nmap",
+              "Semgrep",
+              "Trivy"
+            ],
+            "use_cases": [
+              "pre-production assurance",
+              "regulatory audit preparation",
+              "third-party risk review"
+            ],
+            "certifications": [
+              "OWASP Testing Guide",
+              "ISO 27001",
+              "PCI DSS"
+            ]
+          },
+          "similarity": 0.32524021565390376,
+          "ranking_score": 0.32524021565390376
+        },
+        {
+          "record_id": "TOOL-001",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Secure Digital Platform Accelerator' in Custom Software Development. Reusable architecture and delivery patterns for accessible web portals and mobile services. Capabilities: responsive web applications, mobile applications, REST API integration, role-based access control. Technologies: React, Next.js, FastAPI, PostgreSQL, Flutter. Use cases: citizen portals, customer self-service, enterprise workflow applications. Standards and certifications: WCAG 2.1 AA, OWASP ASVS.",
+          "metadata": {
+            "record_id": "TOOL-001",
+            "name": "Secure Digital Platform Accelerator",
+            "category": "Custom Software Development",
+            "capabilities": [
+              "responsive web applications",
+              "mobile applications",
+              "REST API integration",
+              "role-based access control"
+            ],
+            "technologies": [
+              "React",
+              "Next.js",
+              "FastAPI",
+              "PostgreSQL",
+              "Flutter"
+            ],
+            "use_cases": [
+              "citizen portals",
+              "customer self-service",
+              "enterprise workflow applications"
+            ],
+            "certifications": [
+              "WCAG 2.1 AA",
+              "OWASP ASVS"
+            ]
+          },
+          "similarity": 0.24577296055864178,
+          "ranking_score": 0.24577296055864178
+        },
+        {
+          "record_id": "TOOL-006",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Regulated Interoperability Delivery Pack' in Custom Software Development. Domain patterns for systems requiring auditable interoperability, privacy, and accessibility controls. Capabilities: FHIR and HL7 integration, audit trails, consent management, accessibility engineering, data residency design. Technologies: HL7 FHIR, OAuth 2.0, OpenID Connect, FastAPI, PostgreSQL. Use cases: healthcare integration, public-sector platforms, regulated customer portals. Standards and certifications: HL7 FHIR, GDPR, WCAG 2.1 AA.",
+          "metadata": {
+            "record_id": "TOOL-006",
+            "name": "Regulated Interoperability Delivery Pack",
+            "category": "Custom Software Development",
+            "capabilities": [
+              "FHIR and HL7 integration",
+              "audit trails",
+              "consent management",
+              "accessibility engineering",
+              "data residency design"
+            ],
+            "technologies": [
+              "HL7 FHIR",
+              "OAuth 2.0",
+              "OpenID Connect",
+              "FastAPI",
+              "PostgreSQL"
+            ],
+            "use_cases": [
+              "healthcare integration",
+              "public-sector platforms",
+              "regulated customer portals"
+            ],
+            "certifications": [
+              "HL7 FHIR",
+              "GDPR",
+              "WCAG 2.1 AA"
+            ]
+          },
+          "similarity": 0.21369434446546665,
+          "ranking_score": 0.21369434446546665
+        }
+      ]
+    },
+    {
+      "id": "tool-regulated-healthcare",
+      "retrieved_ids": [
+        "TOOL-006",
+        "TOOL-005",
+        "TOOL-003",
+        "TOOL-004",
+        "TOOL-001"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Healthcare interoperability using HL7 FHIR with consent, audit trail and GDPR controls",
+      "doc_type": "tool",
+      "relevant_ids": [
+        "TOOL-006"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "TOOL-006",
+        "TOOL-005",
+        "TOOL-003",
+        "TOOL-004",
+        "TOOL-001",
+        "TOOL-002"
+      ],
+      "latency_ms": 20.393600008295227,
+      "latency_samples_ms": [
+        21.861799992620945,
+        18.78240000223741,
+        20.53660003002733
+      ],
+      "matches": [
+        {
+          "record_id": "TOOL-006",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Regulated Interoperability Delivery Pack' in Custom Software Development. Domain patterns for systems requiring auditable interoperability, privacy, and accessibility controls. Capabilities: FHIR and HL7 integration, audit trails, consent management, accessibility engineering, data residency design. Technologies: HL7 FHIR, OAuth 2.0, OpenID Connect, FastAPI, PostgreSQL. Use cases: healthcare integration, public-sector platforms, regulated customer portals. Standards and certifications: HL7 FHIR, GDPR, WCAG 2.1 AA.",
+          "metadata": {
+            "record_id": "TOOL-006",
+            "name": "Regulated Interoperability Delivery Pack",
+            "category": "Custom Software Development",
+            "capabilities": [
+              "FHIR and HL7 integration",
+              "audit trails",
+              "consent management",
+              "accessibility engineering",
+              "data residency design"
+            ],
+            "technologies": [
+              "HL7 FHIR",
+              "OAuth 2.0",
+              "OpenID Connect",
+              "FastAPI",
+              "PostgreSQL"
+            ],
+            "use_cases": [
+              "healthcare integration",
+              "public-sector platforms",
+              "regulated customer portals"
+            ],
+            "certifications": [
+              "HL7 FHIR",
+              "GDPR",
+              "WCAG 2.1 AA"
+            ]
+          },
+          "similarity": 0.6209332453878607,
+          "ranking_score": 0.6209332453878607
+        },
+        {
+          "record_id": "TOOL-005",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Data Integration and Analytics Platform' in Data/AI Integration Consulting. Batch and event-driven integration patterns for governed operational analytics and machine learning. Capabilities: ETL and ELT, data quality, event streaming, analytics dashboards, ML pipelines. Technologies: Python, Apache Airflow, Kafka, dbt, PostgreSQL, Power BI. Use cases: enterprise data hubs, predictive analytics, legacy integration. Standards and certifications: GDPR, data lineage controls.",
+          "metadata": {
+            "record_id": "TOOL-005",
+            "name": "Data Integration and Analytics Platform",
+            "category": "Data/AI Integration Consulting",
+            "capabilities": [
+              "ETL and ELT",
+              "data quality",
+              "event streaming",
+              "analytics dashboards",
+              "ML pipelines"
+            ],
+            "technologies": [
+              "Python",
+              "Apache Airflow",
+              "Kafka",
+              "dbt",
+              "PostgreSQL",
+              "Power BI"
+            ],
+            "use_cases": [
+              "enterprise data hubs",
+              "predictive analytics",
+              "legacy integration"
+            ],
+            "certifications": [
+              "GDPR",
+              "data lineage controls"
+            ]
+          },
+          "similarity": 0.28795561461940805,
+          "ranking_score": 0.28795561461940805
+        },
+        {
+          "record_id": "TOOL-003",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Enterprise RAG and AI Knowledge Assistant' in Data/AI Integration Consulting. Evidence-grounded retrieval augmented generation for internal documents with evaluation and guardrails. Capabilities: document ingestion, semantic retrieval, RAG evaluation, source citations, prompt-injection defenses. Technologies: Python, FastAPI, pgvector, Supabase, sentence-transformers, OpenAI, Anthropic. Use cases: knowledge assistants, proposal intelligence, policy search. Standards and certifications: GDPR data minimization.",
+          "metadata": {
+            "record_id": "TOOL-003",
+            "name": "Enterprise RAG and AI Knowledge Assistant",
+            "category": "Data/AI Integration Consulting",
+            "capabilities": [
+              "document ingestion",
+              "semantic retrieval",
+              "RAG evaluation",
+              "source citations",
+              "prompt-injection defenses"
+            ],
+            "technologies": [
+              "Python",
+              "FastAPI",
+              "pgvector",
+              "Supabase",
+              "sentence-transformers",
+              "OpenAI",
+              "Anthropic"
+            ],
+            "use_cases": [
+              "knowledge assistants",
+              "proposal intelligence",
+              "policy search"
+            ],
+            "certifications": [
+              "GDPR data minimization"
+            ]
+          },
+          "similarity": 0.28113154801079837,
+          "ranking_score": 0.28113154801079837
+        },
+        {
+          "record_id": "TOOL-004",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Application Security Assessment Toolkit' in Security Assessment & Penetration Testing. Repeatable web, API, mobile, and cloud security assessment methodology with remediation evidence. Capabilities: penetration testing, vulnerability assessment, threat modeling, secure code review, remediation verification. Technologies: Burp Suite, OWASP ZAP, Nmap, Semgrep, Trivy. Use cases: pre-production assurance, regulatory audit preparation, third-party risk review. Standards and certifications: OWASP Testing Guide, ISO 27001, PCI DSS.",
+          "metadata": {
+            "record_id": "TOOL-004",
+            "name": "Application Security Assessment Toolkit",
+            "category": "Security Assessment & Penetration Testing",
+            "capabilities": [
+              "penetration testing",
+              "vulnerability assessment",
+              "threat modeling",
+              "secure code review",
+              "remediation verification"
+            ],
+            "technologies": [
+              "Burp Suite",
+              "OWASP ZAP",
+              "Nmap",
+              "Semgrep",
+              "Trivy"
+            ],
+            "use_cases": [
+              "pre-production assurance",
+              "regulatory audit preparation",
+              "third-party risk review"
+            ],
+            "certifications": [
+              "OWASP Testing Guide",
+              "ISO 27001",
+              "PCI DSS"
+            ]
+          },
+          "similarity": 0.2466456851368704,
+          "ranking_score": 0.2466456851368704
+        },
+        {
+          "record_id": "TOOL-001",
+          "doc_type": "tool",
+          "content": "OliveSoft capability 'Secure Digital Platform Accelerator' in Custom Software Development. Reusable architecture and delivery patterns for accessible web portals and mobile services. Capabilities: responsive web applications, mobile applications, REST API integration, role-based access control. Technologies: React, Next.js, FastAPI, PostgreSQL, Flutter. Use cases: citizen portals, customer self-service, enterprise workflow applications. Standards and certifications: WCAG 2.1 AA, OWASP ASVS.",
+          "metadata": {
+            "record_id": "TOOL-001",
+            "name": "Secure Digital Platform Accelerator",
+            "category": "Custom Software Development",
+            "capabilities": [
+              "responsive web applications",
+              "mobile applications",
+              "REST API integration",
+              "role-based access control"
+            ],
+            "technologies": [
+              "React",
+              "Next.js",
+              "FastAPI",
+              "PostgreSQL",
+              "Flutter"
+            ],
+            "use_cases": [
+              "citizen portals",
+              "customer self-service",
+              "enterprise workflow applications"
+            ],
+            "certifications": [
+              "WCAG 2.1 AA",
+              "OWASP ASVS"
+            ]
+          },
+          "similarity": 0.23706622090329257,
+          "ranking_score": 0.23706622090329257
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-olia-agentic-rag",
+      "retrieved_ids": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-013",
+        "olivesoft-014",
+        "olivesoft-004"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "OliveSoft agentic AI platform with FastAPI microservices, RAG, React and multiple LLM providers",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-027"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-013",
+        "olivesoft-014",
+        "olivesoft-004",
+        "olivesoft-029",
+        "olivesoft-002",
+        "olivesoft-032",
+        "olivesoft-021",
+        "olivesoft-030"
+      ],
+      "latency_ms": 22.007500015509624,
+      "latency_samples_ms": [
+        23.1593000353314,
+        22.445700014941394,
+        20.417499996256083
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-027",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OLIA agentic AI full-stack platform' (2026, status: proposed, relationship: pfe_internship_project). Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices. Domains: generative AI, agents, fullstack. Technologies: Python, FastAPI, React, TypeScript, RAG, OpenAI, Ollama. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-027",
+            "name": "OLIA agentic AI full-stack platform",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "generative AI",
+              "agents",
+              "fullstack"
+            ],
+            "tech_stack": [
+              "Python",
+              "FastAPI",
+              "React",
+              "TypeScript",
+              "RAG",
+              "OpenAI",
+              "Ollama"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 4,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.7762724001900144,
+          "ranking_score": 0.8562724001900144
+        },
+        {
+          "record_id": "olivesoft-028",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OLIA cloud-agnostic DevSecOps' (2026, status: proposed, relationship: pfe_internship_project). Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Domains: devsecops, cloud, MLOps, observability. Technologies: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-028",
+            "name": "OLIA cloud-agnostic DevSecOps",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "devsecops",
+              "cloud",
+              "MLOps",
+              "observability"
+            ],
+            "tech_stack": [
+              "Kubernetes",
+              "Docker",
+              "GitHub Actions",
+              "Grafana",
+              "Prometheus",
+              "FastAPI",
+              "Keycloak"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 7,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.615117338215537,
+          "ranking_score": 0.695117338215537
+        },
+        {
+          "record_id": "olivesoft-013",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Marketing scoring AI and MLOps' (2025, status: proposed, relationship: pfe_internship_project). Optimize, continuously train, deploy and monitor a social-content scoring model. Domains: AI/ML, MLOps, digital marketing. Technologies: Python, PyTorch, HuggingFace, Azure ML, BigQuery, MLOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-013",
+            "name": "Marketing scoring AI and MLOps",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "Not specified",
+            "domains": [
+              "AI/ML",
+              "MLOps",
+              "digital marketing"
+            ],
+            "tech_stack": [
+              "Python",
+              "PyTorch",
+              "HuggingFace",
+              "Azure ML",
+              "BigQuery",
+              "MLOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 15,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.5165105002268995,
+          "ranking_score": 0.5965105002268994
+        },
+        {
+          "record_id": "olivesoft-014",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Digital-marketing LLM chatbot' (2025, status: proposed, relationship: pfe_internship_project). Design, fine-tune, deploy and monitor a contextual digital-marketing chatbot. Domains: AI/LLM, chatbot, digital marketing. Technologies: Python, Rasa, Dialogflow, Mistral, Claude, Gemini, OpenAI. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-014",
+            "name": "Digital-marketing LLM chatbot",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "Not specified",
+            "domains": [
+              "AI/LLM",
+              "chatbot",
+              "digital marketing"
+            ],
+            "tech_stack": [
+              "Python",
+              "Rasa",
+              "Dialogflow",
+              "Mistral",
+              "Claude",
+              "Gemini",
+              "OpenAI"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 16,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.5103373658664926,
+          "ranking_score": 0.5903373658664925
+        },
+        {
+          "record_id": "olivesoft-004",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'MuleSoft platform and business data flows' (2023/2024, status: proposed, relationship: pfe_internship_project). Build HR, customer and product microservice flows with monitoring, unit tests and CI/CD. Domains: API integration, data integration. Technologies: MuleSoft, Microservices, Datadog, CI/CD, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-004",
+            "name": "MuleSoft platform and business data flows",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "Not specified",
+            "domains": [
+              "API integration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "MuleSoft",
+              "Microservices",
+              "Datadog",
+              "CI/CD",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 6,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.4977687438035022,
+          "ranking_score": 0.5777687438035022
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-odoo-n8n-migration",
+      "retrieved_ids": [
+        "olivesoft-025",
+        "olivesoft-008",
+        "olivesoft-024",
+        "olivesoft-027",
+        "olivesoft-028"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "Odoo ERP migration from BoondManager with PostgreSQL, custom Python modules and n8n workflows",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-025"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-025",
+        "olivesoft-008",
+        "olivesoft-024",
+        "olivesoft-027",
+        "olivesoft-028",
+        "olivesoft-029",
+        "PRJ-0011",
+        "olivesoft-019",
+        "olivesoft-012",
+        "olivesoft-004"
+      ],
+      "latency_ms": 18.6536000110209,
+      "latency_samples_ms": [
+        17.774100007954985,
+        18.149000010453165,
+        20.037700014654547
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-025",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Odoo Community internal integration' (2026, status: proposed, relationship: pfe_internship_project). Replace BoondManager using customized Odoo modules, data migration and n8n workflow automation. Domains: ERP, open source, internal tooling. Technologies: Odoo Community, Python, PostgreSQL, JavaScript, XML, n8n. Planned work: . Client context: OliveSoft (internal). Source note: Source slide title and final task were partially truncated..",
+          "metadata": {
+            "record_id": "olivesoft-025",
+            "name": "Odoo Community internal integration",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "ERP",
+              "open source",
+              "internal tooling"
+            ],
+            "tech_stack": [
+              "Odoo Community",
+              "Python",
+              "PostgreSQL",
+              "JavaScript",
+              "XML",
+              "n8n"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "medium",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 2,
+                "tier": 1
+              }
+            ],
+            "notes": "Source slide title and final task were partially truncated."
+          },
+          "similarity": 0.7419892541623174,
+          "ranking_score": 0.8219892541623174
+        },
+        {
+          "record_id": "olivesoft-008",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Human-resources process automation' (2023/2024, status: proposed, relationship: pfe_internship_project). Automate HR extraction, warehousing, email and dashboards from Boond ERP. Domains: HR, data integration, BI. Technologies: BoondManager API, Talend, Azure, Apache Airflow, Power BI. Planned work: . Client context: OliveSoft (internal).",
+          "metadata": {
+            "record_id": "olivesoft-008",
+            "name": "Human-resources process automation",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2023/2024",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "HR",
+              "data integration",
+              "BI"
+            ],
+            "tech_stack": [
+              "BoondManager API",
+              "Talend",
+              "Azure",
+              "Apache Airflow",
+              "Power BI"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2023.pdf",
+                "page": 10,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.4198816425817778,
+          "ranking_score": 0.4998816425817778
+        },
+        {
+          "record_id": "olivesoft-024",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Apache Airflow workflow scheduler' (2026, status: proposed, relationship: pfe_internship_project). Orchestrate data flows with DAG dependencies, retries, alerts, monitoring and production deployment. Domains: orchestration, data integration. Technologies: Apache Airflow, Python, Datadog, Azure DevOps. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-024",
+            "name": "Apache Airflow workflow scheduler",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "Not specified",
+            "domains": [
+              "orchestration",
+              "data integration"
+            ],
+            "tech_stack": [
+              "Apache Airflow",
+              "Python",
+              "Datadog",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 1,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.4002825321047133,
+          "ranking_score": 0.48028253210471333
+        },
+        {
+          "record_id": "olivesoft-027",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OLIA agentic AI full-stack platform' (2026, status: proposed, relationship: pfe_internship_project). Extend OLIA with multi-model chat, RAG, connectors, specialized agents and FastAPI microservices. Domains: generative AI, agents, fullstack. Technologies: Python, FastAPI, React, TypeScript, RAG, OpenAI, Ollama. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-027",
+            "name": "OLIA agentic AI full-stack platform",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "generative AI",
+              "agents",
+              "fullstack"
+            ],
+            "tech_stack": [
+              "Python",
+              "FastAPI",
+              "React",
+              "TypeScript",
+              "RAG",
+              "OpenAI",
+              "Ollama"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 4,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3884567598386448,
+          "ranking_score": 0.4684567598386448
+        },
+        {
+          "record_id": "olivesoft-028",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'OLIA cloud-agnostic DevSecOps' (2026, status: proposed, relationship: pfe_internship_project). Secure, deploy and observe OLIA AI microservices with cloud-agnostic automation. Domains: devsecops, cloud, MLOps, observability. Technologies: Kubernetes, Docker, GitHub Actions, Grafana, Prometheus, FastAPI, Keycloak. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-028",
+            "name": "OLIA cloud-agnostic DevSecOps",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "devsecops",
+              "cloud",
+              "MLOps",
+              "observability"
+            ],
+            "tech_stack": [
+              "Kubernetes",
+              "Docker",
+              "GitHub Actions",
+              "Grafana",
+              "Prometheus",
+              "FastAPI",
+              "Keycloak"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 7,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.3769766344898207,
+          "ranking_score": 0.45697663448982073
+        }
+      ]
+    },
+    {
+      "id": "olivesoft-iso27001",
+      "retrieved_ids": [
+        "olivesoft-036",
+        "olivesoft-011",
+        "olivesoft-026",
+        "PRJ-0003",
+        "olivesoft-022"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0,
+      "query": "ISO 27001 Annex A gap assessment and ISMS policy improvement",
+      "doc_type": "project",
+      "relevant_ids": [
+        "olivesoft-036"
+      ],
+      "ndcg_at_k": 1.0,
+      "precision_at_10": 0.1,
+      "recall_at_10": 1.0,
+      "retrieved_ids_at_10": [
+        "olivesoft-036",
+        "olivesoft-011",
+        "olivesoft-026",
+        "PRJ-0003",
+        "olivesoft-022",
+        "olivesoft-032",
+        "olivesoft-010",
+        "olivesoft-029",
+        "olivesoft-005",
+        "olivesoft-013"
+      ],
+      "latency_ms": 14.154000013756255,
+      "latency_samples_ms": [
+        14.530800050124526,
+        13.933399983216077,
+        13.997800007928163
+      ],
+      "matches": [
+        {
+          "record_id": "olivesoft-036",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'ISO 27001 compliance assessment' (2026, status: proposed, relationship: pfe_internship_project). Audit ISO 27001 Annex A controls, prioritize gaps and improve ISMS policies and procedures. Domains: information security, compliance. Technologies: ISO 27001, ISMS, Confluence, Jira, GED. Planned work: . Client context: OliveSoft (internal).",
+          "metadata": {
+            "record_id": "olivesoft-036",
+            "name": "ISO 27001 compliance assessment",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "information security",
+              "compliance"
+            ],
+            "tech_stack": [
+              "ISO 27001",
+              "ISMS",
+              "Confluence",
+              "Jira",
+              "GED"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 13,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.5720371865597214,
+          "ranking_score": 0.6520371865597213
+        },
+        {
+          "record_id": "olivesoft-011",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Talend ETL and ESB monitoring platform' (2025, status: proposed, relationship: pfe_internship_project). Improve OliveSoft's Talend audit platform with embedded BI and infrastructure automation. Domains: monitoring, audit, BI, devops. Technologies: Talend, Java, Power BI, Azure SQL, Terraform, CI/CD. Planned work: . Client context: OliveSoft (internal product).",
+          "metadata": {
+            "record_id": "olivesoft-011",
+            "name": "Talend ETL and ESB monitoring platform",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "OliveSoft (internal product)",
+            "domains": [
+              "monitoring",
+              "audit",
+              "BI",
+              "devops"
+            ],
+            "tech_stack": [
+              "Talend",
+              "Java",
+              "Power BI",
+              "Azure SQL",
+              "Terraform",
+              "CI/CD"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 13,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.2977103835606079,
+          "ranking_score": 0.37771038356060793
+        },
+        {
+          "record_id": "olivesoft-026",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Industrialized Power BI development' (2026, status: proposed, relationship: pfe_internship_project). Version, test and deploy Power BI assets through governed CI/CD environments. Domains: BI, devops, governance. Technologies: Power BI, Azure DevOps, Git, YAML Pipelines, Tabular Editor, DAX Studio. Planned work: . Client context: Not specified.",
+          "metadata": {
+            "record_id": "olivesoft-026",
+            "name": "Industrialized Power BI development",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2026",
+            "client": "Not specified",
+            "domains": [
+              "BI",
+              "devops",
+              "governance"
+            ],
+            "tech_stack": [
+              "Power BI",
+              "Azure DevOps",
+              "Git",
+              "YAML Pipelines",
+              "Tabular Editor",
+              "DAX Studio"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "mergedpfebook2026.pdf",
+                "page": 3,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.2571311288773082,
+          "ranking_score": 0.33713112887730823
+        },
+        {
+          "record_id": "PRJ-0003",
+          "doc_type": "project",
+          "content": "LLM answer quality evaluation programme for an insurance service desk (client sector: insurance). Tech stack: LLM evaluation, Retrieval augmented generation, LangChain, Python. Outcome: Accuracy measured on 5 historical queries per release; regressions blocked before deployment..",
+          "metadata": {
+            "record_id": "PRJ-0003",
+            "client_sector": "insurance",
+            "tech_stack": [
+              "LLM evaluation",
+              "Retrieval augmented generation",
+              "LangChain",
+              "Python"
+            ]
+          },
+          "similarity": 0.31026711778549865,
+          "ranking_score": 0.31026711778549865
+        },
+        {
+          "record_id": "olivesoft-022",
+          "doc_type": "project",
+          "content": "OliveSoft project initiative 'Project allocation by resource availability' (2025, status: proposed, relationship: pfe_internship_project). Optimize project staffing, timesheets, invoicing and financial KPIs with Salesforce and ERP integration. Domains: resource management, Salesforce, finance. Technologies: Salesforce, Apex, Lightning, Talend, Boond, Azure DevOps. Planned work: . Client context: OliveSoft (internal).",
+          "metadata": {
+            "record_id": "olivesoft-022",
+            "name": "Project allocation by resource availability",
+            "project_origin": "olivesoft",
+            "project_kind": "pfe_internship_project",
+            "evidence_status": "proposed",
+            "is_completed": false,
+            "matching_priority_boost": 0.08,
+            "edition": "2025",
+            "client": "OliveSoft (internal)",
+            "domains": [
+              "resource management",
+              "Salesforce",
+              "finance"
+            ],
+            "tech_stack": [
+              "Salesforce",
+              "Apex",
+              "Lightning",
+              "Talend",
+              "Boond",
+              "Azure DevOps"
+            ],
+            "tasks": [],
+            "aliases": [],
+            "duration": null,
+            "confidence": "high",
+            "source_references": [
+              {
+                "file": "pfebook2025.pdf",
+                "page": 24,
+                "tier": 1
+              }
+            ],
+            "notes": null
+          },
+          "similarity": 0.22831009181892542,
+          "ranking_score": 0.30831009181892544
+        }
+      ]
+    }
+  ],
+  "variant": "semantic_baseline",
+  "ndcg_at_k": 1.0,
+  "precision_at_10": 0.1,
+  "recall_at_10": 1.0,
+  "empty_result_rate": 0,
+  "average_latency_ms": 18.232776925194628,
+  "latency_repeats": 3,
+  "latency_scope": "warm serial retrieval including query embedding; excludes initialization and I/O",
+  "skipped_cases": [],
+  "missing_relevant_ids": [],
+  "corpus_chunks": 224
+}

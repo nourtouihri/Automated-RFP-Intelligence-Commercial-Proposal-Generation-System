@@ -1,0 +1,15 @@
+name: Ingest tender
+method: POST
+url: '{{detectionUrl}}/tenders/ingest'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "title": "Web Application Security Assessment",
+      "issuer": "TechCorp International",
+      "deadline": "2026-11-15",
+      "raw_text": "TechCorp International is seeking a qualified vendor to perform a comprehensive security assessment and penetration testing engagement on our customer-facing web applications.",
+      "source": "manual"
+    }

@@ -1,0 +1,38 @@
+fastapi>=0.100
+uvicorn[standard]
+httpx
+pytest>=8
+pytest-asyncio>=0.23.0
+hypothesis>=6  # test-only: property tests for the detection ingest boundary
+python-dotenv
+tavily-python>=0.3.0
+langchain-google-genai>=2.0.0
+# --- RAG service (rag/*.py) ---
+# NOTE: Docker installs CPU-only torch first (see Dockerfile):
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch==2.14.0+cpu
+supabase>=2.0
+# BM25 lexical retrieval over the knowledge chunks (rag/bm25_retriever.py).
+rank-bm25>=0.2.2
+# Version 5 pulls torchcodec during import; that requires a separate shared
+# FFmpeg installation on Windows even though this project only embeds text.
+sentence-transformers>=2.0,<5.0
+pypdf>=4.0
+python-docx>=1.1
+egressweave
+beautifulsoup4
+
+# Generator (render, validate, compose)
+python-pptx>=1.0
+pydantic>=2.6
+pillow>=10
+# Tests
+# Feasibility harness only (ONNX MiniLM, no torch needed)
+numpy>=1.26
+onnxruntime>=1.17
+tokenizers>=0.15
+# --- olivesoft_mcp (read-only MCP server; its tests import mcp) ---
+# Pinned below 2: v2 renamed FastMCP to MCPServer, moved the import path and the
+# transport settings off the constructor; olivesoft_mcp targets the 1.x surface.
+mcp>=1.2,<2
+# LLM adapter (also in the root requirements.txt)
+httpx

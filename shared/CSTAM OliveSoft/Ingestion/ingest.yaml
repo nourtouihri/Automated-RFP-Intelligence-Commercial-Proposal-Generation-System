@@ -1,0 +1,12 @@
+name: Ingest TED tenders
+method: POST
+url: '{{ingestionUrl}}/ingest/TED'
+headers:
+  X-Internal-Token: '{{internalToken}}'
+body:
+  type: json
+  content: |-
+    {
+      "page": 1
+
+    }

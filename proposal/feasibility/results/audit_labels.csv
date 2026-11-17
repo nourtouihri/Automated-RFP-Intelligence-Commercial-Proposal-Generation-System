@@ -1,0 +1,80 @@
+n,tender,step.field,kind,claim,judgment,category,note,text
+0,tender-001,summary.pillars[1].title,name,Data Integrity,false alarm,false alarm: label word in a short Title Case phrase,,Master Data Integrity
+1,tender-001,needs.needs[1].title,name,Payroll Compliance,false alarm,false alarm: label word in a short Title Case phrase,,Statutory Payroll Compliance
+2,tender-001,approach.phases[0].name,name,Setup,false alarm,false alarm: label word in a short Title Case phrase,,Integration Setup
+3,tender-001,approach.phases[1].name,name,Data Sync,false alarm,false alarm: label word in a short Title Case phrase,,Master Data Sync
+4,tender-002,summary.pillars[1].title,name,SSIS Logic Retained,false alarm,false alarm: label word in a short Title Case phrase,,SSIS Logic Retained
+5,tender-002,approach.phases[0].name,name,DefineScope,false alarm,false alarm: label word in a short Title Case phrase,,DefineScope
+6,tender-002,approach.phases[1].name,name,BuildMigrate,false alarm,false alarm: label word in a short Title Case phrase,,BuildMigrate
+7,tender-002,approach.phases[2].name,name,ValidateReconcile,false alarm,false alarm: label word in a short Title Case phrase,,ValidateReconcile
+8,tender-003,letter.salutation,name,Hiring Committee,real invention,REAL,Addressee not in the inputs: the tender names no hiring committee.,"Dear Hiring Committee,"
+9,tender-003,summary.pillars[2].title,name,Division Access,false alarm,false alarm: label word in a short Title Case phrase,,Secure Division Access
+10,tender-003,approach.phases[0].name,name,Design,false alarm,false alarm: label word in a short Title Case phrase,,Discovery & Design
+11,tender-003,approach.phases[1].name,name,Modeling,false alarm,false alarm: label word in a short Title Case phrase,,Semantic Modeling
+12,tender-003,approach.phases[2].name,name,Development,false alarm,false alarm: label word in a short Title Case phrase,,Report Development
+13,tender-003,approach.phases[3].name,name,Review,false alarm,false alarm: label word in a short Title Case phrase,,Deployment & Review
+14,tender-004,approach.phases[0].name,name,Ingest,false alarm,false alarm: label word in a short Title Case phrase,,Data Ingest
+15,tender-004,approach.phases[1].body,name,ID,false alarm,false alarm: abbreviation of an input phrase,,"Match and merge customer records using email, loyalty ID and postcode."
+16,tender-004,approach.phases[2].name,name,Setup,false alarm,false alarm: label word in a short Title Case phrase,,Analytics Setup
+17,tender-004,approach.phases[3].name,name,Sync,false alarm,false alarm: label word in a short Title Case phrase,,Consent Sync
+18,tender-005,letter.salutation,name,Calderon Team,false alarm,false alarm: generic word in the greeting,,"Dear Calderon Team,"
+19,tender-005,needs.needs[1].title,name,Lakehouse Modeling,false alarm,false alarm: label word in a short Title Case phrase,,Databricks Lakehouse Modeling
+20,tender-005,approach.phases[0].name,name,Setup,false alarm,false alarm: label word in a short Title Case phrase,,Ingest Setup
+21,tender-005,approach.phases[2].name,name,Ops,false alarm,false alarm: label word in a short Title Case phrase,,Monitoring & Ops
+22,tender-006,letter.salutation,name,Aldergate Team,false alarm,false alarm: generic word in the greeting,,Dear Aldergate Team
+23,tender-006,summary.pillars[2].title,name,Integration,false alarm,false alarm: label word in a short Title Case phrase,,Policy Integration
+24,tender-006,approach.phases[0].name,name,Design,false alarm,false alarm: label word in a short Title Case phrase,,Planning & Design
+25,tender-006,approach.phases[3].name,name,Support,false alarm,false alarm: label word in a short Title Case phrase,,Cutover & Support
+26,tender-007,brief.headline,name,ML Demand Forecasting,false alarm,false alarm: abbreviation of an input phrase,,ML Demand Forecasting for Raw Materials
+27,tender-007,summary.pillars[0].title,name,Order Insight,false alarm,false alarm: label word in a short Title Case phrase,,Historical Order Insight
+28,tender-007,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep &
+29,tender-008,letter.salutation,name,Beaumont Team,false alarm,false alarm: generic word in the greeting,,Dear Beaumont Team
+30,tender-008,summary.pillars[2].title,name,Focus,false alarm,false alarm: label word in a short Title Case phrase,,Catalog Focus
+31,tender-008,needs.needs[1].title,name,Retrieval Engine,false alarm,false alarm: label word in a short Title Case phrase,,Grounded Retrieval Engine
+32,tender-008,evidence.line,name,RAG,false alarm,false alarm: abbreviation of an input phrase,,Showed RAG assistant over approved corpus.
+33,tender-008,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep
+34,tender-008,approach.phases[1].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Model Build
+35,tender-009,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep
+36,tender-009,approach.phases[1].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Model Build
+37,tender-009,approach.phases[1].body,name,CNNs,real invention,REAL,A technique (CNNs) the tender never mentions; the model chose the method.,Train and validate CNNs targeting the top seven defect classes with low false‑negatives.
+38,tender-009,approach.phases[2].name,name,Deploy,false alarm,false alarm: label word in a short Title Case phrase,,Edge Deploy
+39,tender-009,approach.phases[3].name,name,Loop,false alarm,false alarm: label word in a short Title Case phrase,,Feedback Loop
+40,tender-010,summary.pillars[1].title,name,Transparency,false alarm,false alarm: label word in a short Title Case phrase,,Ranked Transparency
+41,tender-010,approach.phases[1].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Model Build
+42,tender-010,approach.phases[2].name,name,Validation,false alarm,false alarm: label word in a short Title Case phrase,,Audit & Validation
+43,tender-011,summary.pillars[2].title,name,Residency Assurance,false alarm,false alarm: label word in a short Title Case phrase,,Data Residency Assurance
+44,tender-011,evidence.line,number,0035,false alarm,false alarm: the cited asset id read as a number,,PRJ‑0035 offline case handling sync on reconnect.
+45,tender-011,evidence.line,number,0035,false alarm,false alarm: the cited asset id read as a number,,PRJ‑0035 offline case handling sync on reconnect.
+46,tender-011,approach.phases[0].name,name,Design,false alarm,false alarm: label word in a short Title Case phrase,,Analysis & Design
+47,tender-011,approach.phases[1].name,name,Pilot,false alarm,false alarm: label word in a short Title Case phrase,,Development & Pilot
+48,tender-012,summary.pillars[2].title,name,Integrity,false alarm,false alarm: label word in a short Title Case phrase,,Data Integrity
+49,tender-012,approach.phases[0].name,name,Capture,false alarm,false alarm: label word in a short Title Case phrase,,Requirements Capture
+50,tender-012,approach.phases[1].name,name,Warehouse Setup,false alarm,false alarm: label word in a short Title Case phrase,,Data Warehouse Setup
+51,tender-012,approach.phases[2].name,name,Modeling,false alarm,false alarm: label word in a short Title Case phrase,,Snowflake Modeling
+52,tender-015,letter.paragraphs[0],name,ID,false alarm,false alarm: abbreviation of an input phrase,,"We will integrate Cegid ERP with your commerce and support data on GCP, unifying customer records through email, loyalty ID, and postcode. Our solution resolves identities and delivers unified views."
+53,tender-015,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep
+54,tender-015,approach.phases[1].name,name,Sync,false alarm,false alarm: label word in a short Title Case phrase,,Identity Sync
+55,tender-015,approach.phases[1].body,name,ID,false alarm,false alarm: abbreviation of an input phrase,,"Resolve identities using email, loyalty ID, and postcode fallback."
+56,heldout-001,summary.pillars[0].title,name,First Integration,false alarm,false alarm: label word in a short Title Case phrase,,API‑First Integration
+57,heldout-001,summary.pillars[1].title,name,Index Matching,false alarm,false alarm: label word in a short Title Case phrase,,Master Index Matching
+58,heldout-001,approach.phases[0].name,name,API Integration,false alarm,false alarm: label word in a short Title Case phrase,,API Integration
+59,heldout-002,approach.phases[0].name,name,Setup,false alarm,false alarm: label word in a short Title Case phrase,,Ingest Setup
+60,heldout-002,approach.phases[1].name,name,API Sync,false alarm,false alarm: label word in a short Title Case phrase,,API Sync
+61,heldout-002,approach.phases[2].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Model Build
+62,heldout-002,approach.phases[3].name,name,UX,false alarm,false alarm: label word in a short Title Case phrase,,Dispatcher UX
+63,heldout-003,letter.paragraphs[0],name,M,false alarm,false alarm: abbreviation of an input phrase,,"We propose a 420‑pupil primary school with an attached sports hall, using reinforced concrete frames and masonry for lasting durability. Integrated M&E systems guarantee full functionality."
+64,heldout-003,letter.paragraphs[0],name,E,false alarm,false alarm: abbreviation of an input phrase,,"We propose a 420‑pupil primary school with an attached sports hall, using reinforced concrete frames and masonry for lasting durability. Integrated M&E systems guarantee full functionality."
+65,heldout-003,summary.pillars[0].title,name,Structure,false alarm,false alarm: label word in a short Title Case phrase,,Durable Structure
+66,heldout-003,summary.pillars[2].title,name,Assurance,false alarm,false alarm: label word in a short Title Case phrase,,Warranty Assurance
+67,heldout-003,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Site & Prep
+68,heldout-003,approach.phases[1].name,name,Core,false alarm,false alarm: label word in a short Title Case phrase,,Structural Core
+69,heldout-003,approach.phases[2].name,name,Fitout,false alarm,false alarm: label word in a short Title Case phrase,,Systems Fitout
+70,heldout-003,approach.phases[3].name,name,Handover,false alarm,false alarm: label word in a short Title Case phrase,,Finishes & Handover
+71,heldout-004,needs.needs[1].title,name,Enabled Scoring,false alarm,false alarm: label word in a short Title Case phrase,,Driver‑Enabled Scoring
+72,heldout-004,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep
+73,heldout-004,approach.phases[1].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Model Build
+74,heldout-005,evidence.line,number,0045,false alarm,false alarm: the cited asset id read as a number,,CV-0045 shows catalog with named owner.
+75,heldout-005,approach.phases[0].name,name,Prep,false alarm,false alarm: label word in a short Title Case phrase,,Data Prep
+76,heldout-005,approach.phases[1].name,name,Build,false alarm,false alarm: label word in a short Title Case phrase,,Warehouse Build
+77,heldout-005,approach.phases[2].name,name,Dev,false alarm,false alarm: label word in a short Title Case phrase,,Dashboard Dev
+78,heldout-005,approach.phases[3].name,name,Review,false alarm,false alarm: label word in a short Title Case phrase,,Compliance Review

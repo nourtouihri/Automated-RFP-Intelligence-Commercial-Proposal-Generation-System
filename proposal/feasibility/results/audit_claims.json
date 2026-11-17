@@ -1,0 +1,1279 @@
+{
+ "tenders": [
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-001",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "ok": true,
+   "steps": 7
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "ok": true,
+   "steps": 7
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "ok": true,
+   "steps": 9
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "ok": true,
+   "steps": 6
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "ok": true,
+   "steps": 9
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-010",
+   "ok": true,
+   "steps": 7
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "ok": true,
+   "steps": 7
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "ok": true,
+   "steps": 9
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-014",
+   "ok": false,
+   "steps": 3
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "ok": true,
+   "steps": 7
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "ok": true,
+   "steps": 5
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "ok": true,
+   "steps": 5
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-004",
+   "ok": true,
+   "steps": 8
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "ok": true,
+   "steps": 6
+  }
+ ],
+ "flagged": [
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-001",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "kind": "name",
+   "claim": "Data Integrity",
+   "text": "Master Data Integrity",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-001",
+   "step": "needs",
+   "field": "needs[1].title",
+   "kind": "name",
+   "claim": "Payroll Compliance",
+   "text": "Statutory Payroll Compliance",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-001",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Setup",
+   "text": "Integration Setup",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-001",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Data Sync",
+   "text": "Master Data Sync",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "kind": "name",
+   "claim": "SSIS Logic Retained",
+   "text": "SSIS Logic Retained",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "DefineScope",
+   "text": "DefineScope",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "BuildMigrate",
+   "text": "BuildMigrate",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "ValidateReconcile",
+   "text": "ValidateReconcile",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "letter",
+   "field": "salutation",
+   "kind": "name",
+   "claim": "Hiring Committee",
+   "text": "Dear Hiring Committee,",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Division Access",
+   "text": "Secure Division Access",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Design",
+   "text": "Discovery & Design",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Modeling",
+   "text": "Semantic Modeling",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Development",
+   "text": "Report Development",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Review",
+   "text": "Deployment & Review",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Ingest",
+   "text": "Data Ingest",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "approach",
+   "field": "phases[1].body",
+   "kind": "name",
+   "claim": "ID",
+   "text": "Match and merge customer records using email, loyalty ID and postcode.",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Setup",
+   "text": "Analytics Setup",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Sync",
+   "text": "Consent Sync",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "letter",
+   "field": "salutation",
+   "kind": "name",
+   "claim": "Calderon Team",
+   "text": "Dear Calderon Team,",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "needs",
+   "field": "needs[1].title",
+   "kind": "name",
+   "claim": "Lakehouse Modeling",
+   "text": "Databricks Lakehouse Modeling",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Setup",
+   "text": "Ingest Setup",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Ops",
+   "text": "Monitoring & Ops",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "letter",
+   "field": "salutation",
+   "kind": "name",
+   "claim": "Aldergate Team",
+   "text": "Dear Aldergate Team",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Integration",
+   "text": "Policy Integration",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Design",
+   "text": "Planning & Design",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Support",
+   "text": "Cutover & Support",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "step": "brief",
+   "field": "headline",
+   "kind": "name",
+   "claim": "ML Demand Forecasting",
+   "text": "ML Demand Forecasting for Raw Materials",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "step": "summary",
+   "field": "pillars[0].title",
+   "kind": "name",
+   "claim": "Order Insight",
+   "text": "Historical Order Insight",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep &",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "letter",
+   "field": "salutation",
+   "kind": "name",
+   "claim": "Beaumont Team",
+   "text": "Dear Beaumont Team",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Focus",
+   "text": "Catalog Focus",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "needs",
+   "field": "needs[1].title",
+   "kind": "name",
+   "claim": "Retrieval Engine",
+   "text": "Grounded Retrieval Engine",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "evidence",
+   "field": "line",
+   "kind": "name",
+   "claim": "RAG",
+   "text": "Showed RAG assistant over approved corpus.",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Model Build",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Model Build",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "approach",
+   "field": "phases[1].body",
+   "kind": "name",
+   "claim": "CNNs",
+   "text": "Train and validate CNNs targeting the top seven defect classes with low false‑negatives.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Deploy",
+   "text": "Edge Deploy",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Loop",
+   "text": "Feedback Loop",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-010",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "kind": "name",
+   "claim": "Transparency",
+   "text": "Ranked Transparency",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-010",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Model Build",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-010",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Validation",
+   "text": "Audit & Validation",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Residency Assurance",
+   "text": "Data Residency Assurance",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "evidence",
+   "field": "line",
+   "kind": "number",
+   "claim": "0035",
+   "text": "PRJ‑0035 offline case handling sync on reconnect.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "evidence",
+   "field": "line",
+   "kind": "number",
+   "claim": "0035",
+   "text": "PRJ‑0035 offline case handling sync on reconnect.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Design",
+   "text": "Analysis & Design",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Pilot",
+   "text": "Development & Pilot",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Integrity",
+   "text": "Data Integrity",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Capture",
+   "text": "Requirements Capture",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Warehouse Setup",
+   "text": "Data Warehouse Setup",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Modeling",
+   "text": "Snowflake Modeling",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "letter",
+   "field": "paragraphs[0]",
+   "kind": "name",
+   "claim": "ID",
+   "text": "We will integrate Cegid ERP with your commerce and support data on GCP, unifying customer records through email, loyalty ID, and postcode. Our solution resolves identities and delivers unified views.",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Sync",
+   "text": "Identity Sync",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "approach",
+   "field": "phases[1].body",
+   "kind": "name",
+   "claim": "ID",
+   "text": "Resolve identities using email, loyalty ID, and postcode fallback.",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "step": "summary",
+   "field": "pillars[0].title",
+   "kind": "name",
+   "claim": "First Integration",
+   "text": "API‑First Integration",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "kind": "name",
+   "claim": "Index Matching",
+   "text": "Master Index Matching",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "API Integration",
+   "text": "API Integration",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Setup",
+   "text": "Ingest Setup",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "API Sync",
+   "text": "API Sync",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Model Build",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "UX",
+   "text": "Dispatcher UX",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "letter",
+   "field": "paragraphs[0]",
+   "kind": "name",
+   "claim": "M",
+   "text": "We propose a 420‑pupil primary school with an attached sports hall, using reinforced concrete frames and masonry for lasting durability. Integrated M&E systems guarantee full functionality.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "letter",
+   "field": "paragraphs[0]",
+   "kind": "name",
+   "claim": "E",
+   "text": "We propose a 420‑pupil primary school with an attached sports hall, using reinforced concrete frames and masonry for lasting durability. Integrated M&E systems guarantee full functionality.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "summary",
+   "field": "pillars[0].title",
+   "kind": "name",
+   "claim": "Structure",
+   "text": "Durable Structure",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "summary",
+   "field": "pillars[2].title",
+   "kind": "name",
+   "claim": "Assurance",
+   "text": "Warranty Assurance",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Site & Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Core",
+   "text": "Structural Core",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Fitout",
+   "text": "Systems Fitout",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-003",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Handover",
+   "text": "Finishes & Handover",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-004",
+   "step": "needs",
+   "field": "needs[1].title",
+   "kind": "name",
+   "claim": "Enabled Scoring",
+   "text": "Driver‑Enabled Scoring",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-004",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-004",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Model Build",
+   "in_wider_tender_context": true
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "evidence",
+   "field": "line",
+   "kind": "number",
+   "claim": "0045",
+   "text": "CV-0045 shows catalog with named owner.",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "approach",
+   "field": "phases[0].name",
+   "kind": "name",
+   "claim": "Prep",
+   "text": "Data Prep",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "approach",
+   "field": "phases[1].name",
+   "kind": "name",
+   "claim": "Build",
+   "text": "Warehouse Build",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "approach",
+   "field": "phases[2].name",
+   "kind": "name",
+   "claim": "Dev",
+   "text": "Dashboard Dev",
+   "in_wider_tender_context": false
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "approach",
+   "field": "phases[3].name",
+   "kind": "name",
+   "claim": "Review",
+   "text": "Compliance Review",
+   "in_wider_tender_context": true
+  }
+ ],
+ "unflagged_total": 534,
+ "unflagged_sample": [
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-012",
+   "step": "summary",
+   "field": "pillars[0].body",
+   "text": "Enforce strict submission rules and deliver clear errors for every dataset.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "letter",
+   "field": "closing",
+   "text": "We look forward to working together to modernise your contact centre.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "step": "summary",
+   "field": "pillars[1].body",
+   "text": "Implement a master patient index that deduplicates records across all sources.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "needs",
+   "field": "needs[1].body",
+   "text": "Port existing SSIS logic to the new platform, preserving current business rules.",
+   "checked": [
+    "SSIS"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "needs",
+   "field": "needs[0].body",
+   "text": "Replace six divisional packs with one Power BI layer, ensuring consistent KPI definitions.",
+   "checked": [
+    "six",
+    "Power BI",
+    "KPI"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "summary",
+   "field": "title",
+   "text": "Unified Customer 360 for Beaumont Retail",
+   "checked": [
+    "360"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "summary",
+   "field": "pillars[1].body",
+   "text": "Align records via email, loyalty ID, postcode to ensure consistent customer identity.",
+   "checked": [
+    "ID"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "brief",
+   "field": "key_messages[0]",
+   "text": "Governed semantic model with shared KPI definitions",
+   "checked": [
+    "KPI"
+   ]
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-005",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "text": "Targeted Dashboards",
+   "checked": [
+    "Dashboards"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "summary",
+   "field": "pillars[2].body",
+   "text": "Built on Beaumont’s catalogue ensuring relevant, product‑centric responses.",
+   "checked": [
+    "Beaumont"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "letter",
+   "field": "closing",
+   "text": "Kind regards, OliveSoft",
+   "checked": [
+    "OliveSoft"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "brief",
+   "field": "key_messages[0]",
+   "text": "Integrates all customer sources into a single record",
+   "checked": []
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "needs",
+   "field": "needs[2].body",
+   "text": "Build a model to predict delivery windows and flag at‑risk parcels with clear dispatcher explanations.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "letter",
+   "field": "paragraphs[0]",
+   "text": "We propose a solution that normalises all scan events into a single parcel timeline, delivering status updates within five minutes via a simple API.",
+   "checked": [
+    "five",
+    "API"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "summary",
+   "field": "pillars[2].body",
+   "text": "Row‑level security ensures managers see only their division’s data.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-009",
+   "step": "summary",
+   "field": "pillars[2].body",
+   "text": "Adopts data‑driven label cleanup to reduce missed safety defects.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "letter",
+   "field": "salutation",
+   "text": "Dear Beaumont Retail team,",
+   "checked": []
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "text": "Rapid Updates",
+   "checked": [
+    "Updates"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "brief",
+   "field": "key_messages[1]",
+   "text": "Three‑year historical comparison in a single report",
+   "checked": [
+    "Three"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "summary",
+   "field": "title",
+   "text": "Order Event Streaming for Calderon",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "approach",
+   "field": "phases[2].name",
+   "text": "Evaluation",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "letter",
+   "field": "paragraphs[0]",
+   "text": "We propose a unified Power BI layer that replaces six divisional reports, providing a single, governed semantic model with shared KPI definitions and row‑level security for managers.",
+   "checked": [
+    "six",
+    "Power BI",
+    "KPI"
+   ]
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-001",
+   "step": "summary",
+   "field": "pillars[2].body",
+   "text": "Provide audit‑logged, role‑based access on a national cloud, ensuring data integrity.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "needs",
+   "field": "needs[2].title",
+   "text": "Incremental load with drift check",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "approach",
+   "field": "phases[0].body",
+   "text": "Clean corpus, tag sources, set up retrieval indices.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-002",
+   "step": "needs",
+   "field": "needs[0].body",
+   "text": "Build a Talend pipeline to ingest applicant tracking data with governed governance.",
+   "checked": [
+    "Talend"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "needs",
+   "field": "needs[1].body",
+   "text": "Create a lakehouse model that records order events, manages late arrivals, and normalises currencies.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "brief",
+   "field": "key_messages[2]",
+   "text": "Ensure citizen data stays within ministry‑controlled infrastructure",
+   "checked": []
+  },
+  {
+   "run": "llm-run-heldout",
+   "tender": "heldout-002",
+   "step": "letter",
+   "field": "paragraphs[1]",
+   "text": "Our predictive model flags parcels that risk delayed delivery, providing dispatchers with clear explanations for timely action.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-006",
+   "step": "brief",
+   "field": "subtitle",
+   "text": "Unify channels, migrate data, integrate policy system, train staff",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-005",
+   "step": "brief",
+   "field": "key_messages[1]",
+   "text": "Explicit late‑event handling in Databricks lakehouse modelling",
+   "checked": [
+    "Databricks"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-011",
+   "step": "approach",
+   "field": "phases[0].body",
+   "text": "Define data model, reporting templates, and offline workflow.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "step": "summary",
+   "field": "title",
+   "text": "ML Demand Forecasting for Raw Materials",
+   "checked": [
+    "ML Demand Forecasting",
+    "Raw Materials"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "needs",
+   "field": "needs[0].body",
+   "text": "Unify Cegid ERP, e‑commerce, marketing and support data into a single customer view to enable consistent interactions.",
+   "checked": [
+    "Cegid ERP"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-007",
+   "step": "needs",
+   "field": "needs[0].title",
+   "text": "Integrate ERP Order Data",
+   "checked": [
+    "ERP Order Data"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-015",
+   "step": "needs",
+   "field": "needs[1].body",
+   "text": "Match customers via email, loyalty number, or postcode to consolidate records across platforms.",
+   "checked": []
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-004",
+   "step": "summary",
+   "field": "pillars[1].title",
+   "text": "Identity Resolution",
+   "checked": [
+    "Resolution"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "letter",
+   "field": "paragraphs[1]",
+   "text": "The solution offers a three‑year historical view in one report, ensuring consistent data governance and secure access across all divisions.",
+   "checked": [
+    "three"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-003",
+   "step": "brief",
+   "field": "key_messages[2]",
+   "text": "Row‑level security for divisional HR managers",
+   "checked": [
+    "HR"
+   ]
+  },
+  {
+   "run": "llm-run-20b-v2",
+   "tender": "tender-008",
+   "step": "brief",
+   "field": "tone",
+   "text": "Clear, concise, focused on accuracy",
+   "checked": []
+  }
+ ]
+}
